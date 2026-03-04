@@ -1,14 +1,272 @@
 """
-MDS AI Bot — Web UI (Flask).
-Simple chat interface for querying the MDS knowledge base.
+MDS AI Bot — Web UI + Embeddable Widget API (Flask).
+- Full chat UI at /
+- Embeddable widget JS at /widget.js
+- API at /api/ask (CORS-enabled for embedding on any site)
 """
 
 import os
-from flask import Flask, render_template_string, request, jsonify
+from flask import Flask, render_template_string, request, jsonify, make_response
+from flask_cors import CORS
 from query import ask
 
 app = Flask(__name__)
+CORS(app, resources={r"/api/*": {"origins": "*"}})
 
+# ============================================================
+# Embeddable widget JS — drop <script src="...widget.js"> on any page
+# ============================================================
+WIDGET_JS = """
+(function() {
+  var API_URL = '{{API_URL}}';
+
+  // Inject styles
+  var style = document.createElement('style');
+  style.textContent = `
+    #mds-widget-toggle {
+      position: fixed; bottom: 24px; right: 24px; z-index: 99999;
+      width: 56px; height: 56px; border-radius: 50%;
+      background: linear-gradient(135deg, #3b82f6, #6366f1);
+      border: none; cursor: pointer; box-shadow: 0 4px 20px rgba(59,130,246,0.4);
+      display: flex; align-items: center; justify-content: center;
+      transition: transform 0.2s;
+    }
+    #mds-widget-toggle:hover { transform: scale(1.08); }
+    #mds-widget-toggle svg { width: 28px; height: 28px; fill: white; }
+    #mds-widget-panel {
+      position: fixed; bottom: 92px; right: 24px; z-index: 99999;
+      width: 380px; max-height: 560px; border-radius: 16px;
+      background: #0f172a; border: 1px solid #334155;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+      display: none; flex-direction: column; overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    #mds-widget-panel.open { display: flex; }
+    #mds-widget-header {
+      padding: 14px 16px; background: #1e293b;
+      border-bottom: 1px solid #334155; display: flex;
+      align-items: center; justify-content: space-between;
+    }
+    #mds-widget-header h3 {
+      margin: 0; font-size: 14px; font-weight: 600; color: #e2e8f0;
+      background: linear-gradient(135deg, #60a5fa, #a78bfa);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    #mds-widget-header .badge {
+      font-size: 10px; padding: 2px 8px; background: #1e3a5f;
+      color: #60a5fa; border-radius: 999px;
+    }
+    #mds-widget-close {
+      background: none; border: none; color: #64748b; cursor: pointer;
+      font-size: 18px; padding: 0 4px; line-height: 1;
+    }
+    #mds-widget-messages {
+      flex: 1; overflow-y: auto; padding: 12px; display: flex;
+      flex-direction: column; gap: 8px; min-height: 200px; max-height: 380px;
+    }
+    .mds-msg {
+      padding: 10px 12px; border-radius: 10px; font-size: 13px;
+      line-height: 1.5; color: #e2e8f0; max-width: 88%; word-wrap: break-word;
+    }
+    .mds-msg.user {
+      background: #1e3a5f; align-self: flex-end;
+      border-bottom-right-radius: 4px;
+    }
+    .mds-msg.bot {
+      background: #1e293b; border: 1px solid #334155;
+      align-self: flex-start; border-bottom-left-radius: 4px;
+    }
+    .mds-msg.bot .mds-conf {
+      margin-top: 8px; padding-top: 6px; border-top: 1px solid #334155;
+      font-size: 11px; color: #64748b;
+    }
+    .mds-msg.bot .mds-conf .hi { color: #4ade80; }
+    .mds-msg.bot .mds-conf .md { color: #facc15; }
+    .mds-msg.bot .mds-conf .lo { color: #f87171; }
+    .mds-msg.bot ul, .mds-msg.bot ol { margin: 4px 0 4px 16px; }
+    .mds-msg.bot p { margin-bottom: 6px; }
+    .mds-msg.bot p:last-child { margin-bottom: 0; }
+    .mds-typing { display: inline-flex; gap: 4px; padding: 4px 0; }
+    .mds-typing span {
+      width: 6px; height: 6px; background: #475569; border-radius: 50%;
+      animation: mds-bounce 1.4s ease-in-out infinite;
+    }
+    .mds-typing span:nth-child(2) { animation-delay: 0.2s; }
+    .mds-typing span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes mds-bounce {
+      0%,60%,100% { transform: translateY(0); }
+      30% { transform: translateY(-4px); }
+    }
+    #mds-widget-input-area {
+      padding: 10px 12px; border-top: 1px solid #334155;
+      background: #1e293b; display: flex; gap: 8px;
+    }
+    #mds-widget-input {
+      flex: 1; padding: 8px 10px; background: #0f172a;
+      border: 1px solid #334155; border-radius: 8px;
+      color: #e2e8f0; font-size: 13px; outline: none;
+    }
+    #mds-widget-input:focus { border-color: #60a5fa; }
+    #mds-widget-input::placeholder { color: #475569; }
+    #mds-widget-send {
+      padding: 8px 14px; background: linear-gradient(135deg, #3b82f6, #6366f1);
+      border: none; border-radius: 8px; color: white; font-size: 13px;
+      font-weight: 500; cursor: pointer;
+    }
+    #mds-widget-send:disabled { opacity: 0.5; cursor: not-allowed; }
+    .mds-welcome {
+      text-align: center; padding: 24px 12px; color: #64748b; font-size: 13px;
+    }
+    .mds-welcome h4 { color: #94a3b8; margin-bottom: 4px; font-size: 15px; }
+    .mds-examples { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 12px; }
+    .mds-examples button {
+      background: #1e293b; border: 1px solid #334155; color: #94a3b8;
+      padding: 6px 10px; border-radius: 6px; cursor: pointer; font-size: 11px;
+    }
+    .mds-examples button:hover { border-color: #60a5fa; color: #e2e8f0; }
+    @media (max-width: 480px) {
+      #mds-widget-panel { width: calc(100vw - 24px); right: 12px; bottom: 80px; }
+    }
+  `;
+  document.head.appendChild(style);
+
+  // Build widget HTML
+  var panel = document.createElement('div');
+  panel.id = 'mds-widget-panel';
+  panel.innerHTML = `
+    <div id="mds-widget-header">
+      <div style="display:flex;align-items:center;gap:8px">
+        <h3>MDS Knowledge Search</h3>
+        <span class="badge">AI</span>
+      </div>
+      <button id="mds-widget-close">&times;</button>
+    </div>
+    <div id="mds-widget-messages">
+      <div class="mds-welcome" id="mds-welcome">
+        <h4>Search MDS Knowledge Base</h4>
+        <p>Ask about video transcripts &amp; presentations</p>
+        <div class="mds-examples">
+          <button onclick="window._mdsAskExample(this)">Exit planning strategies</button>
+          <button onclick="window._mdsAskExample(this)">Amazon seller tips</button>
+          <button onclick="window._mdsAskExample(this)">Who spoke about valuations?</button>
+        </div>
+      </div>
+    </div>
+    <div id="mds-widget-input-area">
+      <input id="mds-widget-input" type="text" placeholder="Search MDS content...">
+      <button id="mds-widget-send">Ask</button>
+    </div>
+  `;
+  document.body.appendChild(panel);
+
+  var toggle = document.createElement('button');
+  toggle.id = 'mds-widget-toggle';
+  toggle.innerHTML = '<svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/><path d="M7 9h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2z"/></svg>';
+  document.body.appendChild(toggle);
+
+  var messages = document.getElementById('mds-widget-messages');
+  var input = document.getElementById('mds-widget-input');
+  var sendBtn = document.getElementById('mds-widget-send');
+  var isOpen = false;
+
+  toggle.onclick = function() {
+    isOpen = !isOpen;
+    panel.classList.toggle('open', isOpen);
+    if (isOpen) input.focus();
+  };
+
+  document.getElementById('mds-widget-close').onclick = function() {
+    isOpen = false;
+    panel.classList.remove('open');
+  };
+
+  function addMsg(text, type, extra) {
+    var w = document.getElementById('mds-welcome');
+    if (w) w.remove();
+    var div = document.createElement('div');
+    div.className = 'mds-msg ' + type;
+    if (type === 'bot') {
+      var html = text
+        .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+        .replace(/\\*\\*(.+?)\\*\\*/g,'<strong>$1</strong>')
+        .replace(/\\*(.+?)\\*/g,'<em>$1</em>')
+        .replace(/`(.+?)`/g,'<code>$1</code>')
+        .replace(/^[\\-\\*] (.+)$/gm,'<li>$1</li>')
+        .replace(/^(\\d+)\\. (.+)$/gm,'<li>$2</li>');
+      html = html.replace(/((<li>.*<\\/li>\\n?)+)/g,'<ul>$1</ul>');
+      html = html.split('\\n\\n').map(function(p){
+        p=p.trim(); if(!p)return '';
+        if(p.startsWith('<'))return p;
+        return '<p>'+p+'</p>';
+      }).join('');
+      div.innerHTML = html;
+      if (extra) {
+        var c = extra.confidence||0;
+        var cls = c>0.6?'hi':c>0.3?'md':'lo';
+        var cd = document.createElement('div');
+        cd.className = 'mds-conf';
+        cd.innerHTML = 'Confidence: <span class="'+cls+'">'+Math.round(c*100)+'%</span>';
+        div.appendChild(cd);
+      }
+    } else {
+      div.textContent = text;
+    }
+    messages.appendChild(div);
+    messages.scrollTop = messages.scrollHeight;
+  }
+
+  function addTyping() {
+    var div = document.createElement('div');
+    div.className = 'mds-msg bot';
+    div.id = 'mds-typing';
+    div.innerHTML = '<div class="mds-typing"><span></span><span></span><span></span></div>';
+    messages.appendChild(div);
+    messages.scrollTop = messages.scrollHeight;
+  }
+
+  function removeTyping() {
+    var t = document.getElementById('mds-typing');
+    if (t) t.remove();
+  }
+
+  async function send() {
+    var q = input.value.trim();
+    if (!q) return;
+    input.value = '';
+    sendBtn.disabled = true;
+    addMsg(q, 'user');
+    addTyping();
+    try {
+      var res = await fetch(API_URL + '/api/ask', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({question: q})
+      });
+      var data = await res.json();
+      removeTyping();
+      if (data.error) { addMsg('Error: ' + data.error, 'bot'); }
+      else { addMsg(data.answer, 'bot', {confidence: data.confidence}); }
+    } catch(e) {
+      removeTyping();
+      addMsg('Could not connect to the knowledge base.', 'bot');
+    }
+    sendBtn.disabled = false;
+    input.focus();
+  }
+
+  sendBtn.onclick = send;
+  input.onkeydown = function(e) { if(e.key==='Enter') send(); };
+
+  window._mdsAskExample = function(btn) {
+    input.value = btn.textContent;
+    send();
+  };
+})();
+"""
+
+# ============================================================
+# Full-page chat UI
+# ============================================================
 HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html lang="en">
@@ -251,7 +509,6 @@ HTML_TEMPLATE = """
             div.className = `message ${type}`;
 
             if (type === 'bot') {
-                // Convert basic markdown to HTML
                 let html = text
                     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
                     .replace(/\\*\\*(.+?)\\*\\*/g, '<strong>$1</strong>')
@@ -263,9 +520,7 @@ HTML_TEMPLATE = """
                     .replace(/^[\\-\\*] (.+)$/gm, '<li>$1</li>')
                     .replace(/^(\\d+)\\. (.+)$/gm, '<li>$2</li>');
 
-                // Wrap consecutive <li> in <ul>
                 html = html.replace(/((<li>.*<\\/li>\\n?)+)/g, '<ul>$1</ul>');
-                // Paragraphs
                 html = html.split('\\n\\n').map(p => {
                     p = p.trim();
                     if (!p) return '';
@@ -364,6 +619,17 @@ HTML_TEMPLATE = """
 @app.route("/")
 def index():
     return render_template_string(HTML_TEMPLATE)
+
+
+@app.route("/widget.js")
+def widget_js():
+    """Serve the embeddable widget JavaScript."""
+    api_url = request.host_url.rstrip("/")
+    js = WIDGET_JS.replace("{{API_URL}}", api_url)
+    resp = make_response(js)
+    resp.headers["Content-Type"] = "application/javascript"
+    resp.headers["Access-Control-Allow-Origin"] = "*"
+    return resp
 
 
 @app.route("/api/ask", methods=["POST"])

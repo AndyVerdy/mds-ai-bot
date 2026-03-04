@@ -2,7 +2,7 @@
 vectorstore/
 __pycache__/
 *.pyc
-data/
+# data/ is tracked — needed for cloud deployment vectorstore build
 .DS_Store
 venv/
 .venv/

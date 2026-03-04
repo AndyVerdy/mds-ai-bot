@@ -1,0 +1,13 @@
+venv/
+.venv/
+.env
+vectorstore/
+__pycache__/
+*.pyc
+.git/
+.DS_Store
+README.md
+render.yaml
+Dockerfile
+.dockerignore
+tests.py

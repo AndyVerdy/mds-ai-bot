@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: mds-ai-bot
+    runtime: docker
+    plan: free
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+    healthCheckPath: /api/health
