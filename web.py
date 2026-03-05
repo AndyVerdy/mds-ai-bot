@@ -11,6 +11,8 @@ from flask import Flask, render_template_string, request, jsonify, make_response
 from flask_cors import CORS
 from query import ask, summarize_source, track_search, get_popular_searches, extract_topics
 
+VERSION = "1.3.0"
+
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}})
 
@@ -658,6 +660,7 @@ HTML_TEMPLATE = """
             </div>
         </div>
         <div class="disclaimer"><span class="disc-icon">⚠️</span><span>This tool provides AI-generated summaries from recorded MDS sessions. Responses may be incomplete or inaccurate. This is not professional, legal, or financial advice. Always verify information and use your own judgment.</span></div>
+        <div style="text-align:center;padding:12px 0 8px;color:#a1a1aa;font-size:11px;">v{{ version }}</div>
     </div>
 
     <!-- CHAT: appears after first search -->
@@ -893,7 +896,7 @@ HTML_TEMPLATE = """
 
 @app.route("/")
 def index():
-    return render_template_string(HTML_TEMPLATE)
+    return render_template_string(HTML_TEMPLATE, version=VERSION)
 
 
 @app.route("/widget.js")

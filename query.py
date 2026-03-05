@@ -345,6 +345,12 @@ def ask(question: str, verbose: bool = False) -> dict:
             source_entry["video_url"] = format_video_url(video_url)
         enriched_sources.append(source_entry)
 
+    # Boost confidence when Claude gave a substantive answer with sources.
+    # Raw embedding similarity often underestimates relevance (0.3-0.5 range
+    # even for great matches), so we correct based on answer quality signals.
+    if not has_no_info and enriched_sources and len(answer_text) > 200:
+        avg_confidence = max(avg_confidence, 0.65)  # At least "High relevance"
+
     return {
         "answer": answer_text,
         "sources": enriched_sources,
