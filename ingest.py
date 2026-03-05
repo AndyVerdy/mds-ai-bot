@@ -29,6 +29,9 @@ console = Console()
 # File metadata cache (loaded from data/metadata.json)
 _file_metadata: dict = {}
 
+# Video links cache (loaded from data/video_links.json)
+_video_links: dict = {}
+
 
 def load_file_metadata(data_dir: str = None) -> dict:
     """Load file metadata (dates, events, topics) from metadata.json."""
@@ -45,6 +48,32 @@ def load_file_metadata(data_dir: str = None) -> dict:
             except Exception:
                 pass
     return {}
+
+
+def load_video_links(data_dir: str = None) -> dict:
+    """Load video links mapping from video_links.json."""
+    global _video_links
+    search_dirs = [data_dir] if data_dir else [str(config.DATA_DIR), "data/", "data"]
+    for d in search_dirs:
+        vl_path = Path(d) / "video_links.json"
+        if vl_path.exists():
+            try:
+                with open(vl_path, "r", encoding="utf-8") as f:
+                    _video_links = json.load(f)
+                console.print(f"[blue]Loaded {len(_video_links)} video links[/blue]")
+                return _video_links
+            except Exception:
+                pass
+    return {}
+
+
+def get_video_url(file_path: str) -> str:
+    """Get video URL for a transcript file, if available."""
+    filename = Path(file_path).name
+    entry = _video_links.get(filename)
+    if entry:
+        return entry.get("video_url", "")
+    return ""
 
 
 def get_file_metadata(file_path: str) -> dict:
@@ -406,6 +435,17 @@ def ingest_files(file_paths: list[str]) -> int:
 
     console.print(f"Loaded {len(all_docs)} raw segments from {len(file_paths)} files")
 
+    # Enrich documents with video URLs
+    video_count = 0
+    for doc in all_docs:
+        source = doc.metadata.get("source", "")
+        video_url = get_video_url(source)
+        if video_url:
+            doc.metadata["video_url"] = video_url
+            video_count += 1
+    if video_count:
+        console.print(f"[blue]Attached video URLs to {video_count} segments[/blue]")
+
     # Chunk
     chunks = chunk_documents(all_docs)
     console.print(f"Split into {len(chunks)} chunks")
@@ -434,6 +474,8 @@ def ingest_directory(directory: str) -> int:
     """Ingest all supported files from a directory."""
     # Load file metadata (dates, events) before ingesting
     load_file_metadata(directory)
+    # Load video links (transcript → video URL mapping)
+    load_video_links(str(Path(directory).parent))
 
     path = Path(directory)
     supported = {".txt", ".md", ".vtt", ".srt", ".pdf", ".pptx"}

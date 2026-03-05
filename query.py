@@ -226,14 +226,19 @@ def ask(question: str, verbose: bool = False) -> dict:
         if speaker in seen_speakers:
             continue
         seen_speakers.add(speaker)
-        enriched_sources.append({
+        source_entry = {
             "speaker": speaker,
             "date": format_date_display(meta.get("date", "")),
             "event": meta.get("event", ""),
             "topic": meta.get("topic", ""),
             "type": meta.get("type", ""),
             "source": clean_source_name(meta.get("source", "")),
-        })
+        }
+        # Include video URL if available
+        video_url = meta.get("video_url", "")
+        if video_url:
+            source_entry["video_url"] = video_url
+        enriched_sources.append(source_entry)
 
     return {
         "answer": response.content,

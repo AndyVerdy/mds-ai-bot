@@ -82,9 +82,18 @@ WIDGET_JS = """
       border-radius: 0.375rem; background: #fafafa; font-size: 11px;
     }
     .mds-src-card .src-label { color: #a1a1aa; font-weight: 500; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 4px; font-size: 10px; }
-    .mds-src-item { display: flex; gap: 6px; align-items: baseline; padding: 2px 0; }
+    .mds-src-item { display: flex; gap: 6px; align-items: baseline; padding: 2px 0; flex-wrap: wrap; }
     .mds-src-item .speaker { font-weight: 500; color: #18181b; }
     .mds-src-item .meta { color: #a1a1aa; font-size: 10px; }
+    .mds-src-item .video-link {
+      display: inline-flex; align-items: center; gap: 3px;
+      font-size: 9px; font-weight: 500; color: #2563eb;
+      text-decoration: none; padding: 1px 6px;
+      border: 1px solid #bfdbfe; border-radius: 999px;
+      background: #eff6ff;
+    }
+    .mds-src-item .video-link:hover { background: #dbeafe; color: #1d4ed8; }
+    .mds-src-item .video-link svg { width: 9px; height: 9px; }
     .mds-conf-bar { display: flex; align-items: center; gap: 6px; margin-top: 6px; }
     .mds-conf-track { width: 60px; height: 4px; background: #e4e4e7; border-radius: 2px; overflow: hidden; }
     .mds-conf-fill { height: 100%; border-radius: 2px; }
@@ -235,7 +244,8 @@ WIDGET_JS = """
           var parts = [];
           if (s.event) parts.push(s.event);
           if (s.date) parts.push(s.date);
-          srcHtml += '<div class="mds-src-item"><span class="speaker">'+(s.speaker||'Unknown')+'</span>'+(parts.length?'<span class="meta">'+parts.join(' · ')+'</span>':'')+'</div>';
+          var vLink = s.video_url ? '<a class="video-link" href="'+s.video_url+'" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>Watch</a>' : '';
+          srcHtml += '<div class="mds-src-item"><span class="speaker">'+(s.speaker||'Unknown')+'</span>'+(parts.length?'<span class="meta">'+parts.join(' · ')+'</span>':'')+vLink+'</div>';
         });
         srcHtml += '<div class="mds-conf-bar"><div class="mds-conf-track"><div class="mds-conf-fill" style="width:'+Math.round(c*100)+'%;background:'+color+'"></div></div><span class="mds-conf-label" style="color:'+color+'">'+confLabel(c)+'</span></div>';
         card.innerHTML = srcHtml;
@@ -474,10 +484,23 @@ HTML_TEMPLATE = """
         }
         .source-item {
             display: flex; align-items: baseline; gap: 0.5rem;
-            padding: 0.25rem 0; font-size: 0.8rem;
+            padding: 0.25rem 0; font-size: 0.8rem; flex-wrap: wrap;
         }
         .source-item .speaker { font-weight: 500; color: #18181b; }
         .source-item .meta { color: #a1a1aa; font-size: 0.75rem; }
+        .source-item .video-link {
+            display: inline-flex; align-items: center; gap: 0.25rem;
+            font-size: 0.7rem; font-weight: 500; color: #2563eb;
+            text-decoration: none; padding: 0.125rem 0.5rem;
+            border: 1px solid #bfdbfe; border-radius: 999px;
+            background: #eff6ff; transition: all 0.15s;
+        }
+        .source-item .video-link:hover {
+            background: #dbeafe; border-color: #93c5fd; color: #1d4ed8;
+        }
+        .source-item .video-link svg {
+            width: 11px; height: 11px; flex-shrink: 0;
+        }
 
         /* === COLORFUL RELEVANCE BAR === */
         .confidence-bar {
@@ -666,7 +689,10 @@ HTML_TEMPLATE = """
             if (src.date) parts.push(src.date);
             if (src.topic) parts.push(src.topic);
             const meta = parts.length > 0 ? parts.join(' &middot; ') : '';
-            return `<div class="source-item"><span class="speaker">${speaker}</span>${meta ? `<span class="meta">${meta}</span>` : ''}</div>`;
+            const videoLink = src.video_url
+                ? `<a class="video-link" href="${src.video_url}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>Watch</a>`
+                : '';
+            return `<div class="source-item"><span class="speaker">${speaker}</span>${meta ? `<span class="meta">${meta}</span>` : ''}${videoLink}</div>`;
         }
 
         function addMessage(text, type, extra) {
