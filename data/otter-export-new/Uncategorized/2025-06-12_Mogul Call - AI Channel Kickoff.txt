@@ -1,0 +1,437 @@
+Mogul Call - AI Channel Kickoff
+Date: June 12, 2025
+
+Speaker  00:00
+Posted. So
+
+Speaker  720:00
+welcome to the mobile call everyone. And this is also the AI channel kickoff call as well. So me and Sam are going to co host this one, keen to hear about what everyone's doing in AI and automation and learn from you. So Sam, welcome,
+
+Speaker  5392:00
+hello everyone. So this is my first call from pardon my mistakes and part of my Italian accent. So I started moderating the AI channel because I felt like there was a need for all of us to use AI more and more and more. I feel like everything is changing so quickly, and we need to stay up to date. And when we share value between us, that's like, the best way to stay up to date. Like, kind of it reminds me of like, Amazon, 2016 Amazon. So I kind of want to do that for AI, right? A few things. One of my goals for this channel is keeping it, like, very, very actionable. So whatever we share should be something that it can actually be used in in production, or, like, to help the business, and not like, you know, oh, this tool is cool. And then, you know, you have a bunch of tools, like Jamie said earlier, and you don't use them, and they're not really, like valuable so, like, I want to keep kind of like problem solution structure. Like, how do I do this? And this, how I do this? With that said, I'm going to try to do that, so we'll see if, if we're able to but what I'm going to share today is something that I found. It's an AI that actually released two weeks ago, Max, which is called a flux one context, my problem was that I had to come up with a cheap way to generate a large number of lifestyle photos of my product, because they did like a major rebranding. So all the content that I had before, shot by photographer was not relevant anymore. So I had to create a large number of photos for my products, and I didn't want to spend money, because who does want to spend money? No one. So I tried with a few tools before, like chatgpt generates images. They're good for, like to give to, like a photographer, an example, but like, the product does not come out well, especially the text parts. And so I stumble upon this flux one context, which is actually very impressive. So what I'm going to do is I'm going to share my screen now. I'm going to run through a demo. If someone has a product that has a label that wants me to use, feel free to send it. If not, I'm just going to use my girlfriend's shampoo, which is not my girlfriend's brand. It's just like what she uses. So you guys tell me if, if someone wants to send the product and I'm going to share the screen now.
+
+Speaker  45626:40
+Oh yeah, chat, if you want us to use your product. I
+
+Speaker  47370:40
+mean, if you see it's a Chrome window,
+
+Speaker  48218:40
+yeah, we got it.
+
+Speaker  48896:00
+All right, so someone's in the items. Know, if I see the chat here, do I someone send the product or girlfriend, no, looks like it's going to be the shampoo. Girlfriend, shampoo. All right,
+
+Speaker  52896:00
+this is the product we're going to use. I'm
+
+Speaker  54741:20
+just going to save this image and I'm going to go into flux. So the way it works is very simple. This is their playground. You can use this with it, with their API as well. Their API is actually better, in a way, because it's obviously more, like, you can do more with it, but like, The playground is a good way to, kind of, like, play with it and understand the the potential without doing using the API. So I'm just going to put the image here, and then these are the options that we have. I'm just going to pick a aspect ratio, and then batch side. It just generates four images or one. I do one because you pay by credit. So it's like two cents an image. So especially in the beginning, I just like, want one. I have a prompt that I made in the past for my products, which is this, you can read it. So I'm going to read out loud high end photo lifestyle photo shoot of this product using the same exact label and calls from the reference image, provided the label must remain tact and clear legible position the bottle next to a stylish purse, gym bag or travel tote, surround the bag with subtle lifestyle items like sunglass, protein bar, water bottle, ear buds. For realism, the background can be soft, neutral surface, like a cream table, Fabric Backdrop or wood bench, natural daylight. Ensure the ball stands out comparison to the scene. Reflects mobility, modern living on the go wellness. I use this because I sell supplements, but you can, obviously, like, change this. And I actually created this using chatgpt. So chatgpt helped me create this prompt. Now we generate the image and. Yeah, and it's going to just take a minute,
+
+Speaker  82336:00
+and this is what we get, which is fairly good. You see, like, this text is not like, perfect. It can be probably like, Yeah, I'll shoot the bump in the in the chat. It can be, probably like with a little designer, you know, there is not that expensive, fixed, but honestly, if this is like a picture for social media, you don't even, you don't even see it like we're looking at it on a screen, a big screen, and I'm just pointing out the things, but it's, I think, very, very good. I'll share this prompt in the chat right now. And what we can do is, let's say we want to, you know, change the color because we want something more like on a green tone. We can just go and chat GPT and just, I have this prompt saved. But you know, you can, you can, obviously, you, once you create the images, you save them. And I'm just going to say that basically change a prompt for the change a prompt a little to make the image different, like a green color background and different items, items, and then we copy and paste the prompt that we have before we do that, he changes the prompt really quick, and now we're gonna
+
+Speaker  103397:20
+run this one. Boom, copy and paste. Here. We're just gonna do this
+
+Speaker  105221:20
+so on flux, could you just ask it to make us? Could you say, create that image? But with these changes, or do you have, is it better to just start
+
+Speaker  107706:40
+again? This is the prompt to create the image. So I would, I would change the prompt on chat, GPT, and then put it in in flux. So this, for example, you see it changed the background. So this image is like, very different than the other one, right? And it can be used for a different purpose, right? In this case, we wanted, like a light green background, so we did it. Now, the way I'm using this, right? I had to create like 3040, images for each of my products. Have like 25 products, so it's a lot, right? But what I did is, the first product took more work, because I kind of had to create the structure. So it's like, okay, this is going to be a picture of the product, like in a gym. There's going to be a picture of probably a kitchen. This on the bathroom. This is with people. This is, you know, all of that. Once you have those prompts made, and you kind of have the idea like the planning of all the pictures that you need, you can literally have chat GPT create each prompt for each of the photos for different products, right? And then just do that in a way faster way for now, I've done it manually, like this with with the playground. My next iteration of this will be to create an NA 10. I don't know if you guys are familiar with any 10 is a automation platform, kind of like Zapier that is very used in, like the AI world. And basically my goal is to I feed it the product image, and the the flow will just like return to me the 30 images that I need slightly change, because chat GPT is going to slightly change the prompt so that I have the sort of images made basically in a second. That's kind of like the idea, and that's where I'm at so far. I guess if you guys have, like, any questions, like, fairly easy, but I feel like it was, for me, was like a huge change in the in the in creating product pictures like this, also
+
+Speaker  139269:20
+any question. Questions. Guys, put them in the chat. Or if you want to talk, just do that. Use the hands up feature. And then
+
+Speaker  141162:40
+can I answer to the things in the chat if I see them? Jamie,
+
+Speaker  142314:40
+that make sure you make sure you read out the question and then answer it. Okay.
+
+Speaker  143354:40
+So Alex is asking any 10 takes. Is saying anything takes JSON that can also be created. Yes, however, what I did notice is that whenever you do that, it's always kind of broken. So the way I did it so far is I have chat, GPT create, like the single nodes in an attend. So I feel like that's better, like, if you split the workflow in single nodes, it fucks up. It fucks up less. If you just say, hey, create this from start to finish, it's almost never work. So it really needs to be tweaked. Then my says the issue I have with AI image creation, when I asked to edit one thing, the background, it will add other things together. Is there a prompt I should use to prevent this? So here in flux, there is actually the edit function, which is that, if I drop in, let me just take one second this image and save it. So if I am, we're going to try. Try it live just like now, we'll see if it's gonna brain fart or no. So let's assume that we want to change, like this keys and we want to put, I don't know, plastic ball, right? We can technically put,
+
+Speaker  165296:00
+and technically put this and let's see if it works.
+
+Speaker  170229:20
+All right, so the first one didn't work, but the other ones did. Obviously, you can add more details, but in this case, like you see, it didn't change anything else with the picture. Just remove the keys and put the plastic ball. So does that? Would that work? Mari, then let me go through other question. How does it work with people in lifestyle images? So with people, it's the only thing that I noticed is that the size of the bottle is very hard to to tell the AI, basically, if I have a supplement that is, like, very small, like, kind of like three fingers tall, it always comes up very big. So I'm trying to find a way. And if you guys find a way, once you play with it, to do it, definitely share it, because that was my pain point. So so far, what I did is just when the size gets fucked up, I just edited in Photoshop after. So it's a little bit more manual work. And with lifestyle, it's kind of good with people, we would try an example together. I guess, what's the charge 50 prompt to definitely this initial prompt. I honestly ask it like, hey, I need to use flux One Pro and flux one context. And I want to do this kind of lifestyle images suggest me a prompt, and then it's kind of trial and error, and then you, like, refine the first prompt. The more detail you are in the prompt, the better. This is I noticed in AI in general. So, yeah, you just refine it and then tweak it like that.
+
+Speaker  197856:00
+They said, did you ask me if I wanted to? No, you
+
+Speaker  198725:20
+can ignore that one. Oh, okay,
+
+Speaker  199621:20
+let me just uh, okay. I think that's it. With the questions,
+
+Speaker  201285:20
+do you want to join? Just try one. Let me just try one with a model, yeah,
+
+Speaker  202949:20
+yeah. So let me, let's
+
+Speaker  203770:40
+just take actually, let's just ask GPT for that.
+
+Speaker  205930:40
+So change a prompt to make the image different, and add
+
+Speaker  208538:40
+a add a woman interact.
+
+Speaker  211952:00
+Let's see I
+
+Speaker  216661:20
+Uh, okay, he, he, in this case, like, positioned the ball near, like, this is like, maybe two. I mean, we can try to just use this and see what comes up, but it might be too complicated. Just one thing to to know is that the the product is always kind of like the same size in the photo. So if you want to create like a photo where the product is very small in the photo, you have to extend it like in another way, like with Photoshop, because, like, the size is always kind of the same, but we'll try to see what comes up here. It might be awful, but we'll see. Okay, yeah, that's what I told you about the size. So this is, like the problem that I've seen with the size, whenever you put in this case, because we told them to put, like a backpack, so he has to put all these things. And so the size in this case are fucked up. To fix this, we just basically,
+
+Speaker  233029:20
+we can say, make it. That is just the product. And the woman, no items. I did not sit, no legs, yeah, exactly.
+
+Speaker  237994:40
+Or she's just coming out of a small hole in this. Yeah,
+
+Speaker  238682:40
+she's, she's like, but anyways, like you kind of need to once you the thing is, the. What I was saying is, like, you you find, like, the prompts that work for your specific image, which might take some trial and error, but then once you find them, you slightly change the prompts. Like, okay, this one is fine, right?
+
+Speaker  244432:00
+Everyone's count. Everyone's instinctively counting the fingers, yeah, which,
+
+Speaker  245749:20
+in this case, like, honestly, this is the first time that I see, like, finger fuck ups. Like this, you can probably be more specific and like, make sure that it has the same, the right
+
+Speaker  249429:20
+amount of fingers. And then, well, okay, this,
+
+Speaker  250821:20
+I'm not, I'm not logged in, but you need to specify the prompt to get better quality images. Well, you just, what I've done so far is you kind of just play with it and refine until you get it right, so you can point out problems to chat GPT, and that basically fixes the prompt for flux, like, in this case, boom. Like the fingers are now, I guess the correct amount, right? Yeah, yeah. So you see, like this, we fixed the problem with a GPT prompt. And obviously you can be, you can be more, the more specific you are, the better, right? What's your official set of flux? So it's, you can go on here playground. I can actually link it. This is for the playground, which is this, like with user interface online, like you're seeing on my screen. But you can also use API if you want to do if you want to put in any 10 flow, you can also use API. And it's it works the same The playground is just like a user interface to use the
+
+Speaker  269402:40
+AI, what have you found to be the main benefits of this app versus other apps?
+
+Speaker  270794:40
+So it keeps the product label as close to the reality as possible, which is what was my problem with chatgpt and like other AI generating images before product images, it's the closest that I've seen ever so far. And obviously like the fact that it has an API, but all of them kind of have an API so that you can use it to, just like, build flows and and create a large amount of images with not that much time.
+
+Speaker  281957:20
+There's more questions,
+
+Speaker  282725:20
+what's the best way to train objects in flux for a hard good, not clothing. So what do you mean by hard good?
+
+Speaker  285114:40
+Want us to try one of your products? Jane,
+
+Speaker  286202:40
+yeah, well, well, we do phone cases, but it's I found that Apparel does really well. But when you have a physical good that's like, a hard good, like, like, even this bottle, sometimes it doesn't come out right, even if you train the model. Like, sometimes it's off slightly.
+
+Speaker  291424:00
+I mean, this is not like, this is not really training the model that much. Is just putting one reference image. So I'm not quite sure if you can actually bring a specific like, train the model specifically with like, multiple product images. Maybe you can, if you can, like, we should definitely figure it out.
+
+Speaker  297237:20
+But this is what I know so far. And
+
+Speaker  298821:20
+if the product is never label, would this still be the best tool I honestly tried for my supplement. I have supplements and grocery they both have labels and text, so I cannot say it's you need to try. But I feel like the label products were the trickiest. Because when I was seeing demos on other like MDS calls, it was always non labeled products like the Jamie I remember like in in Doria call there was like Jamie product, it doesn't have a label, so you see less if it fucks up, if it doesn't have a label, if it has a label, you see that it's fucked up right away. Then is there? Is that the best model to use? I tried this one and I tried the max. I did not see any difference that much. But I think this one is not context, so it's probably good, but not for maintaining the product as similar as possible. Once you're happy the new thing, can we lock it? I'm not sure, for sure, you can use the edit function and just edit the thing so you keep this part, but I'm not sure if you can just, like, lock it. You could add. Ask. You could load this image to chat GPT and basically ask to be very detailed on the face of the model so the another AI can replicate it again. What products you use to get the model to hold your products? I can just copy this chat GPT did it, but
+
+Speaker  325936:00
+I can just copy this if you want.
+
+Speaker  327845:20
+Yeah, you could use the same seed. I'm not sure. Yeah, you can probably use the same seed. I've never tried it, but, yeah, Alex, that's a good that's a good way. I just didn't have the use case to use the same person. But obviously, the more you know what, that's why I like to do things that are actionable, so that we see real life use cases.
+
+Speaker  335578:40
+I got such teaching, right? All right, so let's go to was it? Was it good? Guys, give me a review.
+
+Speaker  338416:00
+You guys go check it out.
+
+Speaker  339232:00
+Okay, Alex, I don't trust I remember from the from, from our first accountability challenge was great. So thank you. So I'll stop sharing.
+
+Speaker  343477:20
+So Alan, thanks for coming on.
+
+Speaker  344277:20
+Hi Jamie. So Alan's just done a four day, four day. Perry Belcher AI course as well. So how was how was
+
+Speaker  346213:20
+that? Yeah, blown my mind blown. My business partners on the call. She's in his ignite mastermind, also. Her name's Zara. She's on the call. She's a paid advertising specialist in Google. So far and I are working together because my tool is very beneficial for ads creation and saving money and audience creation. So it saves what we're doing what many tests on this, and then we're running several automations from my system and to making life a lot easier, because I had talked to Sam before we came on the call. And it's all good. We've got all these tools, but it's good to actually have a tool that can give you the full journey through to actually ad creation or and social media, post creation, etc. So we're working on all of that. So I can share my screen just now.
+
+Speaker  360453:20
+Yeah, let's do it.
+
+Speaker  361589:20
+So what this system is? So just
+
+Speaker  362597:20
+to give you guys a bit of context, is unrelated to the course Alan managed to get access to this, this, this other tool. I just wanted to show us some of the applications of it, so maybe we could brainstorm some some ways to use it, because it seems like it's got a lot of functionality and a lot of stuff I haven't seen in other places.
+
+Speaker  368330:40
+I won't show everything in this call, but basically, this is just like a white label version. It's 100k $100,000 per year. It uses a lot of GPU. It's several scraping engines from several platforms, LinkedIn, Google, Spotify, Shopify, via sales from Commission Junction, etc. So it pulls in data from all these places. And it's a it's a very simple system to use. So it's like, you give me your 10, five to 10 competitors websites, and then it will go and find all social media that will do a script of all the data that they've been putting out there for the past six months, paid and organic. So I'll run through it quickly, just because, I mean, it's so many other features. And yeah, the guy who created us originally was an Amazon expert and used to supply he had his own Amazon running. So he was, like, once the API started closing down, he had a marketing agency for 20 years, and he built this, and then, you know, he had like, 20 employees, and this, like, took over all of his all of his employees as well. So, so basically, I'll use an example of this is a guy who's launching an A water, I know, like a organic water, water around Germany. So you just put on the person's website, and then the five competitors here, and then you press go, and it will, it will run through the flow process over two days. You'll see it's still running here. So it does a niche analysis, social analysis, brand visibility, real time analysis, organic and paid. So if I look at the competitor ads, I will we can see how many days they've been running for. We can look at what Google et cetera. Yeah. So we know if it's been running for this one's been running for 1000 days. So we know that that's a good ad. We can look at it. We can see what the landing page looks like. There's an example here. We can look at that. I
+
+Speaker  407461:20
+so there's, there's your ad, and then we can look, we can run AI on this, and we can recreate this, or we can recreate several things. So we can do social network, Twitter posts, LinkedIn, LinkedIn ads, video scripts. So this will all recreate these with the competitor or with your data. That will recreate all of that just go through.
+
+Speaker  415178:40
+So you would create a version with the honest water instead of that one Right exactly?
+
+Speaker  416880:00
+And as I say, I'll write you a blog post, or I'll show you that in a second, but here's all of our social posts you can you can list it by likes and by comments, so you can see exactly what all your competitors are doing real time. And for the past six months,
+
+Speaker  422373:20
+yeah, what, what posts have worked, right? And
+
+Speaker  422933:20
+then there's a, this one's an ad. Plus this is, this is a company that do patches, vitamin patches. So this is, like, the landing page they're running. It's a shop now. It's been running for 268 days. And then we can go over here see, you know, this is another example of what the one of the ads that was really popular. Then we can, we can look at what we select. You can take that ad, and then you can, I've run a pre run a Tiktok script for that, and that'll create love. You can see that, but it creates two proposals. And then you can also talk to that as well. You can say, No, give me a girl. Give me this. You know, you can change it. Then the other one was
+
+Speaker  441653:20
+a link in publication. So it's, it's taking the existing post, and then it's recreating you know, for different socials. So the idea is that I'm going to, I'm going to take all of this and make it way more this is a back end demo here, so you don't really see this on the competitor side, but I'm looking to, like, have a mastermind around this, and we can use multiple datas, and we can build business, multiple businesses from this, because I've got stem cell data, like the top stem cell research companies in the world, anywhere in the world, any language, I get all of the data for the past six months, what they're doing. And you can sell these leads for like, $200 per lead, so like there's multiple ideas for this repository, I can send this report. This is a 40 page report that the system generates with, you know, everything that you need to do from you know, SWOT analysis for where your traffic's coming from, where your advantages? What you should use so many things in here, and then, once you've got all these reports, there's a specific GTP that we've written that you load up all of these profiles, all of the reports in here, and then you can talk to it. I also can create a 30 minute podcast from this, and you can send that to your clients, and then they can interact with the podcast. So that podcast is, you know, and you know, referring to six months of data. Yeah, there's a whole initial analysis on your competitors, influencers, and it gives you all their email addresses and phone numbers, if the public knowledge so you're getting all of your competitors, commenters and likes, you're getting their emails and their phone numbers, then you've also got deep dive analysis into Who are these who are these influencers? Which country are they from? Phone numbers, how many followers they've got, all of that. Any questions so far? So like for Tiktok ads? For, I'm thinking from Amazon perspective, if you want to, you do Tiktok ads. You can see what all your competitors are doing. You can recreate. The ads, and then we can both the ads up for you based upon you know what your competitors are doing successfully. It creates and any Instagram, any Instagram influencer, we can download all of their followers, and we can update all of this. Sorry, I don't know what's been earlier, I'm drawing the machine.
+
+Speaker  487893:20
+So, yeah, that's a really quick snapshot. So what I'm going to offer for you guys is, like the first five people that respond or that want to do a deep dive analysis into their competitors, or I'll do it for free for you guys, and you can have a I'll also send you this report so you can see what it does. And if anyone wants to join into like another call, so we can deep dive into business creation from this, or APIs or GPUs creation from this. We can also deal with that together.
+
+Speaker  496138:40
+Any questions guys you want to put them in a chat, or if anyone's got a competitor that you'd like to look up,
+
+Speaker  497872:00
+yeah, you can reach out to me later with your you know,
+
+Speaker  498944:00
+Pete, ask a question about the URL the
+
+Speaker  500016:00
+website, and somebody said, AI tool goes to spam. Ai advantage. Ai dot tools as my back end. This is the back end the website is advantage AI dot marketing for the website.
+
+Speaker  504293:20
+June's asking, does this create Amazon?
+
+Speaker  505237:20
+No, no, that's what the guy used to do, but, but if you need that done, it can be done. Yes. Depends what you're looking for. Specifically, we can do that. Yes. Nate is asking ability. A deeper look at it, much as a tool cost. I mean, this is a white label version. There's only 13 of these the world that I'm aware of. I've never seen anything that they have like this. It was 100 grand for this 100k but those are those modules that we can sell, and you can have your own 5k per year brand
+
+Speaker  515856:00
+in terms of use cases. There is, I could look at my competitors and figure out, what are they doing off Amazon, what are they doing on social media? And then I could also work out, okay, audiences are people that are interested in my competitors products. And then I could use that to make audiences, to target audiences on meta,
+
+Speaker  521269:20
+exactly. Also,
+
+Speaker  521621:20
+if I was trying to, if I was brainstorming a new if I was brainstorming a new idea, I could have a look at a competition and see what they're doing and think, okay, where could I, where can I fit in? Where can I differentiate? This sort of does what, you know, maybe some research, like a small team of researchers, would do, right? Look at competitors come up with ideas.
+
+Speaker  527194:40
+I mean, this comes up with, you know, this is 20 people over a month to get this data, and it comes up within two days. So as I've shown you here, everything is, you know, every it's real time data of everything that your competitors are doing and you don't, you know, you can run 10 competitors in one country, you can run another 10 competitors in a different country. You can different languages, and it will translate. So say the teeth whitening in Japan is very successful. You can trans you can bring all of those competitors in, and then you can recreate the ads in different languages with, of course, your own products.
+
+Speaker  539221:20
+Any more questions, put them in chat. Guys pizza, how should, well, should people just drop your message on Messenger, if they, if they
+
+Speaker  541738:40
+want messenger? Alan Morrison, I'm in the group. We also, you know, this is just a very bare, bare, basic model. What we do also as like, you know, once you have this, and you've got a competitive, you know, you've got a person who wants to buy this. But, for example, we can send them full analysis the report. I mean, the report can be sold itself. I mean, we're used to sell those reports for $1,500 because in a very, very extensive and if somebody's launching a new brand, or you want to come off Amazon, or you want to go in a different country, your intel is, you know, unsurpassed. You know you can't, you can't get into like this without paying crazy amount of money for that.
+
+Speaker  553861:20
+Great All right. Well, thanks, Alan, you're welcome. Yeah, anyone interested in that drop out of the message,
+
+Speaker  556026:40
+anyone wants to, like, run compared to another competitor analysis I'll do, I'll do that for you. Just send me up to like, three to five competitor websites, and I'll run it, and we can talk about it over a call after the after two days. Is great. Thanks.
+
+Speaker  561424:00
+Belen, are you able to get rid of the red markings
+
+Speaker  562128:00
+on the screen? I don't know what that is. It might
+
+Speaker  562832:00
+be someone else has done it, but it should be, it should be possible to get it should be possible for the app and just to delete them. Cool. So I thought with the time that we've got left, we could just talk about what, what you guys would like to get out of the AI channel, and sort of what topics you are most interested in. So if everyone in the chat could just write the top three things that you would like to learn more about, talk more about on the on the AI channel, just so we can get a flavor for, like, what, what people are sort of most interested in. So it could be, it could be particular use cases that go ahead
+
+Speaker  574154:40
+and also like, what you what you're trying to, like, automate, like, we're trying to have aI help you. I'm personally trying to use AI as much as I can for basically everything I do, like I'm forcing myself to do that, because it's like unnatural to me. But you know, so I would love to hear what you guys are working on, what what you want AI to help you with. All
+
+Speaker  581504:00
+right, so I'm just going to wait now for everyone to put their top threes in. You can put one or two if you can't put if you can't put three in, and we'll just let give it a time for everyone to do that.
+
+Speaker  587157:20
+Alex, can you expand on video three? What exactly you want to achieve with VO three? Because I'm very interested in like, content generation. That's probably my number one, my number one thing. So what exactly do you want to do with Do three? Okay, do
+
+Speaker  594320:00
+keep it coming, guys, you
+
+Speaker  599557:20
+good stuff. I think there's a lot, there's a lot of like content creation, which I agree. I think AI really excels in that. So, like both video image creation, it's pretty prevalent.
+
+Speaker  607034:40
+Oh, Jamie, did you? Did you check out the channel that I posted on on the chat Nate HERC for any 10 No, no, no, I haven't. No, yeah, he's a pretty, pretty smart guy. And tutorials are pretty, pretty good, because it gives a good foundation for sure.
+
+Speaker  611840:00
+Sort of, how many hours would I have to put in to sort of master the basis?
+
+Speaker  613536:00
+Honestly, that's, that's the question I'm going, like, back and forth on, like, should I hire someone to do it, or should I learn it myself? But I feel like it's so important right now that I need to have at least, like, a good understanding first before I hire people to to help them with it.
+
+Speaker  619738:40
+So we So Leo, Leo lemon is going to be doing a call on vo three soon. So that's going to be like a main, a main mobile call that's coming up soon. I'll let you guys know when that is coming up, but that should be fun. Leo always does a good mobile call. Tell you when that's gonna be, 25th of June, so the week after next, basically.
+
+Speaker  628960:00
+So a lot of people are saying,
+
+Speaker  629408:00
+I videos.
+
+Speaker  631493:20
+So I think video and content creation is a main is a main thing for sure.
+
+Speaker  633797:20
+Yeah, I think the good thing about AI is that, like, it's, if it's like for social media content, you can get something that's good to go pretty much right away, whereas with like, you know, maybe with an Amazon listing you're trying to, or your website you're trying to, you're probably sending it to a designer to To finish off, yeah, but
+
+Speaker  638410:40
+for sure, need to be a little bit more polished. But I mean, even the images that I generated before with flux for social media. Fine, like you, I wouldn't need I don't even like change them.
+
+Speaker  642720:00
+Deepak suggesting something, but I'm not sure I don't understand what I'm not so maybe I'm not technical enough to understand what that is. Do you know? Do you understand what that means? Who again? Deepak, 4040. Minutes past says you might scroll up bit for it. Yeah, I guess one issue that you're going to have is there's kind of, like, the some people that are already quite far into it, who maybe will have different types of needs that the people who have, like, only just set up a chat GPT account. So you might want to have some calls that are a bit more geared towards just the basis of using some of the main tools, and then others that are like deeper dives into more technical stuff. Yeah,
+
+Speaker  652922:40
+no, but I also don't understand so deeper. Can you explain
+
+Speaker  654202:40
+a little Hi, there am I audible? Yeah? We can hear. Yeah, hi.
+
+Speaker  655882:40
+So what I mean is using llms for for more analytics, like scenario planning, root cause analysis, right when, let's say your sales are down week over week, and you have tons of SKUs, there could be many reasons why they're down, right? And priorities, prioritization of what to attend to first is always a challenge, right? So things such as elimination of the obvious what is not right. So suppose my sessions around 50% it could be that my inventory is low, right? And if my inventory is low, there's nothing much I can do about it except get inventory so, so if the inventory is not low, then I want to go forward and deep dive into what's going on. So kind of, how do we better use LLM? Because it's, it looks at trends, right? It that's what it does, pattern matching. So how do we use it for analytics, to reduce the time for decision making and extending that logic, scenario planning, right? So if you don't attend to something that is falling week over week, let's say sessions are falling. What does that mean in terms of sales and profit loss in next four weeks, next three months,
+
+Speaker  679365:20
+things talking about using it for just general Amazon and business strategy. So for example, I've got a problem. This listing is suffering. This listing is not doing well. Can you ask me questions and take me through. So we've worked out what the problem is. No,
+
+Speaker  684074:40
+I'm being a little more specific on it, not general idea. I mean, I have the general idea, right? I wanted to run through the data. This
+
+Speaker  686282:40
+is just to check, to check the data based on your rules, like, I don't know, first thing you check is the inventory law, if you could probably build like a custom GPT for it, and then I'm not sure how would you, I mean, you need to give it data somehow, probably from, yeah, yeah, Amazon API,
+
+Speaker  693264:00
+yeah. I mean, Amazon API, we can put the data in a flat file and and define the tables better and let it read it right? So you think custom GPT would be a better route for it, or if anyone has
+
+Speaker  696933:20
+done, I mean, you can build, like, if you this is obviously fully different, but, like, I built a custom GPT for customer service. So basically it just has all my knowledge, so has all the data, and then replies in a certain way and doesn't go out of that reply. And if I we don't have the reply in the customer the in the knowledge base, it asks me, or it asks a human right? And then once we reply, then he memorizes forever. So, like you can put it, you can give kind of like limited, let's say like limited control to the Yeah, like you just say, follow this structure. That's it. Like you kind of need to treat, I feel like AI as a, you know, remote employee with, like, very precise SOPs, like, so, I think it's definitely doable. Got it, and you can also try to actually ask chatgpt, how would you build that? It's, it's like, I solve so many problems like that, you know, like, you know, you ask how to prompt. You ask how to like, what would be the best way to do this? And usually, maybe it doesn't tell you right away everything. But you know, also, for this kind of thing, I think GPT 4.5 is better, yeah, for like ideas, Gen and Like. Kind of strategy.
+
+Speaker  720272:00
+Yeah, this is preview. Okay. Got it cool. Cool. Thank you.
+
+Speaker  721984:00
+Steve says specific use cases where people are currently using AI to actually help them with their business. Yeah. So, you know, I find on mobile calls, if I can get someone to just screen share, this works with small events as well. Someone does a screen share show what they're actually doing that's always going to be super popular. The challenge Sam can just be sometimes finding enough people that are willing to do that. But yeah, that's always going to be popular, and that's always going to be valuable. Few more content creation ones. So if you guys have any, you guys use chat, GPT playground, because I know on Dorian school, he was saying he's he's basically leaning towards using open AI for for image generation, but then is leaning towards using Claude and Manus for everything else. Yeah. I
+
+Speaker  737536:00
+yeah, I feel like my things change pretty quickly too. Like it, you know, it might be like, we might see something now and then tomorrow, there's a new thing that works. But no, it's true. Like, I mean, VO three, like, blew out of the water. Sora in a second at like, 10 to zero, yeah.
+
+Speaker  742405:20
+I remember Anthony Nugen was saying that he just, he just stays on chat GPT all the time, even if it's not the best thing. So he just focuses on one talks. He knows that it's getting better all the time, and even for other tools that are better, he's then singly, just focused on one, yeah. But, um Yeah. I mean, definitely, definitely Manus, that I find is notably better, because Manus will actually go into websites and look at stuff to find out. It's a bit like having a researcher, whereas chat CBT, because I was looking for, like, a new washing a new washing machine, and Manus would actually go into places and find out the prices. Whereas chat GPT just wanted to give me, gave me a list of websites. To try. So I think that there's pretty cool, although obviously Chinese owned, so don't put all your sensitive data in it.
+
+Speaker  755136:00
+Yeah, answering to Pete, it says chat GPT response time since, very slow in creating images. You, if you create it with API, you kind of, I mean, you can batch to it like if you do in the chat, is obviously like work, because you need to stay there and wait for the image to generate and then go forward. But if you actually do it through API, if you have a large amount of images, is that
+
+Speaker  761973:20
+kind of what you wanted to do?
+
+Speaker  763157:20
+Would I be right? I'm thinking also, if you use open AI, open AI playgrounds, that that is quicker as well.
+
+Speaker  764538:40
+Oh, yeah. Also, I've actually never used it, but Dorian said that it generates, like a batch quicker. A
+
+Speaker  766490:40
+playground is using API play you have, yeah, you might have to pay per like, a small amount, yeah,
+
+Speaker  768186:40
+all the API calls you pay per call. So it's a it's not included in the $20 or $200 depending on the plan, you have
+
+Speaker  771840:00
+watch my activities for a day and turn into SOPs. So Pete, we're saying something. Just get just get just screen just to do a screen recording all day, and then upload it to uh, and then send it to chat, GPT, and then, or something, and then have it
+
+Speaker  776421:20
+come on, learn how to be me, so I can leave and go to vacation forever. Can
+
+Speaker  778005:20
+you hear me? Yeah, I feel there's probably, like, there's probably still room for like, a human AI consultant would just interview you for a few hours and then tell you exactly what you need. We can hear a
+
+Speaker  780762:40
+bit, oh, yeah, I know it's kind of wishful thinking, but yeah, I mean, some had some way of turning on and off, a button that just says, watch, watch what I'm doing, and then it just comes back and, you know, says this is what I think you were doing, and this is how I think it applies to your team. And were you trying to fix this? Yes, I was, oh, okay, well, what a and I'm maybe loom already has the AI on there. I just haven't tried it out yet. I don't know. Those are my thoughts.
+
+Speaker  789536:00
+Anyone knows of anything like that
+
+Speaker  789957:20
+available? I don't, unfortunately, no, but
+
+Speaker  791317:20
+yeah, I guess you could just, you could just ask an LLM to interview you about your life and your day and the things that you do and make suggestions. But yeah, I mean, if someone had like a consultancy over this kind of thing, I think they could make quite a lot of
+
+Speaker  795498:40
+money, yeah, because I literally forget what I just did an hour ago, something, you know, it's like, you know, enough for the way I the way I'm too close to the problem. So if it just watches me objectively and says, Oh, I see you're doing this Google Sheet. You were in it yesterday. And. You did the same thing. Do you want me to make an SOP out of it? You know? Yes. Okay, well, what else, you know? You see, you kind of need that dialog box back and forth. Yeah, I agree. It would be. It would be a real money maker once it finally comes out. I'm sure someone's working on it,
+
+Speaker  804896:00
+it'd be actually good to ask, like, what have I done today? Sometimes, like, you're like, What have I done today? What is like so many problems in reality, we all do like, a lot, but we feel like,
+
+Speaker  808789:20
+so how does it go about finding that out? As like, does it monitor your sessions or, I mean, how does it know that?
+
+Speaker  810469:20
+Yeah, it would need to. You would probably need to, I feel like, record your screen and be the problem that is not like we don't have right now, like we would need, almost like an AI operating system. It needs to be integrated in the system. Yeah, yeah. It's kind of what Apple was trying to do with Apple intelligence, but they failed miserably or now, but it like that's a having AI like on the phone basically knows all your messages or your photos, like, knows you, right? You have the data on the phone and the aid on the phone. That's what they were trying to do. But they so far, it's not working.
+
+Speaker  821280:00
+Yeah, when's talking about an AI agent that could
+
+Speaker  822629:20
+it's like, Chrome extension, yeah, that just kind of turn on and off, you know, just keep it on all day, and when you want to have a private discussion, maybe you turn it off. But like, I'm open book, I wouldn't mind kind of watching what I'm doing.
+
+Speaker  826149:20
+I guess that the agents agents is definitely something that I'd like to learn a bit more about. Joe and talking about maybe an agent that could read dashboards, provide recommendations, bit like it's so kind of like a business owner, kind of co pilot, maybe I know I'm just not sure about what he's suggesting. But potentially in it, if we could build agents to be like our kind of mega, super assistance, like a second brain that is doing all the things that we're supposed to be doing, like analyzing our competitors, looking at our numbers and details, checking our listings. Does any of you guys, anyone here deep into agents? I Yeah, if you could find anyone Sam that is doing agents, I think that would be a very popular call.
+
+Speaker  839989:20
+Yeah. I mean, there's some, like, any 10 automations. They're kind of like mix of it, like teams of agents and it, and kind of orchestra orchestrates the various AIS to so they work together. I can try to find someone. I think Rob Green was working on it. You were talking right? Jamie,
+
+Speaker  847354:40
+yeah. Do you remember
+
+Speaker  848426:40
+Chad says that he created a team of advisors. I'm guessing this is chat GPT or similar, uploads weekly SPP reports and sellable dashboards and has weekly board meetings. So Chad, you want to tell us a bit more about this. Is this a custom GPT, or is this just like
+
+Speaker  852560:00
+a thread on chat GPT or Claude or something?
+
+Speaker  855413:20
+Chad. Can you hear me? I think Chad said I have to
+
+Speaker  856373:20
+jump off. Okay, well, there I have heard this kind of board of advisors thing, because it's in Think and Grow Rich where he has, he has the advisors in his head, but now you can do it on chat, CBT. I
+
+Speaker  861306:40
+actually remember seeing, maybe this was three years ago, an AI boardroom app where you can put, like, your advisors and put information. I don't know if they're still in business, though. I think was like called AI boardroom, something like that. It was like, three years ago at the tech event in New York. So,
+
+Speaker  866688:00
+so I'll tell you what we should do. Sam, why don't we get all these comments and put them in chat? GPT, and be like, are there already tell us, are there already simple solutions out there for this problems? And you could probably have it. Probably have it draft, like a call schedule or something, or like,
+
+Speaker  871845:20
+is there a way to talk that I can save these comments? Or no, yeah, just like, copy and
+
+Speaker  873461:20
+paste. We should be able to get them, but I would just copy and paste them, just in case. And you know, if we could get, if we get everyone checking the app a few times a day, then this is the kind of level of conversation that we can get going in the app as well, which I think will be awesome, because I think that together, we can get the ideas find something that. Works, but someone else can iterate it on and the kind of mastermind super mind effect can can really help. Yeah, what? The one thing that we have more powerful than AI is each other, our real intelligence, and now we can magnify it using AI. Should be some really, really exciting stuff coming out with this. Sorry, Sam, I interrupt you. We're saying
+
+Speaker  885461:20
+they don't know if we keep like the problem solution exactly like, I mean, people are seeing chat, what they use it for, like, what they wish like it could do, then we can probably brainstorm solutions on how to fix like, all our common problem songs. Zara,
+
+Speaker  890085:20
+Hi, how are you doing? So I can explain what Chad's done, by the way, oh, sure, that'd be great, yeah. So it's basically using the project function in chat. GBT, have you used that? Yeah? Yeah. So within the project, you can upload a load of different like documents. So say you wanted to create expert Marketing Board, you could create different experts. So you might want to run reports on some of the experts in that niche and get how they would do things, and then you can upload those into the project. So then you have this kind of board of experts within the project. Then you have chats in the project, and you can ask questions or put in your data and ask what they think you should do.
+
+Speaker  905637:20
+Well, the different imaginary characters bounce ideas off each other as well. Oh, that's cool. You
+
+Speaker  906954:40
+can, you can say, like, what do you all think of this? And then they can, they will, like, give their their view. And then you could say, Can you all vote for the best solution? And things like that.
+
+Speaker  911018:40
+That's awesome.
+
+Speaker  911546:40
+All right, guys. So if we could just get the feedback form link in the chat. So we'd like to get your feedback on this, and we'll I take a look at them, all of them for mobile calls. But we'll also take a and especially, I'll share the results with Sam as well, so that Sam can have a think about what to do for, you know, future AI channel calls. So if you just, you just got to give a score out of one to 10. If you want to type some some notes in as well, then I always really appreciate that this recording will be live on the app tomorrow. So yeah, make sure everyone is on the the AI channel. Maybe post about, if you enjoyed this call, what you're excited about Steve for the channel, because, sort of, with the channel, you know, we get good engagement going now it'll just it'll create a virtual circle that will keep things going. Thanks very much Sam and Alan for sharing. Thank you, Jamie. And if anyone wants to get in touch with Alan, you can just drop him a message on Messenger um, yeah, thanks. Thanks very much, guys. I'm always open to doing mobile calls as well on AI, so you guys got any ideas for mobile calls? Let me know as well.
+
+Speaker  931120:00
+Thanks guys. Thank you. Bye.

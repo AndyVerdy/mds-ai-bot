@@ -1,0 +1,593 @@
+MDS AI Channel monthly Call
+Date: October 10, 2025
+
+Speaker  00:00
+Just the note take. Hey Damon, thank you so much for joining us.
+
+Speaker  1648:00
+Hey guys, tough Friday. Yeah, I've 12 hours of Back to Back calls today. So I'm an hour number four right now some 1/3 the way through my day bond. I
+
+Speaker  11869:20
+wait for some more people to join.
+
+Speaker  13085:20
+Hello, Patrick.
+
+Speaker  15437:20
+Hi guys.
+
+Speaker  15965:20
+What Patrick? Are you Patrick? I'm
+
+Speaker  16672:00
+the Patrick. Who is my she's husband, and I've been at the event. I've seen some of you folks as well there.
+
+Speaker  18480:00
+Yes, I was actually speaking to your wife yesterday. I think she mentioned probably to you,
+
+Speaker  20288:00
+yes, yes, yes, yes, she did. She did. So I said I dropped on because I a lot of the AI, yeah.
+
+Speaker  22629:20
+And they said, you're more in the weeds with the AI, exactly,
+
+Speaker  23365:20
+exactly, yeah. And now it seems like that. I need to go more into it, because the person that we hired for that did not work out, unfortunately. And then it's hard to find other people who can do it end to end the way I want it to be done. So I now just said, like, I likely have to just do it myself. Yeah,
+
+Speaker  28682:40
+that's usually the best way.
+
+Speaker  32298:40
+Are still hiding for some people, or how's it going
+
+Speaker  33056:00
+to Yeah, we're just waiting for some people to join.
+
+Speaker  34160:00
+We can wait for a couple, like two more minutes. Maybe there's somebody who joined by phone. I'd love to know who that is,
+
+Speaker  36960:00
+so I can take attendance. I
+
+Speaker  38645:20
+thanks. Ai, this is Hank Holcomb, sorry. I'm in the car right now driving into the office.
+
+Speaker  40021:20
+No worries, saying thanks for coming.
+
+Speaker  41445:20
+Yeah, thank you to
+
+Speaker  44066:08
+I already shared the link.
+
+Speaker  46130:08
+Yeah, maybe Belen,
+
+Speaker  46450:40
+if you can send like another like message on the channel, maybe, or yes,
+
+Speaker  48482:08
+And I'm going to also comment on your post. You
+
+Speaker  61866:40
+the way before, before we start, Belen, you're muted, yeah, I'm
+
+Speaker  62778:40
+sorry. We can maybe get going and we can, I'll keep accepting people ask they call.
+
+Speaker  64400:00
+Yeah, I'll just say, like, one thing that, like, the people are in the call probably, like, I never, because I just discovered, have you guys tried comet AI browser? It's game changer. It's actually, like, it's the most excited I've been in a in a while with AI. Okay, so basically, is a browser that is like, it's almost like Chad GPT operator. I have the free plan, by the way. I didn't even pay for it yet. I will, for sure, like, take my money. But basically I told it, go on the go, on this website, create an account, right? And usually like, operator will ask you, oh, which name do I put? Which password should I put? Like, could ask you shit. This guy, like this, AI guy just literally created a temporary email himself, right? And put temporary email, put everything. Didn't ask me anything. Okay, this username, this the password I created, like this, you know, fake account for you or whatever. And feel free to change the stuff. And by the way, the website was in Korean.
+
+Speaker  84144:00
+Wow, so you downloaded the browser,
+
+Speaker  84768:00
+yeah, yeah. I downloaded the browser. And it's just kind of like, you go in the assistant and you tell it what to do, and you see what it does. So it's like having an employee next to you. I don't know if you ever use like a Chad GV operator. It works similar, but Chad GV operator is the $200 a month thing, and it works worse, in my opinion, like the comet is great. So highly suggest to try
+
+Speaker  92026:40
+that's awesome, yeah,
+
+Speaker  92410:40
+because, like, some some tasks, like, it's actually very I was trying to basically build an agent to, like, spam some stuff around, right?
+
+Speaker  96058:40
+Since, since since we're not recording, you can say that.
+
+Speaker  97152:00
+And so I was like, I tried to actually ask your GV, like, how would I do it? And Chad really is like, yeah, use, like, a headless browser. No, no. I was like, No. Like, that's not. Like, I actually want you to, like, go on a forum, find threads, engaging with threads, and then, like, do everything yourself from the browser and then spam about my product, and it seems like Comet can do it. I'm like, just the beginning so, but it's very promising. So that's like a quick, a quick you know thing that I've learned this morning.
+
+Speaker  106037:20
+I just did a purge, if all my subscriptions and perplexity, did not make the cut, but apparently, now, oh, really, now it's
+
+Speaker  108330:40
+back. Comet is actually, I think they released maybe, like, couple weeks ago, like, it's fairly new.
+
+Speaker  110282:40
+I was just, yeah, I have every one of them, and I'm like, I can't keep Yeah,
+
+Speaker  111322:40
+I know it gets it gets overwhelming,
+
+Speaker  112122:40
+because I read, actually the money too. But also I forget,
+
+Speaker  113136:00
+yeah, yeah, you the Pro Plan of perplexity. It, it looks like they have access to Chad, GPT five and sonnet 4.5
+
+Speaker  115744:00
+which is Claude. So, like, I don't know. But anyways, so no one else is coming fuck.
+
+Speaker  118341:20
+I mean, we're gonna share value no matter what. So, you know,
+
+Speaker  119317:20
+hope so
+
+Speaker  119589:20
+we've done our task, Belen, so, like, we're good, we're good Samaritans. So, you know, all right, so I'm just gonna, like, start quickly, and hopefully other people will join, if not fuck them. Sorry for the French. So me and and Damon spoke the other day, and we're doing two very similar things, which is spamming on Tiktok to promote our brands, and we've basically, I am doing more, like slideshow content, so photo content, and Damon is doing more video content. So we have like, two different approaches to this, but we have one thing that ties us both, which is the way, like we post the stuff we're using, like automated software basically to do that. So I just wanted to go through that a little bit, and then I'll give the word to Damon, and he can tell us more about the video generation. And then I'm going to tell you more about my slideshow generation. And then if everyone want to jump in and tell us what they do and or or if they have tips or other tricks that they learn. So we all share, you know, we all share, and we can understand more and learn. So the software that both me and and Damon are using is called gelark, which is a cloud phone software where you basically have, like, fake phones. You need to use proxies. I personally use mobile proxies. Damon use different ones. He can touch on that I found that mobile dynamic proxies are a little better since Tiktok is a mobile app, so people use it mostly like away and not really home. So like I found that process is usually better. And basically the you need the proxy to not get the accounts banned and get your views. And yeah. So basically the software, you can create new cloud phones, you can have, I actually am running 150 accounts right now for two different brands, and you can automate everything. With automation is actually fairly easy, like, it's a little bit of like JSON and to program like custom automation, but Gila coffers already pre done automations, so you can use that too. And basically you create these phones, you can, you can actually see them like, you can log into the phone and operate the phone from gilark, which is fairly cool. So some operations that you're not necessarily automating, like the account creation, for example, cannot really be automated because you don't want to be flagged as a bot. So you create like, you know, Google account, and that you do it manually, but you do it only once, and then once the account is ready and you have the Tick Tock account, you should warm it up a little bit by, you know, scrolling, looking at other videos. Again, this can be done manually or automated. So you can, you can, you can do that, and then once the account is warmed up, you start posting, and hopefully you get views. So, so, yeah, so I've been posting slide shows, mainly very spammy ones, and Damon has been posting videos. So yeah, so this is about gear. I think we're gonna, like, take questions after I know it's like, maybe unclear and stuff like that. So, like, we're glad to take questions. So this is, like the quick intro about gilark, and now I'll give the word to Damon for the video generation.
+
+Speaker  178864:00
+Yeah, hey guys, good to connect with you all. I think Patrick, I think maybe you and I connected in Milan, and your wife is amazing, like, Messi is so smart, and I've actually learned a lot from her as well. But yeah, as Sam said, I think that I don't know how many people in this current call. We've only got a dozen of us right now we're in Milan, but I made this big case in Milan that the reality of like social commerce is, is going to this big transition between like human players and non human players, right? And we've done a deep analysis on how much it costs to onboard like a sort of a human creator, and it takes a lot of time and a lot of effort. Right? On average, we for every one video that's posted by a human, we think it's about $86 right? We spend around $55 recruiting and onboarding and training and sending samples, paying for shipping, etc. The human creator, on average, it takes some three weeks to receive the sample test it, produce a video and publish it, and then we spend an additional 30 or so bucks promoting it through spark codes or GV Max, right? And the return on those on average is actually less than $86 our average return is around $68 for every human produced video. That kind of hurts, right? We're kind of losing money. We're losing, 20 bucks per creator that we bring on. So you know Alex Bonilla, who I really admire, another MDS guy. He put it to me this means like, do the age of sending out mass samples and hoping for a killer video that's dead, right? That's gone the we're now in the age of, like, taking control and producing content audit like through automations, right? So Sam is doing, and Alex Bonilla defends this as well, that slide shows are a really, really profitable approach for Tiktok, right? A they're very easy to produce and automate at scale, and maybe Sam can, can sort of unpack what that looks like on today's call. But also they, they're easy to implement, because you don't need a tick tock shop account. You can stand up a fake account, you know, warm it up a little bit, and start posting immediately. You there's no need to pass through any sort of credit card verification or or view viewer account, or any threshold, like a fresh account, can start posting slide shows, and that's really interesting, because they're non anchor content on Tiktok, right? So this is one way to sort of have this constantly running billboard of content that you control and you automate. So that's really cool. We're looking at it through another way, which is sort of beginning to replace what our human content creators have been doing for around the last 18 months with AI generated content. And there's a lot of different things that we're continuing to experiment with here. And at the risk of repeating what we talked about in Milan, I can walk through a little bit of those steps right now, and sort of elaborate on on elements that maybe we didn't touch on in Milan, or some new items that we're learning, right? But just like Sam correctly said in the beginning, like it's all about having accounts to post, right? So first starting with like GV lark, or glark, which is this, you know, mobile phone mod modulator, where you stand up these mobile phones and you connect an IP, like Sam said, he's connecting mobile IPs. We We have mobile IPs, but we're now testing static residential IPs to try to give to try, like another AB test to see if that's working. Unfortunately, the static residential IP seem to be backfiring. Because every time we sign in using the static residential IP, Tiktok views it as like on like, the same device, in the same location, the same time, right? There's not enough diversity in our connection with with Tiktok. So it's sort of signaling to Tiktok that we're, you know, we're using something that's maybe non traditional. Because if you think about how a normal think about how a normal, you know person would use their mobile device, well maybe sometimes you're in a coffee shop or a restaurant, or you're on the road, or you're in the waiting room in a doctor's office, so that your IP is always changing, right? Your location is always changing. And when you use a static residential IP, you're not that's not the case. So we're kind of learning the hard way. You know, which IP connections are best to allow your Tiktok accounts to to be picked up. So that's one thing. The other thing we're doing is, for, you know, glark is not cheap, right? Every time you sign in on the actual mobile device, you're you're burning minutes and glare charges in minutes, you like, allocate a certain number of cellular minutes per mobile device and and you start paying more after you cross that threshold. So we're trying to just like we do with AI with AI generational. I'll unpack with that when I mean in a little bit, but we're trying to do everything we can off glark first, and then just do the last mile on glark, right? So, for example, we try to set up our Google accounts off glark first. Set up a Tiktok accounts off glark first. You know, do all the editing we possibly can off glark first, and then just the last mile. We log into the mobile device on glark. We log into tick tock. We, you know, publish the the content, whatever it is, so that we're saving as many minutes as possible. We take the same approach when it comes to using AI generated credits, right? So Hedra, as you all know, or as you may remember from my presentation, is what we use to generate our AI frames. So we started really burning through some serious hedger credits. And we're like, well, because we were producing full length videos all in AI, right? It's like two minute, three minute long videos in AI, like, wow, you can burn through some serious credits that way. Well, we started to modify our our format so that just the first few seconds our AI, and the remaining is just like recycled content B rolls, stuff we scrape off the internet so that, yes, like the first few seconds, we get to hyper customize, like it's the talking head on a green screen, which you've all seen, and then the remainder of the video is just 11 labs voiceover with B roll Cut ins. That saves an enormous amount of money, right in terms of
+
+Speaker  283818:40
+credit. Have a quick question. Sorry to stop you. Don't you get flagged for like, duplicate content if you reuse like existing content? Yeah.
+
+Speaker  286570:40
+So we haven't come up against that yet. We're just like, downloading, like random B roll content off the internet from different websites, and like, scraping crap off of YouTube and, like, chopping it up and and putting in like, movie clips, for example, we use a lot of that, yeah, so we'll slice in like, like meme type movie clips, for example, which I guess, pass the test for recycled content, etc. So yeah, that's how we're, we're we're doing that to save money and get past the uniqueness filter. Let's see when it comes to how we're producing the the content we've been experimenting with with two different, I guess, approaches to to Tiktok profile warm up. So when I, when I talk about all this AI content we're generating, it's all being fed through Tiktok. That's all that matters. Just like Sam, we're trying to stand up as many Tiktok profiles as possible to get as much exposure on Tiktok as possible. Because of, like, the halo effect that I spoke about in Milan, we see around 61% increase, you know, for if something goes viral. For every you know, dollar that we earn on on Tiktok, we earn $1.60 off of Tiktok. It's pretty amazing, right? And so the delta that we've seen across, we've done the analysis to say, like, hey, in the trailing 30 days, what will what was our baseline for this? The Sales Day, we see around a 62% increase in sales. So it's worth our time and effort to publish all this content on Tiktok. So when it comes to Tiktok accounts, you know, just like Sam, we use glark to stand up the mobile devices. We we create our accounts offline, and then, and then turn them on, on glark, and then we start warming up the accounts, right? And the account warm up we're trying, we're experimenting with two different things. One is, we're trying to create a profile which is aligned with our own ICP, right? So for example, if you're selling to moms, you would ask the you would automate a warm up flow with Tiktok account to like, focus on mom content, whatever that may be like, what you know, type of search terms, hashtags, thematic videos a mom would typically look like. We would try to warm up the account with that so that when we do start to push out content. Sort of the Tick Tock algorithm already knows that this account is focused on this type of content. The other approach we're doing is just, like, just random, like we are just trying to get views, follows, engagements, etc, in the account. So when the account is ready to start publishing a content in our on our behalf, the account has, like, a good following, like, it's showing up in people's for you pages, right? So that all that matters for those accounts is, like the follower count, right? So those were still very, very early days. We haven't made a choice on which path to go, on whether, like, the very concerted ICP warm up path, or the doesn't matter. All that matters is, you know, viewer path. We haven't made that choice yet. So after, you know, a couple weeks of account warm up, the threshold, according to Matt Altman, is like, Hey, as long as what you're posting is getting at least 200 views, then your account has sort of passed the the shadow band test from Tiktok, and you're ready to go, right? And so then we start trickling in our AI content. And the way we produce our AI content is very, very simple, right? One is we download all of our shopper data from Tiktok and Shopify to understand who's our ICP, we run it through an LLM to say, Okay, please research the zip code data, the address data, the name, the purchase history, and give us the demographic profile of our customer. Who are they? What do they look like? What's their education level? Where do they live? Blah, blah, blah, because we want our AI avatars to reflect them. People buy from from people who are familiar to them, right? So it's a very simple one time thing we do, we extract, I think it was three months of data, maybe six months of data, plop it into an LLM of your choice, and it gives, gives your your demographic data. We take that demographic data, we put it into again, an LLM of your choice. Chad, GPT, perplexity. Grok, whatever. And we say, okay, great. Based on this demographic data, please create five influencer profiles that you know would relate, would relate really strongly to this audience. Usually it's figures of authority you know, it's someone who's a community leader or a nurse practitioner or a professor or someone like that, right? Because people I think relate really well, or they trust authority figures and so great. So then you have that description of who that ICP authority figure is then you put that into Hedra, and you say, okay, great, using the description, please generate a frame for me, and it spits out an image of a and and then you need to modify that a little bit. What we found out the hard way when it comes to image generation is that the background counts, right? You need a frame which is highly controlled and free of distractions. We first started with, like outdoor frames, right? And what's what's tough about that is, when the image gets animated, they start to move. Figures in the background, tree limbs start to move, and it looks very unnatural. Looks very jerky, and it just doesn't, doesn't come out well. So we try to keep all of our frames indoors, good lighting, highly controlled environment, like no distractions. And then from there, it's pretty simple formula, you know, you you basically feed into your LM of choice. Okay, here's my authority figure. Here's my audience now creates a script using the the sort of structure that everyone knows and loves, a powerful hook, a curiosity gap, you know, another hook, or a tease, the reveal, and then the CTA, super, super straightforward, right? And the way we're doing that right now is we've built an N 8n flow, which helps, like, give us inspiration for our script development. So we use n 8n to scrape common like forums and community groups, so Reddit and medium and Quora and other forums like that looking for keywords, right? So if it's a mom based video. Like, I don't know what it could be, back to school could be like a keyword set that you're searching for. So it'll literally scrape all of these different forums looking for back to school, and pull out, clean up, and ingest all the conversations that are happening related to your keyword set. Then it'll sort of analyze, okay, like, this is the like, the general sentiment of of the conversation, and then it'll it'll produce and suggest, you know, titles, hashtags, scripts, keywords, etc, that will then feed into your next video script flow. And that's what we've done. So I hope that, like, I walked a little like, in a logical way, but to read, to go back to the beginning and summarize, you figure out who your ICP is through sales data, you generate a like an AI avatar who is reflective of your your audience. You put that avatar in a frame which is very controlled environment. You generate scripts through content scraping, through forums and discussion boards and blogs. And then you automate the generation of your script, which produces your your video. If you want to save on credits, you just animate the first 10 seconds or so of like a talking head. And then you use a green screen effect to drop in B roll and scraped content like movie clips and stuff like that. So that's it in a nutshell, and then you automate the publication through glark. Yeah.
+
+Speaker  414010:40
+Thank you. Thank you, Damon, for all this I'm just gonna add. So the what I do, since I do slide shows only is fairly different. I think Damon does way more, like scraping and research. I actually for my for my inspiration. I do it way more, I think, way more human. I have, like, a few creators that are fairly good, that create content, and then the content that works for them, I just duplicate that. So mine is like a duplication. So I have three slideshow creators, and the one the slide shows, they're actually doing well, I basically just duplicate them with AI. Basically I create a prompt for each image that is very, very detailed, which produces all different images. So all the all the posts are fully unique, but they're the same. Like, they're almost the same. Like, if you look at, you know, 100 of my first slide picture, they look all the same at a glance. But when you look it's kind of, you know, like when you were a kid and you were playing, like, find the differences in two photos. It's kind of like that. So like, so they're all unique. And to pass the, you know, unique filters that Tiktok is actually very, very strict on that, I think Instagram is less strict on that. I've seen tons of accounts on Instagram posting the same exact video, and they're fine, they get views, but on Tiktok, if you post the same content I was doing with videos in the beginning, reposting some like, spammy stuff to get followers, and Tiktok was blocking because it's not unique. So if it's not unique, they're like, no, they're just like, ripping off other people content, and I don't want that. So, yeah, so basically, my flow is taking the creativity from actual three creators, the winners, I just figure out how to make prompt. I built like a custom GV to actually make the prop. So I just upload the image and it makes the prompt, and it's very detailed. And then once you have that, you just can, you know, batch, generate as many images as you want, and then you batch, you know, schedule them on to be posted on each account. So basically, that's like the flow in a small nutshell. And yes, that basically, that's the, I know it's like, if you never like done, this is probably, like, a little bit confusing, and you probably have questions. So I think we can maybe take, you know, some questions and then have a more open discussion, kind of kind of deal,
+
+Speaker  457781:20
+silence,
+
+Speaker  458629:20
+I think I like usually use some visual cues to help walk people through this, these, like rather convoluted processes. So I apologize if I wasn't super clear with my walk through.
+
+Speaker  461514:39
+I think everything was clear Damon,
+
+Speaker  463434:39
+or people are, Patrick, ask something, I
+
+Speaker  464239:59
+see you. Yes.
+
+Speaker  465200:00
+Thank you, Bob for sharing your processes. I actually am thinking of the mix of both techniques, basically, type hand hang on the account goal, let's say, had I had a few questions for you to how you how Do some specific things. So Sam, how much manual time who need to split behind on the hike, weekly or monthly biases, to feed your system that information from those creators so you can make sure that you have enough content that you can post and run the system of your accounts.
+
+Speaker  482384:00
+Yeah. So basically, what I do is usually, like, each week, I pick, like the top two or three performing slideshows from my creators, and then once I have that, that's basically the weekly content for all the accounts I am testing to actually do accounts are more focused on one specific like kind of post. So it's kind of almost like an identical post, just like spammed, because I felt like Tiktok can target. Let me explain in a different way. So if, let's assume that I sell, you know, garlic press, right? And I'm talking about how to use garlic in a pizza, right, Tiktok will, will direct me to people that like pizza, right? But then, like, if my other post is garlic for I don't know chicken, right? Maybe, like, the people that like pizza don't like chicken, and so Tiktok doesn't know who to show. I don't know if this example is good, but like, I hope it makes sense, but like, Tiktok doesn't know where to show the post. And if it doesn't know where to show the post, you actually get lower views. So I'm trying this again. Is a test, and what actually freaks me out as a slightly Asperger person, is that there's no there's no pattern, right? Like I have some accounts, like I have 150 accounts, some accounts are making 1000s of views, and some accounts are making 200 views and the content is the same. Hello. So, so, yeah. So, like, it kind of, like, drives me crazy, because, like, I'm like, Why does one account make 1000s of views and the other one doesn't when it's literally the same content is a replicated content, like, it's, find the difference kind of content. So, like, what, what's, what's the pattern? And I didn't find it yet, but it's definitely so I was testing just like, hyper, focusing on some, you know, a specific kind of angle, right? I've seen this in the in the top creators, they're like, manual, creators, like real, real humans. Creators, I've seen that the most successful accounts actually do that. So like, they have one angle, and then they post it for a while, and when it stops working, they change angle, but then they keep that angle, and they keep, like, spamming that angle for like, a month. So I'm trying that. But in general, how much time I dedicate towards, like, sourcing the content is not a lot. And honestly, I try to, I schedule all my posts, like once a week. So I do the whole generation and the whole, you know, scheduling. I do it once a week. And honestly, like, I automated most of it, so it takes me probably, like, half an hour a week to just do all the automation. Yeah, and the picking of the post. I mean, you see the ones that have most views. So I have three creators. I have like, 5000 right? So, yeah, it's a different approach than Damon, because Damon does more, like, of a scraping and research. I feel like maybe his approach is better, but I didn't think about that. So, you know, my mind might try that too.
+
+Speaker  533525:20
+I had a question about the format of your generated content. So we've seen different types of slideshows perform differently. One type of slideshow is like a, like a cartoon, almost like an animated, oh yeah, I've seen like, like a, like a comic strip, you know you'd see, and those are performing well. And those are very easy to generate, like we seem like we started generating ones that mimic Rick and Morty, for example, yeah. Other ones are like, hyper real. Hashtag,
+
+Speaker  541594:40
+copyright, yeah.
+
+Speaker  542554:40
+Others are are hyper realistic. And what we've heard from other creators is like, Okay, you start, the first image is either real or a like, a like, a photo realistic, AI generated image, and then the rest images can be whatever. What type of like? What style are you using for your slideshow creating?
+
+Speaker  547856:00
+So I never tried the cartoonish style. I've seen it. I've seen it. I did not try it. I'm doing hyper realistic with actually a focus on so my very first when I, when I first started doing this, which was like mid June, I started generating hyper realistic photos, but they almost looked like stock pictures. And actually that doesn't work at all. Like, if you have a stock picture on a slideshow, people are like, stock picture away. So like, if it looks professional is not good. So I literally spent hours on on, trying to with Chad, GV, trying to find a way to make prompts that basically include defects that you would see enough in a phone taken picture. So I basically tell GV, do the picture of a girl, blah, blah, and make it look shitty. Like, that's like in two words, right? Like you actually, but you actually say it, how to make it look shitty, like, I don't know, pores on the skin, like imperfect skin, non edited. Then you use some, some like, specific terms, like you say, use, like an iPhone 13 camera, right? Have, like, an imbalance in light and blah, blah one. And what I do when I generate, when I have new posts to generate, right? I do the testing a little bit so, like, I test the each of the each of the prompts, I test them. First, I see what the result comes out. And until I like it, I keep like, refining it right. And then once is is good, then I can do, you know, times a billion,
+
+Speaker  574090:40
+that's awesome. And do you, do you use your credits just for the first frame? Or do you do all? Is it five images.
+
+Speaker  576288:00
+It depends. It depends. I have slides, so I do two things. So I have one type of post, which I call normal. Is like all AI generated images I can do. I mean, it doesn't matter, depends on the post. So some might have four, some might have 10. It depends. Obviously the 10 cost more than the four, right?
+
+Speaker  582149:20
+You see, perform better than the other. Sorry, it
+
+Speaker  583221:20
+really depends on the type of story, right? So there is, there is some posts that are like, longer, like, longer call to action. So they're very like, kind of like, I have a poster is like, about weddings, and like, things that we did in our weddings, right? And you're like, you know, and I sell fucking supplements, so you're like, what the digestion supplement? But like, you actually see, like, the flow of the story. So that has more slides. But then, like, for another company, I have a, you know, a picture of a dermatologist next to Taylor Swift that says, I'm the dermatologist of Taylor Swift, oops, and, and, and then the other slides. The other slides are, actually, that's what I call like product post, which is basically like a list of products. So it's like, I'm the dermatologist sales Swift, and I, you know, this is the stuff like I recommend to all my clients, right? And then there's a bunch of products. The only thing I gender to make them unique is the backgrounds, and I generate it with like flux now, which cost nothing, and it's one background for each of the images. So it's like the copied background for each of the images. So I just Jen the background, and then I have a script that pastes on top the products and the basically, like, almost like an overlay. And this I do also one
+
+Speaker  606218:39
+color, yeah,
+
+Speaker  606538:40
+it's not one color. It's like, it's usually like some, like, some gradient, yeah, a gradient, or, like, some elements, not just like a color, but like, I try to make it like a little bit you see them honestly, if you see product post, they have those shitty backgrounds. So just like, go and copy those. And yeah. So basically, what I do is, once I generate all the images, I have a script that puts on top, like the text overlays, if I need to put any or the product list or whatever, and then sit in the images ready.
+
+Speaker  615221:20
+So these products that you put, yeah, that's amazing, the products that you put in, in, I've seen these as well. In fact, there's a brand out there called Primal goddess, I think that does exactly this, like just 1000s and 1000s of of slide shows, which is the images. The first image is always like a doctor or nurse or someone of medical authority. And then every single slide after that is other supplements. And they they just sneak their supplement in there, so that they put random competitors in there, random brands or whatever, to try to make it look more unbiased.
+
+Speaker  625904:00
+Yeah, real, yes. But
+
+Speaker  626256:00
+what do you put in your slice? Okay, so Taylor Swift, these are all what I recommend to, like all my clients, your product is in there, or they're all your products. No,
+
+Speaker  628560:00
+no, it's one out of many. One
+
+Speaker  629088:00
+out of all, okay,
+
+Speaker  629311:59
+yes, but this usually, usually, what I do is, I'm the only supplement, so at least like, I don't actually promote like or, I mean, the only digestion supplement, right details with is not for digestion supplements for a different product, but whatever like, I try to be like. So it's, I don't know, a face cream, and then, like, a shampoo, and then, you know, a supplement, and then, you know, AI sponge, whatever, yeah, so, like, that's, you know, like, I try not to directly go, you know, put traffic on, on, on similar supplements, because someone, like, someone is not going to buy 10 supplements, right? Somebody's like, oh, cream, that's, that's kind of what, what I do. But, yeah, I sneak it in and it looks like it's one of them
+
+Speaker  641840:00
+and about and the you said, the the background generation tool is flux AI, flux one lxgnelle, flux
+
+Speaker  643712:00
+Schnell is like, the cheap is like, less than a cent an image, I think. But background that doesn't, you don't need, like, you know, I'm Jewish, so I try to save on everything I see, so that, you know, Google, Google, Google, nano banana is four cents an image. So fuck that for the background, that's the same. But, yeah, let me, let me see the question that FAQ posted, so put it on the comments. So can we also get some trending slideshow inspiration? For example, if you want to post a bargain at press, can we find relevant slideshow examples, use them with AI to generate prompts and then start creating our own slideshow? Okay, so for inspiration, I think, like Damon has like, a more complex flow with that, I what I did in the beginning, before I hire, before I gave up, honestly, and I hired, like, three creators to actually create content. Because I'm, like, so bad at doing this, I was trying to find on Tiktok, like other slideshows, the best way to do is you basically have a tick tock account on your phone. And I don't use tick tock, I hate it, but really, but basically, like you, you you swipe before you page, you search for keywords, and then eventually, like some other companies, slideshow will pop up. And tick tock is pretty good at, like, optimizing the content for what you like and what you consume. So that's how I found the first ideas. I found it like that because with the keyword, search is not really that great, especially for slideshow so slide shows is more like a for you page kind of thing, and you want something that is recent. Because if there's something that was like, used, you know, and went viral, like, a year ago. It was already seen. So, like, it's not, it's not something you want. But after trying that, I kind of give up, because it was actually a lot of like work, and I would rather use my time differently. And it's not really easy to have a VA do that because, like, you need to actually have a brain. Sorry, but, but, yeah. So, basically, so, basically, I just hired three creators. They're doing the stuff. I see what works, and then I replicate that. And Damon has a different way to find viral so maybe I can,
+
+Speaker  681205:20
+yeah, well, it's actually exactly the same with some additional efforts. So this is at in Milan. There was like a hack, like three minute hack competition, and that was my hack, actually. So the way that you have to understand how the Tick Tock algorithm works, it's time on screen, that's it. That's the one attribute they look for. So the longer you linger on the screen, the stronger the correlation that Tiktok algorithm places against that content. So exactly as Sam says, when we look for viral AI video inspiration, we stand up a fresh Tiktok account. We go to the for you page, we start swiping so we find an AI video, then we stop, and we watch the AI video all the way to the end, sometimes twice. And then you keep going, and you keep swiping until you find another AI video, and you linger on it until the very, very end. And after, Gosh, 510, minutes of that, your whole feed is pretty fast. Nothing but AI videos. It's so fast, right? And it's amazing. And you can, you can do this for many things. You can stand so then you stand up a fresh Tiktok account and you train it for whatever it else you're looking for. So maybe you're looking for slideshow content. You have one profile for slideshow content, one profile for AI generated video content. Maybe one is for like competitor products. You want to see what your competitors are doing, so you just like linger on your competitor products and train another profile for that. It becomes amazing content discovery. Because, for some reason, the Tiktok algorithm is so smart and so sophisticated that even if there's no hashtag, even if there's no description, it'll find content that is, like, super deep and super relevant. It's really, really cool. Yeah,
+
+Speaker  708096:00
+they actually when you actually post something, if you notice, like, when, I, when I am about to, like, post my manually a slideshow. The song that is picked is usually relevant to the slideshow. I don't know if you ever noticed that that's like, so creepy, yeah.
+
+Speaker  712437:20
+So with, I think Instagram does something similar as well, yeah.
+
+Speaker  714373:20
+So they definitely understand what the content is about, even even without hashtags, even without,
+
+Speaker  716074:39
+yeah, exactly.
+
+Speaker  716666:40
+And I heard another person suggest something similar. It's like, if you just want to know what's trending, like, Hey, what's going viral right now, there are two things to do. One is you just kind of, again, linger on viral content, but also you start following profiles who promote tips and tricks as it relates to viral content, and that can be very helpful as well. Yeah.
+
+Speaker  723344:00
+Any other question? Damon,
+
+Speaker  724368:00
+which software do you use to merge the different scenes of your vJ to your home, your host into the final video with them. Yeah.
+
+Speaker  728165:20
+Great question me, so we've tried, we're exploring, is it FFmpeg to do that? It's a little bit complicated. It's not like an off the shelf product you can just start implementing. There's a lot of development that needs to go into it. So right now, it's very manual. Unfortunately, we're using Sony Vegas. I think do that. We've got a guy in Venezuela that is, that's what he does. Okay, yeah,
+
+Speaker  734698:40
+and and honey in contents. And can he produce per die days or like, how is the scale of your relations and and honey contents? Do you go to Han Ibo basically duplicate across the different accounts?
+
+Speaker  741376:00
+Yeah, it's not scalable right now, and that's exactly why we're trying to use other, other automations and systems. We like, we spent a day just producing AI content from scratch, like from, you know, generating the script to generating the frame to stitching all together, and we got six in a day, right? Full length, 100% AI videos. So that's not super scalable, right? And that's like his time dedicated right? Now, we're building out automations to try and do like, the stitching together. So our idea is kind of like what I would assume was what Sam is doing. We upload a bunch of content to a folder, name in a certain way, name the file a certain way, and then we run some sort of batch operation that was like, pull, you know, the different pieces together, stick them together, and then produce, like an an output that needs very, very little manipulation. We're not there yet, but that's like the next step in our journey. We're still very, very early in our journey.
+
+Speaker  758805:20
+What I actually did in terms of video, my first video content generated because I also want to obviously try and and especially, I wanted to try Instagram reels, because it looks like the Wild West, like they're way less they're way less strict on, like, duplication, and you get more views. It's easier. So, or at least for now, I have like, two accounts on Instagram, so I don't know yet, but, you know, I'm scaling that. What I did for videos, I tried to think with what I have now, with the process, process that I have now, like, what's the closest thing I can get to a video with the content that I have now? And basically what I did is, so right now I have a slide show of images, right? And those are already generated. So every week I generate, like, a bunch of them, so I already have them and paid for it, right? So I can reuse these images for video. So what I did is, basically I just did a talking head, kind of talking head that speaks and basically, almost like tells what it should be on the captions, on the on the text overlay, on the images. The images do not have a text overlay. I have the overhead and the and the subtitles. That's a video file with green screen. So basically, I just have the talking head and the and the in the subtitles, and then on the background, I stick this is all automatic, so, like my script goes and takes the pictures that I previously generated for my slideshows and puts them as background, and boom, I created a video for free, and the talking head says the same exact thing is the same exact file. So, like, the video part is just my backgrounds that are generated with AI and mass generated I already paid for. So it's literally, like free, and I have videos now. And
+
+Speaker  788528:00
+the talking hand you just take from Hey Jen, yeah,
+
+Speaker  789328:00
+I just generated on Hey Jen, or any other like talking head software, it lip syncs is the file is basically, is a talking head speaking in front of a green screen and then have an FFM, ffmpeg, I cannot pronounce the fucking name, Peg script that basically substitutes the green screen with the photo that I already have generated and I already paid for. So, yeah. So this is just, like, some, some trick I'm trying to, you know, like I'm trying to do things with, like, the minimal expense and the most return. So, so, yeah. So this is, I feel like it's a good way to use content they already have and pay for for two purposes.
+
+Speaker  802912:00
+Do you do? Who and any of you do also post on other social media sites? And if not, why not?
+
+Speaker  805589:20
+So right now, I just had time to, like, develop the Tiktok first. I did my whole development myself. So I'm, like, a crazy person that likes to work 16 hours instead of making other people work. Okay, but, but yeah. So basically, I did Tiktok just because, I don't know, I found people that were generating content on Tiktok. Well, posting content on Tiktok, they were real content creators, and it was working in other companies. You know, I saw success in other companies. So that's what I started with. Now, doing Instagram. I think once I have the and by the way, I didn't do Instagram before because of the image content. I only had image content. If I post slideshow on Instagram, nobody sees them. The only thing that is pushed to to audience on Instagram are reels like my girlfriend. She's super hot. She posts, I know, she posts her pictures on Instagram, nobody sees them like she has zero, she has zero, like non followers engagement, but the reels, they get seen a lot because Instagram pushes it. So I think I needed the videos for the reels, and I did not have the the automation of creating the videos. But do you starting
+
+Speaker  828186:40
+modify your Tiktok content for Instagram? You just repost the exact same thing.
+
+Speaker  829770:40
+So for now, I have posted the video content only on Instagram for now, but I'm creating new accounts for Tiktok where I'm gonna post the video content, and they're not different, they're the same,
+
+Speaker  833792:00
+yeah, when we do to answer your question, Patrick, we don't do Instagram now, but I'm inspired by Sam, what we do use is YouTube, Actually, yeah, because the way YouTube service surfaces content is very different than how Tiktok does it. YouTube does it by language, not by location, right? So as as you would Messi know, like getting the Tiktok algorithm to think that you're in the United States is a tricky project to conquer, right? And we're still working on it. Unfortunately, still a bunch of our stuff is showing up in other countries, but YouTube is easy, like, if it's in English, it'll show up in English speaking countries, majority USA, right? So we do shorts. What we're doing, no, not shorts. In fact, we should. We're doing is we're using extra credits that we have left over from like 11 labs. So we have so many credits on 11 labs, right? So many. So we do is we take a bunch of our our excess content, blogs, press releases, information that we've sent out over the years, and we just convert it into like a super long format, like podcast style, and we just burn all of our extra 11 labs credits and post it onto YouTube as a long format video. We don't there's no video, right? It's just the 11 labs, like 10 minute long podcast with a static image. And all the views are USA, which is awesome, which I think is like, a very good use of extra credits.
+
+Speaker  858277:20
+Do you actually get like views on video, on these like, videos,
+
+Speaker  859386:40
+yeah, yeah. Surprisingly, so
+
+Speaker  860010:40
+that's something
+
+Speaker  860266:40
+do you need to warm up YouTube as well before you start using it properly. Like Tiktok?
+
+Speaker  861674:40
+No, we didn't warm it up at all. Just checked, like a bunch
+
+Speaker  862554:40
+of I honestly feel like Tiktok is one of the toughest of
+
+Speaker  863722:40
+it's getting exactly, yeah, because probably
+
+Speaker  864576:00
+it was, like, abused way more than others, I would assume, yeah,
+
+Speaker  866896:00
+yeah, sorry, only in us tick tock, or are you also using, like, other tick tocks for products?
+
+Speaker  868752:00
+I just do us, because I only sell in the US. So like, I don't, and my views are like 99.5% us. So like, it's, yeah,
+
+Speaker  871573:20
+because you're US based, right? Yeah, you're like, I'm using,
+
+Speaker  872773:19
+like, gilark. So like, I could be Philippine based. I'm using mobile proxies.
+
+Speaker  874549:20
+Speaking of Gillard guys, how do you set up the Google accounts without being flagged? And I am now also looking at you, Damon, maybe even setting up Google accounts, right? Do you because we know that you would need to be in the US. So when it's on Gillard, like, does that work different? Or, yeah, how does, how do the whole Google account?
+
+Speaker  879834:40
+So what I'm gonna, I'm gonna take it first. So what, what I did, they actually set up because I want, I my VA, does this? Like, sets up the account, but obviously I need to give her something that works. In the beginning, we actually set them up through key Lark. So it was like, through key lark, really, like, ignorantly set them up from the phone, opening the, you know, Gmail, and set them up from there.
+
+Speaker  887253:20
+Very important. My
+
+Speaker  887605:20
+vJ is in Egypt,
+
+Speaker  888005:20
+okay, okay,
+
+Speaker  888277:20
+but it does with the mobile proxy. So, like, it's a it's an IP, it's a American IP with a phone, right? But the thing is, then, gee, Lark started basically the phones on Google, on the phones on gear arc started saying, like that doesn't even allow me to actually create the account. And so what we did is we did it manually from a computer using the same proxy that we will then use on Git Lark. And I did it like yesterday, on on my on my computer. So I use the proxy. I connected the mobile proxy on my computer. I manually created the Google account. It asked me for an SMS. You there are some websites where you can put like a goodbye, phone numbers for the SMS.
+
+Speaker  900608:00
+Which side did you use? Which side did you use?
+
+Speaker  901344:00
+There juicy SMS, but it's not, it's not great, but it works sometimes, like you might need to do like a few tries, but that's what we've been using so far. But I'm sure there are others and probably better. And then once you create the account, then you log in on key Lark with that account, and that works. And then you create the Tiktok account from the continue with Google kind of thing. So the and that's actually a way better way to create Tiktok accounts through Google, because I feel like they ban them way less if you do that. But
+
+Speaker  912304:00
+then when that you already do on Gilad, right? The Tick
+
+Speaker  913936:00
+Tock account creation? Yes. So the Tick Tock account creation, I open gear, lark, new phone, new profile, I log into my Gmail that I created with the computer with the same proxy, and then I open Tiktok and I do continue with Google, and I sign up with Google, and pro tip you then put a password on the Tiktok account so that you can log in the Tiktok account without Google, because sometimes the Google gets banned, so you don't want that I lost, like, few accounts like that, and I was like, fuck, I should have put a password, but, yeah, so just put a password.
+
+Speaker  924554:40
+That's a great tip, because we lost, like, so, you know, messy we we got banned this week. Google caught on, and it's like, now doesn't allow us to create any accounts, and because we lost a bunch of Google accounts, now we can't when I we lost a bunch of tick tock accounts.
+
+Speaker  929296:00
+Yeah, so if you put the password, you actually skip this problem, because then you log in tick tock with the password, right? Amazing. And it doesn't matter if your account, Google account is banned, like you can trash it, right? Nice. And that's, that's a pro tip that I learned
+
+Speaker  933813:20
+the hardware, yeah?
+
+Speaker  934101:20
+One actually was like an account that was doing like 1000s of views. So I actually got pissed, because those are rare, yeah,
+
+Speaker  937125:20
+how many
+
+Speaker  938069:19
+accounts the whole you have per phone number that you create with the juicy
+
+Speaker  939434:39
+thing, I have one I have one account per phone, one account per phone. The SMS is not the SMS is not always needed. Sometimes you create a Google account and it doesn't ask you
+
+Speaker  943194:40
+for a phone. Okay,
+
+Speaker  943626:40
+it's random. Never understood, you know, as a burger pattern. But
+
+Speaker  944656:00
+then if it asks you only connect one phone number to one one Google account, so you basically had, yeah, you
+
+Speaker  946400:00
+just like, request a new phone number on on juicy.
+
+Speaker  947328:00
+And how much are the phone numbers? $1.50
+
+Speaker  948592:00
+per text. So it's not, you don't buy the phone number, you just buy, like the text, the verification text, that's
+
+Speaker  950293:20
+it. The
+
+Speaker  950661:20
+demands of text you buy, basically,
+
+Speaker  951237:20
+yeah, you buy, you buy the Google text, that's it. And if it phone doesn't work, you can do a skip number and give you another number until it works.
+
+Speaker  953541:19
+Okay, it's fairly easy. Okay, something cool.
+
+Speaker  955274:40
+Have you guys Brian Kelsey at all about he's doing some of this.
+
+Speaker  956378:40
+Oh yeah,
+
+Speaker  956746:40
+yeah, you might have just his. I was on a call with not him, but Brian, about G Lark yesterday. And some people are having issues with Google setting up accounts, and some people weren't, and it's just, it seems like it's a bit of a, maybe a bit of a crapshoot, or where you're coming from. I'm not using G lark, so I was sort of half paying attention, but might be worth, you know, reaching out to him and just comparing notes, yeah, but for the slide shows, are you doing? Are the are the slides automatically moving? Or are people literally or is it ones where the people actually swipe
+
+Speaker  968485:20
+on Tiktok? If you don't press anything, they automatically move, but you can swipe,
+
+Speaker  969749:20
+oh, it's the same thing. Oh, that's how I know. Yeah, I've seen
+
+Speaker  970778:40
+you don't pick that's just
+
+Speaker  972474:40
+how difficult photos and not the automatic video that moves right?
+
+Speaker  973722:39
+Yeah, no, yeah, it's photos. Yeah. Okay,
+
+Speaker  974666:40
+yeah. So I'm not making a video of seven images that move no
+
+Speaker  975882:40
+slideshow with like, you know, six images. That's it. Gotcha guys,
+
+Speaker  976912:00
+I've really got to run. I got to, I guess I had 1212, hours of meetings today. I'm late next this is awesome. Sam, thank you for inviting me to your group. It's great, messy and Patrick, good to see you guys again.
+
+Speaker  980448:00
+Yes, thanks for taking the time.
+
+Speaker  980976:00
+Yeah, thank you guys. Drink
+
+Speaker  981312:00
+plenty of water and caffeine. There's
+
+Speaker  982261:19
+no no time. I don't know, bathroom breaks today,
+
+Speaker  984389:20
+alright? So, I mean,
+
+Speaker  985253:20
+if, if anyone has other questions, I can definitely answer and help.
+
+Speaker  986789:20
+So I mean, that's, that's that's something we briefly touched based upon yesterday, Sam, but maybe somebody else also has some ideas about the tool like this. And essentially, the images went away. But I've been thinking a lot about how, how to best kind of collect all the best practices around hooks and content on Tiktok, and, you know, just kind of bringing it into a master file so that the AI can learn what are the best and most viral hooks and content that that our niche is posting, or when it's not even about our niche, just just general hooks and content that goes viral, right? And I think, like I shared that one account with you. I don't know if you've had a look or not, but like the stuff that she shares, it's really golden in terms of how to go viral, but she says so many things that it would be great to kind of just have a tool that you can really teach the AI all these videos and read the videos and read the screenshots that are on the videos. So would you guys have, like, any idea a if there's a tool out there that kind of can collect it all and really learn from it? So, yeah, what agent we could kind of create for this kind of stuff? Because I think so
+
+Speaker  1007210:40
+there is, there is a, I'm not sure if could serve this purpose, but I think it would. I think it's called 12 labs, not to be not 11 labs, 12 Labs, which is actually an AI that understands the videos. So it understands the videos, it looks at the images, it hears the sound, and he understands the video. So I think you could use that to actually put, like, a big I used it for a different thing. I used it because I took some I sell Italian food, one of my brands, and I took some videos at my suppliers back in Italy, and I had like, a bunch of like clips that were like, all over the place. And I basically wanted, like, to create a an agent that could classify all these clips and tell me, okay, this is a good hook. This is a good that. This is a good that. So, like, I used it for that, but it's a tool that understands the videos. So if you, I think you could use it like, I don't have an SOP, I don't have, like, an agent that does that, but I think you could look into 12 labs and and try to have it analyze all the files. Okay?
+
+Speaker  1028256:00
+Because I know that Poppy is actually really, really good in bringing in, like, all the different content. You can bring in videos from YouTube and Instagram and Tiktok and everything, and it kind of like, is a Miro dashboard, and then you can, do, you guys know puppy AI,
+
+Speaker  1032789:20
+I don't, but I'm gonna,
+
+Speaker  1033317:20
+it's a really, really cool tool, but it's like, I think 700 bucks or something like, you can, you can only have a yearly subscript. Yearly subscription, and it only has, like, limited credits. And I don't know you know how much you can actually use of that, but basically what you can do is you can bring in all kinds of data. Yes, yes, yes, yes. You can bring in it looks super spammy, but basically, imagine a Miro board where you can pull in, like, all the videos, and it kind of like, like you can, you can link different sections from from documents and best practices and whatever you have, and then make the AI kind of learn, okay, this is, this is what I what I have as my ground source of data. And based on this knowledge, I want you to create this and this and this, and you can choose which LLM you want to use for creating the content or writing or whatever. The only thing that it doesn't do is actually creating videos for you. So it like creates all the scripts and everything. But yeah, I mean, just to test it, like they don't even have, like, a testing phase or whatever. And then
+
+Speaker  1052122:39
+I think, yeah, it says, like, 30 days risk free. So I'm not sure if they refund you. It says, Oh, I just saw it.
+
+Speaker  1054026:40
+Then they changed it, because when I last checked, they didn't have any
+
+Speaker  1055082:40
+if you have, like, a $750 a year
+
+Speaker  1056378:40
+Software as a Service, and you don't give a free trial?
+
+Speaker  1057328:00
+Yeah? That's why, that's why we also didn't put a plug, because I was like, just for testing, yeah,
+
+Speaker  1059184:00
+well, if you get to try it, definitely let me know, like, I have, honestly, like, a billion things on my plate. So I opened it, but I know it's gonna stay there for a little bit. That's why I hired the creators, because I feel like they would do the creative job better than me. And these are creators that are working also for other brands, so they kind of like follow the market. It's manual. Obviously it's not automated at all. But, you know they Well, the good ones are maybe, like, from five to $700 a month per creator, so it's not cheap. And I feel like, if you only have creators, it doesn't make sense, but if you duplicate, and then you have way more reach, then it makes sense. You don't know I'm duplicating their shit. So, like, they
+
+Speaker  1073344:00
+how many videos do they post per month?
+
+Speaker  1074160:00
+It's one, one post a day. It's slide shows. But once, one, one post a day, okay?
+
+Speaker  1075584:00
+And they only do slide shows, not videos
+
+Speaker  1076144:00
+only slide Yeah, but because that's what I was duplicating. So like, I could hire some creators for video. It's just video is, like, a little bit harder to make it with my process. If it's not talking head, you could do it. It's just also, like, more expensive. You know, you do three is just more more expensive. The slides are four cents a slide, so,
+
+Speaker  1082053:20
+make sense? Awesome.
+
+Speaker  1082533:20
+I just put in the link in the chat, this echo tick. I'm not sure if you've heard of it, I'm I'm still messing around with it, but I think if you like, use that code, we both get something. I don't know what exactly, but if you want to mess around with it, and it's billion
+
+Speaker  1086586:40
+dollars, yeah,
+
+Speaker  1086922:40
+it's super cheap compared to, like fast moss and
+
+Speaker  1088480:00
+all those, did
+
+Speaker  1088992:00
+you use it already?
+
+Speaker  1089264:00
+I'm using it a little bit. The thing that I actually really like about it is they have a video generate or a script generator that seems to be really good. And it's, it's, I spent a lot of time yesterday using Manus to try and dissect it and use like they give you the opportunity to use their AI, and so I'm trying to potentially recreate their, their script generator, because it's, it's really good, or the video ideas generator
+
+Speaker  1100314:40
+is really good. How does the video idea generator work? Do you just give them the product that you, that you have, and then it generates?
+
+Speaker  1102426:39
+Or, yes, so it'll like, literally, the video title you give like what you want the video title to be target users, video purpose and English or language. And then here I'll do it with mine. Save money on drinks using
+
+Speaker  1109151:59
+sunscreen glass AI, at music festivals and sneak booze.
+
+Speaker  1113461:19
+Target users, I do 24 to 49 party people see if that works, and then brand awareness. Sorry, my the Chad is on. I mean, the I'd share my screen, but I'm on my iPad, on that and I'm on my computer. So rather than me reading, I think it'll give me 10 ideas. Let's see it's printing out right now,
+
+Speaker  1122704:00
+07, AI surprising
+
+Speaker  1125152:00
+here. I mean, I can it'll be crazy long, but I'll put it in the in the chat, just to see I was messing around with it yesterday, and because I'm trying to create this on my own, I have a screenwriting background. I was a screenwriter on sitcoms for 15 years, and I'm trying to figure out a way to create, like, recreate my brain, kind of like using n 8n and like using creating separate Like nodes in n 8n with AI for very specific parts of writing a script like, I don't want to just say, write me a script for this product. You know, I want to say, like you are an absurdist or whatever, and come up with 10 ideas to put this product in absurd situations. And then it goes to the next chat, or, you know, AI bot that will sort of polish that, and then the next one will add stuff to it, and then it'll add stuff to it. And, you know you're, like, one is you're, you're, like, very high you spend a lot of time, you know, all the cultural nuances of 18 to 25 year olds. You know you're, you're, you're up on all the lingo and whatever, which I'm obviously not. And then so I say, you know, like, add that flavor to it. And so it's like, you know, it might have, like, right now, I think I have like, seven different, basically, people that the idea goes through before it finally gets to, like, the pro writer that will put it all together. And I'm still, I'm still working on it. It's closer. But I'm I keep telling Brian Kelsey, I'll have it done this week. I've been saying that for about two months.
+
+Speaker  1160949:20
+Do you Do you know if this, like script ideas are coming from, like, analysis of the videos that are trending. Yeah. So this is actually, I think, says
+
+Speaker  1165146:39
+this tool is developed by echo tick based on big data and volcano engine, dow by large model. I don't even know what that is. It aims to help a according to the video theme, target audience and other information provided by the user, combined with AI, with AI algorithm, it provides 10 short video ideas and creative suggestions related to video team. I was reading this yesterday. It definitely says that it takes in the I of, like, what data they're getting?
+
+Speaker  1175173:20
+Yeah, I'll definitely, I'll definitely give it a shot for that sounds really good. I did, yes, yeah.
+
+Speaker  1176949:20
+Which sits sitcoms did you write? Chad?
+
+Speaker  1177669:20
+Well, I always say, if there were any of the really good ones, like, you wouldn't know you wouldn't know me, because I wouldn't be selling products. But I worked with Christina Applegate. I worked on a sitcom with her for two years, and then Fran Drescher, I don't know if you know she was the nanny, if you ever watched that show, like, way back. Yeah. And then my binge
+
+Speaker  1185088:00
+watching TV time when I was like 10 or
+
+Speaker  1185920:00
+at
+
+Speaker  1186224:00
+home and I could watch the nanny, yeah, yeah.
+
+Speaker  1187568:00
+Unfortunately, the show I worked on, it wasn't that as popular as that show, but, and I did a lot of work with Norm McDonald he was a comedian. He used to do, like the Weekend Update on Saturday Night Live until he got fired for making too many OJ jokes back. That's how old. That's how long ago it was. So, yeah, it was, it was, did you, surprisingly, not as fun as it should have been very stressful and annoying most of the time,
+
+Speaker  1197226:40
+all right. So
+
+Speaker  1197786:40
+I think, I think it was, I hope, like people learn some stuff, and we can, you know, share ideas going forward, and that's about it. I actually hope there was going to be a little bit more turnout, because I feel like the more people there are, the better it is. Belen, how can we get people to come more?
+
+Speaker  1204656:00
+Top of Mind, what I'm working on right now is an opt in form for people to actually receive the Google calendar invites. Okay, so it is on people's calendars if they want to. And, yeah, I think you did a great job. Otherwise, it's just that some of these calls sometimes don't have as much of a turnover, but we'll keep working on it. Ai one, I'm going to work on that reminder system because we used to have a reminder system that people found some people found really annoying. So I'm prioritizing not annoying members over giving reminders to everyone. So, yeah, we're just like, going in that fine line in the middle to see how we can make this better, maybe
+
+Speaker  1218559:59
+Friday in general. Like, oh no, today is not Friday.
+
+Speaker  1220128:00
+I'm so so, oh, you think Friday is a bad day, yeah?
+
+Speaker  1221040:00
+But I'm just thinking, like, for us, for us. We don't mind because we have a three year old, so we are home on Friday evening, but, but maybe for some people, especially in Europe, Friday evenings are already like chill, I don't know, maybe during that
+
+Speaker  1224693:19
+so that's, that's a good tip. I'm not sure how many people are in Europe, in MDS, though. Think
+
+Speaker  1226213:20
+I don't know. I think about about 100 or something.
+
+Speaker  1227786:40
+Okay, well, let's think about, like Belen, give us some thought as well. About the Friday, if
+
+Speaker  1229898:40
+it's one or 2pm time, finally, a time we can make, because we can never make them.
+
+Speaker  1231498:40
+Yeah, yeah, that's good. Yeah, right,
+
+Speaker  1232288:00
+all right, okay, thanks everyone.
+
+Speaker  1232944:00
+You guys,
+
+Speaker  1233167:59
+thanks for settings. Thank you. Bye.

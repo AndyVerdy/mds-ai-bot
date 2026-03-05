@@ -1,0 +1,431 @@
+MDS Mogul Call with Dorian Gorski Part 2
+Date: August 06, 2025
+
+Speaker  19296:00
+How
+
+Speaker  21930:40
+You
+
+Speaker  36960:00
+Hey, Jamie, how are You? Yeah,
+
+Speaker  37488:00
+I'm good. Thanks, right? Weird, I can't get my main computer to turn on. Oh, really. So I've got a Mac Mini. Remember that monitor, and sometimes it just doesn't want to recognize the monitor. I'll put this on YouTube.
+
+Speaker  45866:40
+You bought it like a couple of months ago, right?
+
+Speaker  47130:40
+Yeah, relatively new, but I
+
+Speaker  49488:00
+WhatsApp,
+
+Speaker  50224:00
+great. I won't be here for the whole call, just because I'm an in person event, but Gene's here and he'll do the presentation and anything that you need.
+
+Speaker  52832:00
+Okay, so you just have the the feedback one, ready the
+
+Speaker  53717:20
+feedback form? Yeah, because
+
+Speaker  54741:20
+I think last time, we're a bit late on that, so
+
+Speaker  55445:20
+yeah, I think I hadn't shared that with him, so I'm gonna do that now. Yeah.
+
+Speaker  59221:20
+And also they are getting emails with the feedback, feedback link, just you so you know, yoga,
+
+Speaker  65424:00
+Hey guys, my Mac Mini, my monitor doesn't seem to want to recognize my Mac Mini. So if anyone has any ideas of of what I can do, let me know I
+
+Speaker  70357:20
+just Keep saying no signal, see, I'll try unplugging it. I
+
+Speaker  74666:40
+be. Hey Charles, nice to see your face for the first time. Welcome.
+
+Speaker  80602:40
+Hey guys, hey Dorian, how's it going?
+
+Speaker  82944:00
+Hey everyone, hey
+
+Speaker  85333:20
+you guys getting a slightly different view of my office on my laptop.
+
+Speaker  90213:20
+Dorian, I've managed to connect cause to my slack, click up an email. Just gonna need to find a way to connect some other some other gmails. Now, did anyone else manage to do that?
+
+Speaker  95322:39
+I'm dying. I'm dying here a way to connect multiple inboxes. That's what I'm waiting for.
+
+Speaker  96912:00
+Okay, well, I can hear you. Hi. How's it going? Everyone?
+
+Speaker  98080:00
+Dorian, how are we going to be able to connect multiple multiple gmails to Lord,
+
+Speaker  99984:00
+oh, that's a good question. Let me see if I have a solution. I on, we open up something. I've tried it before. Where is it? CP, I've
+
+Speaker  105701:20
+noticed one thing that Claude, Claude doesn't seem as self aware as chatgpt is like, if I ask Claude, you know, why am I getting this error or whatever? It's just sending me to a help page, whereas chat GPT seems to normally know,
+
+Speaker  109226:40
+yeah, you can use one or the other. Or the easiest way is, you have this MCP server, right? I have one. Jim nor here. I can simply just duplicate it and connect another Gmail. So here, let's say I am connected to this Gmail, and here I can sign in with a different Gmail, and I'll just create new credentials. The only thing I would probably just name them like Dorian kaplow.com, so you can reference it and cloud or GPT right? And this could be like support.com I'll just log in with the credentials and I'll just connect this MCP server to work cloud or GPT. The only thing is that you have to be very specific and say, you know, send it from this email or check this email account, but that's the quickest way.
+
+Speaker  127626:40
+Nice. Thanks. Jen,
+
+Speaker  129423:59
+super that's not being done with the native integration that's being done through anything.
+
+Speaker  130816:00
+Yeah, the native integrations, they only allow you so far, to add one account. The only one which allows you to add multiple accounts is the clickup, the clickup software, the AI clickup, is called Brain max or something. It's really good, actually, is actually, I use it a lot, to be honest, for I use Cloud for really in depth and, like, really task heavy, yeah, just like really, really heavy tasks. And then I use brain if I need to manage task or Gmail accounts, and I can connect multiple ones. So with, let me show you share with this brain, right? This is connected to clickup. This has cloud GPT, everything. And I have my I have multiple Gmail accounts connected to it, and it's a native connection. It's really easy. So I can just say, check my email accounts. How many are connected? Let's see,
+
+Speaker  153509:20
+right? Let me see should we connect and drive? Oh, it's not connected.
+
+Speaker  156282:40
+Now, what this? This aggregates a bunch of gpts by API,
+
+Speaker  157562:40
+yeah, but with this, with this, you can connect multiple Gmail accounts.
+
+Speaker  159770:40
+Got you so once, once you're going to log in through Google or something like that, it's going to say at another account. I mean, you could just put in a second Gmail account.
+
+Speaker  162192:00
+Yeah, the only problem with that, only the first one is free, and then any additional one are costly. So it's much easier to do it at any end, you can connect as many accounts as you want, and it's
+
+Speaker  165621:20
+free. You run your own server. Yeah,
+
+Speaker  166677:20
+just running on your server.
+
+Speaker  167461:20
+So with Claude, I'm just on the Pro Plan. Am I going to start running out of data regularly? Because on Friday, it just ran out of tokens completely, and then the other day, it sort of miss tops mid conversation, which has never happened to me with chat. GBT, yeah,
+
+Speaker  172490:40
+yeah, that's the problem with Claude. I think it's the token limit is much smaller. I'm also slowly getting frustrated with Claude. I'm on the max plan, which I think is, how much is it I'm paying, 75 pounds a month. Okay, yeah, so maybe, yeah,
+
+Speaker  180079:59
+that might be better. All right, let's do the MDS slides quickly. See if I can persuade one more of you to come to Milan, maybe, or get that app onto your home page. So the first slide is going to come up. It's going to be for the app. So you can check out my past calls with Dorian, because some of you may not have seen them all. So there's a few. There's a few in there. So you can just go into the app, check those. And you can also check the apps, maybe from like, say, the SEO call or the logistics call. You know, we can't make all these calls live, but you can at least go and have a look at the notes, see what was going on. We get the slides, the slides up. I can just see the first one at the moment. So, yeah, that's the app. So yeah, make sure you're listening on that and then that. This is the Milan Summit. So I think there's still a few spaces left. So, you know, I've only missed one MDS main event. They're always they're always awesome. Fun. Good to learn. See your MDS buddies, yeah, so don't miss out. It's going to be awesome. I've seen the activities as well, so it looks great fun if you're not on a whatsapp Gan that we'll put a link in later as well. So join a WhatsApp and you just get reminders about all the calls. It's it's not a busy channel of just me sending messages out. So if you want to do more than one call a year, you might as well be there. Okay, so Kepler is our highlighted sponsor. But you might also want to check out Kat play scraper, which is the tool that we showed on the the other ones as well. And you get that in the AI club for $100 a month, but 20% off with the MDS coupon as well. So yeah, check out that. Alright. So I'll start the official recording here. Hi everyone. Welcome to the Mogul. Call happy to have you.
+
+Speaker  218597:20
+Hey, Jeremy, there's no sound you
+
+Speaker  225279:59
+all right, can you guys hear me? Yep. Hi. Did you? Did you miss out everything? All right, okay, we'll start again. Hey guys, welcome to the Mogul call. Really pleased to have Dorian back on the call. And so we've seen before how we can use the Kat, bla scraper and use other AI tools to improve existing listings. And I be looking forward to today, because we're going to focus on how to come up with new ideas, how to validate new ideas, and what to do once we have an idea how to create the best listing possible. So Dorian, do you want to have you got some slides you want
+
+Speaker  236394:40
+to share? Think you're on mute as well? Oh, okay, yeah. Super excited about today, because it's going to be, it's going to be fun. So as you guys know, I've been developing AI workflows, mainly recently, happened with content creation and just product analysis to come up with ideas for content that could convert potentially better. But we also have this AI club, and I've been asked a lot recently about the possibilities of using more data from multiple products and using that data for product development ideas so quickly. About me, I've been working in the industry for 13 years. Worked on multiple seven, eight and even nine figure brands, so I had a bit of experience with product development. So when Jamie mentioned that we're doing another mogul call, I thought that's going to be a brilliant opportunity to potentially dive into product development workflows. And so what I've prepared today, today, today is really, is really just kind of scratching the surface and trying new things using AI, things like an ad and APIs to to to scrape data and come up with workflows that will help us make decisions for product development. So I want to start with this. I've done a couple of product development webinars, and I always, I always like to show this quote from Sir Johnny Ive some people might, might know him. He was the main product developer for Apple, and recently he started working with some old one in terms of developing AI, actual physical products for AI. So he's probably the best person here to quote. And he said this beautiful quote, it's very easy to be different, but very difficult to be better. And the way I see it, we a lot of the times we on Amazon, especially the we always go for the low hanging fruits, which is the differentiation. Differentiation could be very easy in terms of colors, in terms of adding one additional feature or adding additional, one additional attachment to your product. So that's actually very easy. What he says, what his philosophy is, really, is you have to be truly, truly better rather than just different. So we're going to talk about this, how to be different, how to be better instead of being different. And so I thought, let's come up with some interesting case study for for this, for this call. So I thought, okay, product development, my favorite industrial designer, sir Johnny Ive so I was thinking, let's just go for something, as you know, simple as a garlic press. Let's try using AI to develop a new garlic press. And then I came up with an idea, okay, what if, actually, sir, Johnny Ive, was to develop a new galley press. How could it look like? So I've ended up with, you know, multiple ideas in terms of how this could potentially look up. Imagine if I saw Johnny I design, a designer, a garlic press. So that's, this is just some, some few previews of what's about to come. But this is just, these are just the, you know, the cool stuff, the images, the renders. But what truly matters is we need to start with customers, which we truly need to understand customers. So whenever you design a product, whenever you design a brand, you start with customers and understanding the pain points, pain points and needs, wants and desires. So as you guys might know, I am absolutely in love with Na then, so I thought, let's make a crazy product development and it so I've spent, I've spent, literally the last, I think, 40 hours coming to the coming up with ideas how to handle Amazon data, how to transform it, and how to how it could help us in developing product development ideas. So also I've then developed is a full workflow which we're going we'll go through which shows the market intelligence, anything from revenue, BSR, individual analysis of products, clear demographic data, feature matrix, so things like looking at intelligence, which features have high sales correlation or review correlation, and then coming up with product critical product development fixes design solution, and then using AI to ideate further and then create a product development brief for our Apple designed up sir Johnny, I've inspired garlic press, So that's what we're going to go through today. It's not perfect. So I would love any type of feedback. You guys develop products more often than I do. So it'll be great for anyone that's in our AI club will have access to this tool in the next few days. And if any type of any type,
+
+Speaker  319722:40
+is this live on Kat Blake for already, or is it coming soon? It's
+
+Speaker  320960:00
+coming in next few days. Okay, cool. So I thought, Okay, we have this, we have this initial data and that I was able to develop, which is simple product analysis, right? So in capital scraper, if you anyone is using it. What we've done is just created a simple report which goes through review analysis mentioned so you can see all the reviews and actionable items. It looks at refus demographics, it looks at the FAQs, top customer questions. So this is on the product level. So I was thinking, okay, what can we do further? What can we do further? So the first thing obviously, we need to understand our competition. So we need more data. We always need data is kink in terms of using AI workflow. So we need to search for competitors. We need to know who our competitors is. So I've developed this quick search for competitors UI, and then we can start uncovering customer intelligence. So what I did, very quickly, took me a couple of days. I said, I thought, Okay, what data do we need? And how do we need to transform it? What it's actually, truly important for product development. So anyone here that's an A and geek, I'm going to show everything to you. I'm not hiding anything. You guys will know exactly how I'm building this stuff and and how I transform the data. So, okay, so what do we what do we need? Well, first of all, we need, we need data in terms of competitors, so that data is coming usually here through the web hook, and we need to collect all these reviews, all this data. So we actually collecting, if you there's an we actually collecting not just reviews, but because the reviews are just one piece of data, we also need things like we need to scrape the features from the listing. So when, when we get in the data, when we get in the data for individual products, this is how it looks. We get things like description, we get BSR, we get revenue. Everything that's will be useful to understand the product and how customers perceive it will be useful in the data. So it's not just reviews. We need everything from that listing, literally everything, all the data. So that's, that's the first one we need to uncover. We need to get all that data. So in that and it and workflow, I basically take that data, and I thought, ask myself, what's the first thing I want to know? The first thing I really want to know is just, you know, some, some, some summary, some market I call it market intelligence, so product details, strategic analysis and just basic market data to understand what we're looking at. So I've designed quickly this first page, which tells me, okay, from my competitors, who's the, you know, whose revenue is the highest, BSR pricing. So I and quick, kind of summary. What are the strengths and weaknesses? So okay, I know what I'm looking at. These are my competitors. This is my category. That's the first thing I want to know. Just a quick overview of the category and just some basic data. Great. What else do we need? Obviously, we need individual analysis. If we're looking at specific products, it's always good to get individual analysis. So we get, I was able to pull that data also and analyze, at the moment, up to 100 reviews. We'll be adding more reviews later. So that gives me a good idea if I want to go product by product, and say, Okay, I want to. I want to. I want to truly understand every single product. So I can go here, and I can look at complaints, okay, what are the main complaints? And I can even scroll through the specific reviews when the complaints are mentioned. So that's the first thing on and what people truly don't like in the product. The next thing is usage patterns. So how do they use the product? I want to truly understand how they use the product. Purchase reason. So why did they purchase the product and then desired features? So any types of mentions when someone in the in the review says, I wish this product had x and y and z, so I can go through every single review, and this is simply done. This is simply done by running this sub workflows. So if I go here, if I go here, you can see I'm basically taking all this data and then I'm creating every single analysis separately with a with a node in n, a n. So from the data, I want to understand the purchase reasons from that data. I want to understand the desired features from that data. I want to understand the usage patterns, and then just simply populating this here in the front end,
+
+Speaker  397226:40
+so in the background is that using chat, CBT actually
+
+Speaker  398186:40
+Claude.
+
+Speaker  398554:40
+Claude. Okay, yeah.
+
+Speaker  399226:40
+So I can go product by product. Okay, so I understand my category, understand my products, my competition. The next step then is obviously purchase motivations, usage pattern, discovery. We aggregate all that data, and then we get all the critical insights. So once we have this, we also onto we need to understand who we sell into. And that's, that's one thing, that's I, that's what, also what I did here, and that's one I was working with a very talented product industrial designer, and he always told me, when you do a customer demographic, any type of research, always, always attach images to it. Always attach because what we want to do is not just understand who they are, but feel some sort of a connection to our audience. So I thought, okay, let's, let's design a demographic page that you know goes through primary customer profile, key marketing insight, second secondary segments, like gift buyers. Everything here is but also we can, like trying to understand, okay, who these people are, primary customers, 3555 usage snap scenarios, usually daily meal prep and cooking. And there is some holiday context in some of the data as well. So this is what we look we're looking in terms of our demographics, okay, so we know. So this is where we are now, what AI is great at, and you guys might know about it. It's just creativity, simple creativity and access to a lot of knowledge and best practices. It's never perfect, truly perfect. It will never get you to 100% in terms of the answer, but it's going to push you in terms of thinking, Okay, what is possible? What could we do? It's going to give you a ton of ideas. So you can, as I said, I think on the last call, instead of coming up with we used to come we used to come up with one ideas, second, third, and we used to aggregate it. Now with AI, we can come up with 100 ideas at once, and then simply start deducting and iterating to come up to the best one, which is a much quicker workflow and much and you get much more opportunities to come up with something original. Same with content, we used to come up with content ideas, you know, one idea a second. So we used to work bottom to top in terms of aggregating ideas. Now we can generate a ton of ideas and work from top to bottom, iterating and improving them. So I thought, Okay, what? What's what's also, what also is important in terms of that aggregation I've this is another thing that I thought could be very useful, because we have BSR data, and we have revenue data, and we have all the features from all the products, and we have all the complaints, everything. So okay, in terms of features, which are the most important, so easy to clean was mentioned 190 times. And the market leaders in terms of are these ASINs? So I can see, okay, these ASINs are doing really well in terms of product being easy to clean, so they're doing something right, and then handle breaks, durability issues. That's a really important feature that our customers are mentioning. These people, these guys are doing well, there's not a lot of mentions. People like it, and so on and so on, so on. So what we built in here is actually understanding what are the critical features that we have to include in our product. So these are must haves. It must be easy to clean. Actually, very interesting that that was the first, the first answer I have a garlic press. I always, I can. I can never put it in a dishwasher. I have to always clean it with my finger going inside. And is it is actually a bit annoying. So in a way, I would agree with this. The number one is, handle breaks. Capacity is something that people are looking for. So this is our must have feature list. The other thing is problems. So here are the problems that our competitors affect. Are affected so handle breakage and structural failure. These guys seem to be doing really bad in terms of that. There's a lot of mentions, and these guys are doing quite well. There's not a lot of mention. It's quite critical. There's 21 mentions in the reviews, and we can go so and so on. So we have all this data in terms of features and problems. Now we can create a correlation so and this is a really cool analysis. Again, this simply comes from aggregating all this data, analyzing and then creating something like a correlation. Where is it? Somewhere? Here is a correlation node which gets all this data and compares the features the problems with how the products are doing in terms of revenue, sales, so easy clean to easy to clean design in terms of sales correlation, that scored a 92% so if a product is easy to clean, products emphasizing Easy Clean consistently achieve top PSR rankings and highest customer satisfaction. So again, super interesting, right? Super interesting that this, if we have this feature in our product. That means that reviews probably will be really good, and our BSR is going to be also really good, removable, detachable components, handle durability and stainless steel construction. So you can see the sales correlation and review correlation. So that gives us a good data in terms of what potentially will have an impact on ourselves, BSR and reviews. So,
+
+Speaker  491978:40
+okay, for BSR, are you connecting to keeper?
+
+Speaker  493066:40
+No, have. I have a different source for that. Okay?
+
+Speaker  494314:40
+And you connecting directly to Amazon, like product opportunity Explorer, or something like that as well, or connecting
+
+Speaker  495994:40
+Not at the moment. This is I have a, I have a, have a different provider that basically provides me with this data. But this is not connected to sqp yet, but definitely, definitely something that I would like to try. Okay, so we have all this data now the next thing, really, what we can do is just aggregate all this data, and let's start coming up with product product development ideations. So let's think like a true product industrial designer, so we know exactly which features are important, and now we need to understand how could we potentially achieve this? So handle structural reinforcement system. So this is going to give us some very specific design solutions, and this is something that we could potentially pass on to our pass on to our manufacturer, see if any of this is possible to fix this detachable chamber architecture implementation for easy cleaning, how we can approach this removal, pressing chamber, bayonet log housing manufacturing process. So here are some ideas of how we can achieve those critical, critical features that customers are appreciating in the product and looking for or even complaining about if it's missing chamber expansion. So this is where people say they you know, it's not big enough to fit all the garlic cloves, etc, and force reduction mechanisms. So people sometimes say that it's really hard to to squeeze the garlic through for the garlic press. So we have this a little bit of a manufacturing brief, some investment summary. If we were to do all of this with tooling, it will actually be pretty expensive. So as you can see, and the product will actually be pretty expensive. So there's some room here, probably to to to review this and see what's possible and when, where costs can be cut. But this gives you a good idea in terms of what we could potentially improve in the garlic press. Why did then is I created this very nifty product development assistant. So I, I use it to go for the data ideate. So if I for me, when I was looking at this, this is really expensive, right? And huge, huge investment. So I was is, I was chatting to it. You know, how we can reduce this? What else can we do? What are the possibilities in terms of developing this, this new product, this improved garlic press, so you can actually use this AI product assistant. And again, this is all built into and it, and there is some some sub workflows here which basically have access to all this data, and the send the data back to this AI product development system. And then they can see all of this. You can see all the data and give you, give you additional ideas of things that you can potentially do. Okay, so when I looked at this, I thought, yeah, first, the first thing was like, Well, this is expensive. But then I thought, okay, but you know, it's sir Johnny Ive that's designing this garlic press. So it's apple. He needs to be expensive. It needs to be twice the price, and they probably have the money to do it. So you guys, as you guys saw, I just went full on with this and came up with this crazy idea. So product development brief is the final stage, which can be obviously shared with anyone target price, 35 $45 for my garlic press. Timeline, 16 to 12 weeks investment over 100 $250,000 and some key improvements that we're looking for in the in in the garlic press that are that are critical for us to win in the category, which is, you know, element, things like handle failure, fixed chambers, trap debris, single cloth, pressing waste, meal prep time, excessive force. So the all of these have been looked into. We kind of went through and tried to try to come up with solutions to it. So as you can see, I also added a little somewhere. Here is a workflow that creates images. So we have visuals. So I have a separate notes that's connected to our app, which is called visuals. So I thought, you know, I chatted to my AI assistant and said, Okay, if, if, sir Johnny, I was to design this product, how would it look like? So, you know, it'll probably look something like a mini mo garlic press. I don't know if this would be usable. So you you only use this visual as references for, like, maybe some design some design esthetics, obviously some of that stuff. When you look at it, you think, how you know, it doesn't make sense, but that's okay, you know, we you know. But how about, you know, adding a little detail, like something like this that Apple does, or, you know, a beautiful packaging. And then, in terms of marketing, six club, six gloves, one press. You know, that's one of the things that, you know, customers really would appreciate, is a bigger chamber where they can press, the press it. Another thing is, was, you know, some they came out with some sort of magnetic system to remove the chamber so it's easy to clean right steel core lifetime, strong. So something we had the issue in terms of durability and breakage. So that's something that we could potentially and potentially use for marketing purposes, if we are able to develop it, and then the packaging details. So this, this, overall, the whole thing, the whole process, from from pressing a button to coming up with this idea, took me, roughly, I don't know, 20 to 30 minutes.
+
+Speaker  595072:00
+Okay, so what is it? It's so Claude is looking at the 100 competitors and them, there are 100 most recent reviews, right?
+
+Speaker  598037:19
+Yeah. So you can choose. You can choose how many competitors you add to your analysis. Yeah. So in this case, I added 123456, so, okay,
+
+Speaker  601461:20
+so just looking at the top six, and then there and their most recent, 100
+
+Speaker  602533:20
+reviews. Yeah, okay, thanks, sorry.
+
+Speaker  604298:39
+What other points of information is Claude? Is Claude looking at when it's making these suggestions?
+
+Speaker  605658:39
+It looks at revenue, it looks at BSR. It also goes through the description of the product, backend description and all the titles to then understand what features are in every single product. And that's it for now. You know, I think we need to connect it to few more pieces of data. As I said, this literally took me three days to develop.
+
+Speaker  613600:00
+I bought it, but it also, it also estimates a product cost, right? Yeah. And is it just getting that from just a general internet Yeah? This is just general working out for itself, yeah, yeah.
+
+Speaker  616693:20
+This is just general knowledge.
+
+Speaker  617445:20
+And so I think the there's only one service that can get more than 100 reviews from a listing. Is that? Right? It's only voc.ai, we can get more than 100 reviews.
+
+Speaker  620986:39
+Yeah, we actually have a beta of, where's my sub workflow. We actually have a beta here, which is not activated yet. We are nearly done with the system that can get you up to 500 reviews per page
+
+Speaker  626560:00
+so that what will be, what the most recent? The 500 most recent one stars, the 500 most recent two stars, etc,
+
+Speaker  628384:00
+most recent, this should be available next week, to be honest, the only problem is just a lot of data. So it can imagine, from a 20 minute from a 2020, minute analysis, it's it will become a one hour analysis, but you're going to get five times more data
+
+Speaker  633301:20
+and then. So the only if someone wanted to go all the way, then they would have to pay for a voc.ai, subscription and plug that in, because that could do that would do all of them, right?
+
+Speaker  636298:39
+Yeah. The only problem with voc is it does take a lot. It has way more reviews. But the only issue is they, if you look at the reviews, it's usually reviews that are it takes the recent 100, but then it takes sometimes the reviews are for like from five, six years before, because they were able to scrape all the reviews before Amazon put the the they actually blocked to Only 10 to for you to see only 10 pages. And I think that was two or three years ago. So three years ago, they were able to quickly get all this data before Amazon stopped it. So if you look at voc data, you'll see they'll have some recent reviews, and then a big gap, and then reviews from like four to 567, years back.
+
+Speaker  651386:39
+Yeah, Charles is saying voc also caps your token usage without telling you how many tokens you have left.
+
+Speaker  653066:40
+Yeah, so it's definitely way more. It's definitely way more at this stage, but we're working to match this very quickly. I think we're going to cap it at 500 reviews, because it will be, it will be more than enough to to really, truly create a very, very comprehensive analysis. So imagine if you have 10 products from your category, 500 reviews each. You know you, you have 5000 reviews to to to get a lot of data from
+
+Speaker  662421:20
+Charles is also asking about existing listings, but I think you've got to go back to calls, because that's the initial function of the Cal post scraper that goes that shows what to do with initial listings. Charles, if you want to sign up for Cal post scraper, it's $100 a month $80 with the code. So you could give it a try and have a look. And then we've been within a few days, it will have this functionality for for new listings as well.
+
+Speaker  669578:40
+Yeah, yeah. So at the moment, we were working mostly on a single level product, and then I'm now working on the product development. And this is, this is really a this came mostly from Ai club members asking to develop something like this. And while also put here is the Send feature request, because, as I said, I am not a professional product developer. I don't develop products all the time. So if there's any type of data that could potentially be useful to plug here, or any specific feature on analysis that we could plug here, it's usually a very quick we know it takes a date or two to plug in additional data. And we can, we can all create a analysis tool that helps us, with Kat, to come up with ideas for for developing new products. And that really is like, just to give you guys a natural that that's when it comes to AI and any type overall clothes, that's really my workflow. I use, I use, you know, I wipe code everything. So I use vibe coding tools. So I usually use them to create those front end analysis they were crazy, a lot of colors.
+
+Speaker  691103:59
+So you just explaining to Claude what you want, and then Claude is creating the nhn code for you.
+
+Speaker  692528:00
+Now, the nhn I'm just creating manually. It's just like putting puzzles together. Really,
+
+Speaker  694293:20
+okay, what you're already good at any 10 so you don't need any help from Claude, but
+
+Speaker  695669:20
+some, alright? So for
+
+Speaker  696645:20
+the bits that do need code, then you can, then you're using Claude to vibe code any extra bits that are needed, yeah, but if I was going to be doing something with any 10, would I just be able to go and call it and get it to explain it to me, and I would just pick it up eventually, oh,
+
+Speaker  701306:40
+100% so that I get stuck all the time in any 10, especially when I'm building something big like this, constantly, when I get stuck, I just simply download the whole workflow and I put it in cloud or chat GBT, and just ask it to to have a look at it, go through node by node and see where the issues are, and write a new code for me or us, kind of guide me in how the nodes should be connected together. So a lot of times, if you have a lot of data, you need some pieces of code. For example, when we I'll give you a quick example. So when I this is, this is a loop here that collects all the data from all the products that you, that you analyze, and so from all these products. So that's a lot of a lot of data, a lot and I was really stuck for several hours because there was so much data, I didn't know how to distribute this. So I simply download this, gave it to cloud, and it came up with adding this code node here, which is called flatten loops. And it's a very simple code that it wrote, Claude wrote to me, and it aggregates all the loops and organizes them so I can then create all the prompts and everything that for cloud, to to to to understand. The other thing is that Claude is really good at I'll give you another quick Another quick thing to look at is a lot of times when actually let me open an execution. So I'll explain this better. One that was successful. I
+
+Speaker  731466:40
+Let's see.
+
+Speaker  733018:40
+Oh, maybe here. Okay, so when, when AI is responding, so when you transforming data in AI, right? So you have your prompt, right? So you have a prompt, and you know, this is the data before the node. So this is the date. Let's say, let me give you something easier to Okay, so let's say, initial idea. So these are ideas for product development. Okay, so this is a prompt that's helping to come up with product development ideas, and it's getting that data from nodes before. So you can see all this data is here, then Claude is getting all this data, and I'm asking it to return the data not as text, but as a JSON. Because what what the app needs is not text. It needs a format to to be able to fit these like puzzles, right? Every, every piece of code here fits some somewhere and and analysis, right? So, if it needs to fit somewhere, so your the AI needs to return a code. But the problem with that is, it returned the code, but it's going to return it still wrapped in text, so it's gonna it's gonna return like a written code, which doesn't really make sense for any n. So a lot of the times I use Claude to write an additional code for me, additional which takes all this AI response and actually structures it so my app can understand it. So if I go here, you can see I have structured data that my app can understand. So we have critical product development fix, ID number one, what's the fix? Was the priority? Was, the reason? What was it process? What was the source? And I'll send this to my to my app, and it's like fitting puzzles. My app will know. Okay, this goes here, here, here, here, and literally takes seconds for it to populate. So that's a good way of using cloud and and using those AI nodes, it's usually when you're building workflows. What you want to do is have you know, you're going to have some AI nodes and you're going to have some code notes, just to clean it up and just to prepare it. So I use to answer your question, Jamie, I use cloth all the time to help me write those little pieces of code.
+
+Speaker  773584:00
+Okay, so let's go back to the tool, and let's just do a quick top level summary. So the first thing you're doing is, you've got a product category, a product such as garlic press, that you've chosen. Then
+
+Speaker  777061:20
+individual choose.
+
+Speaker  777365:19
+It's then choosing the competitors for you or or you can put them in yourself if you want as well, right?
+
+Speaker  778533:20
+I choose them myself. So what I've added here, if you guys, so we had initially this report, you know this Jamie, right? Single. So let's say this is my product, and I can even this is available now, where we can generate content ideas, but this is the new one, right? So what you do here is just search by keyword, garlic press. It didn't work. Okay, no worries. I think it's not deployed yet. It's still blocked. So I can click on product development ideas and then using keywords or manually uploading ASINs, it will then start analyzing those ASINs.
+
+Speaker  789429:20
+Okay, so that's, that's the input. Your input is garlic press, plus the six ASINs that you've chosen, yeah, okay. And then, from that point on, it's then spitting out all of this, all of these ideas, all of these strengths and weaknesses, what's important to customers. And it's also spitting out ideas of mock ups of what an improved guide price could look like. Yeah,
+
+Speaker  796794:40
+exactly. And it creates increase those correlations also. So it looks at data, so it compares like BSR revenue, and then looks at like the review analysis, and it's trying to connect dots in terms of what, what could potentially drive the reviews, of potentially the sales,
+
+Speaker  802272:00
+okay? And at what stage, at what stage are you putting in the Johnny Ives prompt, where does, where does that come in?
+
+Speaker  803936:00
+Oh, it's coming here in the product assistant. I'm just chatting with them, coming up with, okay,
+
+Speaker  805653:19
+so you have, so you have the output, and then this is the bit where you can then start talking to it, yeah, which I think is what, one of the things that makes your tool so unique is you get the output, but then you can refer refine it, and ask questions of it and stuff, which is pretty cool, yeah. Okay, so what would so? So then, if we just go to the outputs,
+
+Speaker  811514:39
+Yeah, which one where
+
+Speaker  812010:40
+it's got the pictures and the ideas? Yeah, it's
+
+Speaker  812666:40
+here, yeah.
+
+Speaker  812970:39
+So what would be your next stage after this? You would maybe pick some ideas here and then maybe do some polling or or speak to suppliers. What would be your what would be the next stage of the process after
+
+Speaker  816944:00
+that? That's a good question. And I think at this stage, Jamie here, I'm going to ask some questions to our AI club members, to simply ask them, I need to, I need to understand the process a little bit better in terms of the stages of the final stages of the final stages of product development, so polling is one. But then, how do you handle this? Maybe you know, how do you get quotes? How do you work with the manufacturer? How do you validate those ideas? Are they actually ideas that are feasible? Is there ROI? So I think that's the tricky part, right? The last part, it's like validating the ideas, awesome.
+
+Speaker  828602:40
+So in the chat, just put a one if you already have access to call post scraper in the AI club, and a two if you don't, because I just want to know, like, how much I kind of need to explain. Because basically, what with the I mean, probably it's probably only what, a couple of months ago, where we started with the very first listing optimizer, version the version one, what the version 1.0 right? And in that, in that two months or so, it's improved. It's improved a lot, like, probably, like, you know, it's probably like five or 10 times better than than when it started, because initially there was a separate tool for main images and listing images, and then they, they've been, they've now been combined, and then you'd have the option to use credits to create images on the ideas that you like. So I imagine this is the kind of, this is the kind of version one for this. But then, because of the input and the high level people you have in the club, you then kind of start getting, getting extra ideas. Yeah, Charles, got a question. Go ahead, Charles.
+
+Speaker  846058:39
+Hey guys, question for you on the investment cost. Where is it? Get that number from? Because you're gonna have to have a a per unit cost in there. And how do you get that figure?
+
+Speaker  850480:00
+Good question. This is all generic and general information right now. We need to, we need to break it into actually, like, as you said, pay unit check the price, probably add some older fees, Amazon fees, so all that data and still needs to plug them. This is just a quick draft workflow I literally created for this week. So it's
+
+Speaker  858341:20
+based on AI's estimation.
+
+Speaker  858901:20
+This at the moment, yes, you could
+
+Speaker  859322:40
+always ask Dorian, do you want to just ask in the chat, asking the chat and the AI, how it came up with that number, and ask it to break it down.
+
+Speaker  861242:39
+Yeah, see what it says.
+
+Speaker  862362:40
+Like, maybe just guess the weight and the materials. That'd be interesting to see what I would say.
+
+Speaker  863978:40
+So, like addressing, addressing your later points, the the way you find suppliers, mainly, at least wait until now, until Liberation Day, was just go straight on to Alibaba, find your Chinese manufacturer, hope it doesn't require a mold, and go from there, yeah, so you validate it. You got, you have your first order. You hope it goes profitably. If it doesn't, you scrap it. If you do, if it's profitable, congratulations,
+
+Speaker  870885:20
+yeah, yeah, that's a good yeah. There needs to be a simple workflow for that. And I'm glad that you brought this up, because that's something I actually haven't thought about.
+
+Speaker  873749:20
+Which part
+
+Speaker  874325:19
+the per unit cost, and actually, yeah, another
+
+Speaker  875498:39
+something else I put in the chat. I don't know how much you've experienced with day to day, but they have basically, you can, you can, you can dive into about 10 of the top competitors. You select the competitors almost manually, not, not entirely, though, and then you see the product opportunity in terms of where the competitors are ranking for high intent keywords. If there are high intent keywords with opportunity for you to rank, then you can then you see yourself a product opportunity. So I don't know if you'd work that into the system too.
+
+Speaker  885008:00
+Yeah,
+
+Speaker  885344:00
+I guess what you might do at this stage is use something like Data Dive, or if it's already a category that you know well, and you have a brand established, you're then coming up with you, you're then working out in, by other means, what category you want to get into. And then you would then run it through this to see what kind of ideas it could have. Or maybe you had like five different ideas, then you could put them all in. So say, for example, like, if you're already a water bottle company selling water bottles, then you would, obviously this would be the first thing that you would put in, right? But if you were in kitchen and you wanted new ideas, then you might try water bottles, chopping boards, knives, bowls, to see if it could come to see, like, what really innovative that it might come up with that would sort of take your eye and then maybe be worth taking further.
+
+Speaker  897216:00
+Yeah, I don't think it's going to give us an answer, because I was just updating some stuff. So I'll look into it. I'll look into but, yeah, I don't think it's going to give us the answer right now, because I was just doing some updates. This is, this is just a demo for now. So if, if you guys are and, and, and a couple of, this is a demo right now. It's not fully functional yet, but it's just to give you an idea what's what's coming. Cool.
+
+Speaker  906805:20
+Anyone else got any other questions? I've got plenty, but Dorian, just while we wait for more questions, do you want to put the link in the code for the Kepler scraper, in case anyone wants to check it out?
+
+Speaker  910906:40
+Yeah? So,
+
+Speaker  912074:40
+yeah. Ai, yeah. So basically this AI club is like a little forum. There is a discord as well. And then basically that's where Dorian post updates and stuff. And then from there, there's a tools thing where you can get the, where you can get this, where you can get it, and you get like 100 credits a month, which seems to be quite a lot, and then you can then use the tools, and then people give feedback and stuff. And Dorian does some calls for that group, and then he puts the recordings up on on there as well. So yeah,
+
+Speaker  921733:20
+and for AI club, we will be releasing those features early, so you'll see the some of those features very early before anyone else. Plus also we will be adding some conversion work parties and some content stuff, also very soon, to the AI club. So AI club is actually turning into AI and conversion club in the next few weeks.
+
+Speaker  930256:00
+Awesome. How many people you got in?
+
+Speaker  931072:00
+I don't think probably 70. So not, not crazy amount. But, you know, we only
+
+Speaker  932944:00
+what is it? About? About half of those from MDs, or
+
+Speaker  933653:19
+probably, like, literally, we started Jamie, we started, like, two months ago on one of the calls, like, started talking about AI, and I just got into it very like, I just went in, like, try to understand it and see what's possible and what we can do. And so, yeah, a lot of stuff coming, and too much we I think in two months we do another stuff. So I'm sharing all of I'm sharing. Can you
+
+Speaker  940666:40
+go back to that link again and I'll put it in its chat? Oh, someone's got it already. Stand or store, yeah, yeah.
+
+Speaker  943882:40
+And that's it. Let me know if you have any other questions.
+
+Speaker  945536:00
+So I've got a question from the last call, which is, which is about connecting, the connecting Claude thing. But has anyone else? Has anyone else got any other questions on the listing optimization or the new products, ideas, or just using these tools in general. So with, with, with, I noticed with Claude, you've got, you've got the click up connection Google, you've got the calendar and Gmail and then slack. But other than I'm sort of going to step where I can ask it some questions, like, Okay, what questions have I not replied to on Slack? But I know it's you've then you've then gone further and built things like a personal assistant and all that. So what's the next step once I've got those connections put in what's, what's, what's, what's, the next step that you'd recommend.
+
+Speaker  961536:00
+So you have the, you have the connections that are built into cloud, right? Nothing else.
+
+Speaker  963600:00
+No, I did. I had to. I had to go to that website and edit config and all of that. So I've got slack. Click up, done that way, and then Gmail and Google calendar are done through the built in connections.
+
+Speaker  966725:19
+Okay, so that, and that's one of the things that I need to I think I'm going to share with you guys in AI club, is I need to share with you, Jamie and everyone actually the templates, because I'll show you my so this is what I shown on the beginning of the call, right? MCP server. Okay, it's actually very easy to set up. There's a node, and so you have to have access to anything, and you have this thing called MCP server, right? So this is the MCP server. And here you can see, okay, so
+
+Speaker  976816:00
+I need, so I need to, I would need to get an A 10 account, right?
+
+Speaker  977536:00
+Yeah. And okay, so you have this MCP server, right? And you simply connect any tools you want to the MCP server, anything, right? So if I click on here, you see I have a lot of tools here, way more tools than you have in cloud. Okay, way more, way, way, way more. That's
+
+Speaker  983765:19
+because you that you can then do anything that connects to any 10 from there
+
+Speaker  985141:20
+exactly. So what I can do is, let's say, as I said, I have one Gmail account. I can, I can duplicate it, and I can connect another gmail account to it. I can connect, you know, any thing is MailChimp, even anything I want to do, I can connect to this MCP server. So I'm going to, this is my personal assistant, literally. And what I can do that is if I go to my cloud, let me just open my cloud,
+
+Speaker  993919:59
+let me just
+
+Speaker  995152:00
+okay. Seems it hasn't been paid for. And you can see this. This has this MCP server. Then you can see has multiple connections here. Literally, it's adding those connections here. So you see, that's my personal assistant here, and it's connected to Calendar, Gmail, LinkedIn, Google Sheets, so this is reflecting this, so I can connect anything to this, and those connection will be here in my personal assistant. So it's much easier. It's literally
+
+Speaker  1007114:39
+one, okay, so, so I need to create an N A 10 account and then do an MCP connection from Claude to any 10, and then from that, I can then connect anything else.
+
+Speaker  1009808:00
+Yeah. So once you connect this MCP server to your cloud, then the only thing you have to do is go to any then, and just think, what else do I need? What other tools, right? All these and you can duplicate. You can multiple of one. And the other great thing is, what I can do is I can connect something called call and it and workflow, okay, so I can put this here, and I can connect my, let's say, brief creation tool that I have created in my or even the product development. So see, I have the product development somewhere here, literally the entire, this entire workflow, product development, which is this app, which is this is now connected to my MCP server, so I can go to cloud, and I can ask it to start the product development research for for a certain asin, and I can actually chat to with the data in cloud. So it's going to run, it will run the entire and workflow, and it's going to return the data back to cloud. So you can connect any workflows you have the ready nodes, but you can actually create your own your own workflows and also connect them to cloud, right?
+
+Speaker  1033237:19
+So we got a couple more questions. One question is, with MCP, is it possible to connect claw to na 10 so that you can create the NA 10 layout by just typing in Claude.
+
+Speaker  1036538:40
+Sorry again with MCP
+
+Speaker  1037306:40
+Kat. Can you connect, if you connect Claude via MCP to na 10, can you then just type into Claude what you want from na 10 and have na 10 and have it then created? Or do you still need to go in and connect them yourself?
+
+Speaker  1041424:00
+You still have to build the workflows yourself. Yeah, and you have to connect then the workloads to Claude. Claude is not going to build the workflows for you, so it's only for ready workflows. Okay?
+
+Speaker  1045712:00
+Then another question Sam is asking is, is this doable in chat, GPT instead of Claude? Like, yes, the MCP connections and that,
+
+Speaker  1048101:20
+yeah, yes,
+
+Speaker  1048533:20
+but you prefer? What are the reasons that you prefer Claude?
+
+Speaker  1049829:20
+Simply because it has the projects, it has the projects built in which I use a lot. I'm not sure if you guys use projects, so I'll show you quickly. I think I was showing this before, and
+
+Speaker  1054906:40
+the so I could have, for example, say, a listing optimization project, and it would mean that if, if I made a bunch of improvements to one listing, it would remember that, and it would remember the context about my brand when I start a new chat within that project.
+
+Speaker  1059456:00
+Right? Exactly.
+
+Speaker  1059728:00
+That's the big advantage,
+
+Speaker  1060047:59
+yeah, how, how frustrating it is when you're working on a project. I'll like you. Jamie, you know, when you run out of tokens and you need to start a new conversation, or every time you need to upload the same image something, it's absolutely frustrating, absolutely fresh and starting, and like, putting the same data later, again, again, like you forgot about this. I told you this. Before you run out of token, you start a new channel, you working on a project like, oh my god, this is frustrating. So what Cloud has is projects. So in the projects, you have project knowledge. So in the project knowledge, I can plug in any data I want. So for example, I'm developing my catalog, right? So this is a long term project. I'll be working on it every couple of days, probably for the next several months, you know, years to come. So I want something where I can return and it's going to have access to all the information it needs, and it's going to remember everything I said. So, you see, has the entire history, so it knows exactly everything that we've been working on. Plus it has access to everything that it needs. So it has access to the GitHub, so it actually has access to the code from the app, so it can check the app itself, so I can debug the app from here. It has the app description, it has my goals. It has even the N 8n codes. So in understands the n, a n workloads. I can do a lot of stuff here. I can, you know, add text console, for example, if I want to avoid something, right, I can put this and, you know, I can put this instruction here. So anything I am working on and I want this chat to remember, it's in the project, and that's something that chat GPT doesn't have, and that's mainly the reason I'm using Cloud
+
+Speaker  1090288:00
+Awesome. Well, thanks, Dorian. I look forward to checking that out. Just going to be a feedback there should be a feedback form in the chat. If you guys could just give us a score out of 10, maybe some comments would appreciate it will help me to plan some future calls. So we've got some sort of good calls coming up. So I hope you guys will be able to make it. Thanks for all the interaction, guys. Thanks Dorian for sharing 40 hours well spent. I think, yeah, I'm looking forward to give it I'm looking forward to give it a go. Thank you. All right, thanks everyone. See you guys later. Bye.

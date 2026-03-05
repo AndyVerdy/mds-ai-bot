@@ -1,0 +1,554 @@
+Logistics Channel Call Feb 2026
+Date: March 03, 2026
+
+Speaker  00:00
+Here and there we go. Hello, everyone. This is more. Today is February the 19th, and yeah, for today, we're gonna just have like, sort of general discussion, helping each other, answering any questions you guys have, yeah, so let's get started. Yeah, if you can have your cameras on, that would be good. So I feel like I'm talking to humans, not just like, you know, thank you. Yeah. Perfect, yeah. I had, I had someone message DMing me, asking me a question about how to liquidate inventory from a WD. And she wanted to take she's not in the call today, but she asked me to ask the group as well. So I give her, I give her an idea how to get it out of AWD by using MCD sending it to a three PL. But she was she was wondering, what do you do, guys, when you move it to a three PL? Do just liquid? Do you ask just your three PR to liquidate it? Or do you work with liquidators that can take care of it? That was her question. If anyone knows an answer, please feel free to chime in and give you feedback on that. Yeah, I
+
+Speaker  23269:20
+usually bring it back. Unfortunately, it's a giant waste of money. But don't really have any liquidators in my space that want the items that are in three PL, because usually my items that are in three PL are big, heavy items that most people don't want. So I usually end up bringing them back, or I'll try to sell it to another competitor, because in my you know, I'm in just for everybody. I'm in office supplies and furniture, and it's mainly the furniture stuff. So I'll reach out to other people and and try to sell it. But I've not been successful in liquidators. But I would also like to talk to talk to other liquidators, to be honest, because we get a lot of really good deals, I'd say about 10 to 15% of our business is liquidation buys that we do
+
+Speaker  34352:00
+for our products. Just, just
+
+Speaker  34944:00
+remind me, are you in wholesale or private? No, I'm in retail.
+
+Speaker  35920:00
+But I only do, I only do name brands. So like, I do 3m HP, no, Dell, like, all the name brand stuff. So We're an authorized seller for all of them.
+
+Speaker  38917:20
+Do you? Do you compete with others on the on the buy box, on
+
+Speaker  40149:20
+Amazon, or, oh, yeah, yeah, so, but what makes us a little bit different is we do have certain skews that, um, have, like, high return rates or issues with that. The brands rather us sell because they don't get a bunch of returns, or it's not some of them also have like, a return allowance. So they rather us sell it because they know that we're not just going to simply, especially, like a chair, like it's a $900 chair, you don't want to just authorize a return without asking a simple question of, Oh, I'm just missing a screw. Great. Let me send a screw, and then we're done. Yeah?
+
+Speaker  50112:00
+Just more built on trust. They trust you, that relationship with them, yeah, that makes you different than others, too.
+
+Speaker  52112:00
+Yeah, we also negotiate it so we don't send anything back unless it's defective. So which is great, and then they give us a better price, because they know that once the item really goes out the door, unless they have shitty product, it's not coming back nice. So for you,
+
+Speaker  56229:20
+you're not, you're not shipping from China, mostly within us ASU, right? I never
+
+Speaker  57365:20
+touch anything from China. So, and even if it does come from China, I'm giving placing a local Po, and everything's landed in my warehouse. So like, I get my chairs from overseas and in Taiwan, China, Vietnam, whatever, but they arrive at my doorstep, and I'm giving the PO to the manufacturer that's here locally. I'm not nice. I'm not dealing with any of the logistics or anything. It just shows up at my doorstep. And nice, nice.
+
+Speaker  63130:40
+So you're mainly using, well, Amazon, fate, Uber freight partner carrier, just to move shipments from three, from your 3k out to Amazon or to AWD, or we
+
+Speaker  65328:00
+actually, we use worldwide Express, that's our freight broker. We found that they're better than Amazon freight for what we're looking at. We like them better in times we find that Amazon freight is a little bit better, but where I can go ahead and, you know, stomp my feet and put up my hands with worldwide Express and, you know, demand an answer, Amazon freight just looks at me like, great, you're just another number, right? Like they don't write about any of it, you know, yeah.
+
+Speaker  74778:40
+And basically, they do everything, yeah, LTL, FTL, UPS,
+
+Speaker  75978:40
+yeah. Most of our stuff is LTL.
+
+Speaker  76666:40
+This is big items too. He
+
+Speaker  77050:40
+said, Yeah, yeah. Well, they're big items. And, you know, I'll be honest, like, a truckload of toner cartridges, which is our main thing. That's a $2.5 million shipment. We don't usually do that that often. So. So a full truckload of that, I might receive it from the manufacturer, but then we're diversifying it through New Egg, Best Buy
+
+Speaker  82688:00
+different places. Yeah, like, like for us, if you lose that track, I mean, yeah, we won't be happy about it. But again, we are. We're sort of like the manufacturer, so our caucus is not that crazy high, but yeah, there's already a markup on that one. I mean, yeah, so yeah, I can imagine the risk, yeah, too, yeah. I mean, you want to work with someone that's more reliable, too, as well.
+
+Speaker  88245:19
+Yeah, yeah, forcing. And we've been actually sending off stuff to AB AWD. One of the things I wanted to bring up was about AWD, but I know that's not the conversation right now, but that was a thing I was gonna bring. I'm still inappropriate.
+
+Speaker  91658:39
+You're you're on the list, for sure. I mean,
+
+Speaker  92650:40
+it up with a group if they had any issues. But I
+
+Speaker  93722:40
+mean, I mean, we can talk about, it's fine. I mean, we don't have a specific agenda for today, so if you want to talk about, yeah, yeah, yeah.
+
+Speaker  95626:39
+I don't know if anybody else is experiencing this, but we sent off stuff to AWD, you know, obviously for the cheaper shipping. And we had printers in there, and they were pretty large printers, but what we found was they were releasing it way early, and they kept thinking, because we put in like 90 days, but then they were releasing basically six months. So now I'm getting a, you know, extra charges in FBA because a WD sent it off way too early. I don't know where they were getting their numbers from.
+
+Speaker  103845:20
+Do you have the settings on the back end? There's, there's a new thing that I see. What? What I where you say, I don't want to see more than 60 day of stock at FBA, exactly. But it's
+
+Speaker  106922:40
+idea of 60 days. Is not my idea of 60 days, which is weird, yeah. So I don't know if it's taking it because we're one, we compete with 1p and it's taking it based off the sales rank of the item in general, yeah. Or is it actually my sales? Which is interesting. So I that's what we've been we can't get a an accurate Gage. And then the other one I keep noticing, and they keep fighting me on is a WD will say it ships out, let's say 100 items, and then FDA receives 98 items. And then I go for reimbursement. And they go, Well, you know, we need proof. Of like, What do you mean when you need proof? It went from AWD to yourself, like it went into your internal carrier. And, like, I'm fighting tooth and nail on, I
+
+Speaker  118709:20
+can give you a solution for the second one. Okay, I have a special, special, like template I use that give it to many MDS member. It works perfectly. Basically, it's basically using Amazon's language when it comes to partner, carrier, and it stays basically, if anything managed by Amazon, we're not required to provide the bill. Honestly, my success rate with this template is, I don't know, 99% going to work. For example, if you send from AWD to FBA, 100 unit and nothing shows up, then that's a bit tricky. But in your case, missing one unit, two unit, 10 units, that's okay. I've had, I've had good like, even reimbursement companies, yeah, use that as well. So I'm happy to, yeah, to post it here. Yeah. And for number one, honestly, for number one, I'm again, as much as I'm good with that. I hate auto replenishment. I don't want even their discount. I that way. I force my guy, I mean, I have someone now, I force him to do weekly replenishment manually. That way he's not depending on auto or other option have. I mean, I've never been a fan of auto, to be honest. Like I feel like it doesn't, doesn't work 100% and I feel like you have to monitor it, but then if I'm gonna have someone monitoring it, then I might do just those manual like, doing those manual replenishments, yeah. I mean, it's a bit tricky, because I'm a private level. I mean, you retail, you also compete with one piece. So I have no idea how they're calculating the sales,
+
+Speaker  146304:00
+like, based off of the numbers. It has to be based off the sales ranking of the item in which we brought that up also to our staff, because it doesn't make any sense. Like, there's no way you're going to six months, exactly, you know, 30 days, then.
+
+Speaker  150165:20
+Then my question is, how about tweaking or customizing the SKU? Instead of saying, I want 60 days,
+
+Speaker  152613:20
+figure that out. Yeah, play with it. But
+
+Speaker  153605:20
+yeah, for me, the discount is not worth it, because then what if they send more than whatever that FBA storage fees, I'm gonna pay way more than what that discount. That's exactly
+
+Speaker  156058:40
+what we found out as soon as it happened. And we turned it off when they did it the first time, because we put it in and then they sent off a shipment. And then, before we realized it, you know, we actually had to tweak it.
+
+Speaker  158858:40
+So my my contact with the with the previous Aw. Director was really good. But then she, she left, and then there's a new one, and the new one's been very slow. Like, with, with anything even, like, we supposed to have that call in January. They said, February, I did a follow up. No reply yet. And I know, okay, if I don't, I'm not sure if, I'm not sure if any of their team will come up the PROSPER show next month in Vegas, but it's been very, very, very hard. Like, like, I think they know our group is really good, powerful too, but I just do not know what's going on, to be honest. Yeah. But yeah. I mean number two, for sure, I'll send the on the channel, or even just send me idea, I can give it to you. Number one, again, I other than, you know, trying manual. I just didn't have any other things, unless someone here can ask something, yeah, yeah. But yeah, I mean, yeah, any other questions or anything you want to discuss Julian, yeah? Like, other than AWD or any or, you know, I don't know
+
+Speaker  175658:40
+if, what's it called, if, what everybody's using for any of the reimbursements. But, you know, we're doing, I think the carbon six cell investigators is what we're using right now. I don't know what everybody else is using and like, and we're paying 10% just, you know, throw that out there too. I don't know if there's any other better rates as well.
+
+Speaker  181088:00
+I mean, yeah, we, we have the true ops. They give us 7% for the MDS. Sim. Kat is the owner. He just left the MDS last week, but he still have the offer for the MDS. To be honest. We do it in house, and then we let, we let these, these softwares or tools to see if there's anything we could not, you know, have, but we have a higher Yeah, but for us, it's a bit different. You have a bigger business, you have so many SKUs, it might make sense to work with someone, but I mean, I would, I would negotiate 10% is a bit high, like right now. You know, like most things, Amazon does it automatically. There's only one thing they don't do the last inbound. But even I've heard some sellers, they're part of a pilot program for lost inbound, where Amazon will reimburse without even the oil. I'm not part of it. I mean, so still have to do it manually, but yeah, negotiate with carbon six. I think carbon six, they have one advantage. They can do 1p or vendor accounts that no one can else do. I'm not sure if you
+
+Speaker  196512:00
+have 1p or vendor account. No, we're not. We manage one piece stores and content, but we don't actually own that stuff, so, yeah,
+
+Speaker  199269:20
+I think the reason why they they got acquired at that time because they have been there. Yeah, it's very powerful for them, yeah. But yeah. Other than that, there's true ops, 7% MDS rate. I mean, just go to the drops. Okay, yeah, drops. Go to the partner directory. There's a certain email, and then you just let them know. I mean,
+
+Speaker  205034:40
+I mean, I know you've been with MDS a while. Is there any way to get a spreadsheet of it? It's really frustrating to have to go through each one individually. It'd be great if it was like a PDF where we could I
+
+Speaker  208250:39
+think that's a good suggestion. I think the reason they worry about the PDF, what if someone takes it and then send it to someone else outside the MDS? I mean,
+
+Speaker  210896:00
+I find some people to sort it better in the system. I find it.
+
+Speaker  212416:00
+Have you used a filter? Like, does the filter? Yeah, but yeah, yeah.
+
+Speaker  213749:20
+It's not as helpful as I would like, because it'll show you the person, but then it doesn't show you, like the discount or anything else. Yeah, you have to, you have to keep, you have to keep clicking in. It would be nice if it was with that, like I said on the screen.
+
+Speaker  217573:20
+Yeah, they can probably build in a sheet within, within, within the within
+
+Speaker  219045:20
+the non printable or non Yeah, but just something that's easier to just look over, as opposed to just constantly clicking in and every one of them,
+
+Speaker  221082:40
+I agree. I agree. Yeah, I'll let them know about it.
+
+Speaker  221978:40
+Yeah. You use seller investigator, MO. You use
+
+Speaker  223322:40
+true ops through ops.
+
+Speaker  224106:40
+Have you ever heard of refund hawk?
+
+Speaker  224976:00
+I've heard of it, but I didn't try. How much do they charge?
+
+Speaker  226128:00
+Well, they gave me an offer for 7%
+
+Speaker  226864:00
+Oh, nicely. So they match, yeah, they reached
+
+Speaker  227472:00
+out to me because we use, we use full free by Tiktok a lot now, yeah, of course, they lose a lot of inventory too.
+
+Speaker  229536:00
+So they do that too. They do that too as well. Oh,
+
+Speaker  230149:20
+nice. They wanted to start doing the Tiktok one. Oh, wow. And but they don't have, I use seller investigator also at 7% so,
+
+Speaker  233669:20
+so even, even seller investigator give you 7% common six, yeah, yeah, yeah. I mean, for sure, yeah. But honestly, we, for us, it's easy, like we I do it all in house, and I even heard someone in the MDS. He built an AI agent to to do them. But I don't know if I want to go that route. I don't. I don't trust someone having access. You know, this is my problem with those AI. It's someone asking my seller central and then doing things maybe I don't want them to do, but I mean, my account is not as big as yours, but it's manageable. The only thing I do not like because AWD split off the shipment, 5678, times. Then that means each time we send the shipment, it's eight times. So that means there's more extra work, like back in the day, it was just one, because we send big, big shipments per month. That way we don't have to reconcile a lot. It's just one, two shipments. But now, AWD, they split them up, like, you know, like five, six, to spread them out, so they're just, I mean, but now I have someone like, like, a va doing them, but it's easy. Like, we have a template, like a packing list, and
+
+Speaker  250901:20
+then find it. You do use, like, seller eyes or something like that, to know, yeah.
+
+Speaker  252106:40
+So, yeah. I mean, even if, even if you don't have solar rise, you can live without it. Basically, you can filter the shipment plans by closed, and then you have to open one by one. I mean,
+
+Speaker  256442:40
+like, like, like, people who return the product, but they don't really return it, like any refund.
+
+Speaker  258448:00
+I used to do those at the very, very beginning, but honestly, it's just too much, just too much. I think you might because I think the only way to do it right, right, right. Like, you need to have, like, a small warehouse in USA, and then sending those returns to your warehouse, and then having someone, maybe, like a student, inspecting one by one, taking photo. It's a nice business, by the way, but I there's no way me based in Canada. I mean, doing it, it's impossible. I think I asked someone he he gave me his prices, but it was too expensive. It was like, I have to pay him a lot, and then we have to pack it, and then we have to send it back to FBA. I mean, I thought it's not worth it for me, maybe for your volume. It's worth it because you already have the warehouse, but people having good, good luck, but you need someone good taking, but you need also packing this. If it comes with so many parts, you need to show them. Oh, by the way, it comes with eight parts, but I only received four parts, something like that. Yeah, that's the trouble, yeah, but, but the last one lost, damaged. Those gets reimbursed automatically with the new system. But the returns, no, they have no I mean, Amazon have no clue. Like then, I mean, I mean, we have a big business shot, so I think it might be worth it if you already have the warehouse. I mean, maybe test it would for a month to month, and then see, see how it goes. If it makes sense financially or not for you.
+
+Speaker  281189:20
+Yeah. Do you know how many percent of your revenue they they get back, like, through ops,
+
+Speaker  283013:20
+like, like, You mean, like, how much they charge for that? I mean,
+
+Speaker  284218:40
+for us, it was, like 1.3% of revenue. Seller investigator was able to get reimbursed.
+
+Speaker  286458:40
+Oh, wait, wait, when you say returns, like, like, Wait, there are two type there's two type of returns. There are the ones where the customer is supposed to send them back, but they don't come back. That's easy. You can do it.
+
+Speaker  290352:00
+I'll stop them. In general, like for all the reimbursement, let's say if we sold $10 million a year, we got no not how much they charge us, we got $130,000 in reimbursement back from Yeah, I'm wondering how much they found you
+
+Speaker  295717:19
+guys, yeah, I haven't done the math, to be honest. I can look at it and let you know. I'm not sure if anyone here has done the math
+
+Speaker  297317:19
+here, yeah, just seen was saying, like, two and a half percent, like, with their inner, you know, their own, their own systems. They were able to get back about two and a half percent crazy.
+
+Speaker  300714:40
+And how much you got, you said, 1.5 1.3 Yeah, yeah. I mean, I asked him to share with me that sheet, just to see how it's built and see if there's anything I can poke with it, you know, just to see that we're on the same page. Otherwise, it's easy to talk about numbers, but, but, yeah. I mean, he has a good system, but, but, but again, jasm has so many things like retail arbitrage, online arbitrage, wholesale, private labels, brands he owns. So the question is, do, do the returns rate are the same for her? So, I mean, he's not like 100% private labels, like you or me. Julian, do you have, do you know the percentage? I mean, do you work with? Do you work with? You work to with carbon six. Investigator, do you know how much?
+
+Speaker  314757:20
+Yeah, I don't know exactly, yeah, yeah. I haven't, I haven't necessarily done the math, unfortunately, like, I'm that's something that we're trying to do. I remember that post that somebody put it up, like, about a month, month and a half ago, about all of the reimbursements that they did, and the refunds and they got, and like, I'm still trying. You know, we're talking. Asking that right now with our internal team on that, because we're just having trouble. My biggest thing is trying to figure that out, and then also just what to do with all these goddamn returns. Because, like, you know, we end up with so many returns, and how do you go ahead and calculate that? So we were even thinking about taking the returns and, like, the FBA stuff that we need for reimbursement, because there's a lot of, like, distributor damage, and we get that back, and then, you know, it's hard to file, and I'm just trying to figure out good ways to market. I mean, it was an amazing post. I just wish that's something that I could do, and we're looking at how we can replicate. What do you what do you expect? Do you
+
+Speaker  330389:20
+expect everything when you receive from your vendors, you have like, like unit by unit, or just like, like, few units
+
+Speaker  332522:40
+from the bathroom. Well, I mean, in a way we do at the moment right now, because we're doing everything by hand. So everything comes in, we throw on an FN SKU, and then we send it back out, and then we also put on our own custom sticker that's non removable, so that way, when the item comes back, we have a moral compass, knowing if it's ours or not. Yeah, because,
+
+Speaker  337936:00
+because of the commingling, I think now there's we don't actually commingle
+
+Speaker  338944:00
+but, but there's nothing stopping you from buying a set of post it notes from me, or a set of post it notes from somebody else and sending the other one back to me. Because, yeah, sometimes we see with some of these bigger orders, where it seems like they might be buying from Staples and Office Depot, and they don't have it in stock, or whatever office supplier, they get that stock, and then they try to send me back the other stock that you know when they get it, and it's just like ridiculous. But luckily, we mark all of our inventory, and a lot of our products are serialized, either from distribution or from our our warehouse. So we when you say, you
+
+Speaker  347962:40
+Mark, do you mark the box or the item itself from inside?
+
+Speaker  348954:40
+Like, no, no, it's on the box on the outside. Like, I don't want to disrupt the actual packaging, but we'll put a non removable sticker on there that, you know, says, Thank you for shopping with us. And then we know that it's ours. Ours. Got it?
+
+Speaker  352256:00
+Got it, okay, yeah, it adds a
+
+Speaker  352784:00
+little bit more on to our cost. But we're actually in the process right now. I just went to a packaging Expo to automate that, so we'll have robotic hands. I mean, we got quoted on a robotic hand to do that manual process of 12k a robot. So which is nice, nice, nice.
+
+Speaker  356704:00
+Yeah. The other update I have this is for those who ships from China, Amazon global logistics, they're going to start shipping to Canada end of the year. It's confirmed. Yeah. So they're rolling it out in q3 if not q4 but that's that's the good news for me, because in Canada, you don't need to do much. DDP, because there is no higher tariffs. It's very straightforward, like the UK. So yeah, I was looking forward for that because they already, they already can help sending inventory to the UK, Germany, all these countries, but not Canada. I don't know why, but I just got them easier last week for those who ships from China. Yeah. Okay, cool.
+
+Speaker  369152:00
+You guys talked about, sorry. You ever talked about how we can ship to California? Only is there a trick or hack? I think
+
+Speaker  371536:00
+when we start using a WD, my focus was how to get AWD in California that that was my phone Exactly. That's, that's what I mean. Is that your question? Yeah, so, okay. I mean, I can, there are ways, but I mean, I just don't want it to be spread out the group, yeah. I mean, yeah. I mean, changing the country. There are a few countries that that can send me a DM, yeah, there are a few countries that can make it work. But one thing I do, when they get full, they get full, but what I do usually, when you create your workflow and say you're not getting California, one, most of us will probably, I was like, Oh, I'm not getting anything. They close the page. So for me, I'll keep that page open. The reason is, as long that work workflow is there, I don't want to build that shipment again, especially if I'm sending 20, 30,000 units. I'm not going to do even if I even my VA is just a torture. So imagine, for me, I'm doing 25 skews. Maybe for you, are doing hundreds or 1000s of SKUs. Imagine you're building it out, and then you don't get
+
+Speaker  390645:19
+you upload the file. Yeah.
+
+Speaker  391221:20
+I mean, even when you upload the file, it's just what the way, how I do it. I keep that page open. So even if Seller Central signs, signs me out, I still sign in again, and then what I do, we do refresh. Every three four hours, so usually within three four days. And then changing the country, we will get something in California,
+
+Speaker  398298:40
+yeah, talking about some, yeah, sorry, I
+
+Speaker  399722:40
+was gonna say mode. You. Talking about AI. I know you don't want anybody touching your stuff, but that sounds like the scraper we do to get competitive pricing. You should take a look at automating that process, because then you're going to stop wasting your time. Because if it's constantly doing that, you might want to just refresh it, and then, you know, you can write some code for that, because for like, our scraper, when we're pulling down information. That's exactly what it's doing. It's constantly refreshing the page and then pulling down the data, and it's safe, yeah, yeah. I mean, we have a separate we have a separate computer here in the office that does it and has a shit ton of tabs open, I feel Yeah.
+
+Speaker  409157:20
+So we're not talking about an API access, we're talking about a scraper, right?
+
+Speaker  410277:20
+Yeah, yeah, yeah, just a code that you write over like a Google Chrome extension, yeah, just FYI, if you want to limit doing that, that's exactly what we look for, because we basically run our own repricer like that.
+
+Speaker  414074:40
+Oh, you're not using any tools. Yeah, we are. How sweet.
+
+Speaker  415162:40
+Yeah, we are. But the thing is, is, like, what you can do the repricer, but I haven't found any repricer that can do the industry vertical pricing. So I have a fraternity brother of mine who gave me access to his account, and you know, I give him a little cut every so often, because unless anybody found one, I have no way of repricing.
+
+Speaker  420608:00
+Yeah, most of us here are private labels, so we don't know much about reflexing, Justin would, but I feel like, yeah, yeah, yeah, it's the same idea for sure, yeah. So yeah. I mean, there's a list shot. Just send me a message. I just don't want
+
+Speaker  425989:20
+to have it. The thing is, there's because I do ship from our warehouse to AWD too, and we are in Louisiana, right? Yeah, sometimes I want to send to Dallas. And no matter what I do, it sends to California.
+
+Speaker  430234:40
+I think, yeah, my problem.
+
+Speaker  430682:40
+I think days it just sends to California.
+
+Speaker  431370:40
+Yeah, yeah. I find it. I feel like sometimes we make a joke that they're lazy and they want us to ship it the furthest way away, so that they don't have to ship it internally, like I feel like sometimes that's it, because we we're just, we're in the process of setting up a office in Wisconsin, because we have that exact same idea, and we've tried it sometimes, like, we'll take the same exact shipment from Wisconsin, and I'll ship it to, like, Miami, but then I'll take the same shipment from LA and, like, literally, the exact same time I'm pushing it and it and it says, you know, ship it all the way to New York, you know, like, it's just wherever the furthest point I feel like you can Go,
+
+Speaker  442741:20
+yeah, yeah. So other other than changing the country a shot also changing the warehouse zone, like, for example, even though, if I want to shift it to Texas, I'm going to put I want to shift to the East Coast, because sometimes it will give the opposite. Again, those are the many tricks I try, but I hear you. My focus is only on the west coast, but I also know the one in Texas is very small warehouse. The iusf is very small. They always have problems from day one, and they always over capacity, yeah, but yeah, I mean, yeah, just send the idea. I'll send you a few countries to try and again,
+
+Speaker  453264:00
+anything, yeah? With that, what is it called? Like the, it's like less than 10 SKUs, more than 200 bucks, yeah,
+
+Speaker  456277:20
+I tried it. Yeah, I tried it. I was getting, I use W, which is not bad. This is also in California. But again, they don't have to be advertised to flow loaded. It's fine too as well. We do a flow, yeah, so either, yeah, either less. I mean, less than 10 for sure, either flow loaded or palletized is fine. I tried that warehouse. I usw. They have the same version of it in California as well. Sorry, in Texas as well. I forgot the code, and they have one in Arizona as well, but we're still not enough. Still not enough. Like, whenever it's whenever it's q4 Chinese New Year, something like big, big event, they get super busy, but then after that, they're not busy. Yeah, hopefully we see more warehouses. In fact, they can just close one. I UTI, I have some inventory there, and they send us an email. Because what happened? One day opened my inventory page on AWD, I found half my inventory is gone. I was like, What the heck? What's going on? And then I read the whole message saying we're moving all your inventory. And now I check this all back, and there's no any, any issues. And I know also one other thing for you, because I think you asked about how to reconcile. Can you hear me still?
+
+Speaker  476234:40
+Oh, yeah, that big issue for me,
+
+Speaker  477178:40
+I haven't. I haven't found like, I haven't found like, any automated way, like, it's all manual. So for example, what, what? This is my experience every time we ship a shipment. Container, I'd say we're always like, missing two cartons, three cartons, four cartons, not crazy. Like, if I send 1000 cartons, they will always receive maybe 997, now, I've never had any luck with the reimbursement for lost inbound for AWD, because it's not part of their their systems. And this is something on that. Same with us, yeah, same with us. They will refuse no matter what. I think everyone faced this problem. So this is why, when I was like, when we have that call with them, we can explain to them, if FBA have have the system, has the system, why not? AWD, you're not guys different. You're also, I think the other thing
+
+Speaker  489349:20
+Mo was also just letting because I have transit insurance. So the problem is they also let us know past our transit insurance. So, like, I've been working with my broker, who's working with the carrier. I'm like, Look, guys, if you still want this business, you need to understand, you know, the business model. And so we're trying. We haven't been successful yet, but that's something that we're working on. I'm just, I have a open threat, which I don't know how I would go through with it, but I'm hoping you know they don't call my bluff, because it's just getting ridiculous. Yeah, I agree
+
+Speaker  497872:00
+with you with that, yeah. So basically, that Google Sheet tracks all these inbound shipments, and I will mark anything lost. And what I have found out like sometimes, because I we reconcile after each inbound shipment, after each shipment to AWD. So sometimes I find, oh, by the way, I for that spew, I'm supposed to have a 20 cases at AWD, and then I find 21 did I know I have lost three in the past, and now they found one. So I've been doing it that way, manually, and I've noticed, like, even if they say they received less three cartons, somehow they show up afterwards. Again, I'm doing full containers. They're fully seated in China. We do inspection there, so we make sure that our supplier is sending. But again, it can be tricky if you have no control in China, meaning that they tell you, Oh, we sent 1000 cases, but then they sent 998, but I haven't found any, any any other way. I mean, it's all manual, and we do it after each shipment. And honestly, yeah, they have lost things, but it's only a few cases. They get found later on. But again, we still have, but not, like, not, not huge amount. I'm trying to solve that part with them. I mean, at least to give us reimbursement at the very beginning, when they started, they were giving reimbursement. Now nothing, even if you escalate it, they're not doing any, any, anything. AWD, to FBA. No issues. I mean, they will
+
+Speaker  524106:39
+always reimburse me. Usually the issue we have, because we have to close our books at the end of every month and our versus only once a year.
+
+Speaker  526858:40
+I do it once a year. Just too much, yeah, but I understand you come, yeah,
+
+Speaker  528256:00
+can I? Can I ask without being too personal, why do you want to close it every month? Do you have a bank covenant? It's like, that seems like a lot of work.
+
+Speaker  530208:00
+Yeah, we have to bank, a bank loan. Because I was
+
+Speaker  531760:00
+like, that's got to be your only reason to do every month, exactly.
+
+Speaker  533103:59
+Yeah. And it never matches. And we do the physical account and say, Okay, this is how much we had. This is how much we sent this, how much AWD sent to FBA. Therefore we need to have this money. We are off by maybe 200,000 units every month. How many units you said, like about 200,000 units, and I have probably about 10, about 10 million units. So, yeah, I mean, yeah, it's about 2%
+
+Speaker  540234:40
+we're always like, but, you know, the bank covenants, as long as you put in there. I mean, I wouldn't worry too much, because we do a, we do one, but ours is quarterly, and you always put the stipulation at the footer, you know, and most of them understand, and it's not like we're, you know, new, and this is a new thing. You can just put a footer. I wouldn't, I wouldn't lose sleep over it.
+
+Speaker  545408:00
+So do you have, like, a line item saying that those are lost, or something like that? Or what do you do a shot?
+
+Speaker  546928:00
+I just, I just tell them this. Usually we just make up numbers. Yeah. So basically, we, we match our physical with, with whatever it's in the books and needs to match. And then we do a yearly audit. In the audit that we do, we have to be very we do an adjustment to the inventory.
+
+Speaker  552325:19
+And are you seeing, are you seeing more last unit in FBA, or more lost units in AWD?
+
+Speaker  554149:20
+AWD, but it's not lost. It's usually on the way from AWD to FBA.
+
+Speaker  555530:39
+Yeah, nowhere. Yeah, I have that exact same issue at any given time I'll, I'll have $500,000 show up day to day, like that wasn't there yesterday, and it wasn't like it was lost. It's just, it's almost like it it's in between one, yeah,
+
+Speaker  559786:40
+they call it like. I call it like virtually lost, but they're not lost, yeah, inbound. So bizarre, yeah, yeah, yeah. And if one unit checks in, then it vanishes, the whole thing, and then you have to wait for them until they start checking in, yeah? And that's what you're talking about, yeah. I mean, I didn't face that, because I do only, I reconcile only once, once a year, but I understand where you come from. Yeah, it's a bit tricky. And and to be honest, many, many guys will forecast manually. They forget those units and oh. Then I said, Oh, we over stuck. Oh, we underst. Because those units, I call them, in limbo, like, because they arrive, but they haven't checked in yet, and they don't show, you know, somewhere we
+
+Speaker  572602:40
+do forecasting based off of what we send off and what we show sold. You guys do with the products that are sitting like, we get a lot of FBA orders that have been in basically pending status for three months or two months. It's ridiculous, like, at what point?
+
+Speaker  577567:59
+Like a customer order, like, yeah, and
+
+Speaker  578416:00
+it's just sitting there and pending, and it's not been, you know, like we look at and it's holding up stock for us. And I, you know, we talked, we even went to the seller cafe at there, and that's another set of inventory that we have to equate for that it's just ridiculous, because clearly, in three months, they're not paying for it, like, just release the
+
+Speaker  583557:20
+goddamn thing. Because my items, my items, are cheap. I don't know if Rashad, have you had any orders at the air pending for very long time? Yeah.
+
+Speaker  585845:20
+Think for isn't it mostly like business people that who buy like, is it called invoice orders?
+
+Speaker  587498:40
+No, it's, it's all of the above. I'm going to actually let me log in real quick.
+
+Speaker  588570:40
+Yeah? I mean, I know invoice orders, you're talking about this. That's, that's something else, yeah?
+
+Speaker  589546:40
+But, yeah, we do have orders, like, in April for August. I know that for sure. Yeah. Like, schools buy it and they just pre buy the whole thing?
+
+Speaker  592256:00
+No, no, my mind, mine's sitting in stock, and they're just holding up the inventory. And now I'm also, what I complained to my rep was I'm paying storage fees now and excessive storage because it's in there. And I think that's both expensive
+
+Speaker  595984:00
+too, right? Those items are expensive, yeah? Like, yeah. I mean, even if it was a credit card issue, I mean, it should clear within a week, maximum, exactly, that's what I said.
+
+Speaker  599493:20
+Wanted to add something. Yeah, I
+
+Speaker  600821:20
+am listening everything. Sorry regarding the AWD reconciliation. I also grade every month the reconciliation. And we have, like, a report in AWD that now is very good. They have all the FDA IDs from the shipments out. And last month, what's very easy to understand the variance, because it was almost everything in transit, about AWD to FBA so and also I found that they lost some units, and I require the reinvestment there. I also have two ops, but I do it twice that because I do the reconciliation, so I create a case, and I have very good answer of AWD about the unit that they lost.
+
+Speaker  615381:20
+So were they did they reimburse for you lost inbound with a WD or no?
+
+Speaker  617397:20
+No from Ibo, no, yeah, no, but from the AWD to FDA, yes, because they are like the carriers in that
+
+Speaker  620282:40
+case, yeah, yeah, that one, I have no, no, any issues. I'm just gonna show Julian what language to use. I mean, you guys also, in true ops use it as well. So yeah, for me, was more, more than last, last inbound, their inventory, legislative reports. For everybody, I like it, but, but they also, they have all the AWD, warehouses, so you have to add them all up. I mean, because, you know, sometimes we we're not sending to the same warehouse every time I use j then there is IUs fee. I still do not like the report, 100 100% but I also have so stuck. They have an API with them. I can see the live amount as well. But again, it's not perfect, because AWD is not perfect. The API is not perfect with the AWD I noticed, yeah. I mean, hopefully they are
+
+Speaker  632117:20
+improving, but yes, I continue with the manual replenishment in awdd. Now, next week, I will have a meeting with them, because I require that avid in the AWD inventory reconciliation file. And if they added that a VA ID to the to the report, I will start to I say the to them. That I would start to create auto replenishment, but we are not doing that, so they want to meet me next week about that. But yes, I prefer to create mammal replenishment continued this way. Okay. Makes sense, yes. And the second talking about the orders, I have one order, a pending for two months, a business order, yes, and I grade a ticket, and we talk with them. They continue there. And the client by
+
+Speaker  651045:20
+after how are you tracking guys, those pending orders? You just go manage orders and then sort by pending or what do you do if they are very big? I Yes, you mean if they're very, very big and they're sitting in the reserve, you can notice them? Yeah, yes.
+
+Speaker  655546:40
+If not, no.
+
+Speaker  656346:40
+Julian, how are you tracking those pending orders? Like you just going there, and I just
+
+Speaker  657904:00
+want to show you, this is what I'm talking about in mind. Like, these are orders that are pending in FBA from a month ago and a month ago and a month ago. And this is just one of our stores.
+
+Speaker  661040:00
+So, so they're not just business customer, there are mixed, mixed of everything, yeah, yeah, oh, wow.
+
+Speaker  663621:20
+So, I mean, I got, you know, like, this order five toner cartridges, one toner cartridge. I mean, this stuff is like, what the hell? And even this one was, I got, like, subscribe and save. Like, how do you not have the payment? Then, just let
+
+Speaker  667978:40
+it go. Are you able to click on one of them? I want to see if they bought other things from you. Or those are new, new customers. You know, when you click
+
+Speaker  670122:40
+on any, which one do you want
+
+Speaker  670698:40
+me to click on? Yeah, just click on any, on any shows if they have. I mean, we don't even have the buyer information yet, so, yeah, it's just useless. Yeah, this is interesting. I don't care. Yeah, yeah, this is interesting. Wow. And they, they quite add up, I guess. Yeah, right. I mean, for that. Well, I
+
+Speaker  675984:00
+mean, this is just, this is my supply store. This is not my furniture store. The other problem is, like, I had an issue, and I had to, like, beg and plead. They had a $200,000 chair order on my other store, and that's why we put limits on and it's still just sitting there and pending, and they hold it up, and I don't have an extra, you know, $200,000 in chairs.
+
+Speaker  681013:19
+And it doesn't look like it's credit card issue for the customer, right? I mean, there's money
+
+Speaker  682693:20
+for the PO number, I would probably say it's on terms. It doesn't even tell you. I thought that was weird. I figured I'd show you what the hell I'm talking about.
+
+Speaker  685722:40
+So yeah, I would, yeah, I'm gonna ask Justin about it too, because he's a big seller, and he has so many different business models. Uh, last thing we've seen this one that would be interesting to see if there's, I haven't experienced. I mean, I have pendings, but they usually go, I mean, three days, four days for, uh, cruise. You said you only saw one. So I think one is not alarming, but, but the amount of orders I see here, they're crazy, like so many orders. Yeah, you have 207 orders.
+
+Speaker  693392:00
+I mean, obviously some are, you know, newer, but I don't understand what, what you're waiting a month for to get payment on, like, move on, yeah.
+
+Speaker  696869:20
+And you tried everything, yeah, okay, opening cases.
+
+Speaker  698101:20
+Rep, we talked to our case for like, and then they're always referring us back and saying, Well, you know, they have a chance. It's like for how long? I mean, I guarantee you, even if we talk to these people, I guarantee majority of these people even forgot about the order at this point. They're not waiting around this long for that many toner cartridges or for Bondo or painters tape like, come on. They've probably moved on by now,
+
+Speaker  704928:00
+there's definitely any big, big problem, yeah, yeah. Do you usually come to Amazon? Accelerate or no, you accelerate.
+
+Speaker  707120:00
+And this is, yeah, this is, this was on our seller Cafe, and they're still trying to do it, and we did connect with specialists, and they're trying to figure that out. We've been, that's been on our thing since, you know, accelerate. I even did it at AB as well, talking to them and hoping maybe, you know, you have more intelligent people, and still kind of run a mill. Yeah.
+
+Speaker  712885:19
+The only thing I can mention maybe Twitter and then try to put the amount that we have these. These ones are 200 Kat other thing would be shiny. Try to reach out to him. Is well connected with Amazon. Can you
+
+Speaker  716570:40
+send that in the chat? Or, I don't know who that is.
+
+Speaker  717770:40
+He's nice guy. He owns expandify the tool. Okay, that's his name, first name, yeah.
+
+Speaker  719690:40
+All right. Stop Sharing. Don't need to hog the screen.
+
+Speaker  720672:00
+Yeah? Oh, well, yeah. I mean, you see new things every day. Any other questions here? I think there was Yeah. I think Andre you were trying to say something at the very beginning.
+
+Speaker  725120:00
+Sorry, yeah. No worries. Now, the conversation was super interesting, so no worries at all. Yeah. So I'm kind of new to this world. I started working this company a few months ago, and my first time, like on Amazon, I'm doing all the logistics and operations of the company. And you guys are definitely on another level. And you guys are doing some amazing stuff. I'm having a hard time like keeping up with the whole conversation, just because of how advanced you guys are. I was wondering, are, I was wondering if you guys have, like, any resources that you recommend that I reach out, that I research into because, you know, like, of course, I understand, like, most of the things you say, but like, I don't exactly know how to apply them, if that makes sense. I think I
+
+Speaker  734634:40
+think that, yeah, I mean, it all comes from experiences and then maybe asking questions in the channel itself. I'm sure people will help out. Yeah, that's the way how, yeah, I
+
+Speaker  737344:00
+would say, go to prosper, too, if you want. That's where I first started. Yeah, definitely go to prosper. It's, you know, obviously coincides with Inspire. But you know, Inspire is grad school, and it, you know, prosper is, you know, your basic school. So you want to go through all the PROSPER programs and trainings and everything else, and then obviously, like you said here, it's more advanced, you know, that's where I started. Okay, perfect.
+
+Speaker  744805:20
+So prosper for the basics, that's, you know, elementary K through 12. And then inspire is, you know, college. Okay, yep, exactly. Awesome. Is that, like, I'm looking it up. Is it called proper prosper marketplace? Is that the one? Yep, it
+
+Speaker  748874:40
+coincides almost with fire with inspire, yeah, it's almost tail end of Inspire,
+
+Speaker  750714:40
+yeah. March 8, march 9, or something
+
+Speaker  751194:40
+like that, yeah, yeah. Okay, perfect. March 8, okay, that's in no time. Perfect. All right. Thank you so much, guys. I appreciate it. The one question I have for Mo and clues, what do you guys prefer doing manual replenishment from A to Ed instead of automatic? Because my understanding was that the automatic repression was actually pretty good.
+
+Speaker  755968:00
+The algorithm was every time, every time I try it, there's always a problem. I mean, it's getting better and better, but I like to have more control for me. I don't know I I don't care about that few cents, Kat, whatever it is. And then it forces my guy to do the forecasting and then the manual replenishment every week. Otherwise it's going to be too lazy. And depending on the auto replenishment, also, I have so many seasonality as well, and I feel like Amazon doesn't understand that as well, so I don't know, like, like, I'm okay paying little bit more rather than having six, seven months of stock. I don't know. Maybe cruise you have something else to say. I don't know if you had better experiences now, but I still
+
+Speaker  768239:59
+want to wait more, I don't know.
+
+Speaker  768848:00
+No the same reason. When I start with the outer replenishment, I have a lot of issues. They receive the stock in FBA. But when you enter to the FBA ID, you see ship are not received. So it was very difficult to track. We have, like a very systemized, yeah, yes, the process. So it was very difficult for us to understand what happened with the inventory. We need to create a case. So that's why we create now manual replenishment every week. It easy. Is very easy because we have the model like very automatically.
+
+Speaker  780218:40
+So you're still doing manual two today. You still manual two today?
+
+Speaker  781418:40
+Yes, next week, I have the meeting with them, but I will answer this, that I prefer to create manual they are improving a lot with all the reporting, with the shipments, but I prefer no
+
+Speaker  786080:00
+stock to give recommendations, but we don't. It doesn't actually do anything, but it monitors and helps with us.
+
+Speaker  787936:00
+Yeah, yeah. It helps. Yeah, but, but I feel like with always like, imagine you're automating your bank account and someone taking money in and out. Like, it's very hard to control. You know, that's the way how I see it. I mean, I'm not saying it's bad the auto, but I say it has its cone. I mean, it looked like, what happened with you? I think last year, someone got suspended, and then it kept sending inventory to his Asin. Can you imagine that asin got suspended. So I just do want to, you know, like, try it again, and then something happened, and then, you know, I mean, I'm happy with all. I'm happy paying more, and it just makes, makes me happy that the team is happy as well, and we don't have any issues because we have assisted. And we replenish every two, three weeks, and we know how many shipments we get out of those. Every time we replenish, we get at least 567, shipments, and we track them. And, yeah, that's sort of how we do it. I mean, you can give it a try, but just make sure that you're monitoring those auto replenishment, you're not steeping like you're not stealing them. Yeah, that's the way, how, how I do it? And then see, see if, if it works for you. And, I mean, I don't know about the discount, discount is good, but for me, it doesn't justify, I mean, just like, what happened with you? Julian, like, six months, yeah. I mean, yeah,
+
+Speaker  809029:20
+$6,000 in, what's it called, 6000 or $7,000 in eight AWD fees that went to FBA fees, you know, like, that's what our just on our furniture store. It's crazy. Yeah, wow.
+
+Speaker  813066:40
+Appreciate it, guys, thank you.
+
+Speaker  815002:40
+First time seeing Ryan, here are you a new member or working for someone.
+
+Speaker  817232:00
+Sorry, found my mute button. Yes, I am a new member as a nice, February, January. Yeah, nice,
+
+Speaker  818976:00
+nice, nice to meet you. Yeah, sorry, I didn't. I didn't mean to pick on you, but just was wondering, yeah, yeah,
+
+Speaker  820384:00
+yeah. You
+
+Speaker  820879:59
+have any questions? All good from your side, yeah?
+
+Speaker  821813:19
+Just listening right now. Yeah?
+
+Speaker  822309:20
+Nice, nice. Yeah. Again, like these calls get recorded. If you guys have questions you can ask on the channel. I don't know if they're gonna move our channel to the WhatsApp or not, because they've already been moving some channels to the WhatsApp. I'll ask that would be preferred.
+
+Speaker  827050:40
+I was gonna observe, sorry, Hi, how are you? I was gonna ask you guys, like, yeah, sorry, would it be cool for you to have a WhatsApp group? Like, is that what
+
+Speaker  830122:40
+you want? Much rather that, yeah,
+
+Speaker  830682:40
+I like that too. I don't know what about the rest. I mean, other than exposing, other than getting your phone number exposed, but who cares? I mean, we're all like, I mean, we all know each other, and I don't think anyone here to spam any anyone else. I mean, we're not service providers or so. I think I like the idea, because many of them are on WhatsApp now. I can also write.
+
+Speaker  836096:00
+I find mine was glitchy. My MDS app is glitchy. More WhatsApp, more seamless. I find it better as well, and I have more control over the stuff, because the MDS just gets noise, and you can control the WhatsApp better. Yeah, tell
+
+Speaker  841221:20
+me if you want I mean, I think we all want it, but I can also write a quick one on our channel, if people wants WhatsApp or not. I think we all on boarded with that. But just just in case, I feel like even my announcement is getting missed because no one, yeah,
+
+Speaker  845562:40
+like, I do reckon that there's like, a lot of engagement from all the groups that already have Whatsapp group like the AI, like they're blowing up. So it's way better. And again, like, everyone's have their phone on their hand all the time WhatsApp. So if you do want it, I can, like, start doing, like, the whole process, and then I will let you know. I will let you know when it's finished. And yeah, you will get the either the invitation or the link to join. Like, that's not great,
+
+Speaker  853216:00
+yeah, because many of us are on WhatsApp like all day, so just easier than
+
+Speaker  854645:20
+Yeah, the other thing that I don't I don't know if people travel as much as I do, but I travel a lot, and WhatsApp is one of those apps that actually can work on the plane, that you know, when sometimes other ones can't work. So it's one of those ones that are constantly allowed to get a feed, which is great. So because sometimes you miss out on stuff when you're on on the plane, depending on what it is and how it looks at it,
+
+Speaker  861226:40
+I agree with you, like some of them gives you like access to social media thing, internet or so, and what's up qualifies. But not exactly, not an app, not an app like, yeah, yeah, yeah, makes sense, yeah, yeah. I think, I think we'll all, we are all like it, but I'll ask again. But I think it shouldn't be a fun I think I like it too, because I feel like I don't know, no one's checking my messages on I mean, I mean, even the engagement has went a little bit down recently. I understand. I don't, I don't look at it.
+
+Speaker  869568:00
+If you want my honest feedback, I don't look at it other than every so often. It's just, it's too much noise with everything else going on. It's too hard. You can't
+
+Speaker  871685:20
+control it. Yeah, it makes sense. Okay, yeah, perfect, perfect. I guess then that's, that's everything for today. Thanks for everyone who joined and yeah, our next one would be in same time, Thursday, at 9am PST, which is 12am Eastern Time. And yeah, perfect. Yeah, thanks. Thanks, everyone. Take care. Thanks. Bye, bye.

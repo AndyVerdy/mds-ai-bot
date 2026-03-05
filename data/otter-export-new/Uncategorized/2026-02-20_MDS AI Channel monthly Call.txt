@@ -1,0 +1,374 @@
+MDS AI Channel monthly Call
+Date: February 20, 2026
+
+Speaker  176:00
+Is one of my favorite formats for like meetups that we have in New York is actually the problem solution, one everyone is familiar with, but like sometimes, when we have the live meetup in New York, we share one of the problems that we're facing, and then the group like answers with like solutions. And I found find that to be like, very, very good, especially with AI that is like, Sonia and and stuff like that. So I think we might do another call, like, maybe the next one in that format, because I would like to explore all right, so, oh, I actually see a lot of people now. Okay, hello everyone. Thanks for joining. If you can put the camera, it's great. If not, I understand, but cameras are the way to go. So, like, I just wanted to, you know, open the floor a little bit on, you know what's happening. I'm hearing a lot about, like, open claw. And, like, a lot of people are using,
+
+Speaker  22229:20
+you guys are so talkative in your whatsapp chat, Yeah, fucking messages, Yeah,
+
+Speaker  23861:20
+hello, hello, hello, everyone.
+
+Speaker  24773:20
+Thank you Lee. Thank you Lee. I mean, I can first of all, personally say that I did not experiment yet with open call. I did experiment a lot with, like, cloud code. I'm developing some applications to automate things that you know are, like, very time consuming. I'm trying this is taking from what Ramon said earlier. I'm actually trying to do processes that I do not do in my business, not really to automate what I already do, because I kind of don't want to break what's working, even though, you know, I might make it faster, but, you know, I would rather there's a lot of things that I don't do because of lack of resources. And I feel like with AI, like, that is a good way to use AI. So, like, that's what I'm doing. I'm working right now on, and this is absolutely not ready yet, and it sucks, but the idea is there on, like, a basically automatic, automated content generator for Tiktok, right? That actually learns and, like, understands, you know, where, where he fucks up, where, where, you know, would like a pattern, recognize what is better, what's the best, hooks and stuff like that, and then keeps testing. This is an idea. It's working a little bit like I just started, like, few days ago. But I think this is, like an exciting thing, because I don't really do any social media posting that much, and, you know, to get an agency, you know, a lot of money, and then they're definitely less smart than Gemini or Claude. So, you know, that's, that's like something that I've been trying to do. What are
+
+Speaker  53344:00
+that's an interesting idea. We're working on something close to that, where it's kind of self learning, but what we keep running into is the context window on what we actually build out, right? If it's going to be continually self learning, how do we actually compress all of that so that the processing is fairly efficient and it can still keep learning? Have you thought through anything on that side? Yeah.
+
+Speaker  59482:40
+So for, for that specific thing, what I have is, I built a database of, like, right now I'm testing basically just hooks, right I want to start easy and then kind of, like complicated after, but like, right now I'm testing hooks. So, like, I'm starting from a baseline of a post that does, you know, work, so I know the hook works, and then I have, you know, 30% of the posts that I'm posting are with like, new hooks that AI comes up with, right? And then it analyzes the results, and then if it doesn't work, it puts in a database, and then I just have, like, a database of, like, all the hooks that didn't work. And maybe why, right? Like, I have the why, I don't know if it's really needed, the why, but whatever. And then when I go and the task is to generate a new hook for to test, right? There's not that. I mean, how many hooks can you like? It's gonna test a lot of focus after time, but before you reach the context window, it takes time, right, right? So I feel like with context window is better to give like, all the information that the agent needs, but not things that it doesn't need. But how are you running into like, limits of context window?
+
+Speaker  79866:40
+So we haven't specifically come into it yet. I mean, we're using open call to build out a lot of this. But what it keeps coming back and giving us, because we did kind of the same thing, we said, All right, go and make yourself PhD level smart on this subject, right? So it's, it's got all that preliminary research. Go and read all the top five books on the subject. Bring all that back. So we're feeding it a ton of information on the front end, so that it can be extremely knowledgeable. But then whenever it goes to execute, we kind of want to have it the same way, where it's self learning what works, what didn't work, analyze that by being able to give us a audit report that then you go and read, figure out again what worked, what didn't, notate everything within there, and then continue building over over time. But what we believe we're going to run into, and again, none of this is firsthand experience. It's just theoretical at this point is that that context window, as it continues to learn and log everything, let's say six months down the road is going to be so long that we're using up an entire, I don't know, Max plan worth of tokens just to be able to execute one individual thought process, because it's going to be so long and have to analyze that information time over time, over time.
+
+Speaker  101392:00
+Yeah, no. I mean definitely, if you, if you give it like books to study in order to be, you know, smarter on that, and then it keeps on it, and any call it keeps that, that's not that, that's not feasible. Like for sure, you need to extract thing, you need to extract information that it needs to do that specific task. The way I reason it is that, like, I have a team, right? It's not like one agent that does everything is not, I don't have another me. I have, you know, a bunch of different little bots that, you know, have small brains, because they do, they're very fast, but they have small memory, right? And so, like, they they need to do, like, one specific thing, so they need to know anything that there's no for that specific thing, but not other thing because they don't need it. Yep, right? So, like, that's how I try to do things. Anyone else has comments on that, you guys.
+
+Speaker  117887:59
+So guys, I've been playing with this thing for, like, I don't know, since it came out, and I have a few thoughts and ideas that may be quite useful. I think mostly I use it for development and thinking in that direction. But I think it can be applied in everything, literally, right now I have two of them, and I'm cooking up the third one, but you have to do an org, org structure that's 100% but first you have to start from, what language model are you using for you, like Sam, what are you using to power it?
+
+Speaker  127754:39
+I'm not using open cloud. So I'm just using, like, cloud code and I'm developing apps, yeah, so I did not try open call yet.
+
+Speaker  130128:00
+Oh, what's code running on? Typically, on sonnet or Opus, correct?
+
+Speaker  132255:59
+Yeah, Opus 4.6 is literally like, let's compare for coding. That's like somebody who just finished university or college last year worked at some company, and then you, when you turn on Opus, it's like a Google engineer comes in, and it's like, ah, that's the problem. Like, easy fixable in seconds. Kimi k, this is, like, a high schooler. I kind of, like, cracked some stuff, but it's, like, very, very far away. For example, I want to cancel my Calonge. That doesn't make sense for me to pay, like, 15 bucks for it a month. And Kimi k is, like, easy, 20 minutes. It's done. I'm like, Okay, let's do it. He plans it. And then I went into, like, some crazy loop with billing with it, because the context, I'll explain that later, but, like, it was loading a lot of context by mistake. We did some mistakes. And when you architecture the memory files, you can fuck up so bad that it will eat, like Opus 4.6 in tokens, like any language model can drain you instantly, like 50 bucks in like two hours with Kimi K, it can happen. Imagine what will happen on Opus 4.6 so when I turned to Opus, Opus is like, Wait, we're trying to ask the user to log in first so he can access your calendar. That's kind of dumb, right? That guy build it that way. This one saw it right away. So it's a bad idea to send him and learn something instant, like everything on a subject, and then give you, because you'll fill up that context window with a lot of stuff. And then what happens on the next reload, when you when you start a new sessions, I don't think open claw max power is just automation is really good, but you have to control how you structure the database of your information. It's all about that database of your knowledge. So basically, this is an open ended, open trained model that knows a lot of stuff. So if you plug in a good one, like an engineer that's really smart. It can operate faster through your database and find connection. That's it. There's nothing more to this thing. This is like you have a library of info, and then your AI goes scans through it and finds the pattern and fixes the stuff. There's nothing more, right? So you have to organize that. Well, I suggest to do a lazy load. You tell him do a lazy load for memory. So it's like a tree, where you have important stuff in one file that he loads in the beginning, and then he has hints to what else he may need, and he will retrieve it from that. Like I came to this after like freaking two months of working with this stuff, it's, it's crazy, and there's layers. Also, you have to do a vector search, like Google, what's, what's a vector search? That's a layer in vector formats, in a database, in a search database. So you have to have a few layers of of knowledge base for you, and you have to structure it properly and condense it, not for humans, but for AI. So like whatever it learns, you have to tell him go educate yourself on that subject, and then write down what you learn. Because you have with open claw, or even with claw, with Claude Kat for sure, because the same stuff, you have to reset the window the chat. You shouldn't keep it full all the time, because each conversation, basically you're sending the same shit over and over to anthropic. That's why you're gonna pay like five bucks for one message, just saying hi, will cost you, like five to 10 bucks even, not more. So when and now, they allow you like, 1 million tokens. That's crazy. You don't need that much, so you have to have your database so smart, so well arranged that a new agent comes in, and he's like, instantly, you tell him, Listen, we're working on this project. So he goes and, like, picks it up, knows where is everything, and just works. That's it.
+
+Speaker  196416:00
+How do you execute that with a lazy load like you're talking about? And that makes sense, right? It can condense context window you're using less tokens. It can search that database further in the future. And how are you ensuring that whenever it says, Hey, I need to go search this database, that it can find that quickly and efficiently, so that it's not having to go through, I don't know, 4000 10,000 lines of text to be able to figure out that specific piece of information and use less tokens in that example,
+
+Speaker  204474:40
+you'll have to do a lot of brain, brain thinking with that stuff took me a lot. I did like three of them, and we're still having issues. Like I had one extremely good, but it was loading so much that basically my Claude Opus four points, whatever the Plus plan was, was going away, like in one hour, in 30 minutes, was loading instantly. Now it it's okay for two hours. So I go in
+
+Speaker  212816:00
+some research. You
+
+Speaker  213264:00
+think of how WordPress does with with the index files. Did you work with WordPress files and themes? So they have an index file, an index file for a theme in WordPress is, like, a few lines, that's it. So you have, like, links to important stuff per project. So you should have, like, listen, boot up this project, put up that project. That's it. He doesn't need to have everything about you, everything about your business, everything about that stuff, like you're working on something specific. You load cloud code with that specific stuff, and that's with all AI language models, like, doesn't matter. You open claw, you clot, code everything. And so you have to train him. This is why Opus 4.6 is so smart because they train it so well on so much stuff, and it has so much computing power that it's like instantly finding stuff has a lot of arranged contextual stuff that it's very general but very condensed, so it understands how to how to approach stuff. But actually, GPT 5.2 is freaking amazing. And then a lot of stuff is actually smarter than Opus 4.6 I came to this today. Actually, when I looked, I gave him to analyze two recipes, and the way he approached analyzing two recipes by a photo, you can see how intelligent is the model in general intelligence, because he figured out a lot of like, how do you cook based on a picture, both of them understood it basically in the same thing. I won't go deep into that, but, like both of them, Opus 4.6 and GPT 5.2 understood it well, the essence, but not so deep like the GPT 5.2 understood and gave me tips of how I can improve it to make it so much better. For example, like, you have to, like, I don't know, you cook some eggs and you have olive oil, and you put some cherry tomatoes, so, like, you extract the flavor. And there is a perfect timing of how much you have to keep the olives inside the oil the Tomas to extract that stuff. So he's like, you kept it too much. That's why I have water on the plate. That was a lot of thinking. That's a lot of intelligence to understand that by by just one single image. So I understood that, basically GPT has to be the CEO Opus has to be the CTO, basically something like that. It's pretty interesting.
+
+Speaker  251338:40
+Can I just jump in? What you're looking for is something a concept called progressive disclosure. And the reason why it's easier to do that in cloud code or CLI is because you only give it the context that you need, and you break up the tasks, and that's how you're going to manage the context window. So you want to think about chunking down the context that it needs and only giving it the context that it needs. That's that's what you're talking about when you say lazy loading cloud allows you to give it a ton of data. The preferred format is markdowns, so do not give data in Docs or Excel or stuff like that, convert it to markdown if you can, because it any AI actually spends a lot more tokens just to convert that data. And what that does is it shrinks your context window so you have less room for it to actually digest information, and it's more likely to hallucinate. It's always better to just take markdowns, and then with cloud, you can actually put the context in multiple areas. So if you're on desktop, you just create markdown files in your project that you attach. You can actually put overarching instructions in your settings, and then on your projects. And then a general technique you should do is on CLI, you're compacting down, and then you're clearing your window in desktop, you're starting a new chat. So tell you, like, summarize the chat, and then start a new chat with the same project, so you're not reloading the same project context every single time, it saves you time.
+
+Speaker  278101:20
+You can also have a more basic language model to make your your markdown files and put them in the same library. So you can switch to Kimi k, for example, whatever you have, and you can summarize. You can fit him in for and then we'll summarize it and compact it in your I just
+
+Speaker  282453:20
+want to, I just want to, I want to, kind of like go to, I want to talk to the more basics. I think that Andre and June, you guys are both incredibly intelligent and very sophisticated, and you understand a lot of the nuances. And I think we'll get too into the nuances for a lot of people. And again, I'm making an assumption. There's 47 people on this call, so the assumption is that not everybody is as knowledgeable and nuanced, and I think that everybody here is to learn. And I would again, Sam, you're, you're kind of running the show. I don't know if you are or not, but I think you are. So like, I don't say format, but my two cents on actionable things that one should do prior to sort of doing anything is really mapping out what your process is and your framework. And I don't think enough people are doing that art, which I know that Andre and June, you guys definitely do that because you're that's, I think that's how you're wired. But a lot of us, just like run into AI and we'll start chatting and building and not knowing what your your end goal, or what that flow, or what that what that chart looks like, of like going from here to here, and thinking about the framework of what you're trying to build and the guardrails of your thought process. And so I highly recommend, if anything, using Whisper flow and talking, you know, whichever model you want to talk to, it doesn't really but, but building out your framework before you go into doing any of this.
+
+Speaker  309733:20
+So this is actually something that I do all the time. Like, when I start building something, I always start with, like, the pseudo code first, like, I need to visualize, and obviously I brainstorm with AI and like, kind of like he's sometimes he has ideas that are better than mine, which I great, but, you know, I kind of like map out exactly the process, and then I have it built step by step. So, yeah, I think, like, what Lee's saying is absolutely again,
+
+Speaker  318842:40
+for a lot of us entrepreneurs, if you start, if you don't know that whole process, and you don't take these bite sized chunks, you build something in an hour, and then you go, you have a fire because you have an FBA issue, and Amazon changes fees and Trump's tariffs just got refunded. And you're like, Wait, I gotta go focus on this.
+
+Speaker  324128:00
+That's great, by the way,
+
+Speaker  324543:59
+yeah, but you, you won't pick up after you drop off. And I think that it has happened a lot to me as I build but it's very helpful to have that framework of what you've handled.
+
+Speaker  328565:19
+And I think also when you know, if you have, like, an idea of what you want to do, and you tell AI in a very like simple way, is going to be like, Oh yeah, I'll do it like, you know, it always sounds like way greater than what actually it is, right? But if you do things with like with Rails, then it's very good. But if you do things like randomly, is is not really so I agree about the brainstorming and structure part, this is very is a very important.
+
+Speaker  336800:00
+Quick question, kind of going back to the markdowns. So just to break it down simply, let's say we were working with an Excel file. It can be whatever, like an Amazon like PPC Excel file or whatever. So the suggestion was to use markdown files to synthesize the data and then use that instead of the Excel file. So how would we go about actually making that happen?
+
+Speaker  343749:19
+No, no, you don't need to put the Excel file in your markdown. You feed the you make the Markdown file to be the understanding of what you have in that Excel file and what you want to obtain, because he has SOP intelligence. Exactly the SOP is your markdown, what are your files? What is your goal? What is your risk level tolerance, stuff like that. Where is your stuff? What are we working on? What is this project about? Because he eats Excel files at lunch. Any of them, like, this is
+
+Speaker  352448:00
+exactly what I was saying before. It's like, don't just give it a you're not just loading a file, right? You have a framework of like, hey, when I look at my you know, search query performance report, here's like, you're the definition for every column, right? Here's what I typically tend to look at and how I analyze it. And then when you give me the response at the end, I want it formatted in this way. And so when you, when you give it all of that, those are the instructions. And then you can also upload an MD file as like, what the definitions are, etc. And so you can, like, you can do a deep research project on how should I analyze search query performance reports, but it will then give you the same output every single time when you build a clawed project with the the instructions and MD files baked within it got it so
+
+Speaker  366778:40
+if I'm understanding correctly we are, because the way I understood it is that we're analyzing the file, the Excel file, extracting whatever information you want out of it, then putting in the Markdown file. But what you're saying is not that. What you're saying is that Markdown file is used to give the AI the framework in order to be able to go and analyze the file without burning through a shit ton of tokens to get to an endpoint that can be compressed and condensed with more clear instructions for the AI of how to analyze and what to look for, is that kind of the gist?
+
+Speaker  376325:20
+Yeah, I think that, yeah, the Markdown is kind of like if you had an employee, like, you need to do the same thing with an employee, right? Like the employee that comes to work for you doesn't know what you look into, search query performance, for example, doesn't know your framework of, like, doing things, doesn't know how you want your result. And this is, I mean, this is, like an employee, like, is not, you know, it's,
+
+Speaker  383082:39
+yeah, that's your onboarding for the agent. But a lot of you guys, if you just starting with this, you will do crazy big markdowns. Don't do that. Organize them to be really small, like, extremely minimal, and make them, like, do a visual board for yourself, where you plan how you will structure this info, like the how, the why and where, for example, right? That can be a structure, then memory is here. For example, I don't know our access thing where we store stuff is here. You never store any access things in the markdowns, no secrets, no passwords, never, ever anything that, if it's leak, you fucked so that should not be stored over there. You should have an environmental variable pile, right? And files, that's where you have them, and they are encrypted, because
+
+Speaker  398442:40
+that's a dot env, yeah.
+
+Speaker  399098:39
+Okay, yeah. And you never send your credentials in your telegram, in your chat, you tell him, Listen, open that m file. I will put it over there. You do it through a terminal. You never put everything or anything in in your chat, in your telegrams, because that can be compromised. It will. You have to change it instantly. That's you have to take security super serious with these things, because right now, like 1000s of people, we commoditized AI, right? We democratize it. So everyone is jumping. Everyone is a developer right now. So a lot of files will flow, will go especially if you guys have things in VPS, that's a very big risk as well. That's why I'm saying, Get It On Mac Mini. Don't buy the stupid Mac studios that's extremely wasteful, and in one year, it will be a wasted metal. Basically, you won't be able to do anything with it. And llms will be so crazy, more advanced. But the way you write your your markdown files is the crucial things, because you can do such an ingenious work at this, it will be literally everything. But by the time he ingest everything, the context is full and he can do anything. And every Hey, did you fix that? He would load it again, send it to Opus, or whatever he does, and you just see your bill going up, so you have to do it extremely well. Think of what's important, like list. This is my Seller Central. We're working on this account. This is the Markdown file for this account. So this is how we treat the access. It's there. This is where the images are. It's there. If you need more. Look here. That's it. Like super tiny index files. He goes into that file and it's like 20 rows, and he has everything he needs. And then he can do a search. And he has, you have another big data search file where he can retrieve daily memory. For example, you know that you can store memory per days, and you have an instruction when he doesn't load all the days, because you can do a screw up. And every day he will load everything you have, like, I did that mistake, and I'm starting conversation, he's loading, like, two weeks or two months of combo. And I'm like, why is anthropic banning me? Every second is like, Andree, like, sit down. You're sending too much stuff. And I looked at my my tokens, 600,000 tokens, every freaking message from 60. So you could be at 60, you're just sending, like, a few kilobytes of data. We're just sending everything you have. So really audit that with your agent. I would suggest audit that with Claude or with the GPT four, 5.2 don't use Codex 5.3 for general discussion, because he's really stupid at that. For example, he can't find a screenshot on your desktop. But with Opus is like, you just tell Listen, I have a screenshot on my desktop. We will check it out. That's the advantage of the open claw versus cloud code. I can be at my gym in telegram and I say, Listen, check that file, go in the directory, send me a screenshot, put it on the website. Let's see how it works, and he can send you a report. I don't know any tool that can do that. So like, if you think in concepts like me, that's really useful. If you're really technical, you're a programmer, cloud card is super enough for you can work from terminal, and you can commit so much. I'm not like that. I don't know to code that deep, right? So I'm thinking concepts. And it's for you. For me, it's easier to have someone really intelligent on the other side of the line who's like, Oh, I get you. That's what you want. And he executes. And a lot of you are probably like that, because we need, I think a lot of us are searching to replace vas. I'm searching for Chief of Staff for DTO, for example, that kind of role I want to fill in. But all that work structure is so complicated to make because I have some ideas now, but I just, I don't think it's the right time to pull it off right now, because it's too early and I'll just like, stop all my work. So that's a really important part. You have, like, three agents, for example, right? So one is your c co CEO. You go with decisions with him, Listen, I'm thinking of doing that stuff, right? Like I'm thinking of that stuff. He then plans everything, sends it to Opus 4.6 for example. That guy sends a ticket back, and they chat, but they never chat between them. If you let AI bots chat between that like if you look at those idiots on YouTube with Lean whatever is that guy that bought four Mac studios, that's bullshit. Didn't build anything. Just talk stupid stuff. You never put agents to talk to each other, because they will always fucking compromise, right? They would agree on stuff. They should not agree. It should be one intelligent that talks to another one, that guy gives something, opens a ticket back, and then you can look at the tickets, you can look at the progress, then understand what's happening. That's a really important stuff that I came to, for example, a few days ago.
+
+Speaker  480570:40
+What is like everyone else, like, actually building in terms of, like, what tasks are you automating? Or even you Andree, like, what? What
+
+Speaker  484384:00
+like? Yeah, I was like, Andree, like, I'm trying to eventually get to where Andree is at in terms of building out, like, open clause. But I've been spending a lot of my time building out a lot of quad projects that do the work like again, because, like, eventually it will, I will automate all this, and I will have open call just go and do this work. But I'm, I'm focused on the output and how it will look, right so like, I can show Quick example if you guys but like, this is super quick, but here's like, I took product opportunity to explore data. I put it in and I have, and this is what I was mentioning, Fedor is like, I have three files that explain to me, like, Hey, here's a kid's protein shake. And here's how I want it, the market overview, the sizing, the seasonality, competitive landscape. And like, this is how I want it. And I gave it those guardrails that I can then just take and send to my team. So, like, this is, this is just one report that I'm that I took and I built a project around. But like, I have one for, I would say, like, almost every single form of data analysis that I'm doing, including, like, how to make a PowerPoint that exp, like that is a weekly analysis, how to look at my portfolio analysis, etc. Because once you've built out all of these individual frameworks, you can then go to where Andree is going and be like, great. Now I have an employee that here's all of my frameworks, and I want you to go do this analysis work for me, and then text me with my end result, because I already I gave it the guard rail, so you can't go outside of this framework. Are you like hallucinate, but like, but not as much?
+
+Speaker  517631:59
+I think you're thinking like, a little bit like slower, which I feel like it's better, so that you really nail the single processes. And then you kind of, you can have the orchestrator, which is open, call, do things in an easier way. But right now, it's kind of like, it's a little bit more manual, but it's the same,
+
+Speaker  522741:20
+it's definitely slower, but it allows for more consistency, which, at the end of the day, all of us, like, when you're running a business, that's what you that's what you look for in every employee, right? Is a consistent result? Yeah? Consistent output. Yeah.
+
+Speaker  528490:39
+And can I just ask something real quick? So let's say we're trying to work with multiple analyzes. So just one example that I would like to do that I started working on is a listing optimization project. So to me, that seems like multiple, I guess, sub projects or whatever, or sub agents, I don't know, because you're dealing with multiple sources of data. So so far, I've been able to connect, amplify and find competitors for particular asin goes out, gets whatever data that's necessary, and pulls it together. So is the right move then to do something like that across the different files. So for example, pulling in sqp data separately, and then pulling in PPC data separately, keyword rank data. And so how would all of that be orchestrated together? If that makes sense, because Lee, what you're saying you can't just, like, upload all of the documentation, even if you have markdown files telling you what you want, in theory, they should be kind of separate projects. And then how do you bring it all together in your framework?
+
+Speaker  548127:59
+But did you thought about doing the open call? Actually, you have an agent?
+
+Speaker  549488:00
+Not yet. I'm just, I've just started. Okay.
+
+Speaker  550405:20
+VS code, you never experiment, so throw all that away. Install open claw. Don't be scared. Put a separate machine. Tell him what you told me and see what he outputs. First of all, go apply for SP AI access. Build a system where you download all that style you and you just build it. That's it. Yeah, you probably waste a lot of months on that, but that's, that's very doable, and you then can have an agent that can extract all that information, or at least compact it for you or for your employee after that. But that's really doable with just with Cloud code, you won't be able, like, that's, that's very hard, that's complicated, but if you have a set like Cloud code, speed me up. Cursor was the initial one. I was like, how I started? I started with GPT, making all the prompts, all the stuff, feeding it into cursor. And then I discovered the cursor has GPT inside of it's like, Why do I spend time? Because by the time you fill up a context window in GPT, he forgets, and then you lose access to everything. So I lost stuff like that. Then okay, you can do it in in open, in cursor, and then you can actually work in claw code, which doesn't even need a builder like cursor. He can do it himself in all the language models. So this is like a layer on top of those AI things. It's an agentic behavior. But you have to know how to secure it and how to make sure that never, never anything goes delete and stuff like that. But you can absolutely extract everything. Basically, that's what I'm doing with the new seller metrics. Is kind of what. We don't pull Sq, a sq, PDC data, whatever that is. We don't, we don't pull that in, but we pull everything else and we give it to you. But that's doable as well. So what exactly,
+
+Speaker  580416:00
+what exactly, Fedor, are you trying to do with the like you, once you have all these reports and all this data, like, if, if you had to give it to a human employee, what would you tell it to do make
+
+Speaker  583381:20
+me rank? Because I think that's, or else,
+
+Speaker  584293:20
+yeah, that's yeah. I remember like months ago, like maybe a year ago, when I asked Manos, hey, Manos, how can I make more money? And it did not end up well, but I think like that, that's the thing is, I think I'm not sure if AI is at the level yet where it can, you know, be an executive. And I think I don't know if everyone else agrees, but like, you need to be the executive. So you need to, it's a very good employee, but he's not an executive yet, I think, unless
+
+Speaker  593232:00
+totally disagree. Oh, really. Opus 4.6 freaking smarter than me 10 times I just I'm just more intelligent because I have a lot of like, personal experiences, because
+
+Speaker  596672:00
+your context window is big, no, but sorry, that's exactly what I'm trying to tell everybody, is, you are the expert. It is incredibly smart. But Fedor, like, what you want the end result to be? And you can't just say, like, make me number one, because that's like, the you know that me next, going around me. Like, chat, GPT, please make me a million. Like, how do I make a million dollars tomorrow? Like, that's stupid. But like, if you actually say, like, here's what I want my employees to do, and here's the framework that I'm going to give it, it will, by the way, it'll iterate with you and say, like, oh, like, you it should be like this, but yeah, it is smarter than me. It's i this whole thing two weeks ago. If you said, like, how do you feel about AI, I would be like, awesome. And I know it still is awesome. This whole thing's fucking terrifying, and I think we're all fucked the whole world's like,
+
+Speaker  609920:00
+smarter than then we all give it credit for, and most people don't have any idea what's what's actually happening. Like, it is far smarter. It just doesn't have, like, that context window where it knows everything that's happening around it, right? Unless you tell it to figure that out. But it's starting to just figure out stuff on its own. So it's one thing. When I'm using it, it's more like I'm talking to a co founder. What would you suggest we do based on all of this information that I just gave you, right? And like, it will come up with the strategy. And I say, Okay, I think they like this strategy the best. Let's go down that rabbit hole and work on a plan, right? So the one of the main things I think you were talking about, Andree, is like, setting up that plan for the AI, because if you just let it go run wild, you know, like, go make me a million dollars. Like, lay out your plan. Make me a million dollars. I'll tell you if I like it. And then it will go like, so then it knows all the steps, and you're and you're like, Oh no, you know, you're missing a step that I think is very important, which is, you know, you got to check all the news or whatever, right? So you add in things, and then it just starts to build it. So, like, and so I'm doing this with, like, what, what tasks that I would give to, let's say my SEO person, or a marketing, you know, manager, or, like, I've connected it to Windsor. So Windsor is an AI connector, and you can connect Google Search Console, AI, trust, all of the things. So, like, right now I just had it analyze our blog, which I'm writing AI articles every single day. We have tons of blogs ranking on page two. We have hundreds of 1000s of impressions. I want to get those pages to page one right? I want to move them up in the rank. So what does that mean? It means that somebody has to go in there to the blog, research why we're not ranking number one, research the articles that are ranking number one and go ahead and make ours better than those, right, use all the tools possible and then rewrite it and upload it and then track the results. Right? That was that's literally one person's job on your team. Probably, if you have a decent sized marketing team, you're doing SEO, it looks like clog code, and I'm not doing the open clocks. I wasn't around last week to get that set up, but it's going to log into it's going to do all the research. Tell me what it's going to change. I approve it one article at a time for now, and then it's going to go into WordPress and upload it all so it can do the whole process automatically, step by step by step. It outlines all the steps. I know what's happening. I've given it all the resources that I know is important to make this successful, and then it's going to track the results. So it's like, it's doing all of the things that you know you need to do. So I think, like, that's for me. I'm trying to take those, those multi step processes, like another one, go research all of the Expo West vendors and tell me which ones would be best for joining brands, right? And then go create an email to each one of those people, asking them if they want to meet up at the event, right? So, like it that's a VAs job that they do a poor job at, and this thing is whipping it out in no time, far better than anybody else, right? So I look at it as multi step jobs, and conversing with it as like a partner, right? Trying to have a discussion before you get started on anything, and utilizing whisper, right, or audio to communicate, because your prompts are far better when you're giving it way more context about what you're trying to accomplish.
+
+Speaker  659808:00
+Yeah, I started thinking at all, sorry, that
+
+Speaker  660544:00
+was a lot, I think also, also Ian, like you're giving like, you're telling you what to like, you're being executive in this, you know, maybe like, a little bit more as a co founder, but like, still not like an executive that was just, Hey, make me money, like, you know, make me rank better. That's it. Like you're actually giving it the framework.
+
+Speaker  665733:20
+Well, yeah, well, no, it's giving me the framework. I'm just saying I agree with you, yeah,
+
+Speaker  667194:40
+okay, yeah. But
+
+Speaker  667834:40
+I'm not double checking. I don't know whether it should be, like going off of, you know, organic rank or conversion rate or headline, whatever, like, I could go dig in and have somebody do that, or you get one person paying. But it does know it's looking at all data points, and it can pull in multiple things at one time, then put them all together, come up with a comprehensive, you know, case study and Opus is that's what crashed the market, the plugins, the illegal stuff, the you know, just the skills that it has now are far just like no.
+
+Speaker  678853:20
+Thank you guys. Yeah, I want to talk a little bit of just food for thought here. Andree was really talking about the fact that it's important to narrow down and break everything into little pieces. And as much as that makes sense for very, very large projects, it's important for us to think as systems that we're building, not necessarily small processes that need to be built. I think Systems Thinking is the right approach to do things right now, because it's the right balance between how much of a system can I provide to an LLM before I get cropped out of context of the context window, and everything starts to get compacted. If you have very large projects, like a selling metrics full on project, you don't feel that. You don't provide that completely to an LLM, but smaller projects such as, hey, download this search query performance report and I want to provide, you know, I don't think we need to. We need to segregate and segment those processes to the level that that might you know, that you might think you have to projects these months, just go all in and think of it as you got to start thinking as a systems that you're building, not necessarily as a small portion that has to be built up. I would take that into consideration. Now, as far as me, I've been all into the solar open clothing. Fucking fantastic. Absolutely, so much fun. But I'm thinking of it as a system. There's a lot of people that go and they have that mentality of go fast and break things. I don't have that mentality. I go slow and I create systems. I go slow and I build everything out, layer by layer, and I go way slower than everybody else, and that's okay, because at the end of the day, I will have systems that will just run by themselves.
+
+Speaker  705824:00
+But think of this. Imagine you can hire Ian. You'd hire him to do some small things, right? Because Opus 4.6 can can do stuff that, for example, Ian or me can do or you right like you would not hire someone like you to do some small things. You can make him someone like you, whatever you vice president that can then take care of the small things. Easy. You won't put Ian to write articles. Right? You would want to strategize with him. So why would you waste a Mac Mini and Opus 4.6 intelligence. That's like almost AI to do, like small tasks. That's why you build your org correctly. So then you can, you can do the stuff like, now I have an content factory that from the idea to the execution to the image execution to everything to the SEO. It's a freaking delivery platform. It's excellent. I gave it to GPT, and GPT is like, Dude, I didn't I haven't read an article like that in a very long time. He gave it 9.5 out of 10. Take any article uploaded over there and see an opus 4.6 does this from like three over rewrites. It is insane, and it costs like 40 cents. But you don't waste a Mac Mini just on freaking content writing that doesn't make sense with with open claw. This is just,
+
+Speaker  730661:20
+I'll say that open claw, claw code, I don't know how anybody else feels, is incredibly intimidating. You raise your hand if you're intimidated by all of this shit me, and so when you finally fucking do it for something small and stupid, then you realize the possibilities, and then you are like, wait a minute, that's so fun. I can't believe I just fucking built that in 30 minutes using Claude code. And then you start to think bigger and bigger. But wait, my friend, if you have been in this world for longer than most of us on the software side. So to you, this is semi intuitive, and so for the rest of us, what I would say is like, again, start, like, literally, start with fucking anything. Literally download, Call of code and just like, build something stupid, like a stupid fucking content writing something, because you'll realize how easy it is to do. And then you'll be like, wait, I should and then you'll and then you'll get what Andree saying is, like, I should be thinking bigger and bigger and grow, but start dumb, start anything.
+
+Speaker  750602:40
+Yeah, it's like, all of you have to get this thing. Like, it's so good. I wish you guys forget about this is so good.
+
+Speaker  752480:00
+Andree, can you, like, you're saying, like, this is so smart. But a lot of us think in terms of, like, okay, like, what specific thing in your business did it do that? You know, a Filipino can't obviously, I know coding is like, a big thing. But like, did you build any tool in your business that, like, Can 2x your business, 5x 10x your business,
+
+Speaker  758965:20
+dude, if I show you the software that I built, but it took me like, three months, and it's done with AI agents and, well, with cursor, and lately, with this thing. But I built it with that stuff. I built myself a Twitter engagement thing like that. I can, like, put my thoughts out and rewrite them properly. It's in my Chrome manager. Just press one button and I respond to someone. I see an idea. It catches it, but, like, there's hundreds of those already on the market.
+
+Speaker  766266:40
+Yeah, I know, like these little things,
+
+Speaker  767018:40
+but I have, mine is customized, and it writes in my mode, and I can regulate it. I have a project management dashboard that I built in an afternoon.
+
+Speaker  770016:00
+I did so I built a project myself that I think it will because I didn't understand we started driving traffic from meta to our Amazon listings. And I'm like, okay, the we're using Amazon attribution to track the ROI. But I'm like, I'm sure there's spillover, because we're growing in revenue at once we started meta. So I'm like, okay, can, can I use AI to build me this dashboard where we can actually track and then test so we pulled the API from meta from Amazon, and then the Amazon PPC, and we brought it in together. And now what is showing is like, at least a 3x ROI on our meta spend, versus just a 1.5 through attribution, because it can deduct the PPC that we spent. It looks at the search query reports. So I'm like, Okay, this is where I can double my business revenue just by knowing this information that I didn't know. Now I can see in the dashboard, and I can see, okay, here we're even a bill, a tool that we can, like do AB testing. Okay, so we raised the budgets by 30% Let's track how it affects overall revenue to be more confident in our return on ad spend, but that's what I'm asking. Like, what's the use case? Yeah, Twitter is fun. It's gonna save you some money, but bottom line, is it gonna move the bottom line in your business? Like, what's the use case we as E commerce sellers and Amazon sellers, what can we do that will help us grow our revenue and our profit.
+
+Speaker  795658:40
+Yes, it can. I haven't applied it yet to my Amazon, because I'm really implicated into software. But from what I'm doing, for example, I have blog article machine writing. Well, how do you say a content writing machine that is connected to all my sites. It's not yet deployed, but I test it. I love it. How it works, right? So I choose the site I want to publish. I start generating the content. It's being written, rewritten, checked, criticized, inserted, generated images. Like, it's like a very complicated content writing, stuff that pulls the image and stuff like that. That was done, like, in a few days. That's easy. You can do that. Like, for example, I had two developers full time for seller metrics, expensive, but like, and I wasn't paying exactly like some of you guys are paying their developers, but I'm sure you don't pay, as Google pays, right? I let them go, and I rebuild it myself in three months. And I did something that I dreamed for, like, four months, four years, and I couldn't build it. They couldn't build it. I did it. Like, if you want, I can show you guys if you read it.
+
+Speaker  814330:40
+No, I understand. But like, from a software standpoint, again, I agree. Like, it's a software developers, they're done. But since this is an MDS call, it's
+
+Speaker  817359:59
+not done. It's all it will just
+
+Speaker  818016:00
+Andree, what Dan's trying to say is, like, let's talk about some actual econ
+
+Speaker  819056:00
+use cases. Yes.
+
+Speaker  819456:00
+For instance, your use case, right? You use it to analyze halo effect, essentially, right?
+
+Speaker  820992:00
+Yeah, yeah, the spoiler spillover effect, like, what is my true ROI on my meta spend? And like, I built that tool in two hours, and it's usually bringing real data and whatnot. And like, I'm now more confident to increase our budgets on meta spend, because I know that, like, in two, three days or in a week, that sales going to come through, not through attribution, but through just a person searching it on PPC and they also attributed it. So like, it's like, Hey, your catch all PPC increased as soon as you start meta. Like, there was a boost in your PPC conversions and volume. So like this, PPC is not just from nowhere, it's from people that learned about my product, came back to Amazon, searched me by my product name, and then my PPC converted it. But it's we're attributing at, oh, that's just different marketing. But no, it's actually the next
+
+Speaker  835056:00
+step in that process. Now that you know that they're spillover, how are you going to grow it? Right?
+
+Speaker  836064:00
+So I'm we went, like, from $500 a day on meta to now I'm not $1,000 okay? And we're saying it's gonna
+
+Speaker  838117:20
+test, yeah,
+
+Speaker  838421:20
+and then we're gonna test the budget thing, where it's like, let's, let's lower it by 30% and see how that affects revenue overall. And then it's gonna narrow it down to almost like a 99% confidence that this is the true ROI of your meta because we we dropped the span for 30% for like three days, we saw the effect in sales, and then we rose, like we increased it by 50% and this is what happened in the overall sales. Now, like with this much confidence, we can say that this is your true meta ROI and do whatever you want with that information.
+
+Speaker  848592:00
+Yeah. So basically, you need the tool to now start doing the next step, which is creating new ads. Figure out what regions are, you know, growing, which ones are which you know, like, maybe California is your biggest you should be spending all your money in California because you're a California based product, whatever, right? And then how do you test it and track it over every single day. Who's going to adjust the bids? Who's going to scale it? If the data is working like that's what the AI should be able to do if you actually start to work with it, is it can do what a human would do, which is, you have a dashboard, but somebody needs to check it, adjustments, track it make adjustment tracking. So it can actually do that open clause, like the hands on the keyboard, type of thing, claw code does some of that, right? So you can actually do some of these things and have it run every single day, you know, at 6am review the last 24 hours data. You know, make adjustments to the ad spend, increase it based on what it's seeing, right? Maybe on the weekends it's, it's not as good the halo effect, so you drop it right? And so it needs to, you keep learning, and you kind of keep, like, coaching it, essentially. But that's, that's where you go is like, building out a full employee that's doing the job. Of like, Hey, your job. You're my PPC Manager. That's all you're supposed to doing is reviewing PPC, adding new keywords, negating them, changing bids, doing the things, right? So that's, I think you're looking at it like, I just gave one task and did it okay? Now what it actually you need? Now you can get to the point where it can do all of the things consistently, without forgetting anything, and continue to learn on itself, right? Exactly. So it's not software is one use case is building a tool, but like these tools are now going to be built like you're going to say that build me a CRM, like Salesforce. It'll literally build it for you in in a minute with only the features that you need, and then you need to add a feature, say, I want to start tracking this tag across every you know person to CRM. Five minutes later, it's all done, right? So that's
+
+Speaker  878010:39
+my question. Like, what use cases are you guys doing? That is increasing, not just time. Like, I think time is like the biggest thing that we can all shorten, like, tasks, employees, whatever. But bottom line, like, did you use AI in your business that you know, doubled your revenue or 30% growth, 15% like something, people
+
+Speaker  883904:00
+could come on and say, like, what you know, you just said, Hey, I use it to analyze my halo effect. That's awesome. Well, what other things have you guys done?
+
+Speaker  886149:20
+So I used Hi guys. So I think on the on that other group, someone had posted this, get Victor. So I've been, I've been, I've been experimenting with, you know, open cloud, Gemini, chat, GPT, using it as my advisor as well as my assistant. Like, how we have been talking about what it's worth. So this get Victor app, I downloaded and I connected my my Shopify store. I didn't want to go with Amazon because, you know, security and all that. And my GC, GSC, it's a search query, the Google ads, the meta ads, as Danny was just talking about, we are also driving like 2010, 20 cent traffic to our Amazon listings, which is working phenomenal. And I connected all these data points. And, you know, it connected, connects with Slack, gave it a little bit of reference, and it did magic in terms of triangulating all these points and coming up with immediate, actionable the low lying, low hanging fruits, which you know, I or my team never pay attention to, primarily because my website business is not big, and we, all, you know, pivot to the marketplaces and What have you, and the kind of work we have done in last 10 days, I would say, in terms of improving the performances, whether it is blogs, whether it is ad spends, whether it is even telling that Victor thing, draft me the new campaigns. So it actually went into Google, made the campaigns on draft. Then what I did, I took that whole summary from it. It gave me like a, like a McKinsey summary on what it made. I gave it back to my Claude and which kind of knows my brand now, saying, This is what I've made. What do you think it gave its answer, the pros and cons, what to improve? Give that reply to back to Victor. Say, correct all those, you know, improve those ad campaigns. Voila, went in, made them live. So where I'm finding lot of you know, baby step success is things that we never pay attention to. We know there is worth to it, but we just don't have time to I think experimenting, those you know, green lighting, those AI gives us that confidence and B, you know, suddenly we start to open up channel as as you guys was just talking about, you know, suddenly, now I'm having this 1020 cents a click traffic from meta. Now, how much it's worth? Well, I'll know in few weeks, but I know there
+
+Speaker  927050:40
+is AI would love to know. Yeah, yeah. I want to that I was gonna hear, yeah, that sounds awesome.
+
+Speaker  928800:00
+Yeah, there is, you know, it's, it's, it's pretty cool. So let's see,
+
+Speaker  930160:00
+yeah, what is the platform, called
+
+Speaker  930848:00
+Get Victor. Let me, can you
+
+Speaker  931599:59
+drop it in the chat? That's cool, yeah, because
+
+Speaker  932624:00
+I just Google it and I see bet Victor, which is a betting platform. I think, by the way,
+
+Speaker  933877:19
+I gotta know for everybody, like, just be careful. Like, because, like, all of these softwares, like other people have, like.ai, or dot, like, you know, and they change it by ever so slightly, and they make like, a fucking fake. It's crazy.
+
+Speaker  938293:20
+So I would just say, like, right now, if you're, if you're scared of open call, just use CO work for now on cloud, it's, it's insane. You can use sonnet too. It's far cheaper. And, oh, it's like, Opus is like, bringing a machine gun, like, to a fist fight, you know, like, that's what Andre was saying. Like, so what I'm reading is like, you need to set up on your servers. Like, if you're using open call, right? You need to give it framework of like, hey, when you need to do like, open heart surgery, use Opus. Otherwise use on it. Otherwise use this. And so it'll start, it'll use the right tool for the right job, versus coming with this firepower that you don't need, and you waste a bunch of money. I mean, obviously, eventually it'll get eventually it will get cheaper, but that's kind of the framework is. Like, if you're decoding, you need to use Opus, because it's going to solve problems, like, 10 times faster. But like, if you're just asking it to create the blog article, you don't use Opus. It's not necessary. Yeah, maybe Opus for the research or framework, potentially. But like, I mean, how much traffic and revenue is a blog post can actually give you anyway? So, like, think about in that terms as well. But I think there's a lot of Ecom use cases. I think it would be great, like, if everybody posted like a use case that they're trying to achieve. That way, we can have like a nice like, maybe some people can execute those things better than others and share those those wins. Like measuring halo effect is something that's not easily done. It needs to be done through multiple data points. So that's cool.
+
+Speaker  961504:00
+And I think ideally we should also almost like, share like, if we have a list of like, all the tools that we would like to develop and would help our business, we can also do like an MDS, you know, AI tools, we kind of right where, you know, something like, what Dan created might be useful for people. And, you know, so, like, we could technically share that maybe, what do you think?
+
+Speaker  968213:20
+Ian, yeah, we can put, we can drop in, like, a document with, like, yeah, because,
+
+Speaker  969477:20
+I mean, we have, we share all the same problems, right? And I like to, I like, what, what Dan said, like, is a real use case, you know, or something that, you know, it's a problem for many of us, yeah. But I feel like,
+
+Speaker  974026:40
+Yeah, I've seen people post like, I'm using it for inventory management, using all these data sources, and then it's going to email the suppliers when it runs below this. So it's like creating automations that maybe a tool used to do for them, or something, right? Researching across, you know, shipping lines, what's going to be the best rate, and sending out emails and things like that. So I think, like, it sounds like a lot of people are just doing, like, one little piece of a job, of a of a process, right? And it can, it can now, like six months ago, could I think now it can do the entire process, if you allow it to, what are the next steps are?
+
+Speaker  983573:20
+I think it's early. Andres Andrew has been going for a while, but most of us were like in this for the last month, right?
+
+Speaker  985317:19
+Yeah. So weeks.
+
+Speaker  986165:20
+So, yeah, he sold to AI already, but we can replace employees as well. Like, one machine like this can clean up two, three researchers, a va, personal assistant, all that guys.
+
+Speaker  990394:39
+Yeah, I'm in the midst of, like, install and, like building my claw bot, or open call whatever the fuck we call it these days. The question is, is it able? Are you putting it into Seller Central to action things?
+
+Speaker  994096:00
+No, no, I didn't. No,
+
+Speaker  994784:00
+but you're not Yeah, so okay, but
+
+Speaker  995664:00
+you can connect it to SP API, if you have and he can pull reports that he needs.
+
+Speaker  997056:00
+Yeah, I'm ready. I already have that,
+
+Speaker  997952:00
+right? you can so can't mess anything up.
+
+Speaker  998464:00
+Yeah, you can you can request stuff that you want, but he won't do it unless you tell him that he's okay to do.
+
+Speaker  1004782:57
+Doesn't happen. He's not that dumb. He can delete a file by mistake. If he doesn't understand your prompt properly, say, hey, change this to that. So he may think that you want to delete it, but if you haven't the first file that when he loads up, you say, never delete anything without my express permission. Never, ever at first thing, first when he loads up, because you just basically load an AI in your system, and he's like, okay, never delete anything. Stay within this thing. Have maybe an iCloud backup for him. That's it on a separate machine. He can't do any damage for you. Don't be afraid of it. Just adopt it. This is like Bitcoin guys, and it's like 10 cents now, and you all wait until it's gonna be like 130 bucks, and then go, like, oh, this shit is popular. Let's jump in. No jump now. And like, don't put it on a VPS. This is like, 600 800 bucks a machine. Get a cheaper one. You can put a wrapper, I think, on a simple machine, and put it and start experimenting, play with this. It's not that dangerous, if you just follow basic protocols. There's a lot of stuff you want. Questions. Hit me up. I'll answer you. But like, let's, let's upload documents of what we think, how to secure it, and all that stuff so we can help each other, like, be more confident and jump into this thing. And I think skills is the new software, software SaaS is probably going away, will be just major player with something that's really considerable, you'll still need to buy. But a lot of dashboards, dashboard has bullshit, all that n, 8h N, 8h and whatever that bullshit that's that's going away, all those connectors and not needed anymore. You build that easy, but Filipino, whatever, not specific Filipino. But I mean, like your VA is sub 1000 bucks,
+
+Speaker  1032377:37
+easy, replaceable, if that's your goal. If you want to keep those people, please charge them with something like this, put them on on a machine, let them be smarter, if it's the first thing I did is I audited my whole team, and I asked them, what jobs do you do right now? And I went down the list of each and every one of us. Like, well, this can be done by by open call.
+
+Speaker  1037038:57
+And this can be done. This can't this can and this, can you audit everything, and then it's up to you to decide how much of it you want to you want to create yourself. Because I'll tell all of you one thing that I did three weeks ago, which is I made an announcement to my team. I was like, guys, like, I will pay for your clawed account. I'll pay for a course. I'll pay for whatever you want, you let me know. But I was like, but the world is changing, and I have a few people, very unfortunate. A few people came to me and said, I want X, Y and Z, great. And so when the apocalypse does come and and I am replacing people, those people I'm not replacing like you have to give your team the opportunity to actually, like, come with you, and if they don't take that lifeline, which is right now, before you start to automate and get to where Andre and Ramon are, then like, eventually, when, when you do have this replace them, don't feel bad that they didn't Take that opportunity to grow, because if they're not ambitious, and they
+
+Speaker  1053742:57
+don't actually want to be a part of the future, I don't know what, I don't know what. It's fucked we're all gonna die. It's crazy. I'm terrified. What I'm scared of is not what's happening now in YouTube, but those quiet guys that saw what's happening went underwater right now and are building shit that's that's where the danger is coming from, and those are going to revolutionize everything. I think it's going to be like, we will be able to rent employees or buy them digital employees. They're going to come and do the stuff. And each one of us has specific skills that we can really digitize and write them mark down files and like, basically the new software is the knowledge base that we can package nicely and rent to each other, we like, sell and stuff like that. So my team already said, like, learn cursor, learn this.
+
+Speaker  1067625:37
+It's impossible without it. It's just a few months away. But maybe I did talk to some people in like, maybe a month ago or so where there was this idea of actually, like a digital, Virtual Employee that is actually from a person so, kind of, like you create your own, you know, digital twin that has all the knowledge that I have, right, and I can be hired as an executive, obviously,
+
+Speaker  1074692:17
+for a fraction of the cost, because it's not me, but it's my digital twin that has all my knowledge. So I think this is exactly what you what you said, and that's very real, because I do have to jump, but I wanted to just ask, like, I'm using cursor, but I guess part of it because I'm, like, not used to working within a terminal
+
+Speaker  1080825:37
+of cloud code. Would you recommend, like, if I'm doing that, just bite the bullet and be uncomfortable for a little bit and get used to cloud code and not use cursor? Yeah? Okay, yeah, absolutely. But cursor is also awesome. Yeah, perfect. It just depends one
+
+Speaker  1085166:57
+what model you use inside of it, exactly.
+
+Speaker  1086542:57
+That's the best, but it burns like crazy. McClellan code is better. I think that's my point.
+
+Speaker  1087998:57
+Yeah, okay, 5.3 also, but it's more specific to coding.
+
+Speaker  1089326:57
+Yeah. Okay, fun.
+
+Speaker  1090126:57
+All right, guys, so I think this was great. See Lise Liz starts, yes, so imbrillas, Ian, I'll talk to the
+
+Speaker  1093956:16
+mdstartarpulmontrickripulmona, we'll discuss in the chat we have, like, in power a month to submit, also, like, the question or something ahead of time.
+
+Speaker  1097499:45
+Yeah, people who are experts out here can actually answer real questions versus, like, just a general discussion. Yeah. I mean, this is actually the first time that we have so many people in the AI call, so it's very exciting. Great. Thanks so much for coming. And I think it can be actually very, you know, very good that, because
+
+Speaker  1102654:57
+the earlier calls was really few people, and
+
+Speaker  1103342:57
+so it's harder. So whenever we're a big group and we need to
+
+Speaker  1104430:57
+act like a big group, so this is the biggest mogul call,
+
+Speaker  1105582:57
+no, I think it's no no,
+
+Speaker  1106692:17
+not the biggest mobile call, but one of the biggest chapter, sorry, channel calls on the
+
+Speaker  1107812:16
+channel call, yeah, mogul, no, yeah, but maybe one of the of the biggest channel calls. We have like 50 people at some point. I think
+
+Speaker  1110260:17
+I'm scared
+
+Speaker  1110564:17
+by all of this as well. Like,
+
+Speaker  1110932:17
+this is insane. I feel I'm strapped
+
+Speaker  1111524:17
+to rocket. I don't know where it's going.
+
+Speaker  1112185:37
+Hang on, man, just hang on. Yeah.
+
+Speaker  1113129:37
+All right,
+
+Speaker  1113429:20
+have a good day. Guys. Have a great day. Thank you guys. Thank you. Belen.

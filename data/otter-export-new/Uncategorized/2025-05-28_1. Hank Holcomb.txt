@@ -1,0 +1,134 @@
+1. Hank Holcomb
+Date: May 28, 2025
+
+Speaker  1360:00
+So basically, yeah, I just want to talk about, you know, our experience with scaling tech topic last year, and how we're finally starting to see some success. Yeah. Anyway, my name is Hank. I've been selling on Amazon and Shopify since 2017, entirely private label with cheers. I am CTO at Cheers. I do want to give a couple disclaimers here. I am going over our personal experience. We do have, you know, very unique products in kind of the regulatory environment that we deal with as well, as you know, the amount of education that customers require in order to get to the point of purchase. So what works for us and what hasn't worked for us may not apply to you all. So to say this is very assault, yeah. So we started our journey with Tiktok about a year ago. Basically, we originally tried doing it ourselves. The big issue that we came up against was with the Tiktok policies regarding alcohol related products. We were having issues with our listings being taken down constantly. We finally kind of bit a bullet and started working with an agency that had inside connections and Tiktok, with the hope that they would help us get past those barriers there. And they did. They were very useful for us. And what ended up happening was they simply were not able to get the voice right. You know, they were able to finally get our shop listings up. They were able to get our ads running properly, but when it came time to scale, they weren't able to do so profitably. So after a few months working with them, we decided to parkways, and this whenever we moved on to stage two journey. Stage two is, you know, we were hearing some very good things about, you know, people working exclusively with influencers to kind of scale up things and try to do it organically. And, you know, we tried that out. Ultimately, we came across the same issues we had with the agency, where they really couldn't get the voice right whenever we did get influencers. Well, let me go over first bullet there. First off, we quickly realized that the organic route really wasn't going to work for us, mainly because we kept seeing over and over and over again consistently, that anytime that we would release an organic video, if we didn't have any paint spin behind it, it would pause at about 1000 views, and the algorithm would just lose it, and it would go no further, basically. So we realized that in order to do anything, we needed to put ad spend behind any videos that we're having content creators create anyway. Our experience with this is that we sent out about 5000 samples to influencers through you Kat and like I said, it just can't get the voice right. We really saw Mexico success with that. We ended up finding, though, out of those 5001 that was able to do things profitably, and so we kind of moved on with him into that one influencer ended up getting us into the discord groups like social army. What's kind of great about these groups is that it's a big enough influencer, they can actually go and create subgroups where they are managing influencers themselves. This particular influencer, we're giving them a very heavy bounty. We're giving them 51% of all organic sales. And what that means is that if somebody underneath him goes and creates the video that gets that sale. They get 30% and then he gets 20% on top of that, effectively. And the thing is, is that we'll go, we'll have that, and it kind of runs into a machine that we have, or we're constantly, we're entirely, at this point, running. I'll get to this later. Yeah, actually, it's right there. We're running entirely GMP Max campaigns, entirely to Tiktok shop, and the big focus of this is that we're just trying to have as much content going into the system as possible for the algorithm to run that and have it make the best decision for us, basically. And so what's important is that we're just churning out content anyway. And then finally, once we started seeing success through the discord groups, we started customers on generating our own content. What has worked for us really well? All is what we call entertainment because of the vertical that we are in. You know, we can't go we're because we're not selling something like dog liners, where we can go and show ourselves seg it up and see how practical it is. You can't really do the same thing with supplements. So we do a lot of education based content. And what's really worked for us is going and having medium long form content about a minute or more in length, something with a really good hook, but then goes into just kind of this fun, educational kind of seminar that, you know, leaves the customer feeling like we know what we're talking about, and leaves trusting us a little bit more. So anyway, once we got all of that together, we started figuring out how to scale this, because for the first time around, you know, November of last year, we were finally doing this profitably, and we needed to figure out how we could go and actually make this something that is generating revenue for the company, instead of just getting a little side project out. So we did is we hired a team of all four video editors. We've got four people on the team right now out of Argentina. And we're basically having them produce videos indicating some six videos a day. That's just getting into what I was talking about with, you know, making sure that there is constantly fresh content there for the algorithm. Algorithm needs to pick up. We still work with those same influencers that we were originally working with. Right now, you know, things are about 5050, but we're trying to turn as much as we possibly can. One thing that was really important for us as we were scaling. A lot of people seem to not be too concerned about the like product reviews on Tiktok shop, but we found that going and getting to 4.5 stars was huge for our conversion rate. How we went about that is some of y'all may or may not know this, but yapo, as well as kendo, they have integrations with Tiktok where you can go and import any reviews that you have into that service, and then it'll go and sync those over to Tiktok. So if you have a new product or something, you can basically make sure that you're starting off with, you know, 400 stars, of course, beyond that, you know, there's plenty of milestones that help out with this. You definitely want to kind of push through the 1000 purchase milestone, the 10,000 purchase milestone. It may be a deal where you know you're very close to profitability, but then once you hit that, you finally reach that profitability. So something to push through too. But yeah, regarding, you know, the kind of content creation machine that we have at this point. Even part of the reason why it's so important that we're constantly, you know, playing this numbers game, new content, new content, new content is because at any given time, three videos may be taking up 95% of our ad spend, and so you really don't know what's going to take off until you until it takes off, and then once it does, you just iterate on it, and you try to figure out what part of that video was, what caustic to take off, and try to improve on it a little bit. Yeah. So takeaways, basically, not everybody could convey their dream properly. We had to find someone who could, even if that meant us spring prey. Outreach didn't really work for our brand. We had to take a targeted approach to the discord groups in order to scale social proof helped out significantly. And we've found that, at least for us, this is entirely universe game once you scale 100 videos might lead to one success, basically. So see if
+
+Speaker  146720:00
+I have any questions, where did you find your editors? Or sorry, your video editors? Oh,
+
+Speaker  148815:59
+we work with an offshore talent agency, basically, and so we had, if I can send that over to you afterwards, yeah,
+
+Speaker  151781:19
+be interesting, yeah,
+
+Speaker  152085:20
+but it's great. We actually just got a new one to help with the website last week. And it's really simple process. You just tell them what you need. They said over, you know, five candidates, you go talk to them, and then they're on the team after like two
+
+Speaker  156138:40
+weeks, like the ones that you got for video editing, were they already, like, trained, like video editors? Yeah,
+
+Speaker  157850:40
+they already came in doing what they needed to do. They were all either, like, a. A like seniors in college or recent grads that are majoring in graphic design or what have you. And
+
+Speaker  162432:00
+what are they making content with? What are you feeding them for the for the editing?
+
+Speaker  163664:00
+So it's mostly Brooks doing kind of, it's, it's centered around a few things. We first off, we do like whiteboard style videos where Brooks is just in front of whiteboard trying to go and explain this concept, as far as, like how sugar affects the live or stuff like that. But also do like really stunty stuff, which has worked out for us quite a bit. One of our most successful videos that we've had has been Brooks basically talking about how alcohol gets converted to acetaldehyde, and it's actually doing acetaldehyde that's much more toxic than alcohol itself. And until the acetaldehyde players in your body, that's what's actually doing the damage to your little right. And to show this, he got in a kiddie pool and poured wine all over himself. And that one, just because of the absurdity of it, and, you know, ended up being one, yeah, one of the ones that took off was for us. Brooks, is your CEO, okay?
+
+Speaker  181104:00
+So, so in house, y'all are filming stuff. Yeah, and then they're just chopping all that stuff up for you, exactly, remaking it in a bunch of different
+
+Speaker  183173:20
+ways. So every about every three or four weeks, I'll spend, you know, just three days straight filming, we've got one other guy on our team that is going and helping them out with all that, excuse me, and then, yeah, we'll just have them go and iterate off of that for, you know, the next three, four weeks.
+
+Speaker  189546:39
+Are they making their own schedule? Or y'all kind of,
+
+Speaker  190266:40
+oh no, no, they we, we work on a similar schedule, granted, you know, depending on what country they're in. Well, I mean,
+
+Speaker  192528:00
+the video, the posting schedule, oh, like, what they're creating content for? Are they?
+
+Speaker  193584:00
+No, no, we're sending them a schedule, basically, like the
+
+Speaker  194640:00
+scripts of ideas. And they're kind of, yes, yeah,
+
+Speaker  195552:00
+exactly. And, like I said, the Kat, and so we're trying to hit us around six videos a day, and and because we got four, that means that, basically, you know, each person has to go create one and a half videos each day,
+
+Speaker  198677:19
+and those are being picked up by GMV mines.
+
+Speaker  199749:19
+Not all of them are well, well, all of them go into the algorithm, but not all of them take
+
+Speaker  200933:20
+off. So you do anything special, like to make sure there's big stuff, or you just put it out there, and then you're hoping, Jim, you might
+
+Speaker  202938:40
+go, you really put it out there, and you trust the algorithm. I think that we were much, much more prone to go in that direction because of our experience with Facebook, where we spent years and years and years with Facebook trying to fight the algorithm and thinking that we knew better. And then, you know, the day that we finally learned to just be like, All right, we're just going to trust it, this algorithm goes fast. Is whenever we finally started to go and take off a little bit more, and so we were very prone. So you've just kind of generally trusted and that's what we've been doing, and that's what's actually been working.
+
+Speaker  211328:00
+So it's not shoppable video, excuse me, it's all shoppable video with a link.
+
+Speaker  212447:59
+Every video, every org videos, is a shop link. Yes, exactly. We know we're not running. We've seen a great spillover effect to our website, Amazon. We haven't gotten a chance to actually measure that yet, because we haven't got a chance to slow down the ads. But yes, since for probably the past six to nine months, every single thing that we've been doing is going to the shop. At the moment, what percent of your sales would you say are coming from your videos you make sold versus a creator? I'd say it's probably about two thirds are coming from us. Six videos a
+
+Speaker  223514:39
+day. How many
+
+Speaker  224186:40
+were you doing? Six or five? No, originally, we were experimenting with it for a little while, and especially before we had the video editors on, you know, we were working a much slower pace, where we would come out with, you know, just a couple, yeah, and we were experimenting with other things at the time too, like lives and stuff like that, even though we found some really not being profitable at all for us. Yeah, we stopped live entirely because
+
+Speaker  231605:20
+everybody was hacking up the livelihood.
+
+Speaker  232885:20
+Yeah, no, I was very surprised by that because, yeah, even, even, I mean, some people that I talked to with native pet, they were, they were working with wives, and they were actually really excited about how, like, in six hours, they got like, $6,000 and, you know, I get that, but at the same time, though, it's like one of us from the main team is having to be on for six hours straight. That ends up being huge. Time. So we did not even see that level of success, though we were seeing, you know, maybe like $100 now or something like that.
+
+Speaker  244064:00
+So I'll take that fair enough, but like the live, because our theory was that was just going live, did that somehow trick the algorithm that there's activity, various activity coming from the account?
+
+Speaker  247157:20
+Yeah, fair enough. Fair enough. You know, we did not have quite the same level of spend at that point in time. There are various factors that could have influenced this differently. I mean, especially with the tips that I heard to inspire with giveaways and stuff like that. I do think that there is a little bit more potential there, but I think right now, we're seeing success with just the ads that we're not really willing to dedicate a person to doing that as a full time job by itself. I've
+
+Speaker  255354:40
+heard too that, but like, if you go live right after posting something, it helps boost your post like I have heard stuff like that. So if you like, if you have whatever you're posting for the day, post it right before you go live, because then it wants to show that to people, because your live buttons up there. I haven't tested it, but I've heard that. Yeah, and even not even in the product space, but just in the social media space of people,
+
+Speaker  262357:20
+yeah, what's your GMB Max? Grow as targeted. We have a currently set at one. So we're actually, yeah, yeah. We're basically the inspiration behind that is that we do have a very good repurpose right? And so we we try to be comfortable in 12 months, basically. So yeah, we go. We've been operating for one target.
+
+Speaker  269114:39
+Yeah, recurring revenue, yeah, like this, subscribe thing.
+
+Speaker  271082:39
+Yeah, no, we don't, we don't have, no, we don't have that. So, yeah, we opted in. It was like a toggle for one product that allowed us. We opted in. Can't find it on anywhere on our dashboards, and then people have been getting orders and be like, we don't want to be on anymore, like, so
+
+Speaker  275760:00
+we just have to wait until something gets shipped. I'm sorry.
+
+Speaker  277952:00
+Subscription. As
+
+Speaker  278757:20
+a consumer, there's no way to find it. Because I was like, Okay, I'll go in and try to subscribe to that product, and then I would have, I mean, yeah, absolutely. But we had no control over we even talked to tick tock. We said we would have, we had chosen for this. They said they don't know either.
+
+Speaker  283482:40
+I think they like beta tests, rolled it out and they might have retracted it. Maybe like that means why you can do it or not, but you know you want
+
+Speaker  288218:40
+to sometimes be able to subscribe, right?
+
+Speaker  289920:00
+Yeah, when we started GMB Max, it was like, your ear, it suggested we type in 4.5 and I was like, Oh, that'd be awesome. And then like, two weeks later, coming it's like 3.8 and then two weeks later, it's 2.5 and now today, it's like saying like 1.2 sorry. I just checked the other day, like, I lowered it down to like 1.5 but it was that, like, like I said I was in the fours
+
+Speaker  297941:20
+to do the math. Guess.
+
+Speaker  300170:40
+I mean, I view also, kind of like a long term, you might get a subscription here as well. You know,
+
+Speaker  304154:40
+What's your suggestion, though, in there, because it's at 4.2 maybe have a higher price products too, and it makes sense.
+
+Speaker  307696:00
+I might suggest it like eight, because I have a $15 product. Yeah,
+
+Speaker  308992:00
+yeah. I keep checking, and it keeps lowering. How are you tracking? LTP, oh, we do all of that in house. We just got a really good data guy, yeah, yeah. We've got a pretty robust, just pretty robust database, so we can go and match, you know, emails and addresses between Shopify Exactly. Yeah, so Shopify, Tiktok, Amazon, Amazon's more difficulty only track based on the hash emails, but yeah, well, we just do that entirely in house. Yeah.

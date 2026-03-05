@@ -1,0 +1,368 @@
+Logistics Channel Call Jan 2025
+Date: January 21, 2025
+
+Speaker  992:00
+Hey everyone, welcome to the logistics channel. Call with Mao, hopefully we'll have a great time today. Thank you. Mau from here,
+
+Speaker  2960:00
+hello everyone. My name is moko hell. Today is January 21 this is the second call and the first one in 2025
+
+Speaker  6325:20
+excited to get it started.
+
+Speaker  7269:20
+I was thinking, maybe we, like, we decide how we want to run the call, so maybe we can come up with with some topics, and I could talk about them. That's one way, or we could, I could just, you know, answer questions and maybe also get some of your feedback as well. Yeah, I mean, since, since we don't have many that joined the call now. I mean, if you have any certain topic you want me to discuss, feel free. Feel free to raise your hand or even just say something. And for those who has their camera off, if you can make them on, that's nice. Let's just make the session interactive. But yeah, I mean, let's, let's get started. I mean, I could give some updates if no one has any like any certain topic in mind? Do we? Is everyone here using a WD, yeah, can you raise your hand, yeah?
+
+Speaker  24837:20
+Yeah, okay, we got a few here, perfect, yeah.
+
+Speaker  26117:20
+Is anyone seeing it being better in January compared to December or No,
+
+Speaker  28474:40
+I think most of you have your mics off. Yeah, I
+
+Speaker  31722:40
+don't know if anyone want to say anything.
+
+Speaker  33168:00
+I think the receiving is better, but we're having issues with them replenishing stock to FBA,
+
+Speaker  34927:59
+yeah, yeah, I think, yeah, go ahead. I've had
+
+Speaker  36160:00
+a similar issue also where I'm able to send it right. It still only allowed me to send to the East Coast. I had about a week window where it allowed me to send to the West Coast. And I just try to load it up then, but normally it's still sending to the East or to Texas, never to La warehouse. Yeah,
+
+Speaker  41429:20
+I I used to get LA, but not all the time. I also used to manipulate the ship from address. Sometimes I would get it. Sometimes, no but. But the thing is, every time I manipulate it and then I get something in, LA, like I us, j, i U S, P, I U S, Q, I feel like the receiving process is a bit slower because sort of enforcing something that they don't want to happen. I mean, I feel receiving is fast for me, but the My main issue now is AWD to FBA that I've also sent some emails to their directors as well. There's something wrong with this process, because what I did, I did a test where I sent my own shipment for my three PL using Amazon freight. Doesn't matter if it's Amazon freq to Uber freight, but just to show them that why they have an issue with their, with their with the way, how they transfer things, and then did the manual. AWD shipment, 5000 units each. My Amazon freight shipment got checked and received in full live unload in three days after one week. Yeah. AWD. Shipment only left from AWD after three days, which is, I mean, leaving AWD is also fast. But then after 15 days, I had 80% of my units, not just available, prime eligible, which is good, but with AWD, maybe only 20% or 25 but then, when I, when I pulled that, when I tried to see where things got, actually transferred with my Amazon freight shipment, which is sort of, I call it like a private shipment, that's something I did myself. It was going to about 80 fulfillment centers, but with AWD, he was going to 120 so to be honest, I'm not sure if this is something good or not? Yeah, maybe they want us to be all over the place. But this is something I emailed the AWD director about. I was like, Listen, this is not working. There's something wrong. I mean, I mean, we're in January, is going to end soon, and I don't see any any any improvement. Like, I want to launch a new product in my high season, in the month of January, and I I've sent everything on January the second, and it's been end of the month, I sent, like, 6000 units. I only have 1000 units available. This is not acceptable. So for me, I'm increasing my lead time by no it might not be the best solution for everyone, because it can affect. Your cash flow, but they said they're working on it. So maybe my idea is, do not, do not force a life if you don't get it. I mean, for me, I was trying to avoid Texas and New York in January because of the strike, but there is no any more strike, so we should be good. In fact, sending to New York will add only $1,000 in terms of, like, ocean freight rates. Maybe lead time another week or 10 days. But I think it's not that bad. Texas, maybe a little bit more expensive, but I'm hearing things a bit faster there. They also just added an AWD in South Carolina. That's a new one for sure. But yeah, I mean, ideally, I'm hoping that it gets better in February, something also do not wait last minute. Always escalate. We have that special AWD email that they created us for the MDS. Don't sit and wait a month and then say, oh, it's not gonna work. Just email them like, when you feel like after two weeks, something is not moving, just email them. They can't track trailers. They know where your stuff are. I'm not sure what happened. Do you guys still hear me? Yeah,
+
+Speaker  100751:59
+yeah. I'm sorry I stopped sharing so we can see each other. Oh,
+
+Speaker  101877:20
+okay, okay, yeah, no, that makes sense, yeah, yeah, yeah. So, yeah. So, yeah. I was saying, Do not wait. You don't want to wait a month and then say, Oh, by the way, I'm going to go out of stock or loan stock. So always like, take an action, email them, they're, they're still have a good support, in my opinion, better than any other support I have seen. They can track things the way, how, the way, how it works, as well, also when you send your stuff from AWD to FBA.
+
+Speaker  111306:39
+Now,
+
+Speaker  111914:40
+I think many might have think, oh, it's one FBA ID, it's one truck. No, not one trailer. That's not the case. So, I mean, we don't have visibility on this information, but when they send a shipment from a WD, even if it's one FBA ID, it could go into 678, trailers for the same location. So, so what happens? They all arrive, they get dropped off, and then it's up to Amazon when they start to unload. So sometimes they will unload the first one today, but then the second one maybe after a week, or maybe the third one before the second one. So that's why you never see them fully received, like right away, it does, does take time. So I spoke with them about this too, as well. I was like, if it's going to the same location, then there's no point splitting it up, but if it goes to different location, then it might make sense. So they're working on it. I sort of don't see any other option, other than shipping to five locations from China, that's another one. But again, each products are different. You need to do analysis and then compare. So for example, a, W, E, D, the processing fee, if you have the integrated rate, it's two point 13 per case. So the issue is, if you only have five units in a case, it might not work. AWD might not be a good option for you. Yeah, because you only have five cases, and the two point 13 is a fixed cost, I mean, and that's when you if you can, of course, you want to optimize your cases. But this is just an example where AWD might not be a good option. I know they're increasing the rates in April. I haven't done the analysis yet, but I doubt there's something better, other than storing in China and then shipping to five locations from China. Because no matter what, always shipping five shipments from China is going to be cheaper than doing it from the US, because it's ocean versus land. Ocean is always cheaper than land, no matter what I mean, sending sending something by vessel is cheaper than it, attracting it, no matter what I mean, unless you have the margin that's something else. But just speaking on behalf of everyone that I spoke to, but yeah, I mean appointments, they got better for sure. I had issues in q4 getting appointments, they got better now. And when I get something further out, I just email them. They try to give me something earlier. Yeah, by receiving to iwds very fast. I've never had something took more than 48 hours. One problem I face that I mentioned in the group, if they receive less cases, I have no way to get reimbursed for the remaining boxes this. I talked to them 100 times about it, they refuse. Even though I show a bit of flirting, I show at least. Things. But why? I noticed they eventually find some of them after a month. So just keep an eye. Keep an eye on on that they tend to lose stuff, but they tend to find them next month.
+
+Speaker  162656:00
+No, I found that when you message the email and tell them about the issue, if it's you know, two weeks in or whatever, normally, at least having that record of the lost items helps when they, you know, look for the item or whatever it is. I just, regardless, always if there's any missing items to report it, so that at least they have a log of it, so that when they do, or, you know, even if they reject, you normally end up finding it or working itself out, just like you said. But you know, having that record of it that you actually try to get the reimbursement shows that, you know, maybe they look forward or whatever, because I've had ones where I didn't do it in the beginning and we just went by the wayside. They didn't care about it, and just was lost.
+
+Speaker  173322:40
+Yeah, that makes sense. So what we do? We still track everything. I mean, yeah, we have all these tools, softwares, but we still track things for AWD manually on a Google sheet. So we try to record every in and out. That way we have an accurate log. And what we notice, for example, say we have as QA, we think we have 1000 units, and then one day we have 1020 I was like, oh, okay, there's 20 units extra. Then what we do? We in our Google Sheet every time we send a shipment, if they say they received, only say, if I send 20,000 unit and they received, I don't know, 19,500 just a number, we record that they lost 500 units. It has an entry in our Google Sheet. So we know that we can trace them. We know that 20 units came from that 500 and you know what makes it easier? Because they tell us even once we send that 20 units from a WD, it will show if it was from IU, as, Q, i u, s, j, i u, i u, whatever is that, that that place. So it's very easy, because we know, oh, by the way, we had 500 unit lost at IU askew, and those 20 units at IU askew, you know, so sort of it makes sense. I mean, there are other ways, I'm sure, but I find just doing it the manual way on Google Sheets. It just helps attract things. And then you sort of know if something, I mean, if something shows up as an extra, it's not an extra something that got lost in the past. And I like what Omer said, if you feel like something get lost, just maybe, I mean, it doesn't hurt, just email them. Maybe they'll do something, they'll find them or something. I like the idea for sure.
+
+Speaker  203626:40
+And one more thing, just to make sure, when you say, manually, are you still looking at the inventory ledger? Is that what you're doing, you're downloading it daily, or how are you doing it manually? Yeah, go for it. Yeah. So,
+
+Speaker  206650:40
+I mean, you could download the inventory ledger, that's one way. But you could also, I mean, again, it's, it's very, I mean, you could also use the View inventory on, on, on the AWD page, but, I mean, might be easy for some of you. Might not be easy because if you have 100 of SKUs, it's not practical. So by the downloading is the easiest way. But I also find find the Inventory page is the most accurate one. I mean, I don't know if you've seen some discrepancy sometimes or not. And I also notice when we do those transfers. I mean, I do monthly manual so I know to say, if I send 100 units today,
+
+Speaker  217509:19
+I wouldn't, I wouldn't record it
+
+Speaker  218277:19
+right away, because I noticed after two three days, it might get adjusted to 80 units. And then, and then the FDA shipments get adjusted too, because the FDA is linked to the AWD, and of course, that's another issue I'm facing with them. Most of the time they say, Oh, by the way, your cases were stored outside. AWD, I email them so, oh, by the way, they're, back in the WD, you could do that transfer again. But again, this is only with manual replenishment. I don't know about auto and plus, it seems some SKUs, when I replenish them, I go, like I want them, like I need them all. So maybe if you have 100 and then you try to replenish 100 then that's where the issue is. But say, if you have 100 and you're finishing 20, you're not going to go know if something is lost or not, because you're only doing 20 out of out of 100 but what I want to say like, have your own sheet or something as a sort of truth, and do not depend on Amazon AWD reports, because I don't trust them 100% that's what I want to say. Yeah,
+
+Speaker  236122:40
+I agree with that. I think that in the beginning, they rolled out the inventory ledger originally, when they rolled out AWD, or like, a couple months after, and it was extremely inaccurate, and they took it down for a couple months, and then they brought it back, and when they brought it back, it's been better, but. I do agree that doing it manually, or at least kind of seeing and making sure, fact checking, or making sure that you're that the inventory ledger is correct, is a good way to check it, but we use an internal tool that actually uses it, and it's been okay so far.
+
+Speaker  243440:00
+So I'm, I'm on, I'm on beta now with source stock, because they have, they introduced the API with AWD last month, but it's still not perfect. So I'm still, I'm still testing it out, but, yeah, I mean, manual is not about because all what you need, you need in and out. It's not that, I mean, it's not that hard. Even those FBA shipments from Aw, they're very accurate. Even if they get adjusted from AWD, they get updated the next day. So they're very accurate. And now I'm not talking about things get lost in FBA. I'm talking about how many units left from AWD to FBA, those, there is no like, I guess, game. I mean, if, if 100 left, then 100 left, that's it. I mean, it's not that hard to to have them track. Who do we have? You using the auto I never had.
+
+Speaker  257056:00
+I was, I was going to ask that I am the only one that use auto, because we use Auto, and it's like a mess every week, because they are, like, 100 shipments
+
+Speaker  261343:59
+per week.
+
+Speaker  262005:20
+It is fantastic, because all our schedules have stock every time, we don't have the problem that perhaps we had in the past, that we have some schedules without stock, but it is very difficult for us to understand our inventory. We had a the accounted a part of the reconciliation, and it's very difficult, because the AWD inventory letter, they explained me that the stock, if for two days before the day I am, download the information so it's not clear the inventory for the final at the end of the month. So it was difficult for us to have like the inventory reconciliation in some schedules, because in the 90% we are okay, but we use the auto replenishment. So I was wondering if someone also use and having problems or not. I have some problems with the FBA replenishment, in some cases, when we download the information of the outdoor replenishment and create the transfer orders in our system, net fit. We had some cases that we don't receive any units in FDA, so I have to ask them, the support is fantastic. The answer, I have the answer very quickly, but yes, I was wondering if I was the human centric
+
+Speaker  287962:39
+Yeah. Is it not received? Because they they probably seem like my kids. They know
+
+Speaker  289184:00
+maybe in the FDA ID, the units are not received, but then, when he the support answer me by email, they answer that the units are received, but instead of the FDA ID to the PO number of the shipment. So the units are, yeah,
+
+Speaker  294581:20
+I had one case, like One 1000 lift, AWD. And then when I went to the FBA shipment, I also see 1000 but, but zero was received. And then they said, Oh, you have to wait to reconcile it. I was like, No, I'm not going to wait 90 days. You track for me. Track for me. All the trailers linked to that they are they and then when they tracked it, and then they pulled the inventory reports. I mean, I didn't pull it. They pull it for me. I mean, I was about to do that, but then they said, Oh, by the way, they they were received, but under other events, which is, which is, I've never seen, ever in my life. So it was received, yeah. So I had this once happening. Never had it, even with shipments to FBA from China, from my 3pm but from AWB, but yeah. And of course, when I try to reconcile the shipment after 90 days, I said, Oh, by the way, they were received. We already added them back, and they confirmed what aw said. So that's why I was saying, don't wait. Do not wait. I mean, I mean, yes,
+
+Speaker  311477:20
+I have a lot of cases of other events, shipments.
+
+Speaker  312661:20
+I mean, I don't know it's crazy, but the
+
+Speaker  314309:20
+auto Are you finding with auto that it's not accurate, as far as, like, replenishing, because we we're using auto so we don't have to pay the low inventory fee on the products we're selling, and it's not even close to what we're I mean, we're running out of stock left and right. I'm having to constantly do manual shipments and like this defeats the whole purpose. Of us using AWD.
+
+Speaker  320864:00
+I think I'll tell you the auto works, but the problem is AWD to RPA takes longer, and the problem is not built in their demand, that they're not forecasting a longer time exactly for the transfer. So I think in theory, it should work, but I think there's something wrong from when they do the transfer that takes longer. Like I I'm giving you, I can give you examples like sometimes take two, three weeks. So I think if it was built in to forecast for that long, a leader time, maybe it gets for me, January. They're still backed up. This. I mean, it's better than December, but they're still backed up. I mean, and I find it really, really disappointing, because we already in January. I mean, they can't complain about toy sellers or Q for that. So this is why I stopped using auto. And I feel like when I use manual. It forces me or my team to look at forecasting every week, and then they're forced to know how much we left, how much we have. And then we just do one replenishment, usually one FBA ID. I think during q4 we would get five FBA IDs because they want to distribute them. But now only one FBA ID. I mean, if you feel like sometimes, if we feel like we need the stock soon, we want to send 5000 in it. We would send them two or three times, because I noticed, if we wait a day or two days, we might get another FBA center, and then it might help. But, yeah, I mean, I think you, I think at the beginning you were using auto, right? I mean, how? Yeah,
+
+Speaker  348522:40
+we we had an issue early on, I think in Q form, we realized that very early on that it was going to be an issue in auto, we thought, okay, let's use auto. Let's see audience, because we didn't want to lose some of the fee protection that we would get by going from auto to self. And then we realized that there's no way we can survive q4 it's not going to happen. The inventory is never going to get there in time. So we just pushed everything manually and it, you know, it worked out. But you know, now we're trying to get back into the groove of, you know, allowing it to go auto for some skews that that we don't have urgency for, but it's still causing a lot of issues. And yeah, it's definitely manual is definitely still the option for us. We're seeing that with launches too, right? You can't live with the launch when it goes on auto because, for example, we just launched a new product, and, you know, one random day started, like, really popping off. And once it starts popping off, like you're screwed, because they'll auto replenish you way under what you expect them to. And then it just takes forever to go. So it's like, we just said, Okay, let's do, you know, manual replenishment. And then also, we sent the FDA, because we needed to just make sure that we needed to just make sure that we got it. We had some in our warehouse, so we just wanted to make sure that we got it too as well. Because without it, you're, you're gonna, you know, die there. So, yeah, that's just the way
+
+Speaker  370800:00
+our mixture is that what you're suggesting, like, keep auto on, but then if you see something start moving, then create manuals.
+
+Speaker  372720:00
+But then, then the problem with that, you have to keep the auto about 70% and, like, yeah,
+
+Speaker  373861:20
+it becomes a really big issue. We have a like, you know, thing. We have our teams doing it whatever, and they just see if there is some sort of, like, you know, mathematical equation for it becomes really difficult. So at some point, if you want to go, switch back. It takes a long time to get back. But that's the whole goal, right? The goal is to get back to auto replenishment, just to get some of those fee protections. But in reality, it's not feasible, especially when you push, like we pushed 1000s and 1000s of units during q4 and you know, so long as those units are selling out, that's fine, but then you're kind of screwed, because, like, Mo was saying there's a 7030, equation that you have to kind of consider, and they don't really give you what that number is, because they don't, I don't know why we I've asked, like, 1000 times, how can I, you know, calculate this number? And we kind of figured out a way. But at the same time, it's not really, you know, every day that you lose because it's a 90 day period right now, if I remember correctly, it's a 90 day period. So every day that, you know, goes away. It's like, you know, that period adjusts, the number adjusts, and just kind of gets really wonky. So yeah, there is a lot of concern by going from self replenishment to auto, or manual replenishment to auto, or vice versa. But you know, the goal is to get back to auto, just because it does give you fee protections that you want to make sure you have.
+
+Speaker  393845:20
+So you'll lose those fee protections if you're on auto and then you manually say, move from a WD to
+
+Speaker  395674:40
+mode. No better. But that's my understanding from talking to my AWD rep, that was basically what they would say to us, is that,
+
+Speaker  397802:40
+is there any reason to be in AWD at all if you don't have the fee protections, especially now with the April 1 new fees, is there any reason at all to be there? The
+
+Speaker  400000:00
+reason that we continue to do it and we have it, we needed a second, an external warehouse, because we have b to b and other channels that we sell on. But AWD is necessary, just because, regardless of those fees, sending to FBA is just so expensive directly, that sending it to a WD and having that as our, you know, secondary warehouse just makes no sense. So we have about 80% of our inventory is at a WD, and then we have certain containers that, instead of going AGL, we'll have them go to, you know, our forwarder will hold it for us at their their warehouse, they'll be palletized, and then ship it to their warehouse that we want it to. So you say
+
+Speaker  410517:20
+that's better than a three PL.
+
+Speaker  411562:39
+In what sense the AWD is better than three PL,
+
+Speaker  412154:40
+yeah. I mean, because we store all of ours. I mean, obviously we have a three PL, but, like, we store all of ours here at the three PL, our storage half is half of what AWD is, yeah. But, I
+
+Speaker  415194:40
+mean, listen, like, I think if you go anywhere else, the storage will be always cheaper than a WD. But I think what makes the huge difference is the transportation fee. You know, you know where you can compete with the transportation fee when it comes to AWD. I mean, for example, like I could beat the rates to California if I have a 3pm in California. The question is, in q4 How many times did I get an F C in California? Maybe one, two times. And all the time I was getting Texas, New York, all these crazy locations that would cost 345, grand to ship to. So you want to keep in that in mind. And then the other thing the placement fees as well. Like, right? I mean, I think it's very, very specific. But for me, every time you create a ship, you have to make all these scenarios and then see what's, what's a better option? Because there's always, like, my case different than your case, like, right? But, but that's what, that's why you keep in mind the the other option, like I spoke with big sellers in the MDS, that they do 80, 90 million a year. And then none of them, they do full containers, any anymore. They store in China. And then they send five shipments, five GDP shipments, to five warehouses on Amazon. The thing is, I know many of you may be not liking the idea of storing something in China, especially if you have loans for inventory. I think some banks, they don't want to see that inventory in China, because they want to come they want to do audit for the warehouse, things like that. But yeah, I mean, that's something that have worked well for me. I've never been a fan of sending direct to FBA because of my niche says velocity change a lot, I need something to control it. And that's why I find the idea of having a three PL, which is, in my case, AWD, could be a good middle person between FBA and China, because I can control how much I need I need to send. I find it very hard. But I also notice people who send direct to FBA after four or five months, six months, they get hit with the long term, term storage fees, and then they have to do a removal. So what's the whole idea of sending direct, if, if, if you can't get it right? So I find it very I mean, again, if you have a stable niche, stable sales, I think it's a good idea. But for me, if sending to five locations is equal to AWD, no, I'm going to stick with AWD, because then I can grip feed as much as I need. Then I don't, I don't end up with more and more stock. That's the way, how I see it. But the only thing what's happening now with me AWD is hurting a bit my cash flow, because now I used to have a certain X days, now I'm doing more because there's delays, there's all these things happening. So that's the only thing I do not like. But other than that, does it work? Yeah, it works, but you just have to be a patient. Now, in April, I don't know what's going to happen, but I mean, they know that we still need them, so I need to do the math again, but I doubt. I mean, even if they're more expensive, but still, still, everyone probably going to try to use them, yeah.
+
+Speaker  466031:59
+No worries.
+
+Speaker  466816:00
+Trevor, yeah, I know you have to go, yeah, good call. Thanks. Have a good one. Yeah,
+
+Speaker  469024:00
+yeah. I wanted to just ask, ask a quick question about the 70% threshold, you know, when you are on auto. So what's the impact like if, let's say, if you send more, you know, shipment that you supposed to you over that this threshold. What's the impact in terms of money that is going to cost you like,
+
+Speaker  476474:40
+like, like, if you send by auto and they send more than what you need? Yeah,
+
+Speaker  477402:40
+yeah, no, no, like, like, like, you you're an auto, but you're forcing to send it to FBA more than they want. You to, you know, I think you're talking about the threshold is like 70% so, and let's say you send more like like you first you manually,
+
+Speaker  482864:00
+and then how much does it cost you? Basically
+
+Speaker  483456:00
+give you example from my niche, or for the product I sell. So if, first of all, when it comes to low inventory fees. They look at the parent Asin. So if that parent asin has four child ASINs, they aggregate it, which is nice, because that means if you try to keep one, if you try to keep your best seller in stock, even if your low moving ASINs become under 30 days, but the average is controlled more by the best seller. It helps a lot, too. So once, once you save your average for the parent asin is less than 30 days. I guess, I think when I looked at it, 50 to 50 cent to $1 per unit. So it can add it can add up easily. If you're moving 200 units per day, that's 200 bucks just just paying for the low inventory fee. But then, if you had auto, then they waive the fees that the theory, but they didn't. But then the thing is, they want 70% for the last 90 days. There's some formula they calculate. And the problem as, as you know you have, you have to update it every day, because every day you move the average by one day. So I find it really, really hard, unless they build a dashboard where we can go and then see, okay, this is my average. Now, this is how many auto I did, how many manual and they tell me, Oh, by the way, if you try to do two auto modes, sorry, two manual modes, you're okay. I think if they build it, that would be amazing, because honestly, I have no clue how you can calculate it in a very accurate way. So for me, low inventory has never been an issue because I do manual and we forecast in a very way. But I understand for some of you, you need that low inventory fee wave because it's nice. So I sort of do not have a solution yet other than just keep using auto. But, but, but again, with auto. I mean, you could, I mean, you could destroy your business. You could go out of, yeah,
+
+Speaker  514144:00
+no, I agree. Because, I mean, when we did q4 I put on auto because I was having so much issues my three PL, so when, when they come up with the thing, like, it's gonna be auto, it's gonna be, wow, this is amazing. Like, I don't have to tell them every three days my super Hey, make that statement and prep the label and all that stuff, right. But turns out for q4 they were not sending fast enough, and that kind of hurt myself a little.
+
+Speaker  521621:20
+Yeah, yeah. I mean, I still keep
+
+Speaker  522981:20
+talking with them about it. I hope they improve it.
+
+Speaker  523914:40
+Uh, yes, someone just mentioned that much better. I paid distribution via iwd, 100% I agree with you, because when I, when I look at the Inventory Report, I'm seeing them being distributed over 200 FCS across all the country. So maybe that's why they're slow. So maybe, maybe they should not do 200 maybe they should do 150 I don't know. I mean, that's how I think, because I did an on shipment on the on december 29 I did AWD shipment manual. I did my own one for my usdpl. I even paid the placement fee. I'm just trying to explain to them why there's a problem with aw FBA and my, my AWD, shipment took 15 days and only 3015 days for for, I mean, 15 days, it was received in full, but then only 30% was prime eligible. As you know, if it's primed and it get delivered to the customer in two, three days, if it's not prime, then it can hurt conversion. Customer will have to wait a week or something. But the other shipment that I did after, first of all, it was available and received full at the appointment time, which is in two days. And then after 10 days, when I compared at the same time, 90% was prime eligible. But when I looked at the FC distribution, it was about 100 the other one was, it was 220 I didn't even know we have 220 I thought maybe we have 151 60 across USA. So as much this is something good, but maybe it's something they should look, look into it. Maybe it's too much, I don't know, but I've already emailed yesterday the AWD director. I do have sort of a certain that I wish I could share, but I've met him in person in Seattle, so I emailed him about and I said, Listen, it's just not me. Many I know in the MDS have the same issue. I mean, if aw does not improve the transfers, what's the point of using it then? I mean, we already in January. January is almost done, but I agree with you. I think in q4 many had issues with stock being stuck in California. I didn't have the issue. I had my stock distributed, although I think Fabio had the issue where didn't do any FC transfer, and another person as well. But yeah, I didn't have it with NWD. It's just just very slow. I mean, I don't have a point. Many issues. I don't have receiving issues. It's just AWD to FBA. It's very, very slow. Yeah, unfortunately. I mean, but we have to work with them. I'm working with them. I mean, I think anything, anyone, I think any feedback that you guys, when you email them, it helps us as a group as well. But, yeah, I mean, I'm hoping that they change from what I heard. They want to open more, AWD. I mean, probably another 2030, this year. I don't know how fast they can do it, but yeah, they're going
+
+Speaker  569141:20
+crazy in AWD, I think
+
+Speaker  569957:20
+they, they, they had a certain demand in their mind, but the numbers were off. The growth for AWD, in 2024 was like over 1,000%
+
+Speaker  572762:40
+I mean, that says that director told me that. So
+
+Speaker  573882:40
+if they solve all the issues, then honestly, it says it's gonna make our life easier, but they cannot charge us more if they have issues. That's the thing I do not like about. I mean, I mean, fix your issues. It's like, it's like, I have an issue, and then I'm gonna charge you more fix it, and then charge a premium price, but, but don't charge a premium price if you're bad. You know that's, that's the thing I do not like, yeah, so I do not know. I think in April, maybe in March, I'll come up with another analysis, and then give example, because the problem with doing all these analysis shipping rates changes all the time, before Chinese New Year after Chinese New Year, things like because when you compare, you want to compare with most likely sending it from China. You do want to compare sending it from USA, because sending it from USA, there is no way you're going to pay that placement fees, and it's going to be different from one person to another, and it's very expensive, very, very expensive. Yeah, yeah. So I don't know someone. Let me. Let me just read if there is any question in the chat, and if anyone wants to jump in, say anything or the experience, please feel free to do so, yeah. Mo,
+
+Speaker  591962:40
+I don't have a problem at all with distribution from Awa to Awa to FBA. Auto has been working pretty well for me. Maybe I'm, I think, probably the norm. I can understand there's some cases where it doesn't work, but for the most part, it works for me. However, maybe can you talk a little bit more about this whole shipping, shipping from China straight to FBA. Basically, you just create shipments, five different shipments, and you step from China instead of, instead of, so
+
+Speaker  599973:20
+you want to store for free at your supplier. That's your main goal. If he doesn't accept, then you want to find someone like skew drop. But not necessarily, I think skew drop their storage fees. It's insanely expensive. I mean, for something in China, I find them very expensive. And the other thing, they're based in in the northeast of China, I think, close to Shanghai. So if your supply is in Shenzhen, you're going to have to track it from even over there. Did open one there, but didn't open one. So, yeah, I really you want to store it at your supplier for free. And you want to have, yeah, I mean, and you want to extend the supplier, not everything going to go out this week. You're going to try to, I mean, since you're doing the LCL five shipments, or DDP every week, or two weeks, I mean, something would go out. And then, yeah, and then you want to give him enough time, like, like, you're not gonna, I mean, you're gonna build all these, whatever you need in the next two months. You should have given him the order. But then you have to explain that it's gonna go every week, two weeks something out. Otherwise you cannot say, Oh, by the way, okay, I have shipment next week. Let's just get I mean, there's no way. That doesn't work that way. Now, the only thing with this thing, I mean, I'd only do it for something that I've been selling for some time. I know that the sales velocity will not change. It's stable. Because remember, the moment you become overstocked, it might be hard to stop everything because, because you might by the time it's gonna
+
+Speaker  623882:40
+keep coming, it's gonna keep coming,
+
+Speaker  624464:00
+yeah, because you have two shipments. Oh, I have one on the water. I have one left China. So that's the thing that, I mean, I, since day one, I'm standing on Amazon, I've never been a fan of sending direct because anything can go wrong. You know how many times there was a quality issue that I could ask my three PR to fix it? I mean, I mean, obviously you want to fix it in China, but, but having that place sort of, I mean, I wish you could do that with AWD. Anyways, even if you have something, have an issue, you would have to remove it. I mean, which is also expensive, but, but the idea you want to control everything, yeah. So, yeah. I mean, for you, Raymond, I mean, you could try to compare and then see if it works for you. Maybe you don't have to do it every time do it, maybe every other shipment. The way how you compare, just make sure you're getting a call to AWD and then you're manually calculating AWD to FBA. Otherwise you're not comparing apple with Apple. Then it doesn't make. Sense. I mean, this is a must. And then maybe the hero one, maybe the hero skew that, you know, it will always sell. Maybe do it five shipments, no placement fees. One thing, just keep in mind, those five shipment once the first one received, the other four need to be received within 30 days. I wish they remove it, or I wish they add another 15 days. So for example, if you get two shipments, East Coast, three West Coast, maybe you want to ship first the East Coast and then you ship the West Coast after. Never ship the west coast before the East Coast. I mean, good, straight forward. Should know that, but yeah. And then the nice thing about it, you're diversifying. You're not depending on one FCO, by the way, appointments backed up, but no, you have other four shipments. So they help. I mean, it helps a lot. Yeah. I mean, luckily, with those appointments issues, because, you know, it's a partner carriers, the Something I like about them. For example, when you do Amazon, partner carrier to pick up from your own warehouse, and they don't show up. Sometimes you don't even know who to call. But with AWD, they can even track the trailers. Like, like, I mean, if you want to use that language, you always ask them, by the way, how many trailers are linked to the Ibo ID could be 12345, and they know where they are, and they know if they're if they got checked in or not. And then that's why you'll see you never have the full Units received. Like, if you send 5000 you see them receive 1000 2000 I mean, for me, I missed the live unload, because when I take when I book an appointment, the 5000 unit get received in full at the appointment time, and then my FC transfer starts from that day, but with AWD, the FC, the FC transfer within FBA, only starts when they receive the stuff From AWD. But the problem is they don't receive them at one shot. They receive them in multiple shipments, because there there are multiple trailers. Maybe those trailers also maybe it shows ont eight and the FBA shipment. But on the back end, it's not just ont eight, it's LGB eight lacks nine. So that's why it's slow, and they need to improve it. Even I told the director, like, if they have sort of a priority for these AWD shipment, like our own trucks, you know, honestly, it's gonna, everyone will like AWD. Everyone say, Oh, by the way, I want to use AWD because they have their own trucks now, so
+
+Speaker  676144:00
+and Chinese premium, then, not before, for sure, yeah. Like,
+
+Speaker  677200:00
+I gave all these feedback, but I do not know how much they're gonna act on it.
+
+Speaker  679189:20
+Hey, Mo, I have two questions for you.
+
+Speaker  680533:20
+So first is, I have a product that I want to liquidate. Everything in FPA, I was able to liquidate very well. How do I do that for the AWD, do I just like get it shipped to my warehouse and ask them to liquidate there, because there is no liquid option. You
+
+Speaker  684938:40
+have to use the MCD option, the MCD option, which is MCF, MCD,
+
+Speaker  686458:40
+yeah, MCD, and then get it to my warehouse and ask them to destroy all the Kat, yeah,
+
+Speaker  688026:40
+be careful. You have to do with ASAP, because with the MCD it was that transportation fee was fixed. I know that they already announced it. Now that transportation fee, it will change based on the destination. Okay, I was using a hack to ship to East Coast for the same price as West Coast. So I know either it's got affected from today, or maybe maybe in April, I'm not sure. So if you want to do it, do it ASAP, daily. I wish they had a better option where they can destroy them for us. Yeah, fine, take my money. But there's no point, you know, like, like, other
+
+Speaker  697909:20
+hack I was thinking about was to ship everything from AWD to FBA. Yeah, that goes I treat costs. My listing is already closed. It will become standard inventory. And then, you know, ask them to listen, but
+
+Speaker  701338:40
+then wait, and then you're adding more costs, because you're adding, I think for me, from I said standard size,
+
+Speaker  702698:40
+for me, that's the last standard, yeah, maybe you want to calculate
+
+Speaker  703738:40
+the removal fee, because the removal fee now it's sort of linked to your weight. It's not a fixed fee, like how it used to be back in the like I would calculate it, okay, the way I would do it, open a new Google Sheet, yeah, you do two scenarios. I come
+
+Speaker  708992:00
+from a data background, so I'm very good with that part. So that part.
+
+Speaker  710613:20
+You asked a question about SPD. So all locations accept SPD, except the East Coast, which is east coast, do not accept SPD, but west coast, all of them, they accept. So, yeah, I've never had any issues. But again, SPD is expensive for me, so I cannot do it. I cannot more. Can
+
+Speaker  715866:40
+you validate this observation? So I put all of my inventory data using API, and I have my own, you know, proprietary thing that I do, what I observed after switching to AWD, is in the last six, seven months, I'm seeing a lot of. Small shipments to these satellite FBA centers. And if you, if I just map it out on the US map, you know you see all those main and other places, Montana is red and low inventory. Those reds are becoming pinks and yellows. Are you seeing something similar? And the distribution was improved. I
+
+Speaker  726064:00
+did not, but I've heard from many MDS members that they they're facing this issue. My question to you, is it, are they seasonal items or no? Is it something like you said, really good. Have good,
+
+Speaker  729861:20
+really good. Like every month we do have our spikes, but February is better than Black Friday for us. But besides that, it's like sustainable. Every month we are selling, like, 1000s of units,
+
+Speaker  733338:40
+if you have, say, 100,000 of units, 100,000 how many on on a remote satellite, FC, or something, yeah, I have
+
+Speaker  736256:00
+not done that distribution analysis. What I'm seeing is that earlier, my inventory was stored in like 4045, different FBA centers. Now I'm seeing it across more FPA centers, and the quantities have gone up in some of those remote areas. Yeah, maybe I will correlate it with my, you know, Facebook ads and Google ads, they're getting ads from running ads. And
+
+Speaker  743013:20
+when you say remote areas, like, what give me? So I'll give
+
+Speaker  744149:20
+you an example. I live in the Bay Area. And in Bay Area, all the fulfillment happens out of Livermore center and Tracy Central. And then they're coming up with the new one in Selena. So these are, like three major FBA centers that fulfill all the orders. Earlier, all of our inventory was talked to Tracy, but now I see more inventory moving to Salinas and Livermore and other FBA centers as well. Okay.
+
+Speaker  750842:40
+Now one thing you could look into it, you need to find which one is the ix D, which one is the non IX D. I mean, if you look up IX D, IX D is a trans Lord. FC, for example, Ont eight. I mean, I speak about California because actually eight, LGB, eight lacks nine. SBD, one their IX, DS, they don't ship products to customers. So So I think this is very important, and the problem is, Amazon doesn't tell us which one is ix D. So my my question is, again, it's just a speculation. Maybe that I more one is the ix D that distributed others. I do not know. I've heard some saying something about it. Maybe you could just open a case and then ask them, or maybe see if you can find which one is IXD, which one is not. Yeah, I think they have a IXD. They have also regional ones as well. I forgot what they call them. And then, yeah, and then the final one is the final, like the final of the got
+
+Speaker  767258:40
+it. One thing I was suspecting was it can be Amazon is doing those experiments right, where people come in their private cars, wearing a vest, and drop off packages. I don't know if it's there in all the areas, but we are seeing it a lot in California and
+
+Speaker  770704:00
+as well some of them, and maybe they're
+
+Speaker  771488:00
+trading some new host fulfillment centers as for these people, because I cannot imagine people driving their Corona going to an FBA center to pick up the payload right there has to be like a smaller satellite for those solutions. So maybe it's just that. But again, this is like secret sauce. I don't know. We'll just keep an eye on it.
+
+Speaker  776533:20
+If you want to take a screenshot of the map without exposing your brand, put it on the MDS. Nice topic to discuss as long you feel. I mean, maybe some will ask, Oh, how did you come up with that map? But that's fine.
+
+Speaker  779770:40
+I'm just pulling the data from API. I have it on my Google Sheet.
+
+Speaker  781482:40
+Create a Google sheet out of it. Every
+
+Speaker  781866:40
+time someone comes with something API, everyone wants, once, a copy or something like that. I understand it's something cool, but yeah, I mean, but yeah, I mean another question. Oh, okay, yeah, that's a good question. Ima, I've heard about them. Pattern they are on, they're on, sort of on my list to be contacted. I heard about them, and also another company. My only issue is, I think I'm not sure if they look at in California, I think the Midwest or something. My only thing i I'll need to send my containers to them first. And they're not, they're not in a very strategic location. I think I might be wrong, but I have heard that. I think they want to open their own, they can open a new location, something. But I want to look at, I mean, I want to look at them as an option, because they're, as everyone knows, they're number one, two or two, even seller on Amazon, like they're big as Utopia. And they, they send many trucks. On a daily basis. So that's, that's one way, because the issue was the issue with many three PLS, they don't have the volume anymore, so sometimes you have to wait for it to happen. So yeah, they are, I'm, I'm gonna try to contact them, and if I get any I need something good, I'll let you know. In fact, us in the MDS, we should. We should try to do it. We should build or lease our house, sort of maybe in the middle of the state, and then all our stuff goes on the same track to fabrication. That would be the ideal solution. But I don't know if that can be happening or not. Yeah, I'm just trying to go over anything that I missed on the chat. Is it cheaper than manual freight forwarder? Our fate folder currently charges us when we when shipping get custom clearance in the essay, I don't know what's that question, Fauci if you want to just say yeah, for AWD, it needs to be sent in palace. Or we can No, you can do both. You can do palace. You can do SPD, but remember, for SPD, you can do East locations that, like IUs, Alvin, not yet ready for SPD.
+
+Speaker  818704:00
+Okay, my question was, since we would like to try AWD, since I'll discuss, I'll discuss with Ray and so probably Aw, Qd could be a good option for us. My question was, like trying a freight forwarder, like a different freight forwarder, or trying AGL to send to Aw? Which one do you think with your experiences cheaper,
+
+Speaker  825301:20
+I ship full containers. So for me right now, my freight forwarder can beat AGL rates right now? Yeah, so right now I'm not happy about AGR rates. There are, they are a good option. They have better appointments. For example, even if the container is delayed, it's stored somewhere. There's no extra charges. So you know you're gonna pay whatever they call it, you, which is nice, but when you ship your own stuff, sometimes there's detention, there's damage, there's all these things right now i for I'm speaking about FCL. I don't find them competitive. To AWD sorry, to to your own faith folder. So if I were you, I would do comparison, and then see, see, see which one is cheaper for you. Like, for example, if you try to send something before China, forget about Asia, because there is no way you can guarantee that your shipment will leave before Chinese New Year. But if you work with freight forwarder, he can guarantee that is going to leave before Chinese New Year. He can give you even the vessel name. When is it going to leave? So that's the thing. Like, I'm sort of like I, I look at and now, as you know, in April, there is no anymore integrated rate. So I don't even know what's the use for Asia, any anymore, because things will change. There is no more sort of, I mean, AGL is part of the of the new fees, but the you have to do two or three other things to meet the requirement to get a lower fee. But again, it's right. Now AGR is the only thing. If you do an AGR shipment, even one box, you get the integrated rate till April. But after that, AGL has nothing when it I mean, not a big role when it comes to price, to lower prices, I can share quickly on my slide, there's a few
+
+Speaker  853429:20
+thing to get the discount. We're gonna need more than just like an AGL shipment now.
+
+Speaker  854741:20
+Yeah, so right now. I mean, this is since, since the start, you need to send one AGL shipment or partner carrier once every 90 days. Yeah,
+
+Speaker  857397:20
+right. But now there's going to be more requirement together.
+
+Speaker  858789:20
+They added more things to the AGL. I think
+
+Speaker  859818:40
+I even myself, I cannot meet that requirement. But again, for those who does not have the integrated rate, now do it, please. You still have three months, and you have to do it before January 25 because then if you do it after January 25 you won't get the review straight for the month of January, so you still have four days. And then the nice thing about it, once you create the shipment, it doesn't matter if it gets checked in or received after one month. Once you create it, that's what they look they look at the creation date, they don't look Okay,
+
+Speaker  867664:00
+interesting. They were you. I'll just
+
+Speaker  868144:00
+do anything SPD,
+
+Speaker  868912:00
+either from the state, or LTL from the state, or even an AGL shipment, even if you create it now in China, and it doesn't leave until after Chinese New Year, right? But,
+
+Speaker  870933:20
+but you're only going to get up for three months anyway, right? Yeah, yeah. But, for example, if
+
+Speaker  871989:20
+you're storing, I don't know if you're storing 200 palace at AWD, right, right, money. I mean, I mean, I mean it makes the storage and the transportation 20% more expensive. I mean, so, I mean, unless you have few Palace then doesn't make then doesn't matter. But, yeah, I mean, yeah, I just want to, I know we have one minute, but I want to show, I want to share something quickly here. I'll put, I'll put the link here one second. I. I just
+
+Speaker  882368:00
+gonna share it here, because it just makes it easier. Yeah, I just shared the link here so that one is a full guide on everything related to AGL and AWD. One thing I like here about it, I'll show you here very quickly.
+
+Speaker  888373:20
+For example, I'm
+
+Speaker  888997:20
+just gonna open the link here.
+
+Speaker  890133:20
+Can you guys see my screen?
+
+Speaker  890965:20
+Yeah. So for example, this is the nice thing. These are links, but they get updated every week. So for example, if you want to ship a full container from ya Antion, which is Shenzhen with AWD, is seven, 7706 to be honest, this is too expensive. I can ship way less than that, like even, even if they I know with 7760 it's a fixed fee. And no matter what, any delays or anything happens, they cover the fees. But I find it very, very expensive. And then that's the same thing. If you go back here, those are the LCL rates. So they have them between one out of five, five to 1010, to 15, over 15. So what you do? You request your Chinese, straightforward for a court, and then you compare with that one. This is 158 I mean, it seems, yeah, it seems they charge a fixed fee, I think, to cover some the of the charges. I don't know what's that. I mean, I mean, I could read about it, but I'm sure to cover some certain charge, and then it's, I think there's no advantage. There's not much difference in price. Yeah, it's fixed. It does not matter. It's 158, 48 Yeah, just to give you an example, like a whole container could could go up to 70 CBM. So this is 150 $8 point four, eight per one CBM. And those are from 16th January, so they're still up today. So yeah, I mean, I if you guys have a shipping team, it's good to go over all these, all these links. This is something I think. The only thing I like about Amazon, these links, they work. They get updated. They have everything like how to do AGL, how to check the rate cards, all these scenarios, how to ship to AWD. I, I mean, the link is very long. That's why I, I made it very short for you guys. So, yeah, save it somewhere. I'm sure you're gonna need it. I'm sure you're gonna look uh, at it from time to time. I mean, other option would be to create a fake shipment and then get the rates, but it should be the same as what you get here. Yeah.
+
+Speaker  924714:40
+Sorry, more you spoke about that you got much lower rates if you do manually from your feed forwarder, FCL to AWD, can you share it like what was the last Kat you appeared in your scenario for the free container? Yeah.
+
+Speaker  928864:00
+I mean, I cannot give the exact one, because I do have a special, special relationship with my fate Porter. But I'll give you example, like, like for those, for those who were able to ship before Chinese New Year, they should have got in the container. Containers only, not. We're not talking about drayage. Anything about 4000 to 4500 the 40 GP containers. So right now you see AWD ag out to AWD for full container, they're charging 7700
+
+Speaker  937365:20
+so even at 4000 to 4500
+
+Speaker  938213:20
+if you add customs clearance and you add
+
+Speaker  939274:40
+drish, maybe you pay another 1500 so no matter what, maybe you end up 6000 6300 400 something like that. You will not end 7700 so that's why I say they're expensive. Again, I've only done that comparison for ACL. I believe ACL also is a bit expensive, so it's nice to check those plates on a monthly basis and then see what makes sense. And just remember all the time, don't ever use AGL if you need that ship in your rush. It doesn't work. AWD, AGL, they work when you are super relaxed you have good amount of stock. Doesn't work when you need something quick. That's something you should not depend on because you never know when the shipment will leave. That's the thing. Even you know how AGL works in China every time and you rep, they don't give you, they don't tell you when it's going to leave. You'd only know a day before. So, I mean, it's nice to experiment with AGL once you have good amount of stock, and then you don't worry about if it takes a longer time or not,
+
+Speaker  954629:20
+since we do AGL completely, so what we do is, when we have 120 days of inventory, we send them the agent, yeah, then we have to be relaxed, yeah, yeah, otherwise,
+
+Speaker  957658:40
+also whatever. If I were like in your scenario, I would do AGL, I would, I think, with the. JL, the nice thing they have the amp, which is a fixed fee for the placement fee. That's one option. I also try to ship with freight forwarder to five location, and then compare with AGL, because remember, with AGL, you still have to pay the placement fee, but you pay the reduced one if you use the Amazon managed placement service, which is amp,
+
+Speaker  964752:00
+which or I have done the same scenario while, while sending the same quantity, it's almost the same. It's almost the same. The good thing about AGL is they deduct the payment at the end, but, but, but. But there is another thing in AGL, which we beard is when the suppliers send this inventory to the Amazon freight container station, testing extra cost we need to be here if supplier charges you for that. Other thing is the AGL miscellaneous post. Then let the gate waiting time, like the AGL charges for that as well. So that becomes slightly extra.
+
+Speaker  974314:40
+It's FOB. If it's FOB, no matter what supplier, I mean, supplier has to pay to drop it off at the container first station. I mean, they might be more expensive than other Chinese straightforward, but end of the day, it's not our problem. It's FOB. I mean, they have, they have to deal with it again. When I say it's expensive, we're not talking about $1,000 or maybe a few 100 more, or something like that. But I had my supplier complaining, by the way. Oh, I'm doing FOB for you all the time, but I'm seeing AGL is really expensive when it comes to drop off your stuff, working with them, but end of the day, he couldn't do anything. I mean, it's FOB. So as you know, the fob charges. They're different from one phase forward to another, so not much you can you can do there, yeah,
+
+Speaker  987770:40
+yeah, yeah. Thanks. Thanks for your feedback. And
+
+Speaker  988522:40
+also, don't let them come to pick up, because they'll never show up, or they'll show up after weeks. Always have it dropped off by yourself. And just remember, yeah, you're paying the placement fee. I reduced one with AGL. So you might want to look at sending to five locations as well and then do a comparison. But yeah, I mean, that's that's sort of everything for today. If you have anything quick you want to say it, yeah, please go ahead. Otherwise, I want to be respectful of everyone's time. And yeah, I mean, it was good talking about all these things today. And yeah, we anything else you can ask. Once our MDS app is back, we can go back to our channel and then keep, keep discussing things. Yeah, perfect. Have a good Have a good day everyone, and yeah, see you in our channel.
+
+Speaker  1004746:40
+Bye, thank you very much. Bye, bye, bye.

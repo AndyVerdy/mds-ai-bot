@@ -1,0 +1,278 @@
+Trading Channel Call Feb 2026
+Date: February 19, 2026
+
+Speaker  00:00
+Posted, and then, yeah, I guess just kind of like, wing it and just make it like a Q and A great, nice. I feel like everybody has AI questions, though, so this should be fun.
+
+Speaker  5840:00
+Yeah, AI questions about what cloud with Amazon?
+
+Speaker  7749:20
+Yeah, just cloud. I feel like, right when crypto took a dip, then it just became, AI, yeah, so that's kind of where I'm at lately. Do you want to, like, give sort of a short
+
+Speaker  13498:40
+summary of what you shared in the group, in case you don't have, yeah, let me see if I can find
+
+Speaker  16698:40
+the the duck, while I look for it. Does anybody have any any crypto questions? Where's Bitcoin? I
+
+Speaker  22133:20
+sure, hey, I'm, this is my first meeting of this kind. I'm not sure like how I'm in MDS, but I've never been in this one. Is this about like, Oh, okay. Is this like, about like, trading, like markets and stuff, or is it like about import, export or whatever.
+
+Speaker  27130:40
+No, for context, this is we have, like, the trading channel, which is like, trading stocks, crypto kind of thing. And then, so this is the crypto segment. And then you'll forgive us, but normally they're, they're like, way more scheduled. I'm just more of a savant, I guess. So we didn't really plan this because, I guess, yeah, crypto has been in the toilet and then got it. Yeah, that's kind of
+
+Speaker  34911:59
+where we're at, right? I'm just curious. Thanks, yeah, yeah, I'm not super interested in this, but, you know, hope that you know you guys have fun in this meeting goes well, sounds good.
+
+Speaker  39829:20
+Like, is it a good time to to buy for somebody that doesn't really do anything? I just buy stuff to keep. Like, I'm not sophisticated at all.
+
+Speaker  43045:20
+Maybe like, the like, a good thing would be, I'll just like, show this chart. We'll kind of like walk through, I guess, how everything looks right now,
+
+Speaker  47674:40
+I kind of think we still have a little bit more to go right, the weekly, hourly. So we've already broken through this, which was like key support. So I think that we'll just kind of plow through it again, and then the next sort of level that is acting as support is maybe here, right? So I think, like, I think we could go to 58, nine. I don't know how long it'll take to get there, but if you remember from like, the investment talk, I think that we kind of go somewhere into May, maybe October. So now I'm starting to look at like May to October is the range where, like, whatever ends up happening will play out, and then we'll bounce from there. But I don't think it's over that being said, like, since this is maybe just, like, a $10,000 difference, and it's already down like almost 90 something percent from the highs, I think that, like, you could start thinking about buying now, I don't think that that would be a bad idea at all, because, like, it's hard to catch a falling knife. You have no idea where the bottom is. So, yeah, I think you'd start buying now. I think we get a little bit lower, but again, it's not, it's not like a huge amount. Yeah, that's kind of how I'm thinking about Bitcoin. And then similarly, in my talk, I talked about Ethereum being like really good value. I still think Ethereum probably will do better, you know, because you have just, like, more more upside here than Bitcoin, you know, like, from, I guess, roughly where it's at now, to here, it's like 148% Versus Bitcoin, like, maybe you get 100% so I think there's good value in Ethereum too. And then everything else down the risk curve. It's not even, like, worth it? Gotcha? Like, yeah, it's kind of how I'm thinking about things right now.
+
+Speaker  84816:00
+Okay, thank you. You're welcome. So who that's just me and you and Ted here right now, I
+
+Speaker  88133:20
+think there's, there's a couple of people here, Ted, yeah, Ted, you got any questions? What are your thoughts? How's, uh, how's everything going with you? And make him talk. I don't
+
+Speaker  93098:40
+know. I don't know. I
+
+Speaker  93834:40
+guess. Are you doing anything with AI? We'll just make it the AI call.
+
+Speaker  94698:40
+No, not yet. I'm just getting all the fomos.
+
+Speaker  96026:40
+Yeah, it's crazy. The only thing
+
+Speaker  96544:00
+I do is make photos and videos and products. My Product Development is very AI dependent now, but that's about it. As far as PPC, all of that I would love to learn. I've never touched quad before.
+
+Speaker  100544:00
+So what do you know?
+
+Speaker  101872:00
+I just have an in house one in house person, yeah, Amazon reports old stuff,
+
+Speaker  103669:20
+bulk uploads and stuff, yeah, yeah, I've been there so.
+
+Speaker  105301:20
+So what do you do? You just, you talked about quad 4.6 right? Yeah, and you just download that and let it be on your side.
+
+Speaker  108506:40
+There's a couple things there, yeah, like having it on your desktop and it accessing, like the files on your computer is different than talking to a chat bot in a chat, you know, like we've been used to, like 90% of people are still doing. So there's that, I think there's the nuance of strategy, like imparting your strategy onto it. So there's a lot in terms of, like, how you would do that optimally, and then, yeah, I like, it's scale. I'm curious to see what happens, but I think that you can automate, like, a lot of a lot of your day to day workflow, for
+
+Speaker  119221:20
+sure. Yeah,
+
+Speaker  120261:20
+yeah. I boosted my account. It like, made all these changes. I like double my impressions. I don't know what you use for reporting or, like a dashboard, but I kind of like scale insights, and then we also use it for PPC, but it made, like a whole new dashboard for me,
+
+Speaker  125242:40
+like Claude made a dashboard for you itself, the
+
+Speaker  126154:40
+PPC agent I made in Claudia. I mean, dashboard and stuff, yeah. So that's awesome. Yeah, it's been, uh, it's been fun. So, yeah, since crypto has been not happening right now, I've just been focusing, yeah,
+
+Speaker  131520:00
+so I'm excited. That's like the new, I don't know, the new, important cold rush.
+
+Speaker  133861:19
+Yeah, I'm just waiting for the for the turn like that. I can just talk to AI, and it makes it happen. I think we're, rather than learning
+
+Speaker  137349:19
+we're almost there. I think that you just have to, it's like having a team right? Like, you know, you're not going to replace, like, all these different members of your team, like, with one agent or one person, one AI, but like, if you kind of segment it the right way, then yeah, I think, Hey, are
+
+Speaker  143706:40
+you using Guido? Are you using hostinger or bps? Are you using a your own server,
+
+Speaker  145712:00
+just running it locally, not. I haven't had the need to make a server for anything.
+
+Speaker  147328:00
+So you're using a BPS or or No,
+
+Speaker  148352:00
+no, you're not. Yeah,
+
+Speaker  149184:00
+local, yeah. I just installed it on we're using hostinger, so I don't know if you'd heard them, but that's the one. And then just getting all our agents created right now. So I'm kind of new, but like, it takes forever, man, because there's not a lot of plug and play tools yet, except hostinger has a one click install. So that's good.
+
+Speaker  155306:40
+How's crypto treating you? I'm
+
+Speaker  156042:40
+just still in that big investment, you know, and he's, you know, he's waiting, you know, supposedly, to do Coinbase and, you know, but it's not a good time to launch, really, anything. So, yeah, you want to have. Momentum. But you know, they're doing okay. They're there. There's people trading it with, you know, buying things with it. In the ecosystem, I can see the transactions, but, you know, and they're selling a lot of what is it? The the nodes, server nodes, so he's got a sales team, so hopefully it'll pay off, but we'll see, not in the short term, that's for sure. But I got it all out before the last drop. You know, the last big kind of, yeah, last few weeks. So I probably saved myself a few 100 grand. You know, if I'd left it in my investment, I would have you got your money back. No, I didn't ask, I can get it back. But I, I basically, you know, have a million dollars in his No, in to these two crypto projects that are launched, you know, more pre launch, you know, not really fully launched yet. No, so I didn't, I asked him if I could get it back. He showed he could send me that. He said he would send me the money back. I think I messaged you that, but, like, I decided, well, I'm going to wait until they do the announcements on the, you know, like April, May timeframe, see, and then probably, but I have a bunch of if the if the coins kind of grow, if the volume starts increasing, I can sell off a lot of the tokens that I got, because that's what the node does. It generates the tokens just like Bitcoin mining, right? So I don't really have to sell to get my money back. Sell the nodes. I can just sell the crypto or hold it if it's going up. But that's kind of how it works, right? It's more like a it's more like a multi level marketing model, honestly, yeah, definitely risky.
+
+Speaker  189210:40
+That's crypto, yeah, I'm just trying to earn good yield, kind of like, I mean, Nothing's different than what we talked about. I was like, Yeah, okay, coming earn yield that's been going fine. Wanting to start buying, but, yeah, I'm not sure if it's the bottom yet.
+
+Speaker  194624:00
+Yeah, I have a feeling it might hit, like said, 5859 like you said, but you know, if it goes under 60, it's going to trigger a lot of short a lot of lot of sales. I know a lot of people, so, you know, yeah, I think it was sitting around, what, 5859 before the ETFs launched. So that's where a lot of people got in, yeah.
+
+Speaker  201621:20
+Plus it could be like front running, like a broader correction, I think, too.
+
+Speaker  202874:40
+So, yeah, yeah. Well, it's winter. It's like the cold crypto winter. You know, I think things will get better by spring summer. People are just scared of Trump right now and all his craziness, and if he gets deal done, then maybe it'll, maybe it'll, it'll get better. You know,
+
+Speaker  209680:00
+we should ask Rashad what he's doing. Are you thinking about like the economy? Are you in cash? What are you doing?
+
+Speaker  212128:00
+I'm just whatever, whatever I feel like it's a good deal. I'm just buying. It could be real estate. I feel like Bitcoin is a good price right now. It's good to buy, right? And I invest a lot in products, product development,
+
+Speaker  218117:20
+so you're not thinking at all about the economy. You're just like, if, if I see a spot I'm taking it,
+
+Speaker  219818:40
+yeah, yeah. Mostly, like, if I'm buying a house, like, I don't know, 2000 square foot at 200 to K new, newly built, I don't know how that, how the contractor is building them at that cheap of a price, to me, that's a good deal. I can't go wrong if it's in a good neighborhood and stuff, you know,
+
+Speaker  226192:00
+yeah, because you can rent it out. And then the whole,
+
+Speaker  227104:00
+yeah, yeah, that's what, that's all I'm thinking. But I could do it wrong, I
+
+Speaker  228944:00
+don't think so. I mean, it's not going to get
+
+Speaker  229605:20
+any cheaper. That's that's how I'm thinking, exactly like, even
+
+Speaker  231045:20
+if everything else goes south, people still need somewhere to live. So yeah, I mean, in that sense, I don't think you're gonna go wrong. Yeah.
+
+Speaker  234821:20
+So same with crypto and like stock market,
+
+Speaker  236778:40
+do you have a lot of stocks? I think the stocks are going to correct, but I don't know.
+
+Speaker  238346:40
+I mean, I don't have a lot of keep buying, you know, companies that I think I. That I use a lot, like Amazon and Google and Facebook, I don't think they're gonna go anywhere. So just, just diversifying a bit, you know, Oh, yeah.
+
+Speaker  243664:00
+Like that strategy, yeah. Yeah. I think I don't know. My biggest plan right now is just to be all in on AI. So this is a boring crypto call, but yeah, like the best strategy right now, because I think like, yeah, we're in a broader bear market. Things will go up again. But I think that like, yeah, having a, you know, having a good path forward, kind of like you is just like the best move create new tech.
+
+Speaker  253274:40
+I think Trump will have to it will get somewhere with Iran soon. If they make a deal, everything will be better again, I think we'll go up. I think
+
+Speaker  257360:00
+it doesn't like deal with the broader problem of, like, we don't have sound monetary issuance policy. You know, people are moving off of the dollar. That still is a thing. And, yeah, inflation is here. So really, I think, like, what we've seen is like people are fleeing the dollar for assets, but then, you know, there's the geopolitical aspect to it. But I think that, yeah, I mean, to your point, and like buying homes, I think, like buying assets, you can't go wrong no matter what's happening, and that's maybe the best way to hedge it. But yeah, that's kind of how I'm thinking about it.
+
+Speaker  270314:40
+Good times. All good. All right, gentlemen. I guess if you guys don't have any questions or any AI questions. And yeah, we can call it.
+
+Speaker  273536:00
+Do you so for the AI, like, if I have to do something today, just download Claude and put it on my thing. Everybody talks about it and said, Oh, you're on Amazon.
+
+Speaker  277136:00
+This is, go watch some videos you need. You need to watch some good YouTube videos on the E comm side, because it's, there's 100 ways to do it. So that's my opinion, right? Like you could get a lot of people are doing their own server. Don't like a Mac Mini or something, but if you I, I'm using a VPS to start, because it's 24/7 uptime, and it's a low cost to get in, and then, if it makes sense to run it on a server later, I will. But I don't know, Guido, you can? You could give your advice, but I, I'm doing it right now with a friend. We're kind of like parked in in a place, and we've been we spent all day yesterday doing it, just trying to get everything running.
+
+Speaker  287850:40
+So, yeah, I'm running locally on a Mac co work and code Claude. And then I think you can eventually go open claw, or somebody will make a new wrapper that's like, this open source version of it, but I think you got to, like, perfect the code first. And so that's what I'm doing, making sure the iterations of code are good. There's also the learning curve of, like, Are you a coder? Do you know how to code? Are you an engineer? There's that whole kind of part to it, but yeah. But I'd say, like, get the bot right first in, in your IDE or, like, your coding environment, and then you can kind of move on to scaling it, I guess. Okay, I don't know if that answers your question, but yeah, it's, it's a lot.
+
+Speaker  302650:40
+Yeah, I'll go watch some videos YouTube.
+
+Speaker  304672:00
+Yeah, there's a lot of good content in the chat that I shared.
+
+Speaker  305856:00
+What we need to do is we need to really have a, do they have an AI MDS channel yet?
+
+Speaker  307536:00
+Yeah, there's, yeah, there's, like, a WhatsApp group. That's what I'm talking about.
+
+Speaker  308736:00
+I've shared a ton of well, they need, they should, they should start. We should? We should talk to Eugene, or, you know, Courtney, just they it's so big now, right? Like starting to replace employees, and it's so new, they should be covering literally 50% of their stuff. Should be on AI strategies for E commerce. That's what I think, because a lot of people are doing their own thing, right? A lot of people are kind of learning it and doing it. And doing it, but there's some best practices, and I think we could filter that to a channel and save a lot of time, because I spent, you know, I don't know about it, just seems like a lot of guys are just kind of doing all the research on their own. There's not a lot of sharing of it, right? So it's like, Hey, I'm using cloud and I'm doing this. But like, okay, but there's all the things like, oh, VPS versus server. You know what saw? For tools. Are you adding on the layers? You know? Do we need backup? You know? How much backups, right? Do you know? I'm saying Guido, it's like, yeah, I think it deserves its own channel and its own group. We should probably talk to him about that, because I'd rather Inspire. I'd rather like learn from what these top guys are doing, you know, versus having to go dig up the research myself, because he comes different, right? Everyone, every, every business, different.
+
+Speaker  327989:20
+Can you invite me to that WhatsApp?
+
+Speaker  328757:20
+Let me see if I can send you the link,
+
+Speaker  329205:20
+yeah, see if you can add me on it. Or because I didn't, I would. I probably should get more involved. I just started so but I'm definitely spending all week on it. All my there's some
+
+Speaker  332874:40
+interesting things there in that I am totally happy to share, and I have been sharing, but I think that, like, I don't it's kind of the same way as, like, even before we had AI, right? Like, some people use scale insights, and people use something more complex, like Hector. AI is more complex. But I think what people want, you know, if the learning curve is too steep, people want the solution for them. And then there are people that want to get further into the weeds, but then you get lost at, like, the technical part of it, and so I think that that's kind of where we find ourselves, like
+
+Speaker  343781:20
+it's, what does this make sense? It doesn't make sense to for everyone like that wants to use it for PPC to create their own PPC agents, right? Someone could create an awesome one and then share it or sell it to the group, right? Like, that's really that would save a ton of time, yeah, for sure, because we're all like, we're all like, managing Amazon PPC, either an agency or whatever. So I'm paying $2,500 a month for that service, right? I'd rather if someone has a killer, like, if you develop an awesome way to manage PPC using AI agents in anthropic I just say, hey, Guido, I'll pay you how much, you know, couple grand for it. Okay, send it over to me.
+
+Speaker  354576:00
+I have no problem with that. I'm like, I think that where I find myself is like, I'm not trying to sell anything, but I'm happy to sell it, if that makes sense.
+
+Speaker  357200:00
+No, but that's where, that's what the agent, how the agencies, are going to try and make money on it, right?
+
+Speaker  358373:20
+Is, no, I know that's what I've been saying. Like, if you saw my post, like, that's kind of what I was saying, where I was joking about, but, but in
+
+Speaker  359989:20
+MDS, the beauty is, a lot of people are sharing, you know, what's working for them. And if they want to, you know, it's a lot of time right to code it, get it working right and, but if it's something that, like another person can use in the group, I don't know that's up to that person. Did they did it, you know, could they spend all this time resources coding it to get it to work, right? Right? Well, there's a value there, right? And, you know, maybe, maybe MDS offers it or something. But that's that saves a lot of time, right? This doesn't make a lot of sense for everyone to start. You know, we're at the stage where everyone's like, kind of doing kind of doing it on their own. It's like, but we're all kind of duplicating the same thing. It's like, a waste of time.
+
+Speaker  370496:00
+But I guess I'll just show you guys, because you guys are, like, the only two on here. And, you know, I know you two, but yeah, this is a dashboard that it made. It was like, cancel scale insights. I was like, I like the dashboard. And it was like, I'll just make you a better one. So, like, this is a dashboard that my PPC agent made. This thing is crazy,
+
+Speaker  377077:20
+yeah, that's pretty sweet, actually. Yeah.
+
+Speaker  377813:20
+It just, it just will, like, read it instantly, spit it out. I was just like, are you serious? It's crazy, yeah, but you get or, like, last week, what does
+
+Speaker  381642:40
+so that means you didn't code this like you, you made an agent, a lot of data. It made the dashboard.
+
+Speaker  384106:39
+Basically, I kind of taught it how to look at it and how I like my reporting. And so there's that. And then I and then I like scale insights as a dashboard. So I told it to make it like that, but better, but yeah, less. And so it's actually, I think it's actually calling the current state of the account. So then the other part is like, how do you store the historical data, etc, but, yeah, this is, this is pulled from, like, current state. Yeah, awesome. You can see all the changes that I made. So, like, my impressions skyrocketed week over week, because AI is now, like, doing stuff in my account. But, yeah, I mean, there's some pretty cool metrics here. And I mean, we're never I really love how it put this guardrail in. I kind of want, like, 8% tacos, 10% in some weeks, like, if it's a peak. Week. But that's pretty cool. I don't know there's a lot of cool shit in here, like the organic versus PPC mix that it shows you, like, here, revenue, organic versus PVC. This is just like the, this is the PPC guy. Yeah. This is crazy.
+
+Speaker  406405:20
+That's amazing. Yeah,
+
+Speaker  408069:20
+yeah, I'm, I'm excited about building this stuff. And yeah, I mean maybe if you guys want to try it out, this is what I've been working on. I just now get got my own access to Amazon API. So I'm gonna work on, like, the link without the because I was getting the connection through Hector AI up until this point. But like, yeah, I guess I'm gonna work on like, my own API connection.
+
+Speaker  415370:39
+Yeah, yeah. There won't be the need for Hector and stuff down the road, they might have a little head start, but I think the guys in MDS are more are pretty brilliant, you know,
+
+Speaker  418767:59
+yeah, they still have AMC and DSP, which is why I signed up for them, because I was using scale insights, like a lot of people.
+
+Speaker  420944:00
+But then you have DSP. Now DSP anyone can use.
+
+Speaker  422373:20
+I don't know if it's pluralized across all accounts. I know AMC is. I don't know about DSP, but it's not something I want to use like all the time, just in peak season.
+
+Speaker  425093:20
+Me too. I'm using torsion for my stuff. So either he's got to make sure his guys get better at the AI or I'm just going to have to do it myself, because it's
+
+Speaker  427754:40
+been coding all weekend. Yeah, like I was talking to
+
+Speaker  428714:40
+AI is better than Pakistani guys, so, but yeah, without, yeah, without with AI now and the agents being able to learn, learn and create other agents. It's like, once you do all the heavy lifting, it's like, you don't really need to pay someone to do it all. It's like, just, just tweak Kat a few things. And so we'll see. Yeah, man, I'm going to try anything that you want to send because I'm, you know, I think 90% of MDS right now is probably learning AI, so I once probably spend most
+
+Speaker  437765:20
+of time yeah. 90% is still learning, yeah, the story checks out. Yeah, so we're there, but yeah, I'm like, building the whole, like, my whole job out, and then, yeah, that's sort of the plan. Eventually we'll get to Tiktok. We're not there yet. But, yeah, awesome. Well, cool guys, thanks for joining, and thank you.
+
+Speaker  445122:08
+Message if you can invite me to the WhatsApp group,
+
+Speaker  445826:08
+yeah, text me and I'll definitely get you invited, for sure.
+
+Speaker  447250:08
+Okay, thanks man, you have a good one. Guys, thank you. Bye. Bye.

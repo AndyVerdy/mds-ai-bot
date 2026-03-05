@@ -1,0 +1,314 @@
+Trading Call #2
+Date: January 28, 2025
+
+Speaker  1360:00
+Go ahead. Welcome to a trading call. Guido is going to host this today. Thanks so much.
+
+Speaker  3568:00
+Yeah, so I thought we'd start with, you know, maybe, like at a high level, where you should start, if you're looking into crypto and trading crypto, maybe the best place is to get information. So I think a good place to start is, I like coin Gecko over coin market cap. Let me share my screen. Just kind of run through that.
+
+Speaker  11061:19
+Also when you're looking for,
+
+Speaker  12698:39
+you guys see my screen.
+
+Speaker  13450:39
+Okay, yes, all right, cool.
+
+Speaker  14522:40
+So when you're looking for a coin and you want to trade it, I think a good place to start is here. You know, for example, we'll use everybody's favorite coin this week. A lot of people had a hard time trying to find this and where to trade it. What you can always do is come here and look for markets at the bottom here, you'll see where it's traded on. And normally you can click on here and be able to find the pair pretty easily to trade from we've been in the trenches, so to speak, recently. So another website I really like is deck screener. This will have sort of like your newer Solana based even coins on base chain. And this is an easy way to be able to find them as well. So just to give you an example, we'll click on Murad here, and then over here in the right hand corner, you can see sort of the pair. So what you can do with this is a lot of people are using phantom wallet. You can copy the contract address here, so it's either the pair or, you know, the coin itself. You can just copy this address, paste it into phantom wallet in the trading tab. Have just like a one here. I can use it as an example you would go to swap enter the address in here. Oh, sorry. I And then from there, you'll be able to sort of swap the coin. So this is probably best practice, because you don't want to end up, you know, picking the wrong coin or the wrong contract address. So that's always a good place to start, so that you're sure you're trading the right one. I'm sure a lot of you have seen recently where there'll be, you know, several iterations of this token. So you know, in that, in that case, you should probably check, you know, the Twitter and see what the team lists, the official contract address, and just make sure it correlates here. For a lot of these two you'll see it'll have multiple pairs. Like, if we look at the Trump coin, you'll see that there is a couple different pools, and these are all the, you know, official coin, so to speak. But you'll see a different pair, but you can check and see that the token address is the same. So like, for example, this pool is on radium, and then this pool is on Meteora. So that's always a good place to make sure that you're, you know, trading the right pair.
+
+Speaker  56821:20
+And then
+
+Speaker  57461:20
+I think that's pretty much it in terms of, like safety and like, where you would start to kind of get, you know, the info. I also like GM, gn, this is also a trading bot, but, um, it's a good place to kind of track wallets, like if you're following some people, you can come and see their wallets. And also you can come and see, like, sort of what's trending a lot of times with meme coins and sort of the new meta, I like to come to trending sorted by 24 hours, and kind of see what's been the, you know, the hot coins of the last day. So that's always a good place to start as well. And then here you can also use this to track a lot of traders like I track, you know, Frank D gods. A lot through this, we can kind of maybe just look at his wallet.
+
+Speaker  73861:20
+Show you that real quick. So
+
+Speaker  75434:40
+uh, somewhere in here and all this.
+
+Speaker  78874:39
+But you can track like recent activity, so I'll come and I'll see sort of like, what he's bidding on. And you can sort it by, you know, current holdings. And then I'll normally put balance, and then you can kind of see, like, what he's holding, recent P and L, and activity will give activity will give you the most recent trades that this person or this wallet is taken. So this one's, you know, I'm checking his wallet constantly. As you can see, he's up like $4.9 million on this wallet. Um, so yeah, eventually I, I'd say, if you're gonna be, you know, maybe meme coining, which a lot of people seem to have a lot of interest in this recently, it's good to find wallets that you know are whales and sort of track their activity. I wouldn't say copy trade them, but there's definitely a lot of alpha in you know, just coming and seeing what what these wallets are doing. I'll probably try to put together a list and maybe share it in the group of a lot of the bigger wallets that you can track. Yeah. Maybe also everyone likes YouTube, so I'll list some people that I think are worth following. Orangey is one who is really good at meme coin trading,
+
+Speaker  104117:20
+and so he has a lot of
+
+Speaker  104901:20
+like content, of teaching you how to trade it with like bots, wallets to follow, making sure that you're, you know, just using best practices for being in the trenches. I don't necessarily advise this, because I think that, you know, we all have successful businesses that we're running that are kind of taking up a lot more of our time. And to be in the trenches, so to speak, you really have to be dialed in. You have to stare at your screen all the time. It's a lot of one minute charts, one second charts. So I don't really think that that's, you know, the best strategy, but you know, if you are interested in it, this is a good place to start. Some other people I follow is Miles. Miles has, like, a lot of good content. He's pretty dialed in on what's kind of relevant right now. I also like thread guy, but this is more of a Twitch stream, but he's really kind of in the meme coin trenches on. Solana has a lot of good content. Has been interviewing a lot of people. You know, he's roommates with Frank, who is the the wallet that we just looked at that's up like almost 5 million which is this guy? This guy. So there's a lot of stuff there that's good. I don't follow too many other people. That's kind of like what I'm into right now. But yeah, that's at a high level. What's a good place to start and maybe to get some good bearings and some good teachings of meme coins. So I think from here, maybe we'll open it up to some questions. And if Eugene has anything that that he'd like us to focus on as a group, we could probably go there and take some questions. Or
+
+Speaker  133519:59
+if anybody has any questions, Laura's yours?
+
+Speaker  135397:20
+Oh, that's the dumb question. Like, I've done the Bitcoin, the coin base, the basic stuff, but trying to get into all of this and setting up a secure wallet and the keys, like, from the most basic level, like, that's where I'm kind of curious how to be functional. And then, as someone that has, like, massive ADHD, the idea of trying to keep organized enough with all these keys terrifies me.
+
+Speaker  141722:40
+Yeah, that's a good point. Um,
+
+Speaker  142794:40
+starting with that, so I think we should talk about exchanges. So I don't like Coinbase that much. I think in every run they've had problems in over this last weekend with the Trump coin situation, a lot of people experience delays withdrawing from Coinbase, like withdrawing on Solana, every run they break. So I try not to use them. What I would say is you should probably have multiple exchanges set up. So I like Kraken. I also have an account with crypto.com and if you are overseas, I recommend having a binance and a kucoin account. Those are the most liquid exchanges. However, they're not US based, but, you know, a lot of us are sort of international and have some options there. So I think those are my favorite ones, like binance and kucoin, they tend to have the most liquidity, but you definitely want more than one exchange. And then in terms of taking, like the best. Safety measures with your private keys. I advocate for self storage, not storing on an exchange. I think a lot of people, you know, to your point, Ben, want the easier approach of like traditional banking, or, you know, that's sort of, I don't have to deal with it as much, but I'm definitely an advocate for self custody and for that, I like hardware wallets. So a ledger works fine. There's a couple, like, you know, more industrial grade versions that you know, maybe you don't need to get into unless you're, you know, trying to be crypto native, and taking it, you know, really seriously, and putting a large amount of money in there. But I think like just having a ledger is probably good best practices for private keys. So I like splitting it up where you know, you write down your 12 or 24 word phrase, you store half of it somewhere else, other than your home, and half of it may be there safety deposit box, whatever you think is sort of best for you. It is cumbersome, but I think it's, you know, an approach that's necessary, and it's only going to become more necessary in the future. So yeah, hopefully that answers your question, but yeah, I would definitely make sure that, you know, there's a saying that's like, not your keys, not your crypto. So I do have money on exchanges, but I do try to make sure that it's, you know, mostly denominated on chain. And I think with the current, you know, meta of, you know, just trying to chase the newest meme coin or whatever, you definitely need money on chain. You know, even recently, I tried to onboard more money, and then, unless you wire it to the exchange, you'll have like a seven maybe a 10 day hold, depending on the exchange, till you can do something. So I like making sure that I have money on chain, like having money on Ethereum, having money on Solana, just so you can take advantage of the opportunities when they present themselves.
+
+Speaker  193552:00
+I was gonna make a suggestion for our chat Eugene,
+
+Speaker  194928:00
+maybe some like rule, where, if someone has a coin that they want to share, you can't just, like, paste the coin in there and not say anything. Like, maybe you've got to put at least one sentence of, are you just showing this to us? Or are you saying, Hey, I think you should invest in this jump on this one. And here's why, maybe just, you know, some, some sort of rule like that. Give a reason why you're sticking this coin into the chat. What do you guys think about that? Totally. I like that a lot, rich, for sure. Yeah, be
+
+Speaker  203994:40
+misleading, especially for new ones, like, like me, for example, I'm pretty new to to meme coins, for example. Guido is is more experienced so he can scan it quickly and understand what's that about. But we noobs, like, like, like, Eugene had it where he just invested, and I basically did the same thing and lost, like, one how much? Like a soul, like, not much, it's not much. But you, you see, and just go for that, because, like, the group is for quick wins, right? Somebody post something that's really, really valuable. So we trust the group and like, we buy in. But if you don't say What's that,
+
+Speaker  214501:20
+and it's not verified,
+
+Speaker  215205:20
+it's kind of risky. And
+
+Speaker  215701:20
+like, Don't post something unless you're gonna put in at least one or two sentences of what you're talking about. Are you saying, Hey, check this out. Are you saying, Hey, guys, jump on this. And here's why. Yeah. I agree. I think that there needs to be sort of, like a thesis, or at least, like a disclaimer that, like, you know, this is a new meme coin. Maybe we, you know, want to be cautious in trading this. I think after realizing that there were a lot of new people and a lot of new interest over the weekend after Trump coin, you know, that's why I stopped posting coins. There was a couple that were, you know, like the Elon one, I forget what else I posted, like JD Vance or something like, those were easy doubles, but it was sort of in the span of like, like a sub 30 minute trade. So I think it really just depends on your risk tolerance. But I like advocate, advocating for a more, you know, solid coin, like solid tech, not just like, let's, you know, gamble and Yolo into the newest, you know, meme coin play. You know, there was a lot of like side alpha from the Trump coin posting. But I think, like your average person, 90% of people will, you know, lose money in a lot of these trades. And you know, if you watch, like oranges videos which I shared, or a lot of these people, they are early the. Best play is to be in these things, like before they are finished, migrating from pump fund, or just shortly after, where they're all sub, like ten million market cap, that's where you're going to achieve these sort of, like life changing type of gains that you know everybody is posting about and you keep hearing about. But I think that you know everybody else that gets in after that is probably going to lose money. So, you know, that's why I kind of stress that, you know, we all have other things going on that probably make us more money than this. So if anything, I'd like the group to be more, you know, focused on the idea of making you know the longer term, you know better reward plays in, like, solid fundamental things, not you know, just gambling on the newest, like meta of meme coins.
+
+Speaker  256442:40
+Anybody have any, maybe
+
+Speaker  256911:59
+just on the point, you know, when you guys would explain, you know, Hey, I am entering this coin because of this and this and this, actually, I can turn on the camera. I'm just super chat, like, sorry, yeah. So when, when you explain this, and then maybe also adding, you know, if it would be a short play or a longer term play for you, or when you exit the play as well, I think that would be also somewhat quiet, very helpful. If there is a way for that, I think that that would be also super good for people, because, I mean, I was, I also went into some of the things, and sometimes I'm like, Okay, is it now for longer or for shorter term? And especially, you know when, when you start playing this, especially, like with main coins, it's always a gamble. No, don't really know whether it's for the longer or for the shorter run, right? Like, don't see those signals yet. So much
+
+Speaker  270938:40
+good. I wanted to ask you, what's, what's your portfolio distribution between, like, solid cryptos, like Bitcoin, Ethereum, whatever, Solana, stuff like that. What are you betting on? Big time. So right
+
+Speaker  274672:00
+now, I'm pretty much full ported for the most part, which means your entire portfolio into hyper liquid. Hyper liquid is my biggest l1 conviction trade of this cycle. I think it's, you know, for lack of a better description, the Solana this cycle. So most of my portfolio is in that. I think the best approach, if you're not trying to outperform Bitcoin, is to probably just hold Bitcoin and Ethereum. I've always, like, considered myself like an eth Maxi. I think Ethereum, over the long term, is probably like the best play. You know, Bitcoin is more of a store of value, or like digital gold, at this point, you can't really do too much with it, other than just hold it. But Ethereum is sort of like, you know, the internet computer smart contracts are built on it, and if anything, a lot of the other l1 trades or iterations. We see beyond that are a derivative of, you know, what happened on Ethereum? So, high level takeaway, I like having Bitcoin. I like having Ethereum, Solana, but I think depending on your risk tolerance, and if you want to be monitoring this constantly, I like looking at like things that might outperform Bitcoin in the cycle, but with the mindset that you would take profits into Bitcoin, into Ethereum, and then possibly Solana as well. So, I know that's kind of long winded, but yeah, like just, just the top coins, Bitcoin, Ethereum, Solana, and then, yeah, hyper liquid is my biggest all one trade. I think because hyper liquid is, you know, one. It's like a perp decks that launched on arbitrum. It was a fair launch where it was an airdrop. There's no VCs. If you want to have it, which a lot of like funds or VCs have started like acquiring it, you have to go buy it, unless you were, like trading on there. So it's also kind of hard to get right now. You have to be on arbitrum, which is an eth layer two. You have to use VPN. Because, you know, since crypto regulation is still sort of up in the air, a lot of new projects or perp trading just isn't available for US customers. It's geo blocked. But they are launching a layer one. They are generating a lot of fees like think of it like a centralized exchange like binance or a coin base. They're generating a ton of fees from their perps trading. Okay? And over the weekend, when we had, like, the whole Trump coin narrative, they were generating, you know, day over day, about half the fees that, like a big exchange would generate. They're launching their own layer one eventually. So there's a lot of catalyst for it. I posted in the group, like in my last post where I said I was buying hyper liquid, there's like a video with the founder. There is like this long thesis that somebody wrote on on Twitter about it. So yeah, that for me is like my biggest conviction for this cycle. I don't know how long term of a hold it is, but, I mean, it's, it's definitely long term in the sense of, like, probably for the for the Bull Run, which we assume will last maybe this year. So how
+
+Speaker  333466:40
+high do you think it could go? Like, what's your question?
+
+Speaker  334522:40
+I mean, I'm thinking, like, probably over 50, like, maybe to 100
+
+Speaker  336266:40
+it really just depends.
+
+Speaker  337264:00
+Yeah, it's hard to say. That's just speculation, but, you know, I think it'll perform well, so
+
+Speaker  338544:00
+nice. And just because you mentioned that you cannot buy it, it's on cool coin. So is it just for US customers, difficult for to buy, or even if it's on cool coin, I have to do something different.
+
+Speaker  341845:20
+No, you're right. It is on kucoin, and you know, that sort of brings us back to some of the other things that we covered where, you know, for us customers, it's still sort of a gray area, like only in the last two weeks with Trump taking office, is it sort of like maybe bullish for, you know, the US and cryptocurrency regulation in the US, but most new projects, especially if they offer like perps trading, are blocking us customers. But yeah, you can buy it on kucoin, but that's also an exchange that is blocking us customers as well. So I'm assuming you have access to it because you're not in the US. Yeah, exactly.
+
+Speaker  352010:40
+So that's why, for me, it was always like,
+
+Speaker  352896:00
+yeah, yeah. So you'll see that with a lot of these more speculative things, or even, you know, in the last run, before we had meme coins, a lot of the new coins that would launch that had more, you know, like Dex things, or like perps trading, they were on, you know, coup coin or binance First, and you know, either came to the US later or never came at all.
+
+Speaker  359333:20
+Okay? And how do you see, like, the other bigger coins, like ripple or link, those kind of coins performing this cycle?
+
+Speaker  362117:20
+So ripple, I guess I'm torn. I'm either like, completely, like, mid, curving, left, curving, it in that, like, it just, you know, like, maybe it's a thing, and I'm just completely missing it. But I'm not a fan of ripple. It's, you know, very centralized. They don't have sound issuance policy. I'm just fading that trade completely. But, you know, I have friends that have performed well in it. I'm just not a fan, so I'm not the best one to answer that part chain link. I do think is, is definitely like bullish because it is on Ethereum. And, you know, an easy kind of path. I mentioned this in the in the threads, is that like the world Liberty wallet, which is like the Trump family owned wallet, or whatever that entity is. All those coins in there are easy trades like so there's chain link, there's Athena, there's Ondo, there's Ethereum and Ave. I think all of those are just kind of easy, easy plays, like I think they're all good infrastructure plays. I think they do still have room to run.
+
+Speaker  381642:40
+So, yeah, chain link is good tech. So,
+
+Speaker  383514:40
+and I have one more question, sorry, so I keep reading in many posts and acts and whatever that some people are saying, Yeah, Bull Run goes until, say April, Max, may ish, and then we see a dip, and then maybe another run around December. But you mentioned now this whole year kind of Bull Run type. So how do you see that cycle across the year?
+
+Speaker  390133:20
+Yeah, I think a lot of that is based on the idea of the having. So every time Bitcoin has a having, in terms of mining rewards, you generally tend to see the run or the Bull Run start. I forget how many. It's like 100 and something days after the having. So I think most people have that as like a rough framework of when the run would start, and it does seem to correlate, right, like the start of the run, whether it's involved with, you know, Trump being elected or not, which was also a catalyst. It correlates pretty well. So. So if you look at what happened in the last run, which I base a lot of you know, my like methodology off of, is that, yeah, we eventually have alt season starting like at the end, like, literally now, like at the end of January into February, was in the last run when you saw the emergence of sort of like, Ethereum clones. So like, binance, smart chain, Polygon, avalanche, a lot of these things started to run at that time. And then, yeah, there is that sort of saying of, like, sell and may walk away. We saw, I think Bitcoin topped out last run. I think it was like in April, and then it sort of like, you know, went down over the summer, and then had a rally. I want to say it was like, maybe like August, September into the end of the year, and then you saw, like, things like Luna Tara, Luna, you know, do really well, and then the run was over. I think, like, debatably, like Christmas Eve of I believe, was 21 so it's speculative, but I think that it's a good framework to sort of base it off of. And so I think that, you know, historically, just based on the charts, you'll maybe see the same type of performance this year, irregardless of, sort of like, you know, the government Trump, the strategic reserve, all those things, like, if you're just basing it off of the charting, which a lot of people do that, that's sort of The approach that I'm taking.
+
+Speaker  426517:20
+Thank you. You're welcome.
+
+Speaker  428858:40
+Anybody else.
+
+Speaker  431098:40
+What's the percentage of I don't know what's, what is, what are the meme coins based on? Mostly, is it Solana, or is it, for example, the the one you mentioned, for example, Ethereum is expensive, right? So it's less gas, is more gas, right? So, correct?
+
+Speaker  435984:00
+Yeah. So most meme coins, and I think especially after the whole Trump coin thing, we're going to see more meme coins launched on Solana. So I think that you know, if that's sort of what interests you, it's going to be Solana. We have seen a lot of activity and some good performers on base chain. So base chain is coin basis chain, and it's an Ethereum layer two. So there's probably, you know, good reason to have money on both, but I think that, yeah, Solana is still going to be the king of of meme coining for for the foreseeable future and for the rest of this run.
+
+Speaker  447546:40
+So probably a pretty good investment. Just go with Solana and without, for example, trading into meme coins, because we don't have so much time and we have to run our yeah
+
+Speaker  450432:00
+job. Yeah, I don't think it's a bad idea to have Solana. The thing that I would be cautious of is that there are a lot of unlocks coming in February. So a lot of the people that invested in it early, there's, like, I forget how many, like, some like, billions of Solana coming on chain or being unlocked. A lot of people speculate that it's priced in. I'm not sure how I feel about that. I'd play it more cautious. Um, but, yeah, I mean, if you want to sort of like spread your risk, I like having some Solana, like having some Ethereum, you know, historically with the previous run, you know, somewhere around this time in the charts, like Ethereum will pump and perhaps go to new all time highs, or maybe it won't. I think a lot of people are kind of sidelined on Ethereum, or it hasn't performed as well. But there needs to be that that sort of like, like speculative all layer one play for this cycle, and for me it's more hyper liquid than anything else. So
+
+Speaker  469024:00
+makes sense now to wait for the Solana to drop. And for example, if you want to be bullish on it later on, yeah, I
+
+Speaker  470933:20
+think Solana still performs well. And maybe the unlock doesn't do anything, because people are still going to need, you know, Solana hit all time highs with the whole Trump thing. It's retraced a little bit from here, but it just goes to show that, like, if there is some new meme coin or some new, you know, thing that everybody wants to FOMO into, you need Solana. And you know, it is a safe play, but I'd rather wait to see what happens with the unlocks, and maybe be more bullish, you know, mid to late February, after those unlocks occur, do you think
+
+Speaker  479674:40
+you're serious? Is, like, kind of all time, not all time, but like, Well, right now, I know there's a lot of turmoil with it, and, I mean, it's all based on, like, if they're able to turn things around, right? Like, it's so, I don't know,
+
+Speaker  484416:00
+you said, which coin, Bitcoin, Ethereum, Ethereum, that one's tricky. I mean, I, you know, as I said, I'm bullish Ethereum. I think that Ethereum wins in the long run, but Ethereum is very developer focused. Everybody is sort of like ignoring price, trying to just build that's always been, like the Ethereum like, motto or sort of credo since consideration, I think after what happened with the Trump coin, Vitalik is a lot more conscious of it. He's fired a lot of people from the Ethereum foundation. He's trying to get like, 50,000 eth on chain to participate in defi protocols. You see the Trump wallet buying a ton of Ethereum, pretty much their entire, you know, $300 million portfolio is on Ethereum. So I think, you know, Ethereum is a long game. I think it wins in the end. I think that there's no other chain that's thinking as much about it as they are. It does have its problems, like Ethereum is trying to scale horizontally, not vertically. Solana is like vertical integration, scaling, you know, it's very centralized validator set. It's quicker transactions, but you don't have the decentralization that Ethereum has. It also has the problem Ethereum, where I almost feel like the layer twos are very parasitic. You know, they make a lot of money and fees. It doesn't provide a lot of value to main net or the main Ethereum chain. All those are, like, not bullish catalysts or factors, but I do think that, you know, eth has a very sound monetary issuance policy. It becomes deflationary at times. I think, you know, as I said, it's, it's the long game. I'm bullish Ethereum, but right now, I don't hold any Ethereum. I'm kind of trying to outperform. The main goal in being in any other altcoin other than Bitcoin is to just outperform. But I'm, you know, very conscious of the idea that when I take profits, I want to take profits I want to take profits into something like
+
+Speaker  519253:20
+Bitcoin or Ethereum, 100% and no, Bitcoin, if you're not right, that's
+
+Speaker  520661:20
+your have a little Bitcoin. Have a little Bitcoin, yeah, but it's just, you know, it's not doing anything right now. But I have some to be exposed to, the idea that we get the strategic reserve, but I don't really think that we pump beyond, like, 150, 200 tops this cycle, whereas, like, there's at least an easy double in something else, or maybe like a triple, and then yeah, there's 10 X's and shit coins all day long. But it really just depends on how far down the risk curve you want to be but, I mean, yeah, I do see, like, Bitcoin as the best long term play. And if you don't want to be in the streets or in the trenches, I like just dollar cost averaging into bitcoin consistently over a long time horizon.
+
+Speaker  532512:00
+Any of you think it's worth still holding the Trump shit coin,
+
+Speaker  534773:20
+it's going down like, seriously,
+
+Speaker  535637:20
+I think, I think the premise of a shit coin is that it's a shit coin. I'm not an expert, but you get in, you get out, these things aren't these things aren't things you buy for a while.
+
+Speaker  539205:20
+Yeah. And I think to Eugene's point, there was, like, an article that somebody put out where, I think 90% of people that have traded Trump coin are maybe $1,000 in profit or underwater. And, you know, like all those coins, it's being early and accumulating a position before it has, like the large run up, you know, like, for example, I posted about it when it was $3 even through the rest of Friday evening into Saturday morning, it was probably still a buy. Beyond Saturday afternoon into Saturday evening, probably not a buy, you know, and so could it come back? Could it go to all time highs? It's possible, you know, you never know. But I don't like the idea of, you know, gambling on something that volatile at such a high market cap, right? You have all this cell pressure. You have all these people that are in, you know, 10x 20x profit that are going to eventually take profits. So, you know, it's, it's just not a sound trade from that perspective.
+
+Speaker  557562:40
+Just coming very briefly to Bitcoin in the previous cycles, it was always that Bitcoin reached an all time high, and then it would drop like 70% or whatever. And then it's a really good point to buy. Do you think it's also happened during this cycle, or did everything change because of the new ETFs and whatever?
+
+Speaker  562688:00
+There's a couple parts to that. I think that, um,
+
+Speaker  563792:00
+there will be, like, the dip, possibly in the summer, like, if anything, just just, you know, bet on what has transpired in in history. Like history, you know, doesn't always repeat, but it rhymes the old kind of saying. So as I said, I like being bullish. Maybe into the end of April, I'd expect some type of correction in the summer. There's the whole Yeah, selling may walk away thing. Perhaps we get, like, more of a rally towards the end of the year, and then, yeah, I don't know if I'm as bullish towards the end of the year, but also with that, I think there is a great buying opportunity on the way down. So I like dollar cost averaging, because you're never going to know where the bottom is unless you're, you know, vigilant and watching the chart all day. And then there's, there's always, like, the fake out, you know, if you look at the chart, there's a lot of like, oh, it looks like it's coming back and then it just dumps again. Or maybe there's, like, some other catalysts. Like, last run we had the whole FTX thing. We had the Luna thing. All of those were, you know, blood baths, if you were deployed. But they were also great buying opportunities. I think Bitcoin hit like 20k at the end of, you know, the Luna and then the FTX crash. So it's hard to catch a falling knife, but that's why I like just kind of buying on the way down.
+
+Speaker  584661:20
+Okay? And do you use technical analysis for that? Or how do you trade, like, other coins? And maybe, yeah,
+
+Speaker  586986:40
+I use so I've used it for a while, but there is this trader called crypto face, and he's probably like the think he holds the world record for, you know, like leverage trading on live streaming, but he has these indicators. I'll just share my screen so you can see. And I kind of use this. I think you can get them for like 1000 bucks, but I trade with this consistently and base everything off of these indicators. So this sort of like momentum wave. And I'm not gonna go too deep into it, but yeah, I use this. Definitely look into it. If it's something that's interesting to you. There's a lot of, you know, good, you know, strategy with it. But yeah, I definitely use indicators. I use market cipher. I do do some Fibonacci. I have hiking Ashi candles, but, yeah, I mean, I definitely use technical analysis, but that's more for, like, long term plays. There's really no technical analysis for, like, meme coins and speculative assets and then a lot of the newer things, including hyper liquid. Like, there's not a lot of history in the chart. So it's hard to do technicals, but something like Bitcoin there definitely is. And you know, I use all the things mentioned
+
+Speaker  610192:00
+awesome, but crypto face was his name, right? Yeah, okay. And at the beginning, you also mentioned, like, some YouTubers, right? But they have, like, so many videos online, and sometimes the views doesn't correspondence with the value. What would be the main trainings or their main videos that you would recommend us to watch?
+
+Speaker  616005:20
+Maybe, like after this call, put together, like a list of just a lot of the sites that I mentioned, a lot of people that I mentioned, maybe some wallets to track. That's probably like the best kind of follow up after this. But, yeah, I mean, I also think that a lot of my alpha comes from being on Twitter. I think, like, anytime you get to YouTube, it's already, like, old news. You know, there are some people that are making videos like daily like miles that I shared, and that's a little bit more easily digestible. But I think, like the best Alpha comes from following like key figures on on Twitter.
+
+Speaker  626944:00
+So I mean, obviously Trump family, Elon, etc, those are clearly key figures. But who else would it? Would it be that you count, especially in this space, as key figures to follow.
+
+Speaker  630213:20
+Yeah, I'd have to, like, just make a list, but yeah, I mean, I follow Ansem. Anselm is sort of like the key Kol of Twitter right now. Like thread guy, Frank D gods, those are the people that I follow, but that's more like meme coin trading. It's hard to narrow it down. It's sort of based on your interest, but yeah, I only follow like, let's say Trump or Elon, because, you know, they might pump a coin like in the last run, I had notifications set for Elon because he was. Consistently kind of post about Doge, like, he would just post a picture of a dog and then Doge would pump. But that's not, like, high beta alpha. That's just sort of, like really quick, like, get in, get out of the trade. So I'm kind of, yeah, I mean, I'm hesitant to say, like, go follow some of these people because, yeah, they're just gonna post, you know, things to make you exit liquidity. But you know, I think that the narrative of following like the Trump and like those wallets is kind of passed like, it's more grifty. You're gonna lose money. But, yeah, I'll make a list of like, key, important people that have, like, solid alpha to share, and I'll post it in the group.
+
+Speaker  651834:40
+Awesome. That's great.
+
+Speaker  652922:40
+Thank you. Do you think that if Mark Cuban actually launches a coin, it's gonna go bunkers?
+
+Speaker  655178:40
+It's hard to know. It's all speculation. I mean, I think there will be more, you know, celebrities to launch coins that it's probably worth getting into. But I think that whole concept is frothy. I think it's very like, PvP, player versus player. And, you know, I'd rather see you be able to, like, buy something that you can kind of, like, leave the trade on, and not have to babysit it and be like, constantly looking at the day, um, you know, because we all have successful businesses to run, and that's probably not like the best use of our time, but, yeah, I mean, I it probably will pump, but unless you're, like, super early, then you know, you're just going to be exit liquidity. How?
+
+Speaker  665237:20
+How are there ways to find out, like, at the very early, for example, that mark would launch a coin. Like, is there anything else other than seeing their Twitter in the very first second?
+
+Speaker  668602:40
+Yeah. Like, if you follow, like, orangey has a video on this where you follow a bunch of the bigger wallets, like meme, corn traders, people that are in the trenches, like 24/7 and you see a lot of these wallets start to deploy into a new coin or a new contract address, that's maybe, like a good confirmation, but yeah, I mean, apart from that, if you're not trying to be that dialed into that, then yeah, just following some of these key figures on Twitter would be the way to kind of know.
+
+Speaker  676624:00
+But yeah, you have to be, like, really focused on that.
+
+Speaker  677536:00
+Okay, thank you,
+
+Speaker  678245:20
+Guido. Can you be our Twitter guy where you post what you entered, what time and how, how long you plan to hold on to that meme coin?
+
+Speaker  681109:20
+Yeah, maybe I'll make another account.
+
+Speaker  682037:20
+Plan, plan to hold it for 30 minutes to an hour and like, so we'd be like, okay, he got in, like, 10 minutes ago. Well, you won't tell us before you're gonna get out, but like, at least if it's like, a short term play or longer. I mean, you did say you like to hold on to something that's more has value behind it, not just like a pump and dump type of thing. But can you tell me, like, how much are you putting into, like, let's say, if it is a pump and dump play, you know, it's a rug pull or something, but you can ride the wave to, like, at least 2x your money. Like, how much are you putting in, like, 5000 10,000 or you're putting less money. I think that
+
+Speaker  692960:00
+depends in to this, I like to default to traditional gambling and bet sizing. So it really just depends on your role and, like, how much you want to allocate, you know, like, the the sort of bankroll thesis for, like, let's say poker, or even, like, you know, professional gambling other modalities, would be to have, like, 100 to 500 buy ins. So really, it's you choosing how much you're comfortable risking. Like, let's just, you know, for illustration purposes, let's say you start with like 100 Solana, right? Or like 27k or whatever that is.
+
+Speaker  702842:40
+Maybe take like
+
+Speaker  703690:40
+two soul shots, one soul shots. You know, maybe it Max, like five soul if you think it's like a good conviction, but you don't want to blow up your account. You still want to leave yourself ammo, because much like professional gambling, you know, your hit rate, or your success rate, like, even for the best traders, is sub 50% right, somewhere between like 30 40% so you're going to lose a lot of the shots that you take, but the ones that do pay off, you're probably going to do really well in so I'd rather look at it from that lens than, like, you know, I'm going to throw 10k in here, I'm going to throw 20k in here. Kind of thing
+
+Speaker  713877:20
+makes sense. And then if you put in, like, into 10 different ones, and one goes up, you lose money on the rest of them that one, it's gonna pay off and cover all the losses,
+
+Speaker  716490:40
+right, right? Like, if you look at and I'll post it again after this call, but like Frank D God's wallet, I think he has like, a third, like a sub 40% sex success rate. Like 30% give or take is his success. Right? But the wallets up like $5 million you know. So most of it is him being really early into the coin and sort of writing up the, you know, 1,000x or whatever, you know, appreciation. So it really depends on your your risk curve, and how much risk you're willing to take, you know, but you have to be in the trenches, and you have to be early to get those outsized gains. And, you know, as I mentioned, like, for people like us that have other things going on run successful businesses, I probably, like, you know, just trying to hit, like, a 1x or 2x right, with size, instead of, you know, the speculative like, I gotta watch the one minute the one second chart kind of thing.
+
+Speaker  732330:40
+If that guy, Frank, or whoever, wouldn't it be smart to just follow his trades, like, put a bot on his trades. And, like, have, like, 30 seconds after he put in a trade, you put in a trade as well. And just, like, very obviously, way less and and volume, whatever he's putting in. But if he's that much up, wouldn't it make sense that you'd follow his, his trend line? I
+
+Speaker  738848:00
+think you'd get wrecked. Mostly doing that. I like, you know, a lot of people have asked that, like to him himself, and he's like, yeah, don't copy Trade Me. You'll get wrecked. But if you kind of are in the trenches. You know, what the meta is. You can also see him buy into something with size. Then I think that that's better, but you have to be more, you know, watching it like a hawk, because even he doesn't know, right? Like, he'll deploy one or two soul into something, and then you'll see him, like, go in with size. Like, okay, this seems like this could be a runner. Then I'll deploy more. But he generally starts with, like, sub five soul, you know, like, maybe two to five soul into a new meme coin. And then if it seems like it's gonna be a thing where he does more research, and it's like a real, you know, project that's gonna last maybe a week, then he'll go in with size. Like, I don't know if you guys heard of the Elan coin, which was, I think, like, the co founder of pump dot Fund had this coin that was, like, two months old, and, yeah, he bought in. But then he eventually, like, put a lot more in, um, over the course of confirming, like, yeah, this, there's actually something behind this. So I don't copy trade. I
+
+Speaker  758069:20
+haven't been able to figure out how to set up a stop loss in Dex, in swap, and I have a minimum finag online. There's only limit. And if you set up a negative dollar net, if you set a price lower than what it's at, it doesn't let you submit that. Yeah,
+
+Speaker  762885:20
+there's no good
+
+Speaker  763530:40
+there's good bots to buy. There's not good bots to sell. I'm pretty sure people have coded something like that, but it's not something that's public, so you'd either need good so
+
+Speaker  765978:40
+when the whole thing happened with Trump, it wasn't stop losses triggering what was happening,
+
+Speaker  767562:40
+like when it dumped on on Sunday, that was mostly like Melania coin launching. And everybody like, you know, we saw it with the start of the Trump coin. Is it? Like it sucked liquidity out of everything else on chain, like everything bled against it, while people were, like, selling their bags and nuking them to get into Trump coin. And I think the same thing happened with Melania coin. Like everybody was like, Oh, we got to get into the new hottest thing. And so, you know, everything else nuke so people could get into the new thing. And that sort of is, you know, lends weight to the idea of what I was talking about. Like you have to be early. Everybody was trying to get in as early as possible into the coin to be the first one there. So I think that's, I think that answers your question, but yeah, there's no bot yet that will sell for you. I'm sure it's like coming, but it somebody already has it. It's just private. They just coded it themselves. It wasn't
+
+Speaker  781850:40
+stopped. It was actually people who were able to sell, and that's what drove that price down so quickly, because, like, I was actually, I was one of those people trying to swap right when I saw Andre posted it, and I couldn't like it wouldn't let me it wouldn't process. So I thought it was bots or something, some, something had to be running. And it's like, I would imagine that amount of volume, most of the people aren't, like professional that have these bots right. There's certain I was just curious how it all went down, because if it's not stop losses, you know,
+
+Speaker  790389:20
+there's a couple of things they're like. So everybody's using phantom wallet, which I'm sure most of the people on this call were using that. So Phantom was overwhelmed with like, 8 million transactions, like a second or something. So yeah, the the validators were breaking or not breaking, but, like, there was a huge fail rate. A lot of people had success using different, you know, RPC nodes or, you know, essentially, just different validators, right? So if you're going to be trading these things and maybe have some money on, like, a. If people were having success with bonk bot, right? Like, which is a, like a telegram bot that you can use to trade, you know, meme coins on Solana, so it's just having, like, a different validator on a more technical level, like, if you have private order flow to a validator, you could probably get your your trade to execute. Or if you put a higher like bribe or minor tip in the fees, you could probably get it to execute, but yeah, if you have low slippage set, which I'm sure most of us do, because you're not trying to get wrecked in the trade, it's going to have a higher fail rate than if you'd set, like, a higher slippage or, like a higher minor, you know, tip so I would, I would say, like, if you, if you want to be doing trades like that, then definitely have some money on like, bonk bot, photon wallet, bull X, all of these use different RPC nodes that maybe will execute the trade better than just trading on Phantom. Because, yeah, Phantom was overwhelmed and transactions were failing.
+
+Speaker  816992:00
+I don't want to be doing this. I just like, if I wanted to get in, I would like to set stop losses. Would have helped there. Yeah, yeah. I'll
+
+Speaker  819056:00
+keep you posted on if there is going to be, you know, like, a better trading platform or a bot that can, that you can set stop losses on. But yeah, as of right now, it's just sort of like easier to just buy it and then just sell it instantly instead of a stop loss.
+
+Speaker  824805:20
+Is that GM Gen a bot? Any good you? You said something about it. I
+
+Speaker  826197:20
+haven't used it. A lot of people like it. I like, I'm not really trenching right now, but I like bull X. If you watch Orange Juice videos, you'll see that you can set like, wallet addresses, and you'll get like, a little blip on the chart of like, you know, so and so bought it, and so and so sold it. So if you start tracking these bigger people's wallets. It, it's helpful for that, I think. So I don't know, play with it. Let us know if it's cool. I'll maybe try to check it out. But yeah, I've been, was previously using photon, and I started using bull X. I thought that was like the easiest, best new one. But yeah, there's, there's good things about GM gn, and I keep hearing good things. So
+
+Speaker  839109:20
+thanks. I'll try it out. Welcome.
+
+Speaker  840613:20
+I guess we're pretty much the time. Yeah, any last questions from anybody?
+
+Speaker  842197:20
+Yeah, just tell us when you enter a meme coin
+
+Speaker  843434:40
+so we can, or, even better, just give us your wallet and we'll put a bot on
+
+Speaker  845402:40
+it. I'll keep you posted. Yeah. I mean, as I mentioned, I'm not really doing any trenching. I think lately, I'm just doing solid fundamental plays, and we didn't even cover it in this one. But I think, like, AI is still probably like the biggest like mind share of this run. So definitely, probably invest in some AI coins, and a lot of them have been covered in the chat and in the group already,
+
+Speaker  853056:00
+but you are also doing nor like,
+
+Speaker  853957:20
+traditional trading, not just crypto trading. Yeah, right.
+
+Speaker  854949:20
+Um, I mean, yeah, we have some, like, normal investments that's more like the wife. But yeah, I don't I'm completely focused on crypto. I mean, I think for better or worse, I'm full ported in my 401, K to V, I T A X, which has done really well over the last year, but, but that's about it. I mean, I'm not really, I'm not really interested in stocks right now.
+
+Speaker  863114:40
+Thank you so much. This was, you know,
+
+Speaker  863882:40
+finally I could make
+
+Speaker  864304:00
+You're welcome. Guys. All right, we'll chat soon, see you guys later. Bye, bye.

@@ -1,0 +1,551 @@
+MDS Logistics Channel Call
+Date: June 05, 2025
+
+Speaker  352:00
+Okay, soon, I think we're gonna have more notetakers on calls than people.
+
+Speaker  1647:59
+I had to remove a bunch of notetakers just because we just have the one that we have to create the Cliff Notes. And I think that's enough. You don't need everyone's no ticket here. Okay, let's see. Oh, we have this person who I don't know who they are. I
+
+Speaker  14170:40
+I've been adding people to the AI channel. If any of you want to be added there, you can just let me know, and I'll add you right away.
+
+Speaker  17151:59
+Yeah, can you add me?
+
+Speaker  17776:00
+Yes, thank you.
+
+Speaker  20176:00
+Done. I have mo here, unfortunately.
+
+Speaker  23653:20
+Hey, Mo, thanks for being here. How are you I'm good. Oh no, you're not muted tonight, I got
+
+Speaker  25333:20
+caught up in traffic. Sorry, yeah, yeah, perfect, yeah, I guess we can get started. Yeah, yes.
+
+Speaker  28970:40
+The AI channel. Sorry, I missed that part.
+
+Speaker  29882:40
+I said something about the AI channel, just because you're a few here, and if you want me to add you, I'm doing that right now. Do you want me to add you? Pete, yes, please. Thank you. Pete, okay, um, let me just update here and start recording so you can upload this. If you can turn your cameras on, that would be so amazing. Yeah, because I really like mo space, but I'd like to have more like, more options. Okay, we're recording now. Thanks mo for hosting this logistics channel. Call today as usual. Hello, everyone.
+
+Speaker  42405:20
+Do you start recording? Yeah, yes,
+
+Speaker  42906:40
+yeah.
+
+Speaker  43226:40
+Hello everyone. My name is Mo Kuhail. I'm your logistics channel moderator and yeah, let's get started. I think for today I still want to do also, sort of like general discussion Q and Q's and A's as well. I think I'll, maybe I'll start to give like, sort of what's been happening recently, and then maybe after that, I'll answer any questions that you guys have. So yeah, as everyone knows, tariffs are down from 140 5% to 30% so everyone's trying to jump in and then ship ASAP. I've been tracking shipping rates. I've been seeing them. They're getting higher and higher every week. So my recommendation is, if you have something, just get it out ASAP. I don't think it's going to be, like, COVID, 19 rates, I think still okay, but it all depends what's going to happen. Like, if those 90 days are going to be extended or not, but, yeah, anyway, yeah. So that's, that's what I've been saying. Like, if you like, I've seen like I shipped in May and I shipped in June, and my containers went up at least by 2000 2500 so, and from what I've been hearing, is gonna go up every week. So, yeah, that's just sort of my advice to to everyone. And the other thing is, as everyone knows, Prime Day is next month, so all these things happening at the same time just going to make things a little bit worse in terms like, oh, let's ship. We want to make sure that our stuff gets in before Prime Day as well. Yeah. So just don't wait till last minute. Make sure that, yeah, make sure that you ship ASAP, yeah, yeah. I mean, does Yeah. Does anyone have you any any questions or would like to discuss something specific? I'm happy to answer that I I see here, I might, I might. I don't hear anything. I might call out names that I know. Just to make it more interactive, let me see who's here in the call today. Alex, yeah, yeah.
+
+Speaker  85232:00
+Can you hear me? You always call me first Mo, yeah, see,
+
+Speaker  86453:20
+so how are things? Have you shipped anything recently? Everything's good.
+
+Speaker  87765:20
+Yeah, I've been shipping some stuff. I sort of been shipping all along. What I did during the craziness is I actually shipped, you know, partial, partial, so I would say, like a production run complete, and I might ship like, 10% of it at higher rates, right? Because two things, it's sort of like a weighted cost average approach where, like, I need the goods, I'm going to ship some of it if I get jammed with it with tariffs. It's only on a small part, part of it, and then I withheld so I did that strategy. I shipped a little bit when it was really expensive from a tariff standpoint, and then I shipped the bulk of it when tariffs were leave, but my product was ready to go, so my rates were pretty good, because that's what, yeah. So I had a good experience with that. I'm actually moving some, some tools, some some molding tools from China right now. So those should depart next week. I'm doing that one, you know, totally above board, not DDP, etc, because I just don't want to take any risks with tooling. But I'm just curious to see if I encounter any problems on either side, you know, releasing customs in China or accepting here. But I'm trying to use the right HTS code, but I felt that HTS code, you know, optimization, yeah, it's
+
+Speaker  107050:40
+very subjective, too. Yeah, yeah, it's
+
+Speaker  107642:40
+just challenging. Like, I 100% want to do everything above board, and I'm still not sure between two or three codes which to use as
+
+Speaker  109466:40
+long you feel, as long you feel like, for example, like for me, as long I feel like I could fit under that HS code, then I could always tell the customer, obviously, listen, this is why it is. This is why I think. And then you leave it there. But if you use something totally nothing to do with it, then that's, I think, when it becomes very, very risky. So are you? Are you trying to set up like sort of a mini manufacturing or something,
+
+Speaker  116320:00
+not in house? I'm moving one of my, one of my, one of my product lines to the us completely. So I owned the tools in China, and so I asked the manufacturer to ship those tools to the US. And so that's that's sort of in the process. So hopefully next, next Thursday, I think it is, they'll ship out of China
+
+Speaker  121669:20
+someone that can operate those tools. Is it's not going to be,
+
+Speaker  122405:20
+yeah, yeah. It's a standard manufacturing function so, and then I was able to sort of cost optimize some of the componentry and some of the labor to get it to where it's pretty, pretty cost effective to do, to do here. Nice,
+
+Speaker  125882:40
+nice, very excited for you. I mean, yeah, I wish I could do the same, but it's not possible.
+
+Speaker  127882:40
+So yeah, all is well, no, no real questions,
+
+Speaker  128496:00
+like, I've done the same too as well. Like I have never stopped shipping. So because I like to cost average as well, I think even during when it was 140 5% we got lucky. Some of our containers were only at 1500 so even though the tariffs were crazy, but that 1500 containers really helped, because that alone is like saving three 4000 now, good luck nowadays, finding containers for 1500 no way they're like four or 5000 at least nowadays. So definitely, I'm a big fan of that approach. I also the other thing, I want to send as much as I can, but I also do not want to send. I mean, I've been hearing Oh, like, maybe we should send nine months stock one year. Like, I don't think it's worth it. I don't know. Like, I have a feeling like it cannot go back to 145 it doesn't make sense. I mean, yes, the steel went up from 25 to 50, but I don't see it, like going up again, but I'm also, at the same time, I cannot ship for one year. I mean, stuff, it doesn't make sense, like I don't have that cash flow, and plus, maybe the benefits is not there for me. Because, I mean, what are you going to do with storage? What are you going to do with all these things? That's the thing I'm also thinking about. At the end of the day, supplier also has limited capacity. Like, if they can ship a container per month, maybe they can do two, but they cannot do 567, there's no way. Like, it's just too much. Yeah, so that's the way, sort of how I see it, yeah. Thanks, Alex, yeah.
+
+Speaker  153349:19
+I'll share one more thing though. I think, you know, moving my production from from China to the US for one particular product line is reopening the sort of thought process around how I am going to ship and drip my product into FBA from the US, because I'm so used to shipping it from China to a WD or FBA, and now that it's manufactured in the States, and my lead times are so low, but the MO Q's are actually higher. You know, am I going to just rent three PL space? Am I going to use a WD? So that's something that I'm working on now. Is like, what is the, what is the deployment strategy, once the products get manufactured, like
+
+Speaker  163103:59
+most supplement sellers that I know in the MDS, because they have, I mean, I mean, even if their ingredients comes from China, but the final product gets packaged done in the US. They most of them, they use Amazon partner carrier like SPD or LTL. And then some of them, they say, the supplier says, No, I can't give you so much space. So if the product is ready to go, you have to pick it up. You cannot send everything to FBA. So some of them, they use a three PR. Some of them, they use AWD, like, aw. They take supplements, which is good. So, yeah, those, those other ways. But yeah, the interesting part for you, like, your lead time is not that long, like, like, with, with supplement sellers, I've been hearing 15 weeks, 16 weeks, because some of the ingredients comes from China, and then they have to package in USA. But you sort of, you, I mean, you have very normal lead time, meaning that it just does the two, three weeks from China, and then probably, probably once you have everything done, and you just have a high army cube, that's the thing, yeah, but, but I, I think once you start operating that machine, does it take, like, what's the lead time? Say that's quick too. Yeah,
+
+Speaker  183781:19
+yeah. So it should be good, you know, I'm just trying to figure out once I have, you know, let's call it 10 pallets ready to ship. I only want to ship, you know, three to Amazon. What do I do with the other seven? You know, it's a good problem to have, and we'll tackle it. I just it's something that we're now face to face. Faced to figure out, because we haven't worked that way. Yeah,
+
+Speaker  188154:40
+I, I wasn't getting anything west coast, AWD, but last night I was able to get some, some good Aw, location. So I think it varies from day to another. Like, do not give up, like, but anyways, like you're in the east coast. So, I mean, East Coast is fine too as well for you, yeah. So that should also work, yeah. Mostly I'm also something I'm working on this month. Re evaluating a WD in terms of the fees, because, you know, the storage fees went up. All these things went up. Tactically, they have something called split smart 195 per pellet. Other option is to be other option is pay the placements fee, send direct to FBA, and then the last option would be five DDP shipments too. So the I mean, these things need to be re evaluated from time to time. I'm doing this exercise again this month. It was done three months ago, and I feel like you gotta be very cautious. Do not think always AWD is the cheapest. The only part I enjoy about AWD you like when you send shipments from AWB, you don't have to do too much work. You just do that click, and then that's it. And if something happens, the support is not about they can track stuff for you as well on life pattern. That's the part I enjoy. Like, whether it's auto and manual, having that one click and you don't worry. I don't care where this in the east, Midwest stuff. Yeah, that's what I do like the most. But I'm just worried about the cost. I'm just worried that they keep increasing their rates. And this is something I just do not like, yeah? So also, what I think you posted
+
+Speaker  215061:20
+on that evaluation,
+
+Speaker  215525:20
+yeah, even Ivan said, for him, it was five DDP shipments cheaper. Like, I think going direct, I like it, but I think if I'm gonna sell the items in the next 60 days, but if it's something I'm not going to sell in the next 60 days, then I either want to keep in China, or either I want to find, I want to put it in a WD, or maybe a three or something like that. Yeah, that's the thing. How I'm How am I thinking about Yeah, but yeah, I mean, I'm making that study. I'll see, I'll see the differences, and then maybe I can share it next time, or in the group itself again. Each one stuff is different, but should give us an idea too. Yeah. Awesome, perfect, yeah.
+
+Speaker  227343:59
+Just want to add on. On. Alex point, if you want to manufacture if the MOQ is higher, you know, you can leave the rest of the seven pallets remaining at the manufacturer and just ship three. You can negotiate with them. I don't think you need to ship everything out at once. Yeah,
+
+Speaker  232293:20
+yeah, we're working on that as well. That's that might be a good option if they have a space that we could just, you know, ship it in tranches. They want to manufacture it once, but we can just ship it in pieces.
+
+Speaker  234501:20
+I don't know how manufacturer works between, like, difference from China and us, but I think they work the same. They should be able to work with you on storing, you know, some of the product in the warehouse and then ship the rest that you need. Yeah? So, yeah, definitely want to go with that route.
+
+Speaker  239866:40
+Yeah. Makes sense, yeah.
+
+Speaker  241120:00
+Hey, Mo, by the way, who's,
+
+Speaker  241520:00
+who's that I see you, yeah, because I see you're driving,
+
+Speaker  242992:00
+that's why
+
+Speaker  243328:00
+that's you, okay, because I see you making. I was like, Okay, hi, either. How are you good,
+
+Speaker  244671:59
+good. How are you good? Yes, yes, maybe,
+
+Speaker  245360:00
+yeah, some insights, because you also, you also ship a lot too, from China. Tell us what you're seeing. Like, I'm sure rates are also going up to like, yeah, I just wanted to see what's happening. It's good just to share those things with other MDS members, including myself. Yes, I ship a lot too. But you know, I mean, each one has different experiences. Yeah, no.
+
+Speaker  251061:20
+Just 100% DDP. That's it, okay,
+
+Speaker  253338:39
+yeah, what are you seeing that I think the DDP rates are a bit stable, right? Yeah, for the past two
+
+Speaker  254666:40
+stable right now, yes, correct, yeah. And, you know, just compare rates from different different freight forwarder,
+
+Speaker  256464:00
+nice, nice. And, yeah, any, any plan to ship like crazy things before the 90 days, or you just gonna ship as much as you can? Yeah? Probably, yeah.
+
+Speaker  259184:00
+That should normally for us, because I don't think, I don't think the tariff is going to go up more than 30% after 90 days. I don't think so that
+
+Speaker  262021:20
+makes sense, even
+
+Speaker  262325:20
+if it goes up maybe 40% but in terms of, like, DDP, it won't impact too much. So I would not rather, I would rather not to, you know, push everything and squeeze everything before 90 days, because the ocean rate is going to be higher, right?
+
+Speaker  267162:40
+So if it's something, if it's something you need to ship, you're going to ship it. If it's something you don't need it now, you're probably going to wait a bit or something like that. Yeah,
+
+Speaker  270154:40
+go with DDP. Yeah,
+
+Speaker  270490:40
+yeah. Like I looked at DDP during the 140, 5% and during the 30, I don't write 40 cents, 50 cents, which is not bad. Like, for your calls to like, I mean, if I want to store, probably the storage would cost more than that. I mean, if I want to keep six months, I do you use a WD or you also direct FBA all the time.
+
+Speaker  276336:00
+Just directive FBA, that's it.
+
+Speaker  277088:00
+Nice.
+
+Speaker  277493:20
+Nice. Not sure how good is, aw, right now,
+
+Speaker  278517:20
+yeah. Like, do you do five DDP shipments, or you just pay the placement fee, as in the whole container? You do both?
+
+Speaker  280149:20
+No, I was thinking about that the five location. I want to wait for your feedback.
+
+Speaker  281765:20
+I did a quick one yesterday, but I'm waiting for the numbers to come from the shipping company. I don't know it looks very similar, but I'm just waiting. Because the problem with the five PDP, it gets controlled by the five locations. My five locations is not the same as yours as someone else, and that probably dictate the price. Like I was speaking with Antonio bindi. He's also good with logistics. A few days ago, he was like, we're done with the AWD. We're gonna go back now to sending full containers, because now the tariff is down. And for him, for him, when he did the math, he said, I was like, Hey, are you gonna pay the placement fee? He was like, Yes. And I did a quick math for one container, depending, of course, more standard sized product. The placement fee is about 49 cent. So for him, he was like, until I receive it to AWD, and then I send it back. He did all the math for a full container. It was, it was maybe 300 $400 cheaper than just paying the placement fee. So for him, he was like, I've done also, again, it depends how many products you fit in inside the container. You know otherwise. I mean, it's very case specific, but I do get his point. Like, for him, it was either like, I give example, either like, do you want to pay the placement fee, $6,000 on that container, or do you want to pay a WD fees in an hour? 5800 so if I'm going to sell these products in the next 60 days, then there's no even point, you know, sending it to AWD. And you know, AWD is can be very slow to like, still. I mean, I had to increase my buffer because the like, it could take a whole month until it gets checked and received in full, yeah, so I'm looking more at five DBT shipment. The reason is because I'm more spread out. If something happens, I have another four shipments. I like, I like sending a whole container if it gets flagged, or something which is, which is fine. But the issue is, can you, can you absorb that delay? If it gets flagged, if it gets delayed at one week, two weeks, that's the part that's not fun for us to exactly.
+
+Speaker  317706:40
+So I think, I think we should definitely recommend everyone to have a Google sheet set up to have a calculation on on every time, when you ship a shipment, whether you want to go to five location or one location, just do the math, because it's just only about the math Exactly. And I think most of the time for us, five location is definitely more expensive. It is than
+
+Speaker  324640:00
+a full contender. Yeah, the
+
+Speaker  325200:00
+only reason that we want to ship to five location is because the check in time is quicker, and we've been dispute distributed. I think someone like two days ago share on MDS. I think they share about East Coast, like most of the population is in East Coast and and the orders is going from east coast. So I think the inventory distribution, it's more important than before. So I think we need to pay attention. I think everyone have to pay attention on your inventory distribution. So five location, I think, is pretty crucial during q4 at least. I think
+
+Speaker  336170:40
+because I look at the five locations, they give at least three. In the East Coast, at least three. That means there's like, I don't know what I mean. That means there's sort of like, I know, like, I'm in Canada. We have more population in the East Coast than west coast, but the bit different, because the US is populated all over. But there is also good, a good numbers in the East Coast too, as well. Like, yeah, I mean West Coast mostly, it's California, yeah, but not, not probably Seattle or something else, yeah, yeah,
+
+Speaker  344357:20
+exactly, so, so, and the FC transfer time right now to one location, West Coast is very, very long. Yeah, it's much longer. I
+
+Speaker  347050:40
+tried yesterday to see what fulfillment centers we get. I was getting a B, q2 which is a New Mexico, so there's no more lacks nine, LGB, eight or NT eight or NT two. And I think you only get these if you work with Asia, like if I work with Asia, I don't worry about it, because no matter what they sheet and appointments, they get the good stuff for them. But then, you know, with AGL, you cannot do DDP. That's the problem. I like their amp, the AGR, because the amp, for example, for me, if the placement fee is 6000 the amp is 4000 so basically I save 2000 per container. But then the thing is, I can only go back to them once the tariffs goes back to normal. But I don't know if the tariffs will go back ever one day to normal. Otherwise, I feel like, I mean, I just don't want to take any risk. I don't want to do this deal with AGL like I prefer to leave it with a freight forwarder that they become the importer. That's the way how, sort of, I see it, yeah, but, yeah, it was a BQ two, so it was nothing interesting. ABQ two had issues in the past, too. So, so that's why, like, sometimes, as if I don't want to do five DDP shipments, and I feel like I'm gonna sell the stuff maybe in 90 days, 120 I still, I still, like, AWD, especially if it was, I was cross location. Uh, you don't get it all the time, but we had good, good luck in the past three, four months. The only thing, yeah, the lead time, like the receiving is very fast at AWD. So I wouldn't blame AWD. I think I still blame Amazon FBA fulfillment centers. But once you send from a AWD to FBA, expect up to one month to be fully received checked in. So as long you build that lead time, listen like I've had stuff checked in in two days, three days. But the way how they work, they split up the shipment into eight, 910, shipments, maybe or two will go to California, and those ones definitely will check and receive in two, three days. But then the rest, Florida, East Coast, somewhere else. So you can't control it. I mean, at least you, you are well distributed, like, at least but, but you just do not expect, oh, you're Lawrence stock, or you're gonna expect your stuff gonna get checked in, and all of them want no that does not work. In this case, you should not even use the AWD. You should even have sent direct to to to FBA. Yeah, that's the way. That's the way, how I see it, yeah, it's gonna get crazy, I think, until Prime Day, and then after, it will slow down. And then again, with q4 it depends also on the tariffs and that, and we'll see how that will affect you for now. Yeah, I just feel bad for for anyone in toys, because they're buying something for the future. For for us, at least whatever gets manufactured is going to get shipped now or next month. But for toys, they have to ship it probably in September, for for q4 so, so it's a bit tough for them. Same thing, I think, with the retailers, big box retailers that they, they have POS for, 120 days, 150 days, 200 days, I don't those. I heard even they're really in a worst case, they're even worse than us as Amazon sellers, because, because they don't know the future. I mean, they, and some of them, they cannot do DDP, because that we have what works with retailers. They they want to buy it FOB, and then they take care of the shipping. So some of them, they say, Oh no, no, no, we're not doing that. I mean, you, you bring it to USA, we'll buy it from USA, because they don't want to take that risk. And it's also, I've heard many things from my friends forward about retailers like their business is getting a big, big hit because of the tariffs. They're not flexible that smart as us, like, when it comes to, you know, shipping stuff, yeah? Plus, sometimes they have no choice. I mean, you cannot tell, okay, go buy a DDP. Like, yeah,
+
+Speaker  408789:20
+they could think of DDP. They have to, they have to go the normal route.
+
+Speaker  410085:20
+Yeah, yeah. Perfect. Good talking to you. Thanks for your insights.
+
+Speaker  412778:40
+Yeah, anyone else has any question? Yeah?
+
+Speaker  415882:40
+I see today, Kyle here in the call. I know Kyle, you were based in Canada, so maybe you sort of can give us some insights. I think you ship a lot from Canada to USA, yeah.
+
+Speaker  419248:00
+Binance, Los Angeles, but our suppliers in Canada? Yeah, I concur with everything you said. Nothing else to add. We do truckloads, and paying the $8,000 fee is actually we also, I also consider kind of efficiency, so truckload from Canada can get received in six days from Canada to Florida FC transfer. And I kind of factor that into, you know, if I, if I broke that down into the guilt tails,
+
+Speaker  426677:20
+do you send direct to FBA or to
+
+Speaker  427482:40
+a WD? Is too expensive? I did the math because we have hidden products, and it would been too much.
+
+Speaker  429738:40
+And since the products made in Canada, there's also tariffs on the Canadian product. Is it like 30% now between, luckily,
+
+Speaker  431402:40
+we're still product of the US, even though it's from Canada. So we're able to, we're able to get around the tariffs, yeah,
+
+Speaker  433200:00
+nice. So maybe, just, just maybe it gets somehow packaged in Canada. But most of this, yeah,
+
+Speaker  434816:00
+yeah, it does. It's a kind of, it doesn't get changed a lot. It's a supplement. Nice,
+
+Speaker  436000:00
+nice, nice. Yeah, nice. But I'm sure if, if some ingredients comes from China, like, yeah, you're also affected in so, yeah,
+
+Speaker  438133:20
+yeah, there's some products we are, but our main products were not, luckily, yeah,
+
+Speaker  439317:20
+and always for you full truckload, you pay the placements fee and you get it sent to one fulfillment center, yeah, if
+
+Speaker  441445:20
+we, if we did, like the five units, but the five shipments, it would have to come across the border, then get split to five, so we still be paying for, like, a full truckload across the border, anyways. So it's kind of, yeah, it does. It doesn't make sense. You can't ship five from, you know, from Canada to us. Yeah,
+
+Speaker  445242:40
+and if you mind me asking, Who do you work with? Because I sometimes trip stuff from Canada, USA, USA, Canada.
+
+Speaker  446794:40
+I think the companies I called I load, that's our suppliers. Yeah, I load.
+
+Speaker  448042:40
+Have you found them to be the cheapest? Yeah. I
+
+Speaker  448992:00
+think they're the cheapest. Like we are a supplier actually organizes all that, but they recently switched, I think I
+
+Speaker  450912:00
+load tracking Yeah, and they're Yeah, yeah,
+
+Speaker  451616:00
+yeah. They seem to be all right. They have, they're somewhat responsive on email. And during that whole Yeah, with that, you're familiar
+
+Speaker  453717:20
+with booking appointments with Amazon, yeah,
+
+Speaker  454261:20
+yeah. They, they book it all through one email. Like, during that whole, like, you know, October, September, October, November fiasco, they were pretty on it. They had a bunch of appointments canceled, and they were like, No, it's not us. We didn't miss the appointment. It was actually Amazon. So they were pretty, they're pretty on it,
+
+Speaker  458677:20
+yeah. I think even now, close to Prime Day, we might see some delays with appointments too. Yeah, I've took the information down. I use CSA transportation, but they're, they're more they're more specialized from USA to Canada, the USA, but they've done a great job. Customer service is fine, but they don't miss appointment. They don't have like, Oh, we lost your stuff. A palette is lost, something like that. And they know the ins and outs of Amazon, so that's good. That's their specialty. But that system doesn't work sort of anymore, because with the tariffs, because you don't want to pay. I mean, I used to pay tariff twice, but then when the tariffs was almost my product, I went 2% before the increase. But now there's no even point sending to USA and then sending from sending from USA to Canada, assuming it was 140 5% so now I'm going back to sending direct from China to to Canada. I don't like it for one reason, most of the fulfillment centers get assigned in the Toronto area, like in the East Coast. I mean, sometimes, if you're lucky, you get Vancouver one. But the thing is, most of these containers, they don't get truck. They go into a railway to Toronto. And the problem with the railway, it's unpredictable. I mean, once the containers arrives, it could leave today, it could leave tomorrow, it could leave in two weeks, leaving a month. And that's the part I I've always hated. That's why I switched to sending from USA to Canada, because no matter what I can get, always get stuff checked in in five Yeah, but it is what it is. I mean, Canada doesn't have tariffs on China imports, so I had no choice, but I just have to build a big buffer time. And using a three PL for me, didn't make sense, because three pls in Canada are way more expensive than USA, like, five, six times more. Like, really, do you? Do you keep anything extra in Canada at a three PL? No,
+
+Speaker  489765:20
+no, it's just our supplier has warehousing. We use that, but not no, like, three pls.
+
+Speaker  491466:40
+Number refers some, but honestly, I didn't find some, someone like, really good, good, like, AMC, prep people talked about, but then I asked, and I was like, oh, stay away from, from that person. He's very active on LinkedIn and stuff, but not said he means he's good, but yeah, I mean, hopefully, if it goes back, I don't know, then I could drip feed, because I like the drip feeding, because you're sending, anyway, a whole container to USA. You just need only, I don't know, three, four pallets to Canada, and then you just take it out and then send it for me. It was the same math, even when we paid uni twice, because the duties in Canada for us is zero, but the duty in the US was at that time, two, 3% so it wasn't bad at all. Yeah. But yeah. I mean, now can't use it anymore, unfortunately. Yeah. So just, how do
+
+Speaker  503605:20
+you find like, the LTL to Canada is like, because I'm assuming they're, they're kind of like adding other, other palettes and things you have to wait. You have to, have to wait a while. What's the timing kind of like? So
+
+Speaker  506501:20
+the way, how I do CSA transportation. They do full truck load. But 90% of their business is LTL. 90% of the business LTL, that's what they're specialized. They own their trucking too, as well. So they're asset based tracking company. So the moment I put the request my stuff ready to go tomorrow, they'll come tomorrow. They'll always pick up stuff like, like, no matter what. Now when, when it leaves LA, I mean, not necessarily it leaves the next day. It could leave the day after, but maximum 48 hours. And they own all their warehouses in LA and in Canada too. So what happens? I work with a custom broker. With custom, once the stuff gets into Canada. They have their own way. Say, I get an appointment at yy Z for that's in Toronto. The thing is, they will never book the appointment until the stuff clear customs and until the stuff sits in their warehouse. It's a bad mentality, but for them, that ensures that everything is there. What if they book in advance? Oh, what if something happened at Custom? What if there's, there's a delay? I hate it, but I got used to it. So once the stuff in their Toronto terminal, that's their own one, they book the appointment, save the appointment is in one week. They store it for free for you for one week until the appointment comes. It's a live unload. It gets the delivered. But it seems they have the volume, because everything done in a very efficient way and and quick way. They never said, Oh, by the way, we're not going to book the appointment because we're going to wait for some other customers. That's, that's the part I've never seen, because that's, that's their specialty. Their FTL rates are really bad. I've never found any good rate. I think for you, you do FTL, right? You try to put Yeah, or so, yeah, yeah, if I may ask, like, can you give me a ballpark? Like, is it, like, what three, like, without the placement fees? Like, how much do you pay for? I think it's like,
+
+Speaker  536261:20
+333, to 4000 US,
+
+Speaker  536805:20
+or Canadian, Yeah, us,
+
+Speaker  537205:20
+us,
+
+Speaker  537413:20
+yeah. That makes sense, yeah. And then placement
+
+Speaker  537861:20
+fees, like, five to like, 8000 it's
+
+Speaker  538517:20
+Yeah, okay. You know, three, 4000 you could ship a whole container from from China to to Canada too. And, yeah, I noticed, like, China is more optimized, like, for example, that I want to send five location. China is more optimized for five location than Canada, USA. The reason is because there's squash demand. They have the line there for us. When we do tracking, it's too expensive, because I feel that tracking, I mean, again, you cannot compare tracking with ocean. Ocean is always cheaper. But when you have five locations, for example, they won't send one vessel to LA and then they will track it. They might send a vessel to La abesal to Texas, abesa to New York, and then that will cut your trucking cost down. And then after that, they will track but it's going to be a shorter distance. Yeah, yeah. I mean, my, my dream was one day to find a central three PL in the US, where we where we sort of call it the new AWD, or a new three PL, we send everything to it, and then it distributes everywhere at a very simple cost, at a very reasonable cost, I think tactical style of doing that, but still the cost, I find it high. And there's two big players too. I think zone flip is one of them. There's another one by pattern. But still, the prices is nowhere. Like, it's very expensive. Like, you might, you might say, oh, you know what? I'll just split up from China. It's just, just easier, yeah, but yeah. I mean, I just miss, I think I wish you do the opposite, because if you ship to Canada, then you don't have to worry about five locations. Still one location. There's no placement fee. Yeah,
+
+Speaker  565200:00
+we're kind of, I don't have to make decisions. Since we're we're stuck with a certain logistical we have only one method. So it reduces my decision to making,
+
+Speaker  567365:19
+yeah, for sure, for sure. Even in the UK, still in Europe, we still have no, there is no five locations. It's just, I mean, I expect in Europe, because it's smaller, but in Canada, it's a big country, so. But the thing is, they don't have enough fulfillment centers. If they have enough, I'm sure they will do the placement thing like the USA. Hopefully it doesn't happen. This is why now all my new launches happen in Canada. First. It just makes things easy. I don't have to worry about placement fees, higher tariffs, and then the product takes off. Just take it to USA. That's the way how I do yeah. Thanks. Kyle. Good, good insights. Yeah,
+
+Speaker  577231:59
+no problem. Do you do? Do you like retail distribution too?
+
+Speaker  579119:59
+No, I'm not, yeah. But if you ever need, like, if you ever have questions with the retail or something, there's a retail channel we have. There's also Alex Yale, who was in the call today. He's very good stuff. So he could give sort of some advices. Other than that, there's the retail channel. If you're not added, maybe ask Belen to add you today. I think it's not I'm in
+
+Speaker  585509:19
+there already. Yeah, yeah.
+
+Speaker  585893:19
+But good, Alex, if you do very active, he knows he has good, good background. I mean, he he was supposed to help me one day when I decide, yeah, just too much work. Too much, yeah, yeah. But no. I mean, luckily I do not do, I mean, I'm focusing now more on Tiktok shop, so just see if I can scale it or not. I mean, again, it doesn't work for all, uh, products, yeah, more than Shopify, like that's the focus for this year, and expanding to more EU countries as well. Yeah, nice. Anyone else? Maybe, yeah, probably I'll call out names. That's the best. That's the easiest part, yeah, because I don't want to talk to myself. Yeah.
+
+Speaker  597845:20
+Did you have specific questions on retail? Oh, okay,
+
+Speaker  599541:20
+no, we're just, uh, venturing into retail this year and kind of figure out warehousing and consolidation and getting stuff. I know it's the wrong channel. It's the wrong call for that, but just mo knows everything. So I figured maybe had had some information.
+
+Speaker  603226:39
+It's just, it's a lot more complicated, and there's a lot more logistics compliance around that. That's why I asked, yeah,
+
+Speaker  605082:40
+yeah. That's what I'm concerned about. Our current three PL,
+
+Speaker  606170:39
+yeah. And I guess the first thing to check is, do you guys have EDI, because a lot of retailers will require that. Yeah,
+
+Speaker  608431:59
+we're set up with that. Yeah, nice. Sharon, follow up. June, call or offline, thanks. No
+
+Speaker  611519:59
+problem. Sharon, can you hear us? Sharon Yang, yeah,
+
+Speaker  612928:00
+yeah, yeah, I can hear you. I just joined, I just came back from China. Oh
+
+Speaker  614133:20
+yeah,
+
+Speaker  614373:20
+yeah. I was good,
+
+Speaker  614773:20
+yeah. Maybe suppliers, like, when you when you met them, is they're not the same when you met them, like two months ago, when everyone was panicking and you know about the tariff stuff like that, yeah,
+
+Speaker  618389:20
+yeah, yeah. So yeah, we the one of the freight forwarder drove four hours to meet us in in the hotel. Yeah, wow,
+
+Speaker  621370:39
+wow,
+
+Speaker  621578:40
+that's business, a one hour business. Nice,
+
+Speaker  622362:40
+nice. Are you still like shipping as normal, even when the tariffs were high? You still shipping something every week. Yeah, I still
+
+Speaker  624272:00
+ship. I only delayed one and, yeah, still use guided imports.
+
+Speaker  625984:00
+Nice, nice. Do you have plans to ship? Like crazy number, crazy inventory because of the 90 days? Or you're not worried because you're gonna do DDP, yeah,
+
+Speaker  628736:00
+not too much. Yeah.
+
+Speaker  629231:59
+Same here. Yeah, makes sense, yeah, yeah. I think even if it's little more expensive, I think just storing, yeah,
+
+Speaker  631349:20
+it's a little a little more Yeah, for sure, yeah, yeah, but way less than when I do the regular shipment.
+
+Speaker  633893:19
+Nice, nice. Any issues or so far good. Do you send direct to FBA, or you use a WD, I
+
+Speaker  635274:40
+use both. I split AWD and FBA. And I'm thinking about ship some of them to, like, tactical, yes, just to be safe.
+
+Speaker  638954:39
+Yeah, I heard that. Yeah. I heard the new program is really successful, yeah, like, they have the split SMART program. I don't know if you've heard of it now. So because the tactical, yeah, the problem with tactical was, uh, tracking. Like, how do you track east coast, midwest? So now they came up with a new program. They call it split smart, and they charge 195 per Pete, and doesn't matter where it goes. So that's
+
+Speaker  645605:20
+okay, I see, I see a little
+
+Speaker  646293:19
+bit higher than a WD, but remember, they have a lower storage fees, like, for example, like with the with them, you could store the palette, I don't know, off top of my head, 16, $17 per month. But with AWD, I think 28 or 30. So definitely, they're on the on the low side when it comes to storage fees. So if something you get a store for very long time, definitely they're cheaper. Yeah, I think the transportation fees, the 195 they said, the more they get clients, the more is going to go down. Yeah, I think a WD does it at 80, $90 per parent when I did the math a while ago. Yeah. So I think even if they get it down to 121, 10, one day, that's very competitive, to be honest. Yeah. But again, like they use all, they use private, uh, trackers. There is no partner carrier, there is no these dramas. There is no they didn't pick up. It's a live unload. So you're paying for the service too. So I think even if you don't use them now, I think in q4 it might be important, yeah, like you don't want to depend just on a WD partner.
+
+Speaker  664677:20
+Yeah, that's what I thought. But this shipment, I shipped to a WD because when I met them at the prosper. They said you need to get all the inventory in by August. So this is early enough, and the next one may be too late. They're over capacity already.
+
+Speaker  670794:40
+Yeah, even AWD they say for Prime Day, May 15, and it's already June five now, yeah, but I think, I don't think these numbers are exact, but they just want to encourage everyone to send ASAP, yeah, but then yeah, then if you don't follow that guideline, and then something happens, you cannot go back and complete Yeah, but I still ship stuff like, even for Prime Day from Aw, I did something last week, this week, next week, also because still is, it's going to make it, even if it makes it after Prime Day, it's fine. You want to be stopped after Prime Day Two as well. Yeah,
+
+Speaker  679381:19
+yeah, I'm preparing for the holiday.
+
+Speaker  680389:20
+Yeah, is your product? You for dependent too?
+
+Speaker  681125:19
+Yeah, heavy. 25% holiday season. Okay,
+
+Speaker  682277:20
+that's not about 25 Yeah, some toy sellers, they're even more 6070, yeah,
+
+Speaker  683482:40
+yeah. Mine is not, yeah,
+
+Speaker  683834:40
+that's not bad, but yeah, still, I think it's a good to plan from now. Yeah, yeah,
+
+Speaker  684746:40
+yeah. Nice
+
+Speaker  685194:40
+night. Are you coming to Milan? And they asked me now, no,
+
+Speaker  685834:40
+no, no, because I have another trip to China. So yeah, it's too much.
+
+Speaker  687514:39
+Do you just meet suppliers or find new suppliers or family. Yeah, nice, nice. Yeah, good, good. Yeah. I'm glad everything is smooth for you now. Yeah, questions, just let me know, yeah, yeah,
+
+Speaker  691328:00
+thank you. Thank you so much.
+
+Speaker  692528:00
+Perfect. So let's see who's here too as well. Yeah? Anyone else? Yeah, today is a bit quieter than last time, I guess, because happy, because the tariffs are down,
+
+Speaker  695461:20
+yeah, still pretty high, yeah, still like,
+
+Speaker  696213:20
+I mean, the 30% if you have section 301, yeah, and you're under the 2525 plus 30
+
+Speaker  698037:19
+used to be the the shipment I sent right now. It's a base plus the 30 blood plus 25% plus 30.
+
+Speaker  701402:40
+Yeah. Do you have anything? You have anything steel or No,
+
+Speaker  702666:40
+yeah, I'm still shipping. Yeah,
+
+Speaker  703578:40
+you have anything with steel components like Steve, because on stuff, or I don't, or aluminum, yeah, okay, I
+
+Speaker  705744:00
+don't have that. It's
+
+Speaker  706128:00
+good, okay, perfect. Yeah. Anyone else? This is your chance to ask anything you want. Easier to to ask it in the call than Yeah, in the okay.
+
+Speaker  709424:00
+So if I ship, I didn't split the do the split. Split. When I shipped to FBA, I thought the volume is not that big, so I still pay the placement
+
+Speaker  712965:19
+fee. Yeah,
+
+Speaker  713221:19
+placement fee. So when you split to fight five different places, you know, the factory has to the factory doesn't matter. They have to make the product into five different trials, and then one pause for a WD, and then when they ship, they have to split them too. Otherwise it's difficult to find them.
+
+Speaker  719242:39
+Yeah, my supplier did not like it, but he got used to it, and they know how to separate them, yeah.
+
+Speaker  720831:59
+But if you have several containers, it's easier when when my less than a container is just
+
+Speaker  722768:00
+towards and imagine if your supplier, my like, my supplier is very far away from Shin Jen, so it costs him to track. He was like, I prefer to track one time. I don't want to track six, seven times, yeah. But sometimes we have to do it. We have no choice. But, you know, sometimes what we do, we send the five shipments together on the same truck, but they're sort of separated. Like we would go, we would load, we would go, them shipment one. Then we have, like, I think I don't know what he does, either he put a blanket or something like a separator and plus, with DDP shipment, sometimes the freight forwarder give you a special sticker too. So a sticker has a reference number or the final fulfillment center name. So those one two, they make sure that there's no way you can mix the cases because they have a different reference number to that. That that helps too. Not all of them do it, but I think when they do it, I like it, because that means nothing would get lost or everything was tracked. So yeah, we see them together, and then actions that consult data, he spit them out. But again, assuming they go into the same receiving place, sometimes they have to go to three receiving places in Shenzhen, but again, still one track, and then he'll do one stop, second stop, third stop, yeah,
+
+Speaker  743541:20
+yeah. They, I know, the factory, and also the freight forwarder. They manually move the boxes. They don't use machines,
+
+Speaker  746794:40
+yeah. I mean, maybe they have a machine for for weight sometimes, like an x ray something, yeah, I don't think they do all the boxes, just one or two, yeah, yeah.
+
+Speaker  749722:40
+They still manually move them,
+
+Speaker  750234:40
+yeah. I mean, never had any issues. I think they're optimized to do what they do. I mean, yeah, you know what to do. But again, end of the day, as what Kai said, treat each shipment is something new. You have to do the you have to do, like, the code, you have to take a coat see the differences. That's why I feel like you need a full time. VA, just for that, like, because it takes time, you know. And then compare the cost AWD five shipments direct with placement fees, and then see what works the best. Because what worked for me might not work for you, yeah? Because it depends also how many units you have inside your cases too. Yeah. Like, for example, you have less than 10 minutes. I wouldn't even say go with AWD, because AWD is bad, because it's a flat fee per Carton. I know that I know someone in toys he can fit to 150 units. In that case, he's very happy with AWD, because it's only 1.35 for the whole case. So it brings his unit. Causes is very, very low. So again, like
+
+Speaker  766954:39
+mine, increased from 12 to 16, and another one stayed at eight, because just
+
+Speaker  769184:00
+if you can, you can bump up the eight to 10. See if you can redesign the case as
+
+Speaker  771056:00
+this time I didn't, yeah,
+
+Speaker  771616:00
+just make sure you don't
+
+Speaker  771984:00
+one. There's only four items. Yeah,
+
+Speaker  772656:00
+okay, just make sure you don't go over 50 pound, and then stay stick with 25 this
+
+Speaker  774149:20
+is low, yeah,
+
+Speaker  774405:20
+pretty low. And if I worry, I would redesign the next batch, try to make Yeah,
+
+Speaker  775429:20
+I didn't do it. Yeah, yeah.
+
+Speaker  776405:20
+Okay, cool. I heard someone else here wanted to ask, or was it Belen? Was that you? I don't know anyone else. Yeah,
+
+Speaker  780010:40
+it wasn't me, sorry,
+
+Speaker  780410:40
+yeah, yeah. I guess if no more questions, we I mean, we can wait another minute or two. If not, we could probably end the call. Yeah? But I just wanted to
+
+Speaker  783018:40
+bring up a scenario like, what do you think if the tariffs get ruled to be invalid? And then do you think that there would be a really short window when we might not have tariffs, because the other laws under which Trump will still try to impose new, new tariffs, but he needs to, like a lot of these, he actually has to spend time to give people notice, because he has to study things first. Yeah, I think, like, only one
+
+Speaker  790517:20
+that you mean by in valid, like, after you ship it, or what, what exactly you're trying to say?
+
+Speaker  791861:20
+No, I mean the court, cool, the court case where they've the international court.
+
+Speaker  793269:20
+Oh yeah, that one, yeah, to be honest, yeah, it's gonna be interesting. I don't even know if we can get refund or not, that's interesting.
+
+Speaker  795674:40
+No, I think that you wish you should be able to get a refund, because if it was illegal, there's no legal if it was ruled that the tariffs were issued and there was unconstitutional, then you should be able to go back. The
+
+Speaker  799210:40
+problem is if you do, DDP, good luck to get a refund, because most of these companies that they use the freight forward, they don't even have a bank account or something like that. From what I heard, I think this is why, with those DDP shipment they always ask you, listen, this is how much you're gonna pay. And they show you a second time, third time, fourth time, because they know if there's a mistake, there's no I mean, I think I had one time and a mistake with with AGL, it was not DDP. Was just a proper shipment. And then they added a code, you know, like two months ago. It was very confusing. They had so many bunch of codes on the entry summary, and then one of them was wrong. I mean, I think it was section three. When I was like, Come on, my product did not have section 301. And it was $500 more. And then I said, No, that's not fair. I mean, I don't want to pay. They said, Okay, we'll speak with custom. But well, I waited. I waited for the product to be delivered at Amazon first, because that would not leave. That would not I mean, if CBP said they want to inspect, it's too late for them. I mean, even my first product said just wait. I think I like the idea, too. So anyways, the way how it works, if you want to claim, he said it would take one year, and they would send me a check, and I'm a Canadian based company, so they can admit it to Canada. And then imagine if you had, I mean, yes, I have a big account, but, but imagine if people use, like, sketchy company, that stuff, and they don't have big accounts. How they gonna deposit those, uh, check? I think they do also wires, but only if you registered with them. So I feel like this thing will benefit non DDP shippers, but not DDP, uh, shippers. Again, I could be wrong, but, but I think with DDP, I was never able to get anything back, like, even if they, like, even, even if, sometimes, with DDP shipment, they are wrong, and they pay out of their pocket the freight forwarder. But they never come back and ask us for money too, because it's sort of, they give us the rate. This is the rate no matter what we're responsible, yeah. So it's going to be interesting to be honest. Yeah? Like, I mean, I'd love to get back something, but I just don't see it happening for anyone that. DDP, yeah, because that's how they make money those. DDP, like, freight forwarders, yeah, I'm not sure they're going to pass the money. Maybe they can't even get their money too, who knows? Yeah, but there's going to be a big kiosk if it happens. Yeah, but, I mean, but you're right. I mean, if it's illegal, illegal, then we should get money back. But I just do not know how it's gonna work. Yeah, I don't know if you have more information about it, yeah. Well,
+
+Speaker  839845:20
+well, my point is, right now you're operating under a scenario where you think that 90 days will still be there, but what if that just goes away? Because the they appeal, they have the hearing, and then they say, okay, it was unlawful. So all the IEPA tariffs go away. Trump's still going to still pursue other avenues, right? So you have to look at the other laws where he could issue tariffs. And under like section 232, he has to go through a process first, and section 122, also a process, no. So the one risk is probably the retaliatory tariffs, where he can impose 50% and he could arguably make that argument now with China, with the rare minerals licenses and all that kind of stuff being delayed, right? So, so we could, but I don't know how quickly he would implement that, but let's say that they have a hearing. I think it's June 5, so that's today, and then they say, Nope, that's not valid, and you have 10 days to remove them. You'd have the zero net new tariff window if you didn't impose that 50% Do you know what I mean? And then that means inject all the inventory you can put in, as much as you can for all of q4 but that's also you can't do C shipment at that point, because it's going to go away, right? So, like, isn't that a real valid scenario? Now, again, he might go up to 50% but he's already promised to China 30 but there might be, like, a short window in between, I don't know, or could be posturing.
+
+Speaker  865903:59
+I mean, I hear your point. This is a valid point, but, but who knows? Yeah, like, like, I know section 301, ended last weekend, and he renewed it up to August 31 too. So he's, like, on top of it, yeah, to, yeah, the steel one. I didn't see it coming, because I thought he's gonna sort of take a step back and relax and then wait what's gonna happen with the court. But, you know, two, three days ago. I mean, he bumped up the steel tower from 25 to 50. And yes, it's not for China, it's for every country. But, you know, he's doing it for China, mainly, yeah, honestly, I told everyone I listen, you want it 100% it's fine. Just tell us it's 100% for one year. I just hate when it's 70 days, 90 days, 20 days. It's very hard to operate your business that way, and it's becoming very hard. Yeah, but I guess I don't know what I mean, we have, we have, like, we have, I mean, we have no choice, like we can do anything, I don't know, yeah, but all these are valid, valid points, yeah? But for me, I'm not going to delay a shipment, because I want to wait for the call hearing maybe something will happen, because if I need it, I'm going to ship it out. That's the way how I see, yeah, but yeah, very interesting. We'll find out soon, yeah, I guess. Thank you for your insights. June, yeah,
+
+Speaker  887573:20
+no problem. Perfect. Also, have you? Have you guys seen that ship costs have gotten a little bit crazy? Also, like they're just so high.
+
+Speaker  889829:20
+I mentioned that in the call, like, we shipped a few containers in May. Right away, when the tariffs brought down to 30% the container was at, I think 2500 Yeah, right now I'm seeing 4500 to 5000 the containers only, yeah. So I think they're gonna go up, maybe seven, 8000 but not not 15 or 20. I doubt it. Yeah. I think if Trump did not lower the 145 to 30% at that time, and then he waited more time, that would have been more crazy, because we've seen some empty shelves in the US, but not as crazy as everyone expected. Because that's when he said, Okay, I'm done with 145 let's just do it. 30% Yeah, but it's going to go up, meaning that if you have a shipment this week, ship it. Ship it. Done next week. So the way, the way, how it works usually, like they do those increases, middle of the month, like January, 15 is the next increase. But now, with all these things and problems they might even they they're allowed to bump up prices every week because they remember, also they had blank sellings too last month. That means they canceled many schedules. So now we have canceled schedules. Everyone wants to ship out. It's going to be crazy, but again, it won't be like COVID 19. Like this is from what I heard after speaking with many freight forwarders. So if you have something ready, just ship it out. Do not wait till next week or the week after, because things will keep going up. Probably, I don't think, I think it's going to go up until, you know, people think, okay, it's going to make it before that 90 days, unless that 90 days gets extended. I don't know, yeah, just very tricky. Even that 90 days is is not helpful, because the moment it starts, until you ship something, that's what, 60 days, you know, until, I mean, if you have something already in China, that's 30 days gone. But if you still want to manufacture, that's like 60 days. So, I don't know, yeah, so, yeah. I mean, it was very expected. That's what me and Alex said at the very beginning of the call. Like people who ship during the 140 5% that was not bad idea at all, because the shipping were like, super low. Yeah. Yeah, perfect. Thanks everyone for your time. It was a good it was a good call. And, yeah, you know how to reach out to me. I'm there in the logistics channels. If you have any other questions. And the same schedule we meet first Thursday of every month, same time. Yeah, and yeah, good talking to everyone. And have a have a good one. Everyone. Yeah,
+
+Speaker  934878:40
+thank you guys enjoy. Bye. Bye.

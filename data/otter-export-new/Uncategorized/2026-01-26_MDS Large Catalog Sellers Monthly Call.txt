@@ -1,0 +1,731 @@
+MDS Large Catalog Sellers Monthly Call
+Date: January 26, 2026
+
+Speaker  00:00
+I wanted to share from my end of like, things I'm about to test out if anyone has experience with them, and then some things we're seeing if anyone has experience trying to settle, getting answers on some stuff, so and then anything anyone else wants to talk about. So from from my end, I just started. I have a call tomorrow with this company. I saw it posted on Facebook group, angle era anglara. It's a like supposedly can automatically enrich product data for giant catalogs. I am not I am highly suspect, but it sounds like it does exactly if you're a reseller. This sounds incredible if you're we're not a reseller, but supposedly it like takes all of your information, all of your Amazon data, all of your images, any PDFs you have of those products, and then, like uses AI and the Internet to automatically enrich all those products correctly air quotes, and it can do it in like for 1000s and 1000s of products. Again, sounds very
+
+Speaker  21360:00
+too good to be true. Yes, angle era.
+
+Speaker  22373:20
+Angle era, A, N, G, L, E, R, A, I have a call tomorrow, 232, 45 with a guy from there. And I don't know someone posted about it in the MDS group. I I can't remember. I should probably go on there and poke whoever talked about it, but it looks good, I don't know. And they even talk about using, like, salsify, which we use. They talk about, like, I don't know. It all seems very, very good.
+
+Speaker  31514:40
+Yeah, very cool. Okay, what's
+
+Speaker  32714:40
+up? How do you like salsify?
+
+Speaker  34240:00
+It's, it's good. It's not because we don't do a ton of retail. I think if we did more retail, it would be, like, outrageously good. We Yeah, I'm not as impressed, like it's great for a bunch of things, right? Like it can, once you put in like, a item type and product type, it will, like, go and check all the fields that you have mapped to make sure. Like it will be able to submit by Amazon's API correctly, and will give like, live feedback of like, hey, this style does not or this variation group theme does not match what is loud, or like all that kind of stuff.
+
+Speaker  45002:40
+Nice, yeah, that's money,
+
+Speaker  45930:40
+and I like the flexibility. So we've, we've tried a ton of tools, and I like the flexibility of it's like, basically a giant database, and you can add as many fields as you want, and then use crazy formulas to drive the different channels. So you can be like, hey, if I have an Amazon title, use that. If I don't use my Shopify one, if I don't have that, use, you know, I don't know.
+
+Speaker  53472:00
+Yeah, what are you using it for? Though? To push directly to Amazon. Yeah.
+
+Speaker  54661:20
+So we push to Amazon, we push to Shopify from there, we then we from falsify, from salsify, we push to Walmart from there. We can't push to eBay from there, which is annoying.
+
+Speaker  58117:20
+But we use a program called like, it's called rhythm. It used to be called channel advisor,
+
+Speaker  59498:40
+yeah, it's, it's, basically, it's, it's, it's not the same as channel advisor. It is, and it isn't like, they're more about like, actual, like, Pim software. So you can add assets, you can add media, you can add instructions, like all that. And it's like free form database, and then it has channels you can push to, versus like rhythm or channel advisor is like, channel focused, and like, it's also order management, inventory management, which salsify doesn't do any of that either,
+
+Speaker  69232:00
+for the most part. Well, it does it, it helps you push inventory, yeah?
+
+Speaker  70469:20
+Or just it pushes product data. It's all about product data,
+
+Speaker  71717:20
+Tim software, Product Information Management, yeah,
+
+Speaker  72405:20
+it's Pim, yeah, it's solely Pim. What's your
+
+Speaker  73253:20
+pricing? Like,
+
+Speaker  73781:20
+annual is like 18 or $20,000
+
+Speaker  74933:20
+cheap, considering
+
+Speaker  75482:40
+cheap relative to like, channel advisor. When we were on it, we were on it like 10 years ago, it was like two or $3,000 a month. I want to say,
+
+Speaker  77514:40
+Yeah, that's what I was. I did it for a year, and it was, it was, it was 15 years ago. Was a shit show, but not great.
+
+Speaker  79290:40
+It's pretty good now. I'm pretty happy with
+
+Speaker  80202:40
+that. How much do you pay Morris?
+
+Speaker  80960:00
+So we were on, let's see my last invoice.
+
+Speaker  83552:00
+So right now we are. We're paying a fixed monthly rate of 2300 bucks.
+
+Speaker  85488:00
+It's not bad. Plus
+
+Speaker  85893:19
+anything over the whatever, you know, the usage, usage,
+
+Speaker  86869:20
+yeah, that's not bad. Like
+
+Speaker  87461:20
+last month we spent 3000 Yeah, it's, it's really, it's there. They're the number one at the I would consider them the number one, you know, marketplace, you know, management. So we're using them. We don't use them for our Amazon so we're doing all Amazon direct, just because Amazon, we want to make sure we're putting all the required fields we wanted to. We were setting up variation certain ways previously. So we were doing, you know, with the loaders, making sure we're on the right listings. So we did all that direct, and then we were taking that information having a VA fix that for rhythm. So rhythm is for eBay, for target, for Walmart. She in, you know, any other marketplace that we're just trying to do, we've been using it. The one that we've had the most success on right now is target,
+
+Speaker  99936:00
+target like Target plus,
+
+Speaker  100416:00
+yeah, target plus Exactly, yeah.
+
+Speaker  101184:00
+I, I'm using the Shopify integration for our one toy brand and this target, the target Plus app for Shopify, the free one is absolute garbage.
+
+Speaker  104837:20
+Yeah, you should use one of the there's another program that does it for target Accenture, I think it was called or something like that.
+
+Speaker  106501:20
+Yeah, yeah. We've, we've been, what is
+
+Speaker  107482:40
+it that you sell? Matt,
+
+Speaker  107898:40
+so, on target, it's fingerboard. So, like, it's like a toy product.
+
+Speaker  109482:40
+You're the fingerboard guy. That's funny, yeah, yeah. We, I heard about you. Matt, oh,
+
+Speaker  110954:40
+man, yeah. We, yeah. We had a incredibly
+
+Speaker  112042:40
+friendly you, you recently were talking to maybe Scott,
+
+Speaker  113440:00
+maybe Scott Dyer, yeah, maybe
+
+Speaker  114368:00
+tell me about this guy. He sells fingerboards.
+
+Speaker  115152:00
+Yeah, it's, it's possible I can't remember, like, I
+
+Speaker  116288:00
+you bought the company
+
+Speaker  116560:00
+right in November, December. What's up? You bought the company like, in 2018 Yeah, it's just really take off. Now we we got into zoomies, like the store on the wall. Well, yeah, that's great.
+
+Speaker  121413:20
+Yeah, when I was a kid, we used to have those,
+
+Speaker  122117:20
+yeah, they're back and actually even bigger than ever, the we're the high end. So like, people pay, you know, I don't know where, like, people pay, like, 30 bucks for this. That's awesome, and that's awesome. We make wheels in house, and, like, sell the wheels for like, 3040, bucks a set. So four. I student. It's actually an insane amount of work that goes into them too. So it's not, we're not just, like, minting money. You would
+
+Speaker  130928:00
+know they're like, it seems like a bead when you have to put, like, a graphic on it. I don't know how to do it.
+
+Speaker  132384:00
+So there's like, special tooling that has to go inside, like, hundreds of a millimeter inside and, like, carve a little ring inside there so you can press a bearing in. Wow, amount of interference, but not too much interference. That's wild man, yeah. Are you
+
+Speaker  136149:20
+doing that in the USA?
+
+Speaker  136645:19
+So we, these are made in China. But the wheels we make in house, we're starting to make obstacles like we have, I don't know. I can't, I don't have any in front of me, but,
+
+Speaker  139322:40
+yeah, but you're, but you're doing that in in house in the USA, yeah, yeah.
+
+Speaker  140282:40
+So yeah, like a wood shop laser cutter around the corner here.
+
+Speaker  141482:40
+Wow, that's a New York Yeah, yeah. Oh, no, shit, that's cool.
+
+Speaker  143002:40
+Fun. It's a lot of fun. If you guys are ever up in, like, near Rochester, if you're ever, if you know Corey, if you're ever visiting Corey.
+
+Speaker  144816:00
+Corey, yeah, yeah.
+
+Speaker  145232:00
+Have a open house
+
+Speaker  145936:00
+that's that's really cool.
+
+Speaker  146416:00
+Yeah, that's fun. But yeah, target should have crushed it for us this year, but a bunch of our products went down on target because they changed some variations. And I'm so pissed about it, but it's fine. I'll get it for
+
+Speaker  149621:20
+20 my Walmart account got taken down, and I haven't been able to get it back up since July, really? Yeah, it was a disaster. We had. I had a friend who was going to help us manage the account, because we just weren't giving it the time that it needed. He I gave him, I created a login so he could do his analysis and see if there's an opportunity. All of a sudden, within a day or so, I get an email, unusual login activity. The whole account gets closed. They asked for all they asked. They asked for a bunch of information. I send them the information they requested. Sorry, we couldn't verify or something with terminating your account. The whole town now is terminated. I couldn't, I can't get it back open. It's wild, holy shit. Yeah, we weren't doing a crazy business. But still, I don't know. I don't I hate having a account that, you know, closed,
+
+Speaker  164080:00
+yeah, yeah. I feel like Walmart's a black box. Like, as much as we all complain about Amazon, Walmart's even more black box. Yeah, 100%
+
+Speaker  167109:20
+think Walmart's built on, you know, a house of cards. They're just trying to compete, and they're not actually trying to build a long term product. So they're just being so reactive to what Amazon everybody else is doing. So it is a black box because they don't, they haven't thought about all the edge cases.
+
+Speaker  171274:40
+Yeah, the interesting part is, like, as a consumer, we like so in Western New York, Wegmans is the grocery store that everyone goes to. It's like the and we, I like, scoffed at ever grocery shopping at Walmart. Ever like, I it was always like, in my head, this was like, well below me, Aldi was fine, Whole Foods, all that stuff. And now we get grocery delivery from Walmart. And it's the, it's like
+
+Speaker  179488:00
+this, I hear very good things, by the way. It's,
+
+Speaker  180176:00
+it's amazing, honestly,
+
+Speaker  180608:00
+yeah, my parents do that. They live in small town in Washington, south of me, I'm in Seattle, and they they do and they love it. I do Walmart, I do Amazon, grocery delivery, and it's so spotty I need to actually look into WalMart, because we use
+
+Speaker  184389:20
+nice we used to shop at Target. We used to go into Target all the time, and I like, I'm not sure.
+
+Speaker  186373:20
+So now target has, Target has their own same day delivery service, similar to Walmart,
+
+Speaker  187722:40
+yeah, yeah.
+
+Speaker  188266:40
+So you pay $100 I think, for the year, and you get same day delivery,
+
+Speaker  189306:40
+yeah, that's what we do with Walmart, and it's We tried. We got a free trial for like, a year or six months with a lot
+
+Speaker  191082:40
+of the credit card. By the way, it has a benefit. I know American Express has really like, yeah, some of them have benefit.
+
+Speaker  193040:00
+I think MX has, like, a Walmart plus free membership or something
+
+Speaker  193776:00
+exactly, exactly, yeah,
+
+Speaker  194400:00
+I need to look at that, because I'm paid for Walmart plus one thing. Anyways, it's, it's so smooth for us. So I think they're, they're more focused on their stores and retail and that part of econ, instead of, you know, we, we got an invite to Walmart business, which is supposed to compete with Amazon business, and it's done jack shit for us. And we're part of our business is totally B to B. We're, like, 50% B to B on Amazon.
+
+Speaker  202181:20
+Wow, really, damn
+
+Speaker  203029:20
+Yeah. I mean, it got
+
+Speaker  203322:39
+up now with the finger boards.
+
+Speaker  203834:40
+No, no, no. So we have a science business and a toy brand, okay, yeah. So, like, yeah. So right now, for the last 30 days, we're at 59% non B to B. But if you do, like, if last year, so first, like, the last 12 months. I think it's closer 55 or 40 5b to B. 55 non B to B. So, like, we do a ton of B to B.
+
+Speaker  210256:00
+That's awesome. That's great.
+
+Speaker  211056:00
+We do a lot of B to B to I'm curious, because I've, I have been limping along with Walmart, and I have, I think I've tried to apply for the business part of it, and they just, you know, it's just one thing after another. I don't, I don't get connected. But do you have any idea as to why their business program sucks so bad, if it does versus
+
+Speaker  216565:20
+so, I suspect it's because they haven't really pushed it to sell to buyers. So I got, actually got an email on my personal email, saying, Hey, you might be interested in shopping on Walmart business. And I was like, this is weird. And I went and looked, and we apparently already have on our so under growth, there is exclusive programs, and sit in Walmart center, and there's where you can apply for Walmart business, and we apparently already have it.
+
+Speaker  224896:00
+We might have it too. Yeah,
+
+Speaker  225424:00
+I don't even, I didn't know we had it, but we do. And I think it's just they don't, they haven't scaled it yet. I mean, even Amazon's kind of bad at business. Our Amazon business rep is terrible.
+
+Speaker  228912:00
+I don't even have a business rep. That would be nice to have one.
+
+Speaker  230165:20
+Do you have a Do you have an SAS?
+
+Speaker  230837:20
+Rep, no, they come, they come at us. And I just don't believe what they say. Yeah, I've already, I, yeah, I haven't. I haven't pursued that yet.
+
+Speaker  234741:20
+Yeah, we, we've had one for five or six years, probably seven years now,
+
+Speaker  235898:40
+that's good.
+
+Speaker  236234:40
+It's, I mean, it's an insurance policy. It's accelerated support. It's the person does not get us growth 100% does not right. But we do, we do, like, if anything goes wrong, we can escalate it, which is really nice. I really nice. But anyways, the reason I bring that up is they, they made sure we got a B to B rep is the, the biggest thing we've seen on B to B, if any of you are, if you're in that space, is doing the B to B placement modifiers and sponsor,
+
+Speaker  245296:00
+yes, I did that the automatic rule, right? Yeah, it's, you're talking about advertising, though, with the
+
+Speaker  246917:20
+advertising, Yeah,
+
+Speaker  247957:20
+about that? Someone just posted about posted about it. 900% I just saw it in the chat.
+
+Speaker  249749:20
+It's like, for us, we've been doing it. We were in their pilot back in the spring, and now it's, like, rolled out to everyone. It's like, it's similar to, like an audience modifier, but we absolutely crush it. Like our conversion rate on our B to B ads was like 60 or 70% something like, absolutely obscene. So yeah. So if you have any B to B products, 100% needed to add in like they have B to B only campaigns, and then B to B like audience modifiers.
+
+Speaker  259808:00
+Have you done the sector pricing on Amazon?
+
+Speaker  260880:00
+We did for a short minute, and then I had, I was skeptical that it was improving our conversion rate with those customers, or do like it was having a net positive effect. And I asked for evidence, and they could give me none.
+
+Speaker  266293:20
+So there is, it's sector pricing, which means, you know, typically you have your standard price, your business price, your quantity price, and then, like, two years ago or so, they came to me and said, Well, we have education space, we have healthcare space. Why don't you offer pricing to them? And I'm like, What's the difference between that and business pricing? And they're like, Well, this is special. This is special invite only for those sectors. Yes, bullshit. And I was like, so I was like, Fine, I'll take a nickel off of whatever my end quantity pricing is. And, you know, kind of add on. But I'm yeah, I'm looking to know if their data out there that kind of says it's worthwhile, because is
+
+Speaker  276911:59
+it actually a new customer? Yeah? Well,
+
+Speaker  278373:20
+no, this is the page I you guys might, if you're on your phones, you probably, it's probably hard to see it, but there's, it's under, if you go under pricing, it's under custom pricing on Amazon. Oh, sorry, if you go into Seller Central pricing, custom pricing. It we, we we got no evidence that it was, it was helping, and it for us, we probably should be doing it, because our customer, like schools, are a huge customer. Government's a huge customer, and and we couldn't even get an answer on what the what it looked like on Amazon to one of those customers,
+
+Speaker  288368:00
+exactly, exactly.
+
+Speaker  289024:00
+Looked better? Yeah, I when I asked the same thing, when they presented this to me and they're like, oh, no, it's only seen to these customers. You have to be those customers to see it or something.
+
+Speaker  291760:00
+I'm like, just add the tag on me for like a day so I can poke around. Like,
+
+Speaker  293680:00
+yeah, because, yeah, that's I was thinking, if they don't have any special privilege, that they're just gonna do the business pricing, which is available to businesses. And it's like, well, what do you or show me an advertisement where you're really show me something that says they're getting some kind of special, you know, marketing effort to bring them into our environment?
+
+Speaker  299242:39
+Yeah, it's like, back when quantity pricing, years and years and years ago, used to not have any messaging. It was just like, Yeah, more discount. And I was like, Guys, what?
+
+Speaker  302202:40
+Just giving discounts away.
+
+Speaker  303530:40
+I do have a question for you guys.
+
+Speaker  304362:40
+So Matt, just just close on so you still do it, but you're just not you're just not convinced whether it helps or not. Is that kind of the final conclusion,
+
+Speaker  306319:59
+we stopped doing it. Okay? We did stop doing it because I the month we did it our edu so we did just for the education segment. Our education sales dropped like 10% and that was the discount we gave. And we're like, did we just lose just like it, it did nothing except give away like it could have was not a good causal relationship, right? Like I didn't. I probably should try it again, because it, yeah?
+
+Speaker  315290:40
+Okay, thanks, yeah.
+
+Speaker  316154:40
+We did a bunch of price increases due to tariffs, because we get a bunch from India. So we're getting absolutely crushed with the 50% tariffs right now. And so we increased prices on like 5000 products, and quietly, hundreds of products lost featured offer eligibility, and I've had to manually go through and find all of those. Do you guys use it like at scale? Do you guys have any software that tells you whether or not you have the featured offer, if
+
+Speaker  324912:00
+you're the buy box or not?
+
+Speaker  325312:00
+Yeah? Yeah. I think we
+
+Speaker  325685:20
+can do it with the keep it API. I could write a quick Python script that could run it pretty quickly. I think,
+
+Speaker  327989:19
+really, yeah,
+
+Speaker  328965:20
+offline after the call, I have a meeting with one of my employees, so I need to practice fire. But after this, but this, after, yeah, just not performing, not engaged. It's a friend of mine. It's gonna be a rough, rough lunch after this, offline, just on Messenger. Shoot me. Shoot me 10 ASINs and let me see. Let me poke around and see what the keeper data looks like from the API. I've been I've been dealing with this too, or an item goes out. We've been sending on 30,000 activasons, and we've been dealing with how to manage this at scale with scripting. Awesome.
+
+Speaker  337504:00
+Yes, that would be fantastic. The trick, the problem, we're so I'm testing gorilla ROI. I'm not sure
+
+Speaker  339344:00
+I've heard of it. I've it's it's very intriguing to me, especially if you're a Google Sheets business. We are not a Google Sheets business, but I think if you're a sheets business. Our gorilla has a lot of really cool features.
+
+Speaker  342421:20
+Yeah, we've, we've started to migrate to being a sheets business. We were an Excel business for years and years and years. And I'm just, I love the simplicity of sheets, where it's just, everyone can see, I mean, obviously office 365, but it's never quite as smooth.
+
+Speaker  346741:20
+It's, it's hot garbage. It's, they're trying. But I mean, all the outages lately too, for we moved off to teams, back to Slack, and I would love to get off Microsoft. I don't think Google's better, but Microsoft is just their sinking ship. I think I feel, yeah,
+
+Speaker  351754:40
+all right, well, I'll definitely message you I'll hit, I'll throw you some Masons that, some that I know we don't have Buy Box, but for us, we're like, I'm trying to filter out. So we have both FBM and FBA offers on everything,
+
+Speaker  355039:59
+right? Yep, and yeah, same, same here.
+
+Speaker  355744:00
+And then we have like out, it out, out of stocks. So of course, we don't have a featured offer, because no one does but, but trying to differentiate between loss of featured offer because price suppression, or loss of featured offer or buy box because of being out of stock, it's I
+
+Speaker  361365:20
+know I can differentiate between that on the keeper API, Because I'm going through the Kat, the company basically a reseller, but it's an exclusive agreement, or migrating from vendor central to Seller Central. And so I've been using the keep an API to do offer tracking against all the accounts to basically find out what. Amazon's gone back order. Everything's mark just continued in vendor Central, but they have still 50,000 units that they're you know, they overbought during covid. And so it's like winning asin, when the when the asin sells out from from vendor Central, then we can, you know, update to them the right price and get FBA inventory in, or decide this isn't selling, this is not worth keeping live. But it's been a it's been a shit show.
+
+Speaker  372640:00
+Interesting do is, are there throttle limits on the Keep API. I assume you
+
+Speaker  373973:20
+pay, yeah, so it's Twitter bucks for a normal keeper, and you get, like, one token a minute. I think I pay a couple 100 bucks.
+
+Speaker  375605:20
+Sometimes I'll pay 500 pay
+
+Speaker  375989:19
+for the API too. Yeah, I pay for I pay in spurts, like once a quarter, I'll pay for a month for the higher plan and run a bunch of data, and I'll dial it back to the normal stuff that we run during the week.
+
+Speaker  379706:40
+Yeah, I'll have to look at like, with our developer after, after you test this out if it works. Like, how much can go in a token? Like, how many ASINs Can we look up in the token, that kind of thing.
+
+Speaker  382842:40
+Yeah, I just have Claude write up a Python script and just run it on Python anywhere. There's a lot of ways you can run it. Of run it, yeah, but I just run on Python anywhere to a CSV and then just dump it. But you could actually probably have it dump it to Google Sheets, or there's a lot of cool shit you can do, yeah. But yeah, that's, that's what I'm finding for for suppressed, Buy Box, keep has been pretty good about it, but it's also, I don't know if you guys have noticed this too, or how much inventory you're keeping on your large catalogs, depending, but I'm noticing that based on, you know, it's all geographic. So one person has two day delivery. One person does that two day delivery. We found warehouses where I can't the offer is actually not even existence. So where I live in downtown Seattle, I have items where I don't see the offer. The offer is non existent. Going to my warehouse, the offer is there. So based on the warehouse location, they're not even putting the offer. Completely crazy. Yeah, I'm trying to figure out how to find it at scale to like build to litmus test this, right? And it's that's a pain in the ass. But, yeah, that's that's a whole thing, and scale. I'm trying to figure out too, to find out the DC location so you can find out when they've consolidated you down to two shitty DCS and everything's five day delivery, even though you pay placement fees or didn't play placement fees. We had a few items that were off by they're like, 1000 unit, 2000 units a year, and it went down to two or 300 last year. I'm like, last year. And like, what happened? We found out they consolidated the DCS, and the sales
+
+Speaker  407365:20
+fell off. That's interesting. We're looking at a couple products right now that, like unexplainably, have gone down.
+
+Speaker  410133:20
+So go do an inventory ledger. So we're trying to figure out to do it at scale. I talked to Adam, who's doing flat file Pro, because he's in Seattle. He's He's testing a product right now that will test for alerts, because we're basically looking for anomalies if you're going from, like, you know, 1010, DCS to two DCS, and obviously something's wrong if you have hundreds of units in stock, right?
+
+Speaker  415866:40
+So that's interesting.
+
+Speaker  417168:00
+Yeah, we can chat more about or I can add you. I want to have, like, a build a group chat of some of these issues too, because, like, how do we? Because that's what big catalogs we can't the anomalies. They go under the rug, like, you just don't notice them.
+
+Speaker  420864:00
+Yeah? But I think Bill, I was thinking, though, that if you take a representative sample of both products and zip codes, like there's some, there could be some tracking way of just kind of, every day you're able to see, okay, the delivery transit time, you know, or you know, is eight days and then, but now it's Up to 12, and, you know, alert me when those representative samples and then that may lead to bigger inspection as to what's going on. Like, could you are you already doing that kind of
+
+Speaker  429578:40
+thing? Not yet. I'm looking at how to do that at scale.
+
+Speaker  430234:40
+Okay, okay, yeah, me too. I would love
+
+Speaker  430922:40
+but what we're finding, though, is I can't just do three zip codes. I need to do a city, a zip code that's an urban, inner city, zip code in the suburb, zip code in a rural, zip code in the same state. Because, like, that's like, my warehouse is 80 miles away. Yeah, right, between in that's why, like, this isn't deliverable into downtown Seattle. What in the hell?
+
+Speaker  436272:00
+And this is FBA and FBM, or are you isolating it? Just okay, yeah, yeah. I mean, I know. I'm, I see the same stuff, yeah.
+
+Speaker  438933:20
+I'm like, Why isn't offer presented? It's, there's some, yeah, that's been an issue. Have you guys also noticed that because of these new warehouse changes and how they're doing inventory spreads, that you're having to put in a larger amount of minimum inventory just to keep the sales up, because of the way they're spreading,
+
+Speaker  443642:40
+we're up to like 7080, days on some products in order to make sure that we have full coverage, which is, sorry
+
+Speaker  445354:40
+you, you're calculating days, not units. I'm thinking, I'm thinking, I have to calculate days, but then I also need to calculate a minimum in units.
+
+Speaker  447770:40
+Yes, yeah, yeah, yes, it's between both of those things. Because if you sell only 30 a month, you might need to keep 100 just to, like, have enough to spread across.
+
+Speaker  450880:00
+That's where we're at. Yeah, is I'm keep is I'm like, Okay. Or if we're selling on some slower items, we're selling 10 a month, I have to have 50 in stock, just to actually, but we're seeing sales improve on those items that traditionally didn't improve. You know, we had inventory, so I don't know it's black hole right now.
+
+Speaker  455957:20
+Yeah, I'm, I'm literally, so I'm checking that one product like that. My one of our top selling products is in 71 fulfillment centers. So that's one of the ones that's down. So that's good, right?
+
+Speaker  459882:40
+That is good. That's
+
+Speaker  460266:40
+good. But, like some of them, only have one unit, you know, and ont too, there's only one unit. And TCW one, there's only one unit. So like some of those, we don't have enough. Like, there's 100 units at certain warehouses.
+
+Speaker  464490:40
+How many? Okay question, how many units are in stock?
+
+Speaker  465232:00
+Total? Great question. Hold on, here's
+
+Speaker  466800:00
+my thinking, what might be happening, because this is what was happening on another item we had, it was in two dc seven. Yeah, we had like, 300 or 400 they were in two DCS, and they were transferring to the other like O and t1 for a local order in LA, it took five days, so got transferred to O and t1 then it got fulfilled to the consumer. So you might be in 70 depending on your velocity, you might be in 71 DCS. But if 500 are in one dc, then you're not, you don't have the spread, correct?
+
+Speaker  473941:20
+Yeah, yeah. We it's we got 100 in one what
+
+Speaker  475130:40
+do you do about that? Though, are you just sending more units, or is there a way to recall, like, ask Amazon to move those?
+
+Speaker  476986:40
+I'm working on SOP for that, we're trying to get Seller Support to, say, redistribute them because you fucked up.
+
+Speaker  478538:40
+It's just out of control. So I'm so unbelievable. We're talking about Amazon the logistics leader, and like, we're having to tell them,
+
+Speaker  480976:00
+blows me away. It's because we're like, it's like, random edge cases, right? Like, you know, it's one product they like, they lose one of us as a seller. Yeah, never know, or care
+
+Speaker  484528:00
+or product, yeah, I guess. Yeah.
+
+Speaker  485365:20
+Rounding Error on a rounding error on a rounding error to one of your P and L lines.
+
+Speaker  486821:20
+Like, I Yeah. I was on a round table with Ashwin last year, and I basically told all of FDA management, I said, but the other day, you guys don't care about me. I'm just a number. No, no, we do care about you know, the five to $10 million seller. I said, it sure doesn't look like you give a fuck up to me, I said, Maybe you should change that. And they were stunned. I just told them that I'm, like, what do I have to lose?
+
+Speaker  492458:40
+Like, oh, but this is it really, if I mean that that doesn't even sound like an edge case. I mean, there's, there's, you know, lots of people that are like us, in terms of having them being FBM or FBA and sending an inventory, and maybe have a long, long tails, but still, they just don't understand that. Like, if I only had 10 units, that's a big story. That's different, but 300 units, like, come on Amazon, do your job. Spread this
+
+Speaker  499983:59
+around. Yeah, charging you now, yeah.
+
+Speaker  500960:00
+What'd you find?
+
+Speaker  501733:20
+One of my products? It's a chemical, so I guess it is in less it's one of our it has way more units, but it's only in 11 fulfillment centers, and it's up this year.
+
+Speaker  505205:20
+You have that's treated differently if it's a chemical. But as much as Amazon will tell you they want to be The Everything Store. No, they want to be the high velocity store. Yeah, you guys, you know, you guys know that they don't have an active ledger, right?
+
+Speaker  509546:40
+Yeah, they're working on it. Yeah,
+
+Speaker  510122:40
+yeah, Steven's working on it. But the politics, the politics reasons, are crazy, because if they want to, they're trying to the people in charge of each like edge DC now are like, Oh, no, we want less item than the edge DC because it's more efficient, so it's, it's a complete show,
+
+Speaker  515392:00
+yeah. So do they do? They show it as out of stock, or they just show long delay depends from a customer standpoint. So that so there are cases where it's actually showing as as out of stock, even though they're
+
+Speaker  519333:20
+I haven't seen that. William had seen that in Yeah, specifically, yeah.
+
+Speaker  521253:19
+And I just noticed things I was looking for. Something like, by my personal account, I'm like, why is my offer not showing up? And it was like, Okay, I'll change the address. Then it showed up. I'm like, what the hell I can ask my employee, what the notes? What the notes were? Because there were a few, there's a few holding DCS. I don't know what they call them, or that are shipped.
+
+Speaker  527114:40
+Yeah, that it looks like it's, there's, like, a prefix for, like, just cross docking ones and all sorts of stuff like that.
+
+Speaker  529584:00
+Yeah, it's not a cross dock. It's a it's like, basically, it's a slow moving inventory DC that they shove shit to, which is bullshit, because we're playing for paying fees. So we had an item where they double received it and they charge us storage fees for six months.
+
+Speaker  534645:20
+So, yeah, but, but they threw it off in some corner.
+
+Speaker  535957:20
+Yeah, no, they didn't even read. They double received, they took orders, charge me storage fees, and never fulfilled orders. Kept waiting for customers to cancel. Yeah, yeah, some of the inventory anomalies are fun. Yeah, well, I think we also see it because we have such a large catalog, so maybe, like, one in 100 sellers sees it. But we have the, we have the activations, you know, of so many sellers that we see all the edge cases at once.
+
+Speaker  544560:00
+Yeah, I agree with that.
+
+Speaker  546591:59
+Okay, trying to just poking around at some of these other products, because I just have very weird things going on. Holy cow, 124 fulfillment centers. That's interesting. Do you guys have anything else you want to talk through, things that you guys are, like, thoughts on, people you want me to bring in, or topics like to have, like, formal round tables on, or things like that.
+
+Speaker  553157:20
+I wanted to talk about it. I don't know if it has only to do with large old I feel like it's more reseller oriented. But about the you know, the non stickered, commingled policy that's coming effective come March, I believe, is anyone doing anything or preparing for this.
+
+Speaker  558282:40
+It doesn't affect us personally, because the one product line that we resold, we're done with, so won't matter anymore, and we're the only seller on almost all of our products which,
+
+Speaker  560944:00
+and you have the you have the you have the trademark or the brand registry for your own brand. So doesn't affect you, correct? Because the problem with us is, even if we have the brand registry, they're supposedly saying, even if you're if you have, if you don't have the brand, like owner role, it does, you still, it doesn't affect you. So, like, we have licenses for, let's say, Sperry, where, even though we have where the brand registered, you know, seller of that sock, we're not the owner. So now we're gonna have to label all these products. Um, so I'm not really sure,
+
+Speaker  569925:20
+yeah, yeah, we're the same way. Like, We're an authorized reseller on brand registry. We're not the brand owner on a lot of brands, a lot of stuff. We stick it already because we were dealing with counterfeits and everything. So we just prematurely started doing SKU stickers a few years ago, just to cover our cover our ass. Yeah. I mean, some of it, a lot of our stuff, was printed. And so in the USA, we already put UPC stickers on it, or the vendor does. So I'm just telling them, either, I told them,
+
+Speaker  577680:00
+I think, though, that they're going to make you create all new SKUs for all these products that you had commingled, or are they going to automatically just transfer them to sticker?
+
+Speaker  579808:00
+That's my that's my fear. I'm hoping they're just going to auto transfer. Because right now, you can take a non stickered item and put an MN SKU sticker on it and send it into FBA, correct, yeah, and it doesn't. So I don't see a reason why they would change it, because every seller has their own ms or fnsku. If they do that, it's going to be a complete dumpster. Yeah.
+
+Speaker  586677:20
+So I had on my do list to try and figure out just, you know, come up with some sort of strategy. Because right now, we are doing all commingled for all the brands that we sell, just because time, time savings, and it's gonna be a nightmare if we have to create all new SKUs for all these items. You know, it's gonna affect everything.
+
+Speaker  592336:00
+I would imagine. I can't imagine they will require you to create new SKUs, but they and Amazon fashion, typical Amazon fashion, they plan to a huge change, and have not thought through everything or announced it to everyone.
+
+Speaker  595776:00
+Yeah, it's crazy. Yeah,
+
+Speaker  596608:00
+the stickering will probably will, will have to happen. It just is whether or not they're gonna make you blow up the SKUs.
+
+Speaker  598613:20
+Yeah, yeah. I'm pushing to get brand owner from a few brands to be like, hey, it's gonna save us all a shitload of money and time, and they're somewhere listing some are just kind of the game you play. Yeah, it's gonna be this change is going to be interesting. How it
+
+Speaker  603258:40
+Yeah, I think it's actually and they removed all their prep services also, which you have to make sure. Now, you know, previously, if there were certain brands that we were sending them into Amazon just to save on the shipping cost, now we're having to bring it into our warehouse, prep it and then. So, you know, all these changes are for as if for a reseller have definitely complicated things. I would say,
+
+Speaker  609136:00
+Yeah, I think that's again, they don't they don't want resellers anymore. They want
+
+Speaker  610272:00
+to teams like that. But
+
+Speaker  610672:00
+I don't think they understand how big the reseller business is and how many brands don't want to deal with Amazon, don't
+
+Speaker  612111:59
+want to deal with it, correct? You know,
+
+Speaker  612528:00
+they don't want the liability. They don't want to hold inventory. So this
+
+Speaker  614037:20
+is gonna be what they do. They're wholesalers. They sell it to you, and you deal with it, yeah?
+
+Speaker  615237:20
+Like, yeah, even, like, I'm sure you, I'm sure you have some exclusive stuff to Morris, since, like, We do, yeah, it's like, they just want us to deal with it, you know, they just want to sell it for a price and not have to deal
+
+Speaker  618517:20
+with storage. And Exactly, yeah.
+
+Speaker  619162:40
+So I'm asking my brands. I'm like, hey, if I'm an exclusive reseller, why can't I be the brand owner? Like, just, it'll make us our lives easier. And so,
+
+Speaker  621338:40
+yes, no. So like, we work with an Adidas. Adidas isn't giving us their brand, the ownership on the Yeah, but they won't, you know. So, like, different brands that you can't even what's not,
+
+Speaker  624688:00
+what's your return rate, though, like with adidas or counterfeit or people, you know, shipping back use, I
+
+Speaker  625968:00
+don't know, we don't again would when it comes to that stuff right now, I'm not really so on top of it, just because it would, you know, even with our returns, I used to get all the Amazon returns in, and then we just used to prep it and get it ready to send out 100% people are taking advantage of it, but it's not the as crazy as you think. Every so often we'll get that back a different item or wrong thing. But it's definitely not where it's like, oh my god, we're gonna go out of business.
+
+Speaker  633093:20
+Positive, yeah, I'm just curious that for you, if it'll that those that 10th of 1% might help you, if people are able to track and say, Oh no, that wasn't counterfeit, you know, because they're going to tie it to you.
+
+Speaker  636170:40
+But the counterfeit claims, I'm not even if they we get the counterfeit claims, I upload the invoices, and Amazon gets it removed right away, like I never really have any issues getting those issues.
+
+Speaker  639050:40
+We're getting so much pushback. We're getting probably five times pushback in the last you really used to get for counterfeit claims. Yeah. And another thing too, is, if someone calls Amazon customer service, it might hit your account health, but it won't hit voice of the customer rating on which is, that's another thing that's broken. So those two systems don't talk to each other. Interesting, yeah, gosh, yeah. It's, it's wild, not. So you're not a reseller, but you're a large catalog. Is that, because you're selling a lot of components,
+
+Speaker  647829:20
+because we set we make a lot of laboratory and scientific products, so like beakers, test tubes, physics apparatus, anatomical models, chemicals. So technically, we resell the chemicals, but we are on Amazon, and yeah, long term, that's probably going to be a strategic challenge, because it's a local company, and they just got bought. And like the owner, we're very the previous owner, we're very good friends with and now, so like long term, yeah, that's gonna end up being an issue. But almost everything else we sell is we manufacture in our manufacturing facility in northern India. So it's, you know,
+
+Speaker  658544:00
+nice, different
+
+Speaker  658832:00
+materials, sizes, pack quantities. There's polypropylene, TPX, etc, right? Like all these different materials. And one I'm that's cool, yeah, it's good and bad, right? Like, we're the only people who make the product content, though, which is why the angle era is is interesting for us. If it can enrich things without needing external data.
+
+Speaker  666997:20
+Yeah, totally, that'll be really interesting. Yeah, I'm actually wondering though, if you could just take salsify data and do it like an API into an AI model, and have you know, take your generic salsify data and metadata and dump it through through an AI model and be like, hey, suggest build me five Amazon titles, build me five descriptions, build me 25 bullet points in groups, and then have it create extra fields and salsify, and then have logic to basically go through and manually check it. And be like, oh, yeah, that's actually been AB tested. From there.
+
+Speaker  676655:59
+We so we, I mean, a couple, like, a year and a half ago, we tried doing that, the challenge we've run into is product families, right? So like you have 10 different products at different sizes, you want them to have some theme to them, right? Where you want them to be similar, but you don't want them to be identical, because then that penalizes you too, but you want them to be similar, and we found, when we fed that much data in the context window, was not able to handle all of that, and it was giving back kind of garbage data. I'm sure this is more of a our skill in writing AI things, plus a year and a half a year, year and a half ago, it was a lot different back then.
+
+Speaker  689040:00
+Yeah, you can dump a lot more data, like in the cloud, especially on the higher usage plans. It's I can dump. I dumped like two or 320, Meg, txt, FBA, inventory dumps in that was like analyze. We were trying to get some products re categorized. They run the wrong GL value as like, analyze what is wrong or what what changed, what they fixed, what they did fix. And then we had them do some dims and other fees stuff, and it actually analyzed and compared them pretty damn good. Wow.
+
+Speaker  697013:20
+Okay, yeah. Well, maybe we need to reevaluate, yeah. So I guess, if it depends, though, right? Like if this software is the 1000, $2,000 a month, hell no. If it's like 200 bucks a month to have something that's made do exactly this, to interface with salsify, rather than having to build our own custom connections and stuff that might be, but that's money well spent. Yeah, it depends, right? And that's it sounds like this company is based out of India, and I don't know you know really how good it's going to be. We'll see. They haven't. They have no pricing on their site. It's flexible pricing that scales with your business. Transparent. These are surprise charges. See positive ROI within 30 days.
+
+Speaker  709248:00
+Thank you. Sounds that sounds like, fuck you. Money is what they want, yeah?
+
+Speaker  710373:19
+Or they're really small, and it's Yeah, yeah.
+
+Speaker  711701:20
+I think they're gonna make it work kind of pricing, yeah.
+
+Speaker  712965:20
+So I'll let you guys know, and if it's amazing, we'll get them in as a as an MDS deal or something like that. Yeah, totally awesome.
+
+Speaker  716426:40
+Cool. All right, guys, speaking of MDS, are you guys going to inspire everybody going, Okay,
+
+Speaker  719882:40
+I'm not. Was there, and I'm not going got it last I don't know. I wasn't feeling it. I had my ticket booked, and all I was reserved. I did the early bird. Yeah, I hate Vegas. I'm not a big fan of Vegas. Me too.
+
+Speaker  724224:00
+It's what about? What about Singapore? Singapore.
+
+Speaker  725407:59
+I hope
+
+Speaker  725765:20
+I am not do it good on it, Matt, I know I I'm supposed to go to Europe this summer and go hiking for 10 days. I'm pretty sure my I won't be married if I also go to Singapore, we'll see a long ass way. Yeah, that's the problem. Is, like, we'd have, I'd have to turn it into, like, a vacation. Not, that's a problem, but also not, but
+
+Speaker  733354:40
+you're already taking another trip by here,
+
+Speaker  733994:40
+yeah, without my wife to Yeah, Singapore,
+
+Speaker  734938:40
+yep, yep. Then personal bandwidth is real.
+
+Speaker  735754:40
+Yeah, are you? Are you going,
+
+Speaker  736432:00
+Yeah, I'm going,
+
+Speaker  736704:00
+you are okay. You go, like, every year,
+
+Speaker  737424:00
+um, last year, my first, first year to and I think it's fun. I'm gonna make a vacation out of it. I'm also lying. I'm going, I'm playing Seattle, Toronto, and I'm playing eti odd to Abu Dhabi in first class, and then spend 48 hours in Abu Dhabi, just because I can. And so
+
+Speaker  742341:20
+that's fine. Pick something out of it,
+
+Speaker  742997:20
+yeah, Hong Kong for a few days after Singapore and in flight by home. If you're going to go all that way, you might as well read some people. All right, yeah, we should, for those of us that are going to Vegas, we should. We should meet up for a couple beers and
+
+Speaker  748394:40
+large catalog. People,
+
+Speaker  749034:40
+All right, sounds great. I see they're starting to switch groups over to WhatsApp. I'm gonna see, do you guys all use WhatsApp, yeah, yeah.
+
+Speaker  753312:00
+Switching over
+
+Speaker  753712:00
+I saw like re sellers cruise, yeah, real estate, yeah.
+
+Speaker  755008:00
+So Charles like from RE sellers like, he wanted to open like a WhatsApp group. So if you want, we can also make one for you guys.
+
+Speaker  757664:00
+I know we tried the Facebook one, but like, I personally, I use whatsapp constantly for my entire business and with vendors and like, I'm in it all day, versus like Facebook I barely use, and the MDS app is like, only for MDS.
+
+Speaker  761733:20
+Hey guys, I gotta, I gotta jump off, pardon me, I'll talk to you soon. Thanks. Good luck.
+
+Speaker  763317:20
+Yeah, man, we can make a switch. You can just ask in the app if people want to switch or not, and then we switch for sure.
+
+Speaker  766058:40
+Yeah, if they don't, if people want to, I'm fine, staying in there. I just personally WhatsApp, yeah,
+
+Speaker  767978:39
+I use WhatsApp, but I've just, I don't know, I'm not as a big user of it, so I just got used to MDS. Okay, we can see it because the events are there, but I Yeah, MDS is still clunky, as well as evidence of today. But anyway, yeah, it's no big deal if we have to switch over to what's up. We're just
+
+Speaker  774725:20
+giving people flexibility to do whatever they want right now, to make it easy.
+
+Speaker  775989:19
+And would you, how would you record? Can you record through WhatsApp?
+
+Speaker  777477:20
+Um, the call would still be here, like through zoom. It's just the chat.
+
+Speaker  778709:20
+All right, okay, Belen, are we? Are we? Are those squads things are those can actually, what is your best guess is that when they they would kick off,
+
+Speaker  781562:40
+um, let me see where you are. I'm just waiting for a couple more people to answer the form thing. And I think we can, like, launch pretty soon, different times, so you guys can choose when to get your first meeting. Okay.
+
+Speaker  787408:00
+I mean, we could do it at Inspire. Might be a good Forget it. Yeah, first live one, but yeah, okay,
+
+Speaker  788976:00
+I'll see. I'll see you guys. Thank you for
+
+Speaker  790437:20
+organizing, see
+
+Speaker  791605:20
+ya. Bye. You.

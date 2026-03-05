@@ -1,0 +1,545 @@
+MDS SEO Channel Call
+Date: June 11, 2025
+
+Speaker  608:00
+I know I were supposed to post in MDS regarding Rufus and Cosmo. I had a few people contacted me in private regarding that, but I didn't get a chance. I'll try to do it as much as I can today. I was also waiting to see the the mobile call with, I think it's Dorian or gorian. I don't know exactly, yeah, Dorian, but some people contacted me after his call and telling me that still nothing about Cosmo and Rufus in those calls. So once, probably I'll do a post on that as well, because mostly I haven't seen the first call. I only saw the second call that was basically based on graphics and nothing else, and a little bit on the overall customer avatar and audience. But not much on the overall SEO and how Rufus is personalizing the search right now, and how Cosmo is reading everything, and and so on. So i'll post about that in the group as well. If you guys want to speak about it, I'm happy to do it. If you want to have a separate call so we can have more people joining. Happy to do that as well. Or if you have any kind of issues regarding SEO ranking, index stations, I don't know even product launches, conversion rate optimization. That's why I'm here. So the floor is yours. So I
+
+Speaker  34768:00
+I see a ton of people that I have never seen before. Scott, Are you new to the group
+
+Speaker  36416:00
+I've been in for a year?
+
+Speaker  37632:00
+I've never met you. I never saw you post something. Or maybe I'm wrong.
+
+Speaker  39717:20
+I have, I've had a couple questions.
+
+Speaker  42229:20
+I just yesterday, watched the the the Inspire broadcast that you had yesterday, or that they posted yesterday. So I wanted to make sure I I jumped in on this to get more information.
+
+Speaker  48912:00
+Yeah, usually this call doesn't have a structure in place. It's an open call, so anyone who has questions or any kind of issues, or facing ranking issues or in the indexing and stuff like that, it's basically just an open discussion. It's, I don't have a structure in place for this, because I would have to, I don't know, present every single month something new, okay? And I would rather you guys ask me questions or give me different issues, and I'll be happy to discuss if I know how to fix them or stuff like that. Or if you have any kind of questions regarding my presentation, again, happy to discuss.
+
+Speaker  61162:40
+I can just tell you a little bit. We're we're a three piece seller. We do have some brand rights on a few different items, okay, but most of those we sell directly to Amazon. So we don't do a lot of advertising, because Amazon does that for us. We do some sponsored brands, but that's about it. No sponsored products, because, as I said, we sell to Amazon, so we never get to buy box, so the ads won't populate anyway, yeah, but I'm wondering what we're missing out on.
+
+Speaker  74501:20
+Can you modify the listings
+
+Speaker  75978:40
+we should, because we we created all the the a plus content on it, okay?
+
+Speaker  77418:40
+Because in some people, in some cases, the vendors usually do not have those brand permissions. But it, depends a lot on what kind of products you're selling, because if you're selling very known brands with a large volume, you shouldn't do anything to those listings either way, because those are going to sell and you're just making revenue either way. If they are not so known brands, I would still fully optimize them as much as possible. But with vendor is going to be quite hard, because they require approval for every single change in most cases.
+
+Speaker  89461:20
+And that's the thing, if we're if we're the owner of the brand, if you're
+
+Speaker  90789:20
+the owner of the owner of the brand and you can do any kind of changes you want, but is that still through vendor Central, or is it through seller? Seller Central, we
+
+Speaker  93418:40
+have to do it all through seller, any changes we have to do, we have to do through seller. Correct. The brand registry is all through seller. Okay,
+
+Speaker  96704:00
+then you can do the changes with no issues.
+
+Speaker  97648:00
+You would think so.
+
+Speaker  99104:00
+So you can do the changes through Seller Central, let's say, and then you're selling the inventory into vendor to them, yes, yeah, you can. It's fun. I don't know. I've never worked with vendor. I stayed away from it as much as I can. I had a ton of people came coming to me after they went to vendor, just to transfer everything properly. And it was a complete and utter mass. I'm trying to stay away from vendor, but it's, I know in some instances they will accept the changes. In some instances they won't, and they won't give you a reason for it, right? It's, it's like a game of Whack a Mole. It's, it never goes well, but sometimes it will take the changes, but yeah, and it depends on the niche, depends on the market, depend depends on a ton of stuff. I would still try to modify every single listing and get it up to speed and up to date.
+
+Speaker  115888:00
+Okay, let me ask you this. If you're not a brand owner and you're just a reseller with authorization. Do you have any control, or does it do any benefit to make these optimizations on our back end? Do
+
+Speaker  122421:20
+you are you fighting for the buy box or not,
+
+Speaker  123402:40
+we get a share, but not that, not that great. There's other people that get a higher share of the buy box than I do.
+
+Speaker  126346:40
+I mean, even if the system takes those changes, all of them are going to benefit from it, not only you, if you're sharing the buy box I never sold like this. I always had private label. So I wouldn't know what to tell you on this aspect, but I would guess maybe someone can correct me that if you're doing any kind of changes, and the brand takes it and the system approves it, everyone will benefit from it, not only you, because those are not changes on your listing alone. It's everyone's listening, right? But I might be wrong. I don't know. I never, I was never a vendor or a wholesaler in any shape or form. I always had different private label brands, and I control them 100%
+
+Speaker  141082:40
+I was going to message Morris, who was on that presentation with you yesterday, and try to get his thoughts on that, because I think he does a lot of 3p is that correct? I
+
+Speaker  145104:00
+think so, yes. And he's going to be in New York next week. I will be in New York as well, but I won't be able to stay very long at the conference. So I don't know how many people from here are going to New York as well. From what I understood, it's quite a big turnout, right? Belen in New York next week,
+
+Speaker  149973:20
+yes, yeah, there we have a bunch of people, but it we still have space. If you want to join
+
+Speaker  151445:20
+it, I'm joining either way.
+
+Speaker  152469:20
+Yeah, perfect. Are you good with your daughter? Yeah,
+
+Speaker  153685:20
+I'm bringing her to senior. So that's why I will be at the conference, probably for three to four hours something, because, if not, she's going to burn the building back. So
+
+Speaker  156826:40
+it's Hey, Scott, Alex, I just wanted to chime in. I just kind of jumped in in the middle of that conversation when I joined. I've been reselling on Amazon for over 10 years. If you are authorized, which we are as well, and you do make those changes on the on the listing that you're sharing with all the other resellers. It's completely not worth it unless you are in the Buy Box more than not. Otherwise, if you have your own listings where you can put your energy and time and effort, you're going to find way more juice out of that. And I'll tell you, we compete against the manufacturer, and what we have found is, when we optimize our own listings, we will pull traffic from their listing to ours, because people will find us. Now, of course, people are looking for that brand. You're not going to capture 100% of that traffic on your own listings, but if you siphon most of that to your own listings. You're essentially not competing against the 1020, or 30. I don't know how many resellers are often on those listings, but you'll find way more ROI to have your own listings. But you can also, at the same time, be on a branded listing against those other resellers. But don't spend the energy I would. I would not advise you to spend energy on the branded listing just because of the other resellers they're going to gain from your time, effort and money.
+
+Speaker  179376:00
+Okay, thank you. It's unfortunate, but I can't create new listings with these brands.
+
+Speaker  182949:20
+You can private labeling brand, right?
+
+Speaker  183701:20
+You'd have to do a private label.
+
+Speaker  184645:20
+Are these luxury items? Are these lower cost items? Yeah,
+
+Speaker  185589:20
+they're low cost, right? You mean, some of them are higher cost, but a lot of them are lower cost, you know, like aquarium filters
+
+Speaker  188346:40
+and the ability to not create the new field things. Is that something the manufacturer doesn't want you to do? Or is that just self imposed, or an Amazon thing you can't create it? That's
+
+Speaker  190922:40
+correct. The the manufacturer does not want multiple listings for the same items out there, and
+
+Speaker  192544:00
+that's in the agreement you've signed with them. Yes, ouch, yeah, we've, we've had that put in writing. And I don't know how strong the relationship is with the manufacturer, but if you have a rep over there that is newer and wants to maybe experiment. That may be a way to approach it. Manufacturers are extremely hostile these days when it comes to Amazon, no matter how authorized and how chummy the relationship is, if you have a champion that's willing to take out, maybe run an experiment with you. Maybe run some bundles, maybe run some things that are a little bit out of the box, that you may find an advocate in there. And that's for us, been the key with manufacturers. Find somebody that is a little more risk taker. Find somebody that can advocate for you and maybe say, Hey, I won't do this for six months. What's the harm?
+
+Speaker  207642:40
+Yeah, the thought, I appreciate it.
+
+Speaker  210640:00
+Sure, anything else? Any other questions do you want me to speak on a certain subject I just posted in the group right now regarding the GL mismatch issues. I know it was posted before. I think I posted like at least two times. John specter posted about it, but still, I'm seeing people every single week coming to me, asking me about the same things over and over again. I don't have a problem. I don't mind helping, but I thought maybe that will help a little bit more in clearing up any kind of questions that there might be on that subject. It's been happening for more than a year now, and I still see a ton of people struggling with this. Alex,
+
+Speaker  224042:40
+when did you post that on the
+
+Speaker  225040:00
+20 minutes ago? Okay, thanks. No worries. And I explained exactly when it happens, why it happens, how to identify it, how to resolve it. And so I would highly recommend everyone to have at least one VA that verifies this kind of information across the catalog every single week, non stop. It takes to verify the full catalog if you have SAS, it takes you five minutes. If you don't have SAS, it's going to take you, probably, it depends on how large your catalog is, between five minutes and two hours maximum, only because you need to verify the parents manually if you don't have SAS, But the children can be verified very, very easy, especially if you have all the products under FBA and you're not doing merchant fulfilled. But it's it's such an easy thing to correct, and somehow people are just looking into the wrong things every single time they want to do more product launches, they want to spend more in advertising when it's such an easy issue to resolve. Right now. I mean, before, we didn't know about it and we were just struggling and trying to do different things, but right now we know about it, and it's Very easy to diagnose, basically,
+
+Speaker  256442:40
+where, again, it's not for I don't think it is for people who are doing wholesale. It's mostly for private label.
+
+Speaker  259728:00
+Happens on the wholesale side. Gotta tell you.
+
+Speaker  260288:00
+I bet it happens if you have the right to modify it,
+
+Speaker  261584:00
+if you have your own listings, if you're if you're on the brands, yes, you can't or it's an absolute nightmare. But yes, if you have your own listings, you can do
+
+Speaker  264549:20
+it. Ryan is asking, which tool do you use for listing? Title, bullets, back, end, keywords. Are you talking about a tool for identifying the keywords, or to build everything? If you want to identify the keywords, I prefer to use Amazon directly, which is either the product opportunities, store or the brand analytics. You can also add on that the information that's coming from data rover. You can also use Data Dive. Data Dive tends to miss a ton of keywords in most cases, um, so I wouldn't rely solely on that. You can use that data dive if you want, for tracking and ranking and so on, but don't use it solely for listing, building from top to bottom. I prefer to go directly to the source, and I use Amazon for that. And it never failed, because especially in the product opportunity Explorer, you are usually going to have the most relevant search terms for that specific niche, for that specific group, root keyword, if you want to take it like that. So you can, for example, if you are going into a market that has two or three root keywords, search each root keyword in the product opportunity explorer, it's going to give you 10 to 15 major keywords that you can go after. Just use those for your listing, and you will be good to go. And it works every single time. Instead of you searching through over 10,000 different results that Data Dive is giving you, that's that, in my opinion, is just noise and nothing else.
+
+Speaker  298501:20
+And when you are building the title, I usually build all of my titles manually. I don't use tools for that, but for bullets and description and the overall customer avatar and anything related to that, and the market analysis and so on. I'm using AI and you can train the AI to spit out the perfect listing every single time with no issues. Does that answer your question? Ryan, yeah, thank
+
+Speaker  308416:00
+you for touching on that. You're welcome so I understand, with product opportunity Explorer, you find like the what do you call it on there, like the niche or the that keyword, the parent keyword for the other ones. So once you find that, then you get like that list of keywords. And you're saying to just take like the first page, like those first 15, or whatever main ones.
+
+Speaker  317658:40
+Okay, screens,
+
+Speaker  318170:40
+I have no idea.
+
+Speaker  320554:40
+Okay, can you see my screen? Yeah,
+
+Speaker  321952:00
+yeah.
+
+Speaker  323472:00
+So let's say we're searching for non clippers. This is the main keyword, so usually it's going to sort them based on relevancy for that niche and for that marketing specific. So for humans, you will have nail clippers, and then you will have cat nail clippers, baby nail clippers, and so on. So in our case, we are looking at this, you can click on this one, but I usually tend to click on the one under the top search terms here, because this is going to open directly the niche with all the relevant search terms for this niche. And I rarely see two pages of keywords. Everything that you see here, this is your SEO core. This is what you need to build your listing on, in terms of SEO and for relevancy. This is everything that you need. Oh, you want to track any other variation long term keywords in Data Dive and so on, fine track them. That's great, but make sure you are targeting and you're building your listing based on this, everything that you have here, and in some cases, you will even see some branded keywords perfect. Leave them out so you will have a lot less. This is where all the SEO core starts from.
+
+Speaker  347290:40
+Okay, what? Where did you on the page before this? Instead of clicking on the main, yeah, you clicked on below top search terms. I don't understand that part. Why you click on one of those instead of just
+
+Speaker  350778:40
+this is so if I'm clicking here, this is going to take me to this. It's going to all the competitors and Asian details, the demand, the demand, the customer sentiment, the competition and so on. And you will have an extra click on the search terms. I see that's that was
+
+Speaker  355664:00
+one step, yeah.
+
+Speaker  356080:00
+And you can also, if this is a new product, make sure you take a look on the overall insights, the trends. This is pretty good information as well, and especially on the customer review insights. I usually take every single bit of information that I can find here. If you can download it, that's great, if not just scrape it, copy, paste it, whatever you want, and feed all of this information into a chat bot, into chat GPT, so it can learn as much information as possible, and it will learn also on how to write the bullet points in the description In the exact same customer voice, just as your customers I've seen, I'm still seeing a ton of very, very bad listings, by the way, they were written in terms of copy. The the new AI model relies a lot on what's it called natural language, something I'll find exactly the term, and it prioritizes the exact same language that the customers are using On your listing as well, and it's going to index you a little bit better, instead of you just building those old bullet points on that listing. The information needs to flow. It needs to be very highly relevant, so that Rufus can pick it up, so it can recommend your listing further to that specific audience.
+
+Speaker  385968:00
+Okay, June asked what AI you use, and I'm also curious what AI use, and then, like, what your dialog is with it to have it create, like, to mock this language. Oh, which
+
+Speaker  390661:20
+it's usually I don't have a specific prompt, but everything is related. So on every single prompt,
+
+Speaker  394261:20
+let's see if I Okay,
+
+Speaker  396298:40
+let's say we are giving it a ton of information about let's
+
+Speaker  398026:40
+come in some products.
+
+Speaker  399290:40
+Okay, this guy, and let's take this guy.
+
+Speaker  403008:00
+You usually take the title and the bullet points To give it for analysis. If I'm writing
+
+Speaker  407632:00
+it and
+
+Speaker  413850:40
+he knows already about Cosmo and prfus.
+
+Speaker  416698:40
+Highlight, their main product features, identify any gaps in their listings and build the customer avatar and and you can play around with the with it as much as you can. It's not an issue. You can also give it the link. Now it can follow the link. Make sure you're not giving the short URL, because usually, or you can use Manus AI for that. You can also in chatgpt. You can do the deep research, which is going to be a little bit a little bit much more in depth in terms of analysis, but that takes a little bit of time, but let's see what it gives me on this one.
+
+Speaker  434592:00
+Also, you can give it the all the search terms, or you can give it directly this spreadsheet. You can download it because and you can only keep the total count, the search volume and the demand, because it's going to base its result and analysis based on this. So that's going to be a little bit more in depth for it, so it will analyze everything based on that. Now I'm just realizing now that I gave it a manicure set and I'm searching for nail slippers, but still, it's just for the purpose of for this call. Okay, so it's already finding different gaps on missed opportunity ranking and relevance. Gaps, no use of no benefit led copywriting, no AI or query reinforcement. Words, parts to main product features, material, case design, gift positioning, call out for husband, boyfriend, women, but lack segmentation or emotional death. That's something that Rufus is searching for, listing gaps and optimization suggestions, keyword stuffed into broad. Again, this is a problem for Rufus and for chiasm, small feature dump style, no benefits on the bullet points and so on. So it's already identifying different gaps that you can use to your leverage when you're building that specific product listing. And then it's going to give you basically the customer avatar again for this section, it would be ideal for it to for you to give it the insights that you have, the trends, any customer review insights and so on. And if you have access to the demographics for this niche, let's say it's not a new product, it's an old product, then you will have the customer demographics under. Where is it in brand analytics, right? Yes. So you'll have the demographics here. You can give it that as well, but in most cases, it nails demographics to a tee, so it should be good without that. And basically what you need to do is just feed as much information into the chat bot as possible so it can learn more and accumulate as much information as possible about that niche and about that market. So let's say I gave it. You can also go to their to their listing. You can copy the reviews. You can download all the reviews and upload that so they can learn a little a little bit more about those demographics and about those customers and how they are looking for and what kind of improvements you can bring to the product and so on. And then you can start playing around with it. You can ask for emotional triggers. You can ask for the key features that you need to have and that Rufus usually identifies. You can also work on the Q and A section on the product listing here, you can just click on any questions that you have here, usually two or three clicks are enough for it to list all the related reviews and Q and A's, and you can easily copy those and add it to the chat as well, again, as much information as you can take feed it into AI so It can better understand where you're going with that product. And once you have all of this and he has a proper understanding of that, then you can start asking him to write the bullet points for to be highly relevant for Rufus and Cosmo using this list of exact match keywords. Give me a few title examples, again, highly relevant for Rufus and Cosmo using those exact match keywords, and then you can modify those titles as well. The same goes for the description, the same goes for the back end keywords and any questions that you want to generate, so you can give it to your customers to ask those questions, give that as well, the more relevant you're going to become for the algorithm, for the AI algorithm, the more it's going to recommend your product, and it's going to place your product in front of the correct audience. So you always need to write your listing with the AI in mind. So whenever you are searching for something, the AI is right now, the AI assistant, Rufus assistant, is going to recommend you based on that those that product features and the way that copy was written if you don't have those features or that exact language in your listing, if you're going to miss out because they are not going to recommend your product anymore to those customers.
+
+Speaker  530288:00
+That makes sense, okay. Are you
+
+Speaker  530784:00
+using AI to fight AI? It's it's fun.
+
+Speaker  532496:00
+Are you using, like, the search terms I didn't catch if you put the search terms from product opportunity explorer into AI too, so that it's making like bullet points.
+
+Speaker  536357:20
+Yes, you can do everything. The more information you can give it, the better is going to be. So from this, you can easily download the search terms report. Give give him that any insights. You can just take a screenshot. It's going to work on screenshots with no problems, any trends you might have, any customer insights. Give it as much information as possible and tell him exactly what it is. So on the search term, for example, you can tell him those are the most relevant keywords for this specific niche. Take into consideration the search volume and the overall demand, and he will know what to do next with it.
+
+Speaker  549919:59
+Could I rely off of just the search terms from product opportunity Explorer to create the entire listing? Or Okay, so for title,
+
+Speaker  553365:19
+in most cases, you have enough information here to create the listing and um and, but it depends on how many keyword groups you have. In the case of nail clippers, you don't, I don't think you have anything else. You have fingernail clipper, toenail clipper and nail maybe nail cutter, um, and there's trimmer as well. So you can start searching for nail cutter and nail trimmer, just to see if it gives you different keywords. So you can combine the ones under nail clippers with the ones under nail cutter and nail trimmer, let's say, and that should be more more than enough for this niche in particular. And most markets are like this. Usually they have one to two major root keywords, main keywords, and you don't need anything else. You
+
+Speaker  571722:40
+Question Alex, for you, do you what role, if any, does the sqp terms that Amazon is telling you are either winning or losing on play into the listing building itself.
+
+Speaker  576026:39
+Sqp report usually is giving you the status of your product in the marketplace. So if you are converting higher or lower than the market, if you are if your metrics are higher or lower than the market, mainly the click through rate and the conversion rate and your impression share and so on. So based on the sqp report, you can optimize your listing to increase the overall relevancy on all the keywords where you are above the market in conversions and clicks, but let's say you are not ranking very high on those you can easily add those keywords throughout your listing, or you can basically identify wherever you are converting below the market and see what you can do and how you can optimize your listing to increase that as well. So it's a little bit different. This is mostly for new products. I'm also using it for existing products. For existing products. Yes, I'm combining it with the sqp report as well, but for a new product, or when you want to, just want to do an SEO optimization. Usually the product opportunity Explorer is in Morgan, if you have the correct rules.
+
+Speaker  602037:19
+So So sqp Plus product opportunity explorer, feed those into chat GPT, along with the trends customer reviews should give you more than enough powerful information
+
+Speaker  605290:40
+to Okay, perfect. Yes, 100% and this, I mean, we were doing this before chat GPT, and it was excruciating, especially working with the sqp reports and everything. Now it's just instant. You'll have all the results in less than five minutes.
+
+Speaker  612752:00
+Thank you. You're welcome.
+
+Speaker  614112:00
+I but I, I know I say this in every single call and probably in every single presentation. Do not be afraid to optimize your listings or change your listings for SEO purposes. Don't always optimize them as much as possible and test it out. For example, last week, I changed a listing who hasn't been touched probably in five years. Initially, it started going down for three or four days, and then just started shooting up on all the major keywords, and it took me probably 10 to 15 minutes to optimize, and that's it, and the sales are improving as well, just by doing the normal basic stuff.
+
+Speaker  631845:20
+I have a question about keyword tracking, so you mentioned data rover and Data Dive, but those the data that you get from those softwares, there's a delay. There's like, a 10 day delay for the search volume, the click volume, to show up. And let's say, like, I'm so this, this coming Sunday is Father's Day, and I'm selling a product that's ideal for a Father's Day gift. And I want to see, like, the latest data possible. Where, what software would you recommend for that? Because Amazon also has a one week delay.
+
+Speaker  643440:00
+You won't find data in real time, unfortunately, for especially now, you can go on the historical data,
+
+Speaker  645605:20
+if you want faster, yeah,
+
+Speaker  646325:19
+yeah. Usually you can go on historical data and just add 10 to 15% let's say, because they keep going up. They are marketing a lot more. They are personalizing the search a little bit more. They're always and constantly evolving, and their revenue is going up. Just add 10 to 15% and you should be good, and you have all of that historical data in Amazon as well.
+
+Speaker  653754:39
+Yeah, okay, thank you. You're welcome.
+
+Speaker  655018:40
+But yes, in terms of delays, there's nothing you can do anything that's connected to the Amazon API. That's how the editor API works. You don't have any other options from not that I know of, okay, but for tracking, you can use it. I'm talking about tracking for mostly for keywords and rankings and conversions, and click through rates and so on. Then you can see the effects immediately. The moment you change something on a listing, you will see the effects. It's not, it's not rocket science, usually you will see the changes in one to two days. Even if you change the main image, or if you change the SEO completely on a listing, you will see the effects in one to two days. You will see it jumping in. You will see it rank ranking better, you will see it jumping in, click through rate, or lowering in click through rate, or modifying the conversion rate. It's you will see something in the marketplace. It's not and you can keep testing until you find the sweet spot, until you convert higher on most of the keywords than the average of the market.
+
+Speaker  682149:19
+So Alex, for some of those, like the product opportunity explorer, it has those key, most important keywords. That's what I'm getting from this. Those are the ones that like. You know you need to have in your title. But how about some of like, the longer tail keywords that like are? Do those still have a place in the listing, like in the bullets or the the like, alt text, back end, keywords and stuff, or
+
+Speaker  690672:00
+you can get those from Data Dive or data rover with no issues. You're you're talking about the long tails, uh, generated based on those keywords. Yeah, yes, they still have a place, but in most cases, the moment you are building your listing right, Amazon is going to, and I've seen it happening in over six months now, Amazon is going to place you on those keywords automatically, because they know that they are related keywords to your specific product. Your product is now relevant, and it's relevant for those as well. If you really want to make sure that you are going to be placed there, fine, you can put them in the bullet points and in the description, especially in the search terms. It's fine, but every single product that I did and I launched recently, I relied on this information. Mostly, I didn't have to put any other long tail keywords, and all of them ranked they're selling. I didn't see, oh, I didn't put nail clippers for women in the listing. Let's say this wasn't here, and it's a very it's a much lower search term, and I'm not ranking for it, nope, because when you're tracking them in Data Dive, for example, Data Dive is going to give you the option to track 500 keywords for that product, and it's going to put there all the crazy keywords you can think of. So you can actually see where you are, where you're, where you're ranking, and where you're going, and you will see a ton of keywords where you're ranking for that you haven't put in your listing, only because of the relevancy and how the AI works right now before two years ago, yes, you would have to place them everywhere. Now it does the job for you.
+
+Speaker  724752:00
+Does it make sense?
+
+Speaker  725296:00
+Yes, that makes that makes great sense. Yeah, thank you for that. And for the title. You make it, you said, you handwrite it. You don't use GBT to create the title. Or do you get ideas from GBT? So yes,
+
+Speaker  728757:20
+you can get ideas from GPT. I always ask for GPT for ideas for a few titles, and then I just modify it manually a little bit, I tend to still go for titles that have the unique selling proposition in front of the title, like 10x more durable, 10x more stronger stuff like that, or 100% natural. And then I start with the rest of the title. And the AI is not doing that for you automatically. But yes, I always get inspiration from the AI
+
+Speaker  741728:00
+and you're just trying to edit it so that it reads clean, like an attractive title, yeah,
+
+Speaker  743845:20
+but I can build titles with the AI, and you will never know that they were built with AI. I mean, it doesn't have that robotic sequence anymore. It has a very natural flow, language flow. So it's still it can build good titles they're not excellent. Or maybe it's just me trying not to let go completely. I don't know. I still want to think that I'm still useful. Probably we are going to be completely absolute in less than a year, but still,
+
+Speaker  754880:00
+we still have a purpose in this role. Yeah, exactly
+
+Speaker  756159:59
+makes you feel, can
+
+Speaker  756559:59
+you get all of those search terms in just the title? Like, if we were going to make a title for the nail clippers for this product, could you get all of those in the title? Or, like, do you just prioritize the first five ones
+
+Speaker  761205:20
+that you want to go after? Mainly, now, if you are just launching this product, which I highly recommend you don't, because it's a very, very aggressive market, and it's a price war in it, you cannot go for nail clippers. For the keyword nail clippers, it's, it would be, unless you want to spend $200,000 and just throw it out the window, you will have to find some sort of a niche within a niche in terms of the keywords a little bit, because with a new product, you won't be able to fight the guys who have 100,000 reviews and have their they are selling the product at $5 but You can identify something for I don't know, toenail clippers for seniors, because they usually have some issues when they are cutting their nails. I'm not going to go into details, because they are usually black anyway. Or you can go for women nail clippers, because probably they want a different type of a nail clip. Just don't launch just the average me too product and hope for the best. Basically find a niche within that niche.
+
+Speaker  783658:39
+So you wouldn't even put that main sorry nail clipper. Sorry, you wouldn't even put that main nail clipper number one keyword in your listing.
+
+Speaker  786543:59
+No, you need to put that main keyword initially, but you need to use it as a long tail as well. So you will put, let's say, finger nail clippers for seniors, you still have nail clippers in it, but it's also targeting that specific audience, for example, because, let's say your product has a longer handle and it cuts better, I don't know, very thick nails and stuff like that. So you can target that audience in specific. So I wouldn't start with nail clippers and then continue with the rest of the title. I would always use the long tail keyword that contains the main root keyword in it. Got it add the USB in front of it. Okay, in this case, would be 10x No. 10x cannot work on this 120,
+
+Speaker  805359:59
+25 upgraded map, something like that.
+
+Speaker  806101:20
+That doesn't work. That means you had some issues before. It's ultra sharp. I don't know, toenail clippers for thick nails or something, and you need to be extra careful with the the overall repetition of the keywords and with the keyword stuffing, the algorithm doesn't like it anymore. It needs to have that natural language flow every single time. And start testing as much as you can. The short titles, they work. Go with 90 characters, 100 characters. Max, you don't need keyword stuffing anymore. And you will see improvements across the board. And right now, if you're taking, if you're asking from the SAS. I keep mentioning SAS is because we are using it. They can give you the IDQ report. You will see in the IDQ report, a large score of the IDQ report, which wasn't before, is the brand name in front. So they started putting a little bit more weight to the listings that have the brand name in front of the title.
+
+Speaker  829370:39
+Can you say what the IDQ report is? What I heard that term, what is the IDQ report?
+
+Speaker  830634:40
+The IDQ report is basically the report on all of your listings from it comes directly from SAS. I don't think you can get it any other way. And it gives you how relevant those listings are for the overall Amazon system. And it gives you a score basically for every single listing, for every single category, for images, for copy, for title and so on. It's basically an x ray on your listings.
+
+Speaker  841429:20
+I'm sending it off to our rep right now. I didn't I'd not heard of that before. Yeah,
+
+Speaker  842501:20
+I don't know if I have one on hand to show, but I think I have one.
+
+Speaker  845034:40
+Let me just check,
+
+Speaker  847098:39
+and it has a ton of very valuable information inside IDQ. To can walk you.
+
+Speaker  851552:00
+Record. I
+
+Speaker  855477:19
+No, this is, yeah, it's giving you basically a score.
+
+Speaker  859061:20
+Let me see how I can share this, but your also your sales, sales rep will give you. Let me just download all the reports, and then I'll see what I can share and whatnot.
+
+Speaker  866528:00
+This one I'm
+
+Speaker  871109:19
+me.
+
+Speaker  872613:20
+Now, how can I hide this section? Second I
+
+Speaker  879722:40
+share let's see how I can share it. Screen, business review. So this is something that the assess is giving you, basically it's going to give you it's going to contain pricing, sales, Traffic and Conversion, the fulfillment of FBA inventory, customer perception, the overall discovery variability, how completed the catalog is the enhanced content, the advertising and so on. But then you will have on a brand level, different metrics, the Geo, category level, in terms of traffic, conversions and so on. It's going to give you an overall overview and um, but Id Q report, I can, I can't seem to find the IDQ report, and that one basically also contains different um. I different information as well about that. So I highly recommend you go over it, especially if you have SaaS and giving recommendations based on their AI for all the campaigns and so on, not necessarily the best recommendations, but still, if you don't have a good PPC Manager, in some cases, I've seen very good recommendations, but again, the the accounts were completely mismanaged.
+
+Speaker  906085:20
+This is gold man. Thanks. You're welcome.
+
+Speaker  907498:39
+Thank you so much, Alex, this has been really, really helpful for me.
+
+Speaker  908618:40
+You're welcome. So whoever says that SAS is not worth it, it depends on what you want to achieve. I have sales on three different accounts. On every single account I'm using them to the fullest. Or you can use them initially in the first three months, and then you can just cancel that, but at least in those three months, make sure you ask them for every single report that they can give you, to give you the GL reports, so you can resolve your catalog issues, the ID Q Score, make sure you're getting a higher ID Q score, and resolve everything that they recommend, because those are coming from the algorithm. It's not someone who's making those reports, they are generated by the algorithm. For you for your listings, it's how they are you are being seen. Also, we had an issue where we were struggling for six months to change the brand name on the main brand, and we had a long brand name, and we are trying to make it short in three letters, and that's it. For six months. We've been struggling for six months every single time we we got refusals over refusals. We signed with SAS exactly for that reason, we changed the brand name in less than a week across the capital. Would you say SAS
+
+Speaker  933184:00
+has been awesome for catalog, because that's where our focus has been the last several months. And there's all, as you know, obviously roadblocks, you know, 1000 tickets, and nobody gives you copy and paste just for that. It would you say catalog issues can be handled quicker and more escalate
+
+Speaker  938501:20
+much faster. And they also have, depending on the tier that you are in with SAS, they have three, I think they have three different level levels, and it's all based on revenue. If you're over 10 or 15 million, you're getting to the top tier, if I'm not mistaken, and you will have designated Seller Support for you who are way above the normal Seller Support, so they can help you a lot with those issues, if not SAS can escalate to The correct department every single time. So for me personally, on three different brands, they've been very helpful. And once you resolve the catalog issues and any kind of issues, you can just cancel it. No one is making you keep it forever. We are going to do the same thing.
+
+Speaker  954677:19
+I'm glad you touched that, because they've been calling me for the last four or five months, and I've put it off. But it seems like for me,
+
+Speaker  956650:40
+if you have, I mean, don't take SAS. Don't sign with SAS just for the sake of having SAS. It's not worth it. But if you actually are facing issues, catalog issues and stuff like that. Yes, 100% yes. It depends on the rap that you have, but you can just bombard them non stop with stuff, with emails, with questions. That's his job. Terrific. I mean, just use it as a full list. Just imagine you took a very high level employee for three months, so you are going to squeeze the living hell out of him in those three months. Love it. You'd like hiring a CFO, but you don't want to bother him.
+
+Speaker  974746:40
+So whoever says that SAS is a very bad idea and don't sign with them, that means their account is perfect, which I find it very, very hard to believe. I think I only found and I'm consulting for people as well. I think I only found one account that was close to perfect in over 12 years. I mean, that account was spotless. I told them, there's nothing I can do. I cannot help you. You guys are growing. You guys are crushing it. There's nothing I can do. Everything was on track. Everything was perfect. And it's everything was growing, high conversions, high click through rates, perfectly managed advertising, crushing it on DTC as well. It was just beautifully managed. But that's a UNICOR.
+
+Speaker  994496:00
+Also, if you're launching a brand new a new brand, make sure you take advantage of the free one year program that they give you the free SAS. It's not SAS. It's called something else. It's brand something and it's basically a SAS score program for free for one year. Just make sure you take that every single time, because it's going to help you a lot with scheduling any kind of deals, resolving any kind of issues you might face On the catalog level, escalations anything, and it's free. So
+
+Speaker  1011552:00
+anything else i
+
+Speaker  1014197:19
+Well, you've done a lot, man, I'm my brain's about to explode. Yeah, there's more. I don't know what I'm gonna do.
+
+Speaker  1016181:19
+Yeah, same here.
+
+Speaker  1017125:19
+I feel like it. That's why we're doing it. And again, we can schedule this calls whenever you want. I would love to have, like, a list of ideas or list of issues that you guys are facing. I would love to have those so we can discuss it during each call. Or if you come prepared with that list, that would be great as well. And you can post it in the chat or in the channel, and we can take it from there.
+
+Speaker  1025903:59
+Hey, Alex, is there a chat group just for this? Yes, yes. Where the
+
+Speaker  1027280:00
+MDS SEO channel? Okay. You can find it in the app. In the app, got it,
+
+Speaker  1029296:00
+I can. I'll double check for you and see if you added there right now for you, no problem.
+
+Speaker  1030485:20
+Please do. Thanks. Yeah,
+
+Speaker  1032309:19
+Alex, can I ask? How are you pulling this listing optimization, like in terms of keywords and that stuff with chat, GPT? How are you going to pull that into images.
+
+Speaker  1035578:40
+Well, you can, you can leverage the once you it builds out the key features and the key benefits, because you can just ask the chat GPT to build you the key features, the key benefits. After you, you've given all of that information. After it, build the customer avatar. You can ask him for those and you can implement those key features and key benefits into your images. Or you can also ask him to give you the script for those images, and you can take that script because now chatgpt was trained for that, and you can just place it into the tool that was presented in the previous call, what was called, What was the name of that tool in the AI call, just before Michael with Sam,
+
+Speaker  1052298:39
+Oh, you mean flux? Yes,
+
+Speaker  1053242:39
+and you can just give that to flux, because now chatgpt already build that and give it to flux and see exactly what it comes with, or just give it to your graphic designers, because now they have the perfect template for them to create the graphics based on that so they don't have to create stupid graphics that makes no sense, and you go through 100 revisions, because you know better than they are and So on, you can build that script directly for your graphic designers, and they can work based on that. Chatgpt can also give you different image models for that as well. I was playing around with chatgpt A few weeks ago, and I asked him to design a very playful packaging with very playful images for a kid's snack. And the results were absolutely impressive, like it created small vegetable characters that were funny, and they were jumping on the pictures and doing different stuff while the kids were eating. And I was literally impressed. But it needs to understand that niche. First. It needs to understand what you need from it. So that's why you're feeding as much information as possible to it.
+
+Speaker  1081045:20
+Does it make sense?
+
+Speaker  1082277:19
+Yeah, totally does. How would you adjust this if you're looking at competitors, or would you at all,
+
+Speaker  1084026:39
+oh, sorry,
+
+Speaker  1084682:39
+how would you how would you adjust this if you're looking at competitors?
+
+Speaker  1086410:39
+Um, I usually select five to seven different competitors, and I feed them into GPT so they it can analyze their listings, identify different gaps that they are missing, analyze them for relevancy for Rufus and Cosmo and so on. I want to know exactly who I'm fighting. I want to know exactly what kind of an edge I can bring so I can shift the market a little bit and take a larger portion of the market when I'm launching a product. So let's say, for example, you identify a product that only gets made or most of your competitors are making it in China. But since this is a food product, you can easily make it in us. You can ask for a premium for making it in us. But are people actually going to buy it if it's made in us or not? You need to analyze your competitors. You need to analyze your reviews. I just did that for a new brand that we are going to launch, and it's we identify a ton of people complaining that that product is made in China, and most people are making it in China, so it's perfect without the AI, I wouldn't have identified it, probably, or it would have taken me days to go through those listings. It took me five minutes.
+
+Speaker  1113509:20
+And you're using manners for that, right?
+
+Speaker  1114549:19
+Mostly, I'm using chatgpt management. Started playing around with it. I can't say I'm impressed with it, but I gave the same task to manage. And yes, it was able to enter those listings. It was able to see the reviews, download everything, analyze everything, and build a report. But then that some of the summary of that 30 page report, I still put it into chat GBT to give me the summary for that and highlight everything that I need to know. And it summarized everything perfectly in two pages. So yes, you can use mouse or you can use chatgpt in deep research. That's fine
+
+Speaker  1130789:20
+for getting the SAS core support for a new brand. Would it have to be a new Amazon seller account, or can it be a second brand that you add to the account?
+
+Speaker  1134810:40
+I've always been contacted, usually by SAS, signed with them. Usually they hunt you down. You don't need a new account. Are you talking about normal stats for are you talking about the new brand program?
+
+Speaker  1138768:00
+I just registered a new brand with brand registry yesterday. Okay,
+
+Speaker  1139952:00
+you don't need sense for that. Just register. I can make the introductions if you want okay,
+
+Speaker  1141669:20
+great. Thank you. I'll DM you. Okay,
+
+Speaker  1142693:20
+just DM me, and I can make the introductions, and you will basically get that product for free, that program for free for the first year. And it's very similar to SAS. Okay?
+
+Speaker  1147850:40
+Uh, just so you know that for that program and this information, let's see how many people we have here. This information stays here. Just make sure you inflate a little bit what you tell them. So even if it's a new brand, just tell them that you are planning to launch massively on DTC and bring a ton of traffic, and spend a ton of marketing, of ad spend on anything, really, all the other platforms, and you will have a ton of press releases and articles and interviews, and we will go to Good Morning American blah blah blah blah blah blah, so they can see the potential, so they can put the full team behind you, to help you to grow, to give you access to all the deals and stuff like that. So inflate it a little bit. Okay, got it.
+
+Speaker  1163482:40
+So Alex, like you're using chat GPT for 4.5 then for that research and deep research.
+
+Speaker  1165930:39
+But again, manners gave me very good research as well, but I still put it afterwards in chatgpt. I I think with the AI right now, it's based on what you are used to, not as much as who has the best tool available, who has the best AI and so on. I think it's just with what you are used to. All of them are super capable. All of them are far more capable than us right now, in my opinion, it's just go with your poison. Basically,
+
+Speaker  1175301:20
+it sounds like you're actually using manage to scrape, because you can scrape competitors and all the reviews and all that data, and then you're taking the data from Amazon, and then putting all of that together in GPT, and then training it basically. So you have a custom ggpt that you use for listing optimization.
+
+Speaker  1181802:40
+Yes, I have, yeah, it's a, basically a folder created only for listing optimizations, where, because chatgpt knows everything that you ever discuss with it, it's going to learn about that specific subject, and it's always going to feed you the right information, if you keep it in that in that second.
+
+Speaker  1188608:00
+So you're creating a custom GPT, which you can when you're on a subscription model, and then do you go back to that when you have to go and re optimize like you were talking about testing and then updating based on your data?
+
+Speaker  1192597:20
+Yes, every single time you optimize, okay, and so on. But yeah, the key takeaway would be, just make sure you are feeding it a ton of information beforehand on every single market, new market, Old Market, old product doesn't learn. Just make sure you're feeding it as much info as possible. You did the research and the deep research with Manus, for all the competitors, wonderful. Add that the GPT, add the market research that you did. Add keywords, demographics, everything you can find on add it together as a package and let him play with it.
+
+Speaker  1207781:20
+Because if you don't feed him information, he's going to hallucinate a lot, and he's going to give you a ton of information that might look very well on paper, but it's not true. So you're just taking the guesswork out of it, because he's still trying to trick you, and I found it that to be a very common issue lately, in the last two weeks where he was feeding me different types of information that was not true, and I was asking him, did you lie to me? And he was like, Yeah, I did. And I was like, what? So be careful with chatgpt, with AI in general, it started lying, and it started intentionally giving you the wrong things. So I don't know if it's evolving. I don't know if it's a programming issue, but it's, it's playing a little bit too much.
+
+Speaker  1225797:20
+Yeah, I think that's why I like menace, because it's a bit more accurate, like you have
+
+Speaker  1227034:40
+the term in place, yeah? Better gaze designated, I don't know, but it's yeah, it started doing that, and it admits it made a mistake, or it lied intention. Yeah.
+
+Speaker  1233280:00
+Before he was just telling you, I cannot do this. I cannot generate this. I don't know how to do that, or it's above my thinking. Now it's just lying straight on. I
+
+Speaker  1238901:20
+I had been trying to find a something where you could just give it specific references, and you make sure AI just looks at those references, so that would mean that it doesn't go outside of that, and maybe that would increase the accuracy. But there hasn't there? There aren't a lot of great tools for that. I mean, I tried notebook. Notebooks terrible doesn't really summarize stuff.
+
+Speaker  1248122:40
+What did you find in terms of prompt like, developing your prompts to be more accurate when you're using AI visualization tools. Like, did you test that a lot? And did you find that the keyword data made it better? Or No,
+
+Speaker  1252304:00
+I haven't played too much with AI visualization tools. Okay,
+
+Speaker  1253232:00
+so I'm
+
+Speaker  1253477:20
+just starting to play around a little bit more with that, but I wouldn't be able to help you with that. Sam might be the perfect person for that.
+
+Speaker  1256357:20
+Yeah, I tested a lot of that and found that the quality of the prompt really matters. So really, just using AI to generate better prompts makes a big difference, and then specifying you got to tell the AI which model you're using, because then it understands the model limitations. So even, like, if you're doing a video, it knows. Okay, it does. It does not handle this kind of visualization well. So I'm not going to write the prompt this week. Okay,
+
+Speaker  1266096:00
+yeah, I see why, but okay, yeah, it makes a little bit of sense. Last week, we are becoming more and more lazy since AI was invented. I don't know if you guys noticed that. I notice it on my end. It's lazy and less creative, because we know we can rely on AI. And right now, whatever we don't know or whatever we don't want to do, we jump directly to AI, so our mind is not working on the same level as it was two years ago before. And I think it's a very dangerous path, but it is what it is.
+
+Speaker  1279450:40
+Got a different question for you. Alex on pricing, you know how Amazon will randomly say, you know, your price is too low or even too high. For that matter, it's not, doesn't fit the fair marketplace policy. How do you how or how have you dealt with that issue? When you
+
+Speaker  1284816:00
+it's usually Amazon finding that price for that product in in a different place, they always want to be the cheapest. They will always want to be the most relevant for private label products you don't usually have that you can do whatever you want. If I want to sell my silicon spatula for $150 Good luck. You are not going to stop me. I'm guessing you are facing this issue because you're selling other people's products who are also in stores and on different platforms. 100% yep, I wouldn't know what to tell you on that I had issues with DTC brands, who got hit with something like that with the Buy Box depression. Because of that, I couldn't resolve it other than just reducing the price to that recommended price for two or three days, until they finish the promotion on target, and then we could raise the price again, and I, I wouldn't be the person to ask for that. Maybe Mo has a little bit more information. And I think someone posted about map pricing in MDS recently,
+
+Speaker  1306309:20
+really, okay, yeah, I've seen those fields now be more prominent in several inside of Seller Central map pricing, but we're not competing on within those listings. You know, like for the buy box, this would be our own listings where we don't have any other sellers on them. Okay,
+
+Speaker  1314240:00
+I would know it's not, it's not my segment. Let's predict this. Gotcha,
+
+Speaker  1316176:00
+I
+
+Speaker  1316400:00
+don't usually deal with it. I
+
+Speaker  1318277:20
+or anything related to major operations and so on. I usually have my business partner. He takes care of that. I tend to stay away from that only because I hate it from the bottom of my heart. So if you want to kill me, tell me about a WD and how a WG works and what kind of issues they have with reserve inventory and so on. And you will see me drop that in two minutes, probably.
+
+Speaker  1327834:40
+So I wouldn't know. You can just ask in MDS, but make sure you start. I'm pretty sure I saw the other day something about map pricing. Or you can speak with all the big wholesalers in our group. I know we have some pretty big sellers in our group on wholesale.
+
+Speaker  1333792:00
+Thanks for that tip.
+
+Speaker  1334325:20
+Anytime you will find people from New York, Justine has a very large catalog, and he's very smart for that, and see how they are dealing with that. But I think mo can help you with that as well.
+
+Speaker  1340074:40
+Yeah, I'll hit him up,
+
+Speaker  1341194:40
+guys, I will have to jump in two minutes because we have another call.
+
+Speaker  1344762:40
+I advisory. Oh, Belen is not here anymore. No, no, it's Brian. Brianne Brian, yeah,
+
+Speaker  1346240:00
+oh yeah, yeah, it's Brynne, Yep, sorry. All right, we all good. Sorry, we're good. Yeah,
+
+Speaker  1347824:00
+we're good. Into in the advisory console call. So okay,
+
+Speaker  1349600:00
+all right, thanks for coming, guys and Rolando I sent you that link there, I don't know if you saw it in the chat but you can just click on that and go right to the channel. As long as you're logged in, so. All right, thanks guys. Take it easy.

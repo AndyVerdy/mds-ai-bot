@@ -1,0 +1,707 @@
+MDS Mogul Call with Alex Chiru & Matt Altman
+Date: October 01, 2025
+
+Speaker  240:00
+Um, should we do the Yes,
+
+Speaker  2159:59
+how, how are you here? Where did you get the link? The Facebook group?
+
+Speaker  3919:59
+Oh, you're already there, yeah, I met with Brian last week. He gave it to me. Oh, okay, amazing. It was she
+
+Speaker  6229:20
+joined as a new member, and it was like I just had sent her the first onboarding email. How, how is she here?
+
+Speaker  7957:19
+Okay, we always have the interview, but we just couldn't synchronize. Okay, great.
+
+Speaker  10005:20
+All right, so let me do the MDS slides.
+
+Speaker  10757:20
+Sorry, I'm trying to get everyone here. A lot of people are coming in.
+
+Speaker  14234:40
+Okay, here we go.
+
+Speaker  15642:40
+Alright guys, welcome good to have you here. Just going to take you through some slides. It's going to be your weekly reminder to use the MDS app. So we have, you know, Alex here, who is the leader of the SEO and listing optimization channel. So the great thing about all the channels is that you can get your you're quite likely to get a response from from an expert relatively quickly, you know, Mo on the shipping or Alex on the SEO. So definitely make sure you're, you're on the channels you want to be. There's AI and automation, loads of them. Then also you can catch up on all the videos you've missed as well. So there might be videos from events you may be. There's a, there was a call in Asia, I think, with Ivan that most of us probably missed. So, you know, catch up on that. Mix that in with your podcast feed. Next up, next year, we're going Singapore. So, you know, we've got a lot of members in Asia and Australia. It's going to be fun to party and hang out with them. So it's going to be awesome. Get that, get that booked in. Get those flights booked. Yeah, get on the WhatsApp channel. It's just that way you won't miss any reminders about calls. You won't always know what's going on. So I hope you join the it's just broadcast, so it's not going to clutter up your WhatsApp. Next up, outrank. Not heard of not heard of these guys before. So if anyone knows about these, let me know. But new MDS partnerships, so check it out. 10% off. So that's more for like SEO and getting on to MDS. All right, so we've got Alex and Matt on the call today, so I'm sure Matt will show up. And is Matt here yet?
+
+Speaker  45866:40
+I'm here?
+
+Speaker  46298:40
+Yep, I think he is.
+
+Speaker  46970:39
+So what we were going to do is, Matt has some stuff. Did you have some stuff that you have some stuff that you wanted to share on external traffic?
+
+Speaker  49184:00
+Matt, yeah, yeah. So I just have something briefly that we can go through, kind of what we're doing right now, and it's just a brief overview, but hoping it will open up some questions.
+
+Speaker  52719:59
+Cool, we'll do that. And I've got, I've got an agenda of vitamins that we can we can cover as well. So feel free to put questions in the chat. If you'd like to see your camera on. We'd love to see your face, you know, so we can get a bit of, bit of bit of person to person interaction going on. That would be great. But, yeah, Matt, you want to take it away?
+
+Speaker  57509:20
+Yeah. So
+
+Speaker  58757:20
+I'll share.
+
+Speaker  60954:39
+Okay, can you see my screen? Yeah,
+
+Speaker  61450:40
+got it perfect.
+
+Speaker  62154:40
+Okay, so I think the big thing that we've really shifted to in the last year is we're no longer doing like giveaways on majority of our products. We found out that the strategy actually comes in quite a bit cheaper, and we see pretty much the exact same results. So the big thing that we're doing is sending large and large amounts of outside traffic to Amazon during launch. We're doing that through basically these four things, Tiktok ads, Reddit posts and ads, Twitter posts and ads, Twitter short links and then meta ads. But we're not optimizing for conversions or anything like that. We're optimizing towards a DaaY like traffic level, what's working best for us is we're sending about 25 to 30% of the traffic that we would get once we're ranking for the top 10 keywords that we're going after. So very easy like use helium 10 or seller spite or something to figure out what that traffic would be. And then we're setting up all these campaigns to make sure that we hit that metric. We're pausing those ads every day once we hit the that desired, like click through, and then we get probably, like, a five to 6% bump in organic clicks from that for the rest of the day. And then we just return them back on the next day. We're using regular Amazon URLs, no super URLs, no brand referral bonus. You can use the share links from like the Amazon page itself, but it has to be a basic like amazon.com/dp/asin from what we've seen, you can use the canonical as well, but those two can kind of be interchanged. And then what we're doing is we're pulsing this basically every four to five weeks for about seven to 10 days, and within two to three months, it's basically ranking for just about everything, even though we're not targeting any direct keywords. You can do it in shorter bumps, where, like, you run it every like week and a half, but you can basically, you have to only spike it for about two to three days. But we've seen that the longer pulses with a greater time decay in between. When you do it is working better for us. But I can show you one here, and you can see it's like, this is a product that we launched, like, the third week of May. We had some issues with the listing here, which is why it kind of like, sold barely anything for the first couple weeks, weekly numbers, you can see, basically, we pulsed it here, started getting tons of organic sales. Following three weeks, died back down. We waited a little bit longer on this one because we had some inventory issues. And then we started to spike it again right here towards the end of August, and then it spiked right back up again and continued on. And you can kind of see those like traffic spikes here that we're pushing on those sessions. And basically, as you keep doing this, your baseline two to three weeks post that traffic boost will level out at a new higher level. And this works on old products, new products, pretty much any product. We haven't had an issue doing this. So if you have a large catalog, like we have two or three products every single week that are being spiked this way, and you kind of get a general overall bigger Brand Lift doing it that way, but this has basically eliminated the need for us to do any giveaways on anything and we rank for even more keywords than what we would if we were doing like keyword targeted giveaways. So it's been very successful for us. We've deployed it across about six different brands. This is on our main brand, which is obviously a little bit more known, which does help boost things. But even on like my wife started a pet brand, we did it on that one. It doesn't matter, even if no one knows the brand, it still works.
+
+Speaker  132832:00
+So I could work at what the initial theory was okay, my product is $5 landed. Plus I'm paying a provider or whatever, $5 for a rebate. I'm doing a DaaY. Why don't I just spend $100 on add some traffic and see if that works better?
+
+Speaker  137333:20
+Yeah, basically because what we found is you actually don't need sales. It's just all about hitting the gross traffic levels. And then Amazon, I presented on this. And like November of 2023 for an MDS call, it's all based on the Amazon virality like Amazon science papers, where if they think a product is going viral, they rank it super high for any keyword that it's relevant for, so that they can maximize the sales during that period, and you're basically just mimicking that through running these ads.
+
+Speaker  146256:00
+So what? So you're just trying to get clicks from good sources, and you just doesn't matter whether, if sales would be great, but doesn't matter,
+
+Speaker  148224:00
+sales will be great, but it doesn't matter, as long as it is one of these, like three sources from what we've seen. It does not matter. Like, if you look at our conversion rate on some of these, like, our conversion rate total for that asin goes down to, like, point 2% it and we hold all the rankings during these peak periods.
+
+Speaker  153333:20
+So are all the ads set up to try and get someone just to try and make someone click, to make them curious. Is like, as Could you give an example of how that might work with the ads that you would use?
+
+Speaker  156202:40
+I'm off site right now on a different computer, but I can drop them in. I can send them over to you. Later today, I'll have someone send them to me. And yeah, but we're using just like crazy, like 90% off, like ads that aren't true, because all we care about is actually getting the traffic to Amazon.
+
+Speaker  161440:00
+All right? So you're just saying now 90% off giving them a coupon code
+
+Speaker  162736:00
+that doesn't work, recorded, right?
+
+Speaker  163631:59
+Yeah, we aren't giving them anything. We're just like, basically, like, we'll have a strike through on the price of like, 2299 like, try it today for 399 because we truly don't care about the sales.
+
+Speaker  167205:20
+Oh, okay, so, so, like, a 90% off or something will generate, like, a ton of clicks, but, yeah, they'll be mad if they don't have the 90% off, and then they'll DaaY. They won't, right? They won't get them.
+
+Speaker  170341:20
+Yeah. I mean, the big thing is, is these are not Tiktok shop ads. They're normal Tiktok ads, which, like, if you've scrolled through Tiktok like, sometimes you just accidentally click through on those. Anyways, they're the ones where, like, if you slide right or left, it instantly takes you to the page.
+
+Speaker  175578:40
+I assume you're doing whitelisting, not from the brand, right?
+
+Speaker  176592:00
+Correct, correct, yes, yeah. And majority of them aren't even, like, I wouldn't say they're whitelisted. We've just created other Tiktok ad accounts to run these from and some fake company
+
+Speaker  180560:00
+deniable. Yeah,
+
+Speaker  181008:00
+yeah. I mean, the creative doesn't
+
+Speaker  181685:20
+look like, oh, I don't care.
+
+Speaker  182597:20
+I mean, we aren't doing anything sketchy like this is all legitimate.
+
+Speaker  183733:20
+So is is there a need to go as far as doing tick tock and Reddit and Twitter and medit and meta? Or do you think it would be okay just doing tick tock?
+
+Speaker  186245:20
+You can do it with just tick tock. Um, 100% you can do it with just Tiktok. We like to mix it up a little bit because sometimes, like, you get things that go organic. So might as well just throw it all out there. It's the exact same creative across everything that we're doing on Reddits. We're basically just buying posts from swapped, which is like a marketplace where you can buy Reddit accounts or Reddit posts, and we're just leaving comments with the Twitter short links from Reddit.
+
+Speaker  196416:00
+And then What? What? What are you doing for Matt, for meta ads, just regular, just regular ads,
+
+Speaker  197749:20
+just regular meta ads with the same like the items like 90% off.
+
+Speaker  199573:20
+So pretty much, if you just translate the rebate budget into an ADS budget, that generally will do fine. Yeah.
+
+Speaker  201429:20
+And to be honest, this costs maybe for like, the majority of products we've launched. It obviously depends on how many, like, actual sessions you need that day, but it's costing us anywhere from 75 to, like, $100 a day, which, like on this product that we just launched. If we did giveaways, it would cost us about six to $700 a day.
+
+Speaker  207210:40
+Cool, so we've got some questions on this. Feel free to put them in the chat. If anyone else has more questions on this. First one is with traffic from DSP. Campaigns work on this, or does it have to be off Amazon?
+
+Speaker  210240:00
+Yeah, from what we've seen, it has to be a major social channel. It can't be DSP.
+
+Speaker  212288:00
+Next question, does the UPC have to be the same for Tiktok and Amazon? For Amazon to notice it
+
+Speaker  213829:20
+no so that this has nothing to do with like Tiktok shop or items on Tiktok, it's a completely separate ad account. Yeah.
+
+Speaker  216325:19
+Louise had a question, but these are, these are just run from completely set standalone ad accounts, right? So they're not connected to anything else,
+
+Speaker  218773:20
+yeah, so just open up a new Tiktok Ads account, and it takes like five minutes and run on from there. Yeah.
+
+Speaker  222010:40
+Have you tried this on existing products?
+
+Speaker  222922:40
+Yes, it works on existing as well. We've revived about five products doing this.
+
+Speaker  225456:00
+So are you? Are you basically trying to work out how many clicks you need? Yeah.
+
+Speaker  227088:00
+So what we're doing is we're looking at like, I mean, we use DaaY, a Rosa a lot, but we're looking at like, let's say I wanted to go for because this is just one of our keywords. You basically take your top 10 keywords and you look at the click numbers that like the top three ASINs are getting. You want to be somewhere in that range. So like, top asin gets about 800 clicks for healthy snacks, number two, number three probably get like 504 100. We would try and get about 500 for that keyword, and then we're just going after the volume of the top 10 keywords we want to target for that product. So in total, you'd probably need for, like, if you're going after keto snacks, healthy snacks, protein snacks, like 2500 to 3500 clicks a DaaY.
+
+Speaker  242528:00
+Now I think some people probably would not be able to bring themselves to set up an ad with a 90% discount. That's not there. What would be the sort of next best thing do you think to do for people who don't want to do that.
+
+Speaker  246005:20
+I mean, you can run real discounts, it's just going to cost more for the clicks, so it'll probably double or triple the ad budget. But you could do real coupons at like, 15 or 20% off. I'm always a big fan of the mXTtG coupon, where you say, like, claim anywhere from 10 to like, 70% off, and it still goes to the same Amazon listing with like a coupon Kat code already entered for 20% off. So everyone always wins 20% no one actually gets the 90%
+
+Speaker  254250:40
+and can what? How does it work nowadays, if you offering bigger discounts like 50 60% does that mean that the clicks then don't count so much anymore? Does that still a thing?
+
+Speaker  257423:59
+Yeah, we do not actually do any discounts above 30% like real discounts that they could actually use, okay,
+
+Speaker  260320:00
+the mystery discount would definitely get you those add to carts as well. Yeah. Yep, but
+
+Speaker  262693:20
+it's not really a mystery discount, because it's always
+
+Speaker  263301:20
+going to be the same, yeah, but they don't do that. They don't know that, yeah, and, and the FTC wouldn't care about that, because plenty of brands do that, like save X to X percent, you're still going to get the click on the ad because the higher end of that discount looks really sexy to somebody, and they're going to go test their luck and see so you're going to get the click, you're going to get, you know, probably at least an Add to Cart. And then if you do give a 25 30% discount, you have a higher likelihood of getting a conversion.
+
+Speaker  272314:40
+Yep.
+
+Speaker  272623:59
+Nice Jean's asking, Did you get the ad account suspended?
+
+Speaker  274384:00
+We haven't had any suspended. I mean, honestly, if you look at a lot of the junk that some of these companies run on Tiktok, like not really worried. We've had Reddit accounts taken down, and Reddit ad counts, they seem to be a bit more involved. But like Reddit posts, we haven't had any issues there.
+
+Speaker  280165:19
+Matt, are you using the same ad account and Tiktok for multiple different brands? Or you have dedicated ad accounts for like certain brands?
+
+Speaker  283002:40
+No, we use different, well, some. So we do, like, five to six brands per ad account. So we've got a couple different ad accounts, but we just do it something generic. Like, I mean, our main ad account is one that I came up like, we renamed it from our Facebook buyers group, which was just like, Mila's insane deals club, and we run it through that on Tiktok. I mean, the other thing that we do do on some of these is we're posting on some of these Tiktok accounts, like, just random deals on Amazon. So like other snack deals, like we'll mix and mingle on our organic post, real other brands in there, so that if you ever did find one of our ads and look at our account. It doesn't look like we're only ever pushing our products.
+
+Speaker  294933:20
+Would would click, would clicks from other places or from bots or something like that. Why MX work? Or is it just really the main social apps?
+
+Speaker  297573:20
+It has to be real, logged in social traffic from what we've seen.
+
+Speaker  298997:20
+Have you tested YouTube?
+
+Speaker  299578:40
+We have. We haven't gotten great clicks from it. To be totally honest, it's way more expensive than the rest for us. Twitter is by far the cheapest, but we haven't been able to get a product to rank with just Twitter. It needs to have Tiktok mixed in.
+
+Speaker  304410:39
+What sort of cost per click do you get for a 90% off,
+
+Speaker  305328:00
+like, two to three cents? It's very, very cheap,
+
+Speaker  306512:00
+okay, so you can really send, like, a ton of a ton
+
+Speaker  307344:00
+of, yeah, like, I mean, 100 clicks costs a couple bucks.
+
+Speaker  309407:59
+De pack, not entirely sure what you're asking. If you're asking about keyword targeting, then I don't think there is any keyword targeting. Or are you asking about
+
+Speaker  311893:19
+how so number of clicks to get? The number of clicks like, let's just say I was going to do these top, like, five keywords here, I can see it. They're estimating the top person gets that would be 3456, like 6500 I would do 25% of those 6500 that would be our DaaY target if those were the five keywords that we want to rank for. The whole thing here is your listing SEO and everything has to be right, because Amazon is just going to bump you for every single keyword that they find your listing relevant for. So if you, if Amazon doesn't find you relevant for that keyword, like it's not going to ever boost that keyword, you need to make sure your listing styled in first.
+
+Speaker  323823:59
+I must have, I might have missed it in the beginning. Did you say you're using a super URL or canonical, or you're just using a regular, like, just a regular you, asin, Amazon, asin URL,
+
+Speaker  326821:20
+yeah. So we're using Amazon slash, DP, slash, Asin. We're using canonical URL, and then we're using, like, the the share URL that comes up. Where
+
+Speaker  332378:40
+is it? It comes up photo. It's usually like, right in here on mogul. It comes up. Super simple.
+
+Speaker  334986:40
+Isn't a tablet, right? Yeah.
+
+Speaker  335770:40
+So we would just copy these links out. Yep,
+
+Speaker  338528:00
+yeah. Messi has a question. I presume this is about the mystery discount strategy, but so they would, they would for the mystery discount they would, they would just go in and it would be applied as soon as they checked out. Is that right?
+
+Speaker  342277:19
+Correct? So we're just on the coupon. Like when you create a promo with a coupon, you can add the coupon to the URL, so when they click the URL, it instantly would add that coupon to their account. Cool.
+
+Speaker  346261:20
+What was the website for buying Reddit accounts.
+
+Speaker  347658:40
+Swapped is what we use. Swapd.co I can drop it in the chat. Is
+
+Speaker  350906:40
+that just for Reddit accounts? Or can you buy other stuff on there as well?
+
+Speaker  351722:40
+You can buy all kinds of stuff. I mean, I there's some sketchy stuff on there. We just buy red accounts from there.
+
+Speaker  354576:00
+Lisa has asked me about your creative I think Matt was saying he's not at his regular computer, so we'll have to share that later. So question, Ken, yes. Ken, basically what Matt's saying is that it's just, it's just pay visits from social channels and Tiktok works very well.
+
+Speaker  361685:19
+Yeah. Do you run these through any sort of redirect to like spin your URLs, or you just put a different URL in every different ad campaign kind of thing.
+
+Speaker  365034:40
+We typically do three URLs. We do the DP, sometimes we do the the share one and then the other one is just the the basic canonical that comes up in Google. Okay, that's it. We have seen that if you do use the canonical, the Tiktok posts seem to get indexed by Google better, for whatever reason for the brand.
+
+Speaker  373392:00
+So deep hacks asking, would meta work, meta and Twitter just meta and Twitter work? Or, yeah,
+
+Speaker  375733:20
+just meta and Twitter work. Twitter just does not work by itself. I don't know why, but we've never been able to get one on Twitter to work by itself. I think it's because a lot of the clicks that come from Twitter or bots in general, to be totally honest,
+
+Speaker  380026:39
+and would with meta work on its own? Do you think
+
+Speaker  381338:40
+we've never run meta just by itself?
+
+Speaker  382266:40
+It'd be expensive, for sure. Yeah.
+
+Speaker  383354:39
+Do you rotate the links in the same ad or just different ads have different ads have different
+
+Speaker  384320:00
+links, different ads have different links, but never super URLs. I mean, sometimes, like, you want it to look like someone just socially shared this so, like, go and search your keyword on Amazon and get that really weird, long thing that kind of looks like a two step URL, but it's not. And just put that in there. Yeah. Just never use super URLs. Never use Amazon attribution links,
+
+Speaker  391477:19
+and you will just automatically, you'll get an uplift on every keyword, even though it's pretty much
+
+Speaker  392869:20
+links. Yeah.
+
+Speaker  393621:19
+And how long, how quickly do you see a ranking increase,
+
+Speaker  394997:20
+typically within about two to three days, you'll see rankings increase, and then about a week after you do it is when you'll see the biggest bump up as a whole in rankings.
+
+Speaker  398922:40
+So for less competitive products, if you were, if you were trying to launch, if you were launching something that was less competitive, so, you know, not a supplement, sort of a more of a niche thing, would you? Would you just go for straight PPC?
+
+Speaker  403120:00
+I wouldn't the email PPC on Amazon. Yeah.
+
+Speaker  404368:00
+So if you, if you were launching like more of a niche product that didn't have the same level of, you know, you're not launching like a Keto snack or a protein supplement or something. Would you would you just do, just do Amazon PPC? Or do you think you would still do something like this, or some rebates, or something else?
+
+Speaker  408773:20
+I wouldn't, because we've seen that this is way more effective the ranks hit sooner. The other big thing that we've seen is it lets us see keywords that are driving sales that we wouldn't have ever have thought of, even though they may only produce like one or two sales a day. Like, there's some really good keywords that this has brought forward that we've would have never found elsewhere. Okay, so
+
+Speaker  415210:39
+if something was less competitive, you might be able to rank it just using PPC, but you'd be like, well, we can spend we can just lose. Spend, we can just lose less money on PPC and do some of these and kind of get it ranked quicker, right? People start asking questions about stuff that's being covered. Unfortunately, you're just going to have to watch the recording now, because we can't keep on covering the same the same stuff, guys. Okay, so just a lot of questions about what kind of ads you run on Tiktok. Can you just tell us as much as possible? Because I know you don't have something you can share, but
+
+Speaker  423477:19
+can you tell us about what? Literally a picture of the product, or a person holding the product and it says 90% off, and big, big letters, and it flashes, that is it. It's nothing sophisticated.
+
+Speaker  426597:20
+So, yeah, just just super in your face, cheap. So how long is a typical burst that you run it for?
+
+Speaker  429242:40
+We run it for seven to 10 days, and then we have basically four to five weeks of downtime in between that you'll see the biggest boost in rankings about seven days after the DaaY that you turn it off,
+
+Speaker  433504:00
+all right. So the different links are the share link from Amazon. You've got the very plain link, which is just slash, DP slash, asin, and then the canonical one that has the keywords in it,
+
+Speaker  436879:59
+correct, yeah, we only use the Google canonical link, which sometimes may be different. Just go to Google and search for the a center of the product, and the link that comes through is what's indexing in Google, and that's
+
+Speaker  440677:20
+so that's the one you would use for the canonical one.
+
+Speaker  441317:20
+That's what I would recommend, because we've seen that it indexes the social posts, because meta, well, Tiktok posts have always been indexable on Google. Meta and Instagram flip the switch, like last month, to where their posts there from businesses are indexable as well. So sometimes it ranks for random keywords on Google, especially for like weird keywords that no one ever creates, like videos for, it will rank very high.
+
+Speaker  448704:00
+So what would you be doing for Amazon PPC at the same time as this?
+
+Speaker  450015:59
+So we keep Amazon PPC on for basically 20 to 30 keywords, and that's it. We spend a few $100 a day. You would
+
+Speaker  452928:00
+just be doing single keyword campaigns on the top, on the top 2030 and you'd be happy to lose money on those, presumably, yeah, yep. Super, super aggressive on those, or just lose a bit of money. Get some, get some sales in.
+
+Speaker  457445:20
+No, not super aggressive, like 20% below suggested bid. I
+
+Speaker  459498:39
+um, and then where can you actually get like top fours on big keywords doing this? Or you do need a combination of this and the PPC for it to work?
+
+Speaker  462218:39
+No, you can actually get like top five just by doing this, depending on how competitive the category is, if it's a supplement or something highly aggressive, no, like you've got to be spending on PPC, from what we've seen, if it is a older product that you're trying to revive that does already have some organic sales for that keyword, you can get to position One or two without any increase in PPC spend.
+
+Speaker  469615:59
+I So, yeah, anything, anything else that you're doing for launches at the same time as this at the moment, or you just just doing this in BBC,
+
+Speaker  472373:20
+that this is literally all the way. I mean, we're doing, like, creator connections, but like, that's not huge,
+
+Speaker  474293:19
+regular marketing at the same time.
+
+Speaker  474778:40
+Yep.
+
+Speaker  475834:40
+Is this, if you had sort of gifting products, like sort of Christmas gifting products, when do you think you would start doing this, to start getting on, on gifting keywords?
+
+Speaker  479306:40
+I would do it three weeks before the gifting terms start to spike up because it it'll be like around DaaY 17 to 24 that you'll start to see the results. So it'll make you be in those positions right before those keywords take off.
+
+Speaker  484079:59
+Someone's asking about changing the canonical keywords. My understanding is that you should never do that, because you'll lose your Google SEO.
+
+Speaker  486133:20
+We never, ever do that unless it's a brand new product and it hasn't been indexed in Google and you don't like the canonical that is the only time that we change it. If you change it on, like, a three year old product, you just, like, royally fucked yourself. I think Leslie, if she's on like, she did this, and it screws everything up. Yeah,
+
+Speaker  492794:40
+around that gifting question that somebody asked, like, again, you're not using keyword links in here, so gifting schmifting Like it's gonna go to whatever keyword it goes to, unless the product is naturally searched as a gifting word, right?
+
+Speaker  497087:59
+Yeah, but it's going to be picked up by the algorithm either way.
+
+Speaker  498016:00
+Yeah,
+
+Speaker  499615:59
+you're five to seven weeks. You know, in those births. Is that a downside? If you do it every three weeks, like, what is the I'm assuming you tested both and to come up to the 5% weeks to do each person. What would happen if you do it every three weeks for a new launch?
+
+Speaker  504517:20
+So what we found is you need, basically, you need to figure out what your new baseline is, posts doing something like this on total traffic to the listing on a daily basis. We wait until that basically drops about 10 to 15% below the new baseline before we spike it again. If you do it too frequently, it stops working altogether. I don't know if Amazon's figuring out like that you're doing something or what's happening, but it completely stops like when we originally did it, we used to do it pretty much every other week we were running it, and that worked for all of 2024 but this year, it's minimum. If you're running it for the campaigns, for seven to 10 days, it needs to be at least four to five weeks. Sometimes it's even longer sometimes, depending on if you catch one of the main keywords, and you convert well, and you start ranking well, like it can be eight to 10 weeks before you run it again.
+
+Speaker  521109:20
+Is it? Is it tricky for non Americans to run these regular tech tick tock ads in the same way that is it is to get on tick tock shop, or as easy as someone's asking about Tiktok owner, except us, credit cards, that
+
+Speaker  524282:39
+is a great question. I actually don't know, but you can buy like, similar to like meta, where you can, like, rent an agency account, just rent a Tiktok Ads account from one of the people that has an agency account. You can buy that on swapped too cool.
+
+Speaker  528992:00
+If anyone has got a if anyone's got an answer on that credit card thing, then then let us know. All right, I'm going to move on to Ai, ai, tools and stuff next. So if anyone's got any other questions related to other stuff, you can put them in the chat. We can cover that as well. Just wanted to go to Matt Alex and find out what sort of AI tools you're using at the moment for listing optimization and ranking other areas. Alex, want to go first
+
+Speaker  537637:20
+me, yeah, I'm only using chatgpt right now. I'm not using any other tools. You can train chatgpt to do whatever you want. I don't see the point in using any other AI tools. In my opinion, all of them are pretty much at the same level right now. DaaY,
+
+Speaker  544666:40
+yeah, how about you, Matt,
+
+Speaker  545807:59
+we recently switched over to Gemini for just about everything we're making, similar to chat GPT, like, don't use the basic one, like, create your own gem within it. And I mean, it's doing, like, 90% of the stuff that we need to do. I mean, we're, we are using an eight in to, like, multi workflow. A lot of this stuff so similar to what like Brian's been posting on his like video creation. We're pulling in daayy viral videos and crafting ads and things around what's got trending, but nothing super sophisticated.
+
+Speaker  555786:39
+So you want, like, the $300 the top, top tier Gemini, or like the $20 one
+
+Speaker  557178:40
+I'm on, like, the $200 plan. I think that's the top one. I don't know
+
+Speaker  558266:40
+top one,
+
+Speaker  558554:39
+yeah, yeah. I've heard it's, I've heard it's a beast, yeah.
+
+Speaker  559754:40
+But I mean, it's gotten, like, even for like, listing images now we train it on an eight end, on like all of our top competitors, and we can spit out listing images like it's nothing and just crank
+
+Speaker  564000:00
+if you tried. I know Alex hasn't tried. Have you tried? Call post scraper yet? I go. I can show it to you later if you want the one that Dorian Gorski built. It's pretty cool.
+
+Speaker  567509:19
+Sims doing the same thing that you're doing, Matt, you're just plugging in your asin, and it's going to give you different images and ideas on how to optimize it and so on, automatically.
+
+Speaker  570933:20
+Which one was that Alex Chiru,
+
+Speaker  571658:39
+the one from dork and from Dorian. I didn't know about it either, so I'm going to give it a try.
+
+Speaker  574250:40
+Yeah, definitely get, definitely give it a try. It's like, you basically join his AI club for $100 or $80 for MDS, and then you get so
+
+Speaker  581333:20
+else set up that's that's better because, yeah, I'd be interested to
+
+Speaker  582405:20
+tell Yeah,
+
+Speaker  583557:20
+someone want to comment on that
+
+Speaker  584485:20
+one? Yes, yeah, go ahead.
+
+Speaker  587365:20
+You are live.
+
+Speaker  588106:40
+You had a lot to say,
+
+Speaker  588970:40
+no internet. Someone's internet's just cut off right, right at the wrong time. DaaY, all right. Well, I'm going to get Dorian on. I've got Dorian on like the like, October 30 or something as well. So that'll give some of you guys a bit of a chance if you want to try it out and then see how it might compare to people's DIY setups. But I guess, like, if you're like, just like a single brand, like it's worth, I think I feel like it's worth just paying $80 to have it all set up easily in one place, rather than having to go, especially on a non technical rather than having to go through all the trouble of setting it all up. But for some, maybe some of you guys got some better stuff set up. So would be cool to see maybe we can do another call on, like aI setups and that kind of stuff later on. All right, so
+
+Speaker  602421:20
+unless you're using AI for image generations, which I'm guessing Matt is using Kepler. Is doing the same Kepler, or whatever the name is, you don't need a ton of AI tools. I mean, chatgpt can be trained in any shape possible. So why would you need multiple eight pools. That's what I'm trying to understand. You can keep it at a very minimum.
+
+Speaker  609775:59
+I think it is sometimes worth having multiple of the cheap subscriptions of the $20 ones, because sometimes, sometimes chat, GPT or Claude just won't give me like it just doesn't quite get what I'm saying. And then I can just quickly jump into another one and get it. But I don't think there's any reason to have multiple of the like $300 subscriptions. And also, I feel like in terms of a learning curve, it's if you just focus on one, then you can completely learn it. Whereas if you're split, if you always split between multiple, then you're you're never really, unless you're not doing anything else, you're never really getting the complete mastery of one tool.
+
+Speaker  620154:40
+Yeah, no, I'm all for mastering one and using like an eight end to create workflows for it.
+
+Speaker  623002:39
+I have a question, Matt on what you said earlier. I love that idea of pulling viral videos in for ad creation, because we do, you know, a fair amount of off Amazon ads to Shopify anyway, and ad creative and video editing is always such a sore spot. Where are you pulling them in from? Or what have you trained it to look at as far as, like, finding those viral pieces of content, especially for ad creatives?
+
+Speaker  632277:20
+Yeah, so we're doing, um, let me pull it up. Um, we're using appify Tiktok scraper. If you go to AP, if y.com they have a bunch of like, pre built scrapers of 101 different things built in there. We're just using that, and we're giving it like target keywords. I wouldn't say it's pulling ads, per se. I mean, some ads to come through, but it's majority of just, like, organically, what's going viral? Okay, gotcha,
+
+Speaker  642767:59
+which is what ads are run to. Anyway, I suppose, yeah, yeah.
+
+Speaker  644000:00
+And we're just, we're pulling that into a database and having Jim and I actually analyze the videos and transcribe them, and then it's finding the similarities and giving us concepts. Okay,
+
+Speaker  648581:19
+Matt, any testing between videos on Tiktok versus a static image with the flashing 90% off? Does one? Does it matter?
+
+Speaker  651002:40
+Or, you know, it doesn't really matter. We see about the same click through rate. I mean, what works best if you really want to run like ads that are kind of sketchy is you record like one of those or take a screenshot on the tick tock notifications that comes up. You've probably seen these where it's like, whatever, and just put the X to exit out of that somewhere in the video. But make it look like it's animated, like it's rolling up on the ad. And people just click the X to get rid of it, and they click your ad.
+
+Speaker  661391:59
+Super dark side there.
+
+Speaker  661701:20
+Yeah,
+
+Speaker  662661:20
+all right. So Alex,
+
+Speaker  663717:20
+I will say if you're running like brand tailored promotions, or you're using like advanced audiences through AMC, like this strategy will mess those audiences up.
+
+Speaker  667045:20
+Matt, those are not intentional clicks, so the conversion rate on those has gotten quite low, correct? Yeah.
+
+Speaker  668922:40
+I mean, we, we truly do not care about the conversion rate. I'd say overall conversion rate on like 2000 clicks is maybe three sales a day. It's just as long as you can create what seems like it's going viral. Amazon will instantly bump the rankings.
+
+Speaker  673456:00
+Okay, all right. Next topic I've got is copy strategy. I know a lot of people have been starting move towards sort of human conversion rate, and I know I we try and get good scores on Amazon, comprehend on our stuff, but I'm not sure that it makes that much difference. What are you guys doing in terms of, like, how you do the copy for
+
+Speaker  681637:20
+a new comprehend, or verifying comprehend on that
+
+Speaker  682821:20
+so you comprehend. Alex,
+
+Speaker  684522:40
+Matt, are you still using it?
+
+Speaker  685194:40
+No, like I can show you. So the listing that we launched, that I was sharing earlier, this is the product. The actual SEO for the listing is pure shit, like we've eliminated our bullet points, made them super simple. And as long as you're indexing for the keywords, it doesn't really matter. And we've seen for whatever reason, like this crappy stuff works way better than the high like keyword rich copy that we normally put through. We will launch the product with keyword copy so that we get indexed, we get everything kind of going the way that we want for certain keywords, and within two weeks, we change it back to something very basic.
+
+Speaker  698469:20
+And you think those work because they make it look more like a big brand, or because there's just less to read.
+
+Speaker  700810:40
+Altman knows already what that product is and where to place it afterwards.
+
+Speaker  702170:40
+Yeah. The only time I ever really changed copy now is if we're not indexing for a keyword for some reason, like, I mean, we've tested it where we've removed everything except for one word from bullet points and title, and you'll still rank for everything, as long as Amazon finds the product relevant, and they're definitely doing like image recognition, because on some new products, we won't give it any identifying factors, but it will still index the product for the right keywords. So it has to be pulling it from the images.
+
+Speaker  710581:19
+So, so for short, so short bullets are just geared towards human conversion, right? Just your top five.
+
+Speaker  712117:20
+I mean, I'm a big believer in no one reads the fucking bullet points. Like, when's the last time you were on Amazon? Mogul, and actually read bullet points? I never do.
+
+Speaker  714549:20
+And they are kidding, yeah,
+
+Speaker  715322:40
+but I could tell you, I can tell you your top five benefits of that bar now, but if it was full of keyword copy, I wouldn't be able to tell you like it, right?
+
+Speaker  718218:40
+I mean, basically, we're tailoring the bullet points to that very specific audience, like we're going, this is a snack for kids, and we're hitting all the key points that we've found from moms on why they would buy the snack in as short of a sentence as possible.
+
+Speaker  722175:59
+Yeah, the clean ingredients, the level, all of that
+
+Speaker  723775:59
+chatgpt comes in hand. You can identify all those trigger points, train it for that and spit out exactly the copy that you need in a short form.
+
+Speaker  727189:20
+Are you? Are you having a are you putting a plus premium on your listings or not?
+
+Speaker  729013:20
+I do not putting it in the back end with a full description. But other than that, and keeping the alt keywords in the a plus, but I haven't tested it in a while to see if it's actually making a difference or not, give you like, an extra 0.5% conversion maximum. Yeah.
+
+Speaker  736816:00
+I mean, I'm a big believer A plus content doesn't do anything.
+
+Speaker  737952:00
+Have you tested that? Yes,
+
+Speaker  739712:00
+maybe on one of your products. Andrei, and tell me, how are the sales going to drop?
+
+Speaker  741296:00
+We've seen, we've seen jumps in sales because of a nicer A plus premium, like really good jumps, but it depends on the product. If it's a snack, probably nobody's looking at the a plus, but
+
+Speaker  744821:20
+if you tested it on a lot, I mean, did you? Did you also change the rest of their listing to their main images and things like that at the same time?
+
+Speaker  746922:40
+So first we loaded the images, and that show a really good bump in sales. And then we added the a plus premium, and we saw another jump, but that's, that's lingerie, and the woman would probably scroll down and study but for a snack, maybe it's enough for you to take a decision, because, man, you're buying a cookie, right? So, but you have a beautiful brand, so I would just do it, because it won't cost you much more, right? You're still using the Force to produce it. And I saw some images, same image without an text, and some with text and just repeating. Probably you're just launching and you don't really care about them because, like, your best seller is much more optimized than the cookie that you just showed on the display.
+
+Speaker  759269:20
+Yeah. I mean, I think it may help convert a few people over that actually make it to the detail page, but it won't actually do anything to help get more people to the detail page in the first place, which is the biggest problem that you need to solve,
+
+Speaker  763189:20
+and probably the big bump that you got in sales from changing the main images just got delayed in terms of ranking and everything else. And when you change that, you just
+
+Speaker  766154:40
+we've tested it across tons, like hundreds of products. The biggest thing that changed my mind on this is around this time last year, we paid a third party, like group to do individual user testing, where we recorded the screens of about 7000 people buying things on Amazon through the app and on mobile web. Do you know how many people made it to the a plus content out of those like 7500 people, about seven people scroll the first three images, if it doesn't hit the things that they want, they're off to the next listing.
+
+Speaker  775493:20
+What images and then to reviews. Is it most people, you
+
+Speaker  776421:20
+know, reviews, I think it wasn't as big of a factor as people think it is. I think a lot of people just don't trust Amazon reviews in general. So it was about 20% actually click through to the reviews and read a few before they made their decision, but majority of them just kind of glanced at it, maybe highlighted their finger over it and then continued on down. But we did eye tracking with it as well, and like the amount of people actually looked at it for more than half a second was next to none. It was the first three images. Typically the second and third image, they would stop on for a longer period.
+
+Speaker  786736:00
+I'm pretty sure for you it's main image is the killer and USU that the traffic. You don't really need anything else. But for other categories, I
+
+Speaker  789349:20
+think it depends on the categories, because, like for keto snacks, it's going to be diet conscious people, right? They're going to look at the bullets and want to know how many calories it is, or they look at the nutrition facts, which is probably Image two or three. They're going to be like, great. That's within my calorie range. I want a snack to be in and and make a purchasing decision. Or maybe consumer like me will look at ingredients. I think it really depends on the category. Like I sell tanning products people want to see before and afters. They want to know what is their skin going to look like if they use it, does that person look like them before? What are they going to look like after? I gave this example on you brought up the lingerie thing. And it's funny because dimit ku Brack, years ago, used to sell yoga balls, and his in his image stack was all he was like, couldn't figure out why his listing didn't sell. It was all images of these sexy women with big tits sitting on yoga balls, whatever I'm like, women are not going to buy that, and women are your target audience, like you're crafting your imagery to men, it's the same women are not buying lingerie on Amazon. Maybe some dude who sees these images and is like, oh, I want my wife to look like DaaY. That chick is like, somehow seduced by the the a plus content, but it ain't women. I could tell you that much.
+
+Speaker  812698:40
+So Dimitris designer was probably a man, for sure,
+
+Speaker  813450:40
+probably. So it's like, some people don't think of these things and can't look into like, Okay, what is this product? Why do people buy it? Right? Because people craft their listings around too much of talking about the features of the products instead of, like, what is it going to do for you, right? Which people buy because they want some problems solved and and I have to tell myself this and my team this over and over again, it's like, you have to sell the product and what it's going to do for somebody, not it's better than everybody else's, and it's got this cool feature that, like, ultimately, nobody cares, right? So I in beauty even, like, a plus makes no fucking difference. It just doesn't.
+
+Speaker  826421:20
+Yeah, I'm in the same camp with Rufus too. Who the fuck uses Rufus to buy a product? No one, I mean the call outs that are coming up now sometimes, yes, but like no one ever uses Rufus.
+
+Speaker  829562:40
+So Matt and Alex, what are you doing? What are you doing with prices for a launch? Are you are you just you launching at your target price straight, straight away, or are you coming in at a cheaper price than pushing it up?
+
+Speaker  833296:00
+We're coming in at full price, usually. And yeah, what works best for us is even if the product isn't related to Well, sorry, not that it isn't related if it is similar enough to another product that you already have, so like, let's say Prue, you sell tanning solution, if you if you're selling a scrub, we will variate that together, and we will have a best deal within the first two weeks of launching that product. And that is key. That works extremely well for us. And then we break it back out of that variation, and then it triggers that product to be able to have deals sooner.
+
+Speaker  844730:39
+And would you guys, do you guys still load a Q and A stack or not?
+
+Speaker  846538:40
+We do. It's
+
+Speaker  847066:40
+pretty low effort, I guess, isn't it?
+
+Speaker  847578:40
+Yeah, the main reason behind that is we've seen it actually indexes in Google really, really well. We get a lot of like, we have a client that sells vibrators. You can't run ads to vibrators. They don't show up in normal Amazon search, unless you put in like, sexually aggressive terms. Their number one source of traffic is Q and A that's indexed on Google.
+
+Speaker  852416:00
+So how many, how many questions you normally do it? How many, how many Q and A normally doing, and what do you normally?
+
+Speaker  853941:20
+I mean, it depends. We just go to answer the public and have it pull all the top questions about that type of product, and we just go down through and ask those questions and answer those questions.
+
+Speaker  856869:20
+And you just, you just, you just aren't you just ask, ask them and and answer them with the same account, the two different accounts.
+
+Speaker  859061:20
+But yeah, let's make sure that you're using your brand names as well all of your competitors.
+
+Speaker  860266:40
+I'm ranking for some
+
+Speaker  860874:40
+products
+
+Speaker  861322:40
+on competitor rank on listings and keywords that I'm ranking on normal kickers.
+
+Speaker  863786:39
+I think that some products to Q and A, if you do it right, helps with conversion. Like, again, ingredients, where is it made? Like, things, depending on the product, things that could be, you know, if it's clothing, like, does this fit true to size? That sort of stuff can really help you a not sell to people, to sell the right product to the right people and not get returns and stuff like that, but also help with conversion things you know, like when you plant the questions and answer them correctly.
+
+Speaker  872821:20
+Like this is an example from the sex toy clients. Like this is organic traffic to their Amazon listing from Google, roughly like 18,000 we started bulk answering posts on Reddit and adding Q and A to the listing, and you can see it bumped up here like 260,000 people a month now are ending up on that listing straight from Google.
+
+Speaker  880698:40
+Thank you. Nice.
+
+Speaker  880991:59
+How are you? Are you? Are you looking at anything to find, what Q A to plant that you know is going to rank on Google or anything like that.
+
+Speaker  883775:59
+So the key thing is, if there is a Amazon listing already ranking somewhere in the top like 30 on Google for that question, you can outperform them almost instantly if you just stuff the Q and A correctly. The big thing is to reinforce it with Reddit, from what we've seen, because since the Google shift, like Reddit is a highly trusted source of authority for like consumer opinions on a product, and there's a lot of like third party agencies that you can pay and it's not that expensive to like post about your products on Reddit.
+
+Speaker  893594:40
+All right, we're rapid gotta go rapid fire through some questions now. So if you're launching on DaaY one and you don't search on Google, what would you do to make the Google canonical? Or what would you do if an asin showed up you didn't
+
+Speaker  897808:00
+want What do you mean if you search on Google and your product doesn't come up, it's not going to come up day one? Yeah, then you can just click through to your product and find the canonical URL. Chances are we've seen here recently, a lot of times, the canonical URL is changing at about week three or four on most new products that we've created. I'm not exactly sure why, but yeah, so just keep checking it. We have, like, we use an Aden to basically search in Google on a weekly basis and see if our canonicals changed.
+
+Speaker  907994:40
+Did you manually make the canonical URL on day one? I mean,
+
+Speaker  909210:40
+the canonical URL is made off of the first five keywords that you put in the title. So like when we create a new listing, we will craft a canonical that we want. So our title will only have five keywords the first day we create the listing, and no one will see that, because you're putting the launch date and everything in the future. And then we change the title after we upload the listing.
+
+Speaker  915552:00
+Next question, have you used any 10 to post on Reddit or Quora?
+
+Speaker  916575:59
+Yep. You said every day. Yep.
+
+Speaker  918117:20
+Cool, any agency recommendations for Reddit,
+
+Speaker  919813:20
+I can send you a bunch. I would highly recommend just doing it yourself and learning it, because you will get screwed by a lot of agencies if you don't actually understand what you need to do.
+
+Speaker  923317:20
+Cool, well, this has been awesome, guys, feedback. Link is in the chat. I'll try and persuade Matt and Alex to do this again. So I've got a slot next week, and I've got a slot on the 23rd let me know if you're free. Maybe we could do a bit more on the listing optimization side as well. Could be fun, because there's, there's so much we could have covered.
+
+Speaker  930400:00
+So that's why I love when Matt is in the call. I don't have to speak, yeah,
+
+Speaker  932432:00
+SEO channel call right now, right? Oh,
+
+Speaker  933216:00
+we're actually doing that right now.
+
+Speaker  934949:20
+You can go straight over to the SEO channel call now if you guys want more
+
+Speaker  938501:20
+cool so replay should hopefully open by tomorrow. Please click on the feedback link, guys, and I'll follow up with Matt about the creative.
+
+Speaker  941418:40
+I'll send you the creative, what we're doing, how we're doing it, and the some recommendations on the Reddit and core stuff cool.
+
+Speaker  943738:40
+And I'll add that to the post on the group, and I'll also put it out on the WhatsApp and the app channel for you guys as well we can get it added to the notes for the recording. Cool. Awesome. Thanks guys. Thanks everyone, great engagement, hopefully, we can do this again soon. This is great fun. See you guys.

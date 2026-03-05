@@ -1,0 +1,278 @@
+Alex Chiru & Morris Sued
+Date: April 02, 2025
+
+Speaker  1424:00
+So we wanted this to be more of a workshop, so we're going to try to get through these slides fairly quickly, so that way we have a lot of time to do some listing, tear downs at the end and really get you guys involved. The power of MDS is we're definitely not gurus. I'm not a guru, I'm not an expert. It's really the power of the community. So we want to try to get everyone involved that's here, and hopefully we all could have some great takeaways.
+
+Speaker  8693:20
+Yeah, so we are trying to finalize the presentation maximum 10 minutes. Hopefully if you have any kind of questions, then we can address them in the end, but that's about it. And if you want, do you want to start now with the search, or do you want to do it in the end?
+
+Speaker  13194:40
+Yeah, so go for it. Yeah. I think it's a great idea. So Amazon is
+
+Speaker  14426:40
+moving right now with the AI and everything. It's moving to a much more personalized type of search. You can take your phones out, and you can
+
+Speaker  17183:59
+take everyone take your phone out, and we're going to do a quick search just so you could see it for yourself. If you
+
+Speaker  18672:00
+already search in the Amazon app. Yeah, everyone has the their Amazon app, not seller centering the buyers app. Just search for headphones. One word, just search for headphones and look at the search results and compare it next to the person, the person next to you, and see exactly what type of results you are going to get. The sponsored in most cases, are somewhat identical. But the search results, the organic search results, you will see them completely different. So you might see someone having beats in pink, and then JBL in blue, and the person next to you is going to have a black, completely unknown brand, and two other, I don't know, AKG headphones and so on. So the search results are right now based on your browsing history and your customer avatar. This is what roofers and Cosmo are changing every single day and we don't even know about
+
+Speaker  36384:00
+so where we used to focus so much on keyword, keyword, keyword, where am I organically on this keyword and ranking on the top, you know, this little sample size we just had, could see that it's, you know, it's not like that anymore.
+
+Speaker  40005:20
+Yeah, so let's everything is going to change. Basically,
+
+Speaker  41077:20
+okay for anyone who doesn't know me yet, I've been a member since 2017
+
+Speaker  42821:20
+in MDS, I've been selling since 2013
+
+Speaker  43946:40
+I had four exits so far. I've been involved in over 12 brands. And why am I so cool? Oh, because I have OCD. Yeah, that's easy.
+
+Speaker  46954:40
+Hi, I'm Morris. I've been a member since 2019
+
+Speaker  47914:40
+I'm selling on Amazon Since 2013 I have a team of 12. We manage our own warehouse in Brooklyn, New York. Most of my business is actually 3p retail. We represent a lot of branded apparel and footwear companies. I also do manage our own brand called gold standard in the shoe care space, married, father of three. I have a dog and born and raised and lived my whole life in Brooklyn.
+
+Speaker  54309:20
+All right, Brooklyn native,
+
+Speaker  55269:20
+okay. So Amazon is constantly changing throughout the years, and especially in the last two years, since they introduced the AI behind the algorithm, there are two major ais that are working right now in very close connection, one of them is Cosmo, and the other one is Rufus. Probably you've heard about them. Cosmo is basically just translating everything that they find in the back end of your listing. It's translating it to Rufus, and Rufus is basically personalizing that information for the perfect customer audience every single time. But it's everything is based on your customer avatar. So they have all the data points. They know everything about you. They know if you got a divorce, they know exactly when you went to school, when you got back. They have all of that data. It's insane, what type of data they are, they are harvesting, and they are basically working with all the other social media platforms to gather that data. So it's it's insane. What they are doing right now, the traditional keyword based search is no longer enough. We are not saying that you shouldn't focus on keywords anymore. We are just saying that you need to adapt to that, to the new ecosystem. People don't know this. The majority of people don't know this yet, but this is going to become the new benchmark for selling on Amazon in the next six. 12 months maximum. So if you can stay on top of this from the beginning, you are always going to win in front of your competitors. So
+
+Speaker  82928:00
+yeah, we're in now a new territory on Amazon where, you know, you want to try to be the first ones there, you know, hack how it was before, where it's keywords, reviews, and that's what really got you to be successful. I'm not telling you to change your whole listing overnight, but you should start making adjustments and trying to be first to make, you know, become and take these tips to really make your listing stand out and be your competition.
+
+Speaker  91370:40
+So we're going to focus today on four different things.
+
+Speaker  92554:40
+So we spoke about this as well. Again. Okay, so the three different things that now make Cosmo really different, where previously, it was all about keyword stuffing and, you know, making sure that your tech didn't matter how it looked, how it read, if it made sense or didn't, get as many keywords as you can into your title, it's no longer that. It's all about intent. Now, does that person want a furniture for this size room? Is it outdoor furniture? Does he live in a cold space? Does he live in more summer? What kind of dress do they want? Is it dress for a night out? Is it dress for a wedding behavioral analysis, making common sense connections. So it's not only showing you product, even just based on what you're searching. So you could be it could know that you're searching for camping gear and you need a tent for three people, but it's also going to show you maybe hiking boots and all different related things to that camping trip. So it makes like this knowledge web, and it understands connections between products.
+
+Speaker  108170:40
+And again, it's personalized based on your shopping experience.
+
+Speaker  110010:40
+And then it's the last part is contextual relevance, which is matching your listing based on, like I was saying before, whether you're going on a winter camping trip or a summer camping trip, and it's less focus on just a boot. You know, what kind of boot does this person want? Is it for hiking in a colder space? Is it hiking in in a more summery outdoor space in the US? And it's not so steep, so it's like super, super focused now.
+
+Speaker  117893:20
+So basically, the information that you put in the back end and all the attributes that you have in the back end are going to play a very important role from now on for describing everything for Rufus. So Rufus can put you in front of the right audience. So
+
+Speaker  123050:40
+like over here, is this a quick example that we put on the that we put together, that we found on market. Rocket put this together so you could see previously where it was just about a dog food. Now they understand that the intention of this person that's that wants this dog food, it's for an older dog, for a senior dog, and it's showing them results based on that behavior from previous searches of you know what that customer was searching on Amazon. So it's showing them certain now, foods that are grain free, or that are that are joint supplements and certain ingredients, so making sure you're putting that intention in your title, something that we didn't focus on previously is super important now.
+
+Speaker  134741:20
+Yeah, so basically, your top five guys in the category are not that relevant anymore for that specific audience, because the moment this person is going to search for something like that, they are going to see completely different results.
+
+Speaker  139429:20
+So yeah, so these are going to be the four different areas right now. I'm sure there's a lot of others, but the four areas that we're going to focus on today is intent optimization, which is what we've been talking about, the noun phrases, and making really keyword, not really keyword rich, but really explaining that keyword and who exactly it's intended for. We're going to talk about the attributes in the back end and how to make sure that you're filling out your templates as best as possible compliance with Amazon's new title policy. How many people here already changed their titles? And what were the were the are, have you seen, like, how has it affected? Nate, how has it affected?
+
+Speaker  151205:20
+We were pretty diligent to, like, make sure that we go around 10 or what titles didn't change, right? See the cut out, like most police say, more creates big impacts, regularly changing, like, the cutting boards out.
+
+Speaker  154677:19
+So nice. Yeah. So I've also seen mixed results from some members saying that it was good. Other members, I know Dimitri just we had our NYC chapter, and he said he had great results. Another member said he changed the title and key. His ranking just shot down. So I'm seeing mixed results, but I do think it's important to definitely test it out. Don't be so. Scared. And the last thing that we're going to talk about is Rufus, which is also very important, and how to optimize for that.
+
+Speaker  161743:59
+So basically, everything relies on how well you actually understand your audience and how you can personalize that message to that specific audience. And this is the what the noun phrase optimization actually is in the back end, because they are going to understand that search intent and not just the keyword stuffing that you always had. And it's basically so this is an example, a very good example, instead of the outdoor garden planter box with water weather resistant brown like a normal Amazon title, I think 98% of the sellers have this exact structure. Having a much more personalized title is going to go much better for Rufus and for Cosmo to understand exactly what that product is,
+
+Speaker  176911:59
+exactly understanding what's the material, it's what's the size, it's a large box. It's cedar wood. What is it used for? It's good for your patio, your balcony, your greenhouse. So you could see now it's telling you exactly who and what this product is for, and not just the customer searching this keyword. And
+
+Speaker  181568:00
+this is not necessarily for the title, because I understand that there you might be reluctant on changing the title with something like this, because you're going to miss out on a ton of exact match keywords. You can have this in the first bullet points, and it's still going to matter. They are going to scan everything that you have in the back end, every single attributes, and in most cases, you will see that most listings they have. You can generate multiple fields for the for the bullet points. Most people only put five, but you can generate up to eight, nine or 10 bullet points, depending on the sub category that you are in. Make sure you complete everything, even if they don't show up on the search page, it's going to matter on how Rufus recommends that to the specific audience.
+
+Speaker  195472:00
+This was a cool a few examples that we'll go through quickly from the CEO of product opinion, he put these together, but this is just to get you guys thinking of the ideas and how to actually optimize your listings and to reflect on the customer's needs and use cases, you know. So what is your product used for? It's used for protecting your passport. It's used for it's an event dress for a wedding. It's for jet setters, you know? What is it capable of holding. So these are all like just examples, quick examples to get you thinking, depending on what your your product is, you know, just putting that word in the front of it, and my product is used for and filling in the blank. And those are the keywords and things that you should be or not keywords, but the language that you should be thinking of adding to your listing that way your product is relevant for that target customer base that Amazon created, or that customer profile, I should say
+
+Speaker  210815:59
+in terms of the attribute enrichment, every single attribute in the back end matters. I know I said that before, in the SEO calls, in the SEO channel, or in other presentations, but I'm still seeing a ton of sellers who are not using this fully. You can easily download your what's it called the browser not the browser guide. Yeah, the browser guide is going to tell you the mandatory, well, it's not necessarily mandatory, but the required attributes that need to be completed in the back end, but every single other attribute plays a crucial role right now for Cosmo and for Rufus and how to optimize For for SEO moving forward and again, every single attribute that you see there, it needs to be completed in the back end. And I understand this is going to be excruciated for people with large catalogs, but it needs to be done.
+
+Speaker  227664:00
+So this was this example over here is actually, if you just click on Edit listing in your Manage Inventory, you can see here, I'm sure, if you haven't done it recently, this probably was just, you know, added in the past few months. You don't have this filled out and this, this is, this is what you need to be doing.
+
+Speaker  232005:20
+Yeah, most people rely only on bullet points and description and not even description, because they think that the a plus content is enough. The A plus content is not giving index.
+
+Speaker  235013:19
+So everything that
+
+Speaker  235317:20
+you show you'll see the Yeah. So this is the template that you could download based on your category. And if you just go into the valid values of that spreadsheet, you'll see all the different in discovery. So in the discovery thing, just making sure that you're coming up and you have those few. It's filled out so that Amazon knows where your product fits.
+
+Speaker  241792:00
+Regarding the new title rules, I think it's pretty self explanatory. My recommendation would be to not go the full 200 character limit. Just try to stop at 199 we've seen mixed results with the 200 character limit that they suggest. Stop at 197 998, 199 don't go 200 and the title needs to flow. Try as much as possible to stay away from the old competitor in most cases, they are Chinese sellers, type of titles that are just keyword filled and make no sense for the customers. Alex, yes, the
+
+Speaker  254410:39
+attributes on the back end
+
+Speaker  255210:39
+we I sell my products, they all have
+
+Speaker  256720:00
+10s of variations, dozen variations.
+
+Speaker  257584:00
+We have experimented using different attributes for each variation, just we so we can go through almost everything. And we've experimented with having a consistency like every variation, having the exact same structure. Do you have any insights on that? Anything that works better for you?
+
+Speaker  262949:19
+Well, it depends on what that customer is searching. So having those attributes, and you know that you have multiple variations, that variation is going to show up in the search results a little bit more than the other one, because it's based on the customer intent. So every single variation needs to have those attributes. Basically, would you use the same attributes? Yeah, yeah. Because as
+
+Speaker  268874:39
+many as possible, I
+
+Speaker  269194:40
+would use the same I don't think it's going to matter all that much if you're you. I mean, you can experiment. I haven't tested that just to see if they are going to rank better or not. It all depends on the customer intent and their browsing history right now, and they are implementing this slowly, but it's going to be there fully implemented, I think, in the next three months. So we are going to see some big changes in the Amazon space this year, for sure.
+
+Speaker  276128:00
+And if you scan that QR code that was a cool chat GPT that you could just plug in a title and then it'll show you, like, just a quick optimization of your title based on the Cosmo changes.
+
+Speaker  279461:20
+Yeah, this is yeah for the title. It was not made by us. No, it wasn't disclaimer, so don't kill us if it doesn't work well. I
+
+Speaker  281877:20
+think we have a quick example here. So over here you'll see, previously, a non compliant title, too long, just keyword stuff. It does have the intent. However, it's what used to work. It's not needed anymore. Amazon is going to understand the intent by making it shorter, more readable and to the point. So you can see here, it still emphasizes the wireless. It still emphasizes Bluetooth. It talks about the benefit of your product, long battery life, and it gives them the intent. This is for someone who's in doing sports and travel. We can go to the next one right. And then also, just something that we were talking a few weeks ago at our boardroom was you should definitely still be using your sqp data and not just forgetting about keywords. That's not it's still very important to have your keywords. So you should be using your sqp data seeing which keywords are important and where you're getting still most of your your sales from. Make sure those are still in the in the in the title. But don't it doesn't have to repeat three or four times. You know, figure out a way to only include it in max of two times.
+
+Speaker  301434:40
+And regarding recognition, I think everyone is already familiarized with AWS recognition is the image image reading capability. Ai, it's still not 100% optimized. We've seen a ton of examples where it's just reading it incorrectly, but in most cases, it it nails down exactly the message that you are trying to transmit to your audience. So optimizing your image properly for that specific audience, it's crucial right now with those exact features so that the AI can recognize it. And this is a free tool. You can always run your images through this.
+
+Speaker  314858:40
+So you need to sign up for AWS. And then once you sign up for AWS, it's a free tool, tool called Amazon recognition. And then once you're there, they have different options of like, different things they could do, read text, show me the objects in the image, the age, and you'll see that, I think, on the next one, if you change this one, see so check this out. They're showing you. You know, what's the age of the person? So imagine you're selling a product focus at a more elderly person. Making sure you have an elderly person in your photo is super important, because Amazon has now this AI tools that are showing you the age range based on your pictures, smiling, you know, appears to be happy, all these things. So make, I do think that making sure you're showing that intent as well in the image, and who your intended customer is, is super important, and not just highlighting the product and the detail and who's wearing that dress, who is using your product.
+
+Speaker  329509:20
+I mean, the perfect example for this, I think, would be what Bloom from Cindy Joseph by Ezra. He understood his audience perfectly, and all of his marketing was exactly for that specific audience, women between 50 and 65 years old, and he's crushing it. And he's been doing this for five years now, seven years now, and he understood that way, way ahead of time. So now this type of personalization is moving into the Amazon and AI is making it much more important. And
+
+Speaker  338656:00
+then, like, just some cool things that I've been testing within and playing around with was, you know, in your market, the guy that's beating you at this one spot, the two spot, whatever spot it is, putting their image in, seeing what's coming up on theirs, and then comparing it to yours and seeing, is there anything different? Is there anything you know that I should be doing that I'm not we use
+
+Speaker  344037:20
+recognition a lot. We ran pretty much all of our images through it, and we would see that some of our lifestyle images, Amazon was putting most of the attention on a prop and not on our product. So we would crop or somehow edit the image, just make sure that Amazon understood that our product was the main subject on the image.
+
+Speaker  352112:00
+I remember the example that Aaron Cordova gave. I think it was at Innovate one year ago, or two years ago, when he put his product, which was a milk throttle, in recognition and Amazon identify it as being a bomb, a grenade and mortar. Those were the first three options
+
+Speaker  357328:00
+I sell stuff for baby rooms, and Amazon was was depicting the image as the baby cradle, not my product that was there, but
+
+Speaker  359941:20
+now it's it's much more smarter than that. They are. They are changing, and they are changing on a very, very rapid pace. The best way to see how Amazon and Rufus especially sees your listing is just browsing through Rufus and having your customers asking a ton of questions about your products. You can have friends, family, whatever you want, but let's call them customers. So everything in the Q and A is going to be indexed. It's still indexed. It's been indexed for years. You can even use branded keywords as well from your competitors, because they are going to get indexed as well, but make sure you are writing them for Rufus with those NPOs and intent keywords and phrases every single time, because this is where it's going to pull the information from whenever they are recommending something to their to their audience,
+
+Speaker  376133:20
+product that's for a large age range. Like, let's say newborn to five years old. And if you're using like a five year old in your image as a model, is that going to hurt newborn? Search like, would I be better off just not having a model and just shooting it on like a white
+
+Speaker  380634:40
+are you talking only, only about the main image, because in the other images, you can use different ages. You can use a three year old, a baby, and whatever you want, a newborn, yes, yeah, yeah. So he can, I mean, he's going to look at all of your listing with every single attribute that you have in the back end, all of your copy. He's going to understand that it's for that specific age. But if you give him that specific information in every single image, so the first image is going to be a newborn, the second image is going to be a two year old, then it's going to be a toddler and so on, he's going to understand much better that that audience. And they know. Again, Amazon knows if you have one child, two child, two children, their ages, where do I they are going to school, what type of food they are eating and what you are feeding them based on your browsing history, they already know that.
+
+Speaker  396986:40
+Watch this. I think there's one more point pull up. Okay, so Rufus now took over. If you looked on your listing, there's no more Q and A it's Rufus. So just making sure that you're getting questions posted. It one good thing to do. And I think we're going to come to this on the next slide is just seeing what competitors have in their Q is a Q and A, and getting, you know, customers through five or, you know, however you can to post those same questions about your product. Here's a great example that you'll see. I think it's about rolling paper, actually. Are they slow burning and less hard? So this is before this listing was optimized for Rufus, and
+
+Speaker  408213:20
+then on the next slide,
+
+Speaker  408949:20
+you can see now the answer that they gave is a lot more detailed with a lot more information. So like I said, play around with Rufus. Open up it on a competitor listing, seeing what questions are coming up for theirs, what objections reviews, making sure you're answering those review problems in your questions
+
+Speaker  414362:40
+also something that we don't have in the slides right now, the majority of people under 30, they are not even using the normal search anymore. They are using voice activated Rufus to search for their products. So Rufus is going to specify and it's going to show them exactly the most relevant information for that specific product, and they are going to pull down the information from all the other listings that are relevant. And as long as you have that type of information in the back end, you are always going to be featured by Rufus. And
+
+Speaker  423925:20
+this, the last one was a pretty cool thing. Someone recently, I think, posted it in the MDS Facebook group. But like, something simple that we could be doing is going to roof with Rufus and ask it about your keyword. Hey, why do you recommend that keyword you know? And just seeing what making sure that now you take that information and utilize that in your listing. And if there's a way that you can now get your product recommended in Rufus, you're you're meeting everyone.
+
+Speaker  432106:40
+So these are basically the key takeaways. Again, you're going to get those slides so your you will have to basically switch from the overall keyword optimization that we all know to the noun phrase optimization, but not removing the keywords entirely, not yet. It's still highly relevant, and it's still based on keywords, but that trend is going to change, and it's changing very, very fast, and the attributes still play a huge role in the back end. I highly recommend you you complete everything that you can find in the back end, the product title optimization. You need to do it either way, because it's mandatory. Now, since February, I think they changed it. And understanding your audience and speaking to that direct audience in your images and your in your marketing copy is now more crucial than ever, and this is how the landscape is going to be from now on in Amazon. And in my opinion, in our opinion, whoever is not doing this right now, they are going to lose in the next, in the next years to come.
+
+Speaker  452320:00
+So this is a cool tool I found while I was doing this presentation. It's another chat GPT that has all of the Cosmo research paper in it, and you're able to just put in your asin, and it'll give you suggestions of the intent and of how you can optimize your listing. And I actually took, there was a some people submitted some ASINs, and I used this tool, and you'll see some of the results on the next slide
+
+Speaker  460042:40
+is the person whose product this is here.
+
+Speaker  460986:40
+No, maybe they don't want to see,
+
+Speaker  461690:40
+okay, cool. So you could see, this is the title. It's grass fed, focused on dogs and cats. It's for healthy fur enhancer. And the I put this into that Chachi BT, and you could see why they optimized it this way. So they put into use cases. It's for people with mobility support intent, for picky eaters to for the shiny to have shiny fur so it connects with the audience need, and shows this product to pet owners with senior pets or who need support for their hair.
+
+Speaker  472869:20
+What I would change on the main image, though, it's
+
+Speaker  474069:20
+on the next slide, yeah. Oh, it's on the next link. Yeah. So this was here we put it into now the AMS AWS recognition. And you could see, these are the words that Amazon's pulling from this product image. And I actually use yours. Nate next. Oh. So the one thing that I hear, so here's the first and go back and forth. So you could see here, I
+
+Speaker  481216:00
+don't know how to go back. No, now I know. OK, here.
+
+Speaker  482256:00
+Now go, go to the next image
+
+Speaker  483104:00
+here. So this is native pet. You could see on there is how it shows born. It shows on it a healthy, savory beef topper. In the other image that we just had real beef, it shows for picky eaters. So the intense there, it's showing you what kind of food it is. And you know, grass fed is coming up right away. So from this image, Amazon's pulling a ton of information. And if I if you go back to that other image, you'll see here it doesn't say beef once. It says grass fed, it says natural, it says bone broth. Their name is beefy Pauls, but that's not the same. So you could see how important it is. And I've done so. I've taken this on, you know, so on my shoe cleaners, for example, we have a shoe deodorizer. Amazon wasn't even picking up shoe deodorizer. We had it just like it had eliminate your shoe smell. So now what we did was we took that box, we removed eliminate shoe smell, and we did shoe deodorizer and making sure that it's highlighted, and Amazon sees that from my main image. So I think it's super important if you haven't already, just take your main image, take a competitor's main image, and see where they're stronger than you are, or what's missing in your images that you know they have,
+
+Speaker  502837:20
+and also highlighting all of those features that the product have. Like, what do you have? Here you have? Where is it? How do you say green beef topper for picky eater. So if it's natural, if it's organic, all of those badges won't be able to be seen in the search results in the search page. Make sure you make those a little bit bigger. Make sure you make those stand out as much as you can, because you need to convince you need to optimize for click through rate. And I know I said it before, everything comes down to click through, rate conversion and relevancy. Once your product is relevant, you just need to win the clicks, and then you need to win the conversions. Winning the clicks is by far the most important thing that you can you can do even if you're not changing anything else in your listing, in all of your other images and a plus content and copy and so on. Just by doubling the number of clicks that you have, you're going to double the sales. It's that easy. So highlighting all of those features that people are actually searching for with grass fed, organic, 100% natural, those
+
+Speaker  522085:20
+but also that's what really I appreciate it when I when I saw the difference it, you know what we've been talking about, intent. And right away it shows you, it's for picky eaters, you know. So on the other image, I don't think it had that at all. No, so there's no so there's no intent that they can be seen from this image. Also, if you go back to the title, it said dogs and cats, which was, I don't know if I had a cat and it's a dog on it. I don't know if I'm, you know, buying what he's going to buy that. So, you know, being focused. They should probably have, if they want this listing, have a dog option and a cat option. So you have to have that intent, be focused. Who? What kind of dog is that for? You know, Dimitri talks about this all the time, an aggressive you know, either or, you know, it's super important to be super focused on whatever the product is that you're doing just being a sick you know, the best you can for that that customer.
+
+Speaker  536773:20
+And if those 100 servings are not highly relevant for your customer audience, I would change that with the fact that it's an all natural product, or it contains only one single natural ingredients, or zero sugar, or anything of that nature, anything that people are searching for. And you can find those suggested keywords in either your competitor listings, in their reviews, in the product opportunity, exploring the back end, and even in the suggested search bar in the on amazon.com so look for intent and look for what people are
+
+Speaker  547088:00
+actually searching. Keyword, benefit, intent, not keyword, keyword, keyword.
+
+Speaker  548991:59
+What else? Oh, you take this one.
+
+Speaker  549637:19
+So what is, let's open this up to the to the crowd now. So this is someone. It looks like it was a brand new listing. It was just thrown up. It has no reviews. You know, from looking at this listing, anyone have any recommendation based on anything we said?
+
+Speaker  554693:19
+Well, does it say that it keeps you anymore. My stop should feel getting cold, which is working. Women that are get calls, right? Yeah, I don't think, I mean women get cold. So for sure,
+
+Speaker  559066:39
+what else? Just like dough dish on the image, yeah. Yeah, yeah, yeah, exactly right. And
+
+Speaker  561328:00
+it doesn't stand out at all in the search results. This would be one listing that I personally, I don't think I would ever click, and it's $149
+
+Speaker  563903:59
+right? So, from that image, for $149 you got to show me something.
+
+Speaker  564928:00
+Yeah, show me some badges. Show me nice graphics, anything,
+
+Speaker  566373:20
+yeah, yeah, that's another problem.
+
+Speaker  567349:20
+So put on the some of the things that we saw,
+
+Speaker  569221:20
+so you could show the heat, you know, like, if you and I think I saw it when I was looking at this listing compared to others. You know, people showed like, you know, red fire going through the vest and, you know, showing that it heats up. And so here you can see intent matching why customers should buy this for outdoor activities, work, travel, they wrote from morning commutes to evening scrolls. But you know, use more rich keywords, lightweight, heated vest. Is it for cold weather, for, you know, for when are you using this? And, like you said, battery powered, you know, is what's keeping you warm? Is it the fur inside, or is it?
+
+Speaker  581216:00
+And also, I can see in the bullet points, you icons, yeah, you're still using the emojis. Please stop doing that. You'll get flagged by Amazon. In most cases, you are going to be shadow banned. They don't even tell you, and you will wonder, why aren't you ranking on all the keywords? It could be something stupid like this because they are shadow banning listings on this.
+
+Speaker  588938:40
+Yeah, so I want to share one thing that we're doing that I think we kind of accidentally were doing the right thing, I think. But we, if you saw on our product, we had the second bone broth was, was my product, and our packaging has cartoon dogs on it, and on one of our products we're testing out putting, like, a real dog on the back, behind the image. And I don't know if it's like Amazon, like, just like ranking it better because it sees the dog better, or if it's because people just like seeing a golden retriever on Amazon, but we've seen that product rise, like, number nine. It's category number four, while we're AB testing. So even, like half the time, it just rose up that. Well, that's a big thing. But my question for you guys was, I think the reason, like, I feel like every time we do a conference, there's at least one talk that's like, Cosmo, roofers are changing everything you gotta get with the program. Like Vanessa hung did this. Yeah, we did like Vanessa hung talked about last year at the same conference. I think sellers are slow to adapt because we don't have data on like our audiences, right? We have sqp our data, right? We can see keyword data, and we all love data to make our decisions right. When you're trying to build the audience in the context of your products, how do you like? How are you figuring out what people what the context is people are searching for, and like optimizing titles for that. You
+
+Speaker  609440:00
+can build that audience based on the details that you have in the back end, because you have all the demographics. You have everything. Also in the product opportunity Explorer, you have the intent keywords, you have the demographics, again, if I'm not mistaken, and also by scraping all the reviews from your direct competitors and feeding all of that information that you took from Seller Central, as well, from brand analytics, from everything, and feeding it into chat GBT and asking him to build that perfect audience that's going to that's going to work every single time for me, for me, it's working because,
+
+Speaker  619226:39
+like, where DSTC TV have, like, access,
+
+Speaker  620202:40
+so you have all the data right now, yeah,
+
+Speaker  621338:40
+to the same context there, yes.
+
+Speaker  622250:40
+So basically you have Cosmo Rufus and the DSP. So everything feeds into each other. So everything they are pulling the data from DSP. But I know most people are not using DSP, so that's why we didn't put it in the presentation. But if you have DSP, yes, that's going to be where all of your audience details are, and you can go, as you know, be extremely, extremely focused on every single piece of information that you have there, I.

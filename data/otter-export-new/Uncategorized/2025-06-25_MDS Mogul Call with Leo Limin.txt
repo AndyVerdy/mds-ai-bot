@@ -1,0 +1,350 @@
+MDS Mogul Call with Leo Limin
+Date: June 25, 2025
+
+Speaker  00:00
+Slides that we show. The beginning of our
+
+Speaker  1840:00
+was moving the slides you or me, yeah, can you? Can you show us the slides real quick? It's about,
+
+Speaker  4944:00
+yeah, it's just some I added your photo here just because I we always have Jamie and there's a photo of him, so I changed it for today. And we have the MDS app, the summit, um, reminders in WhatsApp and SMS, a partner spotlight, and finally, the call like,
+
+Speaker  14666:40
+not exactly the topic I'm gonna Talk about, but it's okay. Yeah,
+
+Speaker  16608:00
+tell me what we want,
+
+Speaker  18112:00
+AI, video generating tools in general.
+
+Speaker  20048:00
+Okay, great, yeah, yeah, we didn't have the presenter form. Because
+
+Speaker  22709:20
+Jamie gave me this topic on a very short notice, to be honest. And I don't have a formal presentation, but I made a few videos, and we're just gonna talk about it. Great
+
+Speaker  26565:20
+the so I'll, I'll do the like the first two minutes, basically, to introduce you, and then the floor is yours, Leo, right? You, you'll drop a few words about joint brands at the end, or not even, because,
+
+Speaker  30330:40
+well, I will talk about joint brands in the sense that German brands is competing with AI, right? And what is the future of AI, and what is the future of UGC and stuff like that, right? It's not going to be about joint brands. It's not going to be actually leading to joint brands in any way. So, yeah, it's just, I'll talk about AI.
+
+Speaker  37392:00
+Great question for you, Belen, were there the form again, for the team members to for us to put team members name.
+
+Speaker  40181:20
+It's usually in every event. It's linked there, like I'm gonna share it with you now, just a sec,
+
+Speaker  42741:20
+and you, you are the one approving those guys when they join. And then you check if they're on the list, or,
+
+Speaker  44538:40
+no, it's, it's Brynne. Or, yeah,
+
+Speaker  46042:40
+Brynne, can you? Are you listening to that? I see you're connected.
+
+Speaker  47482:40
+Yeah, I'm here. What's up?
+
+Speaker  48234:40
+Hey, no, I just, I didn't feel, I have two team members joining. I didn't feel that
+
+Speaker  49871:59
+that form. So I can do it right now, if, if I What's, what's her name, Ida trifonova and Rabia mukadu. Okay, yeah, when I, I mean, I mean, I don't really know how that's spelled, but I'm sure when I see him, I'll probably be like, Oh, okay, that's who Etienne talked about. So, yeah, no problem,
+
+Speaker  54853:20
+Ida and Rabia basically. Okay,
+
+Speaker  55381:20
+got it all right, no problem.
+
+Speaker  56165:20
+There's the link just in case.
+
+Speaker  57077:20
+Thanks. Yeah, because sometimes it's in the it's in the event page, but not in Jamie's posts. This link is, sometimes we're chasing this link
+
+Speaker  59898:40
+anyway. It's always the same link, just if you want to bookmark it. Yeah, you know that right now we made a change in which you need to, you need that those employees to be team users in your account in order for them to be allowed in the call. We're launching that. So I can let you get away with it today, but that's our process from now on.
+
+Speaker  69600:00
+That's new.
+
+Speaker  69941:20
+Yes, I announced it earlier this week. I'm gonna keep posting about that so people know, all right,
+
+Speaker  72997:20
+and so we'll launch the recording soon, and if, if there's someone who wants a part of it to be taking out of the recording, then we just say it, and you guys like it, right?
+
+Speaker  76954:40
+Yes, yes. Okay, let me just share that we are here because we, as Jamie, is not here today. Today. He didn't do it. Oh, my God.
+
+Speaker  85408:00
+And we can start with the slides. Yes,
+
+Speaker  88757:20
+recording is on.
+
+Speaker  89221:20
+It's not yet, because I'm gonna start it right after the first couple of slides. Talk about AI
+
+Speaker  90906:40
+video generators, such as video. Let's talk about AI video.
+
+Speaker  92858:40
+If you want. I can go through them. So this is a reminder for you guys to get in the app. We've made some changes. We've started we changed the chat thing so it should start working much better now burn the process. So some of some devices are going to have the new version, some will have the old one. But it's all in the intention to make things better and better each day. And you can also watch all the recordings for all the previous calls there and listen to them as if they were podcasts too. The summit is coming up in a month and a half or something. So hope you're there. If you haven't signed up yet, you should. The hotel is free. It's going to be all for us. So that's amazing. You're going to stumble upon MDS members in the hallways and everywhere else, because it's going to be just us. So that's going to be good. We have SMS reminders and WhatsApp reminders. If you need to, need to add you there, I can do it. You can send me an email. You can shoot me a text or whatever works for you, and we have joined brands as the partner spotlight. What's the offer here? So 100 free cash to spend, plus 20 of lifetime plus free demo and team support. You can scan this QR code, or you can get in the app to check that out. That seems amazing. It's a lot of things on top of each other. So thank you, and that's great. And
+
+Speaker  120709:20
+so Jamie has a very good reason not to be here today, I think is celebrating with Kaylee their wedding anniversary, if I'm not wrong, so I'll be, I'll be, I'll try to be as good as him, and basically gather your questions for the for the conversation with Leo after is sharing. Don't hesitate to show your face to us on Zoom. It's always nicer as a presenter to see other people on the screen rather than talking to a black blind audience, and Leo The floor is yours to talk about those AI tools for Leo. Thank you very much.
+
+Speaker  131680:00
+Hello, guys. Yeah, I'm Leo. I haven't been in this course for quite a while, so I'm so happy to see that there is a lot of development. To be honest. Just logged in into the app. It's amazing. Yeah, so I'm an unusual position here talking about AI. While I'm on the other side of this battle, I'm UGC. UGC creators platform, join brands. But we do see a lot of development in the AI and we are implementing AI tools as well. So I played a little bit with a bunch of different AI tools. I'm not an expert, by no means if you're looking for very detailed and deep, deep dive into AI, I suggest that you start with YouTube, and then you're gonna just get lost there. But for us as ecom sellers, it is important to understand what is possible with AI, if it is economically feasible, what legal problems you may face if you use AI, how, how it's going to affect your business, how it's going to improve your listings, your marketing campaigns and stuff like that. And definitely Leo and and leading AI generating video tools on the market, if you haven't heard of clean, clink was the thing before do, right? Everybody was using clean and clean, literally, a few days after do three released their own Super Video generating tool called Clean 2.1 master So Leo vo three is only available to us people. People are residing in the USA, but you can still get access to it by passing this limitation in a few ways. First is you can install VPN.
+
+Speaker  168773:20
+And is there a lot of aggregators of these tools. One of them is called polo, or polio.ai where you can literally pick any of the video generating tools and just play around with them. And sometimes they are honestly cheaper. I don't know how they do it. They're cheaper than actual video or clean so since we are talking about AI, I don't really want to talk too much, so I'm gonna ask Ian, the AI version of Ian, to do a little bit of introduction. I'm gonna stream my video. I don't know if it's gonna how it's gonna be on the on the zoom. So can I ask for sharing access here? Okay, I
+
+Speaker  185397:20
+Okay, guys, you can you see my screen? Let's
+
+Speaker  187109:20
+talk about AI video generators such as video
+
+Speaker  187770:40
+three. Do you see my videos? As you may have Yes, okay, let me launch it again. Let's talk about AI video generators such as video three, runway cling 2.1, mid journey. And others, as you may have noticed I am AI generated. Yes, I look like Ian, but I am not Ian. My image is generated in chat. GPT, there are actually better AI image generators, but we will talk today only about video. Ai, how can I talk? Well, easy. My voice was cloned with 11 labs, and the video was generated with the help of Higgs field.ai.
+
+Speaker  197360:00
+Go to hicksfield.ai, and click on speak button. You can pick one of the preset templates and then replace the assets with your own click on recreate here. You want to replace the image and the audio with your own files. You can put anyone here, even a Yeti or an alien.
+
+Speaker  203221:20
+Upload your mp three file that you generated in 11 labs, you can clone any voice you want. Click Generate and voila, you made a lip syncing video from an image and an audio file. You may have noticed that my original lighting has also changed to play with lighting. I recommend using relight tool by clip drop.co,
+
+Speaker  208730:40
+yeah. Yes, I almost forgot we are here to talk about vo three and cling. Let's talk about cling 2.1 versus vo three. You know, pretty much less than a week after Google released vo three, cling had a response. They launched Kling 2.1 actually two video generation models, a cling master, 2.1 and Kling 2.1 my opinion, as an AI video generator, VO three is better and generates sound with the video better. However, Kling generates multiple aspect ratios, and you can generate longer videos. As for pricing, Kling 2.1 master is actually more expensive than VO three, while Kling 2.1 standard is less expensive than VO three, but enough of me. I'll let Leo show some veo videos he generated.
+
+Speaker  222554:40
+Just love these labood dolls. I bought, like 100 of them already. So what do you guys think of my art that's hilarious, wild, absolutely wild,
+
+Speaker  226288:00
+can we book him on join brands already?
+
+Speaker  227472:00
+Book? Who book me? Yeah? Well, yeah. So as as you notice, this is scary, and, yeah, it's getting better and better every day. There are a lot of legal aspects here, and you may have heard of lawsuits already against mid journey, because people can generate basically universal and Disney characters and make videos and stuff like that, and the Hollywood guys are waking up and starting to go after AI companies. I don't know how it's going to affect Leo, because I think Leo is training their algorithm on YouTube, and probably somewhere deep in their legal stuff, they have this clause that they are allowed to use all the content for their AI content, some somewhere it may, it may say that, you know, Google probably has good lawyers. And on top of it, kat, kat, which is also an AI tool, now not just video editing, but it has a lot of AI capabilities. It recently updated their terms of service, and they said that all the content generated with or created with CAP cut is now in perpetuity, allowed to be used by CAP cut. So basically, you still own it, but they can use it for their own thing. And this is also scary, because now everything you upload to through kat, kat to Tiktok, for example, is they can use it, and you cannot even sue them about it. So I don't know what is the future, like the legal future, there will be a lot of legal battles, but for our businesses, I would be very careful not to use famous characters, not to use people who can go after you, after you, use them in the AI, right, talking about restrictions. Do three is very restrictive. They do recognize famous people I tried playing with, you know, Trump and Putin and I don't know whether they they instantly block it, right? Also, they're very restrictive on nudity. So if you even have a little bit of any skin showing up on on the images that you're using to generate video, they right away block it as well. So now we are in in flow. This is where we generate those video three and video two, videos, and my very first video was just, just this.
+
+Speaker  276608:00
+This is scary. This is this is a scary stuff, right? And you can always see the prompt. So if you click, for example, this, these two people being friendly and smiling in Red Square in Moscow, it is snowing and people are happy, right? And I use this with the with the two images that I had. So if I, if I go reuse prompt, it will show me, actually, it doesn't show me here the the ingredients, but you can add several ingredients to the video, and this is the best way to generate videos. Unfortunately, sound is not available when you're generating from ingredients. It may have changed by now, I don't know. And these are just silent movies to go to the sound, which is actually the thing for for video three, you can only do it with text prompts. You cannot use you cannot use the ingredients. For example, I made this video for one of my friends. This is literally the very first video with sound that I made, and it came out pretty good.
+
+Speaker  298133:20
+That's why we built fit mentor, not to replace anything,
+
+Speaker  299546:40
+but to take the noise away. So I made a bunch of these videos, and then then, like this one, I asked them to have Slavic Russian accent
+
+Speaker  302538:40
+with fit mentor even coaches managing just five to 10 clients, can stay focused
+
+Speaker  303866:40
+and organized, and it does a pretty good job. Leo, unlike clink, does not allow aspect ratios other than this one, which is horizontal, right? And if you're trying to make content for Tiktok, for example, it's very inconvenient. Clink allows you for different aspect ratios. So
+
+Speaker  309877:20
+fit mentor keeps the back end clean so you can show up fully in the actual coaching.
+
+Speaker  311365:20
+So if you noticed here, she's on the beach, and she shows some skin, but since I generated from text prompt, it's okay, but if I would use ingredients, it would block it would block my video. Mentor keeps the back end, yeah, so, so this is it. And what else here? Like they're very good with sounds, right? So, for example, here, I try to generate those annoying videos that you see on Tiktok, they're extremely good with making those sounds. And, yeah, this is cutting gold. And for example, here we're cutting something else. I
+
+Speaker  326869:20
+so you you may see a lot of these videos now on Tiktok and everywhere, right? What I personally think from my own experience, I even made AI videos when there was no video generator. So they were terrible that all these platforms like Tiktok and YouTube and Facebook, they really go after this video, so they allow them to be used for a while, and then they start to slow down your views. And of course, they ask you to tag all these videos as AI. They do it so that they can have control. So, yeah, I have also here a video that I generated earlier, but then I deleted. This is a video with the product right. This is actual this model I took from mid journey, I used her as ingredients, and I generated this studio at the back, also as ingredients, and she's promoting actual beauty product. It is without sound because there is no there is no sound when you use ingredients.
+
+Speaker  349322:40
+Okay, you see there is a little bit of variation in the in the quality of the images. Like here, freckles disappeared for some reason. Yeah, so guys, you can go play around. Flow is amazing. Let me show you another video that you may have seen this in MDS. Okay, well, this is not the final product. Let me. Let me find the final one,
+
+Speaker  360437:20
+Barry Ruth's vitamins, global from within.
+
+Speaker  362757:20
+Yeah, as you may notice, this is David and his wife promoting Mary Ruth products. And this is the actual product I took from their product page, so it does a pretty good job. And they the song I generated using Sora. Is it Sora? One of those music generating apps, which is also has a huge development to these, that you can just ask for the style, you can ask for the even for the text. You can say, Hey, make, make a song about this, right? And then you can use those videos. You can use that music as a background music for your videos. It's and it's pretty good. You can have it very high definition, and then your style, yeah. So Well, this is, this is it for me, showing videos what I think about the future of Leo and cling, they will definitely develop further. Whatever you see now is just the beginning, and it almost feels like a waste of time learning the prompting. And you know why? Because it's getting better and better. There are so many groups right now where they say, Hey, you have to take this, take it there, use here, and then take it from here to there, and this is what is going to happen. And then guess what? Month later, view is getting better, and you don't need any of that, right? I went through those loops several times and it just you're best off just sitting and waiting what is about to happen, as far as AI versus real user generated content, or real content data shows that people don't trust AI. So there are a few AI influencers trying to sell products and people non responsive to it. So what is going to be the future? Maybe people will adopt it more. So for now, it is just entertainment. So we you see all of this Yeti vlogs about different historic times, and it's very entertaining and very interesting. So obviously Hollywood, or at least bad movies in Hollywood, are in danger. What I also think is that legally, all the content you see is trained on somebody else's images and videos, right? All this AI used to belong, all this content used to belong to somebody. So I think there will be some legal structure to use AI, and you will pay for the source. So companies like Adobe, they're already gathering a lot of a lot of images and videos, and they will use it as a source, and probably also as a base for legal battle against other AI tools that had no source. Why everybody went after mid journey? Because mid journey doesn't have their own, their own marketplace of videos, right, or images. They have no source. So they were training their AI tool on other people's content. So, and I think the future is also in people renting out their avatars to the brand. So instead of making videos, they will be just renting out their visual assets like themselves, right for me as joint brands, I was thinking about it a lot like, is it really endangering UGC? And then I think, well, actually, I don't care how the video is made, whether it is made with a camera or it is made with the AI tool. I still need a person, you know, and and the picture behind. So actually, some of the videos I made with Leo, I took models from joint brands already holding the product. So doing something with the product, I trained the video, and it came out very nicely, because these are real, real images. I didn't have to fabricate anything. So I think there will be a blend between real, user generated content and AI, and the legality will be who owns the rights, right like, who? Who actually owns this? The source, yeah, yeah. Saying this. What do you guys think about it? This? This is it.
+
+Speaker  436288:00
+Leo, there's a question from Chad, how do you get around the nudity issue? Put girl in bikini in the prompt, instead of using a picture,
+
+Speaker  438293:20
+yeah, this is, uh, this was generated by Leo. I did not use any ingredients, so I literally said, I want a girl in bikini on the beach in Miami, blah, blah, blah, with Leo. It is very important to be very detailed. The more detailed your prompt, the more consistent the character. One of the biggest problems with Leo three is the consistent character, and there are ways around it. You You can create a generate a huge prompt, and then keep using it in the beginning of the video, and then the character becomes quite consistent as you keep generating the videos. Yeah.
+
+Speaker  449104:00
+Can, can you mention again, what's the platform that gives you access to many ai ai tools that you mentioned just in the beginning?
+
+Speaker  451088:00
+Yeah, let me just find it.
+
+Speaker  452016:00
+Or maybe show, show us, if you can, how to maybe is, it is okay if we do, like, one step by step, simple, simple thing so you can walk. I understand that the the prompting gets better and that the steps are easier month after month, but maybe if we want to replicate that,
+
+Speaker  457109:20
+yeah, sure, okay, first of all, let me okay. So this is called paulo.ai, P, O, L, L, O, dot, e, i, and over here, yeah, you may see where I get you have a lot of effects, right? It's and you can generate, for example, image to video using all of these generating tools. They have their own, but you can also use the latest link, link 2.2, Master, also Google Video right runway used to be the thing, but it's no longer the thing. That's another thing. There's a lot of competition, and I think Google is the best. So if I, if I take Google right, and you want image right, let me find some image. For example, yeah, and you see in view, the only, I mean, in clink, the only in view, the only resolution is horizontal, but there's a way around it. You can actually place image on the side right, and it will still recognize it, and it may it will make a video on the like the way you want it. So let's put it here. Okay?
+
+Speaker  483920:00
+Well, I don't know what's okay. I
+
+Speaker  486997:20
+image to video. Okay and prompt. What do you want Ian to do?
+
+Speaker  489685:20
+Just join sorry. Oh, sorry. Maybe demo products, something we could use on a
+
+Speaker  493258:40
+well, to demo products, I'm going to go back to Leo, and basically you need to go to flow. I
+
+Speaker  497984:00
+new project. Then you'll go here ingredients to video. Then let me just grab some product somewhere I'm
+
+Speaker  506501:20
+this is what we want is we want to clean, okay, let's take this ordinary we want to have a very clean image of the product. This is not a very good image.
+
+Speaker  511370:40
+For example, this one, this is the one that I actually used media cube. Okay, so
+
+Speaker  514416:00
+I'll save it. Is it okay? If it's open already, with some products on the top, some
+
+Speaker  516464:00
+let's see. Let's see what we can do. We're just experimenting, right? And maybe I want an AI model of some sort, right? So I'm gonna go to mid journey. I generated a video. Actually have here a video. Let me show you this video. It has no sound. It's vo two. This is actual product from, from my marketplace. It's my product, and it's 100% matching. And this model I took from, I took an image from joint brands, and I used her. So I basically put ingredients, this person and this product, very clean product, and white background. And I said, I want her to be on Oregon Coast demonstrating the product, you know, and then, and I think I even said that what, what she has to wear, and that's what we came up with, right? So
+
+Speaker  535589:20
+how do I get an image? Okay, so I can create an image of person here, if you may notice, I was playing around here. For example, this one, right?
+
+Speaker  541834:40
+Okay, and then I will go back to here. I will say, okay, upload. And you may see that you already have ingredients that you used before, you can also generate an image, and this is pretty consistent. There are tools that can you can upload an image, and then they give you a prompt to use for that image, and then you can use it here, but we're going to use actual ingredients. I'm
+
+Speaker  552533:20
+I'm again, I will stop Ian,
+
+Speaker  562464:00
+I Don't I'm
+
+Speaker  567093:20
+go back To view. Load, I'm
+
+Speaker  577344:00
+okay, so girl, image one is holding a jar, image to show showing it to us in bright lit in a Bright lit show room that has shelves filled with products from image to let's see what happens here. You see it says switching you to a compatible model because I had, I had view three by default, and it doesn't do ingredients with Wei three, so it's switching me to be two, right? And then, okay, I just say yes.
+
+Speaker  596960:00
+And it's quite a lengthy process. So I also tried doing videos where the person is putting the cream, for example, for beauty on her face. I'll show you in a bit. Okay, let me just go out here. Look. I
+
+Speaker  604106:40
+this was in here. It actually shows the ingredients to videos, to video and the prompt. So I this is a lip gloss, right? So I uploaded an image of an AI person. I also uploaded the lips with the gloss and the actual product. And she's, she's putting it on her lips. It's not doing a very good job here, right? But this, if you see how I said, beautiful blonde woman attached image one with beautiful glass, like skin radiant. She's applying the lip. Let me, let me see the full you see the prompt is pretty good, extreme close up, cinematic zoom for emphasis. We can only see her face, shoulders and above the waist. She's in a showroom of tocobo Lip oils brand. So this is this tacobo. The showroom is in light blue, so you can go as detailed as as you can, you know, and it's doing a pretty good job, except for the actual touching of the lips didn't work out here. So let's see if it is generating. It's still generating. Okay, this prompt is very short, and as you go, more detailed is going to be much, much better. Let's, let's go back to that. This particular person, it's, it's also ingredient. You see, it's the same ingredients, but now I put actual jazz here, and also a very long prompt. So blonde woman from Image one, with beautiful glass like skin radiant. She's She is lip she has lip gloss on her lips, as shown in Image two, right? So I'm trying to show that she's having a lip gloss, soft skin around hyper realistic style. Yeah. It's very important to describe the style of your video, because you may come up with the, I don't know, not like too, too realistic. Okay, this is our video. Let's, let's see what we've got here. What do I get out of here?
+
+Speaker  640170:40
+Leo, before, before you show us the video, maybe, how would you come up with such a detailed prompt? You you just imagine it. Or you, sometimes you can give the tool an image, and it gives you the perfect prompt describing that image, and you just tweak it.
+
+Speaker  643920:00
+Well, I just came up with it. You know, if you have a little bit of experience with AI, you start to understand, like, the camera rolls out, the camera rolls in. The light is from this side. The light is from that side. It has to be use the word cinematic if you want like, movie star, movie like, right? You can also Google like different how to set up different scenes. Also, Leo has discord, and it's very cool to go through discord videos that people upload and just copy their style, but put your own ingredients, right? So this is what got with this very short prompt. Check this out, guys. I think it's amazing. It's very good because it's exactly this person and it's exactly this product, right? And she has shelves full of this product. I think in next iterations, we will be able to add voice to these people, to AI people. And then is, I don't know what's going to happen. You can make Full Movies with consistent character. You can put yourself in the movie, right? And the lip syncing has always been a problem, but I think they're gonna resolve it, right?
+
+Speaker  664181:20
+Is the label of the products.
+
+Speaker  664917:20
+Yeah, it's exact label. So let's, let's go back like this is media cube, right? Collagen jelly, cream. Let me You can also upscale it. So if I, if I download, I can upscale it, and it's gonna upscale the video, and it's free. By the way, up scaling is free. So let me put full screen. You see media cube. It's exactly as it is on the product, and it's exactly on the shelves, you see. And they closed, I don't quite, I don't have the jar closed, guys, I gave them only the open one, right? And this, this is just amazing.
+
+Speaker  677504:00
+The light on her hair is funny, though. On the right,
+
+Speaker  678341:20
+yeah, yeah, there is, well, maybe there's sun from behind, but you can play with the light as well. Yeah, this is VO three. Let's see what this video 10 is gonna be like, right? Yeah. Well, I guess that's it, a little bit of inspiration. I have to notice, I have to say, that this is a very expensive stuff to play with the bill. I think they have it subscription now on discount, and they give certain amount of credits. But these credits run fast because you make mistakes, you do retakes, and if you want to replace now with AI your actual videos, it's going to take a long, a lot of time, and it's, it's still going to look AI, right? And this is going to be expensive, but in the future, yeah, I think you will be able to make full movies with just a few words, I will be amazing.
+
+Speaker  694437:20
+Vlad is asking, how much did it cost? The one you just did in terms of credits,
+
+Speaker  695925:20
+it was 30 credits, because this was video two, as you go to Bill three, it's 100 credits. And I think they give you 20,000 or 24,000 credits. And those credits go very fast when you do with the bill three to make a full movie, say, I don't know, to make even a five minute movie, you're gonna run out of all your credits. So yeah, and then, then they charge like you can buy more credits, obviously, but it becomes more expensive than what's included.
+
+Speaker  706016:00
+Good. Thank you, Leo. People in the audience, don't hesitate to put questions in the chat Leo or comments on what you've achieved. On your side, I
+
+Speaker  711605:20
+I got a question this. Rolando, hey, this is obviously changing so fast. What are your thoughts on where this would where this is going that this is going to be essential, and you'll need, like, a va that can generate the prompts, put all the assets together, just like if you're have a VA putting together listings. It'll be that essential or or no,
+
+Speaker  718746:40
+it's hard. Well, where is going? Obviously, everybody will be able to generate Hollywood level or better content, right? That's where it is going. The question is whether you need to learn prompting or hire somebody who knows how to do prompting. Yes and no, yes, because AI is still dumb, and you have to be very detailed in how you want to see it. And, no, just like chatgpt In the beginning was not very smart, no, you will be able to have this in a conversational way. You will be just able to say, hey, remove this, add this. And blah, blah, blah. There is no specific knowledge. The only knowledge you need is, since you're making a movie, you can still, you still have to say where the light is coming from. What kind of like? Is it fantasy movie? Is it a horror movie? Is it whatever? And then AI will be adjusting, but most likely they gonna get get it smart and smarter. You will be able to talk to it normally, and they it will be giving you a result. Yeah, thank you.
+
+Speaker  738144:00
+Speaking about sound. Can we continue? Leo, if that's okay, taking that video you just did, and play with the with the with the sound for tools, the tools for sounds, and try to make her say something i Yeah,
+
+Speaker  742405:20
+well, there is no trying to make her say something. There is no way to lip sync this in Dale unless they generate the actual video themselves, right? So you can, you can generate a video, but then it's not going to be this person, and it's not going to be this product. Right? So they're not there yet. There are a bunch of lip syncing tools, what I used for, for Ian, wait a second. What did they use for Ian? I use this tool. It's called Hux field and Higgs field. Higgs field and I used one of these templates where you can change the ingredients, and they're lip syncing very well. I do not know how to lip sync this particular person. Everything I tried, there are lip syncing AI apps. Everything I tried looked ugly, so it is not there yet. They can lip sync from an image, but they cannot lip sync from a video.
+
+Speaker  762709:20
+Can you talk? Can you talk about how you put that other video with the Mary roofs,
+
+Speaker  765082:40
+how you assembled that?
+
+Speaker  765882:40
+Yeah, very easy, like this one. So I generate the one, yeah, I generated a few videos in the same way you see this. This is the product, this, and this. Then I went to cap Kat, and I just stitched them together. And then I went to let me see. What is it? Ai, music, January. I don't remember which one. Oh, suno. Then I went to suno, let me see, yeah, and then soon, oh, you can go create, and you can pretty much say, what, what style, okay, here, here is actually my creations.
+
+Speaker  779333:20
+Okay? Yeah, here is the prompt. Okay. I asked chat GPT to create a verse for Mary Ruth vitamins. Then I used this verse here, and then I asked this program to generate music in the 50s. You see 50s, vintage, pop style, and this is what they did. And then I just downloaded it and used it in cap Kat,
+
+Speaker  789232:00
+I see, so, so it's a process to get there. So you could, but the image you created, or that should say the video you uploaded, that to VO as images as ingredients, they're not talking, right?
+
+Speaker  792805:20
+Yeah, I use the ingredients to create video to video, actually, two of them with two different ingredients, one being David, one, and the other one is his wife. And completely different setting, a little bit like that. One had women at the back. He had guys at the back. And then I downloaded those videos. I added them to cap Kat then I went to chat. GPT generated a little poem here. I use this poem to generate music, song, and then I use that song as a background soundtrack for the video. Yeah, gotcha. A little bit of creativity, yes, yeah, this suno is also amazing. It creates such nice songs. And I think you can even use your own voice now, so it can make you can sing now and then, yeah, put as a background song or lip sync yourself somewhere. Lip syncing and consistent character is still a problem with AI, and there are some AI tools that already allow you to train your character and then use it in different videos. But all all the ones that I saw, they're still bad. So it will it will get there.
+
+Speaker  815994:40
+What would be the best approach to have a consistent, let's say character or group of characters, for your brand, where to save it, how to document it, so that whatever the tool you're using, you have this woman, this man, those children, that's whatever that you Want to use to be consistent for your material?
+
+Speaker  822053:20
+Yeah, well, there is a tool called open art.ai. As if we don't have enough tools already. Yeah, this is where I, I played ao to Nick French. I don't know. I don't know, what is it doing, yeah, just I asked Ian to sing, and didn't sing very well, yeah. And you can create your character here, and it is connected with other AI generators such as clink and deal. It's called open r.ai and yeah, here where you can have your consistent character. So you can create a character. It can be an object. For example, it can be an object. Or, yeah, you can give a description. So start with four images, and you can call it somehow, and yeah, and reuse it in different but it's still, it's still not good, yeah, and that you see their idea is you can keep those characters here and then reuse them everywhere, right? Like, or they suggest you some characters, yeah,
+
+Speaker  843818:40
+so is enough you put four photos of Ian, and that's it,
+
+Speaker  845466:40
+not just photos. They want you to have, like different, little bit different. If you put identical photos, a very similar photos is going to be bad character. Yeah, I in joint brands, we have this idea that creators, and maybe later, some actors, can actually lease their faces, lease list themselves for AI. And as I look through AI, I see that it's not there yet, right? But in the future, actors may not even act. They just list their voice, list their pictures, their body, and that's it. Make 1000 movies with me and pay me royalties, right? I think that that is the future. I
+
+Speaker  860602:40
+All right, then, any other questions, guys, a Leo, I have a question, what do you keep on the learning of AI tools like, what do you? What sources, resources do you so what's your logic behind
+
+Speaker  864736:00
+I don't have much time to learn. I would have given you much better presentation if I actually knew AI very well, but I there is a discord for Veo where you can learn prompting. I also looked up some YouTube videos, and pretty much every AI influencer, every guy who talks about AI, they have their own school course, so you can dive in and go to school and just learn all of that, but you're gonna be lost. It's just so much, and every day there's more I feel. I almost feel like everything we're talking about is going to be outdated in a month or two, so it's kind of useless.
+
+Speaker  876218:40
+So, yeah, I totally agree. That's what
+
+Speaker  877114:40
+I'm like, kind of holding on into, like, not sure what to do. There's so much change,
+
+Speaker  878618:40
+yeah, as, as I always said, like, real people versus AI. AI doesn't have an address, AI doesn't have a credit card. Ai doesn't have a shopping behavior. I don't think AI can go live yet, so real people are still here to stay for a while, at least, right? Unless legislature changes, and also, I think that, looking at the patterns, AI will start to shrink in the capabilities, right? It's like the early days of internet, everything was allowed, and now all of a sudden, not, like, almost nothing is allowed. Like every single piece of content, oh, it's it's copyrighted, it's copyrighted. So everything will be copyrighted and restricted. And, yeah, you'll have to disclose your sources as well. Like you upload this image, you have to sign some waiver that you have legal right to use it unless, and then they're gonna use AI to say, hey, actually you don't have the right to use it. Pay us. And this is where it's gonna go, I think, in the future. So now is the Wild West. So do those yetis and like mid journey, influencers, etc. Thank you. So
+
+Speaker  898112:00
+it would actually make sense to have those calls once a month, or very frequently, to update on each each approach, right? Instead of watching the recording of three months ago that is probably already updated. Yeah,
+
+Speaker  901925:20
+well, it's very useful for improving your image quality already. I'm pretty sure everybody's using it already. And you can have product only videos, right? So this is your product. You can play with lighting. I didn't do any of those, so I tried to focus on people. But I think it's it's already doable, and it's already better than if you just, you know, get the video person and pay them 1000s of dollars, you can do everything yourself. The problem is, the person in the camera, right? Like, who owns the rights there? Yeah,
+
+Speaker  911658:40
+have you found out that some products are still not the best for AI videos, I don't know, with many, many small parts or many different materials. Or do you have you find out a way to handle any products?
+
+Speaker  915536:00
+Yeah, it's, it's easy with products that doesn't have many parts. I actually played with headphones. You can put them on. It's easy, right? Clothes? I have videos where I put clothes on AI influencer, actually, I have them in view as well. And I can show it's it goes perfectly well in Veo. So you can, you can take a dress, for example, and dress up a person with that dress perfectly. But if you go with something complicated, no, it's not there yet, yeah, but it will get there.
+
+Speaker  926410:40
+Compare with that Will Smith eating spaghetti video which is, which was just what a year ago. It was completely unacceptable right now, it's it's almost Hollywood quality. Yeah.
+
+Speaker  931888:00
+Any more comments or questions? Guys can write it in the chat. If you don't want to speak, that's fine,
+
+Speaker  935797:20
+right? You want to say a word again about joint brands. You have an mogul call Coming soon, on, on, the latest development on joint brands is that,
+
+Speaker  938645:20
+right? Yeah, in June brands, what we have is we're integrating now with Tik Tok. It's called Tik Tok one, and we also integrated with Tik Tok shop API. And very soon you'll you're going to have very detailed statistics on your creators. It's still one of the best ways is to order multiple pieces of content and boost with your spark ads, the content that is performing the best. It's just it was not very obvious which content is performing the best, because you have to check your sales in your own dashboard, right? But now it will be available in the dashboard, also in less than a month. We are releasing lives module. So basically, you could order a bunch of Tik Tok live creators to create lives live streams for you on Tik Tok in you can get as many as you want, and you'll be paying per minute, basically. So it's like $1 a minute. So one hour of life will cost you 60 bucks, which is a, I think it's a very good deal, especially if you hire a good creator. And many creators, they like to work with retainer rather than just affiliate commission. So obviously you set up your affiliate commission and plus you give them a retainer. So and the platform is keeps getting improved. And there is a there is a promo code, I think even in this call for MDS, that you literally can get a lot of stuff for free with that promo code. If you want to start with John brands, just ping Ian, he'll give you a lot of goodies and just you play for free. Yeah,
+
+Speaker  965600:00
+got it. Thank you, Leo for those final words. Finish early. It's amazing. Guys, please take a minute to click on the on the link, the feedback link. It helps everyone to make those calls better. Don't hesitate to write suggestions how to make those better and answer your needs. Leo, thanks a lot for your time, and we'll see you very soon on another Call.
+
+Speaker  972234:40
+Thank you guys. See you. Thank you guys. You

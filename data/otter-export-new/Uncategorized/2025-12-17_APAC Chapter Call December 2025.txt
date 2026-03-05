@@ -1,0 +1,392 @@
+APAC Chapter Call December 2025
+Date: December 17, 2025
+
+Speaker  00:00
+End of the month, but with, oh, now we're recording. We usually hold these at the end of the month, but with the holidays and New Year and things getting busy, we're doing this one a little earlier in January. The call will be back to the normal time. Excited to have you all here. Bill and told me beforehand that some MDS members were complaining, and their complaint was that they don't have access to these cool calls that we're doing, and where are they, and they're checking the app and they can't find them. That is good news, because they should feel some FOMO. They should just sell their house and move to Vietnam or Thailand and join us, but let's the goal is we're going to keep these at a high level, because we want our chapter to be growing and to feel like we are empty us and we're not being left behind of anything they're missing out from us. So today is going to be a fun call. I got to see his presentation beforehand. Daniel is very involved with scale insights, which I think everyone knows, has started from, like MDS members. I think many of you use it for PPC. And he has, he showed me a presentation of strategies a nine figure sellers using to launch products in Amazon. And I'll have him go through the details. But when I heard the presentation, it was very methodical, and some of the thought process or ideas I haven't heard before, and I've been selling since, what, 2014 2013 so I'm hoping that through this presentation, people can see a takeaway, a framework that can help them in their in your business. And PPC is a big factor. It's one of the last Amazon approved ways of being able to drive new customers to your listing. So Daniel, if you're ready, you can introduce yourself and then give it. Give the presentation. If anyone has any questions during the presentation. Just pop them in the chat and we'll have Q and A at the end.
+
+Speaker  33600:00
+Right? Thanks, John. Appreciate you having me on the call. So I will be doing this in a more casual way, in the sense that feel free to you know, pop in for questions as I bring along the slides and yeah, so just want to share with you what to expect in the next 20 minutes or so is I'll be sharing with you like a product launch framework used by nine figure brands with a very good success rate. I'll walk you through the details. I'll share how you can potentially break into the top 10 Best Selling your niche and staying there. And I'll share with you a system that tells every single PPT dollar how to behave, which allows you to scale organic sales, and then a simple inventory planning spreadsheet that keeps you in stock as you scale. And whatever I share can be applied whether you have like one asin or 1000 ASINs. This is what you're going to discover and a little bit about myself. I've been in the Amazon space for over half a decade. I scaled two brands, but seven figure is in 2021 currently. My day job is to sell engage with skill insights, so no software that help Amazon brand owners to scale up their PPC. Just a little bit about the software. And because of my day job. I do get to speak to a lot of advertising agencies, brand advocators, large brand owners, eight, nine figures. And I kind of do get a sense of what's working when it comes to PPC. Can we come to scaling? And I do get the opportunity to know, get them to share. So today's sharing. It's a case study right of one of our nine figure brand customers on how they go about doing the Amazon product launch using PPC. So it's asking this, this brand, right? So what is it that you do for product launch? And he was telling me it's exclusively, I would say exclusively, like he does like majority of his product launch using PPC. And this is how he thinks about it. So I broke it down into a few bullet points. And this is, this is the framework, right? So we first started the auto campaigns, and then that Amazon kind of like, tell us what are some of the keywords that you you want to launch for, and then create a master keyword list. A lot of software tools out there can help you to do that right. A keyword research software come up with a list of keywords, and then from there, create manual campaigns. So first it's campaigns, then manual campaigns. Then, okay, you get to the stage where maybe about about 30 days in, you do an audit of the search terms that generated you sales, and you kind of harvest the search terms that that performed, right, okay. Then from there, you create what we call single single keyword campaigns. So it's one campaign, one match type, one keyword you. So it's like broad phrase exact. So every search term that had generate sales in this stage, you create its own single keyword campaign match type, and then from there, right, you rinse repeat. So whatever search terms that worked in phase three, you rinse and repeat and create more single keyword campaigns, right? Okay, and the important thing at the end of the day is that you do, you do want to have a target in mind, right? Because a product launch, the one of the goals right is to achieve a certain amount organic sales. So the target in mind to hit is that I want to hit about seven to 10% of the current best seller in the market. Okay, so this, this is the framework. These are, this is the target, and walk you through more details in the next couple of slides. All right,
+
+Speaker  96186:40
+are you guys showing the screen? Is everyone seeing the screen?
+
+Speaker  96896:00
+Okay, yes, okay, okay, so let me walk you through the stages of this launch process, right using using this framework. So at the first stage, what we are trying to do is that we are trying to use PPC, okay, to achieve a certain amount of base organic sales. So over a six month period, I'm going to be using PPC, right, okay, and the goal is to achieve a certain amount organic sales, alright? So you can see over here, it's a little bit more heavy on PPC, and later on, hopefully we're able to shift, shift that balance, right? So for six months, this is the goal, try to hit about 30 organic sales using PPC. And the second phase, okay, what we call the stabilization phase, is where I'm not going to I'm not going to try to increase my PPC budget. In fact, I'll try to gradually reduce my PPC budget while allowing me to maintain the organic sales. Right? So this is kind of the launch phase, the stabilization phase, and then we want to hit the last phase. But before we get there, okay, we do want to start, know, identify those. You know, we have created all those skill table campaigns, right? We have a history of all that. All those campaigns will start identifying the ones that performing well. So this, is just simple math, right? The one that has good a cost, for example, this one over here, 10% a cost, I'll keep it. And the ones got high a cost, I'll probably pause it, right? So I do want to just focus on the group open campaigns and scale them up. And how do I go about scaling them up? Okay, so that's a very interesting idea that's being used over here. It's which, instead of bidding higher, setting a high, higher bid, I, in fact, instead clone the campaigns, right? So if I've got a I've got a good sink, hit campaign, baby carrier, rep, with a phrase match, fight, that's a good a cost, okay? The idea is that I clone it, right? Literally, just duplicate the campaign. And the other tip over here is that you want to, you want to start at the lower bid. You don't necessarily have to start at the bid that was working for this campaign. You can start at the at a lower bid, and then use automation to inch up the bits. So the what I'm trying to show over here is that the clone campaigns, right, you may start to get traffic at different bid points, so no point paying more, start low and then use automation to bid it up for you, and then again, rinse and repeat, rinse and repeat for all the other campaigns that you set up, there's a good a course, and then you clone them. And the end result of this is that we want to be able to see a shift, right? We'll be able to see a shift in terms of the balance between organic and paid right. Okay, so you can see over here, as I as I clone the low E cost campaigns. I increase sales velocity of the keywords, further increasing organic sales. And the end result is I get lower car cost and higher margins. Okay, so this is the entire product launch phase. So three phases, the launch, the stabilization, and then the cloning phase. And this, ideally, is the end result of this entire process, right? So when I got here, okay, I added two questions that came up. So the first question I came up was, right, how much budget? How. Much budget should I be allocating to achieve this? Right? So I kind of know this is possible, but how much budget do I do I need to allocate? Okay, so we came up with with a way to compute this exactly and then allow you to then spread out your budget over a period of time. All right, okay, so here's how we do the projections. If you recall early on, in, in the in, in the bullet point sharing that we want, we want to hit about seven to 10% of the best seller in the niche, right? Okay, so we first project, and again, there are many tools out there, right, that can help you project this. Project this. One is, what is the top seller in the niche? What is the annual sales for how much they doing, right? So let's be project the top sales, about $8 million and we say, want to capture about 7% of that sale, all right? So 7% of the sale, which means that an estimated profit margin about 10% so what that means is that annually, right? In a, in a Ibo case, of projected profits, about $56,000, right? So $8 million sales, 10% capture, 10% profit margin. This is a projected profit margin. So the idea is that, right, I'll set aside 20, 25% of this annual projected budget, a quarter of the profits as my product launch budget, right, which works out to about 14,000 right? So with this simple math, right, I can then use it as a way to project any product launch, as long as I can I can estimate what's the top seller doing. I can work out the advertising budget. And this is an allocation that you may want to consider, a 2030, 50% allocation of your of your budget. So 20% in the first four weeks, then 30% then 50% so what this does, right? Basically, what this does is that I think most, most of you over here, you delegate PPC to a team member, right? So this what this tells your team member your PPC is a hey, this is the budget I'm giving you for the first four weeks, or first four to six weeks. If you recall the slide early on is about six weeks to achieve that 30% that's right, that 30 units of organic sales. I'm giving you six weeks with this budget to achieve that, and later on, I'll share right what is the hit rate? What is the success rate? So you have a total budget. You break it down by weeks. You give your team member an exact target to hit within a certain amount of time, right? So as time goes by, you have more but you give you release more budget for the team member to use, right? Okay, so this is the first, this is the first question that I had in my mind, right? So I know how to get I know how to do the launch. How do I allocate budget? How much do I need to spend? Okay, so this is how we achieve that. So the second question is, how much to order, right? Because how do I project how much to order so that I don't run out of stock during my launch, right? So the last thing I want is that, you know, everything, everything goes fine, but I run out of stock. Okay. So the good thing is that I'm applying the same, the same formula, okay. And again, there are a lot of tools out there to to estimate what is the total volume sold by the best seller? 7% of the of that projected units, 2400 and my take, my daily projected units will be about 80, right. So you take 2400 by 30 is for 80 units per day, and that, and my target is about 30 organic daily sales, right? So this how I work out, right, how many units that I need. And this part is interesting is that, because I set a 66 months goal right to hit 80 sales target per day,
+
+Speaker  227856:00
+so my my projected,
+
+Speaker  229168:00
+estimated Daily Sales about 1616, per day. Sorry, 14 per day. ATM 80 by six is 14 per day. So that's why I that's what I project to do daily. And I do this progressively, right? Because now, now the launch periods over a six month period of time. So the target that I give my team member again again. It's all about giving your team people a target. This is how much you need to spend. This is what you need to achieve month on month. This is what I want to see. This is my KPI for you go figure out how to get it done, right? Okay, so this is, this is the order. This is the projection. So every month, the goal is to double my daily sales. Yes, right? So month one daily sales is 1428, and the metaphors, right? So by month six, I hit about 80 units of daily sales, with about 30 of them is organic, right? Okay, so now, now that, now that I set the goal, I can very easily reverse engineer, right? What is the inventory that I need for the different months, right? I don't, I don't need all inventory in month one, right? Because I'm not hitting that volume until MONTH six. So with the daily targeted sales, I can just multiply by 30, and I can easily get how much inventory that I need per month during the launch period, right? So this is the six months inventory projection that I need, and I break this into three phases, right? Okay, so in the first touch order, I order in enough to sustain the launch for the four months, right? So this is a sum of these four numbers, alright, then all I need is the second batch and third batch arrive on the fifth month and sixth month. So this is how we go about projecting right how much inventory that you need. And so with this tool, right, with the product launch framework, the three phase framework, with the budget set, with the inventory projection set, right what, what is, what is the success rate? Okay, within, within budget, within, within a time frame, the success rate of this case study, right of the team doing it about seven out of 10. About seven out of 10 launches, right, okay. Are able to do it within budget and within the projections. So it's a pretty is a pretty decent hit rate, I will say, right. Okay. So, another idea that I got from this friend of mine, right, was, how does he break what is his, what is his strategy? Or, how does he, how does he plan his asin progressing into the top 10? Okay, so, so here's what, what you call an Asian life cycle. So every asin ideally goes through this life cycle, right? Not every asin gets get to the fifth stage. There are five stages, right? But it goes by levels and different levels. You do different things. So I'll walk you through the levels on what you should be, what what you could be doing at age level. So I kind of already covered level one and level two. So I kind of covered level one, right. So level one is the launch, right? So recap the launch, all the campaigns, manual campaigns, harvesting the performing search terms, single keyword campaigns, and then all the cloning. Right? Let's do the launch. All right, okay, then the launch is Again, bear in mind the launch. You get the launch budget, right, so that's when that's something that you you think you sink in as an investment to do the launch. So after the launch, you want to get to the the break even level, right, where, at least you know your your your tacos, is at the break even level. And when you add this, like, like, like, what's mentioned, you can accept 0% margin. But what you're trying to achieve over here is that you're trying to achieve you're trying to collect reviews. You want to maintain the sales velocity, and then you want to, you want to be able to get here right past the the launch cost, right. You'll be able to get to the break even level. Then right? You then, then comes the the nurturing stage, which where you want to kind of shift towards, like modest profitability, profitability. And at this stage, the activities that that's been focused on will be the listing optimization, right, making sure that your listing can convert well. And then your your PPC strategy moves towards like downbeat, right? You start to target rest of search and product pages, right? Basic, basically the cheaper placements, because you want to move from break even to modest profitability, right? So you start focusing on Listen, listen conversion, right? Try to get cheaper traffic that is level three, right? So most, most products can get from level one to level three, right? Most, 70% right. 70% of them can hit level three and then so asking right are. Products that don't succeed? Yes, they found that the 30% so it could be a product issue, it could be too competitive, or a myriad of reasons, right? But 70% of products get to this stage, okay, then the last, the last two levels, it's where you want to attempt to break in, into the top 10. All right, okay, so to get into the top 10,
+
+Speaker  326318:56
+it's, it's,
+
+Speaker  327006:56
+it's targeting top of search, right? Just really, really focusing a lot of your traffic on top of search, the top of the top user placement, okay, and then you shortlist about the top 10 keywords they are most important in your sub category, and you just really, really push hard on that, right? This, this is how to get into the top 10, and then lastly, right, best best seller category. So only, only a handful, right? Only a handful of products get to the best seller category. And when, and when you get there, right? Some of the activities are going to do is brand defense, you know, and then really, really try to occupy all the placements that your competitor can potentially be at right. So this is kind of like the five, five levels right in which an asin could go through right, most of them will get here, right? A couple of them will get to these stages, right? Okay, so this, this is, this are these are the few, the few lessons that I, I had right when I was talking, when I was speaking to, to this nine figure brand owner of ours, right? So I'll be happy to take questions about what I've shared so far. Yeah.
+
+Speaker  348874:40
+Great. If
+
+Speaker  349210:40
+anyone has questions, feel free just to unmute yourself and speak up be able to I
+
+Speaker  352298:40
+didn't see any posted channels, or is it something to check not seeing meeting slides?
+
+Speaker  354448:00
+I responded, yeah. I jumped in because the same thing. I don't know if zoom changed. I was expecting it to automatically pop in, but there's a new tab for sharing the screen. I wasn't aware either in the beginning, which is why I stopped. I was like, Wait, everyone could see the screen, because I had to figure it out.
+
+Speaker  359237:19
+Is the calculation? Yeah, is the calculation always based on the top seller or top three, top five? I guess. Why just focus on one? Just the top?
+
+Speaker  362933:20
+I think because the the the
+
+Speaker  363626:40
+target was that I want to hit about seven, 10% of the top seller, because it's just, it's just like a reference point, yeah, right. It's just to give the team a way to reverse engineer, right, and project budget and inventory, right, so that you can tell your guys, this is the KPI. I need you to hit this within this budget, within this within this timeframe, and I project you probably need this amount of inventory. It's just to kind of triangulate everything, yeah, yeah, yeah, yeah.
+
+Speaker  373168:00
+Can I ask if you recommend, yes, pardon me, if you recommend launching at a discount, or do you launch a full price?
+
+Speaker  375317:20
+From this, from what I gather, there isn't a need to particularly launch it at a discount. There's, there's no, there's no mention of it. I can, I can ask, I can ask a follow up question, if they if he launches at a discount. But that was not mentioned about a discount, yeah,
+
+Speaker  380058:40
+okay, thanks, yeah, can you go over the keyword selection again?
+
+Speaker  381498:40
+Sure, sure, sure. All right, let me just go back,
+
+Speaker  382378:40
+because this is all predicated on what you're targeting, right, and then what campaigns you split off of, yeah.
+
+Speaker  384336:00
+So, the So, the So, the idea is, I want to get to stage four, which is here creating single keyword campaigns, right? But how do I know which single keyword campaigns I should be targeting, right? It's based on the auto campaigns that I launched, Amazon suggests search them for me. And then I will do my own master keyword list research and and then over a 30 day over a 30 day period, right, I will launch the the manual campaigns and the auto campaigns, and I'll be able, I'll be able to see results right over the last 30 days. Those so those that generated me sale in this case, will be these search terms, right? The one, the one that I highlighted, and then these are the ones that I will create single keyword campaigns for. And the idea is one, one keyword, one that. Chart,
+
+Speaker  401504:00
+and then rinse and repeat across all the sessions that you found in in this stage. And then that that will be, that will be the initial launch. So this, these steps that you see over here, is this diagram over here? This is what you'd be doing.
+
+Speaker  408885:20
+So for the keywords on day one, do you focus on all the keywords? It's like, if there's a main keyword, are you hitting that day one when you have lower review count, or are you doing like, longer tail keywords first and then building your way up?
+
+Speaker  412970:40
+I will say this. There's no, there's no right wrong answer over here. So how I view it is that because, because, if you recall over here, right? I set the budget. So I worked, I worked out a budget, so I leave it to the team. Or if, let's say you are, you are doing it yourself. Is that target whatever you want, but do it within this budget, right? And then as time passes by, you have more you have more budget, right? So, so basically, is that, you know, play around with it, as long as you're within able to stay within this budget, you're okay, yeah, right, because you know your your keyword list could be 100 it could be 200 but let's, let's stay, let's target within the budget, and we're good, yeah.
+
+Speaker  428090:40
+And then you start with the auto campaigns first. So anyway, you're just looking to see which keyword. Or do you also go after? If you start with auto campaigns, are you just waiting for a keyword to get a sale? Or do you also go after the main keywords that you already know, your competitor gets sales fit? Yeah.
+
+Speaker  432319:59
+So the main keywords is done through the master keyboard list, right? The auto campaign is just another source of traffic, right? Of course, I'm sure, I'm sure we all know what are the main keywords of the niche, right? Which will be done through here the auto campaigns. Are the extra ones?
+
+Speaker  436880:00
+Yeah, is there a, is there an A cost limit, when you're doing this in the beginning, like, does you, does the team have an A cost limit? Or that doesn't matter, if it's driving that
+
+Speaker  439717:20
+doesn't mean that doesn't matter. Yeah, it doesn't matter. Because in the first in this phase, is all it's all about getting getting this, this is the metric, right? I'm not looking at a cost. I'm not looking at at anything, I just want to hit this metric in six months within budget. Yeah.
+
+Speaker  445418:40
+So at the end, you'll have 30 sales organic, but you still have 50 paid advertising sales. At the end, still your tacos is very high after six months, right? And then
+
+Speaker  449664:00
+at that. But again, bear in mind that the tough that cost that you incurring is factored into the budget. So that launch budget, it's where it's where all these is coming from,
+
+Speaker  452976:00
+right, right? So then, at this point, after six months, right? Do you if the a cost is break even? Do you just, I guess you just keep it going. But then do you start to throttle down the PPC? If it's not,
+
+Speaker  457045:20
+yes, yes, right? So at this, at this phase, after six, after six months, the goal is to get to break even right. So you start to throttle down on on campaigns, like you mentioned, high costs when you start to throttle it down, right. So you progress, you progressively lower it down. But you want to make sure that that you are still able to maintain the daily organic because
+
+Speaker  463786:40
+this, this is, this is the key, right?
+
+Speaker  464848:00
+So you pay, you pay around, right? What if I pause this campaign? So what if I lower down the budget? Right? If I, if I progressively lower it down, right? That doesn't matter. Yeah, yeah. June, I think I saw your hand. You have, you have more to clarify.
+
+Speaker  469797:20
+Yeah, I did. So you're taking the best seller in the category, you're looking at their keywords, and then you're running auto campaigns, looking at what actually performs, and then within that 30 days, then you actually look at the data, and then you kind of focus on the ones that are actually converting, split off the campaigns. When you drop the budget, how much are you dropping it down when you're cloning those campaigns?
+
+Speaker  476970:40
+Okay, the cloning is here. Hang on now,
+
+Speaker  479146:40
+so the dropping of the budget is at phase two. Over here, right? So here, here, here is, if you look at the life cycle of the
+
+Speaker  481872:00
+of the of the asin, right? Yeah, I guess I'm a little confused.
+
+Speaker  483376:00
+So you said that the auto campaign is in the first 30 days, then what's happening in the next five months, and then you're seeing the dropping of the budget is after six months onwards, right?
+
+Speaker  486085:20
+Okay, so, so you think about it in the life cycle context, it might be easier to be easier to correlate. So this, this is the first six months. This is the launch right? So you have a launch budget, right? So is that curve is going up, and then here, at this at this stage, is where you want to hit break even. Here's where you want it to you want it to you want it to stay. You want to maintain your maintain, or lower down your budget while, while trying, try, while trying to achieve break even. So this, this is the second, second stage of the life cycle, right? So in the graph, is where you kind of go over here, alright, okay, then, then at the at the same time, you know, you do your listed optimization. I would say these two phases are it's here. These two phases is here, over here, during this period of time you do these two things. You right? Collect reviews, try to try to optimize ads with break even a cost. Target, down, downbeat strategy, Target, Ros, PDP. So these activities are logical activities that will allow you to, you know, maintain a decent amount of PTC budget, right? So this, this is at this, this phase over here, right? So, so this, this happens over like again, about a three month period. So this, this is six months. This is about three months, right? So once, once you get to break even stage, then you are a lot more open right to scaling up, because when you, when you scale up is when you take the good performing keywords and you clone those campaigns,
+
+Speaker  516448:00
+right? So
+
+Speaker  517248:00
+when you, when you start to clone them. What you're trying to do is that you're trying to, you're trying to push keyword velocity when you could, when you push keyword velocity on those keywords, right the you you expect to have more organic sales for those keywords. And then that's when, that's when the that's when the ratio will flip when you say clone them, you mean, just duplicate the campaigns and run them simultaneously. Yes, exactly, exactly, yeah, interesting. So literally, yeah, yeah, literally, take that, that match type, right? So the keyword, the match type, create another one in skin inside it was, create another one inside of Central, yeah,
+
+Speaker  528928:00
+but what's the idea of cloning? It like, is there a hypothesis behind cloning?
+
+Speaker  530688:00
+Okay, so the hypothesis is this, right? Okay? Because although, although Amazon's TOS or whatever, says that they don't compete, right? If you have multiple campaigns, they don't compete. That's what they say, right, okay, but experientially, what, what we see is that the hypothesis, the hypothesis is that, because there's this, there's a, there's a lot of traffic out there that you can get access to, right? So when you have a campaign and a certain bit, you get access to just this little pocket of traffic over here, correct? So when you create another campaign at a different bid, you get access to another pocket. So experientially, that's why, that's what happens, right? Although, on paper, they said that these these campaigns don't compete, but experientially, we are able to get new pockets of traffic at different kind of a cost, and without having to raise the bid, right? Because otherwise, conventionally, what we will do, what we will do is that, okay, this is a good point. Get more traffic over here. I'll raise the bid. But when you raise the bid, the problem is that you get worse a cost, right? So we overcome this by cloning the campaign
+
+Speaker  550869:20
+so they are not experientially, that they won't be competing against each other. They don't be like kind of
+
+Speaker  553045:20
+Yeah, exactly yeah, experientially
+
+Speaker  553989:20
+so and they will be matching to different phrase, match types, just
+
+Speaker  555226:40
+looking at because, yeah, moreover, because it could be a phrase match significant campaign will be a broad match campaign, right? So it could be targeting different search terms, right? But looking at the looking at the high level, all I'm saying is that this campaign type. Work. Instead of, instead of raising the bit, I create another version of it right in, in with the goal of targeting a different pocket, they can access, get access to, right? And, of course, right there, there's management involved, right? Because you're you can clone three, three of these, and two of them hit hit your target, and the third one doesn't hit your target. Then you just force them right. So that's, that's where automation comes in, right? So you could be, you could be ballooning your campaigns from a couple 100 a couple of 1000, and then you use automation to manage them.
+
+Speaker  570805:20
+Yeah. You Yeah. Do you have a limit to how many campaigns you create
+
+Speaker  573146:40
+the at this stage? The limit is at the a cost, right? Okay, so, John, you were asking, Do I have an A cost target at the earlier stages. No the earlier stages, the metric is organic sales. But at the later stages, the metric will be a cost. Because the idea, the idea here, the important idea over here, is that I want to be able to drive an increasing velocity of keywords at a good a cost. Because what a good a cost means it's just, it's just a translation. Good a cost means I can run this campaign profitably. That's what it means, right? A good if, let's say this campaign I'm 1% below my break even, I can run this campaign forever, right? I think, John, you asked a very important question that I didn't elaborate in my slide, is that you do not want to pause the campaign. If you can, if you can consistently generate campaigns at 1% below your even your golden right? You just keep you just keep creating them.
+
+Speaker  590810:40
+Yeah, when you're in after you are done, ramping up and you're ramping down, the seller generally, what type of tacos is he searching for? How much is he is the optimal range of because many times he's not profitable or even break even, we lose money to acquire new customers. So what's the threshold for tacos at that point?
+
+Speaker  596752:00
+So at which, at which stage are we referring to,
+
+Speaker  597568:00
+when you have a product that you're going to keep, are you ramping down? It's already launched. Now you're just maintaining it right. Like, at that point,
+
+Speaker  599637:20
+what at here? At here? Oh, sorry, I have to go back to
+
+Speaker  600741:20
+Yeah, yeah. At the end, yeah. After the stabilization phase,
+
+Speaker  601909:20
+okay, at this stage.
+
+Speaker  602981:20
+This stage, yeah, at that stage, what type of tacos are you looking at? Still at that point, no,
+
+Speaker  604858:40
+but no. But at this stage, we're talking about profit, profitability already, you
+
+Speaker  606266:40
+would, you would delete all campaign or you would pause all campaigns, or lower campaigns that are above your break even a cost, is that correct? Yeah, yeah, yeah, yeah, okay, in some categories, that's impossible, because it's just too competitive. So you kind of set a marketing budget for your product. Like, how much am I willing to spend every month to market going forward? Okay?
+
+Speaker  612400:00
+It will, it will be more of a Okay, so at different asin life cycles, right? You you would have
+
+Speaker  615125:20
+a a different range of a course that you accept. So obviously, at this at this stages, your range of a course will be, will be broader, and this, at this stages, the major a course will be, will be, will be more narrow, right? But overall, your tacos has, has to be, has to be lower than your than your break even. Rather, you're losing money, right, right?
+
+Speaker  620938:40
+But, like, yeah, so this seller doesn't have a certain tacos margin. Like, I can spend this much. Some people it's 15% some people it's 8% but how much I'm willing to spend to acquire new customers regardless, right?
+
+Speaker  624384:00
+Because the case study, I think his profit margin about 30 ish percent before advertising, right? So, which means he can, he can tolerate around 20, 20% a cost at this range, and he's still profitable.
+
+Speaker  629216:00
+Okay, so this seller only does profitable PPC, it doesn't at this stage.
+
+Speaker  630869:19
+No, I that will be too broad a statement to make. I will say that in the aggregate, in the aggregate, all the campaigns that he met is being managed. Right? The metric given to the team is that your a cost has to be witness within this range, right at this at this stages, right 20%
+
+Speaker  635898:40
+it'd be a 20% top post. Then,
+
+Speaker  636426:40
+yeah, 50% a cost, a cost.
+
+Speaker  637866:40
+If he has a 30% profit margin, and he's willing to use 20% of that to for advertising that. Be a 20% tacos?
+
+Speaker  640912:00
+Am I wrong? Yeah, so
+
+Speaker  641872:00
+the seller is willing to do 20% tacos, is what you're talking Yeah, 10%
+
+Speaker  643136:00
+okay, around, around that, around that will be dealt with the reach, yeah,
+
+Speaker  645024:00
+for the 30 organic units. That goal. I'm sorry if you had said this already, but where is that coming from?
+
+Speaker  647029:20
+Again, it's just a just, it's just a target in mind.
+
+Speaker  648277:20
+Yeah, is it based on bestseller or just kind of, what profits you want to see from the
+
+Speaker  650453:20
+I will say the number it's derived from the it will it will be more with, how do I get with 80? How do I arrive at 80? Because 50% how, how to get you 80, right? So that that 80 came from, from this calculation, right here, 80 came from the best seller, selling this amount per month on capture, 7% monthly, this amount, and daily, daily, I want to hit 80 units daily sales, right? And over there, I want to hit 30 organic. It was it wasn't, it wasn't, it wasn't, it wasn't like 30 organic. And then upwards, it was more of, okay, I only hit 80 per day. And then, of the 80, I want to get 30 organic. What's understandable at the beginning, organic will be lower than then, then, then pay it. Right.
+
+Speaker  666133:20
+Yeah, right. Yes.
+
+Speaker  667706:40
+So how this all came about. I was I was give. I was given this, this concept of the three phases. Then I was asking budget. How do you get budget? How do you get about all these numbers, right? That's when we went into the calculation. Yeah. Yeah.
+
+Speaker  673376:00
+And then scale insights, if I wanted to do 10,000 PPC campaigns, the tool pendulum, 10,000 campaigns for a product, yeah?
+
+Speaker  676064:00
+So this, this brand owner, is doing like, like, in the order of, like, 200,000 campaigns, 3000 campaigns, yeah, yeah, yeah. So that's, that's, that's why he doesn't pause campaigns. That's, that's the whole, that's the whole essence of the of the of the strategy is, is that I'm, I'm very militant about the a course of the campaigns that I keep using automation to to maintain it. So that's how I push the velocity, and this is done over a longer time horizon? Yeah, so I just, I just, I just keep stacking up over time.
+
+Speaker  685018:40
+Yeah, with, with this strategy, how much is automation of like, maybe skill insights, changing bids, and how much is manual work of you overseeing like you you're
+
+Speaker  688512:00
+talking about bit management is 100% automation, how you know manually, how you manually manage three another campaigns. It's not possible.
+
+Speaker  690944:00
+So what does the main PPC Manager is just focusing on which keywords to target and making allocating and allocating budget?
+
+Speaker  693088:00
+Yes, the PC, the PPC Manager role right now is, is? It's elevated, right? So instead of being like, like, pressing buttons to adjust bits, he now, he now monitors performance, decide what new keywords to shift in, right? Okay. And then, of course, look for outliers. Are there certain campaigns? There are outliers that I should have pause them anyway? Yeah. So that's, that's why, that's why he's given metrics to hit, right?
+
+Speaker  700682:40
+And then, yeah, for all of this brand, how many PPC Managers does it take to run this type of system on a lot of products?
+
+Speaker  702954:40
+Okay, so the total PPC team is about three or four people, right? Very small team. And like, one guy takes care of the US market, one guy takes care of rest of us. And then, from what I understand is that the there's one guy who does post launch, right? So, so that's, that's like the launch team trying to, trying to hit the initial in the all the initial metrics, and then the post launch guy, he just, because he's all automation, right? You just make sure that, that you're, I'm staying within range, and is and, well, good, yeah. So, so it's a very lean, it's a very lean team, yeah,
+
+Speaker  714437:20
+yeah. And then just, just to, just to double, double, clarify, at the end of the nurturing phase and everything, it's, it's either break even PPC, or else it just the budget gets lowered, like you do not go above your break even a costs.
+
+Speaker  718714:40
+You mean, here, this, this range. Yeah, yeah, right. Yeah, yeah. So. So, so, as I'll say, as I was trying to, trying to give a sense, right, that the 70% seven out of 10 launches get here, right, right? So they expect about three of them will fail, right? Three of them you have to do, like, kind of like, liquidate, or accept that, you know, but your, your downside is Kat, right? Because you have set a launch budget, you set an inventory budget, right? And you don't lose, you don't lose, you lose everything. Maybe there's, there's definitely some, some, some downside over here, right? But 70% of the of them get hit. And then there'll be a few that get into the top 10 and then the best seller, yeah, right.
+
+Speaker  731274:39
+But in that range, it's break even a cost, or you, you don't pause it, but you just lower the bit. You don't go above break even a cost.
+
+Speaker  733434:40
+Yeah, yeah, yeah. Okay, yeah.
+
+Speaker  736330:40
+Cool. Anybody else have any other questions?
+
+Speaker  737183:59
+Yeah, I'll be happy to share, share the slides, if that's useful for you guys.
+
+Speaker  738400:00
+Yeah, yeah. Very useful. Yeah,
+
+Speaker  739504:00
+yeah. When I when I first heard this, it was really helpful to see the thought process behind even coming up with the marketing budget and then having the unique stages of a product and different stages of where it's going and what your expectation is with PPC. I think this is one of the leanest, clearest PPC playbooks I've seen when it comes to launching products.
+
+Speaker  745013:19
+Nice, nice Junior slide piece.
+
+Speaker  745589:20
+What are you doing in terms of negative keywords in here?
+
+Speaker  746581:20
+Okay, so the negative is part of the of the a cost optimization, right? So it's kind of like the unspoken thing that we do part of it, right? So you do bit management, and you also negate as well, yeah, okay, achieving the a cost target, you do negation, bit management, day parting, all these sort of things.
+
+Speaker  752160:00
+Yeah, okay, got it. And then in your last phase, like phase three, those are kind of like expansion campaigns, but those really just work with phrase and broad match, right?
+
+Speaker  755552:00
+It depends, right? Because the the idea is that at the earlier stages I created a lot of skill to campaigns with potentially different match types, right? So, so I don't there's something abroad, it could be a phrase, it could be a it could be exact, right? So I look at it, at the campaign performance this campaign. Did it perform if it's if it's if it's if it's like this, in this case, right? It's a baby it's a baby carrier, rep race match, right? And that campaign perform? I clone that?
+
+Speaker  765898:40
+Yeah. So it depends on which campaign perform,
+
+Speaker  767354:40
+and the campaign is a combination of a keyword and a match type.
+
+Speaker  768944:00
+And you don't take the like, let's say a phrase match and then say, okay, there's some long tail keywords in there. I'm going to split them off into separate campaigns. You're just leaving it sitting in Yeah,
+
+Speaker  771968:00
+just leaving it as it's all because potentially I will already have other kind of other, other senior people campaigns which target the long term already, right? Because I could, I have other exact ones. Because now conception is, I want to, I want to get more traffic for this campaign. That's the goal for this campaign, right? Traditionally, I'll raise the bid, but raising the bid affects the a cost. So I don't want, I don't want to, I don't, I don't impact this good performing campaign. Leave it as it is, because, remember, I don't post campaigns that work. I'm going to create another one and use automation to try to hit a good a course for that campaign, right? So that that that is the strategy of all. Yeah. So
+
+Speaker  785040:00
+what happens if you have someone else trying to rank at the same time?
+
+Speaker  786608:00
+So there's
+
+Speaker  787376:00
+this, there's nothing we can, we can do about that, right? So, but then that's where you know, the automation comes in right to kind of help you adjust your bit so that you can stay within the a course range. Because the goal is, I want to stay with this a course range so you use a combination of all the stuff right. Day parting. I tried, I tried to bit them. Didn't have the day right. Negations, right? Bit modifiers, all these sorts of things, right? Yeah. All these are all the levers I can pull to try to maintain at this a cost. I can't I can't control other people advertising. I can control these levers, yeah, yeah.
+
+Speaker  799210:40
+In terms of the the organic sales. Than paid sales split, right? What is the best practice in getting that numbers out?
+
+Speaker  801808:00
+You mean this at this stage, at
+
+Speaker  802416:00
+whatever stage, to constantly monitor where your organic sales are coming from, or your PPC sales, what's, what's the your what is, how would you get those numbers?
+
+Speaker  805168:00
+So just know the that's what this clothing is about, right? Because when
+
+Speaker  806885:20
+the data, I mean, this might sound like a dumb question, but in terms of getting what your actual organic sales are, and then measuring whether you're at the 3070 split today or 3090 split tomorrow,
+
+Speaker  810021:20
+skill insights can do that for you, right? Skin sites splits the organic and you're paid.
+
+Speaker  811930:40
+All right, okay, yeah, yeah,
+
+Speaker  812378:39
+yeah, you can see that from the from, from the sales trend, yeah. Oh, so you don't have to extract the data yourself, okay, no, no, no, you can. You can use it for the sales trend. Yeah. All right. Cool. Thanks. Yeah, yeah, yeah.
+
+Speaker  817629:20
+Can I ask if you recommend using day parting from the beginning, or when you recommend turning
+
+Speaker  819341:20
+that on? I would say
+
+Speaker  820221:20
+really, really. Got to try to try it out, because at the big at the beginning is out. I'll throw everything
+
+Speaker  822400:00
+and then see what sticks
+
+Speaker  823232:00
+right, because at the beginning is this, this, this, this, the goal, right? I don't care. I don't care how I get there, right? It could be Day party with no day parting, right? Just, we just try it. Yeah, okay. But what, what I can comment is that I know he uses departing. He uses negation all the automations, basically, yeah, yeah,
+
+Speaker  828890:40
+okay, yeah, thank you.
+
+Speaker  830010:40
+We have time for one more question. If anyone has a question,
+
+Speaker  832362:40
+Daniel, one quick question I had is, when you say a campaign is not performing, how long do you give it before you decide it's not performing? Is it like a click threshold? Is it a sale threshold? Like, how do you know? Because PPC fluctuates, how long would you determine a campaign is not performing?
+
+Speaker  837040:00
+Oh, I, I honestly don't know that question. I can, I can get the answer. Let me. Let me get the answer. Get back to you. Maybe. Is this something I could get back to you guys? Okay, yeah, I haven't. I haven't thought about how. Haven't asked this question. How long do you give it?
+
+Speaker  840421:20
+Yeah, yeah, especially with that many campaigns you want to have, it could be a debt. It could be death by 1000 paper clips. Literally, yes, yes.
+
+Speaker  843578:40
+But at the top of my mind, if you asked me about it was a magic it was imagine the team or somebody, then that will be the art part of it, right? So I have a PC manager, he will then have to make a make a judgment call, because his his metric is this is your a course range for all the campaigns of the two another campaigns you need to manage it within this range. Yep, is your judgment call. Should I ask this after a certain amount of time? So that's probably where it comes in, because the automation can't, can't tell you, yeah, right, right. Yeah, yeah.
+
+Speaker  853952:00
+Great. Yes. All right, we're going to wrap up the call. Daniel, thank you for coming on and
+
+Speaker  855541:20
+touches mine. Touches mine. Yeah, appreciate it.
+
+Speaker  856101:20
+Yes. So to do this, scale insights can handle quite a bit of automation if anyone is not using it yet. Daniel, if they want to find out about scale insights, how could they get a hold of you?
+
+Speaker  858933:20
+Oh, yeah, there is a special MDS promotion. There's a there's a link in, in the, I think the tool section right, use that, and you get, like, a, like a recurring discount. And then from from there, I can hop on a call with us. We can walk you through how sell this up here. Awesome.
+
+Speaker  864624:00
+And then if people have questions, yeah, feel free to also post them in our group chat on Messenger. We can continue to have a conversation about it. And for everyone else in the group, have a amazing holiday. Hope people I know, for a lot of sellers, this is the most stressful and fun and crazy time, so I hope it's been going well and have amazing holiday time. Christmas, New Year. I'll be posting in the group chat about our call for January, as I have a couple ideas and I want your feedback on and we'll be excited to connect again soon. Thanks everyone for coming. Thank you.
+
+Speaker  873861:20
+Daniel. Appreciate it. Thanks. Daniel, thanks. Jonathan. Bye.

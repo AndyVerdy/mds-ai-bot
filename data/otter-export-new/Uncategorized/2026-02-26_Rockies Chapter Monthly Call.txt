@@ -1,0 +1,308 @@
+Rockies Chapter Monthly Call
+Date: February 26, 2026
+
+Speaker  17:04
+The SDS approval. They need that bullet.
+
+Speaker  1760:00
+Well, that's, that's the thing. So your other option is, like I said, I've always, you know, everything I sell is SDS, but I have the SDS for battery item batteries, but I we just skip that. We just do the exemption sheet. It's easier. It gets approved. It never have a problem that way. So that's what we do, that you might if you're willing to try that, you might want to do that. I mean, yeah, what STS is more of a legal thing they're covering. But if you have you know, you can just fill out the exemption. Say I'm exempt from SDS. We've got the exemption approved.
+
+Speaker  11306:40
+I just texted. I was texting with them. We got that approved. Okay, so that's why it's weird, is because we can't tell if it's a listing issue or SDS issue because it says both.
+
+Speaker  14778:40
+Yeah, I mean, I think you should just wipe the whole thing. Honestly, that's your next step, is get both listings out. FBM everything. Just let it sit for a little bit and see if, when you read, I'm surprised they didn't tell you to do that, because that's always what they
+
+Speaker  18608:00
+told me to do. Honestly, yeah, I was, I was texting while we're talking, and might be maybe that's something we try. I mean, if it doesn't work after that now, so I don't want to, like, I don't want to do this in the middle of the escalation.
+
+Speaker  21653:20
+So are you? Well, it don't matter. Dude, I do too, like some, lot of times, those guys don't know what they're doing, and you just figure it out. Use AI to figure it out. But Are are you? Are you using the specialist chat or using regular case management?
+
+Speaker  25701:20
+I don't know, because I'm not doing it.
+
+Speaker  26613:20
+Yeah, tell you. Well, you should have, if you don't have the specialist chat, man, you should request it. It might still be in beta, but usually when you go into your support request for your account, there's like a specialist chat there. And I got it because I went to the Amazon conference, so they gave, yeah, so they gave it to me for all my accounts, but that that's a lot quick. They're they're usually North American reps, and they just freaking take it. They just handle they just resolve things faster. So ask them if you have specialist chat. If you don't, I would see if you can get added to your account.
+
+Speaker  36239:59
+I think we might. I'll check on it, because I know we I know yesterday, they talked to a US based person, and that person escalated it, but it's, well, that's cool. It's still not, not live.
+
+Speaker  39589:20
+And, yeah, I wouldn't worry. I personally just, you know, I run my own Amazon account. I don't have people that run it, so I'm in it all day long, and Mason's probably in two a lot. And like I said, I don't care if Amazon's working on the case. Half the stuff they tell you is not. It's Filipinos and Indians that don't know what they're just reading the KB article. So, and then they escalate, and I have stuff that's still outstanding after a year, right? Like it's not getting fixed on the back end. So, you know, then I just do my own research and say, You know what? I'm going to try these different things. I don't care if they're working on the case. And then if it gets it gets resolved, great, you know, you can close the case, but I wouldn't wait on them. Amazon doesn't, half the time, doesn't know what they're doing, honestly. So I mean, this kind of issue, I've had similar issues to what you're having. And I just, I tried delete the listing, whatever. I've never had to recreate a nascent I have one issue right now where it's like, they want me to, you know, I'd have to rebar code everything and use and lose all my reviews just to get it. For some reason, I have one listing they won't let me use manufacturer barcode. They're like, you have to print Amazon skew labels on, you know, and I don't do that for any of my stuff because we sell International and on Shopify. So I don't want to have use fn SKU labels for my stuff. I want to use the UPC, but for some reason, I have one asin that was selling fine, and they they switched it over, and they're like, they don't know how to fix it. And I'm like, well, that sucks. So I just keep sending in inventory with under manufacturing. Get it, get dinged, like, my inventory doesn't scan in, and they have to fix it. But I'm like, What's your fault? That's all I've been doing on that one.
+
+Speaker  65744:00
+When you delete the listing, it doesn't, it won't force a removal. It'll just strand the inventory again, right?
+
+Speaker  67168:00
+Yeah, it just goes in stranded for 60 days. You can and so you can recreate it now. So yeah. And then if you get in jeopardy where it won't reactivate the inventory, because I've had that happen. Just the listing won't take it or whatever. You just have to keep escalating and they can move the dates out, but you're still paying for inventory storage on that.
+
+Speaker  72533:20
+Okay, yeah, the whole thing said, like, as long as you're working with us, we won't take down the listing. And then the listing goes down, and no one can tell us why, yeah, like,
+
+Speaker  74917:20
+so you already have inventory. And fixed stranded inventory, right?
+
+Speaker  76026:40
+Yeah, I have a ton of, yeah, well, yeah, I have like, 300 units stranded, yeah.
+
+Speaker  77418:40
+So I would try delete the whole thing, create a new skew and everything, right? But just tie it to that Asin. And sometimes it'll, it'll move it over. It's just weird. It's like a lot of, it's just your own. Team's troubleshooting to figure it out. And sometimes works, or they change something on the back end all of a sudden, and then you can, you can reissue inventory. I keep your case open, keep working with them, saying hey. But just, you know, sometimes starting over with a new skew and letting it sit, deleted for a width, it works. What were you gonna say? Mason, you had another,
+
+Speaker  86517:20
+I don't know. Oh, I was gonna say, I've dealt with the same where they were forcing them, forcing the FNS barcode. Oh, okay. I'll have to look at my notes and see, because I think we were able to get around it. I'll have
+
+Speaker  89733:20
+to, yeah, if you have it over to you there. Shoot, yeah, I've tried everything on this one.
+
+Speaker  90933:20
+Yeah, I can't remember off the top of my head, but of my head, but I remember we, we had an issue with that. It was forcing it, I think because it was saying that there was another, yeah, calling them with another, yeah, another that's in my same Yeah, barcode or something. I think we had to, like, ask them to cleave the ASINs, like, Hey, this is the correct UPC for this barcode. Make sure it's connected to mine, not whatever random UPC you think it should be connected to.
+
+Speaker  98176:00
+And this one, this, this, there's no conflict, at least that I can see that way, because I've had those two. Yeah. So yeah, if you, if you think anything else, but it's like, I meet all the requirements for manufacturer UPC, but they keep telling me, it's like, Oh, you don't meet the requirements. I mean, yes, I do. It's like, it's like, you know, then they told me, tough luck. And I'm like, Well, you're wrong, because you shouldn't. I meet all the requirements. You can't just tell me to live with it well.
+
+Speaker  104837:20
+And they don't sticker. They don't sticker anymore. So, and they've been pushing us towards manufacturer barcode versus Amazon market, yeah, because we're the brand owner, so it's weird that they're pushing towards that, but yeah, maybe it'll fix
+
+Speaker  108314:40
+it, right? I'll just keep sending it under
+
+Speaker  109530:40
+All right? When you if we do this and then we start a new SKU, how do you tie the FN SKU that's on those labels back to the new SKU?
+
+Speaker  112330:40
+Well, the FN SKU. So I'm talking about the merchant. So when you create a new listing FBA, it'll give you a skew field that's your own identifier, but that never it doesn't create a
+
+Speaker  116207:59
+new it would create a new fn skew if you created a new SKU.
+
+Speaker  117248:00
+But then my inventory, then I
+
+Speaker  118085:20
+would just create it as the same skew, like delete it, and then just re upload with a flat file as your original asin, yeah,
+
+Speaker  120437:19
+see, I always get the remember, I've tried that that it gives me a block. It says you've already used this skew. You got to use a new one. It's always giving but I'm using manufacturer barcodes, so that's probably the difference if you're using
+
+Speaker  123466:40
+but if you're just trying to re upload the same thing, like you're just clearing it out. I wouldn't, yeah, I wouldn't create a new if you're doing FNS, q bar code, because I'm, I'm having to do that right now. We just had to read sticker fn SKUs, because Amazon messed something up, deleted our fn SKU told us it doesn't exist anymore, and so they had to read sticker everything. But anyway, yeah, I, I would just try to, like, delete it and then just re upload it, like you were making a listing change. Just the same thing, right? Or you just put in your asin, you know, bullet change, or whatever it was, and then it'll just bring it back,
+
+Speaker  132784:00
+yeah, should, hopefully just
+
+Speaker  133216:00
+refresh it. Should. Yeah.
+
+Speaker  133797:20
+Okay, well, so what we I was texting with them while we were chatting all this, they said, because they just did an escalation to some email address that they got from some other big seller, so let's leave it alone for at least a day. Try that works as we just emailed them. So I said, Okay, well, tomorrow night, we'll do this. I said, just pull it all down via flat file right now so we have it. Yeah, yeah. And like, I'm not as thankfully, we've been able to make up the sales, and we're still ahead of last year. My big concern now is, because it's the snow sport stuff, and we're having a terrible winter, is if I, if I get to a certain point, I won't be able to sell through the inventory, and then I'm gonna have a bunch of removal orders, and I don't want that, you know, or I can just have a big sale, but I really would like I could. I'm still in a place where I can sell through this much.
+
+Speaker  147984:00
+Yeah, that makes sense.
+
+Speaker  149616:00
+Well, give those try. Let's know.
+
+Speaker  151397:20
+So who So wait, Mason, are you going to Vegas? No,
+
+Speaker  152293:20
+I'll be in Vegas. Yeah, okay, cool.
+
+Speaker  152821:20
+Let's meet up. Brian, are you?
+
+Speaker  153493:20
+No, not this time. Oh, no.
+
+Speaker  154021:20
+Okay, no worries. I'm sure we'll, we'll, we'll let you know what, what's good and what's bad.
+
+Speaker  156026:40
+Yeah, Ted, I heard you when I jumped on. I heard you talking about the bdss event in Nashville. Were you saying you are going or you are not going well? I was
+
+Speaker  158250:40
+originally registered, but then I, I mean, you know, because it's not a bad price. But Kevin. Kevin tries to get you to go to the top tier right when you've been selling, yeah, like, pay him two grand. But no, I just looked it over, talked to a few people, and they said it's really like, the it's, it's good, it's still right, networking, but he's pretty much partnering with Titan on almost everything. So if you like Titan stuff, you know, I just kind of like, they don't like us. And, you know, yeah, I know a lot of the people steal from just selling for years, but they're all the the trendy speakers, right? So, yeah, I mean, and so, you know, I'm sure it's, there's good stuff and everything, but I kind of have to choose. I decided I'm like, if I'm going to go to China, I don't really want to go to Nashville, so I might, I might end up just going to Canton Fair. I'm just waiting for the registrations to open up. I It's for some reason their site says they haven't started registrations for the next one. What phase will you go to? I just go to Canton. Canton fair.org, it's, it's their main site. But for some
+
+Speaker  177104:00
+reason, Canton Fair, oh, I
+
+Speaker  177999:59
+usually go to all of them. I like I get there around mid April, and then I'll stay until early May, and then I'll go to Hong Kong in between, and go to the the mega show. When I go, I just like to hit all of them. I might hit the you this time, just because I got a lot of cheap stuff I need to get made in you. That's cheaper, but that's, that's a trek, right? Because you got to fly to Shanghai and then take a bus. You know? I mean, train in a bus. It's a pain to get there, but it's, it's cool when you get there. But I'm planning to do, like, pretty much a two to three week trip. I mean, that's the problem, is I sell, I sell my stuff. I sell in every I sell electronics. So that's the first phase, you know, I have, I'm in toys and pets, okay, that's the second and then outdoors. It's like they're all different phases. So it's like
+
+Speaker  192090:40
+you got to be there the whole time. Well, I
+
+Speaker  192799:59
+guess I can go. We should connect, because I think I'm going to try and go for the in the middle of phase two, okay, and then the phase three,
+
+Speaker  194831:59
+yeah, there's a lot of meetups. There's an MDS meetup, there's a lot of mixers. It's not as popular, I guess, with Americans as it was in the past, just because all the stuff going on. But I heard there's a lot of Russians there, of course, but I don't know, we'll see, because if the US goes into Iran before then, it might mess things up, right? I'm not booking my travel. I'm not committing anything till last, last minute, because you don't want to get stuck there. If, if we start having a conflict with China, it will just, it's just, it's just, that's the scary part, right? I mean, it's 90% you just never know, right? So you just don't want to be stuck in China when the US goes to war with somebody, because, no, no, they'll start detaining Americans just for hostages or something. So that's my My thing is, I just don't want to, I don't have to go. It'd be nice to go, you know. So anyways, yeah, so we'll link up, and if we do both go. But yeah, that's my thoughts. Mason, I just didn't want to do both. And really, I'm sure Nashville would be great if you're going to go to that. Like, I still might go if I decide not to go to China, and maybe I'll just jump to Nashville last minute. But the thing I was thinking about it, yeah, Kevin doesn't really sell anymore. You know, Amy Wiese doesn't sell. It's like, yeah, doesn't sell Titans, not bad, right? Like, it's, it's got good content, but it's really catered towards newer sellers, yeah, and I know Anthony confess, go really good, and he works for him. And, you know, I'd probably just go to see, hang out with him, but, yeah, but as far, as far as the networking, right? I mean, we're, you're not going to meet as smart of people as MDS guys. Most of the MBS guys don't go, don't go to bdss, just because there's, you know, Titan to Titan. Talks bad about MDS. MDS doesn't love Titan either. So it's kind of like one of those things.
+
+Speaker  228976:00
+Okay, yeah, that's good to know.
+
+Speaker  229680:00
+But But Nashville, the city, and it's like, yeah, I'd go just for the country dancing, honestly, yeah. Well, cool man. Any of you guys have any stuff I'm just hands down in AI right now, so I'm trying to get all my chat agents set up, and yeah, I started running on that.
+
+Speaker  235530:40
+So I'm very new just starting, but just trying to learn as I go. I was hoping Matt would be on this call. I wanted to get his SOP that he talked about last time for creating all of those Tiktok accounts that he was using AI for.
+
+Speaker  239642:40
+So I. Know I've sent messages. He's he never gets on Messenger. It's like, yeah, I've sent him a few messages, yeah, yeah, yeah, if you can,
+
+Speaker  243184:00
+yeah, see if he'll share his SOP. We decided
+
+Speaker  243984:00
+to set up if we can get everyone on that WhatsApp, then we can just put questions in there.
+
+Speaker  245295:59
+I almost messaged in the WhatsApp yesterday, yeah, just to see if anyone
+
+Speaker  246133:19
+was I started the WhatsApp, but no one's joined it. It's
+
+Speaker  246901:20
+just me. I joined it. Did it all message in there so you can see me.
+
+Speaker  248437:20
+Okay, yeah, maybe
+
+Speaker  248933:20
+I should be in there too.
+
+Speaker  250373:20
+Are you guys all trying to start up, like, open claw and set, yeah, I've got a Mac Mini at home that I haven't been using that much, so I was going to try it. I'm just nervous about the security. Like, are you creating your own, like, a brand new email address to log into it, put it creating a guest Wi Fi, I guess that doesn't matter. They said,
+
+Speaker  256042:40
+Yeah, I'm using my Wi Fi, but I'm using, I don't have a Mac Mini, but I have a Raspberry Pi that I'm just going to start with that and just give, yeah, very little access.
+
+Speaker  259328:00
+You use it. You use an SSH tunnel, create an SSH tunnel, and then you use a tail spin, which basically, once you log into tail spin, it keeps your connection secure. And I'm using a VPS. I'm not doing the Mac Mini because I don't need, I mean, VPS is faster, and you get it's cheaper actually, in the short term. So I just set up a VPS through hostinger, which is a lot of you might want to just do that then, instead of trying to set the map Mac Mini, and if, if if it makes sense to move Mac Mini later, then there's a lot of studies online of the cost benefit of both. So, but, but hostinger has a is pretty good. That's what a lot it's a one click, install the open clock, and then you're, you're all set up. It's just going to, you know, versus having to format the Mac Mini, and put all the security stuff there. So you still have to do, what do you
+
+Speaker  274192:00
+call it? Like a bunch of people have done the Kimmy now, where it's kind of set up for you, but some people are nervous because it's in China.
+
+Speaker  276415:59
+Yeah, I'm not doing that. Well, that's, that's, you know, it's, it's, look, it's not easy, it's borderline of programming and technical. But yeah, there eventually will be a lot more tools, and like even Google will probably come out with their own where it'll just, you know, you just literally push buttons and fill in fields and it formats everything for you. But right now, there's a lot of manual in it. Yeah, I ain't trusting no China company to do it, so I'm just learning it and doing it. You're just gonna you just right now, it's like a lot of manual hours, but once you get it set up, it's easy, easier, because then you can just talk to it and say, Hey, this is what I'm trying to do. I need to you to set up an agent to do all these routines, and then it'll start working and start setting it up for you. But eventually people are going to sell all their agents and sell right? Agencies will create their own agents, sell them to you, try and make it a business, but I think it's you know, the more you can learn yourself and run it yourself. It's like anything else. You either pay an agency to do it or you do it yourself, right?
+
+Speaker  291920:00
+I did a thing this week. Speaking of the AI, it's I just randomly wanted to try claude's work, yeah, where it'll control your browser, yeah, and and I all the prompt I did was pretty basic. Is just like, hey, go download all my business reports from Amazon and ad accounts, everything, and do an analysis and provide me an audit. And it was pretty impressive. It pulled all the reports, it changed the dates, everything, and then it built a multi tab Excel spreadsheet that basically said, Hey, this campaign's wasting you money. This one, you could juice this one. And I sent it to my my agency people. They were like, Oh, this is really cool. Who did this? You know, could you think they could white label it for us? I'm like, Dude, I don't, I don't know how to do any PPC, and I just did this. Like, you're not inspiring me. Oh shit. So I'm starting to like, wonder, like, Yo Guido and them talked about in the AI chat, like agencies are dead. Like, yeah, starting to wonder, like, Man, I could probably build a whole forecasting model with all my stuff, even with all the seasonality and everything, if I started just pulled down all the business reports of like, units sold by day and all that build a whole forecast thing, kind of like so stocked. And then anytime we go out of stock, you know, alert. And then we can bump 10% opportunity or something like that. I don't know.
+
+Speaker  313877:20
+Yeah, that that AI WhatsApp chat is super helpful. Just been taking all those tweets and and YouTube videos and just trying to learn from all of that. They're crazy,
+
+Speaker  317434:40
+yeah, put them in a notebook. Lm,
+
+Speaker  318330:40
+yeah, that's a great idea. All in there.
+
+Speaker  319114:40
+Tell me about that like you just keep cutting and pasting them over. Over and over. Can you, like, just feed it right into one? Ooh, I
+
+Speaker  320815:59
+bet you could figure that out. I'm not that. I haven't figured that out yet. I just grab them and I have notebooks for different set of things, but it's just so much, yeah, especially if you like, getting some tweets and, like, if you're out driving, like, then you can do the little, I forget the audio overview. It's like a little podcast. And so it'll do, yeah, all the different things you have on there.
+
+Speaker  326773:20
+So you're let me. So you create, you'll go into your notebook element. I don't actually use this tool, so not just, yeah. So then you'll create a tab or a book that says, AI, MDS, AI, and you just keep putting that stuff in there. And then you have do an output of summaries and information.
+
+Speaker  331029:19
+And so then it has, like, so it has, on the left side, it's like a three part thing, and on the left side it says, like, your sources. So you can add things. I think there's a it's always updating, but there's some, some stuff you can't but like, web links. You can YouTube videos, you can, you know, you can put PDFs and stuff like that in there, and then in the middle, kind of looks like chat, GPT, Claude, any of those elements, like little interface. And then on the far right, it gives you options of like, you want to do a mind map, you want to do FAQ, you want to do a audio overview. So it's like, between all of that, you can, you can kind of interact with it like you would if you threw it into chat or something like that. Okay, it's really fun.
+
+Speaker  342645:20
+Yeah, just be careful with if you're going to use API open claw to link all your because open claw, what it allows you to do is allows you to link Gemini, which is Google, with chat, GBT and with Claude, right? But you have to pay if you use an API to access all those models. So the benefit open clause, it'll, it'll run separate models to congregate what you're trying to do and create an agent. And it'll pick the cheapest one, if you tell it to, right? Well, the problem is, is, when you use an API, it charges you, right? So that's where one says, Oh, I charged me this much credit. You have to have credits, right? When you go into chat, GPT in its own console, or Claude, right? It doesn't charge you because you're not using an API. So you have to be careful. You can burn a lot of money if you keep using the API when you don't need to. Does that make sense? So like for book summary, I'd probably use, I wouldn't use open claw. I would use, I would use, personally, I would just use, you know, one of the AI engines, because it's, I'm just paying for a subscription, right? You get charged credits when you access it through open qual. So just, just be aware of that. That's where you can burn, like, 100 bucks
+
+Speaker  361205:20
+a day easy, and that's where that's really when you start looping and letting it run, yep, because otherwise it's pretty cheap. Otherwise, API is, yeah, cheap. But it's this, yeah, it's cheap to do, yeah. It goes in and ask it, and then it tries to verify with something else. And it goes down this rabbit hole of like, trying to figure out one question. And you're like, Okay, now I just burned 100 bucks just trying to ask a simple
+
+Speaker  367098:39
+Yeah, yeah. That's what you have to be cautious. So Ben, just don't Okay. I Yeah.
+
+Speaker  369023:59
+Well, I'm glad we have our group and we can all kind of share stuff, because I think this is you can go down a lot of crazy rabbit holes that are just not that productive. Yeah, trying to be early.
+
+Speaker  371968:00
+I'm sure MDS is going to do a whole AI.
+
+Speaker  372751:59
+It's gonna be like the Tiktok now. We're gonna go to events. We don't have to listen to tick tock all day long.
+
+Speaker  374277:20
+Everyone's trying to pitch how to do AI in our business, which will be nice, because I'd rather learn it from guys doing what we're doing. It multi million dollar sales, right then guys on YouTube, right? So hopefully we'll get some good content from the group. But do we want to Ben? Do we want to meet next month? Should we should we cancel March because it's a week after prosper and or do you want to just keep it on and people could join if they want, like this, it's up to you. I mean,
+
+Speaker  382010:40
+I mean, honestly, I wouldn't mind keeping it because if not many of us are going, right, who cares? Oh yeah, yeah, a couple people are going, it'd be really awesome for us to hear from the people that
+
+Speaker  384544:00
+went, Okay, yeah, so maybe we'll just keep it then, because I think it's the week after, right? Yeah, yeah, yeah.
+
+Speaker  386848:00
+And we, I mean, we only have four of us on and there's like 20 of us,
+
+Speaker  387823:59
+so we get credit. We get credit with MDS. We get bonus credits if we, I didn't know if you knew that. But if we, the more we meet, and the more people that attend, we get a higher budget,
+
+Speaker  390949:19
+I think we're going to do a weekly like a daily meeting from seven to 715 All right, stand up call every morning. Yeah.
+
+Speaker  394277:20
+So it's on the same actually next month, because February is 28 days it's on the 18th. So, so exactly four weeks from now, cool classrooms on 12. Okay, cool.
+
+Speaker  397914:40
+I have a question, and we don't. You don't have to, even if you just had some resources. You send, send my way, but it's kind of like what you're doing. Ben. Right? But what I'm trying, what Sam and I are both been working on kind of lately, within the AI front, is trying to figure out some good reporting and reporting across, you know, because we're in Amazon target, Nordstrom, Walmart, you know, all these different channels, and then also the ad platforms that we're we're in too, and trying to get it consolidated, especially because within the baby industry, you have the Add to registry factor, which, you know, attribution adds a whole other, you know, issue to that. So trying to track it across all channels and correlating. Are there, is there good systems out there? Is there way, do we, is there ways that anybody's cracked the nut on it, or is it just kind of like sticking with, like, triple whale and, like some of those different already, triple
+
+Speaker  413354:39
+whale, north, beam north. Mean, I haven't, I don't. You could, I wonder if you could have Claude build an app for it.
+
+Speaker  416320:00
+So we're working, actually, with, doing it with open claw, trying to work through some stuff. But, yeah, interesting. Just curious. If anybody
+
+Speaker  418959:59
+I don't have, I don't, I've heard, yeah, about the North beam and and triple whale, but I don't have experience with those. Yeah, I don't either.
+
+Speaker  422229:19
+So, but what are you mainly trying to do? Ryan, again, sorry, I didn't like, yeah, kind of get the
+
+Speaker  423829:19
+it's really just having a company wide kind of executive dashboard that we can Oh, yeah, look across. That was one of our biggest misses this past year, was we were trying to focus on efficiency and a lot of different things within Amazon, yeah, and also that kind of stuff. And we started really taking a hit, because our attribution window, our attribution window of even, like, five months after somebody adds it to a registry to when it's purchased, is there's some money that is not efficient, but it actually is. It does look like it?
+
+Speaker  432464:00
+Yeah, let me see what I was just doing a quick search in MDS, because I know I've seen a lot of posts on this, seller board. No, I know a lot of people use seller board, but yeah, you probably want something more advanced. I know, yeah, a lot of people
+
+Speaker  438517:20
+doing that, attribution, right? Yeah, attribution, yeah.
+
+Speaker  439589:20
+And I got our big one is, we want to do a company wide mirror, so that, like, across all, like, what our efficiency ratio is across everything, because it's kind of like the, you know, the rising tide, you know, helps, you know, raise all ships. So it's like, that's kind of the approach we're trying to take at it with 2026 so, yeah, really, if just having, if you guys come across anything I'm interested, otherwise, we hours of the night, Sam and I just typing away on our computer talking to AI, yeah,
+
+Speaker  448138:40
+well, you should be able to, I mean, technically, yeah, if you set up an agent in open claw, it'll you can tell it to run, tell it what to pull, and then it should be able to create it for you and run it when you tell you know how often you want it. And automatically, just, I've seen some of the dashboards that's done, even for crypto and other things, and it's, you know, what? As long as Amazon gives us, doesn't take away API access, which they may, you know, but as long as you can get into the change Amazon, you know, in your Shopify and whatever you're using, it should pull everything in to the summary you want. That's what I know a lot of guys are doing so but, but no, go ahead. I was just
+
+Speaker  460168:00
+a Do you, are you creating like, so like for Amazon, you got API, so you're using, creating specific credentials for it within the API. No, because,
+
+Speaker  463128:00
+yeah, because open cloud will, will, it's, it's, it uses the it can you get through the Amazon API when you set it up. And so it'll pull through, you know, your reports and stuff you have to log in Seller Central for you could pretty much get, you know, pulled out to to a dashboard and open call if you want, right? I haven't gotten too far down that, but I know, I know other guys that are doing that part, right? And you do have to sign up for the Amazon API, get the API, you know, and then you can connect to to it directly, and through your Seller Central account, through your merchant token, you should be able to pull whatever in, right? So I'm starting to, I'm programming mine to do customer service, because I have manual VA, you know, responding all messages, and then I'm having it download and upload the reports I want to Google Drive, right? So I have my dashboards, because I'm doing that manually, right? Just that I'm doing more simple stuff. I know it can do some more advanced stuff, but that's kind of stuff. So then, that way I don't have to have so many fill. You know, VAs do all my stuff, right? I'm gonna, my big one right now is training it to do all my PPC. Because I have an agency I'm paying 2500 bucks a month minimum just to do my PPC. Well, I can take all the stuff that they've already done my current PPC, and it can see it, and it can basically start just running it for me, making any, you know, a any key in any overspend, and modifies the bid, adjust the keywords, right? It can do all that. It can negate keywords, if you tell, give it the rules. So that'll save a ton. Once I get that all completed, then I don't need the agency anymore, and that's, that's what I'm going to do. And then I'll still have a couple VAs do my overall operations. Can I'll move them more to like, hey, oversee what's going on, versus all the running reports and responding to messages and doing cases right. Open call will create all your cases for you too. So I probably create like, uh, my team cry creates like, 20 to 30 cases a day. I don't know, and I'm only you know, I'm not even doing that much right. Like, that's off a $5 million revenue account, right? And I still have 2030 cases a day, because when you run all the reports, if you're doing it right, lost inventory, damaged inventory, right? Misappropriated inventory, all that stuff. You got to do a case per issue. I'm doing a ton of those return cases. You know, we get all our returns returned, and we take pictures of them, and then we upload try and get the money back, and we usually recover about 30 to 40% of that. So if you're not getting your returns, and you could be doing cases for they'll they'll refund you a lot for the full amounts, but that's what we're doing. So I'm it's worth it me for me to pay $1.20 per recall unit to do the case and get 20 bucks back, 30 bucks back. Right? So, cool. But yeah, so I'm not the pro at it, but I'm sure we'll, we'll start learning together. Yeah, so right on. Wish we could help you more. Well, cool, man, yeah, what were you saying? I said that's helpful. Thank you. Yeah, yeah. No worries. Okay, cool. Well, do you guys want to throw anything else out there? I don't have anything personally, but just, just looking forward to seeing whoever I can in March. And you know, we'll keep, keep growing the chapter, right? I tried to Ben, I tried to do the E comm lunch, and not one person signed up in Salt Lake. So I think, you know, they say, you know it, they're supposed to be running ads on Facebook and stuff to do the local one. But I haven't seen any of my ads for Utah. So that's I was like, Well, why am I not getting targeted, right? So, you know, but I may move it out to April ours, just to give me more time to do more marketing, but it is, it is going to take some work. That's all I'm saying, Ben, is you got to really understand, like, how you get people in that to sign up, even for a free lunch, you know, people just don't want to commit, you know. So they're
+
+Speaker  532559:59
+doing one down in Arizona tomorrow, and I think, I think they have 10 people signed up down in Phoenix,
+
+Speaker  533845:20
+which is good. The 10 is actually good. I Right now we've been marketing the Utah one for over a month, and not one person signed up yet. And I posted
+
+Speaker  536293:19
+so much e commerce in Utah.
+
+Speaker  536981:20
+Yeah, it may be the I used AI to write the post, but, you know, I thought it was catchy. You know, I don't know. Did you even see the post Mason and any groups you're in? Because I did all the networking ones. Okay, I'm probably, I need it. There's not really a Utah e comm group. That's, that's big, so I'm probably just going to create one for Utah. And that's, that's an idea Ben for Denver is just create your own e comm founders group or E Comm, Denver, e Comm, right? And then you start posting it in other business groups, and you'll start getting people interested in E comm in that group. And then you own the group. And then it's easier to market, right? Because if you can get a few 100 people in there, it probably can fill, fill the the lunch. That's what I plan to do next. I haven't done that yet, so, so I'll create a Utah calm group that hopefully will get the right audience in there. So, and I actually made Utah's $100,000 I said, all you have to be doing is $100,000 in E commerce sales, and you can come for free. But still no one's if I don't have any signups by Friday, I'm moving it. I don't want to, I don't want to be the only one there. Me and Mason will show up.
+
+Speaker  557562:39
+Alright, guys, well, should we end the call? Or anything else you guys want? Is your guys time? Man? Anything good?
+
+Speaker  559562:40
+Thanks for all the ideas. I'll let you. Yeah, yeah,
+
+Speaker  560288:00
+yeah, yeah. It's great catching up everybody. Yeah, we'll, we'll talk next month and Mason, yeah, make sure you find me, or text me or WhatsApp me, or Yeah, as many, we'll get as many Rockies people to kind of meet up or something, do a drink or something, or whatever. They do meet at the bar or whatever. Yeah, that'll be great. Okay, okay, thanks. See you soon. Yeah, man too, yeah, talk to you guys there. Okay, see you. Bye. Bye.

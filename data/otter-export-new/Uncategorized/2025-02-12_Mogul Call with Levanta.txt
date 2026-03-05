@@ -1,0 +1,290 @@
+Mogul Call with Levanta
+Date: February 12, 2025
+
+Speaker  5344:00
+To Hi, Kat, welcome to the call. Great to have you with us, but you just joined. Kat is our new main contact at levanta, so it's been a bit of chat about levanta this year. So we thought we would try and get you guys on as quickly as possible to get an update on what is going on. So Kat got some slides which are a bit of a bit of a refresh of what the answer is. It's going to be relatively quick. And then we're going to get into some of the questions that have been asked by members. And then we'll have a bit more time for Q and A, alright, Kat, you want to get into the presentation?
+
+Speaker  16282:40
+Yep. Happy to first off. Hello everyone. It's nice to meet you like Jamie shared, I am from lavanta and managing brand partnerships there for those of you who joined the call a little bit later, just a bit on my background, I've been in the E commerce, space agency side for almost 10 years now, previously working on direct C to C with a couple of large, long time clients, and then after seeing a lot of affiliate success with those clients In recent years, moved over to lavonta to be closer to the newest thing, but happy to be sharing a bit about lavanta and what we do. I'm sure this will be an overview or something that you've already heard before in terms of the beginning portion, but just want to reiterate quickly what we're up to in the market. And then you can talk about our new creator connections integration that recently launched, and then go into some of the questions that you had sent over to me. And then at the end, if there's anything else or additional time, we can work with that. Sound good? Yeah, that's great. All right, so
+
+Speaker  38245:20
+can everyone see my screen? Yeah.
+
+Speaker  39461:20
+Okay, so just a little bit about lavanta and what challenges we're addressing in the market. Many of our clients work with us with the desire to grow their Amazon sales. Obviously, Amazon is the name of the game in terms of conversion rate and meeting your shoppers where they are. That said, with in recent years, there's been a lot of competition in that space, which is driving up CPC advertising, like sponsored products and brand campaigns, all of this resulting in lack of levers to improve your BSR or where you're ranking on keywords. The way that lavonta is helping with that is by creating an affiliate platform built on Amazon's public facing API that allows for affiliates to create content, drive external traffic and ultimately convert via lavanta Channel, and that pool and database creators is ever growing currently a little over 8000 the slides a little outdated, but we're currently working with 2500 brands, which is pretty exceptional considering that we're just two years into working on this integration. And then, just as an update for everyone on this call, we are so pleased to say that we've raised our Series A into four of last year, that funding will be going to expanding marketplaces with lavanta. So right now, we're Amazon's number one preferred affiliate platform, but we want to expand marketplaces to places like Walmart or potentially Tik Tok shop or things like that down the road this year to become kind of the hub for managing your affiliate channels for all marketplaces that your consumers shop in. When looking at levantas, main mission, our mission is to scale revenue from your from our clients, Amazon stores, we typically see that's between five and 10% of revenue unlocked from this channel of external traffic being driven to the store via high intent engaged traffic that's coming from social selling methods like affiliates. A little bit deeper dive into how lavanta operates, but like we've been talking about, the goal is to drive external traffic at scale to your Amazon store via these affiliates that we're working with and their content. And just talking about the word creators, lavanta calls our database of affiliates creators, but that's really broken down into three different buckets. So bucket number one, publishers think CNN media. Bucket number two, media buyers, think listicles, top 10s and bucket number three, individual creators with really engaged audiences, and the goal is to leverage those partnerships to drive conversions on your Amazon store, and those conversions you know lavanta is aligning our business case with conversions and your KPIs versus clicks, we know that there's a lot of traffic out there, bot traffic, things like that, where clicks can be not the most profitable investment, and so that's why lavanta is more interested with aligning our goals closely to our clients and charging variable fees upon conversion. Lastly, and just kind of doubling down on this idea of external traffic, but Amazon's algorithm for BSR is made the main component of that is external traffic. So if Amazon sees, hey, you know this brand is driving a ton of external traffic to Amazon. They reward that brand with improvements in their BSR, as well as what we call the brand referral bonus, which I'm sure most of you know of which is that kickback for conversions that are driven by external traffic sources, ie, every conversion from lavanta will be eligible for that bridge referral bonus, and those kickbox are applied to your seller fees. Talking a little bit more in depth about our Creator connections, integration, so as many of you know, as proven by the questions that we had gotten over email, Amazon made a change to their policy on December 20 of last year. That changed the practice that a lot of affiliates were doing of double dipping in their sales from Amazon Associates as well as creator connections. Because of that, lavanta decided to move creator connections programs into the lavanta Dash entirely so that you're able to manage both of those programs from within lavanta.
+
+Speaker  127274:39
+We heard a lot of feedback from our clients
+
+Speaker  128346:40
+that the Creator connections dashboard left little to be desired in terms of usability, user friendly reporting. So we're opening up all of the features that people really enjoy and flexibilities that people really enjoy about creator connection, or about the launches platform to create our connections. So the you know, outcome of all of that work and integration has been a unified affiliate dashboard to manage all of your affiliate partners as it pertains to Amazon, so that reporting is now combined within the lavonta dashboard. I don't know if any of you are currently utilizing this integration, but the reporting that lavonta offers is much more granular than the reporting that creator connections previously offered, and being able to see that reporting holistically from both channels versus piece mail per campaign with creative connections has definitely helped a lot of our clients make more educated decisions about where they spend their dollars with affiliates. So talking a little bit more in depth about this unified affiliate platform for Amazon, where we're managing both attribution and creator connections within lavanta is really benefiting the creators, because those creators can choose the right monetization methods for them while benefiting from the lavanta experience. So I know there has been a lot of questions and a lot of wondering around, are these affiliates going to stay with Labonte, given the change? But the good news is that no affiliates have left lavanta as a result of the change that happened on December 20, what happened was certainly a swift change that was not totally expected at that moment, mid holiday for affiliates, and so given that Amazon has a lot of benefits for affiliates by the end of the year to meet certain goals that those affiliates Get kickbacks for towards the end of the year. Last year, affiliates definitely swung back to greater connections with Amazon to achieve those kickbacks by end of year. But Levante has been very in very close contact with those affiliates and had a lot of conversations with them, given that it's now the beginning of the year and those goals and kickbacks are no longer in effect, that they will continue with labonto, we've certainly seen with a lot of our clients, after that dip, initial dip in December and January, that we've started to uptick again For a lot of our clients, and that the affiliates will continue using both platforms. In addition to the benefits that we talked about earlier with creator connections integration and Labonte in terms of reporting, this is also going to extend to your recruitment. So right now, as many of you know, for creator connections, you are pretty much assigned creators that work on your behalf, and those creators you don't, you're unable to form a personal relationship with or utilize again because you're not aware of who They are. Lavanta affiliate recruitment capabilities are going to extend to creator connection so you'll be able to see those creators, to see which creators from your Creator connection campaigns are generating the most revenue for you, and start to form a personal relationship with those creators so that you can invite them back to create with you again. And lastly, creator connections has blanket commissions, and as many of you know, with levanta, you're able to set flexible commissions to continue to build stronger relationships with those key affiliates that are driving the most revenue for you. So today, you know that's not available, so it's just this blanket commission, but with lavanta, you're able to really strengthen those relationships for long term success with these affiliates that are key for you in either creating campaigns, either through lavanta or through creator connections. All right, so for those of you are lavanta clients currently operating on our golden enterprise plans, the integration for the Creator connections, the onboarding for creator connections integration is fairly simple, so we'll have you sign an addendum to your contract that includes the integration, and we'll add a user in your central seller account that will have permissions to view only the Creator connections line item that will then populate in your lavanta dash, and you'll be good to go from there. So you can see here how that will work. First, very specific user permissions for that channel online. And again, this integration is entirely free within lavanta until March 1. There's no monthly SaaS fee associated with this integration. There's only the same variable fee that you pay with lavanta you would pay on both programs through lavanta. So I highly encourage everyone to check out this integration and see what you can learn to really decode the success of your Creator, connections, relationships and program and double down on that in the future. So again, if you are already Alliance and on those folded enterprise plans, please email me afterwards and I can help you get set up this integration you can we just
+
+Speaker  230517:20
+cover a couple of things on creative connections
+
+Speaker  231045:20
+quickly? Yeah, absolutely,
+
+Speaker  231909:20
+so. So currently, anyone that's on creative connections can get into the levanta levanta program now, right? Do you know if
+
+Speaker  235306:40
+create a connection, still just for us sellers, or are they letting
+
+Speaker  236090:40
+in international sellers to create a connection?
+
+Speaker  236730:40
+I believe this is still US based.
+
+Speaker  238442:40
+Well, if anyone knows, anybody knows any way to get me on, let me know.
+
+Speaker  239866:40
+Someone gave me a contact to Amazon by email, but I wasn't able to get on right. Does anyone have any questions on the Creator connection side of things?
+
+Speaker  242656:00
+Jamie, I have two questions. One,
+
+Speaker  244224:00
+opting into your program basically entitles you guys to an override commission over all creator connection campaigns, regardless of your involvement in setting them up or ongoing. Is that correct? Meaning we have, we have hundreds of campaigns already running successfully, and so by opting in, we're saying, Sure, take an additional override commission on all these things that you have nothing to do with. That
+
+Speaker  250949:20
+Correct? Yes, that's correct, and one way to put it certainly. But the goal of the integration is to provide more visibility into why those what creators are generating success, the reporting of that success and form those relationships down the line so that you can utilize them over and over again, so there is going to be value absolutely to the integration. It's not just, you know, lavanta is asking for a cut of the sales without returning value.
+
+Speaker  260031:59
+Got it. Second question is, you said you can offer specific commissions with creators that you have found or you work. But how are you preventing other you know, creator connections as an open marketplace. So I create a increased commission for someone, and I invite them to it, but it's still open and available for anyone else to join. How are you preventing others from joining those open creator connections?
+
+Speaker  266165:20
+Yeah, so you would offer them a private commission through lavanta.
+
+Speaker  267786:40
+So how is that handled? It's not through creative connections. It's an override on top of their associate commission. Or how is that correct? So
+
+Speaker  270122:40
+what would happen is you're able to, you know, see what creators are you're utilizing through creator connections, and we will help you get connected with them to discuss the partnership more in depth. Should you want to offer them a private commission? You could do that within LaVonda in our private commissions functionality, but that would that private commission would then apply to any local debt campaign that they would run with you.
+
+Speaker  279125:20
+So just so I'm clear, if they would use their associates link, and then they would bill you and we would pay that supplemental commission at the individual or how are you tracking their their sales and referrals?
+
+Speaker  283045:20
+Yes, that's correct.
+
+Speaker  283898:40
+So they use their own associates link. They provide you with a report at the end. You would cross check it against creator connections to make sure there's no double dipping, and then charge us for the additional that we would agree.
+
+Speaker  286810:40
+Yeah, we're working on a productized way to achieve that in our integration right now our integration is being released in phases. So we've released phase one, which is the reporting functionality. We're releasing phase two this month, which is the affiliate recruitment component, and then we're really releasing stage three of the integration at the end of the month, which should include private commissions, product guys, it isn't, which is why we're not charging any fees on the Creator connections, integration, until the integration itself is fully live at the end of the month.
+
+Speaker  300874:40
+Anyone else on creative connections? I know there are a couple of questions in the chat we can come to you later, but any more questions
+
+Speaker  302474:40
+on creative connections?
+
+Speaker  304170:40
+All right, so let's go to the pre submitted questions, and then we do any more questions after
+
+Speaker  306447:59
+that. Sounds good, okay, so we've received the question affiliates exploit loopholes to claim commissions from both Labonte and Amazon programs for the same sale. How can Labonte prevent this? Can you provide proof that our links prevent double dipping? So this is no longer possible. The update on December 20 of last year took away the ability to double dip on associates and create our connections. The brand referral bonus wouldn't be applicable here, because the brand referral bonus is for brands, is for the sellers. But the long and the short of it is that Amazon no longer supports links that make two calls. So what affiliates were doing previously as they were appending both their affiliate link and their Labonte or creator connections, link to one blank and that made two calls, they would get two commissions on that link. But that's no longer supported on Amazon, so double dipping is no longer possible with lavanta with creator connections, with Amazon Associates, I
+
+Speaker  326437:20
+any questions. So
+
+Speaker  326837:20
+do you think that we need to offer more commission now that people can't double dip, or do you think that the same commissions as before would still be okay?
+
+Speaker  329525:19
+Um, I have not seen anyone need to increase their commissions as before, I think that people are just doing more campaigns so they're not, you know, they're doing campaigns with creator connections that are maybe specific campaigns, but doing evergreen campaigns with lavanta, all right, any follow up questions on
+
+Speaker  336282:40
+that? Alright, let's go to next one.
+
+Speaker  337168:00
+All right. Recent Amazon updates may render lavonta model risky. Publishers are leaving. How is lavanta adapting what guarantees to be offered that we comply with Amazon's policies? So good news is that the publishers are not meeting lavanta Like we talked about earlier in the call. There was definitely a quick swing at the end of last year while people adjusted the news and the policy release. Now that that has been figured out, and we've had conversations with publishers, they are coming back to lavanta to create with us, and that revenue is certainly seeing an uptick since that time, especially with this creator connections integration, which they're very excited about. So lavanta is is not expecting that to be a long term issue with us in terms of the guarantees that we offer that our links comply with Amazon policies, so our links are entirely compliant with Amazon's policies. When we built our channel on top of Amazon's public facing API, we had to agree with their terms, and like contractually agree with their terms before we could even get access to that API. So the good news is that we're entirely compliant. If there was any additional documentation needed, I'm happy to put you in touch with our CEO, who was the person that had all of the contractual information as a regards to Amazon terms? And
+
+Speaker  365658:40
+I'm guessing that some publishers have probably killed us, like if I look at my own account, you know, I was doing quite well. I was getting a fair amount of clicks on Exxon media. And then from december 21 onwards, it goes to, like, absolutely zero. And it seems weird that, like, it seems weird that I wouldn't have a single click from december 21 until today, like it would, I'm guessing if I went in, like, taking the elemental links out. Is that what's going on? Or is it some good something else? Yeah,
+
+Speaker  374709:20
+so that, like I mentioned, is like a temporary component. Exxon media will continue to work with Labonte in both the Creator connections component of the integration and labonto Pure. They have been putting that on hold until the Creator connections integration has been rolled out. So we expect that to change in the coming weeks.
+
+Speaker  381818:40
+Yes, I have noticed that, like, I've got a new publisher that's come on. I just got a bit, I just started to get a bit more action based creative connections going to be where the main action is going to be.
+
+Speaker  385040:00
+I wouldn't say that's the case, because
+
+Speaker  386064:00
+operating in one program doesn't preclude you from operating in both programs. Like I said, you can do campaigns with lavanta and campaigns with greater connections. They're just separate campaigns. So what people will do is do certain campaigns with creator connections and certain campaigns with Labonte. So for instance, for one of our clients that I went and checked on earlier today, who's an early adopter of the Creator connections integration, we see that a 5050 revenue is split between Labonte and creator connections.
+
+Speaker  395445:20
+I to Okay. Any more questions on this, guys.
+
+Speaker  397818:40
+All right, let's carry on
+
+Speaker  398442:40
+great. So lavanta is reporting, lacks visibility into traffic sources versus wayward Amazon delays attribution data until links get up to 10 plus clicks, making sales hard to verify. Can Labonte integrate real time tracking or keyword specific attribution links to improve transparency? I'll start with the first question, because it's kind of the two part, which is in terms of the visibility into traffic sources. This feature is on our roadmap for this year. There are a couple of reasons why we didn't prioritize that. We've been much more focused on revenue driving features for our creators, and that's why, you know, in comparison to other competitors in the market we have always led in this department, in terms of a, usability of our platform and B, scale of the revenue that we drive versus our competitors, and also just the breadth of pimp creators that we have in our network is significantly larger than any of our competitors that said Amazon doesn't specifically enable the visibility into traffic sources, so the only way that that information can be captured is by manual reporting from creators themselves, or automatically upon redirect, which can be modified At the affiliate. So because there's not a real 100% source of truth of that traffic source, we haven't prioritized this build internally. Again, that said, this is on the roadmap and will be utilized later in the year in terms of keyword specific tracking. This is already in place for most of our affiliates, media buyers, especially, will often use keyword specific tracking. So that's available today in terms of individual influencers, those are tracked by post or by channel, so that it's a little bit different than keyword specific. They just wouldn't utilize that. But you can see tracking via posts,
+
+Speaker  435952:00
+and when you So, when you do build out that feature, will you do it by asking creators to like label the campaigns that they create somewhere where it is. So is that what it will rely
+
+Speaker  439285:20
+on? Um, that's a great question. I would honestly have to ask our product team on that of you know which way they're leaning towards attributing traffic sources. But I'm happy to ask and follow up in an email to see. You know if they have any clarity on which way they might be attributed, attributing traffic sources in the future,
+
+Speaker  445498:40
+my guess would be not ideal to count on creators to be doing extra clicks and extra work, if it's not directly making more money. Yeah. So far side, if they would see Yeah, I think
+
+Speaker  450112:00
+it sounds like the automatically upon redirect would be probably the easiest. But I would also ask brands like wayward how they're doing it, how they are tracking traffic sources, because my guess is it's one of these two things, because those are the only options today. So even if they are reporting traffic sources, they may not be 100% accurate.
+
+Speaker  457253:20
+Unless there are any more questions on this, we will move on to the next question.
+
+Speaker  458581:20
+Yeah, go for it. There's a those are all the questions that you had sent over to me, so happy to take questions from the
+
+Speaker  461738:40
+rest of the folks on the call.
+
+Speaker  463034:40
+What's the planned you mentioned there's going to be, like, I think, starting March 1, a separate creator connections
+
+Speaker  465455:59
+software fee. You know what that is?
+
+Speaker  466640:00
+There won't be a additional software fee after March 1. The only thing that would be in effect. So right now, the creator connections integration is entirely free after March 1, there will be no monthly SaaS fee with the Creator connections. All of that will stay the same that you paid with lovanta before, but it's the variable fee that will be charged to all conversions. So that's the same variable fee that you would pay with our goal plan, but just 3.5%
+
+Speaker  475578:39
+on conversions.
+
+Speaker  476794:40
+Question on that, has the banza considered doing a monthly SaaS fee because, like, frankly, like we were doing, we've been using it via connection integration with the Banta and I like the dashboard and everything. But we were doing like, close to 20k a month in sales to, like, creative connections. And it's it's not worth $700 for, like, a nice dashboard, I would pay like a monthly lat fee, potentially, depending on what it was, but I think the variable fee model is, like, Bobby, don't lose me as a customer on the creative connections thing. So have you guys considered changing that pricing model? Is that you guys set on the three and a half percent better?
+
+Speaker  488725:20
+No, we I haven't heard any discussion internally about changing that, but I'm happy to flip the idea around and see how the team feedback is to it ultimately, too, like I completely understand that right now. You know, the integration doesn't feel like potentially, it's worth the additional fees upon conversion, but that said the integration is only in phase one right now, so I would definitely encourage you to, especially because we're not charging any of those fees currently, stick with the integration until the full rollout is achieved, and that way you can make a decision on whether or not those additional features are valuable enough to have that increased visibility to your Creator Connections program, and then make a decision from there.
+
+Speaker  503541:20
+Yeah. I mean, I definitely do, like, the integration. I just don't think that the flat there will be would just make sense, like, like, business wise, for us. But yeah. I mean, yeah, I think it was doing good work integration. I just don't like it once that gets all that.
+
+Speaker  508090:40
+Yep, totally. I think you know, this is a new integration for us. So as the integration develops, and as you know, our clients have feedback for those integrations, we're more than welcome to hear it.
+
+Speaker  512602:40
+So did you say that the for the now, for now, you're not actually charging the three and a half percent connection sales? Well, you will be later, but for now,
+
+Speaker  515344:00
+yeah, for now, we're not so I definitely highly encourage folks to take advantage of the Creator connections integration at minimum so that you can experience the integration before making a decision on the variable fee charge. And that's the goal, you know, is we know that right now, because the integration isn't fully rolled out to the public, that it would be unfair to charge on any conversions driven through creator connections on looks at given that the value isn't fully rolled out, so only when that integration is fully baked and delivered to our clients would we consider charging on it. Okay,
+
+Speaker  528074:40
+how can you there was something that people were talking about about how the commissions are calculated, like, are you able to make the commissions calculated on net sales, so after coupons and discounts, rather than the gross amount?
+
+Speaker  532336:00
+Oh, interesting
+
+Speaker  532976:00
+that I don't believe is something that we can do that said, I'm happy to chat with our product team to see if they've received that question before, and you know if that's on our roadmap. So that's a great question. I'll ask for sure, and make sure to circle back with you guys and get you an answer there.
+
+Speaker  539754:40
+Okay, yeah, if anyone else, I've just got a couple of other things like I found here. So if anyone else wants to talk, just raise your hands or you can put questions in the chat. Is really to customize attributes and links, ie, by adding keywords in without breaking Amazon rules.
+
+Speaker  544704:00
+Yeah, so, like we talked about in the slides, that is a feature that we're working on, being released later this year, but because it's not directly revenue touching, it's de prioritized in terms of getting additional creators on and a lot of the other work that we're doing around the Creator connections integration, so that feature will be available with lavanta. It's just not in the Super immediate term.
+
+Speaker  552805:20
+Okay, so is there anything you guys are doing to to weed out affiliates that may be sort of low value, Low to low effort,
+
+Speaker  555626:40
+something like best choices. Just recycle content
+
+Speaker  556666:40
+you kind of saw in place for that. Yeah.
+
+Speaker  557338:40
+So again, with this recent raising, raise up finding that we did in q4 like I mentioned at the top of the call, yes, you know that funding is certainly going towards expanding marketplaces, into having our affiliates create for multiple marketplaces to generate revenue. But the other component and big focus for this year is making sure that we're continuously growing our Creator base, and making sure that those creators are extremely active with wavonta and revenue generating and doing a lot of training there. So if you know, if you're thinking about lavanta for 2025 I would say the main focuses are marketplace expansion for us and creator health.
+
+Speaker  570789:20
+Great. So when I first joined, I got a whole bunch of, you know, high profile, you know, big publishers applying, like Busby Forbes right away, but they haven't actually written any articles or anything, and they don't, they don't reply when I message them. Are these? Do these big publishers have some sort of automated feature where they're just automatically adding people. Or is this somebody? Is somebody at BuzzFeed genuinely looking at my brand and then adding me, but then just not getting around to writing anything? Yeah,
+
+Speaker  579392:00
+I think that we often see that at the beginning, because a lot of products are discoverable on lavanta is back end. So the creators log into the lavanta dashboard and see, hey, new new products on lavanta, so they're able to reach out to the recently joined lavanta products. So we do see that at the beginning, publishers will go in and, you know, try to form partnerships with new lavanta clients, I would definitely recommend a working with your CSM to get their attention. B offering them private commissions, the more high value, high volume, publishers or media buyers that you want to work with will definitely expect higher commissions than you might publicly offer on your lavonta profile. So I would recommend going into that component of our dashboard and kind of working there to make sure that you're grabbing their attention.
+
+Speaker  596944:00
+But even if I'm offering quite a high rate to begin with,
+
+Speaker  598101:20
+they just, they're still going to expect more. Or is it a particular, or if I'm already offering my high rate, Will that be okay?
+
+Speaker  600229:20
+Um, I think it's
+
+Speaker  601061:20
+typically those publishers, because they are so high volume, expect a higher rate of commission then you might give, you, know, a run of the mill influence or something like that. So our chance, the chances of making contact and content and driving versions from those partners, I would definitely recommend offering them a higher commission than you might feel comfortable with or not that you might feel comfortable with, but then you might do normally to your regular program, given that the volume and success of those campaigns are so high that they would hopefully bring back the profit of profitability that you need.
+
+Speaker  612112:00
+So you say that that's probably the best way to get their attention is just to offer them private commission. I
+
+Speaker  613360:00
+would say that's definitely a top way. And then additionally, I would discuss your CSM. I would write them a message and see if you can correct, get some know how in the CSM of hey, like, what's worked before? When you've seen these publishers partner with other accounts in your book of business? Definitely a wealth of knowledge there.
+
+Speaker  620618:40
+What do you think for non consumables is a good sort of commission rate to
+
+Speaker  622682:40
+offer? Typically, I would say 15 to 20% be competitive in the commission rates. I'm seeing some chatter in here about vitamins and supplements categories in terms of commission, 50% I would think, would be a buying commission rate for vitamins and supplements. And again, I would encourage everyone on this call to discuss with their CSM, because their CSM, your CSM, works in this platform all day long with a number of clients, and so they're very aware of, hey, you know, this person is actively making a ton of content and having a ton of success lately, you should absolutely reach out to them so they can kind of help be the guide to cracking lavanta and getting the most revenue out of it and optimizing your program.
+
+Speaker  638026:40
+When I look at who's sold for me, I think it's actually like 100% publishers. I don't know if a single social media influencer have made a sale for me, despite the fact that I've seen samples out and chat I just chatted to people. Is that just where I should be focusing? Is that what the answer is best for? Or is there any tips you can give me that would be good for more social media
+
+Speaker  644560:00
+influences? Yeah, I definitely see that while publishers and media buyers oftentimes have a big impact on the sales driven from lavanta, there are plenty of lavanta clients that See also pretty big sales from individual influencers. An example might be like the Facebook moms groups end up driving like pretty insane scale for a lot of our brands. And so I think that there's definitely a way to introduce your brand to these creators and kind of create this invitation to your program that can be a copy and paste thing on your DMS within Labonte, to make people feel like make it easy for people to create content, give them all the information that they need, and really introduce them and induct them into your brand to create that content. So you can certainly circulate a lot of our tips and tricks about how to really activate social influencers in the Bucha after this call.
+
+Speaker  663925:20
+Okay, so I've got to offer a good rate. It's got to be product that they want to write about. Like, I can make it easier for them in terms of what just sending them, like some images. And,
+
+Speaker  667978:40
+yeah, like brand content, any brand content you can share with them, any you know, the way your brand, you want your brand to be convicted to the public, things like that. Kind of putting all of the resources in their hands to create as easily as possible has definitely been successful for a lot of our clients. Do you
+
+Speaker  674896:00
+want to share your last slide about what the card?
+
+Speaker  675984:00
+Yeah, absolutely.
+
+Speaker  676640:00
+So. Just wanted to talk a little bit for those who don't currently work with Labonte today, if you're interested in having a further chat about it, you can absolutely demo our back end so that you can go in and see what people see when they're lavanta clients, and get a feel for the platform. We offer a special agreement for lavanta clients coming from the million dollar sellers community. We discount our monthly SaaS fee to have a 750, to 575, for all NPS sellers that said, if your business exceeds 1 million in sales on Amazon on a monthly basis, you'll probably qualify for custom pricing. So feel free to reach out to me if you have interest and you're wanting to look at a custom pricing for kind of those larger scale brands, because the monthly SaaS fee and the variable fee per conversion inversely relates. So obviously, for some sellers who are finding extreme success, their variable fee will often outweigh the monthly SaaS fee, and so we have the ability to lower that variable fee further with an increase in the monthly SaaS fee for businesses of a little bit more scale. So again, please feel free to reach out to me with any other questions, or if there's you know, after you've marinated on this discussion. You think of something else? I'll make sure to get my email out to everyone, and you can reach out to me and have any discussions you might want to.
+
+Speaker  708048:00
+Lavanza.io, so, yeah, it's easy to easy to remember. So one question, more question was, I've had some some publishers have written quite a lot of articles about me, but I messaged them to sort of get in touch. Email them. I don't hear anything back. Is that sort of typical, something I need to accept, or is there like a better way to get in touch with publishers that are already writing about my app?
+
+Speaker  714837:20
+Um, I would say that publishers tend to be less active in the DMS than obviously, like individual social influencers. Is there something specifically that you're looking from them after they particularly, I'd
+
+Speaker  718458:40
+like to, I'd like to be able
+
+Speaker  719194:40
+to see the articles.
+
+Speaker  720618:40
+Yeah, maybe I can send them out some samples. They're all facile, something, yeah, um,
+
+Speaker  722416:00
+we don't, we don't currently track content by our creators. That's something that we're looking into in the future. But I will say that, unfortunately, publishers tend to be a little less active on DM so if they are creating content on your behalf, that's great news, but not, not totally sure if we'll be able to track that down each time
+
+Speaker  730037:20
+somebody's asking. Obviously the deal, the deal, the MDS deal was a lot better last year. So is that the best rate you're going to be able to offer at the moment, or is there, is there any chance that we might be able to get together?
+
+Speaker  734058:40
+Yeah, so unfortunately, that deal that was offered last year was like kind of a flash sale at the end of the year, in November and December. We're no longer able to offer that rate. That rate was like a trade specific rate, and especially because he no longer works at the company we're we're no longer able to honor that so the 575, and the 3.5% commission is our offer for the million dollar sellers, which again, is much lower than our offer online for other communities. So we're hopeful that, you know, lavanta has grown a lot and invested a lot more in our platform, and will continue to this year, and the value is continuing to grow after this greater connection to creation with the addition of additional marketplaces, and so as a company, we just need our pricing to reflect the value that's coming to customers.
+
+Speaker  750042:40
+Great. All right. Any more questions for Kat, please put a hand up or put me, put it in the chat, once again, the WhatsApp group advice in there, if you want to join me, a link to rate the call, because it's really important to get feedback on these calls. I look at them every month. Helps me to plan the best course, but on the best calls for you guys. So kat@lavanza.io if anyone wants to get in touch with that. So everyone, so Kat, our new main point of contact trace left. And you should also have a success manager. I think mine's Ashley. So you should have a customer success manager as well. Also great for your New York time, because I trade used to be on La time for for Europe. So
+
+Speaker  764010:40
+yeah, absolutely. Thank you guys so much for hosting me and for all of the attention and great questions. Really appreciate it, and really want to make sure that everyone gets comfortable with what we're offering and find success with the platform. So really appreciate all the time and attention
+
+Speaker  768992:00
+here. Great once again guys please leave out the feedback form. Please join me Whatsapp group that'd be really helpful. See you guys next week. Thanks.

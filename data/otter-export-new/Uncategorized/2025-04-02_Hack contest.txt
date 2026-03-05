@@ -1,0 +1,437 @@
+Hack contest
+Date: April 02, 2025
+
+Speaker  00:00
+Uh, this is going to be our hack contest. We've been doing versions of this for a while, but we did it, I think, in a fun way, at our last summit in Denver, and this will be judged in the matter of king of the hill. So does everybody know what that you know that means? So I'm going to call on you guys, or you guys can volunteer to share something, right? It can be anything. It doesn't have to be business related. It can be life related, you know, routines or anything, right? And we'll vote to see how good it is. Well, I guess somebody else will say, hey, I can beat that. And then we'll see who is the winner, and then who is able to hold that position for longest. At the end, we'll win a nice prize, which is some fancy MDS merch. I'm sure you've seen people wearing their nice like Patagonia vests and things like that. So you'll be able to choose something really nice like that. If everybody that's in the back there can fill in to these seats. I like people to be very close to me. We have some seats over here, so fill in. Fill in where you can now, to start this off, this is there a volunteer that thinks they have something really good? Is there a volunteer for the first one? This is going to take a moment to warm up the room, but I'm going to call on Jacob because I think yours was pretty fair. Can we get the mic to Jacob right here? Yeah, nobody's nobody. Last time, nobody volunteered. And then people were like, I want this.
+
+Speaker  26469:20
+Yeah. Good morning. So who here likes chat GPT? Okay, who here has used chat GPT Pro, the $200 version? Yeah, okay, so my hack is, you can get that same $200 chat GPT pro with grok. But the hack is, you have to go to x.com upgrade to the premium, plus it's $30 a month. You get your blue check mark. You get no ads. Then go to grok.com and log in using your x log in, and you'll get deep search everything which is basically as good as the $200 a month. Chat, GPT Pro on grok saves you $170 a month. Yeah. Dollars a month.
+
+Speaker  38245:20
+So in four months or so, you
+
+Speaker  38917:20
+pay off the tickets, free tickets, basically,
+
+Speaker  39573:20
+yeah, thank you very
+
+Speaker  40005:20
+much. And I've done a lot of testing, the grok deep search is just as good as the $200 chat GPT Pro. That's why it's a hack. It's good. Okay,
+
+Speaker  43109:20
+so I'm going to read this, because I have to preface by saying I don't know what I'm talking about. I wanted to get all the hacks, so I asked a friend of mine for a hack, and this is what he gave me. You guys have all probably seen the people also asked section in Google search, and you know how valuable it can be to have your content show up as the answer. I sell alcohol related products. If I were smart, I'd post or I'd look in that PAA right, cool kids for cocktail recipes, and I'd have my favorite AI tool write blog posts answering those questions using the exact phrasing from the search, maybe sprinkle in a few Amazon links along the way, right? So here's the hack buried in the code behind the people also ask boxes is something called the data dash LK tag. It's not official or documented, but it seems to be in Google's internal way of organizing linking related questions in their system. So the idea is you take the data LK tag and ask chatgpt to generate your blog post, FAQ, schema, and you include that tag as your reference or citation. Now there's no guarantee this works, but the theory is, by referencing that tag in your schema, you're essentially telling Google, hey, you know that question, you've already ranked and grouped. Here's a clean, structured answer with helpful links, clearly formatting the E, E at which the new one is experience, I think, instead of expertise. And so then the expected result is that your blog post gets semantically connected to the existing PAA question, and in theory, Google sees it as part of the same cluster, which could help it rank higher and even be pulled directly into the Paa box itself. No need to write your rewrite your site, no fancy dev work, just a little semantic Juju to help your hidden metadata.
+
+Speaker  73957:20
+And this works. It just started. So it's expensive. Works, all right. So we have Jacob Heinz saving you $175 a month by getting you grok or we have Chad, that is saying that you can trick Google's product. Ask opinion thing to reference your blog. Well said, well said, right. Give me Hands up for Jacob. Chad. Chad, all right. Jacob is only Jake of the hill. That's one. He has one point. Okay, who's next? Who wants to, who wants to try to take him down? All right,
+
+Speaker  85605:20
+guys, I have two things. The first one, I kind of feel a little weird about, but no, go for it. Eugene said it's cool. Innovates coming up. We're at the lowest price right now. It's early bird pricing. You can use the coupon MDs, like right now on early bird pricing, save 150 bucks. So MDs, just go to innovate. Dot show. Here's the hack, though. The hack is, I changed all my titles. This went really well in New York, so changed all my titles, made them shorter because you're not supposed to have multiple versions of the same word. So I made a couple assumptions, like plural and singular words or two different words. And the hack is, we found all the root words that we had at tag, and we wanted to put in our title first 90 characters matter most, because it's mobile. And then we rewrote all our titles, and we have double our sales because Amazon, we were stuffing our titles so they're 200 characters long. Amazon was not picking up all the keywords. It's just too much. We shortened them down to 90. We've concentrated on the roots didn't duplicate, and every single keyword got indexed in our title and doubled our sales.
+
+Speaker  103269:20
+All right? Now again. Jacob Heinz, saving 175 bucks a month, or Dimitri Verona, saving you how much money on the ticket, double your sales plus save how much plus save $150 all right. Jacob Heinz, hands, Dimitri. Verona, okay, all right. So, Dimitri, you have one point now, one one. You have a question. Aaron has a question you. I
+
+Speaker  111498:40
+think I want to clarify with that the hack you just had. So when you're rewriting the titles, are you putting all of the root words in the form without, are you putting the root words without the plural? Or are you leaving the plural or like, how are you how are you doing that? I
+
+Speaker  115840:00
+sell dog bones, so I have very little ever words I can do. So dog, dog, super words, bone bones two different words, and I can take longer tail versions of those combinations take up 90 characters. So it's not just the blue word, it's the new word and whatever other longer tail difficult based completely
+
+Speaker  121973:20
+on, sorry, important, prior to sales.
+
+Speaker  122485:20
+So, okay, that's important,
+
+Speaker  123210:40
+yeah, just look at which keywords you're some you're already selling on which routes you can use. You can use software to do that, and it'll show you all the root words that are selling the most for you. And then take those and use those as your basis, because you're already converting on those. And then take those and put them into the title. You can get longer tail versions. The first 90 matter the most. So make sure you guys are always like, guys are always like thinking about that when you write
+
+Speaker  129312:00
+them for mobile. Parker, you had something nice and right up here. Parker, howdy.
+
+Speaker  131232:00
+So mine is about maximizing your halo effect from social media onto Amazon or Shopify. So what we have been doing for pretty much everybody is we've been kind of bringing back like the 2014 search, find buy by having everybody find a long tail unique keyword to refer to their product as in their Tiktok, YouTube, Instagram posts. And then when people are signing up to become affiliates, they're going to follow suit. So an example I'll give is in supplements, since a lot of people are here in supplements, based off of the pie graph we did yesterday. So ashwagandha has, on average, about 867,000 searches. We had. Our creators always refer to the product as ashwagandha with black pepper, and then we would do things like, even on the live we would do lives through a piece of equipment. You can ask me about. It's called an Adem, so that that would appear on the video, where it's a search bar, search ash, waganda with black pepper. And we got up to, it was zero search volume. We got up to about 467,000 searches for that a month, with a 40% conversion rate, which made it rank one ashwagandha, even though the ad budget for that on any form of tacos was less than 2% so basically, if you can find a unique keyword that does not exist, refer to your product as that, like beef tallow. Mountain beef tallow, everyone will follow suit on that, and you will gain a massive halo effect. So as opposed to the for every four sales on Tiktok shop, you see one on Amazon, it's more like for every one sale on Tiktok shop, you see two on Amazon. So you're just maximizing your halo effect. So we have Kat.
+
+Speaker  160256:00
+We have Parker with creating your own traffic, essentially right by finding keyword routes and seating them. Or we have Dimitri Verona with forgetting that doubling your sales by shortening your titles. Parker,
+
+Speaker  164528:00
+Dimitri
+
+Speaker  165568:00
+Parker, all right, Parker,
+
+Speaker  166805:20
+this isn't very scientific. It's a lot of also what I feel so Okay, let's see who's next, over there. I'm sorry, let's go over there first. What's your name?
+
+Speaker  169445:20
+Alice. Nice to meet you. Alice. That's 111,
+
+Speaker  171482:40
+so I'm actually going to build a little bit more on that halo effect, but kind of one up it a little All right? So this kind of adds on a little bit to that halo effect, but instead of just finding unique descriptors, what if you just trademark them? And hear me out. So your customers may not be searching for your brand, but they're probably going to be looking for very specific descriptors. So ashwagandha of black pepper. But hypothetically, what if you trademark that? And it's possible, it's called a descriptive trademark, and you can register them with the USPTO Now, granted, it's very hard, but it's very doable. So for example, L'Oreal, they own moisture bomb. There's a charging power there's a power charging company that owns active charging. There's a shoe company that owns cloud walkers. There's a Chinese manufacturer that I'm not even kidding. You can look this up. He owns a trademark on twin memory foam mattress. There is a nylon company that owns the words heavy duty in his nation. And here's a great part, when you actually end up utilizing and trademarking those keywords, you register them with brand registry. Then when your competitors use them, whether it be an imagery in the title, in their in their bullet points, you can take them down. And normally those listings come down within about 24 to 48 hours. And I know this because I've done it hundreds of times and I own eight different descriptive trademarks like this. So it's not easy find a great attorney, but it's totally worth it. So crush the competition by just owning them.
+
+Speaker  200613:20
+I like it. Alice question, question, Can I can I do you think that you can register them in like the UK trademarks? Is this easier and does that work? Yes
+
+Speaker  203514:40
+and no. I don't totally know how to us how the trademark system works in the UK, so don't quote me on that. However, a lot of platforms tend to see us trademarks as generally the gold standard, and then Chinese trademarks as a secondary and I say this because I have had knock to fight, knock offs and counterfeits on platforms like Taobao, Alibaba, Shein, etc. And normally, if you have the US trademark, you're going to basically be able to take down any competition, including infringements, even in the Chinese market, depending on the platform. Again, can't vouch for Germany, can't vouch for the UK, et cetera. Look into those particular laws, but it's extremely strong in the US. And if you have it, you got it, and you could take down so many people. So yes, it's a longer wait time, but I would say it's worth it,
+
+Speaker  217957:20
+all right. Well, Alice with mobilizing those keywords with trademarks. Noise, yes, no Parker, we're just mobilizing
+
+Speaker  223514:40
+some boats. Alice.
+
+Speaker  224762:40
+You still want to go Michael, yeah, Michael and Sulaco right here, challenging Alice. And by the way, if anybody has like, travel hacks, life hacks, again, those are welcome too.
+
+Speaker  227920:00
+Okay, in the spirit of getting some free chat, GPT first Eugene. Is there anyone here from Google?
+
+Speaker  229717:20
+Is anybody here from Google? I don't believe so. No, OK,
+
+Speaker  230773:20
+this is a hack to access pay, pay for content for free. So if you're using Chrome, you pull down, you go to Tools, then Settings, and then you go to JavaScript and disable the option that says, allow sites to run JavaScript. And any site that has a soft pay wall, you can access the content without having to pay for it.
+
+Speaker  239450:40
+Wants to get something for free, all right? Right?
+
+Speaker  240000:00
+Michael, with accessing free content on Google, or Alice with trademarking your search words. Michael, Alice, whoa, Alice, you're holding two points. You're the you're the leader. Got right here. I'm sorry for the mic. Excuse me. I'm
+
+Speaker  245616:00
+sorry I forgot name. Yeah, my name is Ben Matthew, so this is about understanding pricing strategy that is working for competitors using a chart agent. So this is this something that I had tried with Claude, tried with open AI, but did not work. So what I did was looked at a listing that I was analyzing, along with a couple of competitor listings. Looked at, took their keep up price chart, which had basically their BSR, their price changes, as well as their monthly sales volume. Took that, took those charts, along with my charts and four other competitors, and sent it to Claude and asked it to give me insights that can maxify and maximize my sales and profit. So it gave me a couple of suggestions. First, it helped me understand what was my price sensitivity compared to my competitors, which means that if competitor is launching a coupon, would it mean that if I launch a coupon, it will increase my sales as well? Right? It gave me insights around what time of the month should I launch a coupon where customers are very sensitive to price. It gave me insight that towards the middle of the month is where, when we should launch coupons, and not at the beginning or at the end of the month. It gave me insight around what price point can maximize my profit. What it means is that if I reduce my if I basically increase my price, I will not lose any sales. So it understands that sensitivity and gives me exact price range within which I can sell. So this is something that you can try with Claude, and it works with a simple prompt as well. Thank
+
+Speaker  270138:40
+you. Okay, Alice with trademarking descriptors add some noise. So I understand if you raise your Ooh, Ben with using Claude to analyze pricing and things like that, raise your hands and sound.
+
+Speaker  275792:00
+Maybe we should try snaps Alice snaps
+
+Speaker  276384:00
+for Alice
+
+Speaker  277295:59
+snap for Ben, I
+
+Speaker  278181:20
+think Alice is holding you, right? Alice, is that? Alice? Alice, you're holding you. That's three for Alice, okay,
+
+Speaker  280597:20
+you just emailed,
+
+Speaker  281365:20
+oh, you emailed your attorney. You said what?
+
+Speaker  282405:20
+Oh, you're already trademarking. Okay,
+
+Speaker  283338:40
+who wants to take down Alice? All right, product opinion over here.
+
+Speaker  284730:40
+So this is a travel hack that everybody could do.
+
+Speaker  285466:40
+Can you remind me your name? Fernando? Fernando,
+
+Speaker  286266:40
+so I know lots of people use Amex gold cards and chase ink cards. So once you're when those cards are hitting their their bonus Max, and you're done with that card, you should use a Capital One Venture X for two reasons. One, when you charge travel on the venture x card, you just can any, any type of travel, so you don't have to go through the chase or the AMEX portal, you can charge any travel to the Capital One Venture X, and wipe that off your card. You just it'll show up as credit points, and you wipe it off. So if you're trying to do cruises, if you're booking a hotel at a wedding that has a block of rooms, things like that, where you can't you're attending an MDS event. What if you're attending an MDS spend anything? So there's lots of travel that you can't do on Amex or on Chase. You can do it with the Capital One points, and you get two points for all spend. So you're getting double points. And then the real hack is, when you travel on points, what are you always paying for? You're always paying for alcohol. You're always paying for food, right? Well, if you go stay at a hotel that has great bar and great restaurants, you charge it to your room. It shows up on the Capital One as a hotel charge and you can wipe off all your food too. So free vacation,
+
+Speaker  310629:20
+all right? Fernando with free vacations. Alice with trademarking terms, he got snaps for Fernando,
+
+Speaker  312901:20
+snaps for Alice. I
+
+Speaker  313877:20
+think there's more people snapping, right? Yeah, yes, that's four. Four for Alice. Oh, you're doing so good. That's a good number. Product opinion, had something real good. What was your name again? Matt. Matt, yeah,
+
+Speaker  317802:40
+all right.
+
+Speaker  318330:40
+Has anyone here heard of product roundup sites before? Show of hands. Product Roundup. Sites cool. So we only have like five or so, so this is gonna be super valuable for you guys. They're actually the key to getting AI to recommend your product. So like people are searching on perplexity, people are searching on chatgpt, who searches on AI now, more than Google, right? A lot of people do. A lot of our customers do as well. So what they are is sites like CNN underscored USA Today, top 10 Forbes vetted New York Times wire cutter. Have we heard of those ones? Yeah. So the purpose of those sites is basically to drive affiliate commissions to the media properties, but they also have super high authority that our brands can take advantage of. All you do is a simple pitch to the editors. You basically tell them, hey, my product is the best in this category. And here's the thing, you can make up a category for them. They just list a whole bunch of products, because the more products they list, the more affiliate commissions they make. So it's a win for them. They actually want to list you on these, and then what happens is you get instant credibility. Imagine on your listing being able to put Hey, as seen in Forbes, as seen in New York, New York Times, right? This works. This increases your conversion by substantial amount. And does it work? Yes. So we had $100 million brand, and they actually were doing tests with this. They put the badge on their package, and they had it on Amazon, and it made a noticeable uptake in their click through rate when they had the New York Times badge on their product packaging. And you guys can do this too. And if it makes a difference for $100 million brand, it'll make a difference for for any brand. And as a bonus, like I was saying, once you get these high authority links, these are referenced by perplexity, by chatgpt. So when anyone searches for your brand like, hey, what's the best luggage tag, what's the best bike, they're going to reference these product roundup sites and actually give you traffic and actually recommend your brand in AI. So it's kind of like aI SEO, and it works. So I've been getting hundreds of referrals from these AI sites, from chatgpt that I can track, and they convert better than organic traffic. So that's it. Product roundup sites. Thanks guys. All
+
+Speaker  356800:00
+right, Matt with getting your products the index on product roundup sites by contacting the editor snaps. Alice, with trademarking descriptors, I think Matt, you took the torch. So, Alice, what do we have? You had, you had four or five? Four. You have four, right? Four Points. Matt now has one point. Who wants to take Matt down?
+
+Speaker  364954:40
+Doesn't work. You're going to take down your own guy.
+
+Speaker  366138:40
+What's your name? My name is Andre Sadler, co founder of product opinion. And since we're speaking about affiliate commissions, how many of you here have already started selling on Tiktok shop. Raise your hand. Okay. Keep your hand up if you are also selling through Amazon creator connections, anyone, okay, see a few people. Keep your hand up if your sales through creator connections are at least 10% of your total sales. Okay, this will be super valuable. Then. I know a lot of you jump on Tiktok shop, but Amazon actually built a similar clunky, rough version of it that a lot of us still don't take advantage of. In the last 12 months, I brought extra 4 million for a personal care brand purely through creative connections. Let's not even take into account levanta, Tiktok, shop, anything else, and I've got two hacks for you. Okay, who wants two hacks? Go for it. Okay? One, when you create a campaign, you can collect emails of Amazon creators by asking them to fill out a form in order to receive the samples.
+
+Speaker  384400:00
+Can you still do that?
+
+Speaker  385008:00
+I still do
+
+Speaker  385520:00
+see them being more difficult.
+
+Speaker  385936:00
+Yeah, no issues. They fill out the form. We need their address, right? So that's how we collect emails, and we know these people actually generate sales. So think of what it can do for your product launches. Okay? Second hack, this more advanced, it definitely impacts conversion, but it also steals traffic from your best seller selling competitors, the best performing creators that you have on creative connections can and want to receive more than just your product, so send them your product and your top two best selling competitors who you know you're losing sales to and set them criteria and ask to record a product comparison video they can post on Amazon. Why do you want to do that? Once they tag you and the best selling competitors, the video starts showing up on your listing, and your best selling competitor listings, and those people, there's a lot of percentage people actually watch the videos. And. Research stuff will realize your products better, and that's how you steal their sales and bring them to your listing and hopefully close the sale that way. How do you like these two hacks? Two in one.
+
+Speaker  402928:00
+Like it? All right. Andre with getting contact info of your creators and also leveraging, you know, the videos that they post by putting your competitors in their videos snaps, and then Matt for getting editors to add your products to their listicles.
+
+Speaker  409397:20
+So the very difficult one, they need a dance off. I guess that's how we're gonna let's do it again. Andrew,
+
+Speaker  412154:40
+Matt,
+
+Speaker  412826:40
+all right, Andre stole from his own partner.
+
+Speaker  413706:40
+Okay, who's next to challenge? Andre right over here, Ted. All right,
+
+Speaker  414922:40
+we can't let the trademark marking die, so this one's on trademarks too. So for everyone that you know, we all have to use GS one codes. Now, bar codes, right? So, and I've tried this and it works, so I do it now. I go to eBay, and I find people selling those bar codes, 1000 for 2030 bucks. I email the seller on the listings and I say, Hey, can you send me the first four codes of your all you all that your inventory, sometimes there's over 1000 so I can get like 5000 and just so everyone knows the GS one UPC barcodes at Amazon and Walmart requires, and a lot of companies are doing now, it costs $30 one time with us. You know GS one company or $2,500 plus $500 a year for 1000 right? So I get 1000 for 30 bucks. So what I did is, I did that. I found a company. I went to the uspto.gov and chatgpt. I said, Is this trademark, this company, name of the prefix? I do that research. I find the companies that are not trademarked in my category. I go and trademark them for 350 bucks. I get the trademark, and I apply for brand registry, get the brand registry for that name. I bought the bar codes from eBay once I verified that, so I got like, 5000 bar codes for a couple 100 bucks. I own the GS. I own the brand name now, because I trademarked it, I get brand registered, and I sent Amazon a letter. And I can even do it across seller accounts and platforms, from store to store, and say, Hey, this seller and these brands are authorized to use my GS one codes. They acquire our brand. It's trademark brand registered, they'll approve it. And so I get all those GS ones for $350 instead of paying $30 one time or $2,500 one time for 1000 I'm, you know, I'm saving $30,000 so that's what I do. So I don't have to pay GS one all those recurring fees,
+
+Speaker  443370:40
+all right? Ted hacking, the GS, one system.
+
+Speaker  445338:40
+Come on snaps,
+
+Speaker  446186:40
+okay, Andre with his creator connection. Hacks Andre, you got two points for Andre who's going to take him down? Let's see. I have any hands, no Parker here. Do you want? I mean, Franco, you had something decent. Franco,
+
+Speaker  451232:00
+at least, I think you have something decent.
+
+Speaker  452352:00
+Okay, so Franco, I am from Europe, and sometime when I speak to Amazon sellers from the US, they tell me that it's very difficult to be successful in Amazon Europe, and some are very successful, but some struggle. And I think that the first three things that they made wrong are those three. So the first one is easy. It's not a hack, but you have to consider to consider it that in the five countries that matter. So Europe is just five countries, forget about the other. Italy, France, UK, Germany and Spain. In those five countries, we say things in different way, and you can use chat GPT only to translate your title and valid point. You really have to dig and find the different way of showing the products. This is the thing. But this is not a hack. The second one is that most of the people use the pan AU. I strongly recommend not to use it, because you have to consider that in Europe, you are fighting in each country, mainly to local seller. So in Germany, you're fighting with the local German. They're selling. In Germany, in Spain, the same and so if you want to have your product be available in a day, you have to create different fnsku for each country and send the product to each country. I know that makes like an investment in the inventory, but it's the only way. If you depend on you, your product will be stuck in an inventory at the beginning somewhere and will not show up because people will receive it in four days. Five days they don't want it. They want next day. The third one, it's. Yes, well, in the US would be considered black Kat, but you have to consider Europe is different. So in Europe, Amazon is not still taking action against fake reviews. That's a problem, but you have to know that. And so even the big brands sometimes they don't know because they they they let some agency run the business for them. And those agencies, we buy reviews on telegrams. There's a lot of telegram groups that sell reviews, and it's a thing. And Amazon is yet not still acting. So you have to know this. I'm not telling that. You have to do that, but yet to be aware of that, that's it.
+
+Speaker  490597:20
+Franco with some tips, hot tips that do better in Europe. Snaps Andre with your Amazon creator, connections Franco with Europe tips.
+
+Speaker  495530:40
+I thought it was really good for you Andre. You have three points,
+
+Speaker  496512:00
+OK, who's going to take down Andre? Do I see any volunteers? No, Ian, I was going to do math.
+
+Speaker  499088:00
+All right. Two hacks, who wants cheap clicks from Google? Yeah? All
+
+Speaker  500656:00
+right. Few people, yeah. If, thank you.
+
+Speaker  501781:20
+So if you sell rain hats, and the problem that you solve is keeping water off of your beautiful hairdo, focus on the problem that you're solving and those keywords rather than the keyword for the product. Now, conversion rates. Conversion Rates way lower, but we're talking about pennies that you'll pay for clicks rather than dollars that you'll pay for clicks. And if you can get them to a landing page even before your your Amazon listing, then you can pre sell them. So people on Google are searching for answers, necessarily before products. But if you can get them in that funnel, it's a really way for it's a great way for cheap clicks. You can also try that. Now, when people are starting to search on Rufus, and I don't know how many people are searching on Rufus, but they're also searching in contextual so problem based, so you might want to start looking at solving the problem for for the Rufus searchers, also with PPC on Amazon, have not tried that. Don't know if it works, but
+
+Speaker  519845:20
+next hack is a huge productivity hack,
+
+Speaker  520901:20
+Google, AI studios. If you guys have not used this, I've shared this with a few people, and they didn't know about it. I figured everybody knew about it, but it's only a few weeks old. They have a screen share in Google AI Studios, where you can actually stream whatever's on your screen to Google, and you can have a live chat with Google about whatever is on your screen. So if you have a software that you don't know how to use, if you're in Excel. Don't know how to do a pivot table, you can talk with Google right there. You can say, hey, Google, I don't know how to do a pivot table. It says it looks like you're in Excel. Go to this menu, select this, do this, and it'll walk you through any software, even obscure
+
+Speaker  532688:00
+shit. That what's the most obscure one? Well, I there
+
+Speaker  533733:20
+is no it's got access to everything, because it's Google. So it knows everything, so every manual, every video that's ever been made, about every software it knows it already.
+
+Speaker  536565:20
+You put on glasses and, like I'm fixing my my water heater and
+
+Speaker  537733:20
+well, so that's next, probably, right? It might work like that, but anything that's on your screen. Currently, I haven't tried on the phone, but it might work on the phone anyways, huge productivity hack. It's also excellent for editing images. If you've tried to edit colors or something out of a variation image. It has a feature. It's called Experimental 2.0 it actually keeps the previous image rather than in chatgpt. I know I've tried to do editing, and it completely changes the image. When I go change the highlight or change the text, and then I end up with a whole new image. Google, AI studios keeps that image exactly the same, changes the color to whatever you want, or adds a hand or whatever. Super easy. It's definitely revolutionary.
+
+Speaker  550037:19
+All right, we have Matt, how are you using Google? So we have, what would you say? First, getting free clicks by focusing on cheap, cheap clicks by focusing on the problem instead of the product, and also loading in PPC on Amazon, and then the Google AI studio, right? Google AI studio for solving everyday problems with software and other things, snaps
+
+Speaker  556650:40
+Andre.
+
+Speaker  557786:39
+And as a reminder, Andre, you did what's called Amazon creator connection. Yeah, OK. Map, you took the torch one point. So we have a leaderboard. Is Still Alice is number one. Who's gonna try to take is it good? All right, go. Good luck. Yeah.
+
+Speaker  563008:00
+Oh, you have it. You have a visual even,
+
+Speaker  563616:00
+yeah, I'm either dumb for not thinking of this before, or dumb for telling a room full of Amazon sellers my product, but your mom wouldn't steal it. I asked her last night, boom, mom say, so destroy Yeah, mom, mom would not steal this product. So at the pool yesterday, there was a couple that got 216 ounce margaritas for $78
+
+Speaker  571962:40
+I sell sunscreen flasks.
+
+Speaker  572906:40
+You fill them with your favorite booze. You bring them on a cruise, you bring them to the beach, you bring them wherever you're jury duty, wherever you want. And you fill them. They're 10 ounces. Each work. At 16 ounces though. No, I have 12 ounce ones too, and I also have four ounce ones that say three ounce so you can get them through the airport. So yeah, they save you a boatload of money at festivals and cruises and, like I said, funerals, Jury Duty, wherever.
+
+Speaker  580880:00
+All right. So Matt galatsky, Google power user snaps.
+
+Speaker  582629:20
+Chad drew buyback product on Amazon.
+
+Speaker  585077:20
+You got the point? Sorry, Matt. Okay. Who's going to take Chad down market leader right now? What do we got? Ian, you want to do it? All right? Ian, go. Ian,
+
+Speaker  589306:40
+this may not or may not be very good, but you may like it. So who here? Raise your hand if you have a seller support issue that you know you're right about that hasn't actually gotten through. Raise your hand. Probably everybody has a seller support issue. Okay, so this hack, it's pretty obvious, but send a loom video of the solution of the problem to Amazon. They'll actually watch it. So what's happening is that the AI or the people there, they're just not paying attention. They don't care. So when you send a loom video, they actually watch your solution and why you're right, and I've gotten a lot of support issues fixed that way. So super obvious, but it works
+
+Speaker  599269:20
+all right. What'd you say, Chad,
+
+Speaker  600357:20
+it won't get you drunk, that's right. So Chad, get drunk with less money. Ian solving Seller Support issues. Ian took over. The King of the Hill, who's who's next to take Ian down. All right there. Dan said you had one that was good. Dancin is in the back.
+
+Speaker  606554:40
+Would you say Ian, who's dancing? No, right there. Danson. I it.
+
+Speaker  608992:00
+Who wants to save money on PPC? That's what we did. So we managed to save approximately $500 for $1,000 a day. It works out to be anywhere between 15,000 or more. So this hack is specifically for hero SKUs. And anybody in this room you have a hero SKU you're likely ranked organically within the top one to three spots. And Amazon loves it when you bid for the top of rank, top of search spots in there, what you don't realize is that you're very likely cannibalizing your own organic sales by doing so. So what we've done is we want to see whether or not we can still get just as much sales or just as much profits or more, just by reducing the budgets on specific keywords, single campaign keywords for the ones we're ranked already on top. And you do this experiment one by one, so that you can isolate which keywords are being overspent. And we managed to find some very surprising candidates which suddenly cut our PP spending by about $500 a day, it becomes pure profit, and we watch it closely so that our rank does not fall as we progressively reduce the budget one by one, and we keep going on all the keywords that are ranked top. We also watch on whether or not our competitors are generating some kind of deal or sale which might throw off your your ranking at that point in time. In the case it does, we just raise our budgets at a time
+
+Speaker  639034:40
+that's about it.
+
+Speaker  639546:40
+All right. Dancing. And with laser cutting that PPC spend and saving you 500 to $1,000 a day, depending on how much you spend. Snaps.
+
+Speaker  642752:00
+Ian, Seller Support loom.
+
+Speaker  643696:00
+Ian, two points. Do you really need more merch? Ian, I'm Brian trying to take each other down to save company. I'm gonna
+
+Speaker  645973:20
+take Ian down. Okay, Brian is challenging. Ian's
+
+Speaker  646677:20
+All right, I'm gonna take him down. Here we go. Who wants to 5x their conversion rate on their Shopify store? Five times the average Shopify conversion rate from cold traffic is about 2% yes, about 2% All right, here's how you can exit. You don't use Shopify. Use a tool called Click Funnels. You ever heard of Click Funnels? They have a really cool two part order form. This is what you do. You drive cold traffic from meta or Google or wherever to the two part order form on Click Funnels, and you capture their shipping information immediately. Where do you want us to ship this product? That's all you capture. They will fill out that information. We get about an 87% conversion rate on that, by the way, and then about a 40% conversion rate on the credit card offer you will 10x your Shopify conversion rate.
+
+Speaker  660368:00
+I'm kind of confused. So all they enter is we're doing
+
+Speaker  661605:20
+a mobile call for members on May 14. About that. So if you're a member, you'll learn the whole strategy then. But
+
+Speaker  663045:20
+what so you're asking me with their address. They're empty. There for nothing. Okay,
+
+Speaker  664533:20
+you want more detail? Yeah, okay. Actually, the reason they give you their address is because you're gonna send them something for a small shipping fee for free. It could be anything. It could be a patch. He's gonna He's sending patches. Okay, it could be anything. But as soon as they take the free thing, you immediately upsell them in the cart to your offer. Make them a discount, 20% off, 30% off, whatever it is, so they're still in your cart. There's a way to combine the order into Shopify. You will 10x your Shopify conversion from cold traffic.
+
+Speaker  672400:00
+Okay, we have Brian 10x in your Shopify. I thought he was 5x originally 5x 5x in your Shopify. Conversion rate by using Click Funnels, snaps. Ian, looming Seller Support. Ian three points, somebody's gotta take Ian down before he catches up to Alice.
+
+Speaker  679109:20
+Oh, right there, shiny. Where standing right over there.
+
+Speaker  680789:20
+Hey guys. My name is shingi den. You might see me on Twitter. I talk too much on Twitter or at the White House, or at the White House, yeah, we might be there soon. All right, so here's my hack. So who here feels like the United States is a level playing field, or Amazon is a level playing field? Raise your hand if you think that zero. So the hack is you can actually change laws. Who would believe that you can actually change laws? And it's actually not hard to do, it just takes a concerted effort and a group of people willing to do it. So Ian, I hope you don't mind. All right, so we launched a new organization called the American e commerce business alliance, literally yesterday, and it is the first organization ever that is bringing all US sellers together to actually go and change the laws in DC. And the laws that we're focusing on is we want a free and fair market for us sellers. We want anyone who to sell in the United States. We're okay with that, but we want that to be a fair playing field. So what that means is, you want to sell in the United States, you have to create an LLC in the United States, you need to have a US bank account. You need to register with the US government. You need to pay taxes on the dollars that you earn in the United States. This is probably the best hack that will ever change your business, because so many of you here are struggling with pricing competition from foreign sellers who pay no tax the United States, from foreign sellers who have no disadvantage to hurt your business, to rely on tariffs for everything. If you guys want to actually do something to change your business to 10x your business. This is it. So I would love to have everyone join again. This is not against MDS. This is pro MBs. This is pro everyone in this room a level playing field. The American e commerce business alliance. Look me up on Twitter. I'll be posting a lot about that. But yeah, 10x your business with a level playing field. Thanks,
+
+Speaker  712741:20
+guys. So join shingi, and I think fellow member right? There's a who else is doing it? Jeremy thurswell, who else simple models? Yeah, yeah. For you guys,
+
+Speaker  715914:40
+everybody needs to get behind, supporting what shiny is doing. If you are in this room, it will affect you. He has eyeballs of Mark Cuban and some big players looking at him right now and sharing his posts on Twitter. It. If you have no time and 17 children and three businesses to run, the minimum you can do is go on to Twitter and share his posts, comment, give them engagement, because he is already getting the eyeballs, and he is hiring lobbyists and creating he is putting a lot of effort into it that will affect all of you personally. So flow him power and at least engage with his stuff, like, share, comment, you know, give whatever you can to get behind the effort, because he is doing the work of God for a lot of us, okay, and, and it's incredibly important, like, he's up against temu and she and in, like, all these massive, billion dollar companies, and it's, it's a few people working with shiny, you Know. So follow Xing Yi and and help him out as much as you can donate money to to his organization and his coalition that's hiring these lobbyists and all of this because it does affect you. Anyways, that's
+
+Speaker  739744:00
+all so back to voting shiny and changing laws. Snaps. Ian blooming, seller, support, Shin Yi, all right, you do the mic. Mike, do a real hack. Yeah, do a real hack. Yeah.
+
+Speaker  745589:20
+So it does turn out that to change law, it is a hack. Like my favorite thing. What I've learned from this is that DC is a coin operated machine. You think you have representation, you don't really. It's a coin operated game. But the fact that I was on the phone call, who knows Steve Scalise? Does anyone know who that person is? Majority Leader, Steve Scalise, second highest person in the Republican Party. I was on a phone call with him Monday morning before I came to this event, and I we explained all the problems that we have in E commerce and everything that's going on in the United States. And he listened, and he asked questions, and he was interested. They want to be a hero. All of these politicians want to be a hero. For a group of people, and there's 1.9 million sellers in the United States, they want a hero. Let's let them be the hero. But yeah, guys like this is moving, and there's gonna be a lot of change coming. So that's all, all right, okay, so it's a but American E, commerce, Business Alliance. If you wanted to find it, go to prosperous america.org/a. E, B, A, my Twitter handle is a very complicated name, shingi, S, H, I N, G, H, I D,
+
+Speaker  764826:40
+that's it. We'll share. Thanks guys. We'll do a push notification, right? And, yeah, who's gonna try to compete with that hack?
+
+Speaker  767626:40
+Where? All right, there. Omer, huh?
+
+Speaker  768170:40
+Hey, so a lot of us have had trouble getting certain fulfillment centers for AWD. A lot of us want to get the ones in California, but we're always getting Texas, and we're always getting, you know, New York and stuff. If you want California, what I've been doing, it comes around about once a month where you'll get, like, couple days where it'll just give you California. I have my VA every day. Just go in try to make a shipment, and if it comes to California, he lets me know. And then we just make our shipments, and we go from there, if not, then on to the next day, just to plan and make sure that we're making shipments that are ready to go.
+
+Speaker  778421:20
+All right, oh, Mayor with trying to get California as your shipping destination. Snaps,
+
+Speaker  780874:40
+shiny with changing laws. Snaps,
+
+Speaker  782138:40
+I think shiny. That's two points for you. You might get some MDS merch out of your journey. All right, let's see who else wants to try to take it down. Do I see any hands? All right, Simka. Simka changed his mind.
+
+Speaker  785968:00
+Okay, I have a hiring hack. So we get about when we post a job, we get over 1000 applicants to every position. So what we do is we put it on LinkedIn, and then we usually make the LinkedIn post located in wherever we're hiring. So we'll do it in South America. Usually we hire them from Latin America a lot. Then what we do is we put everybody to an application, not on LinkedIn, but we put an automation in place that goes to a testing service. So we use something called brick, B, R, Y, Q, and it'll like, basically, if you use brick or a similar testing thing. You just have to test your current employees and see what they would score. And if you can pay some people that you fired to take it also, and it will always tell you the score that you demand on your team. So you can pump 1000s of people through this application. And you know that anyone that's below a 75 for example, if we get someone on brick that's below. 75 we don't even bother with them. So we pump people through the application, more than 1000 applicants per position. Then we only take the people that are over 75 have them submit a video, app, a video, one minute, video pitch, and then by the time you're interviewing, you have such a short list of great people, you can build an amazing team for a very low budget without paying a recruiter.
+
+Speaker  805824:00
+Good All right, Simka, for weeding through 1000s of applicants. Snaps,
+
+Speaker  808181:20
+shiny, changing laws.
+
+Speaker  809189:20
+Simka weeding through applicants,
+
+Speaker  810613:20
+this is very difficult and make some noise or raise your hand. Simcha, shingi. All right, that's still winning. All right. So that's three for shingi. If he gets one more, he's tied with Alice. Anybody want to try? Yeah, he's
+
+Speaker  814874:40
+about to get one more because it's a very basic one, but very basic hack. I think that almost 90% of you should have. And I keep saying this to everybody I talked to an executive assistant, I can't stress enough what a life changer it is to have somebody help you with a lot of the shit that you don't deal with as a visionary entrepreneur. Give an example. So perfect example like so I run an Amazon agency. I'll have a call with a client, and I have Firefly a potential client. I have fireflies in the meeting without even asking me. She'll have seen that in the fireflies. I said I would send the proposal. She'll go to that website, fill in my proposal and customize it to that potential client, and leave, like, the retainer and percentage of sale, like empty and just send it to me and be like I saw that you said that you would send this to them, and I would, most likely, without her, have delayed by like, three days, because it's just something I don't want to do. And, you know, like customized, like, they just tedious work. So he says, a lot of tedious work that you do in your daily life, that you can buy back the whole buy back your time thing. And a lot of people here think, I don't know what I would give in EA, trust me, just get one and you'll just just throw shit at them all day. And it's, it's life changing. Life changing, alright?
+
+Speaker  838133:20
+Lee, get an EA,
+
+Speaker  839781:20
+oh, local or Philippines. What do you got local? He has a local one.
+
+Speaker  840949:20
+I need somebody that like that.
+
+Speaker  841925:20
+Things have fun. Yeah, he wants, he wants somebody to laugh at his jokes. Alright? So, Lee, getting an EA snaps
+
+Speaker  844522:40
+shiny.
+
+Speaker  845226:40
+I think shiny. That's four points shiny. One more you can beat. Alice, Does anybody else want to submit a quick one
+
+Speaker  847722:40
+right here? Albert,
+
+Speaker  849120:00
+thanks. Hey everyone. So a couple things to share. I always try to find a way to separate myself from the competitors from oversea. So anyone tried ever donate or sponsor any local community events could be your kids sports team or anything, any local event, just giving back to community, anyone you have, okay, so I did that a lot. You know, my daughter plays softball, travel teams, so I always sponsor the team. I sponsor Girls on the Run. Anything does have you small we're not talking about go rescue the rainforest, but it gives you a legitimate reason or excuse, when I say a reason to to separate yourself from overseas sellers. You know, you are invested in the community. You're giving back, and you can write about it in your about the brand, brand story. You can include pictures of the brand you know, on the banners and on the ballpark and all that stuff. And one of the gentlemen mentioned that to pitch to editors, right? So whatever all the media, he mentioned, we are on it. We ever we bring a feature on all of them. So they look at it. They look at, oh, this is us based, assuming that a lot of them are US based. So they try to look at the story. You can tell them, we sponsor, you know, we give back. So it's good, you know, stepper yourself from the competitors. And second thing is that anyone going to accelerate in November plan to No, not a lot, okay, but if you do go and if you can bring some of your products, you know, if you go to a salary you want to meet with Amazon staff, employee network, build connections, bring some of your product, you know, give it to them, you know, they'll remember you. You're going to build a very good rapport with them afterwards, you know, you're going to follow up. They're going to remember you, you know, and that's going to step for yourself. From all the other sellers, you know, at a salary that's all right,
+
+Speaker  881328:00
+Albert, with some ways to make yourself special, donating to community events and also giving your product
+
+Speaker  883504:00
+couple 100 bucks.
+
+Speaker  884304:00
+Yeah, yeah. So, yeah, it's not expensive. Couple 100 bucks for the whole season, for donating local teams and things like that, and also giving your products to Amazon employees when you go to accelerate snaps,
+
+Speaker  888021:20
+shiny, changing laws,
+
+Speaker  889013:20
+shiny, you have five now you're securing some Well, let's see if we can take it down. We have right there. What was your name? Peter,
+
+Speaker  892890:40
+Hi there. I'm a MDS guest. Hopefully I'll be matriculating here soon to your full society. All right, so everybody's pay sales tax here, right? Woo. All right. Nobody does, right. Okay, so you should, and I'm not an accountant, but here's a little hack. Anybody here of sst.org, raise your hand. Sst.org, everybody knows it. Woo hoo. No, all right, so here's the thing you're supposed to you know, every state has their own thresholds and requirements for sales tax. So you can get, if you go that route, right, and you're a big seller, you should be going in that route, you have to file sales tax, and the filing fees alone are ridiculous, right? Sometimes you're at a county level, like in Louisiana, there's sales tax by county. So somehow, someway, a an organization, a nonprofit organization called SST, Sam, Sam thomas.org, look him up, said, for about half the states, we're going to file the sales tax for you, for free. The only requirement that you have to do is you have to join like Avalara, or, I think it's like tax monkey, or whatever they're called, you won't have to pay any fees, because sst.org will reimburse Avalara for those filings. So it's a completely free service. Yes, you'll have to pay sales tax, but the filing will all be covered by sst.org any questions? States. They do right now about 25 states. So it's not bad. It will save you a crap load of time. You know, it goes through the Avalara system for free. You they have an API that will build, bring in the Amazon and Shopify data. I think that's like 250 a year. So not bad, and you never have to worry about sales tax.
+
+Speaker  923882:40
+All right, get
+
+Speaker  924362:40
+Avalara to file sales tax for free in 25 states by Peter versus shingi changing laws. Peter snaps,
+
+Speaker  927674:40
+shiny do
+
+Speaker  928784:00
+Peter,
+
+Speaker  929520:00
+I think shiny you're holding it six. Should we even keep going?
+
+Speaker  931200:00
+Does anybody have anything else here? I

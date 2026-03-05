@@ -1,0 +1,824 @@
+MDS SEO Channel Call
+Date: February 04, 2026
+
+Speaker  00:00
+Okay, I'm going to remove all the note takers, because we have our own, and we'll get The notes from that one.
+
+Speaker  4928:00
+Why is your gene?
+
+Speaker  8362:40
+Lord,
+
+Speaker  11802:40
+we have people in.
+
+Speaker  12298:40
+We have we have some people
+
+Speaker  12954:40
+nice, and I even forgot to post. So that's perfect.
+
+Speaker  14186:40
+It's perfect. I think Tommy was very good at sending out some invites, because I have a ton of note takers, and that means you guys have the calendar invite in your in your calendar thing? Yeah, great. We just had a call with Peter Paul from intelli beam. Okay, pretty good.
+
+Speaker  21424:00
+How was that? I don't know. I was at the bank all morning, so I have no idea.
+
+Speaker  22949:20
+I think let me go around. I was doing some other things, but it seemed to be really, really good. I don't know if any of the these people were there too.
+
+Speaker  26821:20
+Was anyone in the call with Paul the mobile call?
+
+Speaker  28218:40
+Yeah, I was there. How was it? It was good. I mean, makes me feel formal. I have not used this intel levy function before. So people like me, it's jumpstart
+
+Speaker  32282:40
+up using it, I think two years ago,
+
+Speaker  34192:00
+depends. I don't see the correlation anymore in the real life with their results, unfortunately. So every single test that I did with them. It's different in real life. But I'm curious on Andreas opinion on that, because I know he's going to have an opinion because he's Romanian.
+
+Speaker  40677:20
+I'm gonna be restrained from counting my competition. They good, but I don't know, I'm selling metrics is pivoting like crazy. We're going into a little bit of different direction. And this, guys, you saw what's happening with all this AI craziness, and it's like, if you would wake up, I don't know, two months ago now, you'd be like, What a happy What the heck is happening in the world?
+
+Speaker  48928:00
+Like it's moving
+
+Speaker  49360:00
+way too fast, crazy.
+
+Speaker  49984:00
+What kind of AB testing are we talking about? It's much more complicated. We still use it like crazy. I think I'm the biggest customer now for seller metrics, but, but it's not just that now. Now you need a lot of you're
+
+Speaker  53088:00
+actually paying for it.
+
+Speaker  53584:00
+Of course, I'm paying just, I'm not paying it. I'm at cost. But it's, it's, it's different, man,
+
+Speaker  55877:20
+I know. Dude, no, it's, I was watching the what's it called the new clothes chatbot, art that came in,
+
+Speaker  58949:20
+open clock. That
+
+Speaker  59498:40
+open clock? Yeah, in five days, they created their own religion.
+
+Speaker  60746:40
+It's not true. That is bullshit guys. Okay, I am sure them installed on this machine and on another one. Okay? They sometimes they screw up. So bad. What kind of religion this is all AI hype. This is someone orchestrating this. This thing can maximum override something. If you tell him be proactive and go and try things, he will try. But going, this is just Claude AI, that's it maximum what you wire in it. It's nothing more than that. So don't believe in those bullshit that someone is
+
+Speaker  69893:20
+there lies the problem. You don't know what's real and what's not.
+
+Speaker  70693:20
+It's I have it on my machine. I see how often it fucks up. It's crazy, but it's smart. When you make it work, it's amazing. It's really autonomous, but it can hype up your bill like crazy, and it's crazy, but this is an SEO call, so why?
+
+Speaker  76138:40
+What are you making it do? And I am just curious. This is an open discussion, by the way, guys, for those people that never been in this call, I'm not presenting anything.
+
+Speaker  78842:39
+It can be just
+
+Speaker  79050:40
+meeting to discuss.
+
+Speaker  79562:40
+Yeah, build tools. It can do dashboards for you. It can help you do anything you want. Basically, it's just all about your knowledge beside that and really training him to do something for you. But it can be burned through tokens like crazy if you connect it the right way with Cloud AI, you can spend like 100 $200 a day in tokens. Easy, okay, but there's a loop right now where you can get on their their Plus plan, and it's like 200 bucks a month, and basically you call their token. So it's kind of like you don't use the API, use the token. It's like you're using your machine as the agent from the open the cloud, AI, right? Like on your computer pulls it a little bit, but they may cut catch up with this, but for now, it works. But there's a cool down period. They can cut you off a little bit, and there's a weekly period. But it's enough for me, it's really enough, and can write content, but really amazing content. You can build tools for content. For example. You can build PPC tools, whatever. That's complicated, because I'm using him to code. But it's, it's not as simple, and there's a lot of mistakes and things like that. But it's, it's interesting. I still prefer cursor for coding.
+
+Speaker  102453:20
+Do you prefer Claude or do you prefer Gemini overall in quality,
+
+Speaker  103477:20
+code is the smartest LLM that exists right now. Nothing like, yeah, if you put Codex to do something like, I switched this machine to open. Ai the best open air has 5.2 GPT. When you switch back to Claude, Claude is like, Oh, this stupid stuff was done by GPT is like, I can fix it for you. It's like, and fixes it. GPT is like, Oh, here's my thought. Andrea, I think we can do it like this, like that, so we can go check this thing and like that, and close like, oh, I can fix it. Bum done. It's that
+
+Speaker  113584:00
+smart. That's right. I understood in terms of the scoring, Gemini score is a little bit higher on complex tasks, not on copywriting and creative,
+
+Speaker  118064:00
+right? Like coding. I think Claude is better reasoning. I think sometimes reasoning is GPT, there's, there's, like benchmarks for that stuff. And I think you can hook it up specifically for different tasks. So you can have separate AI hooked up for something separate, for something and you can give instructions, like, for example, checking the heartbeat. They have a heartbeat. So that's like, once per hour, it goes and it checks, like, what does it have to do, right? So it wakes him up. So you can say, like, do that with a local agent instead of, like, something else. So it's pretty it's like, my when I heard about it, I ran and I bought a Mac Mini. It's like, $1,700 gone, came home and, like, I'm not sleeping for why
+
+Speaker  130495:59
+didn't you put it directly on the VPN from the beginning?
+
+Speaker  131296:00
+Because it's not secure. That's not a good you'll have to do a lot of securization. And, like, you have to be really technical to really protect it, because it has open ports. I wrote in that post on Facebook how YOU can secure it a little bit, but still, I'd restrain from doing that on your machine. I did it. I overpaid. I could use a simple Mac Mini, because this is basically just some like structure around an AI. This is not a separate AI. It doesn't have a brain on its own. It's just how you organize Claude or whatever LLM you connect to. That's it. It's nothing magical about it. So all that religion bullshit, it's like it's impossible, right? So like, it's just you tell you instruct your AI how it should work. Like, go check this file, then you have to do that, then you have to do that, and then it has, like a weight room, and it has access to your tools. That's it.
+
+Speaker  146784:00
+Okay, so I'm not going to jump on it anytime soon, because I can build the same thing with cloud and GPT and Gemini with no issues,
+
+Speaker  149845:20
+pretty much, maybe, but I don't agree. Like, you can't. Can you talk with Claude or with that through telegram and tell him to do stuff and like, hey, send me that screenshot. Do that thing? Go there. Do that build that stuff for me. You can't. Nothing, nothing right now. Can do that this way, this thing is amazing. Like, I'm like, at the gym, and I remember something, and just in Telegram, hey, send me the screenshot of that page that you built. And he's like, yeah, one second bum, send. Can you fix this thing over here? Yeah, done. Push to the server. It's insane. You just have to know how to secure it so
+
+Speaker  160586:40
+it's basically, right now, you're using it as a as a personal assistant, pretty much, and further
+
+Speaker  162112:00
+coder assistant and stuff like that is, like all around like, I have an idea, but it's just, I'm overwhelmed with this stuff right now, just when
+
+Speaker  164000:00
+you have multiple of them on the same machine, or, no, yes,
+
+Speaker  164976:00
+but It will conflict. It's not a good idea.
+
+Speaker  165957:20
+So you cannot have one general manager that's controlling three other bots underneath.
+
+Speaker  167429:20
+There is another way. There's Kimi K 2.5 It's a Chinese one. It's eight times cheaper than Claude. I think they stole the code from Claude and they use it trusted, yeah, because there's, there's one thing, when this machine, this Claude, called Open claw, uses it, it doesn't send your token to the to China, whatever, right? But it's open source, so you can download it on your machine. But you need, like, two MacBook studios. Probably you can run it on one, like you get the most advanced one, like 500 gigabytes of RAM, unified stuff like that. It's super big. It's extremely big, and it's super smart. And that one is good, because can deploy a swarm of bots, like 100 of them, to do tasks. It's insane. What it can do that's interesting. Everything is crazy, guys, it's like, remember my words, in one month, will be like, What the fuck is happening? This is insane. All of you will have them installed everywhere, probably in five months. Everyone will have them. They will be for phones and stuff. It's like, I'm like, I don't know. We're stripped to a rocket and we're just flying. And it's like, everybody's like, what's going on? Insane. Insane. Same insane. I wish guys don't know about it. It's so good that I wish you didn't know about it. They would be there. I don't know next. Elon Musk, if I only me having it. It's so good, it's crazy, it's insane.
+
+Speaker  191578:40
+But it can, you can basically program it to develop products, analyze markets, analyze reports, give you everything that you need in order to diagnose something with no issues, correct,
+
+Speaker  196640:00
+yeah, I built in like, a few hours a content machine that's super amazing. Does content in such a good way, and you can set it up. So from the telegram, you said, Hey, write me the blog post for that blog, for that site, it goes through everything, writes, it checks, it humanizes, it, like, deletes everything, generates images, like, it's not just him, but, like, I built a software internally on my machine for that stuff. So draft blog post, and I gave it to GPT. And GPT is, like, fun. That's one of the best articles I've read, like, in a while. I'm like, wow, my friend has an SEO company. That guy is a moving company, local, I don't know, close, like, two, 3 million last year in profit, and I gave his content. And he's like, Yeah, average SEO friendly, but average I'm giving this stuff. And he's like, wow, this is really well written with, like, personal stuff, with mention of the city, with the personal story.
+
+Speaker  213488:00
+So it's basically doing everything for you, and it's also publishing it directly.
+
+Speaker  214917:20
+Yes, you can build with it a site where, like, hook it up to your WordPress. It's easy that it's doable, but guys, please don't download skills without downloading those skills separate, checking them with GPT, for example, to make sure they're safe, because in one second, you can lose access to everything, like the hacking went to another level with this thing. People download skills that's supposed to connect you to Twitter, but actually it has a call like task prompt injecting, and it will send all the API keys you have somewhere else, like credit cards, everything. So that's why don't install it on your machine. It's insane, I'm telling you, like nothing that you can have prove me can do this, nothing. It's so smartly done I don't know why. Cloud AI or GPT didn't figure like, open AI didn't figure this out, probably because there's risk involved. And this is still very rough. It's super rough this thing, you need a little bit of know how how to install it, but GPT can walk you, and you'll screw it up with this, but you can still figure it out, like GPT can guide you, but it's like, all over the place. You have to learn how to contain it properly, how to wire the tasks and stuff like that, how to secure it, how to, I don't know automated things, because it won't magically. What they show in YouTube is bullshit like, oh, I put it I tell him, be proactive, and I woke up in the morning. Like, it's like, fourth day I'm waking up in the morning. This bullshit artist didn't send me shit yet, right? So it's like, and I'm telling him, it's like, Oh yeah, sure, Andrew, I forgot to send you that stuff, but he does it for me, right? So it's like, it's setting it up. It's like, working with it, but it's like a rough open source stuff that really works well. So it's a gold mine for now, I think people will go crazy. I thought cursories is gold mine. I thought Claude code is magical. Like, wait till you play with this you won't sleep, like, two nights, I promise you. Just like, find any computer you have and install it separately and see what it can do. Andre I something? I something.
+
+Speaker  251802:40
+Hey Andre, yeah, so what? Which one are we talking about? I got a little
+
+Speaker  253578:40
+open claw. It's they started
+
+Speaker  254474:40
+a new ball. I I played with it on the weekend. And then my son, who is in high school, ran back on Monday, or send me a message saying there has been some breach. And then I checked at my, at my, what was it? My, my Google, because it already spent me like 80 bucks without doing anything with the you know, I shared the API the access key.
+
+Speaker  262309:20
+That's why you need to set it up correctly. It can burn through stuff. For example, it has, it's called heartbeat. It's a file that's like, it's cron job that goes automatically once per hour and checks what it has to do. That thing, by default, is connected to your cloud, AI, or whatever API you hooked it.
+
+Speaker  266890:39
+I put on Gemini.
+
+Speaker  267370:40
+It's expensive, yeah. I mean, day one,
+
+Speaker  268138:40
+I didn't do anything. I was like, okay, something needs to be paused, but
+
+Speaker  269338:40
+you can tell him, Listen, go, do the heartbeat with this local LLM, for example, you install, like, I have a Mac Mini 24 gigabytes. And I installed olama 2.5 billion something tokens. It's very simple machine. It's GPT point two or three. It's very basic. But like to check something, for example, guys, I'll send you a YouTube video for a guy, how to set things up, how to save on the Oh, yeah,
+
+Speaker  275856:00
+that cool. Yeah.
+
+Speaker  276208:00
+Would do a lot of things. It's, it's, you can save it. You can optimize this thing. So this is just the beginning. It's been, it's like two weeks since it's up, or something like that. It changed the name three times because Claude almost sued them, send them assists and deceased and stuff like that. It's like, crazy.
+
+Speaker  280613:20
+Okay, cool. It
+
+Speaker  281061:20
+was cloud bot. Then it was malt bot, and now it's open claw.
+
+Speaker  284249:36
+It. Basically, we can cut our teams in half
+
+Speaker  285353:36
+Exactly, exactly you don't need more, like VAs to do, like, super stupid, simple stuff. This thing can handle it super. Dot that analysis, like things like that. Like, easy, easy. I can talk hours on this. It's like, like, I woke up in the morning this, like, I slept like four hours. It's crazy. I fired my project manager. Like, why it's easier like that. I had two developers when I built telemetric. I had two developers guys. Okay, those guys were costing me like 8k a month, two months. I built something they would take like six or eight months, and that was where cursor, like, I don't know how it will be with this guy, but it's, it's insane what can happen. Like, and I don't know how to code Hello World, I don't know, but like, what's going on? Like, anything, basic stuff. It's this thing is crazy, but for us, for Amazon sellers, because everything is data, like processing stuff, setting reports, like analyzing everything, checking reviews, it's really good, and it's good at brainstorming with you. It's just you have to go through analyzing how much context it uses, because every time he does something, he goes and he sends all the context to Claude. So it's like expensive and it can abrupt the context in a second. It compacts it, and you lose everything you talk to. So the next one basically have to be reteach it. So you have to learn him how teach him how to save context on the side. And like tiers of context, so there's, like, important ones and secondary ones, stuff like that. But you guys are so smart, all of you, so you'll figure it out, like, if you just put your mind to it. But it's so new, because my friend, who is super advanced in tech, and he's like, Oh, that's bullshit, because he saw something, like, people didn't adopt it yet, the new guys, yeah, it's so fresh.
+
+Speaker  322464:00
+It's insane. Uses for it.
+
+Speaker  323984:00
+It's so much uses it's it's crazy. It's a lot of people will lose jobs because of this, a lot of savings for us, but managing your calendar and stuff like that, it's like nothing. It's six
+
+Speaker  328181:20
+that's nothing, yeah,
+
+Speaker  328885:20
+but writing content and that, it's super interesting, like for I want to audit everything on my site, because what's interesting things like I have, like a cutting board business, right? So I hired the guy. I was paying him probably 800 or 1000 a month to write content. He did two years, one year of content. He was doing two blogs a day. So he was using GPT when just came out. And I teach him how to do GPT, and then in neuron writer, optimize it for SEO, we grew to 14,000 traffic per month, 15 something like that. We're crunch crunching a lot of, like, recipes and bullshit. I was out ranking Costco for some terms, but, like, no sales on my site. I'm like, This is bullshit, right? Doesn't work. And then I couldn't sleep one night because of this bullshit artist. And I'm thinking, listen my Kat, I got a penalized, like, a theme problem with my Shopify. So my Shopify went down. So all this traffic, of course, died, but I fired the guy because no sales on my Shopify. Content was lame, wasn't related to my cutting was like, like, barely related. So, and I'm watching that my my sales on my Amazon peaked when the peak of this traffic was and I'm like, Shit, this is probably related, because in each article, I was sending them to Amazon, so they either were sending signals to my Amazon or buying right? So probably social signal or something like that, but that was costing me like 800 bucks a month for too crappy content that Google penalized me for. So I can't get them back. I need to rewrite all of that, like clean it up now, imagine what you can do now with this bullshit guy, right? You can do three of them per day, but that's not a good idea. Don't do a lot of content per day, one maximum, and even then cool down like it's it's better to have like three, four properties. You can now build your private blog networks like three, four content sites that would be publishing content too with this guy, and then send that to your main thing. But don't buy something complicated. This can handle it excellently. It's, it's so much ideas I'm waking up and I don't know which one to tackle, like, I have to really prioritize my time. It's, I was like, really thinking, do I join in this call because I have another one after, because I can build something in one hour that a week ago took me, like, a week to do it. It's so fast. All of you will go crazy soon. Like, I'm just like, when you see me, next time buy me a drink, you'll see it's crazy. You it's like, insane.
+
+Speaker  376757:20
+Hey Andre, can you guys hear me? Yep, yep. So would you recommend that the Shopify so your Shopify website went down. Would you recommend just not even use Shopify and just create your own website?
+
+Speaker  380810:40
+I would not progress or something, because, unless you're very good with that, listen, maintaining is really complicated. It's not just building it, this thing, this motherfucker, can build a Shopify in probably a day. The problem is maintaining that Shopify, because you would have payment walls, you'll have a lot of things, you'll have vulnerabilities discovered and stuff like that. That's not a good idea. Build internal dashboard tools for yourself inside that you can host on a computer or like through build with API. But it's still good to Shopify that's not that expensive, right? How much you pay for it? A few $100 a month. Like, you can organize how you work with this, right? You can build the blog. Yes, that can be done. But super complicated things, I don't think you need to build them. They exist. There's solutions. It's like, would you cancel Helium 10 because of this? Because it does keyword tracking, personal like, imagine how much proxies you'll have to buy proxies to go scrape Amazon, because this thing won't scrape. This will kill you in prices. If it goes scrape on Amazon, it can do it, but the API calls would be insane on the bill, right? So you can still utilize existing technology, but he is smart, so we can deploy him in that kind of way. So you can sell on your Shopify, but you can build a few blogs for yourself on your Shopify, then outside, and then think how to do it. SEO friendly, right? Build knowledge for your stuff. It's It's good. It's really good again. Thanks.
+
+Speaker  408453:20
+Yeah, exactly like, yeah, June, June is correct in that like this can easily transform into a miserable story for you if you're not careful. So you have to really understand what you're doing. So take a little bit of time, guys, take a week and go deep on this thing. And this is basically having an atomic bomb in the kitchen, and you just optimize it properly. You I
+
+Speaker  418400:00
+start working with it. I'm curious. Sorry, I have a few things in mind.
+
+Speaker  419872:00
+It's a few. You have 100 by noon.
+
+Speaker  421056:00
+I know that's the problem. And I
+
+Speaker  421605:20
+know you It's crazy. It's going to be fun.
+
+Speaker  423429:20
+But yeah, guys, this is an open called open discussion. So usually the previous calls, we discussed any kind of issues you guys had in the past, or any kind of issues you might be facing with SEO, CRO product launches, indexing, rankings, anything of that nature. So if you guys have something like that, happy to take a look and see if we can help in any shape or form.
+
+Speaker  433152:00
+Hey, Alex. Hey, Deepak. Here one thing that I always struggle with my team. So as a background, we have several listings in the bedding category. Most of them are very well established. You know, for six, seven years on the platform, they do well, as we update our content, you know, especially the written content. You know this, you know, the traditional SEO part of the team pushes back asking to insert more keywords. You know, whether it's in title or in the content, and that invariably leads to, you know, content, written, content that is long, right, hard to read, and I'm always afraid putting their offer aside, or putting their, you know, like not agreeing to them, because, you know, you get afraid, okay, what if my rankings tank if I take most of the keywords out just to simplify the content. Now, with roofers and all the new things that is also going wrong with Amazon, what are your thoughts on it? On this keyword stuffing, if I want to use that old, traditional term,
+
+Speaker  452960:00
+I moved from the overall keyword stuffing on the listings to more on the overall benefits that Rufus is actually searching for, because roofers is basically just your personal shopping experience on Amazon. It's just the interface, and more and more people are using it every single day right now. I think last year the report came out where 140 million people used Rufus at least once throughout last year. So that number has been growing like crazy lately, and Rufus is basically it's just feeding on the overall audiences that they have in the back end. So it's not going for the keyword stuffing that much anymore. In if and if you are talking about keyword stuffing and afraid to modify your listings, I haven't seen any downturns because of modifying the listings. So whenever I'm modifying a listing, I'm going all in. I'm not modifying only the title a little bit. Wait five days the old methods. See what happens with my ranking. See what happens with the conversions. No, I just go usually, all in, and I trained bots to produce the perfect copy every single time based on a full analysis of that overall market, and I've never seen any kind of issues with it so far. So my advice to you would be to just start and start pushing it.
+
+Speaker  480624:00
+I think there's also layers to that answer too, which is, they're now looking for duplicate keywords. So, you know, some Chinese sellers are putting full keywords multiple times in the title and in the first couple bullets. But they're not allowing major sellers to do that, and they're they're switching it for them, for us, using our their own AI, which is killing the listing before you even get a chance to do it right. So that, you know, air quotes, keyword stuffing is now, you know, you can only say it once. I'll throw another layer into the mix. We've had some success with our headache. Kat, like the pink version. We made a pink version for Susan G komen to fight breast cancer. Donated like, 50 grand, and they, you know, for social proofing. It's been great, but ultimately we changed the title and and bullets on the variant, and now we're showing up organically, like, you know, top couple for gift for her, we were number one for Secret Santa stuffers, for the the Black Cat. But different variants having different titles, correct? I different titles correct to really, you know, I joke on all SEO calls. I'll repeat it on every call I'm on. SEO is easy. Be the authority on the subject executing that is the really, really, really hard part. So, you know, Andre talks about content and the listing, like, if you are the authority, not because you're the best price or sell the most but if you are literally the expert of the authority on the subject. If that means keyword stuffing, great if I sell my cold therapies for knees, if I talk about meniscus surgery or injuries, that's great, not just knee ice pack. So, you know, think about that and become the authority. And I think that's a that's a helpful, you know, marching order, commander's intent. And then it funnels down to the team with the content, the title, the bullets, and a plus content. There's a little hiccup in the a plus content, if someone corrects me, it's the same A plus content for the listing, not for the variants. So there you're you might have to have some different questions if you're doing FAQs and things of that sort, if you're keyword stuffing and some FAQs Correct.
+
+Speaker  515200:00
+Yeah. So having variations, it's a huge advantage, especially now, and you're, well, it's been an advantage for the past five years, because every single listing that we have is also completely different in the back end, every single variant. So that will allow you to rank on all the related queries that you're looking for, to rank without having to keyword stuff one listing, and especially if you are embedding for sure you're you're having at least 15 to 20 variations. In most cases,
+
+Speaker  524138:40
+true, true. So then, okay, I think we worked on this few months back, and now in the in the process of updating contents, what we did was we went through, you know, the roofers, generic questions that pop up in a category like, you know, those who we scraped all kinds of questions, manually scraped. Then we went through our 10s of 1000s of reviews, the Q and A's, and then we designed, you know, we kind of work backwards, okay, what would roofers be doing? Or what would what are customers looking for? And then design a content that would answer those queries. So that was the primary objective. But we still ended up, you know, putting in those 810 traditional keywords, here and there and yes, because we have variants. So we spread those keywords across variants. We don't stuff all, but, you know, we still springing in those 810 whatever each variant, we also use description so that 2000 word character whatever, so we also use that to answer things that we didn't want to put it in the five bullets, right? We are hoping that also Rufus goes through. I think we did correlate few things when we tested and we wrote some things that our answer was coming up because we had put it in the description. So Rufus was reading that things such as the award winning seats that have been cited by CNN, like we we put a little bit credence to it, and then it was talking about it. So we kind of tried to close the loop by by giving it a reference in the description, and then it it presented that as a fact, when you question that as a question. As a customer with Rufus,
+
+Speaker  553477:20
+a few hacks, guys, if you're interested with with this, AI, first, we have to remember that Rufus isn't as smart as GPT. It's a much dumber model, and if you can move GPT into authority, then dogai Probably can be fooled around. I still didn't play with it, but I played with GPT and with grok, and it's interesting thing. Ask something about your brand, to grok and to GPT and see what it pulls out. You can fool it like crazy. First of all, add an LLM index LLM txt file, I think, to your Shopify whatever like ask your GPT. Why is that? It's a special file for llms. It will put the information in the right form. So then when the LLM comes, it reads that stuff. So anything I ask about my brand, guess where it takes it from, from my website, and then from authority website. So if you can get something important, like some interesting, cool stuff from other like editorials, it's good, but do a lot of stuff on your website, because they literally take what you tell them, and they use that. So it's like, we're really premium, high end product. Where'd you took that from your website? I'm like, Okay, I asked something about me. I'm like, boy, I'm such a big specialist. And where'd you took that your LinkedIn? I'm like, Huh? So I can basically screw around with you, and then I'll be like, I don't know 10 figure Amazon seller. If I write on my LinkedIn, right, it doesn't verify. And that's grok and GPT five. And if you don't have that information on your website, they don't know about it. Anything they talk about, I asked about seller metrics, and they don't know that because I didn't put that on the home page. I did it in the back end. I thought my customer will see it, but Well, how would the prospect know it? So they don't even know it. It's really important to go and write everything about that stuff, like go publish information everywhere, and then they go and they take it from there, and they fed it to the customers. So that's how you can become, like a really high end brand, or like good choice for for GPT, for example, when they suggest something to the customers, right?
+
+Speaker  590330:40
+So Andre, yeah, that's a good point. I recently was having issue with the with my shopping web website because of millions of scrape bots trying to get my inventory data, which I didn't know. So I personally got involved into Cloud fair business and took help from Gemini browser help. And I think three four days of me investing probably more than 12 hours of my life on Cloud fair. I'm proud that, you know, I'm now able to give a poison pill to those scrapers, giving them millions of sheets that I have every second. And now to get to what I'm trying to say here is with that helped me also realize the llms text file that one should have on their Shopify site, that one should embed in the root for LL, MDS to read, and two it also, I also discovered that chat, GPT, for example, will consider Walmart and Google reviews more than Amazon reviews when it is ranking stuff. So yes, your website plays a role, but it gives it a little slightly lower priority. So for example, for us, our Walmart reviews are not that great, you know, 4.2 or whatever, because Walmart is like a wild engine, right? Like people go and competition goes there and write whatever they want to write. So So I reverse engineered that with chat, GPT and then with Gemini. So I usually rinse those answers left and right. And you know what I learned was, at least this is my current understanding that I need to invest in getting reviews on these, Walmart and Target and all that stuff, because the trillions of reviews I have on Amazon, which are 4.5 4.6 they are not mattering that much to chat. GPT, so I don't know what's your understanding on that front,
+
+Speaker  619642:40
+is it because of the restrictions that Amazon puts in place?
+
+Speaker  620570:40
+Yes, probably, probably, so
+
+Speaker  621738:40
+they've put gates, yeah, on reading the reviews, yeah.
+
+Speaker  622602:39
+But oh, and on Cloud fair. If any one of you uses cloud fair for protecting your Shopify site, or a if you have Shopify site and you have never thought about these bots, you know, I mean, these scraper bots hit on your Kat dot json file a lot, and that will not only slow down your Shopify, but, you know, whatever tools your competition is using, they will reprice or, you Know, whatever else they need to do because of that. So therefore, if you are using Cloud fair to protect your site, you have this option of advanced mode where you can then go in and stop the bots that you want to stop, and allow the bots you want to allow to scrape your site. So they have a whole laundry list of blood bots. Amazon was one of them. So I thought about it. Then I loved Amazon. I said, Let them scrape my side, because I know that dumb roofers is going to learn about me.
+
+Speaker  638074:40
+So Amazon is really going down on scrapers because they hate it. Everyone tries to scrape it. We need to scrape now. Amazon, it's a nightmare. Like, I built three engines and failed until, like, we figured out how to do it proper way. But it's really, really complicated. They they catch up. You can buy the most premium proxies, like, they will just find it. They do a few times, just a little bit. Yes, it will work, but doing it at mass as we need it. It's really complicated. So they fight it, and there's a reason for that. It's like you have to be careful, you have to protect the site. But the thing is that the this, this, those AI systems, whatever cloud, grock, whatever they see how much of how often people are interested in your stuff. So if they notice that you whatever from that specific region are curious about, for example, what do you know about this company? Right about my brand? Worry. So like, if enough people possess, I don't know, do interest in this, they will start, like, promoting it, and it will go, it will rank out in, in those, in those systems. So it's really, it's really worth talking with the on, I don't know, not logged in, right? Logged out with, with llms, about your brands, about your services, about things like that. I think it can help rank them.
+
+Speaker  662533:20
+Yeah. So what do you guys know about Amazon recognition with a K and how that, like interprets your picture data? I was using a tool that existed in what LinkedIn, someone like put up there, and it kind of scraped the Amazon recognition data for some of my images, and it was showing like labels detected, and some of them were like weapon, which, obviously it was not, which had me kind of concerned. But I don't know if you guys have used it, or have any recommendations for how to work that system.
+
+Speaker  670714:40
+I don't think Amazon recognition, they invested anything more into it. It was the same case two years ago, when it first came out. By the way, you have full access to it for free in AWS. You just create an account with AWS, and then you search for the tool for recognition and you can play around with it. I think who presented that at some point, I think two years ago, in in your event in New York, I think it was, what's his name, the guy from Zuli, Aaron. Aaron presented it. And I was laughing, because when he had the mastermind, I went to him afterwards and showed him with his main image for the milk throtter. It was 98% a grenade. 96% a bomb and dynamite, and only 40% it was something related to coffee and milk and stuff like that. So I don't think they invested anything else into recognition. I think that's, that's just a dead project for them. I think they're focusing on something else. It's still Cosmo, who's manipulating everything in the back end. It's, it's feeding into Rufus. But recognition is not an authority anymore.
+
+Speaker  693861:20
+Okay, that's good to know. Is there a way to check how, how those are interpreting my images?
+
+Speaker  695589:20
+No, no, not that I know of you. Just need to put it in and see exactly what happens in the marketplace and monitor your click through rates and conversions overall.
+
+Speaker  698565:20
+Yeah, but we're learning some about experiments. I just this is coming to mind. I know they don't know the answer, but it might trigger somebody else's thoughts. Where you test something in experiments in the back and it acknowledges if it's legit or not. Does that trigger anybody to a memory or make sense?
+
+Speaker  704298:40
+Yeah, I'm guessing they are using some sort of recognition still in the back end for that, but it's still not accurate. I mean, all the other AI tools out there are completely way ahead of that. I feel like, like it's 1940s with 2020 25 difference. It's It's massive. So I don't know why they didn't build on that, because that had a ton of potential initially, and then they it just fell through the cracks. And I've been entering the recognition every single month just to see if something was updated. It's the same results every single time. So for sure, they haven't updated it in any shape or form.
+
+Speaker  717978:40
+That's a dead engine, for sure, like they scrape the project. It's so outdated. Yeah, it's everything they have. It's, I think
+
+Speaker  720618:40
+they're investing everything that they can right now in audiences and roofers and trying to become, in my opinion, completely human interaction free. You just have roofers just like you have your Alexa. You just press one button and you set reminders make sure I don't run out of razor blades or something, and it's going to go in and do its stuff, and that's it. But that creates an urgency on us, on updating all the listings to be fully Rufus and Cosmo compliant as fast as possible, because this is changing, and it's changing very, very fast. What is they are? Cosmo is the AI in the back end that's feeding Rufus. So Cosmo is basically the one that's reading everything that you have in the back end Cosmo is the one that modifies and creates the databases based on your listing content and attributes and so on, and feeds that into Rufus to be the front end for the customers. So Rufus is not doing that. He needs Cosmo to do that.
+
+Speaker  744069:20
+I just pasted the Amazon science article the PDF in the chat, if you want to feed it into chat, GPT to check it out.
+
+Speaker  747093:20
+Is this new or this is the old one?
+
+Speaker  747946:39
+That's the old one because I haven't seen new. I haven't
+
+Speaker  749482:40
+seen a newer one since this, in theory, it should be directionally correct still, but yeah, we haven't seen anything new, yeah,
+
+Speaker  753376:00
+but they updated their product opportunity explorer. Now it's giving you a little bit more data on every single niche, and it's giving you it's still in beta right now, but it's giving you the insights on the overall niche overview and top product features, customer reviews, customer demographics, search terms and pricing. So you can basically just create that data completely, and you will have a fully trained chat bot once you feed that information into it with your listing content and the listing that the actual listing that you have right now, and it's going to adapt it to whatever roof was in Cosmo is searching for right now. So that became a lot easier now. And I think they just released this I'm not mistaken,
+
+Speaker  768330:40
+including the chat bot. Or is that
+
+Speaker  769728:00
+something that you will have to use a chat bot of your choice for that? But you can easily take that information right now, because it's generated through date and their AI, and then you just export it into a text file, and then you feed it into your chat bot of your choice. You can be cloud Gemini, or whatever you you're working with, and you can start preparing your listing based on that. So that's what I'm testing right now I will do, I will modify a few listings based on that, and see how they perform before Vegas, because I will be speaking in Vegas, and I'm trying to see if I can get some proper results based on that. And then if everything goes well, then I'm hoping I can, I can give you a full solution that you can just basically just download. You plug in all the data times, it's going to spit out the perfect copy every single time, from old listings to new listings, new markets, whatever you want to do. So it's going to take the guesswork out of it completely, and you won't need a team anymore for that,
+
+Speaker  791845:20
+because it's, it's, it makes no freaking sense to have 10 people building listings for you right now, zero whatsoever. You can have like Andree said, you can have that bot that doesn't need to sleep, doesn't need to eat, it just works non stop. So if you have the budgets to launch 1000 listings per day, you can do it and just flood the market non stop. Yeah, and it's going to give you the perfect copy every single freaking time, and it's going to give you the perfect strategy to go for that specific product every single time.
+
+Speaker  804416:00
+Yeah, but like you guys joked about having a million things and opportunities if you build it doesn't mean they're coming. In fact, they won't come. So, you know, back to my authority and expert, you still need to commit to the product, you know, with copy and blog, sure, but ultimately, you know, we can distract ourselves, squirrel. I mean, it's who we are. So you know it's going to be easier for us, but we need to stay focused on what's driving your profitability, and 1000 new listings, you know, might not be the answer for some people on the call, because they, you know, you know they, they're losing money on each and they're making it up on volume. So Right? You know
+
+Speaker  814794:40
+that you're in for me. I mean, for me, it's just a numbers game. The more skews I'm adding, the more the top line revenue is going to increase
+
+Speaker  817904:00
+within the same brand.
+
+Speaker  818576:00
+Yeah, yeah, right now we have close to 800 SKUs. We're trying to get to 5000 SKUs by the end of the year.
+
+Speaker  820064:00
+So to how many
+
+Speaker  820672:00
+Five 5000
+
+Speaker  821200:00
+from 800 to 5000 my gosh, and those are private label products, like physical products, yeah,
+
+Speaker  824165:20
+wait, say, Alex, say, more? That sounds crazy.
+
+Speaker  825061:20
+Why? It's just a numbers game, dude. The more skews you have. Well, it depends on the niche and everything. But the more skews you have, you're going after demand, nothing else, and you're not going for the best sellers in the marketplace, because there are no best sellers in that market. It's just a need. But it depends. It's heavily dependent on the niche. You can't do that with normal, traditional private label products, for example, embedding, yeah, good luck doing that for bed sheets. But if you find a very small niche like that, and you just start feeding into it then, but
+
+Speaker  836016:00
+you're also picking up low hanging fruit and doing your expertise so that you can win. But you, like you said, to get to the best seller badge or to be the top in the category, that's not going to happen. You're not spending $15,000 a day on ad spend. You know, with 5000 listings.
+
+Speaker  840453:20
+No, you're not. But the PPC is just minimal on that, because the search volume is so freaking low each month for every single skill, then just by spending anything on PPC, well, you are going to rank in the first page, in the first two rows
+
+Speaker  845770:40
+right or long tail keywords get you there anyway because of expertise. Yeah, exactly.
+
+Speaker  847642:40
+So basically, you just need to list them so that can people can find you, or people who are using AI to find you, like Rufus. Rufus is going to recognize those listings because of all the benefits and all the added features that's feeding directly into it, that's exactly what it's searching for. So it's going to choose your listings every single time.
+
+Speaker  854965:20
+Yeah, exactly. Speak for yourself. I'm cutting it because
+
+Speaker  856373:20
+I want to head for the video, and none of us have hair anymore.
+
+Speaker  857397:20
+Well, I actually do have a little bit
+
+Speaker  858309:20
+left, but about skews, even in bed sheets, we noted where we added more color variance and we could maintain the supply chain and that ROI on inventory investment, our rankings gained and and products of parents where we were too complacent, even in places where I had 2025 colors, which is a lot of variations, right? And in every size, we were lagging behind or we were losing to competition. And we've only realized that very recently when we did the test last year, and now we are doubling down on our color variants, because we also own our factory. So we are, you know, from 15 1800 SKUs, we'll go up to 3000 plus queues in next two quarters. Because, you know, the fact is, when a customer is visiting one of my bedsheet listings, they're not necessarily looking at the other of my bedsheet listing to find the brown color they need, right? So it
+
+Speaker  874778:40
+could be a very personal choice, right?
+
+Speaker  875322:40
+So if you're increasing, yeah, if the core shades are missing, or, you know, or the long tail is missing, they'll just jump to competition. So why not? So then all of my listings are going to have, like, 40 colors, patterns, prints. I'm just going to I by the end of probably next this year. Let's see, but very soon, right now. Anyways, there is no brand in America that has more colors and patterns than we do, and we are going to leave them far behind by the end of this year. Far behind means there is no second what's the
+
+Speaker  884400:00
+brand? Deepak? It's
+
+Speaker  884752:00
+California design then
+
+Speaker  885888:00
+Deepak, by the way, did, did the sales increase? Did it help?
+
+Speaker  887125:20
+Well, that's for an Well, I so we played a bet on the Trump tantrum tariff, and we lowered our inventory, November, December, and got out of stock. We put too much in bonded, and the bonded couldn't move for three weeks, so I got out of stock this that. So unfortunately, Andree, when we change the content for some of our top listings, I don't have the right measure still, because I'm now limping back to inventory. So I still, unfortunately, don't have I think in next couple of weeks, we will know better, because then we can pick up a time frame versus this time. You know, do that kind of, have you looked
+
+Speaker  897856:00
+at other countries?
+
+Speaker  898240:00
+Sorry, have you
+
+Speaker  898544:00
+looked at other countries out of China production?
+
+Speaker  899760:00
+Oh, yeah, I have office in China, and we have been producing stuff there. But, you know, we have a different story also China, even despite the 36% tariff India at 50, it doesn't, they still, I mean, it gets close, but can't beat because, you know, the business David is such long tail, and we own our facility. So you're talking about, you know, extreme fine shipping schedules every week, you know, based on exactly what selling so it's a well oiled machine, but that well oiled machine works when everything is normal.
+
+Speaker  909402:40
+So, so why don't you do for all the new colors? Why don't you do FBM and do drop shipping, drop shipping directly from your factory to the customers,
+
+Speaker  912448:00
+all of facilities in India, it's not here, yeah. So what the cost of airlift the DHL courier is huge, and now recently, what has happened is these DHL or FedEx guys, they send bill to customers despite us marking every damn thing on their form when we send samples to few editors in last two months, which had never happened in last 1015, years. You know, they're all getting bills and emailing me. Very nice thing, look, I got this $50 custom Bill, you know, from FedEx. So it's kind of very stupid, you know. But, you know, I don't need to go. I mean, the cost of air freight, of one sheet set. You know, the FedEx versus FBA is a huge difference.
+
+Speaker  924730:40
+So do you have a warehousing in in us or no?
+
+Speaker  926122:40
+Yes, we have few three, pls, not my own, yeah.
+
+Speaker  927258:40
+So just do FBM directly from there. No, but why not?
+
+Speaker  928320:00
+Why not do FBA itself, right? I mean, I am not true, but still, they can test them. Velocity is such that I can put in FBA and I wouldn't have any problems, yeah.
+
+Speaker  931616:00
+I mean, his, his efficiency is producing for himself, is saving the 36% you know? I mean, you can play some games where you have a sourcing you have two companies. One is the sourcing agent, one is the production and you
+
+Speaker  934821:20
+might, I wish I didn't own both the companies. Then, yes,
+
+Speaker  935749:20
+no, you could. You could, yeah,
+
+Speaker  936293:20
+yeah, the volume large. And, you know, therefore the risk becomes much larger. So it's not worth it. So I paid 50% last two months I've been paying 50% so, that's okay. I made money for a few years, few months. I will not and that's okay.
+
+Speaker  940634:40
+Yeah, listen, I it's not a good speech, but I'll say to you is congratulations, and it's a barrier to entry. So, you know, if we can sustain it, and it's kicking out some of those Asian, Chinese sellers, you know, we've held our prices. We didn't keep them up. You know, I spent 145% on a container to Walmart target. And you know, it's stopping them from saying, Ah, can I still make 50 cents and and do what Alex does, and say, I'm gonna I have 60 competitors, even though I'm patented. And you know, it's kicking some of them out. So stand strong. And you know, eventually, it will adjust, and so the larger players can can handle it, and we don't like spending it, but I still treat it like a bear down tree. Yeah, no,
+
+Speaker  952277:20
+I completely agree, yeah, yeah, but yeah, let's increasing that variation. Alex, that's very, very interesting. That's opening up new, new ideas for me now, apart from my own product line, have you
+
+Speaker  955578:39
+looked at licensing? Deepak? Have you looked at licensing?
+
+Speaker  956842:40
+Um, not really. I've been just buried down trying to figure out how to continue with the scaling up, you know? So yeah, it has been working well, but now we are at a stage we need to really increase our team size and all but the bots are coming in, so that will help me, right?
+
+Speaker  962112:00
+That's what I'm saying. You don't need to increase your team. You just need to increase your bot team,
+
+Speaker  963312:00
+the quality of team, then, right? Alex, like you need to be able to write the bots as well, right? So, yeah,
+
+Speaker  964816:00
+well, you just hire three guys that know how to set up all the bots, and that's it. You buy five machines. You know
+
+Speaker  967397:20
+who's going to DM you soon, right? I
+
+Speaker  968821:20
+know it's not SEO, but just in sharing some experiences, I say I've been an EO for 25 years, and you share experiences from an optimization standpoint, we talked about pay per click SEO, but optimizing fulfillment fees, they're consistently changing. And I'm not saying vacuum seal or take some air out. I went from a bag to a box, and I'm saving like, $2 because they couldn't measure the bag appropriately. So just if you don't audit your size of your packaging every quarter or six months, you're missing out, because it's unbelievable. Just the way they change it from either poundage or I get so upset when it's like, you know, it's, it's x, you know, it's two pounds instead of, you know, one pound, you know, 10 ounces. And I'm paying an extra 70 cents, and I could have just shrunk it on millions of units. It's real money. So if you haven't audited your fulfillment fees from size or packaging weight, you know, DIM weight, take a look at that. Yeah.
+
+Speaker  985237:20
+Also the new thing, David on the pricing right? If you're above 50 bucks, the FBA fee increases. So sometimes just 4999 what plus FBA, the match
+
+Speaker  988282:40
+is, oh, my God, I don't we don't necessarily have pricing. We have a risk product that's under 10 bucks and a headache stick. But sometimes people are like $11 $12 for an item, and depending on your category, the fee drops from 15% to eight. So it's you can be at 999, for free at that dollar 50, whatever, miss, miss. So you get into trouble for Prime days and other deals, because then 999 has to be, you know, you know, 795 but that's for a short period of time. And you have to look at that. But it's a great point that $50 one is, is, is crazy. And to Alex's point, you kind of reverse engineer your your new listings and your new products based upon your cost, and you what you want your margin to be. To say, I don't, I don't want to sell a $58 item. I want to sell 4995 because of fulfillment fees, you know. And obviously expensive items that ship light are ideal. Not so easy, but that's the holy grail for all of us.
+
+Speaker  1004730:40
+Lab made diamonds. Yeah,
+
+Speaker  1005866:40
+apparently they're, they're the they're the new thing, but the debate, they're all holding back. You know, that's, that's, uh, that's Brandon. Mm,
+
+Speaker  1010032:00
+yeah, I think we're moving into an era where we need to be extremely lean and super optimized in every single segment completely. Because if not, we are just going to be left behind completely. We are going to wake up one day with zero sales, in my opinion, and it's moving so freaking fast.
+
+Speaker  1016037:20
+Well, or build it exit because it's moving fast enough that let it be somebody else's
+
+Speaker  1017429:19
+problem. Yeah, I know. But still,
+
+Speaker  1018485:20
+once you you've been doing this for years, it kind of, it's hard to move on from it. You keep doing it and doing it, and you've been successful at it in several businesses, and then it just, you just need to adapt. And we've been adapting every single time, every single time they change the rules. We've been adapting. Like in 2017 they opened the floodgates to all the Chinese sellers. We had to adapt. We didn't know that they didn't have to make a profit because they were fully leveraged. They didn't have to show a profit. They were just going for the number one spot. So we had to adapt. And they're not
+
+Speaker  1028911:59
+afraid to get shut down. They'll just open it up under somebody else's name, like they just open a new account to my new account tomorrow.
+
+Speaker  1030389:20
+Yeah. Then in 2022 they tripled all the fees. So we had to adapt again. In 2018 they they changed the TOS. We had to adapt again. So it's just, it's a constant battle. But that's the game.
+
+Speaker  1037946:40
+So, yeah, by the way, if you haven't seen the product, opportunity explorer, how it looks now, I highly recommend you you take a look on it.
+
+Speaker  1042640:00
+Hey, Alex, question, yes, is there a way to tease out demographics, so segmenting into different customer audiences and then splitting and analyzing your keyword data by demographic. So let's say that you have multiple customer avatars, because I've looked into sqp and it's hard to get that data. It's all aggregated into one average. So you can't, kind of dynamically change your campaigns by customer type.
+
+Speaker  1050789:20
+So I haven't played around with that in quite some time. Let me check something, but usually they keep that data pretty hidden, and not even through the API you can, you can't get it out. So if you don't have it in brand analytics, then I don't know of any other ways in getting that data properly. Okay, so no, maybe through DSP. I think DSP is going to give you access to that customer demographics data that you're looking for for different avatars, but you need to do DSP for that.
+
+Speaker  1064405:20
+Okay, gotcha. Or I can form a really good prompt and give it to my account manager.
+
+Speaker  1066645:20
+You can, yeah, but I highly recommend jump on a call with with Amazon reps who are managing the ads portion of it, and have them do a demo for the DSP platform. And I'm pretty sure there you can have you can access it with no issues.
+
+Speaker  1073536:00
+Okay, cool.
+
+Speaker  1074000:00
+I remember I had that in a call with them at some point, but I never pulled the trigger because it wasn't worth for our brand at that time. That makes sense. It's not only because our products are not something that you buy because you saw an ad somewhere. It's a necessity based you need it. You buy it. So it's it's different from all the other private label products out there. That makes sense. I don't need this bed pillow, but hey, it's going to resolve my neck, and I'm going to give it a choice. And I saw five other ads about it, and I love their images. Fuck it. I'm going to give it a try. That makes sense. It's not something. Hey, my kitchen faucet broke. I need to replace that specific, small part. Now I need to buy it. It's different. Got it, but, yeah, I'm pretty sure you have it in DSP, on the DSP platform. I never understood why they they don't allow us to see that data, but I'm guessing it's all because of the money and the money you're spending, Cool, thanks. You're welcome.
+
+Speaker  1097525:20
+Anything else, new guys, any issues? Do you want me to go over some listings, if you have any kind of issues, problems, de indexing launches anything of that nature, because I will have to jump in 15 to 20 minutes maximum. And also, I'm going to post that question in the SEO chat in the MDS app to get some ideas. Eugene was telling me that maybe we can do some listing tear downs again in Vegas, if you guys are joining, because this is what people wanted initially. So anything that you would love to see in Vegas, for those of you guys who are coming to Vegas, let me know so I can prepare something.
+
+Speaker  1114357:20
+Hey, Alex, if I post one of my listings that have been on the platform maybe less than a year. We were really hoping that it's going to go big. It hasn't gone big. And I've tried all kinds of ads and deals and everything. I mean, it's not bad. But I mean, if you do some kind of tear downs, as you just said, Should I post a link on the chat here? Would you mind?
+
+Speaker  1120896:00
+Yeah, sure, sure. Okay, cool.
+
+Speaker  1122032:00
+Did you check? I mean, the first thing that I will check is going to be the the backend attributes and the overall browse node and so on, because those are by far the the biggest things that I've seen keeping you from ranking. And I don't know if you checked for that already, I mean,
+
+Speaker  1128485:20
+yeah, this, I mean, again, generally, they should be fine, because node and all, we don't fool around with it's a, you know, it's, this is the product we do is just a new parent, you know, new quality. I've been in the same product that we sell all the time, so it's just that I don't think we have been very successful in new product launches.
+
+Speaker  1135066:40
+Well, you are fighting in a very, very aggressive niche. I'll tell you that.
+
+Speaker  1136586:40
+I but it could be
+
+Speaker  1137568:00
+also one of the leaders currently,
+
+Speaker  1138640:00
+yeah, but I don't know if you are one of the leaders with this listing.
+
+Speaker  1139920:00
+No, this is not a lead, but I want this has a potential to get to at least top 50, top 20, but it's way behind.
+
+Speaker  1142277:20
+And from a from a click through rate standpoint, I would highly recommend you change the main image only because that box behind it is not doing you any any kind of good. It's not
+
+Speaker  1147066:40
+his MO if he does that on all his listings. But typically you keyword stuff, or make it about the keywords, so at least they're getting a big keyword play there if you look at his other listings. But this one doesn't have that. So it's like you kind of went halfway Deepak, if you're familiar with saying, Oh, your other main listings have the box, like the natural box, the brown box that obviously represents something to your customer base. It has a keyword on there. This one does not if I'm right,
+
+Speaker  1155520:00
+you know, I get the point. I think we're in the middle of changing the the PI content. This one, we haven't got around it yet, that's what Andree was asking me. Yeah. But having a better lifestyle images like we have in others, that's a good point. Yeah, good reminder, yeah.
+
+Speaker  1159685:20
+But for the, for the, for the main image, in particular, it's very hard to read Egyptian on the side, cotton. I don't know even know what? After cotton per scale,
+
+Speaker  1163722:40
+yeah, per kilo, something.
+
+Speaker  1164666:40
+I would make sure that the box is full on behind the sheets, facing forward, and change everything from that image. I would go directly to features. And the main keyword on that, on that listing, on that box, let me share my screen. See you here, share my screen this.
+
+Speaker  1171712:00
+Do your email in the chat?
+
+Speaker  1172464:00
+My email, yeah, no, but I can put it in the chat. Let me just put it.
+
+Speaker  1176853:20
+There you go. So for this box in particular, I would just make it all the way here big I would decrease the seal, which I don't know if it, if it does any kind of good for you to be like this, I would write here exactly what the product is, the 100% Egyptian cotton. And I would add some features that can be read from the search results, that can pop directly on the box so people will know the moment they they browse through the search results, they know exactly what this product is, and this is going to filter out all the all the people who are just clicking on it out of pure curiosity. And it's going to improve your overall click through rate and conversions as well. And it could
+
+Speaker  1191845:20
+have different keywords for different variants, different colors correct.
+
+Speaker  1192965:20
+So you need to design a box for every single color, for every single thing. Got it, but highlighting that properly here is going to make, in my opinion, a huge change. Or you can even add some badges here on the sheets itself. Amazon won't have a problem with it, yeah, but this should optimize it a little bit more. Now we would still have to look through because you have a ton of variants. You have how many colors, seven colors with four sizes. So yeah, for sure, you probably have at least one or two GL issues that are keeping you from indexing properly in the back end, and that needs to be checked by your VA is non freaking stop, because it's been an uphill battle for the last one year and a half with them, and try to stay away as much as possible from flat files, because those are the ones that are contributing to the Browse node issues. So I would try to move to an API, direct access platform to update all of your listings.
+
+Speaker  1213866:40
+So don't do flat files, but do kind of an API to update. Is that what?
+
+Speaker  1215114:40
+Yeah, for example, I'm using store Automator, store, yeah. So it connects directly to your listings. Connects directly to Amazon and all the other platforms that you're selling on, like Walmart, eBay. You name it target, whatever you want, and it's feeding everything through the API directly. So whatever changes you're going to do to the listings, from category titles, bullet points and so on. It's pushing it directly through the API. And it's not expensive. I think it's 1200 bucks, 1300 bucks maximum per month, something like that. And they implement everything they work with you. You will have designated person who implements everything the full catalog, yeah, and it's much more easier to upload anything you want instead of doing flat files over and over again, right?
+
+Speaker  1230298:40
+And I'm sure it will have versions and history and all that other good stuff. So one need not worry about this flat file version.
+
+Speaker  1232106:40
+Yeah, exactly. You could
+
+Speaker  1232800:00
+follow that through. And all, I just posted another one where it's like wasted space. You say 400 thread count, you know, which is nice, but you don't say, you know, standard queen, or whatever the main keyword is. And you know, you're showing the, you know, the San Francisco bridge. Or it's just, you know, Alex is, Alex is gonna not love that image.
+
+Speaker  1238437:20
+Which one, the
+
+Speaker  1238789:20
+one I just posted? Same thing like all of your listings Could, could be updated and A, B tested, yeah, yeah, oh, yeah.
+
+Speaker  1241509:20
+This one 100% Yeah. I don't know this image to get you in
+
+Speaker  1242517:20
+trouble, but it doesn't have to match what they get. You can render it.
+
+Speaker  1243418:40
+You can, yeah, exactly. No one will ever complain. I'm showing a box on all of my products in the main image. Guess what? None of my products are coming in a box ever.
+
+Speaker  1245706:40
+We have had issues with Amazon, where if a customer complained that for whatever reason, right, got a different product, right? It could not be because of a box. And they ran an audit, and then they pulled my asin out because they said, you know, your image, the box you're showing, is not the box you're shipping. So then we had to change it back. So we have had more than few of those instances last year.
+
+Speaker  1251680:00
+So I don't want to speak Alex is the guru, but I just play this every day, the concept of, you know, no box to box, but adding the word and changing font size to add the word, you know, Queens, whatever the keyword is, queen size, pillowcase set to the box, and maybe shrinking 100% satin. Like, if all the stuff is still there, and you added a keyword and made some, yeah, right, you know, like, it's not all or nothing, you know like so
+
+Speaker  1259402:40
+you're not changing completely the box design. You're not making it from yellow to red and blue elements, right, right? You're just increasing the fonts and make it making it easier for them to read.
+
+Speaker  1262618:40
+Sometimes even people cheat and put a little starburst or a label, so to speak. Let's what do they call them the sashes or banners or labels that say Queen set, and it's like, oh, that box that took the image didn't have the label, but it's still the same product. So and again, you can a B test, and you can do that, but there's, there's definitely some work there. It's amazing. You're, you're crushing it as it is, but there's definitely some optimizations that could be made.
+
+Speaker  1270053:20
+Yeah, 100% agreed. And also here the California design, then this, in my opinion, is just wasted space. I would just try to go with 400 thread count, 100% cotton, standard queen size pillowcases, because you want to give them that value thing from the beginning, before they click on it, so they know exactly what it is,
+
+Speaker  1280314:39
+what's concatenated. What shrunk like you're using so many of those digits
+
+Speaker  1281759:59
+on mobile you only see this, yeah,
+
+Speaker  1282400:00
+if even threading right.
+
+Speaker  1282832:00
+But you know, not having a brand name in the beginning, Will that get me in trouble? Because, you know, they always push and send notices. Have your brand name in the beginning, blah, blah, blah. Unfortunately, my damn brand name is so long, long?
+
+Speaker  1285765:20
+Yeah, yeah, maybe your brand name is too long. I tested it with and without. I've never seen any kind of issues without it.
+
+Speaker  1288373:20
+Can you move it to the end?
+
+Speaker  1289141:20
+Yeah, yeah, by caliber, whatever, right? So, whatever, yeah.
+
+Speaker  1290165:20
+But you can maximize the number of characters with no issues. You put 198 or 199 and the brand is not going to be in front anymore. So you can do that only because the algorithm thinks that it's now the title is way too long. So didn't have a place to put it on, unless you have a ton of searches for that.
+
+Speaker  1296800:00
+Let's see. Hi, there again.
+
+Speaker  1297776:00
+California design then,
+
+Speaker  1299408:00
+I assume you have the misspellings, because I can't even spell
+
+Speaker  1300192:00
+it, yeah. California design then sheets. Okay, fine. You have 57 search frequency rank, which is quite a medium number. It's not a high number, but it's a medium number. In terms
+
+Speaker  1304101:20
+of searches
+
+Speaker  1304517:20
+free, but it's you can still have it on the box with no issues, without having to put it in the title. You can put. So if you put the box like this, the full size and color all the white space behind it, you can still have California design then above and then write 400 thread counts and the keyword, which is bed sheets or whatever it is, yeah, with no issues, because the the brand name is going to index either way. The brand name is not indexing because you have it in the title, the brand name indexes because you have it in the in the store name and on the overall brand and brand registry. It's not coming from the title.
+
+Speaker  1317408:00
+Yes, nice, yep. Makes sense. Completely makes sense.
+
+Speaker  1318981:20
+But check your click through rate before and after. I guarantee you you are going to see an uplift if you start optimizing your main images, just by changing your main images. Don't touch anything else. Your images are okay for this niche, I would just change the main images, because if you can get, let's say your conversion rate stays the same. Let's say is probably in this market, is around 11 to 12% your conversion rate stays the same. But if you increase your click through rate you will have, instead of having 100 people going onto your listing, you will have now 200 people going to your listing because of your main image. You're going to double the sales either way. That don't slip on the main image ever. It's your main driver for clicks. Okay, so I would optimize the hell out of the main image, especially if you have, I don't know, in most cases, yes, a very nice shift that I've seen, which I don't quite understand why it happened in supplements, the box is performing worse than it was before. So for some reason, in the last 12 months, supplements without the box are performing better than the other supplements in certain niches, which is strange to see, but in all the other niches on Amazon, the box rules in the search results,
+
+Speaker  1349600:00
+and you can scrape your listings. You can see exactly what your customers are looking for. You can scrape, I was searching for bed sheets, for example, when you said you're in in the bedding market. You can scrape all of this. The top niche insights with a niche overview talk product features. This is what they are giving you right now. Scrape this. This is a fellow MDS member, and see exactly the features that the customers are actually looking for and what they want to see and add those to the boxes. You will, you will see it here, the overall quality, the material quality, durability, thickness and so on, sizing. So if you can address those within your listing and everywhere, you're going to win. Very nice. And it's such as easy thing to do. I mean, I understand you have a large catalog, it's going to take a little bit of time, but once you create the templates, then you can just roll them out non stop, one by one. Yeah.
+
+Speaker  1369525:19
+And probably use, if I use one of the tools that you mentioned, I've noted it down the store, Automator that it makes life easy, because right now, producing content, inserting keywords, going through quality audit, it takes months for us to then upload,
+
+Speaker  1373738:40
+yeah, then you only need one VA to manage the store Automator and just start uploading stuff and push it through the API. You can select, for example, I don't know your full catalog. If you want to do one change that works for your full catalog, you select your full catalog in store Automator. You do that change, and you just click one button, push, and it goes through the API and updates all the listings completely automatically. In two minutes, you will see the changes on Amazon. No more flat files, no more errors, non stop. Oh, you forgot to fill in this field. Now you have an error. Now you have this. I mean, for people with large catalogs, having an API platform is gold, pure gold. Yeah, it's a must. If you have only 1015 products, then it makes no sense. But if you have a large catalog, 100% I recommend, yes.
+
+Speaker  1392378:40
+And this EBC. I mean, we have EBC, but I'm sure Rufus is now reading all of that as well, right?
+
+Speaker  1394112:00
+So, yes, it is. And your EBC is not bad,
+
+Speaker  1396896:00
+really. I don't like it,
+
+Speaker  1397632:00
+yeah, but it's not bad for this market.
+
+Speaker  1398437:20
+I mean, if you see my new 400 thread count listing, which Andree helped me fix, I mean, then you'll see the new one. I can probably, I know we are running, going to run out of time, but I just paste the link, just for the so you'll see at least where we are going new here, where is the chat window? Here, here,
+
+Speaker  1405994:40
+this is the new listing. So we are in the process of changing.
+
+Speaker  1407466:40
+This image looks identical to all the other sellers in the marketplace.
+
+Speaker  1409168:00
+That was definitely true. But when we were testing it with the consumers, they were just picking this up over a stack, you know, the other folded ones, yeah.
+
+Speaker  1413216:00
+Yeah. This looks much better. It gives you that what's that huge platform for bed sheets and beddings? Bowling branch.
+
+Speaker  1416853:20
+Sorry, what bowling branch? You mean that brand?
+
+Speaker  1417973:20
+Not that one? No, it's a massive website. I'm for home decoration and all of them California design, not way far, no.
+
+Speaker  1421754:40
+Queens. Queens,
+
+Speaker  1422346:40
+yes, yeah.
+
+Speaker  1423402:40
+It has a very similar look to that. So, yeah, this is much better utopia.
+
+Speaker  1426192:00
+I mean, Utopia has 231,000 reviews, and they have the exact same image. You just copy the leader in the best seller. And they're 1499 by the way,
+
+Speaker  1429440:00
+you can, you can have a talk with them. They are also in MDS, yeah, for sure, you guys know each other.
+
+Speaker  1431989:20
+No, no, I don't know him personally, no, but I know the brand. They are a phenomenal company, yeah,
+
+Speaker  1434357:20
+I spoke with him in New York at Innovate, very down to earth guy. You would never think that they are doing a billion dollars per year, yeah, very nice guy. But they have a ton of employees. I think they have over 15,000 employees right now.
+
+Speaker  1439562:40
+Yeah, they own a lot of manufacturing as well. So yeah, yeah.
+
+Speaker  1441104:00
+But also, they are looking into acquiring everything they can get their hands on. So maybe there's a discussion there as well. For sure, they will be very interested in your brand.
+
+Speaker  1445680:00
+So your comment is that the main image is too similar to everyone else, right? And it doesn't differentiate us. 15 versus,
+
+Speaker  1447493:20
+yeah, if you look at the front page, all of
+
+Speaker  1448629:20
+Yeah, yeah, all
+
+Speaker  1449077:20
+of them are, couldn't you even argue? Now, again, I'm pushing the expert, but couldn't you even argue? Like, Oh, they are utopia, and you buy them because he they basically cloned what they did, and they're doing all this testing with a billion dollars worth of software. And they're like, if they like their image, then let's just use their image. And, yeah, you know, it's a crazy world we live in. That's That's it. I'm not, I'm not advocating for that, but it's clearly like, you know,
+
+Speaker  1456944:00
+but that's what we've been doing most of the time. You're just copying something that works, so you try to make it a little bit better.
+
+Speaker  1458864:00
+Well, we're not copying. They call it best practice. Yeah, I'm a Wharton graduate. They call it best practice, you know, you sign the back of the blue book that you don't cheat, we don't cheat. We just from everybody else.
+
+Speaker  1463301:20
+Yeah, inspiration, nothing else. Yeah.
+
+Speaker  1464309:20
+Well, granted, price points an issue. You're three times the size, so three times the price. I mean, I didn't, you know, I don't know what quantities, but so providing that value is the challenge too, to show them why it's more.
+
+Speaker  1468474:40
+Also here with soft 400 thread count, I would add ultra soft 400 thread count, just to give it a little bit of a push for those people who are actually looking for something like that, agreed. But I would move here this. I would move it here, yeah,
+
+Speaker  1474944:00
+no. I also natural 100%
+
+Speaker  1475600:00
+I think the correct wording should be 100% natural cotton.
+
+Speaker  1476896:00
+Actually, cotton sheets is such a big keyword for us. So we didn't want Yeah, but
+
+Speaker  1478133:20
+yeah, but 100% natural cotton's in the sheets is not going to influence in any shape or form.
+
+Speaker  1480005:20
+Agreed, agreed,
+
+Speaker  1480661:20
+but that's the natural language that customers expect, yes. So yeah, you have a little bit of work to do, especially on on that the size of a catalog, but it shouldn't take you too long. It really shouldn't. It's not rocket science. It's just the few tweaks that you need to do, and I guarantee you, you're going to see an improvement in it overall.
+
+Speaker  1488624:00
+Yeah, and these old listings that are well established, well index, I shouldn't be worried that much about keyword insertion in title and bullet and all that, right?
+
+Speaker  1491280:00
+No, no, because Amazon relies on the overall data that they have in terms of conversions, relevancy and so on. The moment you change a few words in the title and you just switch them around. It's not going to affect you in any shape or form.
+
+Speaker  1495381:20
+Got it and you're following Yes, you know, SOP like, so you're not you're not trying to hack the system and cheat. You're just trying to
+
+Speaker  1497461:20
+make it just optimize. Want you to
+
+Speaker  1497861:20
+make it better consistent. They want you to consistently convert better and sell more like so that's yes, if you were unethical and trying to screw with the listing, then it'd be a different story.
+
+Speaker  1500874:40
+Yeah, and they have all the data points behind it, so they will see, hey, this guy changed this word to this word. Now it's a little bit more relevant for their customers. Let's push him a little bit more right, because he basically optimized based on what the market was telling him, in the reviews, in the overall sqp reports and everything else. So it's not it's not like you're changing everything completely, yes, but it works, trust me, it works every single time.
+
+Speaker  1511269:19
+Sounds good. Everybody. All
+
+Speaker  1511701:20
+right. Thank
+
+Speaker  1512037:20
+you for your leadership. Thank you anytime.
+
+Speaker  1513141:20
+Thank you. Thanks very much, and I'll see you guys in Vegas for whoever is coming
+
+Speaker  1514805:20
+See you in Vegas. Guys, yep,
+
+Speaker  1515530:40
+anyone Miami? Alex, you're invited to come down from Sarasota and Miami anytime you want dude,
+
+Speaker  1516810:40
+I just came last week.
+
+Speaker  1517450:40
+Yeah, I couldn't make the Eugene was trying to get me to come.
+
+Speaker  1518714:40
+I came two months in a row. That's too much Miami for me. I need to take a break from Miami.
+
+Speaker  1520330:40
+Yeah, I have a place in Miami just for the weekend. So I love it. Good luck. My wife and I are foodies, and so we go down with the dog and we just, we love it down
+
+Speaker  1522816:00
+there. I understand that. I can understand that.
+
+Speaker  1523808:00
+But yeah, enjoy Sarasota. Gets warming up for us Floridians, and we'll see our talk soon. Bye.
+
+Speaker  1525296:00
+Everybody else on the call talk to you soon. Thanks.
+
+Speaker  1526469:20
+David, thanks, everybody. Bye.

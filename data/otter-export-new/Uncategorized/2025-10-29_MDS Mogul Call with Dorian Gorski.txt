@@ -1,0 +1,329 @@
+MDS Mogul Call with Dorian Gorski
+Date: October 29, 2025
+
+Speaker  1368:32
+See Oh, hey guys. How's it going good to see you guys. If you guys got any any thoughts on the video, then let us know. Champion school, last past you.
+
+Speaker  6149:19
+Yeah, Jamie, have you tried doing some videos with AI for Amazon? Or have you played with
+
+Speaker  8181:20
+no, we did, have, we did have a mogul call on this a few, a few weeks ago, but I haven't, yeah, I haven't actually tried it. I was just sort of beginning to get caught up, and then I went on holiday, and now I've come and now I've caught behind again. But I think that gifting is pretty important for us. So I think you could make some pretty good gifting videos, you know, like best gift for Sister type video, or something like that, if you're getting on specific terms, or like a stocking stuffer videos, someone putting something in a stocking, just showing it's a good set. Showing it's a good I think there's quite a lot of potential for that.
+
+Speaker  18144:00
+I'll show you one more case study where I used videos on Amazon, shoppable contents. You know, the new shoppable content, instead of brand story. Now you can have shoppable content and put videos there
+
+Speaker  21504:00
+will that show up on other people's listings? On it?
+
+Speaker  22309:20
+No, not another on just on your listing. I'll show you guys case study how I use, actually, AI to create shoppable content on Amazon.
+
+Speaker  24789:19
+So can you do videos that can you do sponsored display so some sponsored display ads you can do as videos, right? I think Yeah. So that's potentially another place to do
+
+Speaker  27386:40
+it, yeah, and
+
+Speaker  28954:40
+then you can just do funny stuff and send it to your family. So
+
+Speaker  29882:40
+I've still got Claude connected to my slack and to my click up. But I'm finding that with Claude, because I'm on the $20 plan or whatever, it's quite often telling me, like, you know, I run out of memory for the day or whatever, which is pretty anyway,
+
+Speaker  34400:00
+you need the max plan, which is expensive, yeah,
+
+Speaker  35968:00
+I never seem to get those kind of complaints from chat GPT, like, it's out of memory. Do?
+
+Speaker  39653:19
+Yeah, both have pros and cons, right? It's, it's doesn't make sense to to keep two subscriptions. There's so many of those subscriptions. Anyways, every single month I go through my bank statement and, okay, I forgot to unsubscribe from this, this, this, am I using this? And you find out, like, oh, there's $200 here in some trials and subscriptions.
+
+Speaker  46554:40
+Yeah, we, we've been through a couple of rounds of software cuts, and then Katie wanted to do it again. I'm like, Really nothing left the car. And she found like, another like, another $1,000 Yeah, one thing that we don't find is sometimes we end up on the wrong tier. So, like, we still need a data type, we just didn't need to be on that tier. So we're able to get it, like, to get it cut. And then with some tools, they'll let you pause. So you can be like, it's got a lot of it's got a lot of interesting data in it, but like, while I've paused it for six months, six months and see how much I miss it,
+
+Speaker  58149:20
+Helium 10, because helium 10 has got, like, a lot of like, keyword data that goes back a long time, and I'm used to it, but it's like $200 just so much, and I've got other tools to do the same things. All right, let's do the MDS. Let's do the MDS slides. So first slide I know is about the app. I hope you guys are all using the app. Get it up on your home screen. Get your notifications on. Get listening in the car when you're out for a walk. Make sure that you know you watch back all these important replays, most value, most valuable info out there. So make sure you make good use of that. And you also got the chats. There's an AI automation chat, there's mogul chat, so make sure you're on the right chats as well. Next up, okay, MDS summit in Singapore. So our
+
+Speaker  75381:20
+Asian and Aussie members as well. So I'm sure it'll be great fun. Yeah, join the WhatsApp so you get just reminders. It's broadcast only, so I would definitely recommend being on there. Scan that QR code. We'll also put a link to it in the chat as well. Of course, our partner spotlight kept low, so you can get 20% off the AI Club, which gives you access to Kepler scraper, which is some of the best value out there. You'll get to, you'll find plenty of ways to improve your listings, I'm sure, pretty awesome stuff next up. So yeah, this makes it $80 a month instead of 100 alright. So we'll make the official start, the official recording here. Hey guys, welcome to the Mogul call. Been getting Dorian in this year, and this time, I've given him plenty of notice, so he's had plenty of time to work on his presentation. So yeah, looking forward to seeing this. So is it something that you've been experimenting with quite a lot these videos?
+
+Speaker  93914:40
+Well, thanks, Jimmy. Yeah. You know, I tried video for Amazon. AI video for Amazon six months ago. But the models were in like, great in terms of consistency. You could still tell this is AI and but recently, with Sora two and vo 3.1 you start, you slowly start to see that, okay, I can use it for certain things. So I think I just want, like the last especially with Sora too, is just so good. So I'm seeing more and more opportunity. And I will show you guys today the workflow and some of on one case study, how I actually used it on Amazon, which I think is pretty cool. So I will share my screen now. I
+
+Speaker  108420:16
+and just see which one it is. Give me a moment. Okay, great. So best, best practices. So for those that didn't see it, I'll put this little video this morning to show you what's possible and use it as a case study. It's for it's kind of we just had fun. It's one of our clients, and we just had a little bit fun this morning. And just a simple, simple ad for one of the products I
+
+Speaker  123776:00
+so there was, there was sound on the original video,
+
+Speaker  124416:00
+right? Yeah, there was some original and Jamie shared that. So this is just to give you an idea of what's possible. It's not perfect. I think if I spend a little bit more time on it, it will be much better. But also, to use this as a case study to tell you, like, how I came up with this video within two I think took me about two to three hours, maybe. And you know, you can do this stuff yourself the so we'll talk about how to create it, scene by scene, what kind of software I have used and the best practices. And also, I wanted to show you this. So this is an actual case study of how I use AI videos on Amazon. So some of you guys might know, shoppable content has been introduced on Amazon. So instead of brand story, now you scroll and you have these images and actually videos. So you can, instead of images, you can have little videos that autoplay instead of, you know, boring brand story. And I think it's pretty cool, and it's kind of a showstopper scroll stopper at the same time. And you can be very creative with these. And I think it adds a lot of value to your A plus A plus premium. So that's another cool case study of how you can use AI videos
+
+Speaker  144416:00
+if you have to go into Seller Central and switch it out.
+
+Speaker  145088:00
+Do you, yeah, yeah. And, you know, I thought, let's try this. And, you know, actually put it in one, one of our clients listings. And I think it's, you know, it looks pretty cool. And you know, you can, you can then upsell other products from your range, it can be very creative. And the one thing about a plus premium, especially, people ask me, like, is a plus premium important? It doesn't increase conversions, yes and no. If you don't have it, it sucks, because Amazon populates the page with so many competitors and everything so much going on. So the main use I always say, of a plus premium is to anchor the customers attention. So the more, the more time they actually focus on your product and brand, the more opportunity you have to actually convince them to buy your product or other product from your rent. So I think this shoppable content is a pretty cool, gimmicky new feature that you guys should definitely try. And you can do some really cool stuff with AI with, especially videos. It's it's not static anymore. So what we're going to use in terms of creation, we're going to use. I'm not sure if you guys are familiar with this software. Actually, there's so many AI softwares there is
+
+Speaker  167317:20
+in terms of this one came up on a mobile call a few months ago, but it was, I think we were looking at it more for images. Correct me,
+
+Speaker  168933:19
+if I'm wrong, images, yes, this will be talking about images and video at the same time. I tried all the other softwares. There's so many of them. You know, anyone can use anything. For me, just personally, from this one to be the easiest to use
+
+Speaker  172874:40
+images and video, or just for images both, okay, cool,
+
+Speaker  174298:40
+merging them together, especially because it's much like especially working for the video, when you have to start with stills, and then you can start create it from stills. You can start creating the videos. So I use this, and then at the same time, I use Claude. You know, Jamie said, you know, there's, he has some issues with Claude. You also have GPT. Both of them have pros and cons. I'm just on, somehow landed on the Claude team recently, just got really used to it, and so that these are the two softwares, really I used to create those videos. So the first stage, the first stage is really, you have to create the still, right? So photorealistic stills, that's the main thing you need to do in terms of creating video,
+
+Speaker  189226:40
+Sora or VR to create a un video, because it's not going to come out well. And in order to do this, I set up a Claude project. Some of you might be familiar with Claude projects. I think GPT also has projects, so it's basically just a TA and I'll show you like we'll do a quick live demo. It's just, it's just a function of Claude, where you train it to do certain thing, and it just gets better and better and remembers everything. So I set up a Claude project, AI video creator, and you know, one project per production keeps full context. And recently, Claude introduced memory for the higher tier users, so it actually remembers everything that you've done in the project. And you can build a reusable prompt library for your for your brand so you can upload, upload your brand guidelines. You can upload previous work that you've done, and you basically start reference, referencing those back while when you keep working on your on your projects, whether this is images or videos, I have spent the last two weeks researching a lot in terms of videos, and I created my own AI video creator project, but I'm actually giving this away for you guys. I will share this with Jamie after the call, so you will see a link here. It's a AI video creation skill where you can literally upload to cloud. So for everyone that's using GPT, I'm really sorry. And there's upload instructions here. You can literally upload it to your Claude, and you'll have all the knowledge and like everything that and
+
+Speaker  215845:20
+then, and then we could then tweak it for like, our brand colors and our brand guidelines, and what we like exactly.
+
+Speaker  217813:20
+This is like a baseline level, baseline level skill that you know, help you to create videos like and stills just like I showed you, right? Because there's a lot of intricacies in terms of, you know, this, the styling of how things should look like. So it's all in this scale. You can after the call, you can just download it and upload it to your cloth. And instructions are here. It's actually pretty easy. And then you start working on things, and you'll see it just the things will come up much, much better. So start with the brief. You know, you start with the brief in terms of what we want to create. So be as detailed as possible, and explore ideas. The more the better. So give, you know, start with a full on brief, but then use AI to give you ideas. What I always like to say is explore safe ideas, creative ones, and then some crazy ones. You know, push it. So no, that's my always, my always approach in terms of any type of creative work, even if we work on Main images, I like to you know, for my team to Do a very safe
+
+Speaker  240330:40
+elements from one or the other, and you come up with much better ideas, and let AI guide you. AI is going to come up with so many ideas, and let it guide you. And you have to start with stills. So in terms of videos, as I said, Don't go in there to any of those softwares and stop putting prompts and, you know, random images, because you're not going to come up, you know, you're not going to get a good output out of it, so you have to start with stills and ideas. So here's the exploration, and again, I will show you a live demo of how I use this tool. But this is
+
+Speaker  250005:20
+just generation the prompt. It's not actually doing any image or video work, right?
+
+Speaker  251098:40
+Yeah, it's guide. Is guiding you through ideation, and then the prompts for images and then for with so it's a three step process. First, ideation was the concept. Then two, that's one slide I should put here. So three step process, one creative brief and exploration. Okay, so let's just nail down what we're trying to create with some ideas. Number two is stills. So then include guide you and create creating the stills. And number three, from the stills, you create the videos. So three step process. So this is the first first process is here when I'm exploring ideas with Claude. The second process Claude is giving me prompts for those images. Okay? And I put those prompts here in the software, and we'll do a live demo, and I'm just exploring and seeing how things would look. Look like. Do I like these tools? Does it make sense? So you can see in the video that I showed you at the beginning, they were actually having a doing a handshake at the end. But here, you know, I was exploring also, maybe they do a fist bump. I thought handshake will be a little bit more interesting. So you explore. The best approach is to create as many stools as you can, so you so the so you're happy with the outcome, and you have more ideas also, which is going to make the project better. So let's create the stills okay? And this is, oh, here's the example. This is the still for the ending shot that I really like. You know, he had the pool poop, sorry, He cleaned his hands and bomb, and now he's given a handshake. And you know, he's quite confident, but confident about this interview, so I thought that was a nice touch this. And I kind of also asked it to zoom, zoom in on the handshake. So it's all about concepts and ideas, and the only way to come up with those concepts is just by by exploration. So you explore those ideas, and at this stage, you know, I'm using, I'm using Korea to create those things. But I'm also chatting to Claude like, I'm not feeling this, you know, there's too much going on. The fist bump doesn't make any sense. So Claude is also giving me ideas, you know, how about we simplify it, slightly different angle, less going on, and let's go for a handshake, you know? So some of the ideas come from me, and some of ideas that come from Claude. So we are like partners bouncing ideas of each other. And this was the shot I liked, and I used it, and I used it for for to generate the last video. Also, what you can see is, when you look at this image, the one thing that you realize it's not like any other image that you probably used to seeing from Nana banana. And that's also because I trained Claude on creating those specific frames that look like movies. So you can see, like the framing is very specific. There's grain, little bit like a film grain, you know, the lighting is really good. It's it's a bit like you will be watching a madman, right? So that's one thing that you're also going to get by uploading the skill that you created is going to create very cinematic looking stills and videos, which is really good. So it's going to make it slightly different from just your regular AI video. And that's one thing by just doing a lot of research and seeing what people are creating. So that's, that's, that's important in terms of direction, use the right ratio. Okay, so for this specific video I was, I was doing a vertical ratio, so, you know, and if I wanted to do, for example, the shoppable content. If I was to create, you know, the frames, I would do vertical, vertical ratio. So think in terms of, okay, what, how am I using this? Is it going on tick tock, Instagram, or is it going on Amazon? So when you create the stills, you know, make sure that they are in the right ratio. Upload reference images if needed. So for example, if there is a, let's say I'm creating a still of you know, him picking up the product, I would probably upload the reference of this person, how I want, how on them to look like. Plus, I would also upload the reference image of the product. Okay, so when I'm creating those frames, remember to upload references. And one thing that we also need to will show you is character consistency, because you see it changes a little bit, but you can kind of get understand that it's kind of the same guy. He's wearing, the same thing. The light is the same, you know, he has the same haircut. So there's character consistency in the video. So if you're doing a little bit longer video where some something is going doing something, or there is, as Jamie said, this is unboxing, or there's someone talking or showing something, and you have, let's say, three or four frames, if you do not pay attention to character consistency, you know you have one person showing the product, they put it away and show it again, and it could be completely different person, right? And you can tell, okay, that's it. That's AI. So character consistency is quite important, and I'll show you also how to achieve that it, which is pretty, fairly straightforward. So uploading reference images and nano banana or GPT.
+
+Speaker  336730:40
+About banana is little bit better than GPT, but it both. Both of them have pros and cons. I think you know whether you use one or the other at this stage won't make any sense. Do not upscale. Upscaling really ruins the images from GPT and nano banana, because it's using third party tools. So just gonna screw up, like it's not gonna look good. It's just, do not upscale images. Just use them straight away, straight from GPT or or Google. I know sometimes they're quite small, but do not upscale them. I tried it and it just ruined the whole thing. And the more ideas, the better, really. So the goal here is, really, if we, if we go to my assets, you can see a lot of a lot of exploration in terms of how things will look like. Sometimes you just don't get things right at the first time. So create a lot of frames, and once you're happy with the frames, okay, then you really have your storyboard. Okay, you have your storyboard. Okay. He's waiting on, waiting and passionately for interview. He's a little bit stressed, you know. And turns out, he's, you know, so stressed that he needs to go to the toilet. He goes to the toilet, he realizes that there are dude wipes. He has this, you know, he, you know, he's happy now, and he's, you know, the confidence is back in. He, he walks to the to the office of the boss and gets the job, and bam, we have the closing scene. Confidence you can feel so very short. Idea probably came up with this, I think, this morning when I was having a coffee, and then for two couple of hours, I was just playing with the images. So two hours, and you can have something like this. And in terms of these videos, also very easy. And I'll show you how to do those, it's pretty much the same concept. If we go to the older images, you kind of come up with concepts. So here's, for example, the product was magnesium with glycinate, right? So the I'm just thinking in terms of what's the benefit of the product, the product, the benefit of the product is that usually people use magnesium, the glycine, to help with sleep or relaxation in the evening. So I thought, okay, if we want to do a still, nice video, how about we come up with ideas of it being on a pillow. It's an evening or night, you know, and there is some maybe moonlight coming through. So I'm just exploring ideas of how this thing could look like. And I'm also thinking in terms of, I need some movement in there, so the movement will come from the light and the blinds at the back. So same here. I'm exploring ideas. But the only thing I'm doing here is I'm just exploring them in the in the vertical level. So once I have the right idea, then you know, I can start creating the videos. Okay, let's go over where we Okay. Phase two, video creation, generation, that's the software I use. Really. I think there's, there's a lot of them. I just like it because it has everything I need, and it's very easy to use, and has a lot of models. And I don't like going from one software to the other. And this one just, I just been using, I literally have been using the software when it's Kat, when it came out three years ago, and just gets better and better. So same here. Okay, okay, we have our stills. We have our opening scene. Now I'm going back back to Claude, and I'm gonna say, Okay, now let's create a video prompt of this opening scene, and I'm going to also attach the image that I've generated with the help of Claude. I just want Claude to have as much understanding of the of the video as much as possible, even if it already gave me the full storyboard. Maybe I've changed a little thing. Maybe there is, you know, something that you know has been changed a little bit throughout the process. I want to give it as much as much details as possible so you can guide me in the right way. So I'm going to say, Okay, here's the image. Let's create a video prompt for this opening scene. So reference of image and instruction, and when you get your prompt back, just double check it. Usually it will usually give you a few prompts. So the other way I tried it is it will give you three to five prompts with different ideas. Double check it because sometimes I don't know why. I'm not sure if that's they show so GPT, sometimes you put a little one or two words there, and it's just going to throw, throw the entire idea of and it's going to generate something that you didn't want. And the problem with that is video tokens are very expensive, as you know, and it takes five minutes for something to generate, so you don't want to waste a token and five minutes to figure out that, you know, there was something in the prompt that wasn't supposed
+
+Speaker  417823:59
+to train myself to do. Just double check the prompt before you submit it. Don't copy and just and paste and submit, because you're just gonna waste time and it's gonna be frustrated. So that's the just the process. Okay? So in Korea, what I'm doing is I'm pretty much pasting the prompt, checking it, and also adding reference images. So there are two models, and we're going to talk about vo three and Sora and VO. In vo three, you can add opening and closing scene, which is good. So you have a little bit more transitioning going on in Sora. You can only add one, one reference frame, so really depending on the model use. And then parameters, 10 ATP, and then sound on and off if you want sound, or you add in it later, or it is just really up to you. And then I would say eight seconds
+
+Speaker  435151:59
+of second videos. What? One day too, too expensive, and it's better to have more frames, shorter frames. And if you make a mistake, you know you're not going to wait 10 minutes for a 12 second video that turns out to be to be wrong. And for short videos, usually for Amazon, we create what, 15, 20/32, videos. You don't want one scene that's 12 seconds long and not much is going on. So it's better to chop it into smaller pieces. So eight seconds, I would say, even four seconds for some scenes is more than sufficient. And let's talk about Sora two versus vo 3.1 so this is my, just my experience in terms of Sora. What I like? It's it has really good product consistency. So when you upload the product into Sora, it actually gets it quite right. It doesn't mess mess the way times, messes up the sometimes right and on the packaging, if it's not clear enough. But other than that, it's a little bit better than VO three one in terms of product consistency, not perfect. I'm not gonna lie, sharper details. I feel like Sora two videos look more realistic and less glitches in the output. So sometimes, with VO three, even if you look at the video I've created, sometimes like, there's a glitch in the eye or something, and then you can tell, oh, that's AI video. So Sora has a little bit less of those glitches. And you've probably seen some videos of Queen Elizabeth for doing roller skating or Stephen Hawking. You see, like you look at those videos, like look they look real. So Sora, too has that. The cons of Sora, you can actually generate real humans anymore, so they recently put the from references, so they actually stopped it. So when it comes to creating
+
+Speaker  469120:00
+based on someone's look that's done. I couldn't even
+
+Speaker  470117:20
+do it. If I wanted to make videos based on me, I wouldn't be able to
+
+Speaker  471061:20
+do that. Okay, not anymore. They stopped it. I think it's because of tick tock. And Instagram is just full of funny, quick videos, and Martin Luther King rapping, and, you know, it got a little bit of hand they so they stopped it, which, which makes it a little bit hard, because when I was trying to do this video, okay, I'm gonna go back again to my where is it, and to this slide. So when I was trying to do this video with Sora, I wasn't able to complete it with sorati. Unfortunately. Why? Because there was no character consistency. I wasn't able to tell the model open eye to keep the character consistent, because I had to upload, I had to upload the image of the guy, okay? And Sarah, too would just say, no, sorry, you can't create realistic human videos. So they stopped it. Would they with VO three. That's not a problem. So that's one one issue with that. With Sora too, you can create, you can try. Sometimes you get a prompt through, but 99% of time would just say it's impossible. Cons and it's also expensive, right? So VO, three, one pros, is much faster, much cheaper, a less generation error. So you can actually give it references, and there's less block key in terms of, you know, with Sora too, you can't do this, you can't do that. You can't put it in the problem. You can't use this type of image as a reference. So it gives you a little bit more room to create more more interesting videos, the cons glitches sometimes. So as I said, like the eye could be funny or, like some weird stuff, so it glitches more than Sora two, product is little bit less inconsistent, and sound is actually worse. So when, when sorry to you have an option with sound, I think Sora has a little bit better sound generation than we are. So pros and cons of both. Okay, live demo. I'm just thinking any specific questions before we jump into a live demo, because I can answer and show some stuff actually live.
+
+Speaker  506437:19
+Yeah, guys, put any questions in the chat, or you can raise your hands. Someone was asking if you can copy and paste, copy and paste the link for the Claude program. Yeah, easy to do or not.
+
+Speaker  511274:40
+Yeah, one second. Let me just find it. Can someone just put in a product into the chat that we can try to create something very quickly? Maybe we have a interesting product that we can just quickly create a video for?
+
+Speaker  515904:00
+Great. Yeah,
+
+Speaker  517967:59
+I'm gonna put the Okay, I'm gonna put in the link of the skill they can upload.
+
+Speaker  519909:20
+So June, do you mean how the images get used in Korea? Or do you mean, how does stuff get used once you upload it into
+
+Speaker  522565:19
+Korea, will only allow you to upload one or two images so you can do the start of the video and the end of the video, but you said you have to generate multiple images. Are you using that specifically, just for your storyboarding process, and then using that in cloud to help cloud understand and specify prompt ideas? Or why do you need multiple images? That's what I was confused about.
+
+Speaker  529056:00
+Oh, it's just for exploration to look at like. Am I happy with this, with the way it looks? Just just exploration. So it's not, it's not for Korea, it's just for my my exploration. The more images I have, I hopefully that answered. We have peptide growth serum. Okay, let's do that. I'm gonna share the whole desktop now. Okay, let's do this. So I'm just going to quickly use my AI video creator. Let me just make it a little bit bigger. Let me see if I can. Let's come up with a funny let's say eight seconds, 16 seconds, 16 second video for Peptide Serum, okay, I'm just going to keep it quite vague and simple right now, just for the sake of this presentation.
+
+Speaker  547775:59
+Okay, so while that loads Sora and VO are both separate subscriptions. Is that right?
+
+Speaker  549647:59
+Yeah, in Korea,
+
+Speaker  552137:35
+go here, and I want to create a video. Look at this model. It has, it has all these models here to choose from. So it's not just those three. Oh, that's cool. Okay, so we have funny peptides on video. Ai production guy concept reverse aging gone too far. So we have one thing that also you can use for. So it's now telling us to use mid journey. You can also use mid journey for creation of the images, which is quite good model, modern bathroom vanity, natural like frosted window. So this is actual prompt for mod bore, still frame. So if I take this prompt, and let's say I'm gonna, where's that image that someone sent? I'm gonna, it's quite low quality, but let's try to use it. So I'm gonna do, let's do a I'm gonna use Nana banana here. Okay, I'm going to put the fray at the prompt, and I'm going to choose a ratio, let's say 16 by nine, because I want this to be a horizontal video. And I'm going to upload an image as a reference. So I'm going to upload that image that you just shared, and simply, it's changed the ratio to 354, but I want it to be 16 by nine, okay? And let's just generate some concepts for our 16 by nine, okay, just for our way, for the first, for the first frame, and then we have frame two. Let's do frame two. I'm going to do this. Let's see that. So, bathroom running natural, like frosting, though. So woman bad hair, so we have, that's the first starting frame. Let's the concept is, where is it? Reverse aging going to too far, a humorous take on anti aging products, where the serum works too well. So obviously she wakes up, okay, and she has the serum in hand. And that's I can keep generating as many as I want. Let's say, if I'm happy with any of these, okay, then I'll go to the second stage. So let's say I'm happy with this image. Okay, so what I'm going to do now is go to second frame, which is this, and this is now important, because I was talking about character consistency. So what I'm going to actually do is I'm going to put my second prompt, okay? And together with the image of the product, I'm going to leave it, but I'm actually up choose another image from the assets. Okay, so I'm good. I'm going to use this asset with that. And what's going to happen now, the model knows exactly how the product looks like and the character. So I'm going to generate the second frame so we have a character consistency. And that's how you really build a character consistency, because now the model knows exactly how the person looks like. And that's how we're going to build you always add this the previous frame into the next one, and this way you just have this, this consistency, okay, so see, we have the second shot. It's the same person, slightly different frame. Great. We build in. I'm just going to do it very quickly, guys, so you understand the principle. So now I'm going to put another prompt, and I can put another asset from one of the I just created, okay, maybe this one. And I'm going to keep generating Okay, and then punch line,
+
+Speaker  618453:19
+generate that. And she turns into a baby, right? And that's the punch line. So that's a very simple storyboard that we just created. And what we have here is we just need a better picture of the product. That's the only issue you guys can see that sometimes the model can get the product. It's just because that was low resolution. So you want the high resolution image of your of your product. But let's do this. All right, let's try. So now I have all these all these frames. I'm quite happy with them, and my computer is freezing. And let's say we have it. Okay, we have our ideas here. So what I'm going to do now is, and also we have the sequence breakdown, I'm going to quickly download this images that I like. So I like this. She okay, like this. She's putting the cream on here, and then she turns into a baby. So I'm gonna actually use this, this and this. Okay, so now I'm going to upload these the first frame. Where is it? Okay? And I'm gonna say just simply, I need a video prompt for the opening scene. Okay, so what I'm just doing now is just going to a video tab. I'm going to create a new project, new session. I'm going to select it from the assets. That's the first shot I want. I'm going to choose my model. So I'm going to do three, one I want, 10 ATP, eight seconds. And we can also select from asset the second frame. So we can do a second frame, maybe something like this. And I'm gonna go here and just look at my prompts. Okay, and that's the prompt here. Could be a little bit too long a prompt using Sara two, okay, so I need to say vo three, prompt shorter. So sometimes it can give you the prompts just two details, just ask you to give you a shorter prompt, too long. Prompts actually don't work. That's one thing that I need to change. Actually in this your
+
+Speaker  664967:27
+Claudia gets pretty clarity. He gets pretty carried away. Yeah, got carried away. So how much is the subscription for career
+
+Speaker  669498:40
+from 30 bucks, and then you just use and then you can also just use it on demand,
+
+Speaker  671626:40
+okay, so credits, yeah,
+
+Speaker  672138:40
+yeah. So I'm just gonna put this I have everything. So via three one start and frame, I'm actually going to swap the frame. So I'm actually going to do the white shot here as a starting frame, and then I'm going to add the close up as the ending frame. And I would normally go for the frame now through the prompt and check it, but you know, I'm just going to put generate, and it's generating, right? And I want to show you now what would happen if I put this into three Sora. So I've put this through Sora, it's going to throw an error, probably. And now I go for the second, simply, through the second,
+
+Speaker  686906:39
+okay, I'm going to put these and the shot where she turns into a baby. So I'm gonna keep it quite simple, just so we don't spend too much time on this. See Sarah has through an error, and that's because I said recently and they stopped. They just do not allow people to create realistic videos of anyone else, whereas VOA still allows you. So unfortunately, with Sora, and that's a shame, because it was such it's such a good model, and it's just recent with Sora, too, you can't just, you can no longer create realistic videos. So that's that's an issue. Okay, let's work on the next prompt so we have this, okay, baby face twist. So I'm going to put this here, and I'm going to eight second start frame. I'm gonna put this as starting frame, and then end frame when she's a baby. Let's say this one. I'll check this but for well, let's just say generate, and it's generating. So let's just do those two frames.
+
+Speaker  712933:20
+Just, let's wait for those and see what comes up comes out. And this will give you a good idea from Korea. Yes, I think so yes, you can. So you have a lot of models here, and you know, you can try. So via three, Sora two are probably the best seeds. Is another good one. You have Sora to Pro also. So there's a lot of good models out there. I'll just say stick, yeah, probably see those two, but if you stick to VR three, you'll probably be it's probably the best model right now out there. But you can experiment with anything else. Some of these old models not good. But if there's a new model out there, you can it's usually in Korea the next day. Okay, so we have this video here.
+
+Speaker  730821:20
+Okay, and seems we might have issue with the baby video. This could be due to the fact that we show in a baby probably. So that's another thing, right? I would have to rewrite it, because it we can try actually
+
+Speaker  736912:00
+see dance. Wouldn't care.
+
+Speaker  737344:00
+Let's try actually see dance. Pro, okay, let's try it. Okay, that's another good thing. If one of the models is throwing you an error, try the other one.
+
+Speaker  741408:00
+Okay. Will it, will, will you? Will it cost you tokens for the ones that don't work, or tokens because it gets blocked.
+
+Speaker  743349:20
+No, when this happens, you don't get charged. Do?
+
+Speaker  747546:40
+To generate like one video.
+
+Speaker  749498:40
+Good question you have. It's somewhere here you have compute. So this is my subscription. It's maxed out. And so I maxed out my subscription package, and I got some extra credits. So now it tells shows me where I am with my credits in percentages. What are
+
+Speaker  755072:00
+we talking like? A couple of dollars to make a video or something, or cents
+
+Speaker  756336:00
+and a full video? Yeah, no, definitely more. I think the video, like I created, I showed you, probably, with all the mistakes that you're going to make and things not going to come out, I would say 60 bucks.
+
+Speaker  760853:19
+Oh, okay, so if you've got a perfect first time, it wouldn't be that bad, but it's
+
+Speaker  761717:20
+gonna okay if you get it perfect the first time, you can probably close in 30 to $40 if you make mistakes, then you'll probably be around 60 to 100 even. Yeah, talking video tokens are expensive. So there it is. She's, uh, she's turning into your baby. So you can see quite consistent character here, and here she's turning into your baby. So that's pretty much how you work, just with AI. And in terms of same here, when I was working on I can show you for the shop Ibo content. Where is it? For example, this one will be this one. That's not the one. Let's go back here. So when I was working on the shoppable content videos, same here, it's the same, the same principle. You just, you know, you do the same thing prompts, and you just keep generating until you're happy. And with this, what I did with this video that I showed you early on, the dude wipes, then you just put it into Canva somewhere, and just put stitch the pieces together you can do in Canva, if you know Adobe Premiere, then you can just stitch them together very easily. And that's your video, done. Cool. Any questions?
+
+Speaker  789120:00
+June said that you could, you could train your Claude prompt using a verb verbosity scale from one to 10. So maybe you could say, bring your verbosity down 20% or make the verbosity of five out of 10. Good idea. June had another question, how?
+
+Speaker  797562:40
+Can you build this into the prompt?
+
+Speaker  798218:40
+Yes, you can. That's a good question. You can build into a prompt. I actually have a good prompt for that that we use for Kepler. I can share that with you later. You Jamie, and maybe I'll throw it into the presentation, and then Jamie can share the presentation with you. But there is a good prompt, usually just in a nutshell, where it starts with, remove the product from the background and replace the background with something else. So you don't actually tell it to keep the you actually tell it to remove the background and keep the product consistent. And it usually works.
+
+Speaker  810165:20
+So if you're only allowed one image, you are removing the background and just doing the image and then relying on the prompt to generate The scene.
+
+Speaker  816122:40
+The problem starts with remove the product from the background and replace it. No, sorry, remove the something like this. Remove the product or replace the background. I can't remember, but it's something, it's something in that direction,
+
+Speaker  822048:00
+okay? See Pete, if we're starting to see humans not easily be able to be used, is this concerning? I think what Jamie pointed out seed dance is one of those models that you see just generated the video. I think it's issue with the bigger companies, like open AI, with those models, you know, they have more legal issues, but there's always probably a model which is going to be able to do the same. So I think it's
+
+Speaker  832554:40
+for those companies, not us, because there's always, probably will be a replacement.
+
+Speaker  834048:00
+I'm just thinking that maybe the marketplaces, though, start to detect and close it down, regardless of of the sea dances of the world that say, Oh yeah, we will do it, but the marketplace is gonna stop, stop letting, I mean, it's too big to probably stop at this point. I'm, I mean, the genie is out of the bottle, but I'm, who knows,
+
+Speaker  839925:19
+oh, so you're thinking of, let's say yeah, she's having an algorithm that has, that's basically identifying AI videos and saying, No, that's,
+
+Speaker  843066:40
+yeah, they're gonna, I mean, I gotta believe, at some point we probably have a year of, like, kind of the wild, wild west. But I'm just, I'm thinking, at some point, don't you think they're gonna have to come back and say, you have to do something to notify somebody that this is AI definitely,
+
+Speaker  848704:00
+what's going to happen.
+
+Speaker  849648:00
+But two things here. One is, I don't think Amazon is going to do this, and I'll definitely not stop, because they are themselves developing, developing those technologies, and also they are available slowly, they will be available in your Seller Central. So that's one and two. I think if that happens, it will probably be a LinkedIn model. So on LinkedIn, if you upload the AI video or AI image, it creates a little information icon in the corner which says, This was AI. Okay, thank you.
+
+Speaker  861450:40
+Cool. Any other questions,
+
+Speaker  862522:40
+if there's no more questions on this, specifically, if you want to ask Dorian any other questions about listings or
+
+Speaker  869408:00
+more feedback. Dorian for you, because it might help you with your cloud prompt. Just ask it at the end to ask you any clarifying questions so you save can be time when you're quite before, just ask it so we will identify
+
+Speaker  875034:40
+it. Ah, perfect. Thank you. Let me take a screenshot of that
+
+Speaker  876618:40
+that could be like a part, like a part of the process that's built in so that it will always ask you follow up questions about anything that's unclear.
+
+Speaker  878634:40
+Yes, yeah. I think my problem is it keeps hallucinating. So that's why I asked that question. But this will help you identify if there's something that you missed. So before you even input it, you've already asked So you can specify it.
+
+Speaker  884368:00
+I think All i
+
+Speaker  901376:00
+Wow, you can also say be brutally honest, or challenge my assumptions, or tell me where one element is not consistent with the other.
+
+Speaker  907994:40
+Yeah, yeah. Franco, do I have any other finished examples? No, only, well, some I've been playing with, but nothing good. Only just started playing with AI videos, literally, the past, I would say, three weeks. Jamie, literally, Jamie emailed me, Dorian with doing mogul call. Do you have anything thinking the one thing I haven't done AI videos, so only been playing with this for the past 2323, weeks. So, you know, I'll definitely, the one thing that I have, actually, is I was playing with an eight and workflows where we all were kind of make this whole process most more streamed, but nothing really good came OUT out of it. I'm thinking a good, good process will be where the you have an LLM, or some sort of a software where it generates the mood board for you, and you pick the frames yourself, or you give input on the frames, and then when you happy with the mood board, then you just kind of press generate, and it generates the video from the mood board, from the storyboard. I think something like this would be amazing, because it's still such a process. We have to jump from one thing to another prompt, generation, right? Refinement, and if it was a little bit more visual, and the ideas, and then once you're happy with that, you can just generate the video. I think that'll be an amazing process. So I'm playing with this.
+
+Speaker  936213:20
+So the Creator subscription, give you, like, one minute of Sora, two minutes of sort of two, five minutes of video. It's like that.
+
+Speaker  939141:20
+Yeah, yeah, I think. So that's probably the cheapest on you. It can go straight to the source also. So if you have your own API, then it's going to be a little bit
+
+Speaker  942154:40
+you can connect your
+
+Speaker  942858:39
+your subscription, not, not, not through Korea, but if you have, for example, open AI API, you can go to playground. I don't think it's in playground, but you can, you can use it, for example, to create, like an N 8n workflow, plug it in and do it yourself. Or an app. You can actually do a vibe coding app with your API.
+
+Speaker  952645:20
+Did you have any other finished videos that you can share?
+
+Speaker  953909:20
+No nothing good, just a lot of a lot of awesome.
+
+Speaker  955253:19
+Um, do you know, is there an easy way to redo the video in a different aspect ratio? Sorry, is there an easy way to redo the video in a different aspect ratio? So, yeah,
+
+Speaker  960122:40
+yeah, if you want to, you can just do, I think you know you need to start with images. So you have to generate the images in another aspect ratio. So you just need to do that again. Just generate the same images, the same, sorry, on different aspect ratio. I want to show you also one thing. There's one guy,
+
+Speaker  969317:20
+and you are interested in video, AI, video, I've been following this guy for a long time. His name is Dave Clark, and he's probably the most interested. I've learned a lot in the past two weeks from him, and he's really good in terms of generating videos using AI, some of the stuff that he makes is absolutely insane. He he does like full, full feature videos. This is probably old one. Let's see. I saw one recently with Sora, but yeah, go and follow him on on LinkedIn,
+
+Speaker  981584:00
+really trying to put his link in the chat. Oh, yeah. Etienne kind of put in
+
+Speaker  982741:20
+already. Yeah. Dave Clark, he's probably, like, the most interesting person
+
+Speaker  984517:20
+in terms of video, cool. We've
+
+Speaker  985701:20
+got time for a couple more questions. But in the meantime, you guys want to fill out the feedback link. I would appreciate it. Just give us a give us a rating, and if you like, you can add some comments about what what you like and what you think we could do better. In other calls, Dorian, what have you been working on? Anything different with listings and listing optimization since we last spoke?
+
+Speaker  990794:40
+Good question. I think the principle, the only thing recently, I've been playing with the shoppable content. I think it's much better than brand story. So you have brand story and you have shoppable content, right? The brands are always hated brand story always because I thought that's probably the ugliest template and didn't make any sense, and people didn't know what to do with brand story. And I'll be honest with you, 90% of shoppers on Amazon don't care about your brand story, and it's as painful as this, but just it was just useless. It was a useless piece of estate on Amazon. Amazon by introducing the shoppable content allow allowed us to do something more interesting is one you have more inter it's more interactive, it's more immersive. And what it does, it provides them with upsells or from your from your brand. So if you have multiple products, if you have multiple variations, or you wanted to send them directly to to your store, which was also really hard previously, like that little link to get to the store. It just doesn't make any sense. Now you can actually have a video and say, go to our store. Check out these products. So shoppable content is a much better a much high converting piece of estate, I think, rather than brand story. So if you still have brand story, I would say, jump straight into shoppable collection, because I think it's going to give you, get you more bugs and it also, as I said, you
+
+Speaker  1018682:40
+uh, because it's something new, something different, and, you know, it tells them a little bit more, it keeps them engaged in shoppable content. Is probably, yeah, so I would say
+
+Speaker  1023210:40
+that, yeah. So June asked, How do you address sound and text in a video? Do you do text and video editing? How do you add the sound and music?
+
+Speaker  1026000:00
+Oh, that's a good question. So for the one is, some of those models generate music and sound. The one thing that I used today to generate music video for this was a software called, I can't remember. I've completely forgot there are softwares that were actually you can put the video and it generates, it generates the sound view out. Clink, clink, AI, I'm gonna put it in the chat. Clink.ai, so if you have some videos with and it also generates videos as well. It's like Korea, but has more features. Clink, AI, I used it to generate the sound for the video. So actually generated the whole video without sound, and then just put the whole video into cling AI, and just a generate sound for
+
+Speaker  1042800:00
+that is cling within Korea or separately.
+
+Speaker  1043856:00
+And again, it's a separate, okay, all right, it's a separate subscription, but that was actually for I was able to do it for free.
+
+Speaker  1045573:20
+Okay, awesome. Well, thanks guys. So please do fill out that. Please fill out that air table. So we've got a few more, a few more mobile pools left post details about them soon. Really appreciate that. Dorian, we obviously, right in December in London, right?
+
+Speaker  1052042:40
+Oh yeah, we do an event with Danny and sim, and I'll be talking about building apps and using Amazon data and how you can do it. So, yeah, just a good workshop if you have, if you have, if you're interested in app building, and you need, for example, you have certain things that you can do with GPT, or need access to Amazon data and somehow transform it and build something. And then we'll be doing a workshop around that.
+
+Speaker  1061152:00
+Cool. All right, thanks, everyone. Great Call Well, thanks for all the all the questions and interactions. Really appreciate it, and the recording should be up tomorrow. Okay, see you guys later. Thanks everyone. Thank you. Jamie.

@@ -1,0 +1,260 @@
+19. FC Chats_ Lets Talk Logistics
+Date: October 21, 2025
+
+Speaker  32:00
+Go and bunch of just random ass people on this panel, but Ben said some stuff that just kind of like made my eyes open, and I was like, Oh, fuck. We're totally getting screwed on our logistics right now and paying way too much. And for an hour I was just like, blessed with gems, and it was like a bunch of other software and logistic people trying to sell you bullshit at these conferences. These conferences, as they do, but Ben was the one dude who was like, actually spitting knowledge. And I was like, alright, that's actually smart. Let me go talk to him. And since then, Ben's been working with our three PL to save us a lot of money. We all kind of have different price items here in this call and through the chat, and this will be circulated to like 60 other people then, but freight has been the hardest thing for crossnet. There's actually a culture just joined this. They ship 200 pound cold tubs across the country, so I'm sure they have some nightmares to it shipping. But our game historically cost anywhere from 20 to $30 to ship, and customers just expect it for $0 so like trying to fix that into our margins is a nightmare. You get hit with holiday delivery or anything like that, just adds another 510, bucks into the things, and he's constantly get fucked. So Ben was kind of nice enough to join us for the next let's call it 3045, however long the stakes, but the dude is super smart, better trying to introduce yourself and go from there.
+
+Speaker  23493:19
+Yeah, thanks so much, Chris, everybody, it's good to meet you above all else. Like, I want this time to be super tactical and super useful. So I would please invite you to, like, interrupt me with questions just a little bit about me. So I'm Ben. I'm the co founder, CEO of Tusk logistics. I've been working at the overlap of E commerce and shipping and logistics for the better part of the last 15 years. So I worked at Google on the Google Shopping team. I worked at Shippo, leading a business development team. So I've seen small parcel e commerce logistics from the shipper side, from the software side, and now seen it from the carrier side. So I'm a I have a unique background, also a unique approach, in the sense that I work for shippers. So you know, there's a lot of people out there that are trying to, like, make margin off of the shippers. Our model at tusk is different. The reason for that is we charge the shippers a monthly facility fee. So we make our money from the shippers, but that allows us to work for the shipper. It's a much more clean, forthright way of doing business, and as a result, like, I can tell you where all the skeletons are, I can share with you where the margin is, what you should be looking out for. So I'm looking forward to diving in and continuing what Chris and I started at the conference and just kind of sharing more insights. Chris, I defer to you on if you want to start with questions or some of the data, like what would be most
+
+Speaker  47754:40
+what was really helpful was when you started getting our packaging rate, like, our rates, and like, Where was the biggest area for savings that you think a lot of people on this call probably are missing out on, and also kind of walk everybody through how you're kind of, like, cutting the UPS and FedEx of the world out and like, where that money could be saved.
+
+Speaker  52911:59
+Yeah, I, I guess I want to, I want to kind of bifurcate two things. So I run Tusk logistics. What Tusk Logistics is, is a national network of regional, small parcel carriers. So I want to kind of put Tusk logistics on one side. We can talk more about tusk. But I also want to just give you guys advice on shipping in general. And so I want to, like, draw a line between the two. I'm happy to go into like, the benefits of regional carriers, how we save money for folks like Chris and his three PL using Tusk only. But I also want to talk about like, things you should be doing, especially right now, before we go into peak, even if you use only UPS, FedEx, the Postal Service. I appreciate
+
+Speaker  64266:40
+that. And then that's, that's kind of like the big thing here, like these weekly sessions, a lot of the people are going to be spending their hour to talk to you. They ultimately have something that could sell you, and you can make money, like they make money from you, you save money. But yeah, and what's like, straight up, just literally, see it just like, 2000 bucks a month. And I was like, shit. I wish I would have known that sooner.
+
+Speaker  69008:00
+So Well, yeah, Chris, let's just talk about like how that happened. So the way that we save cross net two grand a month is because they fulfill out of Southern California, out of a three PL called racked that three PL is based in our service area, on our West Coast service area. So Chris's volume, oftentimes is originating within a service area that we cover, and bound for that same service area the west coast. So because his volume fell in our regional carrier footprint, and it was a significant amount of volume, call it like 20 ish parcels a day on the West Coast alone. Own, my network was able to win that volume and serve it at a far lower cost. So on average, we save between 30 and 40% per parcel, and that's because the regional carriers can do work for less, because they do not need to cover rural areas like FedEx and UPS do so FedEx and UPS are constantly having to serve very expensive deliveries that are rural and they need to balance their margin profile with their urban deliveries. So they have to charge more in the urban areas in order to balance out the expensive rural ones, whereas the regional carriers just cover the areas of population density, so they can do it at a much more efficient rate and a lower cost.
+
+Speaker  92298:40
+Garrett, so Ben, how does that work like, did you just partner with Chris's three? PL, to like, get that done. Is that what that actually looked like?
+
+Speaker  94906:40
+Okay, yeah. So tactically, the way it works is, you know, we're a native carrier on ship station. Chris's three PL uses ship station to manage their shipping. So what we did is, I mean, it's as easy as them going into their carrier settings within ship station and enabling Tusk, and then our team on the on the on the Tusk side, we leaned in really heavily with his three PL to help them basically redo all of their filtering and their automation so that they could basically have a much more efficient kind of pick and pack operation. They didn't have much automation in place. So we help them to set up the tagging, set up the automation so that it's automatically tagged when it's a tusk order versus a UPS order. Garrett, we don't yet work with ship hero. We are talking with them. Ship hero is ship hero is interesting, like they have their own buildings that they operate fulfillment, and then they have their ship hero network of three, pls. But they do great work. We would love to partner.
+
+Speaker  111642:40
+That's who our three PL uses as well as asking, yeah.
+
+Speaker  112896:00
+I mean, the best way for Tusk, selfishly to be activated on these systems is by a brand bringing us in. Like, that's how to be blunt, like Chris introduced us to his three PL. The three PL said yes, because Chris introduced us. So if that's a pathway we're happy to take it sweet.
+
+Speaker  117488:00
+You feel like, if you're running your own three PL, is it too cumbersome to like, work with local pack, like carriers and just easier to do the UPS and FedEx, right? Or what's actually like going on behind the scenes? Yeah.
+
+Speaker  120757:19
+So all right, this is a really good segue, Colin, thank you for sending a bit of data. So everybody Colin was kind enough to share some of his parcel data with me. So Chris, to your question, the answer is often Yes. So for someone like Colin, Colin, you have a great business, by the way. I love your story. Love your site. You are doing a great job on shipping. You're doing exactly what you should be doing. My My advice to you is actually kind of more on the margins and more like pre planning as you grow.
+
+Speaker  129807:59
+Okay, what are we doing? Well, because I feel like we're not doing anything well. Well, when it comes to shipping,
+
+Speaker  131456:00
+well, we can go into detail, like, if there's things I didn't see in the data that you should tell me please do. But the biggest thing that you're doing well is like you're using, you're using a portal like Shippo, yep, where you get really good off the shelf discounts. So, like any brand out there that that has, like, decent volume, call it, you know, couple 100 orders a month, if they're just going into, like a FedEx store or UPS store buying labels directly from a carrier. That's a huge, huge No No. The fact that you're going through Shippo, or you could have gone through ship station or pirate ship, like any of these platforms, what you've done is you've basically enabled a first layer of commercial discounts. So really easy to get, but the discounts are pretty good. So like, you've kind of gotten the best rates you could command out of the gate by using Shippo directly. So that's what I mean when I say you're doing a good job. You're also because you're using a platform. The good question, Chris, I'll come back to that. Because you're using a platform, the data is all in one place, so it's relatively centralized, so you're able to kind of like view your data relatively easy, because it's all on one platform. So Chris, you asked the ship are the best the dirty the dirty secret is, they all have the same discounts. So it's more of like, which UI you like better, I would say. And I worked for Shippo for four years. I did all of the deals with the carriers. I can assure you, all of the customer facing pricing is the same. There's some there's some nuance. Sometimes they run like marketing campaigns where they'll like comp you back, like ship station, you have to pay a month. Fee, they might comp you three months free, right? So that you get some extra savings from that. But like, the per parcel rates are the same for all the carriers, what it comes down to is what system, what platform, what shipping software fits the best for your store and your specific needs, like I would recommend for anybody who's running their own fulfillment operation, I would highly recommend you use ship station, not shipbo or otherwise, because ship station has a ton of features that are fulfillment specific, like building pick lists for your pickers, more inventory controls, more automation, more business rules. It's like a more robust tool, Shippo is very simple and easy for, like, the scale Kat line that you guys are at right now. It's like, you can do bulk uploads. You know, you can do bulk printing. You have strong store connections, but you don't need all the bells and whistles of a ship station.
+
+Speaker  175370:40
+Yeah, we use a three PL anyways. And they, I think they use ship edge as their I don't know if you guys integrate with them. That's there.
+
+Speaker  177504:00
+We don't management. We don't directly integrate with with ship edge. But like, even just using ship Oh, as your your main kind of centralized point is a is a good is a good first step.
+
+Speaker  181584:00
+So I was just curious, like, walk us through the the local delivery versus, like, the National delivery, yeah, the local delivery, like, we have a three PL in Florida, for example, yep. So that local delivery, does that need to be within, like, the Southeast, and is there like, an automation in place where, whether we're shipping from, you know, Florida to California, versus Florida to or Miami to Jacksonville.
+
+Speaker  188282:39
+So, and this goes to Chris's question. It's kind of like, you know, if you're, if you're running an operation, at what point do you consider regional carriers? And Colin, you just said local delivery, like they're kind of the same, right? So, regional carriers, I would say the rule of thumb for us is 25 parcels per regional so like 25 parcels per day is about the point at which it like starts to make financial sense, to do the work to like integrate a new carrier, and now that's built off of the assumption that you're going to save roughly 30% per piece. So like Colin for you, for your 20 pound pieces, you know you're paying 40 bucks plus per Yep, that that $12 of savings on that $40 times 25 you know that that adds up, right? So 25 parcels per region is a great backup envelope now Colin on your volume that we looked at, to be blunt like it's too low, I would not recommend you use someone like me. Yeah, I ran your numbers through our impact analysis tool at your current volumes, you would save $120 with Tusk per month. Yeah, it's just two. It's just two. Oh, you know, like it's not worth it. Now when you when you 10x your volume, well, then 1200 bucks per month when you're more like what crossnet was like. Then, of course, it makes sense, right? Sure, Hey, Ben,
+
+Speaker  213376:00
+what is considered regional?
+
+Speaker  214421:20
+Yeah, good question. So in the US, there are roughly 1000 companies out there that could deliver a parcel. So this is anything from like bike messengers all the way up to the regional carriers that are in the Tusk network of the regionals. That matter, there's roughly 100 in the US. So these are folks that cover a metro area, a state or a group of states. So we have, we have seven of the biggest in the tus network. With those seven, we cover 62% of the US population. We'll be at like 70% by the end of the year, when we integrate one or two more. So like on the West Coast, which is our biggest region, we use a carrier called GLS us. They compete with on track. I don't know if you guys have ever seen on track trucks on the West Coast. That's who we we serve Chris's volume with out of out of his three. Pl is with GLS us now the reason that we Tusk have gone with these bigger regionals is because of a couple things. Number one, they just they have better operations, right? More robust, more drivers. They cover more zip codes. They are also fully tracked, so that same experience that your customers are used to with tracking, visual proof of delivery. It's all standard on these good these big regionals, they look very much like a FedEx or a UPS.
+
+Speaker  236730:39
+Is there any difference in transit time?
+
+Speaker  237978:40
+No, well yes, but in a good way. So often the regionals are faster. So like. For Chris out of SoCal, we cover, we cover 80% of his parcels next day, and like our network, a good example is from Chicago to Columbus, Ohio, with FedEx and UPS. That's a two day delivery, because they have a mid sort in that journey with our network, it's one day because our our regional runs it direct from Chicago to that to those Ohio metros.
+
+Speaker  247125:19
+You just have carriers coming to your three PL then Chris, like this, or does this carrier just pick up? Like, UPS or USPS does
+
+Speaker  249477:20
+exactly, yeah, we just have a daily pickup. Okay, that's
+
+Speaker  250517:20
+why you're saying that kind of per day back of the envelope. Math is needed in order of 25 to kind of get that worthwhile.
+
+Speaker  252250:40
+Yeah, and on the Nikki, It's good you're getting into it, which is really smart. So on the West Coast, our carrier there offers free pickups. So, like, the volume threshold on the West Coast is really closer to, like, 10, because the pickups are free. Okay, now, for Colin in southern Florida, the pickups are, they charge for pickups there. So the pickups are like 60 bucks, 70 bucks. So, you know, Colin would need to have, call it 25 parcels, where he's saving $12 per parcel, because he's, you know of that. Call it $300 in savings. 60 of it is going to get eaten right away by the pickup fee. So that's why you have to, like, push for a bit of a volume threshold. Now, Colin, here, here's a here's something like, I didn't think to ask you over email, which is, I didn't know you use the three PL. So maybe, maybe your three PL has more volume.
+
+Speaker  267258:40
+Yeah, we still haven't got to a point where they can, they can match those rates. They're smaller three PL. They got one location in Miami, one location in LA, and we went to them because they kind of specialize in larger stuff. But yeah, they haven't been able to get to a point where, yeah, they can be Chipo, which I thought was kind of crazy, but for whatever reason, they're not getting the rates that they should be.
+
+Speaker  274624:00
+I should talk to them and see, like, what we can we can work out. Yeah, happy to connect. Now, the reason I bring this up is so with cross net, Chris introduced me to his three PL. So we're now, we're not doing work for his three PL. Technically, Chris's three PL is my customer, but I serve a lot of volume that is not cross that volume out of his three PL, right? So like, because I want to get as much volume as I can, to make sure that our pickups are utilized, make sure that the carrier gets as much volume as they can. So his three PL pays me, but I serve volume for more than cross that out of that building. So like Colin, that would be like the vision, right? Is that we're doing more work for your three PL beyond just the whole story.
+
+Speaker  286154:40
+Yeah. I mean, I'm talking to him tomorrow about new rates, so I'm happy to connect, and we can just jump on a call, see if it makes
+
+Speaker  287962:40
+sense. That sounds that sounds awesome
+
+Speaker  289007:59
+on the three PL side, man, we're like so I feel like a lot of people are having these conversations of renegotiating and getting screwed on their bills. What are a few things that like stand out that you think we should be asking for if we're not already
+
+Speaker  292592:00
+Well, I think you guys need to be, you need to be thinking about it in essentially two different ways. So the first is your fulfillment costs, right? Like your pick and pack costs, your intake costs, your storage fees, your one off labor costs, your fulfillment costs. And then you also need to be thinking about your last mile delivery costs. Those are like two separate now I realize for many of you, you're probably using rates from your three PL so they're kind of part of the same bill, but you should think about them separately. So considering them separately, the first thing I would do, and I would do this like, this week, if you guys have a rep, like, if you use FedEx, and you have a rep with FedEx, I would call that rep immediately. Same for UPS. Call that rep immediately, and you should just ask them straight up for a waived holiday surcharge. Now they will, they will laugh at you. They will say, like, What? What? The fuck you guys can't you know, like, I can't do that for you, but you'd be surprised when you ask. Oftentimes they can give you they might not be able to waive your holiday surcharge or waive your annual increase, but when you ask, they can apply, like, a 20% discount to it. It all. You just have to push and you should be asking questions to your rep, like, Hey, what are other ways that you see for me to be saving money with FedEx or with UPS that's on your rep, they should be working for you like you're helping them hit their number every quarter, right? The other thing I would say is good question. Garrett, I will. The other thing I would say is, you guys need to get into your parcel data. And when I say get into your parcel data, what I mean is on a on a cadence. And I would recommend weekly, ideally bi weekly, if you need to, you should be downloading your parcel data. And you should be running some very basic pivots, things like, what service levels Am I using? What's my average weight across all of my parcels? Where are my parcels bound for by state or by zip code or zip code cluster? Like, did you know that zip codes you can, kind of like, chop a digit off the end of a zip code, and you can group zip codes together so you can see, like, your order clusters based on like geographic zones. It's like, super compelling and interesting to understand, like, where your customers are geographically. So like, this is the kind of stuff that your parcel data will share with you. You just have to, like, spend the time to kind of get into the numbers, but if you do this for two or three weeks in a row, you'll get a level of familiarity so that when you call your rep the next time, you'll be like, Hey, I've noticed that I have a cluster of orders where I'm getting hit with oversized charges. I don't believe I should be getting hit with oversized charges because my my dim, my box is, you know, not supposed to be getting hit with an oversized charge. Like, why are you charging me this oversized charge? Will you waive these charges for me? And they will say, Yes, right? Like, because then you have the data to show them. They're like, Hey, you guys are applying some kind of jacked up in warehouse in sortation rules to me that don't that shouldn't be the case. Another thing, when you look at the data, make sure you know for the service levels you use if they are guaranteed or not guaranteed. As an example, UPS ground is not guaranteed. That means that when you send a parcel UPS ground and it shows up a day late, you have no rights to ask for a refund for it being delayed. But if you send it via UPS air, an express service from UPS and it shows up 60 seconds late, it's late, you can, you can ask for a refund. They will give you a refund, but it's on you the shipper, to ask for the refund. They're never going to proactively be like, Hey, sorry, Colin, that air, that air freight that you spent $120 for, we were five minutes late, so we're going to give you a refund. No, no, you got to ask for it. So you have to, like, look at the timestamps, and if it's 60 seconds late, you can ask for the refund, but they oftentimes do all kinds of jacked up stuff, like they say, hey, I'll give you the refund, but you got to ask for it within 15 days of the delivery date. So that's why I say, like, get into the habit within your team. You know, every Thursday, you download the file. Every Friday, you review it with, you know, with your team, with your analyst, or by yourself for 30 minutes, right? But it gets you in this cadence of just kind of like understanding, okay, like, what should I be aware of? What should I be escalating to my carrier? What should I be requesting refunds for and what you'll really find, and this goes back, Chris, to your question, you'll really start to find areas of optimization for your fulfillment process. And this gets into like, how you guys are doing fulfillment today, either with a three PL or in house. You'll see, for example, like Colin, one question I had for you is, those 34 1815, boxes, I assume those are your Ottomans, right?
+
+Speaker  380538:40
+They're storage trunks. So close, but yeah, storage trunks,
+
+Speaker  381866:40
+is there? Is there any dunnage that you're putting in the box, any padding that you're putting around the storage trunk?
+
+Speaker  384026:40
+Yeah? Cardboard that kind of
+
+Speaker  384976:00
+is that, is that adding to the size of the box,
+
+Speaker  386128:00
+probably an inch,
+
+Speaker  386832:00
+if there's any way for you to cut that down, that will help your cost significantly, because what you're being hit with is called DIM weight,
+
+Speaker  389408:00
+yeah, we get crushed by that because everything's basically fully assembled for us, and we're selling, like you said, storage truck, so it's all that empty space that we're paying for.
+
+Speaker  391605:20
+I've known of people. I've known of people who have taken, even taken caster wheels off of pre assembled furniture, just that extra inch and a half off the bottom of the furniture, so they can reduce the the height of their boxes by an inch and a half. Yep, small stuff like that, like if you're building in an inch on either side for dunnage inside of the box, if you, if you were able to shrink wrap your storage bin instead of putting dunnage in and reduce the box by two inches, one inch on either. Side, small stuff like that is going to have a massive positive increase on your DIM weight. Yeah. And I realize you probably are buying boxes and bulks you're kind of tied into the size you have now. But like, think about that for the next time. Like, if there's any opportunity for you, and maybe it's like, Hey, you just tell your fact your your producers, like, Hey guys, like, we just need to cut six inches off this sucker, right? Like, make it smaller. That will have a massive increase positively on your rates.
+
+Speaker  407989:20
+Another thing, not directly related to that, but a little bit in regards to like audits, is I've done it before and like, like through Shippo and the like, the Excel file I gave you, versus what I'm getting charged is different, because there'll be certain times where the UPS driver will measure the dimensions differently, and then we're going to up charge for that. And then if we're, like, sending a bunch, which is extra large item, then we get like, another $12 or something. So what ship I was saying is 60 bucks, but what we're really getting charged is 75 is 75 bucks, and we don't have a direct relationship with the UPS. So how do we go about, I don't know, making sure that isn't an issue, because Shippo isn't directly telling us you have to go through invoice after invoice to, like, see what you're actually being charged.
+
+Speaker  421216:00
+So the unfortunate truth there is you have to go invoice by invoice with your UPS. Invoice, yeah, you have to get that data from UPS. Shippo doesn't pull it for you,
+
+Speaker  424757:20
+so yeah, and that's what we do. But are we reaching out to UPS being like, hey, they didn't measure it correctly, and we got charged an extra $15 because of it.
+
+Speaker  427114:40
+All right, Kat, I'm gonna answer your question, but I have to give you some context first. So guys, when you and Nikki, when you go to ship up or ship station and you create a UPS account, you are creating a UPS account with UPS directly, despite the fact that you're creating it on a third party so you have in your settings. You have a UPS account number and a UPS meter number. You can take both of those numbers to ups.com and you can essentially create a UPS login using your account number as if you had gone to a UPS Store and created an account like you, Colin, you have a UPS account. You can create the UPS login, and then you can pull invoices more easily, directly from UPS.
+
+Speaker  440181:20
+Oh, that's interesting, yeah. Because even if we've had, like, packages lost in transit, it was like you have to go through Shippo to file a claim, versus final claim with UPS yourself, but you're saying that's not accurate at all.
+
+Speaker  444298:40
+What you should do is you should get in the habit of combining data from both Shippo and UPS directly, because, like the vast majority of your spend is UPS ground. You should you should use Shippo and you should use UPS. You could key on the tracking number as your source of truth, and you should compare what Shippo told me the rate would be to what UPS actually charged me. And then you're going to find the deltas, obviously, and that's where you're going to need to spend your time. And you're going to at your scale. You can just go parcel by parcel. Yeah, that's what we do now and then for any refunds claims or basically claw backs, you should escalate those directly to UPS. Shippo won't help you with those. You have to go directly to UPS. Also. Colin, I'll flag for you in particular so you know your parcel spend, depending on how good peak is for you, you're going to be approaching 50k this year and spent total, yeah, I think we're already close to over that. That is, that is a great threshold to keep in mind. So the thresholds to keep in mind in general are 50k 500k 1,000,005 million. Those are kind of like the ladders that matter. What those mean is which Sales Team at the carrier your account would map to as you climb the sales teams within these carriers, those sales teams have more power on pricing and more power to like wave surcharges, give discounts, waive like fees that were applied. They just they have more juice within their org, but you have to do the pushing like I've known people, especially when I worked at Shippo, I've known people who had like, $7 million of parcel spend on Shippo, and they just never had a rep with UPS. They were paying like, level one commercial discounts. They could have had, like, significant, significant discounts, had they only picked up the phone and called so that's why I say like, of anything else. If you're a FedEx shop, call your FedEx rep. If you're a UPS shop, call your UPS rep. If you don't have. A rep, call the general support line, call the general sales line, like the one 800 number, and just get a human and make the ask, because then they have to put it in their CRM internally. You know that, like Chris Mead from crossnet called, he made these requests. Then the next time you call, you can reference that. You know, it's like the classic phone tree, but you just gotta, like, build, build the awareness for UPS and FedEx that you're asking for these discounts.
+
+Speaker  487925:20
+Brad, that's actually a good question, do you? I don't, and I haven't asked you that. Do you guys do LTL too, or is it just small parcels
+
+Speaker  489765:20
+we do? We do some LTL for our own purposes. What we do is we move parcels from one region to the other using LTL or FTL full truckload. We do not sell LTL to folks like brands or three, pls. Why not? It's complicated, shitty. It's a shitty business to be blunt, like it's really hard to do well. We don't want to represent other LTL providers to our customers. Okay, two margin as well.
+
+Speaker  497888:00
+All right? A scenario today, right? I packaged up 796 cross nets to get shipped into Amazon. I had to run an LTL quote. I only have two like LTL carriers that I trust. Is there a better way that I should be getting quotes? How do you think about that? Because I'm always just trying to find the cheapest one to the cheapest one. Of course, yeah,
+
+Speaker  502517:20
+you need one too. Chris,
+
+Speaker  502933:20
+yeah. Who? Who do you guys? Nikki, who do you use? I use ship well, and I've used a
+
+Speaker  503989:20
+number of different kind of like, broker like, but they I can go run quotes at any time, just so I can for that same reason, Chris, compared to what Amazon's gonna
+
+Speaker  506149:20
+charge me to do an LTL, okay, yeah,
+
+Speaker  506997:20
+ship well is good. I've used uni shippers as a good LTL freight. Quote. Uber freight is actually not that bad for LTL at your scale. I would imagine that one of these, like platform, like digital broker platforms, is the way to go. What we do for LTL is we have enough volume that we actually have a contracted rate with a strong national LTL provider. So we use a written A, V, E, R, i, t, t, and they're fully tracked. We like them. They've proven to be relatively dependable, but that's for our own usage. We don't sell LTL to customers. We focus on small parcel.
+
+Speaker  518005:19
+This is Brad here at three points. We ship. All we ship is LTL. I mean, we ship parcel for, like, small parts and stuff. Pretty much we're all LTL. We're probably doing close to million a year in LTL. So we're doing a lot of volume there with freight. And so we've our three pls handles it. I think they're with like express one. They have gotten pretty good rates for us, but I've also looked into arc fest, which is like, ABF, yep. So they have their own internal brokerage with all these other carriers, but they're kind of the ones selling to a lot of these other carriers, carriers as well.
+
+Speaker  528080:00
+So, yeah, parcel, for sure, it is, it is very different. Another one that I would recommend, do you do, Brad, do you guys do setup as well, or just delivery,
+
+Speaker  531264:00
+just delivery.
+
+Speaker  532112:00
+One, one to look at for you would be EFW. So their website is EFW.
+
+Speaker  533493:20
+Now.com they're owned by Estes, so, like the freight company, Estes ew is like their big and bulky delivery arm, and so you would be a good fit for them. Basically, like LTL deliveries, they would drop it either at the address, like on the driveway, or they do cross the threshold, some setup, that kind of stuff to
+
+Speaker  539722:40
+check it out. Thanks, and jumping in on that. So we we move lumber, salvage lumber, basically. So we need a flatbed or like a curtain van. We usually do LTL, some FTL, curious, like, if you've heard any or any Rex like is EFW a good spot to check out for a flat bed too?
+
+Speaker  545104:00
+Yeah, EFW is would be a very good option for that, for for other kind of like flatbed curtain truck. Another good provider that we use often for our local pickups is a provider called freight, F, R, A, y t. So freight is, think of freight as like an Uber for Box Trucks only, and cargo vans. So they do, they have like, you know, Theo, who has a box truck in Philly, you'll sign up with freight, and then freight will give you loads, and then you'll run the Philly metro or Philly to New York, but you'll do it on demand, via freight. And so like Tusk has a contract with freight nationally, and then we will route pickups through freight. It's fully tracked, so you could get a contract rate with freight to do like certain they do really good. Work 150 miles and less. So if you have any like short stem stuff, freight is a great option. Longer, longer distance stuff, then you'll want to go probably with an LTL provider, like an EFW, or a traditional LTL, like SDS, Avery, I would have said yellow, we went out of business.
+
+Speaker  565616:00
+So what do you when you think about, like, like, your national contract with, uh, Avery, like, what's the volume that are like? Is it those same tiers, or does it change?
+
+Speaker  568245:20
+It changes like, so for for LTL, it's like a raw volume consideration for them, like, number of skids, number of pallets you're going to move with them, but it's also the consistency of the lanes that you move. So the nature of my volume is, I'm moving volume from like, Chicago to Atlanta, Chicago to Dallas, Chicago to LA, LA to Chicago. La. Like, I have regional hubs that I'm feeding. They're very consistent. The LTL providers love that consistency, and pay for that consistency. Now they also, if you're moving millions of pallets, well, then they'll pay you for that, right? They'll give you a deal for that, whereas, like, I get a better deal because of the consistency of where my where my loads Go, Cool, which, which? This is a good, good segue with any operational vendor, LTL, small parcel, three. PL, you guys will do yourselves a lot of favors if you, if you, instead of just calling and asking for new quotes on like, a one off basis, always take the time to build a formal RFQ, even if it's extremely simple. So like, if you're going to go out and try to get new LTL rates in the new year, I would take your past LTL data, package it up nicely, summarize it with a couple of bullet points. Combine it with a paragraph or two that explain your business, give them forward looking projections into your growth. I'm envisioning like a two to three page document, right? Use that to go out and get bids from LTL providers. It's a lot cleaner for them to give you a better bid. It's a lot easier for you to do apples to apples comparisons. Sorry, I should have thought of this. I actually have an RFQ doc that I've given to brands for three PL like RFQs. So Chris, if you can, I'll send that to you. You can send it out to the group after after this. But that's like, a good example of what, what I would recommend you guys do. I appreciate you should do it for your small parcel people, your three PLS, your LTL, your FTL packaging providers, like any kind of, you know, a cost line on your P and L, you know, you can give your current provider a bit of a heads up and give them, like, give them a call and say, Hey, I'm going out to RFQ. Heads up on that. I'll let you know when I have it ready. So they give them a head start so they can really get ahead of it, because they might give you a screaming deal. You'll just say, Fuck. I'm just gonna go with them and then not run the process. Like, so be it right? But running a process is always the right move in this world.
+
+Speaker  613744:00
+Love it. One selfish question I have. We're thinking about shutting down our Canadian warehouse just because it's so seasonal for us. How do you think about the regional carrier? Because we just get fucked with the import cost and all that on the shipping it costs like $70 ship across it up to Canada. Is there any way to affordably ship our game into that country.
+
+Speaker  620202:40
+The The answer is, International is hard, so you should always budget in, like, customs fees, essentially, is what you're getting hit with there. What I would say is in the short term, when you need to, kind of like, plan for import to the US, and then to cross the border, you can use specialty providers that can cross the border with a full truck of volume. And some of it'll be yours, but some of it'll be other players. They can often do it for they can clear customs for cheaper. So a good example going to Canada is Purolator, P, u, r, O, L, A, T, O, R,
+
+Speaker  629861:20
+we use that, but so you're saying it, it would have to be a bulk shipment. So I guess what I'm trying to get it is like running the pros and cons of paying storage monthly for the inventory, than having to ship to customers like 2025, bucks per unit, or just taking the hit and shipping for $50 or $60 per unit and losing the margin or jacking up a rate for the customers.
+
+Speaker  635770:40
+It's a volume consideration. You just have to understand where that tipping point is. Like if, if you're going to shift across, involve store it locally, pay for that storage. You're going to have to be moving enough units where it makes sense to take on those upfront costs. Cost, and then have a lower final mile cost within Canada. And if you're not there yet, then you're going to have to take the hit on a unit basis and Jack the shipping cost for your Canadian customers.
+
+Speaker  643055:59
+But you don't see ups and the FedEx of the world charging much like I wouldn't be saving a lot with the the local carriers, like, if I used a local carrier from California up to Toronto, or up to Vancouver. And like UPS isn't like screwing me on that
+
+Speaker  647157:20
+the if you were to, if you were to bring bulk volume across the border into Canada, there would be opportunities for you to use regional carriers to lower your final mile cost, especially for parcels bound for the Greater Toronto Area. Call it like Toronto to Montreal. They have strong regionals up there. The best one is called DICOM, D, I, C, O, M, but Canada's fucking hard. The only game in town up there, really is Canada Post. Like, that's the cheapest way to get something delivered outside of Toronto, Montreal. If you're doing it parcel by parcel crossing the border, you're going to have to use some kind of like postal injection product, like a purulator, or UPS, FedEx, DHL, Gary, you asked about holiday surcharges. So holiday surcharges are in effect. So it used to be that the carriers would start holiday surcharges in mid November and end them right after the new year. They are now going into effect in early October and lasting into deep January. So it's just a cost you guys have to plan for. The challenge today is that they're also so the carriers made a big deal of having dynamic pricing, meaning they can, like, move pricing in real time. The first application of dynamic pricing was to holiday surcharges, and the only direction they're dynamically adjusting the prices up. So they like FedEx, for example, the lowest holiday surcharge is 4% the highest is 8% so you got to plan, basically, for between that band and I would just plan for the high end of the band. So, like, this is why, like, call your rep, ask for a discount. They'll, they'll give you shit when you ask. But then ask them, like, well, if you can't wave it, can I get a discount on the holiday surcharge? Like, that's what you need to be pressing them for the other Sorry, I have a question, yeah,
+
+Speaker  678757:20
+in terms of, like, LTL, like, what's the best strategy? We're starting to we're bringing on a new product in the coming year, it's going to be big acrylic tubs. What's the best way? Like, we're a Canadian company, like, 80% of our businesses in Canada, what's the best approach you said, to put together like an RFP, but what's the best approach to kind of getting into that market like we use all standard carriers right now, like FedEx, UPS pure later. Those are all our guys. But I don't like what's the best way to do that like we and we want to do, like, white glove delivery as well for those bigger units.
+
+Speaker  689808:00
+I mean, so I don't know the Canadian market as well, but what I would say is, like a similar, like, if you're doing this in the US, what I would do is I would call on all of the large freight providers that also offer white glove delivery. Okay? I would call, literally, call and email each one, and I would get a rep's name. I would then just include that rep on your RFP process. Okay, like, I don't mean to, like, there's just no easy way to do it. You have to do the research to understand, like, which of the providers in your market in Canada offer a nice bulk, big and bulky white glove delivery service and include them in the RFP process? Okay, but you'll have to do the work to find the right one. Now, if you get what you might want to do is like a shortcut would be call a couple of brokers, tell them what you're doing and what you're what you're saying, without saying to them is, hey, you know, I would love to use you broker to, like, do this work for me, but you have to beat the prices that I would get going direct. And you'll have the advantage of, like, having some comps so that you can see what the broker's price is versus what you're you're seeing from folks direct, you'll be able to understand like, ooh, the broker is 10% more expensive, but the headache that they're going to take off my plate is worth 20% right? So then you go with the broker, or what have you, but it'll it'll increase your optionality,
+
+Speaker  714757:20
+and like LTL is, do all the big providers have LTL services as well? Like, like, FedEx, like all those guys are
+
+Speaker  716666:40
+many of them. Many of them do now FedEx and UPS. So FedEx does have FedEx Freight. So they do LTL work ups used to have a freight cost. Company, but they actually sold it. So ups, no longer does freight. Now, the again, the Kat, the Canadian LTL big and bulky delivery market is not one I know well, so like, I'm sorry I can't give you a better like, look at that. But I would imagine, by working the phones for like, an hour or two, you'd be able to find some LTL brokers that know who does big and bulky LTL delivery, and you could kind of ask them for their guidance, and if you share the RFP with those brokers, those brokers love getting RFPs because it's a real advantage to them to give those RFPs out to their to their shippers. It's like, it's building them up as like, Hey, look at me. Like I have access to tons of this business. I'm going to hand out these RFPs and give them a chance to bid it. It'll just put it in the hands of more folks. You'll get more responses, and more responses is what you want, right? You want more data points, more benchmarks.
+
+Speaker  734538:40
+Okay, cool. Thank you so much.
+
+Speaker  735162:40
+Hey guys. The other thing with RFPs and RFQs and stuff like that, I would encourage you to use LinkedIn like. LinkedIn is a very like it's a very helpful place for stuff like this, because what you're doing is you're not just soliciting like transportation providers that can respond to your RFP, right? What you're soliciting is, Hey Nikki, which digital freight broker did you use that you like, you know, like, you're kind of, like, taking advantage of the power of your network. I would highly encourage you to, like, to the extent you feel comfortable doing so, like, create an externalized version of your RFP with, like, higher level guidance. It's also, like, kind of a cool like, Hey, look at my fucking growth, right? Like, look at me. It's a good it's a good marketing tool to have as well. But I've seen a lot of people be very successful that way.
+
+Speaker  749386:40
+Cool. Well,
+
+Speaker  749722:40
+dude, I we appreciate it big time, man. Black Friday is coming. I know we spend all this time trying to pump up Facebook ads and make more money, but sometimes the easiest way to make more money is just saving more money and doing some of this boring work that actually pays off big time, you know?
+
+Speaker  753664:00
+Oh, quickly. Rittvik, for you, you mentioned insurance cost. I just want to come I want to come back to that. Remember, you do not need to buy insurance from the carrier directly. You can always buy third party insurance, so make sure that you're similar to like the RFP process. You can RFP out your third party insurance.
+
+Speaker  760053:20
+Yeah. So I don't know if this is true, but we work with the shipping platform. But what my understanding is that UPS and unfortunately, they happen to run the route that we're looking for, don't accept a party, or there's a problem with UPS. I don't know the exact details, but that's what I was told.
+
+Speaker  765370:40
+That's like me, man, like I would, I would press them on that.
+
+Speaker  767290:40
+I would like UPS has their own internal insurance arm. So they're trying to, they basically own a bank that offers insurance on UPS work. I would go to people like, Route, ship insurance. You pick, like, I'm right here, Upic. I would bid it out. I would bid it out. And then in your RFP, you just have to say, like, hey, we plan to use ups for this lane. Yeah, confirm that you can cover this lane if it's performed by UPS. Like, you can just make it clear in the RFP,
+
+Speaker  776197:20
+okay, that sounds good. I should look into that. I just briefly, Chris, I know you were talking about bringing inventory into Canada, so that's something we do as well. One thing I can tell us, if you're like, working with one of these carriers, like UPS or FedEx, they make a ton of money on the brokerage side. It's literally, I think, they scaled by the value of the goods, right? If I'm not wrong, we used to do that. It was, I think, a big mistake. So that's also something that you can farm out to, like third party brokerages, and they do it for a flat fee, and it's so much cheaper, like it's night and day. Appreciate it, perfect.
+
+Speaker  787167:59
+Well, Ben, I we all really appreciate the time. I'll circulate your email address, and then I know you had some other stuff. Yes, I know for that, RFQ, I'll make sure that everybody gets that. But this will go out to 50, 6070, people. Super helpful for us. You've been really a great partner, saving us a lot of money. So I appreciate it.
+
+Speaker  791877:20
+I'm happy to guys and you are headed into peak season. My very, very best for a strong peak. And if there's anything I can do, please let me know, whether it's lumber or storage Ottomans or otherwise, we're here.
+
+Speaker  795226:40
+So cool. Thanks so much. Guys be well.
+
+Speaker  796234:40
+Thanks, man, you.

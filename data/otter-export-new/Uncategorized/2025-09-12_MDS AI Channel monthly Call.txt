@@ -1,0 +1,563 @@
+MDS AI Channel monthly Call
+Date: September 12, 2025
+
+Speaker  51:12
+When it actually starts.
+
+Speaker  2098:40
+Chris is a new member. Exciting here.
+
+Speaker  5314:40
+Hey, Chris, how are you?
+
+Speaker  6309:20
+Hey, doing good. How's everyone?
+
+Speaker  9205:20
+And Mason? I don't know who Mason is. Hi,
+
+Speaker  12154:40
+I live
+
+Speaker  13482:40
+in a very busy side of the city, so it's always really noisy.
+
+Speaker  15402:40
+The office looks so clean. Belen, i ai,
+
+Speaker  18144:00
+let's see my actual my
+
+Speaker  19232:00
+actual background. Yes,
+
+Speaker  22064:00
+what? Where do you live?
+
+Speaker  22405:20
+I live in Buenos
+
+Speaker  22885:20
+Aires. Buenos Aires, okay, yes,
+
+Speaker  23957:20
+the better background. Yes,
+
+Speaker  25013:19
+I hate the fake one. Actually, it's like, it's so obvious. It's always every time. But fake backgrounds are really obvious and weird, and also it does they don't match that, like the lightning, yeah, kind of off.
+
+Speaker  29322:40
+I gotta improve that with AI, yeah. Do you speak Italian as well? Belen, since you're in Argentina, like half Argentina speaks Italian or
+
+Speaker  32512:00
+no, ah, no, my partner does, but kind of because he went to a school that was like half Italian, half Argentinian,
+
+Speaker  34816:00
+yeah.
+
+Speaker  35024:00
+But other than that, most people just speak Italian.
+
+Speaker  36127:59
+But just like a lot of people
+
+Speaker  36543:59
+have like, Italian grandparents or Yeah, yeah.
+
+Speaker  38800:00
+Actually want to visit Buenos Aires. It's on my list.
+
+Speaker  39888:00
+You should come. It's amazing. Such a nice, busy, chaotic city, if you're into that kind of thing. It's really, really
+
+Speaker  41985:03
+great. I live in New York, so definitely, yeah, I
+
+Speaker  43642:40
+was there last year around August or so. I just really loved it that it's taken me on my life to get there. It's always been on my list. Finally, last year, amazing.
+
+Speaker  46474:40
+Yeah, it's, it's so nice. And August is a really nice time to be here too. It's kind of cold, but it is good because,
+
+Speaker  48170:40
+no, it's nice where, where I am. The heat is unbearable, so we escape.
+
+Speaker  51743:59
+Okay, do you want us to just start a recording and start as we are, and then,
+
+Speaker  53072:00
+I mean, we could, yeah, keep
+
+Speaker  53312:00
+adding more people. So these conversations are good. Anyways, with lots of people or any, I'm gonna start recording. So welcome everyone to the AI channel. Thanks Sam for being here.
+
+Speaker  57637:19
+Hello everyone. So the way, this is basically the the first call after the channel Start call. So it's the first monthly call that we're having. In general, since AI is like, so new and keeps changing every single second, I almost want to have something like a general, like brainstorming session where we can find, you know, users for AI and, like, if you know, if someone wants to share, obviously, what they're doing to solve problems in general. I keep saying it all the time, AI looks like a new shiny object, but then when you actually use it in, like, production things, it sucks. So, like, I'm being focused in general, in trying to find tools that are not just shiny object, but actually they're usable. For example, there was the call with Dorian that he has, like, the software capital. I don't know if any of you tried it. I did try it, and, like, it looks like a shiny object. And then I did try it, and I honestly could not figure out how to, you know, use it in a real world scenario. So I want to try for us to stay and share tools. They're actually usable in production, like in real environments, right? So in general, I am really passionate about AI for content creation. I feel I'm hearing that with the basically zero cost of very low cost of content creation, with AI, we can, like micro target, micro niches. And so that's what, like, my interest has been in the last, you know, few months. So like, how do I create, you know, content, and how do I, you know, distribute content that is micro target to micro niches, so it's going to be more relevant, and so it's going to convert better. And yeah, so I want to hear like, I want to keep it, like, open, like, an open discussion. I want to hear your thoughts, like if you're doing anything for content creation, or if you're using any you know tool or thing that relates to that.
+
+Speaker  95866:40
+No one
+
+Speaker  96522:40
+Don't be shy. But you're gonna spot like, you know, any of them, or, if you don't
+
+Speaker  97776:00
+too there is,
+
+Speaker  98544:00
+oh, June, are you willing to speak or,
+
+Speaker  99184:00
+yeah, yeah. It's just like, 1am here, so I'm not gonna have my
+
+Speaker  100416:00
+camera on,
+
+Speaker  100688:00
+yeah, but yeah, I think the best application for me right now is customer service. So I used an app called Van chat, which integrates into Shopify, and it basically you can train it on a knowledge base, and it will answer all sorts of questions, and it embeds into every page on my Shopify store, and then it can actually answer customer questions and proactively drive sales. So I used it to kind of replace some of the clavio funnels, because I found that chat converts better than email. So instead of them just getting a like, you asking them for an email and you giving them a discount code. I do it through chat, and then I get them to opt in and consent to my privacy policy, and I give them the code, and they it keeps them on the page, and then they're already talking to chat. So if they have questions, the chat will just pop up periodically and say, Hey, can I help you with this? It'll do upsells you could do. So the moment they navigate to a collection page, I tell them about a sale because it's on a collection page. You can use it. I embedded it on every single product page, so right below the add to cart, I haven't asked AI or sorry, ask a question about this product, so they can open the chat, and the chat can crawl the page and digest all the information and then engage with the customer and ask answer all those questions. That's probably the best AI use I've had so far.
+
+Speaker  126906:39
+What's new? Yep,
+
+Speaker  127338:40
+I'm using van chat, and I got
+
+Speaker  128127:59
+V, A, M,
+
+Speaker  128368:00
+then chat. And so if you're on, it's only good for Shopify. If you're on, yeah,
+
+Speaker  130256:00
+shop Yeah, yeah, I'll check it out definitely. I mean, I've done customer service as well, like with AI, I have, like, agents that answer mid like email customer service, but the chat thing, I do agree that is way more engaging than email, and it can convert way better. So I'll definitely check that out.
+
+Speaker  134917:20
+And then there's an AppSumo deal right now so on. I don't know if they have it still, but it like that's where I got it, and it includes chat GPT usage, like lifetime deals. So it's actually pretty good.
+
+Speaker  138549:19
+Okay, I just want that. Then chat is on sumo deal.
+
+Speaker  139338:40
+It's on AppSumo deal, yeah, let me see if, let me share my link, because you will get 10% off, even if you not on AppSumo. All right,
+
+Speaker  142010:40
+that's good. And then I see that. I see that Chad that needs to leave, is saying something about the AI metadata from images. And I have a question related to that. So there is, have you heard the, all the, all the content that is created with Google, so via three content, or imagine content is actually watermarked, but like it's an invisible watermark and it's not in the metadata,
+
+Speaker  150149:19
+yeah, so you can one of the things that we're working on. It's still not ready yet, but one of the things you can do is it's in the lower right corner of all the images, so you can edit. You can just crop it out the watermark, yeah, if you have an image, go to Manus. Do, I don't know if you have a mantis thing, so just ask Manus to give you all the metadata and include the watermark, and it'll show you it's just the Gemini logo, like the starburst, whatever that is in the lower right corner.
+
+Speaker  159338:40
+But it's actually, is actually, I think we're, I'm talking about a different thing. I'm talking about syntax, synth ID, yes, actually, is like, actually hidden in the pixels of the images.
+
+Speaker  162960:00
+So what this, what, what they're working on with this app, is you get to recreate, you have, it's a, basically like a form letter. And so you just, you just it gives you everything the metadata is, and then you just write in what you want. So you could write, you know, Sam professional photography, yeah, you know, this was taken in Omaha, Nebraska in 1999 and it would all be done like that. And so it there all of the apps that are out there now to detect AI photos it's passing. And so it just needs to. They're just trying to figure out a few other things, because it's, it's a bit expensive right now. It's like three cents. It's like three cents to change every image, or something like that. And, I mean, it's not that's not expensive unless, you know, unless they give it away to everybody, then you know. But so they're trying to figure that out right now. But, yeah, it's pretty cool. I mean it. I'm hoping they can do it for videos too, because I think that's even more important.
+
+Speaker  182901:20
+Yeah, and for the any 10 workflows, what you have, so maybe you spark some conversation.
+
+Speaker  184549:19
+I was going to pull up one that is didn't post it because it's not there yet, but it's they're pretty close, and it's all 100% automated. Let me see if I can share this. Get shareable link. So those are 100% it makes me one every morning, at 10am and it's the same format.
+
+Speaker  194192:00
+I think I've actually seen. Did you? Did you take it from Nate?
+
+Speaker  195296:00
+Yeah? Nate her, that's
+
+Speaker  195600:00
+yeah.
+
+Speaker  195872:00
+So I've been, I've been trying to digest his stuff.
+
+Speaker  197200:00
+And Nate Turk is a guy that has any 10 community for,
+
+Speaker  198533:20
+yeah, yeah, who
+
+Speaker  198773:20
+don't know, and it says pretty, like, full videos on YouTube. Like, yeah,
+
+Speaker  199733:20
+he's definitely worth because he's, it's incredible what he's, what he's doing with it. And I sort of started back in April, like, or I started watching his videos from April, and, yeah, I'm up to, like, July right now, and everything from April is terrible and, but, yeah, the July. So it's incredible how fast it's moving, yeah,
+
+Speaker  206442:40
+but are you actually posting this, like the top video, like top 10 videos and stuff I haven't
+
+Speaker  208042:40
+started yet. I wanted to get, I wanted to try to get a month's worth, and then start posting those every day and then so I wanted to be one month ahead, just so I could look at them, because I'm still there. They're not great. But hopefully I'm going to try and plug in at some different forget the one it uses the image, I think I forget which one it uses. But I'm not, like, super happy with it. So yeah, I want to try to but yeah, I mean that automation stuff I think is, you know, everyone, yeah,
+
+Speaker  217957:20
+for sure, yeah. I think the exactly the automation of content generation can actually make a big difference. I feel like I was talking earlier to this lady that works for like, a big marketing agency, and what they're doing is, like, for big email lists, they're doing like the micro targeting of like the emails. So, for example, when I sell food products, if you know that, like, you know, customers are, you know, not like, customers are more likely if they buy my chocolate cookies to buy, you know, the chocolate cream, right? Just like, dude, like, very targeted and very like message and like, even location based. So I don't know if you're marketing someone in Miami, and you put, like, a beach in the marketing content is going to resonate more than if you put, you know, mountains, yeah. And it's like those subtle things that with, I think, with AI generated content, you can, you can you can take, there's another thing I heard about a fashion brand that was actually doing all AI photo shoots. So the model will actually be location based. So if you're in Japan, you see the Japanese model, and if you are like, in the US, so it's like, you know, and that actually improves conversion, you know, because the person like, Oh, this is like, me, like, it relates more than if you just do one photoshoot with one, you know, model, and you do it worldwide, yeah, I think LA cost was trying that. So, like, a big brand was trying that.
+
+Speaker  241376:00
+So, yeah, I will, I'll try to post some of those other innate ends. And the beauty is you can just, like, paste it right in, like, with the JSON file, yeah, so it's pretty much, and then you just have to add your own.
+
+Speaker  244752:00
+Ai Nate actually posted recently, a like an LLM to actually make any 10 flows.
+
+Speaker  247141:20
+I saw that one, I haven't I
+
+Speaker  247733:20
+didn't watch it. Also, I didn't watch it. Also, I was trying to use the MCP with Nathan, which is basically like you attach it to Claude. And Claude knows, like, how to make the nodes and try to build something with it. And it sucked.
+
+Speaker  251562:39
+Like, Oh, really. Like, all mine worked okay for me.
+
+Speaker  252474:40
+For me, it literally created, like, very, very bad. Plus, I got, I got to the limit of Claude in like, a second.
+
+Speaker  254602:40
+Oh, okay, so, like,
+
+Speaker  254954:40
+maybe it was, like, complex. It was a complex video generation flow. So, like, it's not like, that easy, but it just like, was not good at all, so I wanted to try the Nate,
+
+Speaker  257568:00
+yeah, I will. I'll post something more about it. Sorry. I have to jump onto a different call. Okay, okay, I'll talk to you guys later. Awesome.
+
+Speaker  259983:59
+Thanks. Thanks, Chad for your sharing. Yeah. So like, anyone else has something that they used lately in AI that they particularly liked or helped.
+
+Speaker  264565:20
+Guess, I'll jump in. I went down the rabbit hole AI pretty hard six months ago. Any any inflows, you name it and all that, currently come to the conclusion that nobody got time for this. So I'm now in just hiring people to do this, but I'm confident knowing that I have the foundation in order to understand at least how this stuff works, to say, Hey, this is what I would like it to do, and then you go do it, because a lot of things break, and I constantly don't want to feel like I have to keep going in there every couple weeks or days because there's an AI broken hair or Zapier decided not to zap and it's fun to a point of when it becomes a little bit too time consuming, and I felt myself just really down that rabbit hole. I love it, but the same time, I know that my mind needs to be more focused on building my Amazon brand, and AI has its role. What's going to now be done by people who this is what they do full time for their own living. I've experimented with so many different things, and currently we're building a chat bot that's going to be more than just Shopify. It's going to be able to connect all of our channels. So someone from Walmart is engaging with our customer service bot. They can get specific Walmart support. Same thing with an Amazon customer. We're fortunate enough to get them to come to want to chat with us directly. So it's going to be sort of this one catch all, AI customer service bot, which will issue refunds, send replacements, try to get them into our email list, or any other marketing. So I can't wait to see where that goes, but that's currently what's being worked on. Prefer not to just work on this stuff with those details anymore. Tools that I think MDS has been talking about is outranked for article writing. I've tested a slew of these different article writers, SEO writer, AI and all that kind of stuff. This one is superior. It's fantastic. It's amazing. Willing to share in the chat what sort of prompt is working so far the best, but it's amazing. I mean, these articles that are being posted are getting, getting traffic immediately, almost. It's just that good.
+
+Speaker  312757:20
+Yeah, this is actually on my list. I have it open for like, maybe a couple weeks after I heard from MDS. I tried SEO surfer in the past, and it sucked.
+
+Speaker  315386:39
+It did, yeah, I tried that. SEO writer was supposedly the best, but they got kind of expensive. This one's $100 a month, and every day it posts a perfectly done SEO article. I don't know if it's done. It's doing that naturally from the back end. But the prompt that I'm using is going after, like, known people like Nell Patel, you know, write an SEO article based on his principles and that kind of stuff. So AI, you know, yeah, yeah.
+
+Speaker  324528:00
+Can you can? If you can share the prompt, I think it
+
+Speaker  325488:00
+would be, yeah. So what I'll do is, I prefer to put it in like a Word document, but I just want to tighten it up because some of the prompt is related to my own brand.
+
+Speaker  328005:20
+So okay, yeah,
+
+Speaker  328325:20
+generic, so give me, but in general, yeah, I'll be general, just a highlight. Hey, you got to change this.
+
+Speaker  330197:20
+Yeah, I think actually
+
+Speaker  330789:20
+to be selling. It's very,
+
+Speaker  331178:40
+yeah, I don't know, of course, something that I actually heard along the line that you were saying is that telling the AI to first, like research, like a certain like content style. So what I've done in the past is I did like deep research, and basically asked to find the top, you know, the top, like affiliate marketers, for example, that can sell a product similar to what I sell. And then you literally say, Okay, now use the same language as these top three people say. So what you said about like, write the style of like, like Neil Patel is actually like, very, very useful. Yeah. So, yeah. So I and definitely like, the more, the more context you give it, the more like the act, the actual, I think, strong point of AI is the context that you give it.
+
+Speaker  345669:20
+You can't be so broad about this stuff, because what's going to happen is your race is basically going to be hurting, I think even your SEO efforts, because what's it going to do? So it's going to be the simplest path forward, if you're actually giving it specific ways that it needs to go ahead and perform for you. Yeah, proof is in the pudding, because the the prompts is what basically gets you there.
+
+Speaker  352138:40
+Yeah, yeah, for sure, someone ask questions. Chad, let me read it. Think it's to you. George, yeah.
+
+Speaker  354704:00
+Well, that is a fantastic question, because of the fact that I'm a bit of a cheap, cheapskate, I would say by nature, um, it's turning out that the really good people make closer to 100 bucks an hour. I'm not thrilled with that, but that's how much they tend to go for. But paying $100 doesn't mean that you're also getting the best. So for for hiring purposes, knowing enough about AI, which is where I'm happy to be, I understand the fundamentals, so I understand immediately if I have them do like a test, sort of flow, if you will, on any end, I'll know immediately or fairly close to it, if they were just using Chad, GV, T to get the job. I hope we'll see. But it's early stages for me hiring, so I'm not really certain if I'm hiring the right people, I'll know in about four weeks. I assume, because I'm hiring about three different people for different projects, and whomever is the best has a job for long term at least.
+
+Speaker  372880:00
+I think the secret in like hiring is actually knowing what you're hiring for, like, if you have no clue, like, I never made money ever when hiring people that I did not have a clue what they were doing.
+
+Speaker  376149:20
+So that's why I spent all these months sort of doing this stuff myself. And then, you know, it's kind of like, wow, I'm really in this rabbit hole. I'm spending way too much time on this kind of stuff. But the beautiful thing about that is kind of learning how to drive right? It's nice before you end up teaching someone else to at least know how to drive a car, right? Be interesting.
+
+Speaker  383866:40
+I'm reading Charles question, are guys implementing any 10 and make automation agent, or just being familiar with the features before integrating day to day? I am I have a few any 10 flows for like content creation right now, so I'm actively using it. I do have also one for customer service, which also is very simple. It was probably my first anytime flow, yeah, in general, like, I'm using them, and they're, they're pretty good, is giving rails to the AI, I think is very valuable, if it's like two. So any 10 is very good at that. Like, you can actually segment and split up all the tasks in different agent and orchestrate within a 10. So like, I think that's the are you using anything? Charles,
+
+Speaker  399674:40
+no, before, before I implement I mean, I needed to know where to start, where to play, where to play around with, what to automate, which subscriptions are worth going in for how much time it'll need for me to train myself before I can monitor it and see what mistakes it's making. I don't know it's forget about the time. If it's time that I can spend to become more efficient, I'll do it. But right now, I'm just very familiar with what the capabilities are and what the features are. I'm just wondering among this group, did anybody actually implement it? I mean, you can think, you can think and imagine 103 different ways to implement it, but is anyone here actually doing it, or like myself, just watching it happen, staying familiar, I'm not unfamiliar with the capabilities are, but it's not in my day to day.
+
+Speaker  413386:40
+What would you what would you want to automate?
+
+Speaker  414634:40
+Maybe something like what Ian said, have email drafts ready for me to review and send every day, instead of going through my inbox one by one. Maybe some sort of, maybe some sort of content creation accompanied by the descriptions as well, or the BIOS or the captions, whatever you want to call it, maybe some, maybe some scrapes as far as what my competitors are doing on their social media. I don't know.
+
+Speaker  422789:19
+I would argue to maybe start with some of the basics. For example, one of the first things I did was I went into n, a n as a new just trying to figure out some of this stuff. And it's really simple. Actually, it's not that difficult setting up a flow. I don't know if you've ever had any experience with many chat, but it reminds me of many Chad a little bit with the flow.
+
+Speaker  429002:40
+Yeah, you went straight into any. A lot of people say, do make first, because it's simpler, and then
+
+Speaker  430538:40
+go to any. Went straight
+
+Speaker  431082:40
+to any 10.
+
+Speaker  431338:40
+Yeah, I think any n is the way to just go right into it. It's really, is really pretty easy to use. So are your own server or post, I'm on their server, just using cloud ready feature. I'm a little bit nervous, because what I do is I'm in the health space, and if something ever unfortunately got hacked. That's why I prefer the extra level any in on their cloud server. They have different security protocols and whatnot. Also trust them a little bit more than just a cloud provider out there that a lot of people use. But nonetheless, I mean, I would get in there, just get your feet wet a little bit. Set up a basic one hook up Gmail. That was the first thing I did. And every, I guess, twice a day, let's just say sometimes three I get an email from just many different things that I'm interested in, lots of newsletters, right? So I created a filter for one in particular, just using an example, Help a Reporter Out. If anyone's using they send out that list three times a day. Well, I would like to know if any of those requests that there's something that I could speak of that would benefit my brand as someone who's a subject matter expert on on what I'm specifically filtering for. So it goes in there, and it's worked perfect. I mean, it goes and looks for the Haro email itself has its filters. It understands what to look for, and if it pings, it forwards it to me. If it doesn't find anything, it deletes it. So that's one less three emails a day. You start doing that for a lot of different things, your email will start to clean up. That's where I would start, just so you understand the basics of some clothes, and then your mind will set you free some of the more advanced things it can do.
+
+Speaker  464250:40
+Yeah, I think this, this horror thing, is, like, kind of the precursor of the of the draft for email that Charles was talking about. So, like, it would be, like, a good way to to start and then, like, build on that.
+
+Speaker  467632:00
+Yeah, that's an easy one. I think it's very simple to set up fight. Quite frankly, what's even more wild is, I will say it worked. It got you 90% of the way there. Chad, GV, five. And a lot of people criticize it. I find it be really good as an agent, so I'll use it as an operator agent. And I say, You know what? You go in any and you write the flow. For me, it's actually done pretty good doing that. So let's talk about the AI is rating AI, I'm with you on that. Let's do it.
+
+Speaker  476298:40
+Yeah, here's another question. You guys also know about show face sidekick, which is there to, I think they upgraded, so maybe a free version of chat GPT. And you can ask call a question. You write code. The bug will SQL queries help set up the code write step by step instruction actually related to Shopify. I stumbled upon, like a guy that actually met is the founder of magic path, which is, I don't know if you ever stumbled upon that app is basically to build, like, it's almost like a figma to build apps graphically, and then you will translate into code. And it's actually works very well. And I was trying to find something for Shopify. There's like that. So like, if I want to redesign my Shopify store without, obviously, like, hiring a web developer and blah, blah, blah, right? Is there an AI that you guys know that can actually do that like, from kind of like, from mock ups to the to the actual theme of Shopify? And I could not actually find anything yet.
+
+Speaker  494970:40
+I think you can do that in cloud. Can't you like in cloud? I think you can probably do that where you drop it in and then ask it to do that. I've done stuff where I take Manus and then I get it to write me HTML, and then I drop it into Shopify. But I also have sidekick write code for me, because I don't know how to code. So it will just edit the theme, or I'll write a block, or, like, I build a lot of stuff using Shopify, AI all the time. And then I tell it, walk me through how to solve this problem, step by step. Can it do this? No, okay, what about this? Or and I tell it what I'm trying to achieve. And then it will say, well, here's three or four or five ways of doing this. It's wrong a lot of the time, so I'll correct it. I'm like, I got to this step and this wasn't right. And it will say, Oh, you're right. And then it'll just research what the limitation is on on something. And oftentimes it's Shopify AI is better than their customer service. So I'll get on with a plus support person, and they don't like I'm better at hacking an answer using AI than talking to the support person. And then they'll tell me why I can't do something, yeah, and then I'm like, oh, okay, why can't I just do this or and so I figured out so many things that way, but it also will just write you blocks of code and custom code and set certain things for you. It like, I use it when I want specific details about Shopify, but I think it's like chat GPT for free within Shopify, you don't have to. You can actually use it to ask questions that are not Shopify related to,
+
+Speaker  521781:20
+okay, I mean, but is it? Does it help you actually build? For example, let's assume that I want to redesign my home page. Would you do that fully with
+
+Speaker  524314:40
+you can do that
+
+Speaker  524698:40
+okay, even, even like giving it maybe an image of mock up, and you're like, do that.
+
+Speaker  525946:40
+What? What I i've what I would do is take some really good resources on CRO SEO, like you want to train your AI and all AI needs to know what their role is, right? So I tell it its role and its job is to do CRO UX SEO. Help me build a pillar strategy. Consider how I should be linking all that kind of stuff. I feed it a bunch of articles on our websites for optimization. And then I remind it to look at that, and then help it, help me generate content. And then it basically, it does a great job, actually. And oftentimes I'll say, Oh, this, this software works like this, help me write, and it comes up with something that's much, much better, that's optimized for conversion, for the customer.
+
+Speaker  540330:40
+Okay, did you actually see an improvement in conversion after like, adding,
+
+Speaker  541306:40
+yeah, yeah, yeah. It's just way easier to like, it's not everyone thinks that it's about the tools. It's not about the tools. Is about how you're going to use the AI and the logic you apply and what kind of problems you're going to solve. And so if you think about how to solve a problem and understand and work around the limitations, like, if you have a limitation, you're just going to change how you solve the problem. AI will do the same thing, because when you feed it more data, it'll say, okay, that's that's important. Now I'm going to recommend you do this instead. Like, that's how we actually make decisions. So I actually built a framework for my team to follow because they didn't know how to use AI, and I broke it down in like, kind of like Eos, and then I said, Okay, let's talk about issues, because that's what we should spend our level 10 meetings doing. But most people don't get to the what the root causes of the issues? So I gave them a framework to do that, and I said, Okay, now take the issue, describe it, write it in detail. Now go to AI, ask them questions. Use this framework for the to identify the root cause, like ask the five lies so that you can get to what really caused this problem. So you know what problem you're trying to solve and then go feed it constraints, like, Who do you need to talk to? What kind of things should you be considering? Because in cross functional teams, people don't talk to each other, and, you know, I'm in a silo, and I wear one hat, and I don't think about the next guy's problem. And so they really need to know that, and that's really how you solve problems, but that's also how organizations solve problems, and how AI will solve problems. So you surface the constraints, feed it to AI, and then see what solutions you get, right?
+
+Speaker  568149:20
+Yeah, I think that's great. And I mean, what you're saying basically is like, this is like the perfect context that you give the AI, so based on what we're saying earlier, right? Is like, the more context, the more data, the more information the AI has, the better is going to just, like, operate if, if you don't provide any of that, it's just going to give you an answer that is kind of basic, that can actually hurt you, like, like Charles was saying, yeah.
+
+Speaker  575098:40
+This is one reason, though, why I prefer, at least to use chat GPT Pro. So I've been using this now for a year and a half, and some of these chats have so much information from all the different things have been discovered. Shopify, for example, I'll look for certain subject matter experts, and some of them run ads on Facebook, for example, and they want to sell you $10,000 for whatever they got going on, is the best way to sort of have your back end chat. GPT is so smart, I literally will mention that person and even do sort of a screenshot of their ad, and it knows what they're talking about. And then I say, go implement that. And I mean, I have someone who is a programmer that he knows I'm doing this stuff. Only occasionally has Chad GV really ever broken something that wasn't even so major that he we we have a backup version of our Shopify store. But even he's impressed, he's like, Dude, this is really amazing. How well is that coding and how cutting edge it is with knowing the latest and best practices in SEO. Also the fact that one of my favorite prompts is saying, use memory from this one project to get you really ahead of Okay, now what we did there, this is something that this subject matter expert who is talking about currently as a mastermind, let's go implement that, and it can do it as a as an operator. So that's one cool feature that I think that everyone should be looking at if you have chat, GV, T, pro, don't be scared to click on that operator button and let it get into your system. What's the worst that could happen? Is it screws up a little bit of your coding. Just have a backup. But I would say, since I've been using this now for several weeks, I could show you the stats, traffic's more than doubled. So it's working. I don't use different chat box, mainly because I want to keep everything in one system. I think that's important too. Yeah.
+
+Speaker  613829:19
+I think having the fact that the context is so important, if you use multiple systems, that's when you kind of like, lose pieces so it's paid. I agree with you. It's better if you just like one and put everything there.
+
+Speaker  616965:20
+And it learns my writing style. It just knows, and I don't have to repeat myself, remove AI dashes. It's kind of
+
+Speaker  619066:40
+Yeah. It's
+
+Speaker  619290:39
+broken at this point.
+
+Speaker  619610:40
+That's a must. That should be like. So the more
+
+Speaker  620154:40
+and more you use it and keep it in one ecosystem, actually gives a benefit. George is the Pro, the one above plus, or is it? Yeah? So it's $200 a month, okay? The agent one or whatnot, yeah. But that enables all the latest tools, and you get into beta stuff as well.
+
+Speaker  625776:00
+I think operator is the big one for the for the Pro, but also is more I think it can actually grab more context and more memory so each conversation,
+
+Speaker  628207:59
+because you can actually say how long you want to think for. So in certain projects where I'm not the subject matter expert, but I'm trying to get more information on it. I'll just enable deep research and let it work for 15 minutes, and then I'll change that same conversation. Go ahead now implement that as the AI agent, and that's been working well for me. Certainly there will be mistakes, but certainly you should be backing up any anything, just like the beginning of technology, I remember in college, they didn't have auto save or order, and I think one semester, I literally drank myself the whole night because I wrote this paper and it disappears. So backup is important.
+
+Speaker  639834:40
+You learned in college, backup is earning
+
+Speaker  640560:00
+college that was a crappy time. 50 pages. I really worked really hard on and
+
+Speaker  642880:00
+now you could write 50 pages in one second. Things
+
+Speaker  644096:00
+change over 20 years. Really weird.
+
+Speaker  645120:00
+There's a there's something that a lot of people, even AI, are saying that there are four months left. So, you know,
+
+Speaker  647445:20
+oh, man, don't get me started. I just it's speaking to someone who thinks AI knows how to time travel already. But just go do my Amazon stuff for me, my Shopify stuff or try to figure out how to make me more money.
+
+Speaker  651706:39
+Yeah, exactly before time travel make me a little bit more exactly any other like, since, I mean, we're all like, mainly on Amazon, or like, focused on Amazon. Any anything like Amazon, like I've heard Shopify or customer service, anything actually, that is focused on Amazon, that you guys are using or not really. That's probably my biggest like, that's the thing that I'm using the least like, for Amazon stuff.
+
+Speaker  660528:00
+Oh, man, I don't want to take all the time here, but I'm with you on that. I'm behind on Cosmo, and that's the big word now for a couple months, but now you're having several people in several masterminds that are like you really need to use Cosmo to understand how Amazon church is changing. I can have more on that, hopefully in two months, because I'm working with someone who is really good at supposedly, taking the Cosmo data and putting it into your A plus content to get you more visibility somehow. I don't know if you guys are hearing that, but I'm curious if anyone knows more.
+
+Speaker  671626:40
+Yeah, I'm hearing actually a lot, but nothing really concrete.
+
+Speaker  672768:00
+Yeah, same. So I don't know if it's just anyone else, so, you know, you know, mastermind tickets, or if this is something that needs to be done. But so far for me, it's getting this chat GPT all day long. I'm just more comfortable with that. Been using it for a year and a half. What's Cosmo? What's this? Other stuff? Is it important? Does chat GPT do the same thing? I need, I think that is important for us as a group to sort of figure out, so we don't miss the boat on anything Amazon related with Cosmo.
+
+Speaker  681605:20
+Yeah. So one
+
+Speaker  682021:20
+thing, sorry, my camera's off. I'm a little sick and not up for being on video. But you guys should go back and look at the SEO optimization channel recording from yesterday. We talked about this quite extensively. So one of the takeaways, and someone suggested it's now important when you're doing listing optimization to take Rufus, both Rufus and the Cosmo into account. And what people have done is create a bot for each Asin and upload the latest Amazon white papers that come in PDF format into the bots. Grab, you know, the whatever, most recent reviews from your top competitors into an Excel file. Grab as many of the Rufus Q and A questions that you can get into an Excel and upload that as well. And then from there, you can ask Chad GPT to create the demographic based on what you're seeing the correct demographic, what are the features, what are the benefits, USPS, and now, based on the information you have for the selected avatar and target demographic that we're looking at. Let's create the listing based on the the white papers on Rufus and all of that stuff and Cosmo. I am starting on the process myself, hopefully today, because I've been behind as well. I'm just, you know, trying to ignore the big elephant in the room for, like, the last year. But unfortunately, I think it's time so I can quickly find the links to Amazon science publications, where you can actually download the white papers. I'll, I'll put them on in the chat in a sec here when I find
+
+Speaker  716010:40
+was this like discussing yesterday, is your call by Alex,
+
+Speaker  717066:40
+yeah, okay, yeah. We talked about it as,
+
+Speaker  718138:40
+actually, I actually have open it earlier, so I was meaning to to watch the recording.
+
+Speaker  719754:40
+Yeah, it. I
+
+Speaker  720170:40
+thought it's interesting so so I was recently on a mastermind call with someone. I can't recall her name, but she was talking about how Cosmo attributions is something that we need to be working on, because it's connected now to how your product is being recommended on other pages as a complimentary item that you can add. You know, someone goes ahead and buys a, say, a toothbrush. Well, if you're selling toothpaste, you want to be on the toothbrush pages, and someone can go ahead and click the button that adds it all to the car, and they're claiming and based on my initial information, because I found this out last week, Cosmo somehow is with Rufus, obviously has attribution, and these attributions need to be somehow Part of AI. So I'm going down that rabbit hole, and hopefully I'll be able to speak more to it. So it's important, it sounds like,
+
+Speaker  738576:00
+Yeah, I think that's actually is going to change, like, if, before it was just like keyword based, now it's more like audience based, almost. So like it, we better have the AI understand exactly what our audience is so they can serve us to the right target.
+
+Speaker  743061:20
+Yeah,
+
+Speaker  743317:20
+yeah. And Cosmo. So Cosmo serving like based on your your previous search history or purchase history, also sorts of other factors, Cosmo will now serve different search results for the same keyword based on your, you know, whatever factors. So it's, it's getting pretty wild out there,
+
+Speaker  750330:40
+yeah, for sure. And knowing the Amazon, the you know, everything breaks every two seconds, we need to be very, very like, make sure that the AI understands what we're selling. Because if not, it's just gonna be, you know, sometimes Amazon changes category randomly and like, yeah, we lose everything. So like knowing that, like knowing knowing that mo that Amazon has, like, we need to be very careful that, I think so, yeah, definitely check out the call
+
+Speaker  758693:20
+now. Just reading real quick, guys and ladies, that's supposed to this 15 Cosmo attribution attributions. So that's news to me.
+
+Speaker  762005:20
+What you mean by 15 call contributions?
+
+Speaker  763226:40
+This is what they're saying in their report. I have a actual report from a mastermind, and they're saying, Yeah, we need to complete some sort of it's a lot of information, just going through it real quickly. But to enhance Amazon search and recommendation optimization, completion of the 15 Cosmo attribution relation points. I don't know anything about that. What's that?
+
+Speaker  769888:00
+Ben another set of attributes or they feed from, like, um,
+
+Speaker  771072:00
+again, I'm just going off of something speaking out loud as I see this, but this comes from a credible source. I wouldn't present it if it wasn't something to take serious. Um, but yeah. So now the question is, what are these attributions with Cosmo, and where the heck do you even complete them? So I
+
+Speaker  776661:20
+think Chris maybe put it in the chat. Is that, is that the same Chris that you're, that
+
+Speaker  778117:20
+he's, yeah, I saw an article about this that it would came from the white paper that has and someone just summed them up on a PDF. But I had to cut kind of a few of the questions are all there, but I had to essentially cut down the on the chat because it got a little too big. But those are the 15 attribution questions that supposedly came out of this white paper. I haven't read it myself, but someone summed it up, and these were the 15 core diagnostic questions for Cosmo. Say that again. Ben, you
+
+Speaker  787600:00
+know where you put the answers to these?
+
+Speaker  788560:00
+Yeah, I got a PDF. I can I can share it. Who someone had it? What was it? And navigator, or something like that. I got it off of LinkedIn. Someone posted it there, but they went through the white paper and then they summarized it. So those are the 15 questions. But it's like, on which ones did I cut? I'll just cut the last. I'll add the last ones. I should have just cut and paste in two. Here's the other ones.
+
+Speaker  798458:40
+Yeah. So basically, I think I'm not sure if it's actual, like, I mean, for sure, the attributes are important, like the back end attributes, but I think also, like, we these are maybe questions that we need to answer in our listings, so that, you know, at the end of the day, is, is an LLM so like, it understands human language, right? So I think we just, like, should add these so that, you know, we're relevant and understood.
+
+Speaker  806237:20
+Yeah, it's, it seems like Cosmo is looking at a product, looking at its use, who's the target audience, how it can be used, like, what's you know, in order to make recommendations. So if you can answer all these questions and put it in instead of SEO, they have a new term for it now, but that if you can answer these questions, then Cozmo can scrape it off your listing, and then it'll make recommendations based on the question that the customers is asking and recommend products that can answer these diagnostic questions that best fit the customer's needs.
+
+Speaker  815866:40
+Yeah, but Fedor yesterday is called, they actually spoke about this basically, like, how to, how to actually create the listings following these principles.
+
+Speaker  818400:00
+They, excuse me, they didn't cover this level of specificity in terms of, like, the core diagnostic questions or anything. But I think by inputting the Amazon publications and white papers into GPT, they contain all of this information so that the listing can be created for you with these, with these attributes in mind, that's my understanding.
+
+Speaker  825381:20
+Anyway, yeah. I mean, we should definitely share like results, like, I'll look at the call for sure. I'll test like, on few ASINs, and then we should all share results of, like, real results, because, like, yeah, in theory, it sounds great, right?
+
+Speaker  829898:40
+Well, there was definitely a caveat that the more competitive spaces, it's not necessarily gonna help you, it may or may not. Then I think they called out supplements in particular, maybe beauty. I don't remember. Of course, I'm in beauty so not
+
+Speaker  835344:00
+and I'm in success, so
+
+Speaker  835824:00
+good. So we'll see. Yeah, this is a good experiment. We'll have a little competition. Can we get any gains. Yeah, so
+
+Speaker  838837:20
+I think real quick the brief that I'm looking at and some of the information for this mastermind is, as mentioned, it's pulled from your listing. So this is why they were talking about ai plus content and building in this cosmos stuff within the additional fields there to answer some of these questions that is specifically looking for. So this goes back to optimization of your listing and and maybe points are covered.
+
+Speaker  847466:40
+This way, a plus content will actually be like, actually has a good use, because I feel like most of the time AI, a plus content is now doesn't really make a difference. At least for me, it never really made big difference.
+
+Speaker  851536:00
+I mean, if it's a whole nother debate, I never quite understood the big push to pay someone $10,000 for a plus content, for one AI, and proof is in the pudding for what I'm seeing, because my listing, I've never invested that kind of money. And I think most the awareness is done within the 22nd threshold. No one's going through your listing for 20 minutes of whatever you got stuff in
+
+Speaker  859045:20
+and, yeah. Especially on mobile,
+
+Speaker  859594:40
+even less time it's just gonna be, here's what we recommend. So that'll be my product, right?
+
+Speaker  861178:40
+Yeah, yeah. Especially I call mobile is like, after it's called down, you see all the images, and then there's a plus. So it's like, basically, yeah,
+
+Speaker  863610:40
+Adam, it's always conversion, for me has always been very basic, and I haven't changed that in the years of doing this. That core keyword, basically is visible within the eight first 80 characters for mobile. You're already halfway there.
+
+Speaker  868432:00
+All right, so does anyone else have anything else or questions or curiosity?
+
+Speaker  871925:20
+Yeah, so George, just quickly with the Cosmo attribute list that we're seeing. So would that would those parameters be the ones that end up in the JSON array, or whatever,
+
+Speaker  876186:40
+based on this person who has trust as someone who is considered a subject matter expert with Cosmo Rufus, that was pulled directly from her report, and that was presented just a week ago. So I'm gonna go it's
+
+Speaker  879946:40
+somewhere on the back end, we have no idea where it's based, yeah, so you have to create your listing effectively for Cosmo to understand and populate its own version of those attributes.
+
+Speaker  883360:00
+So yeah. I mean, basically what was told to us is you should highly consider maxing out your bullet points to, I think, seven in certain categories. Again, writing it to feed Cosmo, so Rufus is fed as well. All within those questions, which are very helpful, but the actual JSON array objects, I think I posted in the chat, that's specifically what that is looking for, and does it answer that question? I guess you're going to be able to get some additional organic traffic somewhere within that Amazon space, hopefully with your product being recommended, as you mentioned, now based on what your listing says to the specific keyword, which is intriguing, because I just don't know why I would feed one over the other, and how often it does that, and if geo rank matters, but
+
+Speaker  898384:00
+yeah, well, one thing I just excuse me thought of it would actually be interesting to see, because you know how you can Change your A plus content between mobile and desktop versions. So for example, if we have a better understanding of the type of demographic that's shopping using desktop, which I assume would be like older, more Boomer types, no offense to anyone but and then obviously on mobile would be younger generation, I guess so it would be interesting to test that out as well, with different copy and like, different benefits and concerns, whatever.
+
+Speaker  910138:40
+Yeah, I'm with you.
+
+Speaker  910698:40
+I mean, some people the other day, there was the MDS boardroom meeting here in New York, and some people are saying similar to what you're saying, that they actually have different variations. So in different variation, every variation targets like a certain like demographic or need, right? And then obviously targets those keywords as well. So that could also be helpful, right? So to have each variation have, like, a slightly, you know, different angle to, you know, entice different customer, and what Alberto put in the chat, I have not tried, like, I'm sure that, like, Q and A actually can be it's picked up by Cosmo. I'm almost 100% sure I haven't really tried. Did anyone else try it to have like Q and A two feet Cosmo?
+
+Speaker  925690:40
+Yeah, I actually started paying people to go ahead and post specific questions that were important questions that then can be answered by us in really detailed SEO, sort of Amazon fashion has that helped. The problem is, with a lot of this stuff is it's unclear, like Amazon will not tell us they it's hard to attribute. I don't know if my sales are going up just because of some other levers that are being pulled, or some of the seeding of Q and A, at least did anything. Again, it goes back to the initial thought, ai plus content actually helped. You know, I don't know, for
+
+Speaker  936821:20
+me, I've tested with a plus like, some expert, some Amazon experiment, and I had, like, literally no A plus content or a plus content. There's zero difference. So it did not make any difference whatsoever.
+
+Speaker  939866:40
+I think it's really product specific. If you're buying something very specific, like, let's just say, a camera, and you're a camera expert, yeah, maybe you want to see that A plus content for what I'm selling. It's, it's a medical type product. People don't care. They just want to know if it works and if it doesn't, they're returning,
+
+Speaker  944464:00
+yeah, yeah, yeah. And for Q, a, I only used it personally to put, like, those terms that I could not put in the in the listing, or, like, you know, competitors names, or that, like, you know, but that's about it. Yeah.
+
+Speaker  950408:00
+Right? So if nobody has like other, like questions or things to talk about, I think we got to the hour. I'm not sure where Belen is, but I think her body die, okay, yeah, it shows outside.
+
+Speaker  955354:40
+Not in her fake office, which completely misleading and not obvious at all when she first came on.
+
+Speaker  957386:40
+So thanks to everyone for for joining. I'll try to to have like, some open discussion sometimes, and some presenters some other time, I'll probably contact someone that you know can can be helpful and bring some value, and that's it. So we'll see, like, we'll see you in a month.
+
+Speaker  962912:00
+Yeah, Ben, sounds great. Just
+
+Speaker  963504:00
+let's see if we can get that subject matter expert to maybe jump on a call. The problem is she charges. We just should know what she's kind of like presenting can maybe get us halfway, and then we don't
+
+Speaker  966725:20
+have to pay her talking about,
+
+Speaker  967589:20
+oh, we'll talk offline. Okay.
+
+Speaker  969013:20
+Okay, there is a there. Yeah, go ahead.
+
+Speaker  970261:20
+I was just gonna say, let's also stay in touch about some of these updates, because I'd like to compare notes as we go through some of the Rufus and Cozmo listing optimization and just kind of share what's working what's not. So we may be kind of fun if we don't get an expert next week, maybe one of us can go through like a quick study of one of our listings, what we've done will work with didn't work. I think that's kind of a good goal.
+
+Speaker  977360:00
+Yeah, absolutely. And you guys are all in the AI chat, so like feel free to share their you know, updates and stuff. So we we keep it going.
+
+Speaker  980000:00
+All right, great. Thanks everyone. All right.
+
+Speaker  980560:00
+Thank you.
+
+Speaker  980752:00
+See you later. Good day, guys. Bye. I.

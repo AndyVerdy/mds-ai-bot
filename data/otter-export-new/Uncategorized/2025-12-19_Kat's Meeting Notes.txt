@@ -1,0 +1,1016 @@
+Kat's Meeting Notes
+Date: December 19, 2025
+
+Speaker  64:00
+Do you guys want to go over some of the notes right now? Sure? Yeah, I can send them over, but just keep in mind that those are not
+
+Speaker  3648:00
+complete. So first I
+
+Speaker  6837:20
+Oh, okay, so let's go. So I split them into three. I mean, mobile and web. Those are the chain, the updates that have been happening, then admin and then fixed bugs. So the bugs, but again, it's not complete for mobile and web. The QR code module, so there's been an issue with the QR code check in, and we have updated this, and now it's working perfectly fine for Inspire. We're going to be using it. So now the QR code is working as expected, as it should. We added the QR code to the event emails, meaning I can actually share the screen maybe just second. So we have events, which we are big events actually, because for small events, we're not using QR codes. Let me switch that. Just here. Can you hear me? So for big events such as inspire summits, we're using QR codes. Check ins, right? And what does it mean? Let me do this best event that I have. So when checking QR code is enabled, we have the option here to enable the check in. So when it's live, we are going to send to attendees. Right when people register, they receive an email with registration details, and in that email, we added the QR code, meaning, let me add here as an attendee.
+
+Speaker  37968:00
+So every single person that will receive, okay, recent ticket and then recent ticket. So we have the option to resend reminders from from the here and let me open the email. So what we added, we added the QR code to the emails that they receive from the event like this, nice, a friendly mind of yours, and then they have a QR code. This is gonna appear only if the QR code check in is enabled.
+
+Speaker  46794:39
+Yeah, okay, so, so for inspire and Summit, we need to enable it
+
+Speaker  48378:39
+right yeah. I mean, yes, we're going to enable because we're going to be using it, but yeah, they will receive it. And what you can do if you want to send reminders, you can send it from here, then they will receive something like this. This is already happening, okay? So this is one or Okay, QR, code, model, then events, page, page redesign. So I'm not sure if you see this login, but basically, which was Singapore, I think we added a few new things. And did you want to go through the details here?
+
+Speaker  58629:20
+I mean, sure. So first of all, the vast majority are actually for mobile browser, meaning not mobile application that is coming next. For example, you maybe saw the Eugene's request about like location above default. This was implemented for mobile view and over here. So if you do not recall what it used to be. So we, first of all, we enlarge the thumbnail so it's a little bit looking nicer. So second of all, like we highlighted the location and type. So for example, in here, it's in person, but we need double check the location address it should pull where exactly it's happening. So the next one,
+
+Speaker  70821:20
+let me see what's the
+
+Speaker  71429:20
+location it might be, because we need to reconfirm the address, or maybe it's just retype the address, because I don't. Singapore was created, like it, no, yeah, over here, Singapore was created, like quite a while ago, right? So that means that I have no clue which actually location. Oh, by the way, since you here, pause for a second, pause for a second, go up to the you see the toggle below the map. Yeah, this. So basically, by default, everything you will see the location, which is obvious, but you can enable to for everyone to see. So let's keep it like this. Why not share? Because it's still close. Event is there is no exact location. There is no so and you can go back, and then you can actually go to Preview. Doesn't really matter. And you should see the map over here. And you see that by the Singapore Now pop. It's the reason why you haven't seen it, because most likely, Singapore was created way before we edit. Like, you know, this kind of addresses, updates, description, so it's would be the case. And now you can see the map. And as for the top section about who is coming, this is like first version, but you can set set up it in the admin panel as well. If you go back to Admin Panel Advanced Settings, you'll find additional scroll down, yeah. So basically, you can display this to everyone, to nobody, or just attendees only. That's three filters by default. For now, we're going to expand on this feature if they're going to be requests, but for sure, we have scheduled one additional feature for NGS to be able to click on the number 48 like in Singapore, if you go back and to see exactly the list. And also important, important notice is that you can see images. But if you log in into this event as a guest, you can make it public, by the way, doing that for a second and make it for everyone, and open incognito mode, and you'll see that actually, we going, even though it's supposed to be displayed. But yes, I'm never, ever gonna see images. It's just number. Okay, so it's hidden, if it's like for more for incognito mode, why should you see members faces? So just see the number. So then there was a request that we implemented over here, is not being able to so basically the redesign things that we targeted is like, make it clear about the location and dates. So location is above the full plus map, and the dates are now much larger and straight.
+
+Speaker  113120:00
+We add the location name, it's been added quite a while ago.
+
+Speaker  114080:00
+So yeah. So let's go back to the this one section, yeah, and over here, scroll to the top. So the new dates are now displaying you like it's easier to track, and this actually depends on whether it's multi day or single day event. If you go to inspector mode and click the mobile preview, you can click, okay, whatever, and, yeah, so a lot of information now above the port on your first screen, it's much, much easier. So why it matters for members, they do not care. They use an application, but for guess, they cares. So that's for the mobile app update. Plus we now can not can we will display the preview for links that being posted on social networks, we're gonna pull thumbnail as OG preview. So if you're gonna copy paste this into Slack, you'll see the previews that wasn't happening before. But now we will pull automatically. I mean, it sounds like, Oh, damn moment, right? Why we didn't have this on the very first place. Now, okay, now we have so yeah. Also about the bug fixes, important ones. Let me cover the really. Last one video that you are waiting for is going to be about the profile fields, the hot the fixes that we discussed with you yesterday are being moved to ready for testing for our strategic environments. I'm going to double confirm them, and if it's good to go, that means that we will release them on Monday. We're not going to do releases on Friday, so this should be close to be done the next Yep, fire.
+
+Speaker  145136:00
+Why does it say $1 is it because of the staff testing?
+
+Speaker  146256:00
+Yes, because we do have a plan for $1 and its visibility. So basically, we display the lowest price available to this member and this admin. So admin, by the way, that's about the visibility rules. Admin must see everything. That's one of the fixes that we did.
+
+Speaker  150165:20
+Yeah, we updated everything. So right now you if we go to tickets, we see a lot of tickets, right? And admin is every, every single ticket. That's why there might be one ticket was just $1
+
+Speaker  153621:20
+Okay, so members won't see that $1
+
+Speaker  155157:20
+Yes. Members, also, there is about sold out, I believe, right or No,
+
+Speaker  157674:40
+no, that's going to be the next release. Okay, let's not cover this. It's not tested yet. So if you can go to staging doing that and one couple of things that are coming we aware of it so it's not like something that you will see on production. But just want you to know that we are actually almost done with this fixed login as admin as member, left section. Oh, whatever. Yeah, it is. So basically, the login as a member is fixed, but again, it's not going to be released today, but it's going to be released next week. So that issue with the buy screen is going to be resolved. Another big one,
+
+Speaker  172490:39
+staging it wasn't, yeah,
+
+Speaker  173018:39
+I'm just saying that I saw Courtney's, I believe. What was you Courtney, who said it's still not working. Yes, we know it's almost, almost there. So the next release is going to be fixed?
+
+Speaker  176640:00
+Is the new the new redesign of the event space?
+
+Speaker  177952:00
+Oh, yeah, yeah. You can see, actually, side navigation, top navigation, automatic draft controls, yeah, quite a lot of things if you use the call. Okay, we're talking together. Okay, let's me allow you to speak. I could,
+
+Speaker  182229:20
+yeah, we kind of copied, maybe intercoms,
+
+Speaker  183365:20
+not maybe, definitely.
+
+Speaker  184117:20
+So you see the save button right now. It's over here, and you have to scroll down if you do one change, but the updated one is going to be over here. So if I do at least one change, I'm going to have safe changes. I'm going to have the preview, and it's always going to be here. So we updated the navigation basically, and it's going to be updated soon. So we're testing this out to make sure it's working out and it's going to be updated.
+
+Speaker  190298:40
+So okay, I have one more request. So if you go back and look at the Singapore of all the different ticket types. It's very, very confusing to see like, what is visible and what like. I don't know if there's a way to make this ticket look more I don't know easier to read with.
+
+Speaker  196815:59
+I mean, let's think about it, guys. So let's go to Singapore, because, yes, there are a lot of tickets, and let's take it together, because we are using crazy rules, right? So it's always some kind of weird combination. So and like, how would you
+
+Speaker  201605:20
+talking about like live right now?
+
+Speaker  202565:20
+Like, maybe saying like live, or like enabled or disabled, or something like that, where we know, like, is this actually
+
+Speaker  205290:40
+go to Singapore and pause in tickets?
+
+Speaker  206186:40
+No, I wanted to show something, but I guess is
+
+Speaker  206970:40
+it because, like, wild apricot, sorry for ticket types, and wow, apricot, you can see the ones that are visible by like, because it's blue, and then the ones that are not right, yeah? Something like, Yeah, something like that. Like, the ones that are not actually visible should be like, grayed out. Does that make sense? Yeah?
+
+Speaker  212768:00
+Like this, like, we have lives, yeah? Like statuses, you basically, you want this for for tickets, yes, oh yeah, that makes sense. Like, pause, completed, and stuff, yeah, like, paused, or live, upcoming and yeah for news. I think we have this for news. Yeah, it's the same. So basically, you understand, I think this can be implemented because we already have this.
+
+Speaker  221402:40
+It's more about, like, default rules, like, for example, you can already Select Visible tickets and hidden tickets. So basically, we do have set of filters, like, you can filter it already, like free page. You can do a filter or or visible. You can select the date range for tickets, etc. So basically, now what you want to do gonna go to a stage, okay? And what you want to do is basically add some sort of filters, like we have for events, like scheduled,
+
+Speaker  231477:20
+live, yes, that's why I'm talking, yeah, we need to implement that for news. We also have this. So I believe, yeah, this will be helpful,
+
+Speaker  233813:20
+but this is going to be enough for you. Is still going to be quite a lot. We'll see. We'll see the point. So if you go to tickets, you're gonna see they have several filters already if you're going to open any test event over here.
+
+Speaker  238234:40
+This is not actual Singapore. This is a test one that we do,
+
+Speaker  239322:40
+and it's not even has a pay tickets, by the way. Yeah. While doing is doing this, since we're talking about tickets, actually, can you go to event builder? Actually, good point. We had an issue that took us quite a lot time to debug, but it was actually relatively quick fix, doing a please. Okay, scroll down. No active event. I Okay. We had it show your screen. Okay, no, doing it. No. You've been testing this. Explain the situation around external and group of secret system that it was fixed. I'm gonna Yeah.
+
+Speaker  250906:40
+So the reason, what was the issue members not seeing events on the web? So let me explain. What was the issue. We have external ticketing system, and we have group of ticketing system which are supposed to be working separately, right? Meaning, if I switch from one to another, the restrictions, if I have one, any of those should not affect the other ticket system. We had the issue that it was before it was an external ticketing system, and it has a had a restriction. For example, it was restricted to me, and after that, it was switched to group who's ticketing system. So that was the issue, why people did not see the event because of this switching between ticketing systems. So we fixed this, and now whenever is enabled one system, it's just going to be showing under those if there are any restrictions. So this issue, so right now, it's fixed and but yeah, so this should not happen anymore. Okay, invest mastermind taking papers members to another page event.
+
+Speaker  270698:40
+That's exactly the case, exactly the case. You saw that video. Yes, and that doesn't actually go back Dona, because that's exactly the same case. What was happening is that you, we not you, we had exotic, consistent with links enabled, right? And then we selected groupers. And as Donna just mentioned, we were not ignoring so basically, that's what, what happened. So if you go back to groupers, save it. System still being written, rules on the previous page, as it's actually there, and that's why they've been redirected. So there was some specific new combination. Long story short, it's fixed.
+
+Speaker  281717:20
+So yeah, you see the link was youtube.com, right? The first external ticketing system. Then we switched to grupos, and what happened is, was people were still redirecting to YouTube because of this issue. So this was fixed. Yeah, so this was the same issue.
+
+Speaker  286298:40
+Kat, are people being able so the registration page that you're sending for the InVEST mastermind, they're able to register themselves now, right? Like, are you manually, okay, yes.
+
+Speaker  289440:00
+Like, it's like Monday or Tuesday. We fixed it. Okay, cool. Okay.
+
+Speaker  290608:00
+Next one is event description spacing. We have this ticket open. We'll have the person chair King. So, yeah, this is in progress. Still. I was able to see the same issue. So we'll check this changing date on past event, or be able to undo edits after being saved. So right now, if, if the event was completed, right? So if we go to Milan, I would not be able to if I change the date, I will not be able to go back. So you're saying the ability to edit past events. Yeah. Andy, well,
+
+Speaker  301898:39
+sorry, this is like two different things, like, so change. So, for example, because I like duplicated an event for a chapter, and she changed the date on a past event instead of the new copy. So he was trying to change the date back to the original date, and it wouldn't let her,
+
+Speaker  306831:59
+ah, so if you're going to call on event that is close, you cannot change the date. Yeah. Basically, when we colonial, we need to set up. So then Can I record this? Basically, after cloning the event, we need to set updates as starting from today. Basically, we should not clone the dates of the cloning event.
+
+Speaker  311365:20
+Basically, no, I think this is different. Courtney's talking about different.
+
+Speaker  312693:20
+Yeah, she accidentally changed the date of the of the past event instead of the cloned event. And so
+
+Speaker  314389:20
+imagine I went to Milan right now. I changed it to, I don't
+
+Speaker  315946:40
+know, yeah, we
+
+Speaker  316794:40
+have a let's, yeah, let's do it. So we have a completed event. Let's do which was, sorry. So I go to this event and I accidentally change it, yeah, to today, yeah, okay, well, right, it's still gonna ask you right to i, so I accidentally did this, yeah, and I want to go back and change it to the date it was. And right now?
+
+Speaker  326069:20
+Yeah, oh, right. So
+
+Speaker  326901:19
+it did, which makes sense, actually, because, but yeah, yeah.
+
+Speaker  328309:20
+It doesn't really matter, because the date has ended, but it is good to record it, you know, like, what dates these happen? So if we accidentally changed the date of a past event, we won't know if this is correct if that happens. So that's why we want it to be consistent and accurate.
+
+Speaker  333002:40
+Like, yeah, you still want to have this as a past event, but the reason why we restrict and this is to prevent you from, by accident, selecting the wrong date correct. So we need some kind of a safeguard, so like, maybe checkbox set up as a positive. I mean, sounds
+
+Speaker  337760:00
+like a super niche case we can think of.
+
+Speaker  338464:00
+Yeah, I would say that if we're just going to allow you, it's gonna do more harm than good, because it's most likely preventing doing a lot of issues. But just I get where I'm coming from. So we just need to find the solution. What I thinking is about some kind of maybe additional checkbox to unblock past dates,
+
+Speaker  343493:20
+something like this, yeah, maybe, maybe Yeah, to have, like, a checkbook here, do you want to edit past? Yeah? Something, okay, sorry.
+
+Speaker  345653:20
+The other one was undo edits after being saved. Like, is that possible accidentally save something that you were like, oh shit, I want to go back to what I originally
+
+Speaker  348666:40
+so I would say the logging history is possible for sure. Let's do it again. Let's make a note and ask our front end if we do have logging system, because there is no magic over there. It's totally possible. Okay, okay.
+
+Speaker  352960:00
+New testing field showing in the member profiles, checks checkbox,
+
+Speaker  354176:00
+yeah, I think this is where, and he was using the test,
+
+Speaker  355872:00
+yeah, you can, by the way, you can go, by the way, doing and show,
+
+Speaker  357456:00
+yeah, we need to
+
+Speaker  357925:20
+on staging that is actually basically working, if I understood the issue correctly.
+
+Speaker  359669:20
+Gabby, what was the issue?
+
+Speaker  360357:20
+So right now we are seeing the testing fields that you're working with. We're seeing 3452, 455, testing fields. You don't see any. You don't see it.
+
+Speaker  365130:40
+Which one I'm
+
+Speaker  366042:40
+gonna do a screenshot.
+
+Speaker  367274:40
+Where do you see it? On mobile
+
+Speaker  367754:40
+or no on the web. Those were there. They are after the hobby field, all the way down. When you go,
+
+Speaker  372431:59
+yeah, what is the field name doing?
+
+Speaker  373439:59
+All the way down. Yeah, there no wait.
+
+Speaker  375109:20
+Okay, I see only one date.
+
+Speaker  375669:20
+The only thing I can think of is maybe some cash issue. If you go to Profile, will you see this in your profile?
+
+Speaker  378549:20
+I think I know why. Let's see, and
+
+Speaker  380074:40
+it doesn't let me advance again, like, like the other day I showed you, Andy, I feel them all, and I hit save changes, and it doesn't let me No, no.
+
+Speaker  382970:40
+That's, as I mentioned, that's kind of completed. We need to push it to production.
+
+Speaker  384528:00
+Okay, all the way down. Oh, I see them. Okay, yeah, those are tests. But where do Yeah? This is not supposed to be here. Where are the custom fields? There were two. Is it in membership,
+
+Speaker  390757:20
+custom fields you need to go to audience and then custom fields, esthetics,
+
+Speaker  391861:20
+custom fields, audience, custom fields, okay, yeah,
+
+Speaker  393973:20
+somebody was testing them. Forgot to Yeah, I know who did it.
+
+Speaker  396106:40
+It might be I did this. Oh, maybe you Okay, sure. Blame doing okay, so they're done.
+
+Speaker  398506:40
+Sorry, yeah, we deleted them. Okay, next,
+
+Speaker  400522:40
+still, in profile. Can you go back to staging, and can you actually open any person edit? Another thing that is coming next week is so called addresses normalization. So can you just so basically how it's working? Careful.
+
+Speaker  405712:00
+Address. Is it here? Yep, yeah.
+
+Speaker  407989:20
+Again, admin can see all the fields, but members is going to see just one single field, which is going to be a full address. And then we're going to pull all the data automatically. He will be able to add the unit, but he will not be able to change city or anything else. That's for the purpose of address normalization, so people cannot type whatever they want. It's pulling from Google, okay, but we will be able to change anything. So you can show, by the way, where are we going to use it? If you want to click on maps, you can actually zone in that mental do your way. Do whatever you want, doing
+
+Speaker  420224:00
+it the Date field. I don't know what that's supposed to be used for date.
+
+Speaker  422245:19
+Okay, let's see eight. Okay, still here,
+
+Speaker  423797:20
+it's gone. Okay, perfect.
+
+Speaker  424405:20
+If you see another field like this that is not meant to be there, go to audience settings custom fields and delete okay. Or if, for example, there's one question that is mandatory. For example, this one is mandatory. And you don't want it to be mandatory, you can edit and change. So, yeah,
+
+Speaker  429498:39
+okay, perfect audience. Custom fields, yeah.
+
+Speaker  430698:39
+So, yeah, this is coming the new member map. And if I click, for example, this is the profile that I just edited, right? This is another environment that we're testing everything out. So this is our testing environment. So you see all the custom fields right now for here from here that we have, I mean the ones that are displayed publicly. Yep, you see, if there's one field. We can tell them, this field is required and this field is visible to all members, right? For example, the profile link is displayed to all members, but we have others that are not displayed to all members. So the change that is coming is that on the member profile, I will be able to search remember, based on location, based on whatever, and if I click on view of their profile, it's going to see all the custom fields that they added. Sure, nice. Yeah. So this is, this is coming, yeah.
+
+Speaker  447434:40
+So clustering, finally, yes, that with the pin overlaps, removing exact locations, ability to search through custom fields. So actually search people, for instance, not by name, but location or by any visible profile fields to message people and all that stuff.
+
+Speaker  452640:00
+So see, my niche is photography, my hobby, and if I search photography, I will be able to find the member who has this in that hobby, right? So if we'll have, for example, what do we have here? We have niche.
+
+Speaker  456405:20
+So if niche is available, if niche is hidden,
+
+Speaker  457765:19
+if niche, niche is available. So basically, if I'm gonna, once we do this upgrade searching, for example, art here will show everyone who is in that niche, right? This is, this is an adaptive Yeah, that's coming. So you can basically use search member, or I can say, search a member. For example, I want to search eon right, and it's gonna, it's gonna appear
+
+Speaker  465472:00
+and people hide their profile from the map.
+
+Speaker  466912:00
+Yes, it is not here yet. It's a, this one is a proof of concept, but yeah, admin should be able to remove it. Member should be able to remove himself as well from his profile, he can request to remove him from the map, and admin can select the accuracy on the from the exact location up to the city location.
+
+Speaker  473413:20
+So okay, and then this map only shows members, right? So if a member exits from their membership. They're no longer,
+
+Speaker  475946:40
+yeah, that's right, but there is a huge but he should be removed from the application, because we, I'm kind of, currently, I'm working on something you don't see guys, but vast majority of time are spending right now, it's all about this type synchronization. And right now we have, like, ridiculous mess about syncing the data, yeah, across all these platforms. So basically, there is no source of truth. Yeah, we think that it is irritable, but believe me, it's not. I mean, we want it to be. Long story short, we have some plans coming from all the people, some plans coming from go high level. Some plans from application we have nothing. Some plans coming from stripe and air table has nothing in it. It's just no billing migration. So that means that plans mismatching. So if we remove somebody from air table has absolutely no information or the application you remove them. But I'm working on this. I still have couple of these for this year. I just yesterday, completed automations to sync the data from stripe. I'm planning to complete by Monday, syncing naming conventions inside the application and air table and stripe. And finally, after when it's done, I would be so right now. Just do not want to remove anyone. I can remove someone that is supposed to be there, so we go in there.
+
+Speaker  497024:00
+Okay, next one when duplicated an event that has add ons, how to eliminate the old add ons from the duplicated version doesn't seem to have an intuitive delete button, yeah.
+
+Speaker  499664:00
+So what I did is, with the Tiktok mastermind that's coming in January, I duplicated that event from, I think, the investment one. So initially the investment had a yacht from the Tiktok one. And I can't seem to
+
+Speaker  505621:20
+unmute that this is going to happen. So basically, initially we had that duplication that been duplicating just the description right then we had the request, can we duplicate everything so and we did it. So that's what you get, but your request is absolutely reasonable. We had an idea to actually allow admin to select what types of fields you want to duplicate. I guess it's time for this phase. So I just was waiting when this is going to happen. So basically, my idea is, when you duplicate an event to tell to the system, do you want to duplicate tickets, description, adults, dates and just check boxes, basically.
+
+Speaker  516352:00
+So we would have to select what we want to to duplicate. Yeah, it's
+
+Speaker  517957:20
+click up when you move from one space to another a ticket.
+
+Speaker  519893:20
+You can click and call on the ticket, pretty much duplicate, make a duplicate,
+
+Speaker  522133:20
+and what you'd like to copy, customize, customize, right? So I want this, this, this. I don't want this, yeah.
+
+Speaker  524250:40
+But for example, if I, if I copy everything, then even if I copy everything, I would have the ability to go, like to the list or whatever, and delete ones that I don't. And you should be able to do it now, yes.
+
+Speaker  528762:40
+Now, let's
+
+Speaker  530064:00
+check it. Sorry, so
+
+Speaker  530480:00
+this is how you can remove
+
+Speaker  531631:59
+No, I know the issue. Wait a second. Let's double check it. So when you duplicate an event, you should not duplicate attendees, right? The only reason why you you cannot delete adults is, normally, is when you have sales for this adult.
+
+Speaker  536917:20
+No, this is how to how to remove, add on. So go here, click on, invest and just select Application Form. Oh, sorry, sorry, my bad. Sorry, yeah, I don't start here,
+
+Speaker  541130:40
+but it's from the Tiktok one.
+
+Speaker  542026:40
+Tiktok, which one? January?
+
+Speaker  543018:40
+As 2020 26
+
+Speaker  544346:40
+January. It's the 2026, one,
+
+Speaker  545536:00
+this one shadows.
+
+Speaker  546976:00
+Okay, it's not here, no, but you go to the tickets, okay, and then you we have their atoms count.
+
+Speaker  549631:59
+Oh, I see. Okay, that's a bug.
+
+Speaker  550501:19
+Okay, so, yeah, this is a bug. Yeah,
+
+Speaker  551141:20
+that's new. That's new.
+
+Speaker  552357:20
+And the, do you think this is the one that we were talking about, the video we sent, the video I sent to you about the,
+
+Speaker  554773:20
+yeah, that you cannot, we do have a ticket, by the way that you doing, accredited by you that you cannot purchase a ticket without purchase. Not only, I believe this is the reason.
+
+Speaker  557930:40
+Oh, okay, yeah. But okay, actually, this is a, it's a, oh, here, up
+
+Speaker  560720:00
+is that one look that is the investment, and then when they click reserve spot,
+
+Speaker  563872:00
+yes, This one is related to this.
+
+Speaker  565829:20
+Okay, regardless, it sounds like it's all about the same, and the relation related. So it's already kind of top priority.
+
+Speaker  568213:20
+This is a bug. This is a bag that you cannot delete the items. So we'll check this, and we'll make sure it's working.
+
+Speaker  569861:20
+Not that you can do this actually displaying tickets, and most likely, if you go to preview this event, they try to try to purchase this system is going to force you to touch head on. Something tells me,
+
+Speaker  573114:40
+okay, we'll check it out and we'll see okay. Next one free price fields in the event builder disappeared. Yeah.
+
+Speaker  576058:40
+So when I published this yesterday, I went to the mobile app, and then I saw it was free, and I went to change that back to put the price, and then I couldn't find the field
+
+Speaker  580608:00
+depends on the event. So if we're talking about some kind of an event that external tracking system has. In this case, you defining the label, if you're talking about the prices, that means that it depends on how you preview in the content. So let's, let's do step by step. First of all, doing them. Okay, keep rushing. No problem.
+
+Speaker  588122:40
+So you're saying you created a tick tock event, yeah. And then this one,
+
+Speaker  590298:39
+it shows it's free, but it I mean, okay, let's check.
+
+Speaker  591322:40
+Do you have three tickets? We do. So you can see the if it's visible to you, for and the euro staff, if you select the free ticket visible to staff, for example, you should see that it's free.
+
+Speaker  595232:00
+Let's see who has the but it should say,
+
+Speaker  596416:00
+maybe I would say that we can add the logic that if there are more than one ticket and the ticket and there is at least one pay ticket, we should not shift. We should not show free, but we should show something like from $0 if you have available tickets to you, starting from free to paid.
+
+Speaker  602789:20
+But as a member, though, they wouldn't see the free unless they're in that standard plan, right?
+
+Speaker  604522:40
+Unless they can see the free ticket. Basically, yes.
+
+Speaker  605578:40
+So if a member has to pay for the event, it'll not show free, it'll show the starting price.
+
+Speaker  607354:40
+Correct, correct. Basically, yeah,
+
+Speaker  608090:40
+you added stuff to if I remove stuff, because I'm on the stuff plan, right? And if I go and update,
+
+Speaker  611344:00
+it should, let's okay, we're opening Okay, still. Should it should I go to
+
+Speaker  613280:00
+refresh? We
+
+Speaker  613717:20
+have host ticket. You also have to remove host.
+
+Speaker  615045:20
+Okay. Host is also free, so if I go and remove it from here, okay, I update.
+
+Speaker  618565:20
+Come on. It doesn't want to share. Okay, here.
+
+Speaker  619818:40
+Oh, tick tock.
+
+Speaker  620538:40
+Okay, it shows from 295 so basically, because you're an admin, I'm seeing you.
+
+Speaker  623114:40
+Yeah, yes, pretty much courtesy of an admin. So yeah, but it's the right we think you should see all the possible options. It would be much confusing, I believe, if you would not. But now with, by the way, you're still using, like, the whole list of people, just in case, guys, we can think of it of like, whatever text you might want to use, and I can actually add it so you
+
+Speaker  630469:20
+see Andy on admin. It shows from zero hours,
+
+Speaker  631413:20
+right? Because your admin, admin can see everything.
+
+Speaker  632229:20
+Okay, now click on tickets, though. Can you click on tickets?
+
+Speaker  633189:20
+No, yeah, yeah, I will see everything. But I mean stuff
+
+Speaker  634341:20
+you you are Uranus.
+
+Speaker  635610:40
+We should update this on the app so it should say like this, if there are more tickets,
+
+Speaker  637242:40
+yes, that's, that's, that's kind of a that's a good feature. If there are more than one ticket and one of them is paid, you should not show three. You should show from $0 like to match the web, by the way, guys, do, we need to cover the situation about labels and the URLs for external systems so you don't type like zero, yeah. So let's go back in that mean,
+
+Speaker  645392:00
+but this should be external ticketing. What event Do you have production? Doing it, please? No, but we have events, for example, this one, this is external, yep.
+
+Speaker  650213:20
+Okay, we see external ticketing system, and we see price label and package. This is the call to action link, right and this is the price label that will be displayed
+
+Speaker  653578:40
+basically right here.
+
+Speaker  654330:40
+No, what I what I noticed? What I noticed that you guys used to type just zero and type it just and that's go delete this and type zero, save and preview. I saw like 10, like, like a 10 events done in the following way. You see whatever you're going to type there. That is what is going to display. Is basically just texted. You can test wrong or whatever. Whatever you type up until the moment is under 25 characters is going to be placed for this button. And that means that if you whatever website you want to actually match the accurate price, like, for example, one of the things I posted is that we have MGS inspired, and it used to be $0 which is not correct,
+
+Speaker  668490:40
+okay. So we can put from
+
+Speaker  669066:40
+you can check anything yes you want. You can attend, smile, smile it.
+
+Speaker  670794:40
+So maybe in the price label Fernando, for these, we can say, check website for prices, sure or pricing,
+
+Speaker  672624:00
+excellent, excellent, good. Thank you. Lorena, that is good.
+
+Speaker  675520:00
+Yep, perfect.
+
+Speaker  676432:00
+Okay, in the last one, send emails to event team about events being at capacity. This is a feature request, yes, and we'll check it out. So yeah, we'll see.
+
+Speaker  679669:20
+And then go ahead, yeah, the couple of things that is coming. Maybe you can go back to stage. You can show some of the updates on your guinea site. If you go and pull his test event. You can go to dance. You're not too fast.
+
+Speaker  685482:40
+Sorry, can't deal with you doing it. Please do you got to begin black and white.
+
+Speaker  690608:00
+I hope you're not registered, by the way. Close this page black and white.
+
+Speaker  693712:00
+Click tickets, and maybe we'll see this over there. Yeah, cool, nice. Not everything, but a lot of this stuff. That's the new page that is going to come soon in the next update. Maybe you it looks to you extremely similar, which it is. But first of all, it's going to be again, mobile friendly, and you're going to see quite a lot of things over here. First of all, it's not visible here, but you're going to see sold out status. So it's not like what you asked guys. You been able to be notified through emails or maybe additional banners in the in the admin. That this certificate was sold out is a nice feature to have. I'm just saying that we are capable. We're already going to do this on front end. We're just going to add this capability for admin. But also over here, we're going to add three additional labels, like displaying the discounts. And with the labels, it could be price of or percentage of availability. Basically, it's dynamic rule that is going to show you how many tickets are available depending on the quantity we go. Long story short, we show you available up under 99 tickets, but it all depends on what is the actual event capacity. So we're not going to show you like 99 tickets available for if there are just 100 tickets available. So basically, with just showing you no more than 10% when, when it's 10% so it should be below 10% so that's a good scarcity moment. Plus, if you're going to set up as end date for a ticket. It's again, it's not displayed here, but you'll see time left until sales is gone. So and there's going to be displayed 48 hours before. So a couple of new things. And the request about displaying you information on the admin panel, I would say, I would expand on this. I would say that you need to see this in the admin table as well, on top of generic ml so, but it's I just want to agree with this, with this feature,
+
+Speaker  731269:20
+depression, do I know what? Nothing, nothing, all good.
+
+Speaker  733930:40
+I wanted to show the other option.
+
+Speaker  736746:40
+Let let's do it later, when it's when it's going to be released. We still kind of destined tickets.
+
+Speaker  741349:20
+Tickets, yeah, like this. That's cool.
+
+Speaker  743589:20
+So this is the difference, this is the percentage, and this is the, like, the amount, yeah, and then time left by, and if it's sold out, it's going to have sold out, and it's going to be dark. And also, one more thing, if you see maximum tickets per order, if I put, I think it's working right now. So it's only one, so I can only choose one. So if I choose one, the others are gray. If I put, for example, if I'm gonna do, if we're gonna do three, Save Changes preview, so I'll be able to select three, and then it's gonna be great. So I do want to there
+
+Speaker  756704:00
+was most likely for the first one, there was minimum quantity. You see two. Yeah. Yeah. So, yeah, I don't know whether we why we even have this feature. Who would set up like minimum quantity, maximum quantity makes sense. When would you ever restrict the ticket that you can purchase minimum two? No, this sounds a little bit weird, but again, you can, but you can do it,
+
+Speaker  763114:40
+yeah, so this is how it should. But again, this is coming up. So the update, oh, did we miss anything? White screen, so there was a bug. Oh, yeah, another thing that I want just to mention we discussed with Kat about this. So for example, for Singapore, since we started selling Singapore on the app, but there were still some people who purchased on another platform, right? And once you had another ticket slide, for example, guest ticket. And we had the case with, I don't remember his name, there was one member who was just added. For example, if I go and add one member through the attendee type like we did before, this member, for this member, the event is going to show us registered, and that's it. I will not be able to edit the ticket, the order right, because I didn't actually purchase anything, so that's why we added manual orders. Let's let me, let me show you. So I'm added right now as a member. It's my member view, so if I go to event, I will be able to see it. I'm registered, right? But I will not be able to edit the word because I didn't why it's not showing it should be showing that it's registered. Oh, I'm staff, yeah, I'll see more, but so I will not be able to edit my order, right? But if I go and I create a manual order for me and I mark it as paid. Oh, Marco. It was Marco. He was not able to add another ticket, a guest ticket. So this was why, because he didn't actually had an order. So if you have members, check,
+
+Speaker  796442:40
+so you need to take a look so all the members who have been added manually, if they don't have so this member, he was added manually, but he does not have a purchase ticket, meaning if he wants to buy another ticket, like a guest one, he will not be able to do it. Got it. What we need to do for him is we need to go create a manual order, because he already bought the ticket, right? We need to add manual order for that specific person, select the ticket for which one he purchased, and then mark it as paid, because he already paid for it. After this, he will be able to edit his order and add another ticket.
+
+Speaker  807525:20
+So essentially, it's a two step process, or we just add them manually, and then they'll pop up in the attendee list.
+
+Speaker  809669:20
+You guys need to think about it like creating a an order in official way or in the past way for the most. Basically, you can add people as an attendee, but at this point of time, I believe the only reason why you should use existing authority from here is for staff, team, partners, everyone but non members. Basically, there are somebody who is not supposed to have a ticket. Because also, remember, when you when you add in creating all you pretty much doing talent to the system that this person exists for this event, and that's it. Nothing happens that in the wide awake if you're going to it's bypassing everything. We're not going to send him an email. He is not gonna be able to edit order because order doesn't exist. We we're not gonna see him in air table because order doesn't exist, right? So basically, if you want to do it, like to see him in the roster through the automations, you need to create an order, because we're expecting him to see an order, including the price he paid. By the way, when you create an order, when you enter in the press, this is just for us to see how much he paid. Otherwise, how else would we know?
+
+Speaker  829434:40
+Okay, what is going to happen? Is this what we had with Kat? So for example, you already have those people in the roster, right? Those currently you have 22 people. Well, not everyone, but you see the ones who have ticket purchased, those are okay, but the other ones. So how many do we have?
+
+Speaker  834720:00
+You have manual filter, by the way, six.
+
+Speaker  835520:00
+Yeah. So right now they are in the roster. But if I'll go and create a manual order is going to duplicate in irritable. So what we did with Kat, we created the manual order and then we just deleted the duplicate. So right after you create the manual order, just make sure to go and delete the duplicate from the roster.
+
+Speaker  841477:20
+But if he is so, but the question is, how he appeared on the roster, on the first place? Was here that manually,
+
+Speaker  843466:40
+I believe. So, yes,
+
+Speaker  844106:40
+okay, basically, yeah, you don't need to create records manual if create a manual order, but if you already been
+
+Speaker  845978:40
+there, is going to create duplicate. Yeah, that's why, that's why it's going
+
+Speaker  847082:39
+to duplicate. Because the person, for example,
+
+Speaker  847994:40
+let's see. So Damon is already here, and if I go and create a manual order for him, it's gonna duplicate.
+
+Speaker  850528:00
+Yes, duplication is because somebody created it manually their table and their system expected. No, it's not duplication. It's not mistaken. Worked as intended, good. Somebody just did double jump. That's it.
+
+Speaker  854181:20
+So we just recommend for I mean, I think this is the only one event that we had registration on the platform and not on the platform. So I think if you go on those 22 people and see who does not have a ticket purchase, and make this manual order for them, then they will be able to add another ticket and they will show up correctly over here.
+
+Speaker  861162:40
+So that's the thing, by the way, Order Manager, managing table is also on the way. Now, you know, you have the transaction screen for quite a while, but we're going to rework in a similar way, like order screen. So basically, over here, you can see all the transactions in one place, but we want to be able to display also orders by people from the people's perspective, so the whole screen will be reward, and that's kind of schedule
+
+Speaker  870165:20
+would find recording like a process to add, not, not for this example, specifically, but the process To add people.
+
+Speaker  874053:20
+We do have my SAP, it's
+
+Speaker  875690:40
+no, I'll
+
+Speaker  876474:40
+make sure we did some changes, but essential, maybe you can double check, of course, doing a but it's a 90% correct.
+
+Speaker  878810:39
+Basically, it might be out at it. I'll check it out. Yeah, so at the moment you have, you can add existing attendees by adding this. If I do this, if I add this, this just adds him from backend, right? It does not connect him to a ticket, even though he might bought one, yeah,
+
+Speaker  884784:00
+let me explain the different way. Do you remember that in the application we you do have like Kat In this step, right? And that in this step, my we might have like members, guest parts, purpose, Team stuff and bunch of other things. When you create a statuses over here, it has nothing to do with his membership status. It's just for this given event, his status will be member. For this just given event, his status might be speaker. We might take Ian or Eugene and make them speakers instead of members, and they're going to be displayed in the application as the following. Statuses are relevant for a given event only. It's not going to change this answer. So that means Donna can be added yourself as a staff, as a partner is a member. Doesn't matter.
+
+Speaker  897088:00
+But in order to do it correctly, it just needs to connect with the manual order if he didn't purchase through the app. So this is just the one thing. I'll make sure to update the SOP so you guys have everything correctly. I believe it's outdated, yes, so make sure to do that.
+
+Speaker  901248:00
+Thank you. So basically, national orders are like the official purchase of the ticket, and the attendee list is just like the list, however we want to configure it for that event is that
+
+Speaker  906213:20
+it yes and yes? Mainly Yes. But for this, this summit was added just this was the first, first event that we had sales on the app right. And some people did not purchase it through that. They still purchase it through the old system. And that's why, for them, we still they, they have bought the ticket. For example, if I do import type and I click manual, meaning they were added manually, but every single one from this person, they have a ticket bot, right? Cn, so every everyone from here, 22 people, they did buy a ticket, just not through the platform. That's why we created manual order to connect the member to a ticket he already bought. This is like, just manual thing. Ideally, we would not have to use manual orders, and everybody should just buy it to get through the app.
+
+Speaker  921365:20
+Yeah, okay, but because
+
+Speaker  921877:19
+we had those things with two different platforms, that's why we have manual order.
+
+Speaker  923434:40
+Yeah, three platforms,
+
+Speaker  924714:40
+yes, Courtney. So another feature request I asked for was the send a reminder email, if there was a way that admins can receive the or the events team can receive that email that gets sent out.
+
+Speaker  928624:00
+Oh, you asked no to it. I mean, sure, it's easier. I mean, yeah, I haven't heard about this. Isn't request, but it's easy. With what's speaking, we intentionally remove this stuff, but on the bill, if I asked your opinion, let's send it. That's fine.
+
+Speaker  932976:00
+We just want to see what the email looks like, you know, like when we send it and,
+
+Speaker  934021:19
+oh, you will see it okay. In this case, preview emails, previews software that is on the pipeline. But for now, let's just send you the copy, because it's the easiest way, yeah. But also doing, I can actually check it at any point of time and edit some of them as well. So from the Sangria reminder, is there anyway?
+
+Speaker  940778:40
+All right, sorry. One more thing, forms,
+
+Speaker  941946:40
+no, let her finish Yes.
+
+Speaker  943162:40
+Or forms, because Kat asked if we can have only statements, not questions, to the form. So that's another feature request I don't know if. Then your pipeline, yep, it is not solid, perfect. And then for forms, every single time I duplicate or make a copy of a form, it's so hard for me to find it. It's like, always at the very bottom, and I have to go to like the next page to find it.
+
+Speaker  951509:20
+By the way, I believe we fixed the form search that you remember, like several weeks ago that we didn't report that we fixed. You remember when there was an issue that you were not able to use search to find the form? Second of all, we are actually planning to rebuild the whole form section in general. So I would say that we need to doing a lack of feature request. We need to apply forms and apply default, default sorting by
+
+Speaker  960490:40
+date of creation, and this should help here a little bit.
+
+Speaker  963104:00
+Yeah, okay, here it's a bit complicated. Yep. Grouped as well. I have the same issue when trying to find software, yeah. And then the lower part where you get to select the page that you want like to go to, to the next page, and so, yeah, we
+
+Speaker  972122:40
+need to fix it. Yeah.
+
+Speaker  972666:39
+It's hard to find Yeah, or it sometimes doesn't show
+
+Speaker  974010:40
+no, it's below. It's actually the reason is because there is some kind of tiny force for no reason there is tiny, small scroll bar, yeah, yeah, we need to fix it with super annoying. It's not just here, by the way. It's everywhere. I don't know how did this happen something, but we will do it. Okay.
+
+Speaker  980928:00
+I think we covered everything. Admin, can see everything, yeah, I think we discussed this, right? Can see everything, everything, yeah,
+
+Speaker  984581:19
+anything else, what? Yeah, I have a good question.
+
+Speaker  985573:20
+Yes, yes, yeah. So we have inspire registration page created in wild apricot, and everyone registers there. How can we, like allow them to see this events in their app, as my events once they've registered, because they get registered to wild apricot, not India.
+
+Speaker  993199:59
+I think it should be synced.
+
+Speaker  993792:00
+I believe so. It's synced every 24 hours. But if the corona is not there, so how many cells we have?
+
+Speaker  995888:00
+I think it was 70 something, right? I
+
+Speaker  999189:20
+no members, but in the app, we have only so if they've registered, they should the sink should be working, meaning they should be added automatically. But right now, I think the name of the event is just,
+
+Speaker  1004906:40
+would be, we only have 41 No, no, it could be also you're basically doing you remember that on the calls Victor mentioned issues with cron jobs. So that means that we need to check the cron job. Maybe he disabled it, and we need just to enable it and make it like every 12 or 24 hours to think so. Long story short, we check it. This should be automated. Need to double check the automation. If anything, we need to. I mean, there is no but we need to just fix it otherwise, every single so basically this automation is supposed to so basically what it does is, if you go to members profile, they do have system field events attending So, and this pulling this data automatically from air table, and this defines whether he is attendee or not. So that means that it's not affecting Justin's parts, affecting any other events that have been sold on world record or even Luma or whatever. So this is actually a critical thing that is supposed to work. So let's just bring this to one of our daily conversations. The next one.
+
+Speaker  1025712:00
+Yeah, this one, we have two, two names, event name and air Table event name, right? This the air Table event name. This is for sinking, and if so, basically we need this name to be the same as the name in a table in order for the automation to work. If the name is incorrect, then the automation will not work. So I will check this, but the answer Kat is just if they register through the other platform, through the sync, they should be added to the app, and it will show registered under there on their end.
+
+Speaker  1036458:40
+Okay, well, we'll check it, yeah.
+
+Speaker  1037642:40
+One more thing for Inspire. I know you shared the QR code for check in, right? So how does that work? Because we're using what wild app, Kat for Inspire. Yeah. Here, because we're using wild apricot as a registration page, so it doesn't matter,
+
+Speaker  1042976:00
+no, no, right now, if I enable, yeah,
+
+Speaker  1044304:00
+okay, perfect.
+
+Speaker  1044560:00
+If it's not going to be enabled, we are going to see additional module over here, chickens, chickens, and you will see all the changes. Obviously, the number of changes should be accurate here, so, but it's the sinking issue. So that is pretty much straightforward, something that doing a detour you multiple times. Yeah.
+
+Speaker  1051578:40
+Yeah, we'll fix the issue with the syncing. But yeah, it doesn't matter. It's just the emails, right? So if the rule is that if check ins are enabled, the email they will receive is going to be with them, the QR code. I mean, this is option. This is, this is just a nice feature to have because they already have the QR code within the app, right? And if they come to us with the app, it's going to appear we're going to say, open the QR code. But if they will have it in the email, there's just one bonus, right? Yeah, they might just open the email and show us the QR code. So that's the thing,
+
+Speaker  1062085:20
+not just for this, because not everyone might have an application like guest, might not even download this anyway. Yeah.
+
+Speaker  1064309:20
+So that's again, I believe we did have more fixes, but again, the list is not complete, so we'll update you as soon as we have the full at least, this is something we'll keep an eye on and work.
+
+Speaker  1070378:40
+Thank you. Anything else?
+
+Speaker  1071178:40
+No, I think that was very Yeah.
+
+Speaker  1071786:40
+Can I one more request. Yes, in the app, when you go to events and you go to upcoming events, it only shows like 20 upcoming events. Can we, like change it to at least 50 or 100 so we don't have to, so you don't have to click at the bottom and
+
+Speaker  1077781:20
+go to the next page. Okay, basically, that's
+
+Speaker  1079173:20
+in the mobile app. No, here's an issue.
+
+Speaker  1080805:20
+We can, we can set up default. I would say, Okay, let's do this. Sure, no problem. We just expect. So let me explain you why. It's kind of a little bit trickier. We can do it. We can do default 50, if you want. The thing is that just what we can do is that we actually going to remember on the account level whatever you selected. But it means that if doing that tomorrow comes to change it to 20, since we're using the same account. Oops.
+
+Speaker  1090352:00
+I think
+
+Speaker  1090736:00
+it's 10, though.
+
+Speaker  1091424:00
+Yeah, sure. I mean the page, it's
+
+Speaker  1092128:00
+gonna be back to 10.
+
+Speaker  1092896:00
+So we're going to save whatever last value is going to be entered here on the account level. It's easier, but you need to make a request.
+
+Speaker  1095461:20
+Then, yeah, Kat, it's like, for example, I go to this page and click on an event, and then I hit the back button. It goes back to the 10 events, so I have again, click
+
+Speaker  1099706:40
+on, no, that's not good. That's not good. Okay, that's actually bug doing on this bug, well, you type in Courtney. So are you good with your budget?
+
+Speaker  1103674:40
+My budgets are good with the data. Okay, thank you,
+
+Speaker  1106320:00
+Andy. If we have any issue in our table, do we check it?
+
+Speaker  1108528:00
+I still know other person who can deal with it on speaking at this point of time that's a little bit scary. I have no time to deal with all these requests. And right now I'm working on for no reason, for stretch thinking, and they just spent, like, literally, like six hours yesterday on just this stuff alone. And yeah, I don't know you can. You can reach me because I was speaking, I see no other person who can troubleshoot the issues on the and they can do this relatively quickly, but I think as I will not be able to do anything
+
+Speaker  1118490:40
+else. What's the issue?
+
+Speaker  1118938:40
+I mean, for whatever. For example, your TV issue. Also no Eugene LTV issue, then there was a need to score rating, your budgets and all that stuff. And there are so many depends on the a lot of stuff are totally broken. Yeah, everything's broken.
+
+Speaker  1123760:00
+But thank you very much for everything.
+
+Speaker  1124656:00
+Yeah, this was a good we
+
+Speaker  1125632:00
+should keep having those calls when you need them, because those are very
+
+Speaker  1127365:20
+productive. Yes,
+
+Speaker  1128469:20
+I'll try to update the SOPs during those two weeks that will have like less people online. So by the time everybody's back, everything should be updated with videos and stuff, so it's going to be easier for you to track, and it's going to be not in clickup, but in intercom.
+
+Speaker  1133354:40
+Okay, what?
+
+Speaker  1134266:40
+Where are we at? Where are we at? Sorry, we're sending emails from the app.
+
+Speaker  1135578:40
+Yeah, that was what I was going to ask, because I have one coming for this key one doing that. I don't know if I should send it to you, or
+
+Speaker  1137600:00
+we can do it, Andy, but
+
+Speaker  1138416:00
+I'm not sure we'll take the gamble. Guys.
+
+Speaker  1138880:00
+Remember, we wanted to have emails come from the app.
+
+Speaker  1139856:00
+They are coming from the application which emails
+
+Speaker  1140816:00
+like the email reminders, the email
+
+Speaker  1141781:20
+analysis already, great,
+
+Speaker  1143045:20
+no, but we want to customize them.
+
+Speaker  1143653:20
+Yeah, okay, that's we. We didn't start it yet. Currently on speaker, we are still working on the the same person who can do this is actually currently working on the some rules, optimizations, like he was working on tax, etc. There are other stuff that we need to focus on. So basically, it's high priority, but it's not the highest priority. So I would say that you should not expect this this year, but we'll try to do it like in January for now. Just Pam doing a please. We just need a little bit more time. Here it's we do have a plan. We just need, like, an execution that's yet we do. We did actually even PLCs for this. It's the one that you remember doing. The Maxine was sharing that we and then he was sharing that we already can create templates. You remember this demos. So we do have, actually, really working POCs. We just need to prioritize them so we actually can start implementing them. But there was always something more important, but that's actually really high on the list.
+
+Speaker  1160181:20
+Yeah, for now, just let me know, and I'll send emails.
+
+Speaker  1162837:20
+We're gonna get there eventually, yeah, I think that's not sure, yeah. I think, by the way, I just remembered
+
+Speaker  1165754:39
+Kat was asking how she can have access to intercom. I'm not sure how we can do that.
+
+Speaker  1167450:40
+Cool events, email you can use that. Can she use the events? I think she has access to the events.
+
+Speaker  1170816:00
+Yeah, yeah. Just give her the password.
+
+Speaker  1171904:00
+I think because we have events here. Oh, yeah. And one more thing I think I forgot. So this was reported by,
+
+Speaker  1175653:19
+sorry, by Kat,
+
+Speaker  1176037:20
+and this is something that we're working on. It should be fixed soon. So basically, the tickets, this is related to the restrictions. If we you see you have who can see this ticket, all public, plus members, then public, then just members. If previously what you did, you selected this, and you applied the restrictions. Right? Those restrictions when, because of this was selected, the restrictions were not applied, meaning everybody can see it. So for now, until we fix it, until we make sure this is hidden. Just whenever you want to restrict, make sure to use member, not all public Plus
+
+Speaker  1186656:00
+member makes sense. If you already said above, everyone should see it. Why would you use rules? If you want to use rules, use whatever?
+
+Speaker  1188976:00
+Yeah, we're fixing it so it doesn't appear so whenever you you will select all public post members. There will not be any ruling for you to apply. You would need to go to remember,
+
+Speaker  1192805:20
+just in case, guys, why we're not working on this. Emails, reminders. We are rebuilding the ruling system so you can get something similar to air table, where you can set like, rules with condition and rules with condition, or Yes, or air table or intercom, whatever rules that can exclude people, not just include, like excluding light programs that can be dynamic or fixed. That's what we're currently working on, and unfortunately, it's the same developer who can deal with the email so and we feel like emails, we have a solution. Do any? Can send it right now, for example, but with rules, there is no solutions. Just more urgent. If you can get
+
+Speaker  1203264:00
+you only, for example, if I want to restrict a specific plan, no. If I want just one plan to know a lot all the plans without one plan, right? I need to select all the plans, yeah. But with the new, updated system, you will do like an intercourse, so you select all plans, right? And then out of this old plans, you'll remove one plan, something like this, yeah. So this is coming true,
+
+Speaker  1210293:20
+so now tags also work, right? So if we wanted to tag New York chapter, we don't have to include all their emails. We can just tag them.
+
+Speaker  1212506:40
+Yes, I'm pulling the data. It's I need to double check which exactly I talked to you previously, but I don't remember. It was chapter affiliation. I believe there was a level, but there were three parameters coming from our table or two, but we can double check it, and basically we can add any additional parameters from our table as tags, separate tags, and they should work. Okay.
+
+Speaker  1219440:00
+So how often are these being updated? Is it automatically updated whenever we just
+
+Speaker  1220816:00
+automatically, but I'm updating it regularly, so it's actually one of the features that we have. You don't, I believe you don't need to use it. It's more for me. But if you go to I do have, like, a specific Kat or table field is just extremely fast process. I can do it even daily basis. Literally, take me one minute. Long story short. Expert, CSV, go to audience. Doing that.
+
+Speaker  1226677:19
+Yes, do it daily.
+
+Speaker  1227162:40
+I will, thank you. No, I'll skip it and bulk update. Yes, pretty much, select the file and you're done. So, yeah, so basically, I'm doing it very often. So pretty okay, doing you telling me do it daily? Update your intercom daily. In this case,
+
+Speaker  1231562:40
+I'm up daily. Okay, yeah, three.
+
+Speaker  1232794:40
+Reason why is because the girls are going through and changing people's chapter affiliations right now and making sure it's accurate. So that's why I want to make sure, from the tags,
+
+Speaker  1235664:00
+what is the acceptable like, update cycle for you
+
+Speaker  1236816:00
+think they're doing, they're they're reaching out to every member every day.
+
+Speaker  1237845:19
+Right now, we're doing daily changes.
+
+Speaker  1239045:20
+Okay, I will do it like I'll do it daily, except we can so you're not updating it
+
+Speaker  1240661:20
+on weekends. Yeah, okay,
+
+Speaker  1241653:20
+it's not a big deal. It's just Yeah.
+
+Speaker  1242405:20
+And just to make sure we're we're updating chapter affiliation linked to chapters.
+
+Speaker  1244746:40
+That's, I only care about fields that you're actually using as rules. So if it's only chapter affiliation, it's fine. Are you using anything else?
+
+Speaker  1246666:40
+Well, we also have select plans based on their membership tiers too. So like standard plan, you know, all star,
+
+Speaker  1248400:00
+it's screw up. That's the nature. Go to our table, try to find source of truth.
+
+Speaker  1249760:00
+Yeah, that one I can't find. And, yeah,
+
+Speaker  1250704:00
+I present my screen. Something that I'm currently working on is actually my make automation. Now I'm doing make as well for some reason. But it is where it is. So I do have my POC, which is member stripe. So that's you're the actual people who see this. It's not ready yet, but basically I'm pulling the data from stripe. This is my view for now, and I can see that every single member, his subscription, every table level, is going to be some kind of build migration. But I can see now his subscriptions. I can go to stripe, I can check actually his data, and I can see bunch of information, status and Stripe like product name, like legacy, that's what you care about, right? Actually, pricing, name, different cycles, etc. So I do know the actual data, because right now, if you're gonna tell me, select the plan, and I gotta ask you which one, because PRT database level, right? Oh, it's here somewhere.
+
+Speaker  1269877:20
+Why is there?
+
+Speaker  1271093:20
+No how difficult level, right?
+
+Speaker  1272757:20
+I'm confused this one.
+
+Speaker  1273605:20
+Yeah, that's what we're gonna get, right? That's not what you want. So, long story short,
+
+Speaker  1276058:40
+if you can tell me, like which fields you want to see, I can give you based, for example, on new naming convention. And I'm not sure guys, if you know about the new naming convention, but our prices are going to have one of seven different statuses. Which are plan,
+
+Speaker  1281904:00
+this one, nope. Let me see if I can find it.
+
+Speaker  1283216:00
+Share, full system, Doc, compare. There is migration. Maybe this one,
+
+Speaker  1285120:00
+nope. So full history.
+
+Speaker  1290229:20
+I don't remember the name of this file. It
+
+Speaker  1294778:40
+says, Call. I just shared this with Kat earlier.
+
+Speaker  1296442:40
+This one, I guess
+
+Speaker  1296768:00
+it's an air table too. Yeah, that one.
+
+Speaker  1297504:00
+Okay, so
+
+Speaker  1298031:59
+this is my sort of this is my source of truth. This is our legacy plans. These ones below what I'm doing in stripe, I'm using basically a product naming, which is like, for example, I'm gonna take standard plan, right? And every single member who used to have one of the one of the following plans, and we're talking about like, 400 people, so they all now are going to see legacy on top of it. I do have this additional description, and that's what you're gonna see in the air table. You're gonna see legacy and what, legacy and what. And I guess, basically what you care about is you don't care about, like, exact description. You only care about this access, light, light, basic legacy, core and whatever is there, standard. And yet, you see, right? So I can. I actually can send it already to you, because this data I do have, so I can send this one, I can send you chapter affiliation and whatever else you might need, basically any field from air table. I can do it well we need the
+
+Speaker  1317536:00
+membership tier and the chapter affiliation. No, that's the only thing we need.
+
+Speaker  1318725:20
+Yeah, yeah, by the way, what else I'm doing right now?
+
+Speaker  1319701:20
+Oh, sorry, there's another one, event access. Because event access is all star
+
+Speaker  1320997:20
+I believe event access I'm sending but okay, sure, so write it down. Sorry. Don't forget one more thing that is actually going to help you is what I'm also doing in strap is actually I'm matching customers. That means that if I'm going to go through my view and open a specific person, doesn't matter which one they might have, you don't need to know that stuff. But for example, in the if they do have legacy plan, but he has an application that's his plan. My goal by Monday update all these records. So in the application, you're going to see actual plan, and this also going to help you a lot. So you're not going to see legacy you're going to see legacy app. So let's try to find one of the examples, maybe most likely one of these I'm gonna match
+
+Speaker  1335685:20
+that's bad one. Okay,
+
+Speaker  1336661:20
+let me click couple of them. One of them should be good. And if not, I'm not gonna even try. I just did maybe 50 people, bad one. I know this is a bad one. Okay, screw this. I just started. So guys, it's just maybe process 50 records out of 700 and there is this absolutely manual process, long story. Oh yeah, that's 44 people done out of 700 Yeah. So basically, that's what you're gonna see, go back problem. So that's actually plan. We are charging him, but in the application, you'll see that he is a core so that means that if you go to events, and you're going to create an event eventually, and if we're going to select like a currently, you will find this plan. Restrict by plan core, I will delete this. And it's just seven plans, basically. And you'll and you'll see, this is the 44 people. Where are these 44 people coming from? From here? Product, core, core, core, this one and yeah, you see, so basically, guys, so for you to understand why it's taking so long time, I need literally go to every single record, every single freaking record, manually update this data, not to, not to mess up with update near table, I need to go add this plan. Find the Cologne, remove the colon, remove it's I already charged like 30 years for by mistake during during this process and refunded it. So, yeah, I'm not proud of it, but when you're doing like, 1000s of records, manually check sometimes,
+
+Speaker  1367733:20
+yeah, that makes sense. Okay, one last if you Andy, if you can share the screen again and go back to admin, when you restrict my people, what do you mean? This is the last go back to admin show events restricted by people.
+
+Speaker  1374458:40
+I think this is confusing. Show restricts, restrictions, basically, and select a plan and add some person through the email, and one email, okay, the confusion you see. If you zoom in, you will see I added, we added just one people through the email, and it shows user one right, but, but below it shows preview seven people who are in your list, meaning, make sure you when you look at the full pictures, you do not look at like active one, but you need to look at the below number, the number below
+
+Speaker  1386357:19
+you missed this? Is this really what's happened? Yeah.
+
+Speaker  1387958:23
+So, for example, if you select another plan, you you're gonna see just below, there's gonna be the number below,
+
+Speaker  1389925:20
+yeah, let me actually. So basically, let me do this. Doesn't matter which ticket, most likely it's all good. Okay? Better example. Okay, screw this. Let me explain you what is going on here when you create an event and using the rules, when you paste in people by name, if you're pasting people by name, only speaking at this point of time. It's not actually, even necessarily, but if I'm going to pull this and just copy paste them and paste them here, what system does is actually the system shows you the information just for this box. That means that if I'm going to type some kind of weird email and type it here, it can detect that this is not even a user. So basically, out of all the people, you just paste it here, you have 17 users and one non user, and you can see the preview for 17 users. But when you create an additional conditions like you, you're going to start adding people. That means that, you what, what I just said, all our rules have condition or what does it mean? Everyone so people who can see Miami event are people who has core plan or light plan, or somebody from this list, and that's why you can see actually more people than you have here. It's this is just the report for your section. For this section,
+
+Speaker  1416181:20
+it just caused confusion. That's why I wanted to bring it up, just to make sure when you look at the final list of members, do not look at the green one. Just look below.
+
+Speaker  1418581:20
+So, yeah, yeah, basic, basically, something similar, you can see, but with a much better design, the functionality is over here, when you're creating, like, some kind of about conversation, conversation, whatever, and it's similar logic we're trying to apply for us, but when you're applying any type of rules you see preview, estimate how many people can do this, and that's basically where you should put, put your all attention to. So basically how many people can see this event? And that's exactly what you can do over here. And you can even preview the people who can
+
+Speaker  1428928:00
+actually see it okay? So, yep, I think that's it from my side.
+
+Speaker  1432053:20
+Thank you guys. All
+
+Speaker  1432421:20
+right, thank you guys. That was very helpful.
+
+Speaker  1433253:20
+Thank you for everything. Thank
+
+Speaker  1433765:20
+you for everything you guys have done. Amazing, amazing.
+
+Speaker  1434645:20
+Yes, yes, yes. We're getting to the end to the almost there.
+
+Speaker  1436170:40
+Yeah. Every time, every time you see something not working, make sure to let us know. And if you want something again, a feature request, make sure to let us know too, because these are important, and I think we should keep those meetings, because it actually keeps everything up to date
+
+Speaker  1440768:00
+these meetings, yeah, yeah, yeah.
+
+Speaker  1443088:00
+Okay, awesome. Thanks so much. Guys. Have a good weekend. Okay? Have to.

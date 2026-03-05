@@ -1,0 +1,362 @@
+Logistics Channel Call Jan 2026
+Date: January 15, 2026
+
+Speaker  880:00
+Okay. Thank you. Welcome. Welcome everyone to logistics call for January, 1 one of the year.
+
+Speaker  2720:00
+Everyone excited to get the you started with the first logistic call. We just made a sorry, yeah. We just made a minor change with the timings. I think just for today is going to be at 11pm sorry, 11am Pacific Time. And yeah, we're going to go back to our original time, which is at 9am Pacific Time. That's 12am Eastern Time, unless, if you guys feel like the later time works better, just just let me know in the in the channel chat as well. Yeah. But we will keep the same thing. So the next one is in two weeks. If I don't hear anything about the timing, we'll bring it back to its original time. I think there was today, a conflict in time, not for me, with the MDS some internal meetings. Yeah, perfect, yeah, for today. I mean, other than answering questions, you know, I do have also, I want to present a calculator made by tactical. I don't know if anyone heard about it. They're comparing AWD fees with three PL again, not saying work with AWD, not saying work with tactical. But I think it's just nice to do a quick demo, and then you guys can see, especially now, AWD fees are going up in 2026 Yeah. So yeah, I could probably, you know, I could probably get, I mean, do you guys, do you want me to start with it? Or do you want me to answer your questions first? Or how do you want? How do you want to do that?
+
+Speaker  27930:40
+Yeah, I if Yeah, just I would give your highlight, summary type stuff, because it's always interesting. And I saw that, I didn't get into that comparison, but it would be great if you summarize you saw on it, and then, yeah, and then maybe, maybe I'll have questions for you, but yeah, for sure, that's my thought. Yeah.
+
+Speaker  34336:00
+Anyone anything new? Anything interesting? I mean, for me, I'm just waiting to see any federal courts ruling in regard to the customs. I mean, it doesn't affect you if you do. DDP, but it seems going in the right direction. You cannot apply for refunds yet. It's a matter of time. That's sort of the latest thing that other than that, maybe just just reminding everyone that Chinese New Year is mid of February, so you don't want to wait the last week to shop your stuff, because things get kiosk expensive, too. So, yeah, I mean, right now, right now, it is that time. I mean, yeah, don't wait to last minute. I mean, waiting last minute is not gonna be good, because even your stuff might not be, even might not ship out of China, yeah. So, yeah, just, just reminding everyone, yeah, yeah, perfect. Maybe I do expect to do more of the calculator. I'll just spend 1015, minutes on it, and then after that, we can answer questions, talk about, I mean, different topics related to logistics. AWD, three, pls, yeah. And I know Aaron is here today. I know you had a few questions about shipping to five locations as well. We can talk about that as well. I know you asked you sent me a DM about it. We can talk about it and then give you options. What's better, what's not better? Yeah. So yeah, stay there. Yeah. Perfect. Yeah, let me share my screen one sec.
+
+Speaker  63578:39
+Can you guys see my screen? Can you see? Yes, yes, perfect. Yeah. So, yeah, that one, this is made by tactical. It went live a few days ago. Again, the idea is not not saying, oh, tactical is cheaper, go with them, or even AWD is worse. I think it's more like a calculator done in a way that that it tells you when it makes sense to use the AWD, when it makes sense to use a three PL, like tactical, again, for the sake of the calculator, I just came up with some numbers. I can explain everything now. So or anyone. I mean, does anyone know? Like, I mean, I could use my own numbers, but, but if anyone wants to tell me if they, for example, if they ship three, I mean, let's just make it simple. Let's just do an FTL shipment, full container. If anyone want to tell me how many cases they fit in, we can work according to that. Or I could come up with my own numbers too, whatever you guys like, yeah.
+
+Speaker  81152:00
+Yeah, yeah. For me, is okay with your numbers?
+
+Speaker  82000:00
+Yeah, okay. I'll just use one of my numbers. I mean, we do 1400 containers. It might be a lot, because our stuff are tiny. You might you might be maybe you might do 600 700 it depends on your on your product sizes. Here the cartons per palette. The default is 32 again, mine, I think about 36 one good website to know how many one you can fit per palette is that one? Let me show you that website. I think it's called on palette. Yeah, you guys see, you guys can see the website, yeah, that one, if you, if you input in the dimensions, it can help you to know how many cases you can fit per palette, yeah? Just gonna go back. Perfect, yeah. I'm just gonna do it here, 36 I'll do it. Maybe 350, you see the numbers changes dynamically. Here, the palette volume in cubic four is 80. The reason why is 80. I'll tell you why. Because Amazon requirement for any palette is 48 by 48 that's length with the width, and then the height is always 72 inches. So if you multiply 48 by 80 sorry, 48 by 48 by 72 and then you do the conversion, you get to 80 cubic four. And the reason why we want in the cubic four because, with a WD, or, like, most of the fees are, are in cubic four, and then that way we can make a comparison. Yeah, now that one is nice one. I haven't I haven't tried it yet, but that one, that one is nice, because then we're not using pallets. We're using, how many we're using, how many cases we're storing. Because the problem was some three Ps, you cannot they, they charge you per pallet, meaning that even if you store half a palette, you're still paying the full price. So that one is more like an advanced option. I think that one is more accurate, in my opinion, unless you're someone like me, where when you send to a three PL, you always make sure you have full full pallets. But again, that might not be the case to everyone, but for the sake of this example, we just make it simple. Yeah. So now, as you can see here, there are oops, sorry, I don't know what happened. Yeah, bring it back to where it is. As you guys can see here, we have four options. I'm just going to explain the four options. There is the AWD option, which is very clear. I mean, for AWD, these are the assumptions. I mean, they're not assumption. They're based on their the rate sheet, if you look all the way at the bottom, the storage fees is point five, seven per cubic feet per month. They're outbound. They have, they have an outbound fee, inbound fee. Their outbound fee is 1.4 per car in the transportation fee is about 100 or five per credit. Yeah. So again, this is the AWD option. That one is tactical. Tactical storage fees will always be cheaper than AWD no matter what. So again, if you're thinking to store something for six months, five months, five months. Don't even think of AWD. It's way more expensive. Yeah, just to give you an example, at tactical, let me see, yeah, I'll tell you the tactical storage fees is points, six, nine per pallet per day. That's about $20 per month, yeah, but, AWD, I think it's about 45 or 50, something like that. Yeah, I can do the math quickly here, but yeah, it's about 45 to 50 per pallet. So, yeah, you can see it's big, big. Yeah, so it's here, it's, where is it here? It's, let me just do one month, so we can see the storage fees per one month, yeah? So, yeah, you can see here, tactical is 20.7 AWD fee. He didn't I mean, if I do it a quick math, about 4550 Yeah. So now, as as, as you can see, if I do the storage duration, 30 days, tactical will always win. I mean, tactical will will win because, because of the storage fees, I'll keep, continue showing some scenarios. I just want to explain those four and then the cross. Dock is basically tactical. Is not receiving and storing the units. You're just they're just empty. They're just unloading the container, applying FBA labels, and then it's going to go right away to Amazon. Yeah. So that's what means. Why the cost Doc is cheaper, because they they charge immediately. How much they charge here they their fees is point six five. I mean, compared to one for their outbound compared to one, that's, that's where the savings are when you do a cross dock. Yeah, point six, five versus one. And then lastly, tactical partner, carrier, I did ask them what they mean by that. So basically, this one, when you create the shipment on Amazon, and it gives you five locations. And then they did the math, it's 150 per again. This is not their prices. This is Amazon partner carrier. As you know, Amazon partner carrier takes it could take weeks for it to get checked in. So basically, it's 150 versus 195 195 is live unload. That's their own trucks, one $50 per pallet. That's Amazon partner carrier, we all know them. I mean, you will not do Amazon partner carrier, if you work with China, only if you store your stuff and us, yeah. So again, like, you can play with the numbers there, but I'll give you a quick example. Like, let's say we're going to store for 60 days. If, if we store for about six, no, not 60 days. I mean, I mean about six months. That's what. That's 180 you can see that tactical is three, 3,152.2 cheaper than AWD. Mainly, this is happening because of the storage fees. Yeah. Like, if we do something like 30 days, then tactical becomes more expensive than AWD. Again, like, I think the winning factor for AWD is the storage fees for transportation. No one can win AWD because it's going to be always about 105 per pallet. Tactical price is 195 that's the live unload one, and then if you just use your Amazon partner carrier. I asked tactical, they said the average was around 150 This is, according to all the data they have. Yeah, I know you get different prices per location, but this is the average. Yeah, about one 150 Yeah. Again, it's again. The whole idea just, you know, to play, to play with the numbers. See when it makes sense to go with AWD, when it makes sense to use three PL, like tactical, I have used them in the past. I think they're one of the best. Never had any issues with labeling or so, just, yeah, just back in the day there was no AWD, now there's a WD, so again, there are cases that make sense to go with AWD. There are cases that make sense that you can go with a three. PL, yeah. Like, tactical, yeah. Again, like, let's just, I mean, we could make maybe there are some cases where you have bigger boxes. I'm gonna do 500 again, the results might not be the same. But even though, even if you do for 30 days, AWD, was cheaper. I mean, if we change that one to 60 days still, still like tactical is cheaper. No, sorry, tactic is more expensive by 230 if you do 180 180 look now technical is winning, yeah. So anyways, the number of currents also plays a big, big role as well. Yeah, I've seen containers from few, like not many currents to 1400 mine are more, because I overweight my containers too. I mean, you could have even more than that, yeah, I think, I believe, for any shipment plan, I think the maximum is 2000 or something, yeah, than that, you need another Ibo ID, yeah. So again, this is AWD. This is tactical. This is tactical cross dock, and this is tactical using partner carrier, just for you guys to make a comparison. Yeah, and here, just like, summary, like you will break even versus AWD and 2.66 month, just doing some calculations for you here, yeah, yeah, perfect. That's, that's all I want to explain it. I'm not promoting anyone. I mean, again, there are good cases for both. So I mean, just, just play with the calculator, import your number and say when it makes them. But again, if the plan to store for four months, I mean, I mean, for example, for this, for this case, where we have 500 cases, and.
+
+Speaker  240000:00
+A I think the break even is at 2.66 months. I think anything more than three months, it becomes tactical, becomes more expensive. Yeah? I mean, they already give us the answer, 2.66 months, yeah. Again, like, if I do maybe 1400
+
+Speaker  244848:00
+Yes, but it's also very
+
+Speaker  245520:00
+Yeah, about two month and a half. More than two month and a half, it doesn't make sense to use AWD, yeah, that's what I'm gonna say. Yeah, perfect, yeah. I'll just stop sharing my screen. Get back here. Perfect. Yeah, that's just why. I just want to show a demo of that for today. And yeah,
+
+Speaker  251578:40
+a mo. How are you? How are you using AWD and tactical? And are you storing anything in China on top of that? Or was your
+
+Speaker  254106:40
+so to be honest, we have not much with tactical now. We only have just maybe a few pallets for Canada. But even for Canada, we're going direct from China to Canada, because it just doesn't make sense. The reason is, if I'm paying higher tariffs, and then I'm going to import into Canada again and then pay above that more tariffs, it just doesn't make sense at all. And then the second thing, the transportation fee, or the ocean freight from China to Canada was cheaper than shipping from USA to Canada as well. Unfortunately, yeah, that's the other thing too as well. Yeah, it did make sense at the very at the very beginning, because I used to ship full containers, and then I take out of that container a few pallets. But now, no, I can't do that, because you're already paying higher, higher shipping fees because of the duties, even if you're doing DDP, your DDP rates today is higher than three years ago, because there was no that only 30% extra that, say, at the are there good cases? Yeah. I mean, for example, if, maybe, if you're launching a new product and you're not aware of your sales velocity, it might be safer to go with tacticals first, because what if that product doesn't end up setting well, and then you're stuck with six months of inventory at AWD, I think it's going to be very expensive. Yeah, I know someone that had to do a removal. He did an MCD. MCD, unfortunately, there is no like a removal with AWD, so you have to do their multi channel distribution MCD. So he had to do MCD to tactical. And then he stored it there, because he knows that the product would sit another year, even though, with the MCD fees, it was not that bad, because he stored everything at AWD California, and it was not too far from tactical. And then the price did make financial sense to him, yeah, but I know for you. EJ, I think we spoke about it in the past. I mean, it's also very hard for you to do direct from China to Canada, because you said so many skews, says velocity can change. And then I think you went with a 3p out in Canada, but i don't know i i know you asked me before, but I haven't found any good three PL and they're very expensive too. So as long you're doing weekly shipments, or even every few days from China to Canada, it does work, but you need to be really good with forecasting. You know what to do. You don't want to end up with too much inventory or even less. Yeah, I feel Yeah, forecasting Canada is much harder than USA, because USA, I know the demand is stable. Canada is very weird, like, I had days high, high, days low. I'm not sure if you've seen the same or not.
+
+Speaker  301418:40
+Yeah, it's, I mean, we haven't really had stable inventory, so that that is what we see for sure. It's, it is very all over the place, right? So that's that's good to know that's not just us and our weird stocking in and out
+
+Speaker  306272:00
+in Canada or not yet, we're
+
+Speaker  306960:00
+getting set up with ebb and flow. Somebody recommended them in MDS. I mean, we used another three PL but it looks like, from what we've seen in Canada, it's either like, full DTC full, very expensive, like DTC fulfillment three pls that work with like Walmart and like are approved with all that stuff, and they're very expensive, or it's like a guy with A building somewhere and a spreadsheet, and you're like, Hey, can you verify how much inventory? And then it takes, like, two months to hear back from them. And you're like, Is this legit? Like, and then three and then six months later, they're like, Hey, we we found all this inventory, and now you owe us money because you didn't pay us yet. And we're like, okay.
+
+Speaker  320112:00
+So I know a guy in the MD that lives in Toronto that has his own three PL but he takes only small clients. So I'm not sure how many Palace you have per month, but maybe just reach out to him see if it makes sense. The nice thing, he's an Amazon seller, so he will never mess up labels or, I mean, he has also his own, you know, someone that does all the trucking appointments to him. His name is fell, yeah, but he does. He's not that active, but just reach out to him see if he still takes and he used to do it for many MDS customers, like, sorry, MDS members, but I'm not sure if he does it anymore. I mean, he's part of my Toronto chapter. I haven't seen him in the last few meetings, but yeah, he could be an option too. But yeah, I agree with you. Either someone's super sophisticated or someone just very simple, yeah, if you can figure out if you can do it direct. I mean, if Ivan on managed to do it direct with his but again, he has very sophisticated supply chain team. He has his own forecasting tool as well. I mean, if it can, if it kind of work, there's nothing that can beat that. Yeah. I mean, but again, you need to replenish every few days. So I think for him, for with Ivan, he ended up finding a three PR in China too, because there was no way to store everything at his supplier and supplier, he hated it that he had to ship something every few days. It wasn't just too convenient for them. Yeah.
+
+Speaker  345541:20
+Any other stuff interesting, like, go ahead. Yeah.
+
+Speaker  347546:40
+So quick intro here. My name is Aaron with snoggle. Also we have Oren and Andres here on the call, on the team. So basically where we are now in operations the company, it's been around for four or five years. We did around 10 million in revenue last year, and we have operations, you know, 80% USA, and then, you know, 15% Canada, and then very small UK. We have a warehouse in Miami, okay? And since the company started, we've been sending inventory from China to Miami warehouse always. And then we from here. We either send it to FBA, a WD, to Canada, to UK, and
+
+Speaker  361205:20
+we were even to Canada, UK, from Miami.
+
+Speaker  362181:20
+Crazy, crazy, I know. I know. Was that
+
+Speaker  362762:40
+company that you started from scratch? Or did you buy the company we
+
+Speaker  363706:40
+started from scratch? Yeah, and, and, yeah. You know, we like, for example, on December, I look, I look at the inbound transportation cost from Miami to only USA, and it was like 20 to 25k on human transportation. So there's huge savings, you know, huge opportunity that we have that we haven't been doing. And I saw the thing that you talk about tactical or AWD, to be honest, most of our products, I think we can get, we have, like, a lead time since the moment that we order. We can get them to FBA. I think in eight weeks
+
+Speaker  375685:20
+from from where, from Miami, or from China,
+
+Speaker  376389:19
+from China to FBA. I think, I think it's, it could be eight weeks, and I say four weeks manufacturing, four weeks shipping. Yeah, around that, yeah, okay. And we were thinking having a reordering. When we have around 12 weeks worth of inventory, it takes eight weeks that to for the item to come back to FBA. At that point, we would have four weeks worth of inventory, just of a safety stock
+
+Speaker  383754:40
+I feel, yeah, be careful. You don't want to have four weeks at Amazon, because then you'll get charged the low inventory fees you want more than that. I mean, back in the day, like, like, like you, like, I keep now about between 45 to 60 days, but in q4 No way, 45 I go even more, 60 and more. Yes, I pay more storage. But, you know, things are very, very slow, but you don't want to keep 30 days, no way, like at Amazon, no way. You need more than that, because right away you'll get the low inventory fees. And inventory fees can kill your business. Basically, yeah, but, but yeah. I mean, you're trying to find when you want to do the order. Basically, yeah. I mean, if you want to, if you want to, like a conservative like, even 45 is tight, because if something goes wrong or a shipment is delayed by 10 days, then you're very close from the 30 days. I feel like 60 days is, is very, very good nowadays, unless you're really good, you do live, unload, you do all these things. But 60 days is, I mean, make sure when you replenish in China, making sure that you all. Have that 60 days at Amazon, FBA. But then again, the question is, I'm sure you're going to save a lot of money, but you have to make them out. You have to do the math. I mean, because maybe, are you shipping full containers to Miami, or was it just a smaller shipment?
+
+Speaker  403888:00
+No, no, we have some inventory that it's full containers, and we have some inventory that it's just because
+
+Speaker  405232:00
+I know all those guys that have their own warehouses. The reason why they do it because they do full containers, and they have their own employees. They do the unloading. So maybe it makes sense because they're somehow optimized and they do other stuff. But for you, if you're doing some full containers, some LCL, I'm not sure even if it makes financial sense or not. I mean, you might even not need the warehouse. I mean, I mean, even if you sell on Walmart or maybe Shopify or Tiktok, you could even work with any three PL and then they, they're just responsible for for that specific stock. So just back to your question, When, when, when I, when I mentioned about the five. So as you know, when you split up the shipment to five FBA. There is no placement fees. There is no any inbound fees. There is nothing. And what I explained to you before I notice China is more optimized to sending to five locations, more than USA itself. The reason is, they have so many containers going every day out of China to those five locations. By notice, in the US, it's a bit harder and it's more expensive. The only, the only solution for the five location in USA that one big warehouse opens up, not in not in Texas, not in the West Coast, nine, it has to be in on the center. And then they have millions of trucks that going out to Amazon every day. I think there's, there's one. I forgot. There's one big vendor account that they do it, but not still at scale. I forgot their name. And there's another one in Atlanta too. But again, no matter what, those number of trucks will never be like the number of containers getting out of China every day. I mean, I mean the ratio would be, well, maybe if you have from China, 1 million container leaving every day, then trucks, they want me 1 million again, like again, and plus, most sellers work with China. I mean, for anyone that that want to do five shipment inside the US, because they're probably in supplements, or probably in something where they manufacture is in the US. We're not talking about, I mean, ingredient, the ingredients would come from China, but I'm talking about the final one i i noticed. And I mean, this is also for E, like we, I noticed that we were when we send to five FBA shipment, we're saving more money than AWD, but again, we only do that, only with the ASINs that we know their sales velocity, they're stable. They're they're we know like, we know how to like stable ones, basically. But does that mean we don't use a three KL we do, sorry, AWD, we do. But not, but not, but not a lot. I mean, this year, we are about 60% direct, 40% AWD. But the stuff that we have at AWD doesn't sit more than two months. If it's, yeah, it sits more than two months and it doesn't make sense, then you have to work with tactical or any other three. PL for you. You asked me how to do it. It's very easy, like any freight forwarder in China. I mean, I can, I can make, I can do, I can make an intro with mines too, as well. I mean, have yours too, whether it's a WD or whether it's FBA, they're very familiar with, yeah, process. The only thing the supplier might not like. It might not like five FBA shipment, but as long you send them a list, oh, these cues are part of FBA ID, one, the second, 12345, and they don't mix up things. It's fine, even like when I work with my aunt, with my own freight forwarder, they give us special uh, stickers or labels that has the FC name too. So even if the car, if the cases get mixed up, we can separate them out when they receive them, like, you know, when the suppliers send them to the warehouse in China, it's very easy, because some of them will say Oh, anti eight. Some of them will say a ck, uh, five, or whatever it is. So again, like, like, I think you should do it, because I think 25k is a lot of money. Yeah, you're paying just, just, just do the math, see if it makes, I mean, looking, looking at how much you pay.
+
+Speaker  473253:20
+I mean, yeah, so you don't want to be below 30 days on FBA. So, you know,
+
+Speaker  474533:20
+like, not even, like, if you want to be like, too tight, then 45 days, 45 days. But even the 40 day, five days you need to be
+
+Speaker  476378:40
+go do 60. See, it's always like, the less that you want to have in FBA is 60.
+
+Speaker  478138:40
+I mean, I still see people doing 45 days, but they replenish, right? I think it's very hard. I mean, if you. If you're doing direct from China and it's 45 days, it's very tight, because what if that shipment was delayed in China? What if something happened, you know? So you you don't want to do 40 I mean, 45 easy, if you have a manufacturer in the US and you're doing ups or these trucks, but just to be on the safe side, 60 days, I say, much better gives you a safety window in case something get delayed or something, yeah, but,
+
+Speaker  487621:20
+and if I have inventory already in FBA, and I want to do this shipment from China to AWD, if, if sending from China to FBA, it's eight weeks. How many weeks I should put in in AWD? After AWD, receiving and being a bit and having the inventory in FBA, like from aw to FBA,
+
+Speaker  493546:40
+basically your AWD stock. It's going to be your backup stock, I assume, correct. Yeah, if you have a backup stock at AWD. You could go with a BA at 45 days, it's okay, but remember also with AWD. Every time you send a shipment from AWD, they go to 567, locations. Some get received in two days. Some get received up to two weeks too. So even that one is a bit tight, but again, you can get away with it. But I personally do not prefer 45 days, because now any shipment could take more than two weeks to check in. And remember, even if you're an FC transfer, you could be charged the low inventory fees, because the inventory becomes available. If it's not available, you get charged. So let's just stick with the 60 days now, now, now you're saying, if you have again, if you have 60 days with FBA, with a WD again, like, also you could have a month, you could have a two month, you could have a three month again, like, like, I personally do not have more than two months because, you know than that, it can hurt your cash flow
+
+Speaker  511642:40
+to AWD. So you're having four months in total to an MBA, yeah. But again,
+
+Speaker  513104:00
+also, I have also seen some other sellers. They classify their products a hero one, mid product, low volume, one, and then they give more to the hero one. For example, the hero one. Give it two month the mid product, maybe one month, the bad one, they don't care, even if they go out of stock
+
+Speaker  518613:20
+in AWD. You mean, yes, in awba,
+
+Speaker  519349:20
+you don't want to be without 30 days. Doesn't matter, even if the product
+
+Speaker  520517:20
+I like that. Yeah. And
+
+Speaker  521157:20
+then, and then here, here's my question. Are you gonna then you have two ways, either you send everything to AWD and then AWD does the replenishment to FBA, but that's more expensive. You have to do the math. Or you're gonna do two shipments from China. You're gonna do one to replenish FBA and one to replenish AWD, and then AWD is sort of your backup stock, just in case. If, for example, your shipment from China was late, and now you're getting closer to the 30 days, then you have a WD. I think with it, if you keep doing direct to FBA, that means that AWD stock you wouldn't have to send. But again, the problem is, the problem with the AWD stock, if you keep doing direct FBA, you might not end up using the AWD stock, and then it's one year. So again, this is why I was saying it's a balance, and you don't want to keep anything more, more than more than two, two months. Again, it has to be balanced.
+
+Speaker  537605:20
+Yeah. Mo, can I ask a follow up question on this kind of on the back end of this discussion, which is kind of for for the whole group, yeah, what, what, what? I'm curious as to, what percentage of inventory does everybody end up either having to liquidate, either having to liquidate or dispose of in some fashion. So that's part A of the question. Part B of the question, let's say it's 10% maybe that's high. Out of that 10% How much are you guys able to repurpose that inventory? Maybe on other channels?
+
+Speaker  548447:59
+I yeah, I wouldn't be the guy to ask this question, because we don't liquidate at all, because, I mean, it's not like we're perfect but, but I understand that it could happen when you have, I'm sure you have many skews probably right?
+
+Speaker  551845:20
+Yeah. And I don't do much either. I'm actually, I think I do not enough, because when you inevitably, when you start new products, a percentage of them are just not going to work out. It's not always liquid. Yeah, and we're saying liquidate, I'm saying dispose of, or get rid of or repurpose. In some fashion,
+
+Speaker  556954:39
+we avoid it, like even if we launch a new product and it doesn't work, we'll just break even, or even at the lower below, break AV, because we think it's much cheaper than just going through. You know, disposal and removing it, that's I mean. So usually, yeah, for me, I just dropped the price and then I'm able to sell it off faster. I'm gonna ask, e I'm gonna ask Justin or EJ, have you had to liquidate anything? Because I know you have more skills than me. EJ, yeah,
+
+Speaker  565040:00
+not, not really, to be honest, probably just over ordering would be or mostly over under ordering, and now maybe over ordering certain certain SKUs, but not
+
+Speaker  568485:20
+over one is it at AWD or FBA?
+
+Speaker  569429:20
+If we're over stuck, where is it? Yeah, honestly, we rely pretty heavily on our suppliers in China. We're pretty we're pretty demanding.
+
+Speaker  572410:40
+We have more. At least it's not at FBA, which will, which could, yeah, FBA. The thing
+
+Speaker  574154:39
+is, we don't go that deep on New Order. New orders. We're very Except there's one product right now we went pretty deep on for everyone. So, you know, pray for us, but, but generally, like, what we what we'll do is we'll test the product out on Shopify, only see how it's going, make sure, you know, there's demand. And, like, it's not that there's demand, but that it's like, a good, good enough products, because our products are pretty expensive. And then we go on go to Amazon, and then we scale up. So our success rate is very high, but that was very high. It's very rare liquidation.
+
+Speaker  584149:19
+It works on Shopify first too, right? Assuming, yeah, I'm gonna ask you in the group, anyone has experience with liquidation or something
+
+Speaker  587317:20
+this year, I had a lot of a we gain a lot of SKUs that we have a since, I don't know 2020 we don't sell anymore, and we try to send it again to FBA with a very low break even price, only covering the fulfillment fee. And it was great because disposal fee in tactical for example, is expensive. And in every market, I think, in the free bill, external. Free bill is very expensive, and with AWD, you don't have option, or you ship again to your free PL, or you ship to FBA. So that's the reason we clean a lot with the break even price. When we don't sell anything, we dispose. This was the year to clean up that inventory,
+
+Speaker  603066:40
+so you don't even take back the inventory, because within disposal, you can actually destroy it, or you can take it back and
+
+Speaker  604746:40
+so return to the free bill, because it's very expensive, and we don't have the opportunity to sell in Amazon. We don't try it.
+
+Speaker  607210:40
+That's sell it on eBay, or do get rid of it. It's always
+
+Speaker  608736:00
+very like all inventory that maybe, for example, in our case, they are like stands for a computers or model, all models. So we don't try it to solve.
+
+Speaker  611536:00
+And I think the fees to return is the same as the fees, yes, although so just if you can recoup some of it, then it just makes sense to return it and be assuming to, you know, to make some money, I mean by setting it. But again, it's very good question. I'm sure some other MDS members. I don't know if Greg, you have any experience with this, because I know you exited. You had another brand. You have so many SKUs as well. I don't know if you have to liquidate or do anything with that.
+
+Speaker  619770:39
+I'm doing like massive liquidation now, because we had, when I, when I took the business back over a couple months ago, we there was about $13,000 a month in Asian inventory surcharges. Um, and diving into it. It was a whole bunch of factors involved. But ultimately, some products, we tried to increase ads on and decrease price, and they really didn't move. And it was at a point where, like every unit to drop the price more and spend on ads, you would just be losing money to move units. So it just makes more sense to liquidate them. The majority of those liquidations were done through when you go to do a removal order and you do Amazon liquidations, yeah, what I found out there is a lot of those. One you get, like, nothing. It's close to nothing. The way I look at it is, it doesn't cost you anything to get rid of it. And you make, like, maybe $1 or $2 for stuff. But what I noticed sometimes. Times is not it'll it'll give you the option to liquidate it, and then the order of it canceled, because I don't think anyone picks picks it up on the other end that they want it after a certain amount of time. So that's something that I've noticed to be cognizant of, because we were disposing of or liquidating stuff, and I'm like, why do we still have this? So that's one thing I noticed. The other thing is, is most of those orders seem to be in deferred transactions, so you don't even get paid for them right away. In your next settlement report, it takes, like, I don't know, like, 60 or 90 days, because I think they're giving a lot of the people on the liquidation side terms, so they're not dispersing cash to you until you collect it.
+
+Speaker  651109:19
+I mean, even me, with some of my orders, I have, some of them are in deferred, even I'm not liquidating. So I think that the deferred transaction is something new, started a few months ago, and I hate it, like there's always, like, I have, I don't know, 2000 3000 4000 just in deferred transaction. Could be business buyers, I'm not sure. Yeah, could be because business, business buyers or something, yeah,
+
+Speaker  658400:00
+one of the things I wanted to touch on real quick, you were talking about splitting locations up on China side, and that's one thing the business has started doing, because we're, we're doing VDP, and obviously with the splits in Amazon, it's, it's exactly what, what you said. I mean, if we ship to five locations, it's coming over from from China in five different containers. Some of them might be going to the center of the country by rail. Some of them might be going east coast, west coast, just depending on where they go. I guess my my question for for you, Mo, or anyone else, is, how do you how are you guys actually doing the inbound shipments? In that case, because they want you to put, when you make the shipment, they want you to put if you're doing LTL, or you're doing small parcel, and in some instances, like the shipping agent doesn't know until it actually lands and they see what's going to that FC, that week,
+
+Speaker  674991:59
+the answer always, I mean, I've always done it, LTL, no matter what, even back in the days,
+
+Speaker  676415:59
+yeah, so, so,
+
+Speaker  677184:00
+because even if you do ups with them, they have their own labels. They won't let you. That you use your your UPS,
+
+Speaker  678565:19
+no but, but you can do you can do small parts on non partner carrier. You can do it LTL, non non partner. The reason, I'm the reason, specifically, I'm asking that, is, when you do LTL, it wants a pallet count, or just leaving the shipment and not putting it out.
+
+Speaker  683461:20
+Putting a paddle. Count, I just do it one. It's not
+
+Speaker  684666:40
+important, okay? And, yeah. And then delivery windows, their
+
+Speaker  686058:39
+last one is very tricky. That one, I even get hit with it. It's so that one, what I do? I have all my shipments on terminal 49 Yeah, I'm sure you better than me. You can call that. You can have an API.
+
+Speaker  689824:00
+I did that, like, three years ago, but
+
+Speaker  690591:59
+yeah, so for you probably, yeah. I mean, then you need a VA going into that Google Sheet, and then, okay, so one thing I do when I create those shipments, I put a delivery window. That's that's too far, like two months from now, because if you put it too early, it will be less, yeah, then you cannot change it. So I put them just two, three months far away, and then I have term of 49 I mean, we check the because I again, the fate forward gives me an update. But nothing beats terminal 49 because they give, like, accurate updates, as long as you're afraid for it gives you the container number, then you can track it. And then every week, we have a look, and we make sure that, okay, do we How is how is the ETA doing? Is it changing? Or one other way, if you don't have them, at 49 the shipment plan status will change in transit once you have an appointment. So basically, I think most of the accounts, they can see when an appointment is made. They can even see the number. So you can base it off the ISA number. But again, the ISA number can I mean those appointments could get canceled too, but so make sure that that, for example, if the delivery window is from one from, say, from June 1 to June 7, as long the appointment is in June 1, June 2, you're fine. Do not make it at the very end of the window, because if there's any change in the appointment, then you're gonna get hit with that one, even though I'm working with with a freight forwarder that's approved by Amazon. So they have the ability, I think they call them fist STS, something they're supposed to update the delivery window, but honestly, they don't update it. And the problem Amazon says, No, it's your responsibility as a seller. So that one like, I have probably five or six. Luckily, they're only like 1% I think that you need to be. 23% so they can suspend your shipping privileges. But I know there's always a ways to appeal, but again, yeah, this is something very annoying. The only, the only part where you don't have to do it, AGL or a WD, you don't have to worry about it. I mean, they can do whatever they want. They can even miss delivery window. They're not going to come after you, yeah.
+
+Speaker  725375:59
+So how are you like? What are you putting into because the other one is they want tracking information. Now you're just making up tracking information. Yeah.
+
+Speaker  727397:20
+So usually I used to make them up, but now, because I'm working with forest shipping, for example, and I need they give me a reference number. That reference number once I input it in, then Amazon can track that shipment. So I need to put the right one, because if I put the right one, then it starts feeding Amazon all my shipment status, and it gives them the ability to update the delivery window. So far, it's giving me all the tracking info, but it's not updating the delivery window. So I'm not putting any random numbers, because the faithful I'm working with, they're connected with Amazon, so it makes sense to put a number. But usually I tell everyone, if you work with a shady freight forwarder that doesn't that do not have a system, just use the FBA ID number as your reference number. That's the only way I can say, Yeah, okay, but just be careful with UPS. If you use UPS and you put invalid tracking number, because they could suspend you, because I've heard some, oh, they were thinking, Oh, by the way, this is invalid one. Maybe you stole those cases, and then Amazon made it a big deal. So just be careful with UPS stuff. You don't want to put invalid tracking numbers, because Amazon can go cannot be happy about it. Yeah. But other than that, I tell you everything gets shipped from China. They never use a palette labels. Amazon is okay if you send them stuff without pallet labels. So that's why I do number one for all of them, and most straightforward, they never ask for those palette labels, because they send the container as a floor, floor loaded to Amazon mix with other customers. So those palette labels will never be I always save them just in case, but we never end up using them. And remember, you need to print that label. If you don't print it, the shipping status will be always working, working, not ready to ship if you didn't hit print. This is why you see some shipment plans are on a working status. I mean, if you don't do anything, that working status will become receiving one day. But for me, I just do not like to see them working. That means there's something wrong with them, so you have to print the current labels, the pallet labels, and then the status will change to ready to ship, or even shipped. Yeah, here's a
+
+Speaker  762005:20
+question I wanted to ask the whole group, since we're talking about like shipping directly from China to AWD, if AWD, FBA, different locations, I recently talked about two or three weeks ago with a guy from Amazon global logistics, which seems like Amazon is also starting to move into, in the direction of delivering it to the Amazon has anyone, has any have has Anyone has had any success using AGL so far or not,
+
+Speaker  768960:00
+find anyone doing it for one reason, because of, because of DDP. You can't do DDP. You can't do DDP with them unless, I mean, you can create your own invoices. But do you want to be the importer and you creating your own invoices and then undervaluing? And then when you get my point?
+
+Speaker  773487:59
+Yeah, I do. I do, yeah, I work with
+
+Speaker  774021:20
+Asia, but not, not with USA. I do with them, UK. I do with them, Germany. And they're very they're very good, they're very cheap. They do also delayed import VAT when I import, which is nice. They're part of that system, and they're quick. I never had any issues with appointments, no matter what their Asia. But USA, I used to do to use them a lot, but then once, when we had the crazy tariffs, I mean, they came back to me because I know that director, he was like, more, you can create your own invoice, do whatever you want. It's not a problem. But again, I just don't want to be liable for that. That's that's sort of the issue. But again, does the system work? Yes, I know a few MDS members. They have oversized they're doing five locations with them. It works very, very well. Yeah, okay.
+
+Speaker  787456:00
+And talking again about the inventory levels in FBA, I just want to very quickly clarify. So would you recommend them? Is to never go down or reorder inventory when it gets to around 60 days of inventory on FBA. Okay, so 60 days is a reordering point that you would recommend, no 45 maybe.
+
+Speaker  792533:20
+I mean, say 60 days reordering point, but not from China, because you have only 30 days. What if, I know shit me from trying to take this than that, but what if there is a delay? I mean, point 60 days would work if your if your stuff is in USA already, but our bit tricky, I would allow more than 30 days just in case, like maybe 40 days, yeah, because again, again. Can. Do five shipments. Some will go west coast, some will go east coast. Now the West Coast, one should be okay. They should arrive in 20 days. But again, you never know what happens. Maybe there is a delay. There is maybe the shipment takes time to leave from China. So no, I would not do a reorder point at 60 days from China. I would make it more, more than that, like, more 10 days or
+
+Speaker  805973:20
+so, yeah. Okay, so like 70 days, maybe seven days around, okay? 7075 Yeah, okay, that's a good rule of thumb. Okay, thank you, MO.
+
+Speaker  808437:20
+I have a couple of questions. So our lead times are very long. Like, I mean, at least 90 days, if we're like, everything goes all right. There's no hiccups. 90 days production. And we've been doing, I believe, mostly been doing five split the split shipment to five warehouses from China. Some suppliers have complained a lot, especially ones that aren't used to working with us, or with anybody who sells on Amazon, and they're like, What the hell is all this? Just, we're used to just sending it to one, look at your get out of here. So it's, it's, you know, and then we're, we're doing two inspections. We're doing, like, a product inspection, and then we're doing a carton inspection, because we have so many products going to so many places. I don't want things getting messed up, right? So anyway, so that's basically been our playbook with that is there, so assuming that we're
+
+Speaker  825893:19
+the only improvement for that, I mean, maybe one day having your own inspection guy. That's something you should work on, on that law.
+
+Speaker  828122:40
+I mean, the amount of money we spent last year on inspection. I mean, we probably spent $30,000 last
+
+Speaker  829450:40
+year inspections. Problem, though, I feel like inspection companies can get bribed from but if you have someone that you trust in China, I know for you is a bit tricky, because, I mean, are all your suppliers in one place in China, or they're all over China,
+
+Speaker  833087:59
+most very concentrated, yeah, basically the same town.
+
+Speaker  834384:00
+I mean, yeah. I mean, work, work when Yeah, work and fighting I I mean, I got lucky like mine was. Used to be a sourcing agent, and he became a full time employee. Then he started sourcing, and now he does also inspection. But then now I said, No, you're not doing any more inspections. You need to find someone from that village, you teach them inspection, and then they do inspections full time, and then you do other things. So I think, I think having someone be full time for you, knowing your products much better than every time you're getting a random inspector guy that doesn't know your products, and then he has to figure it out and then do all these things. This is like something once I started doing it few years ago, I can sleep way, way better. Or even though my supplier is good with labeling, but having someone knowing all my my products very well, same person. And maybe you asked me, How come he doesn't get bride? In fact, if he gets bribed, then that means no inequality issues for years. But to be honest, every week there's something every week that means he's still good. I mean, I just take care of them. I Chinese New Year. I give them good holiday. I give them extra bonus. I give them those envelopes for their kids. So as long you have that good relationship, I think Chinese Not, not necessarily suppliers, but I mean, everyone says, Oh, they can stab your back, but not all of them, you know, anyone can stab your bank, even someone, even I don't know your neighbor, I don't know who, but I mean, it's just built, built on trust. I feel that. I feel that. I mean, again, that doesn't solve your problem. Now, but I feel like, with the amount of money you spend, you should be able to find someone. Again, it might not be easy. You have to ask. I mean, don't ask your supplier. Supplier would be, would be a bad one to ask. Someone has to be through your own side, because if it's from the supplier, then the supplier will be able to, you know,
+
+Speaker  863898:39
+influence them. Yeah,
+
+Speaker  864224:00
+what is this person doing? Is just reviewing, like the inventory, making sure there's, I
+
+Speaker  865472:00
+mean, it could be any China person. I mean, it could be your sourcing. If you have a sourcing agent and you don't have much volume, I mean, if they're free, they could go and do your inspection. The reason is because they know your products more than anyone else. I know there's many inspection companies out there, but I feel like every time you have to give them an instructions, you have to give them your inspection sheets and the stuff they do, and then they learn about your product stuff. I feel like I don't know. It's, I mean, I don't know. Maybe it depends at what level you are, but you said you guys did 10 million last year, so I feel like you're at a very at a time where you could find that that person, it's not that hard. I mean, I mean, if you already have people in China, you just keep asking, could be also? I know a friend of mine. He used a student like but that student was with him from day one, sourcing the product too. I know that student might graduate one. There, but I'm sure by then they'll find another one. Yeah, so sorry. Back to you.
+
+Speaker  882384:00
+We didn't, we did hire an engineer in China this year. So that's actually a guy that I would he's doing, like, more advanced inspections of new products, but he can help find somebody locally, I'm sure. And that's that's on the board this year, but yeah, but yeah, because of the very long lead times, we're trying to balance, like, storing at the Chinese factory some some stock. It's not like perfect, like the number of days and all that stuff, but storing some shipping direct to FBA and then the Overstock, we are shipping to three PL. We're not using tactical, but we're using, we're using a three PL in Texas, nice. And so the Reflect, like, I felt like, I feel like I've built down my team, and we've gotten to a point where, like, there's, there's, like, this Amazon amnesia, where the people on my team aren't really adept at, like, they have a lot of good skill sets, but not like, 10 years of Amazon experience. And I'm like, man, there's so much going on in, like, just the domestic shipping plans, right? And so just some basic stuff is, like, is it best to do? Like, what is the best way to ship from a three PL into FBA, like, like, the five shipments, five split.
+
+Speaker  902949:19
+I hate shipping from a USA or even domestically, because it's, it's, it's not good for me. Is there's always something happening. I loved it when I'm fully China now, because much easier. I mean, you just send the shipment and then you don't have to think about it. But anyway, back to your question, yeah, the the best way. And then you're not, you know, paying like a portion of money would be the five shipments. That means you're using Amazon, partner carrier, which is what I explained in tactical example. It's the fourth one. It's but again, the problem with these shipments, there's nothing problem with them. They just take longer time, meaning that you don't expect they're gonna get chicken in one week. They could take up to two weeks, if you're okay with that, as long as you, as long you're you're aiming, as long you're you in your forecast, you're saying, Oh, they're gonna take up to two weeks. Then it's okay. I mean, does it work? It works? There's nothing I have, I mean back, I mean back in the day, I used to pay the inbound placement fee and then do them one, one shipment, and then do a full truckload. But I'm not sure if it's, if it's possible nowadays. So that's, that's one way that doing five shipment. Now, I believe in Texas, the storage fees are very competitive, probably cheaper than California. If I'm not mistaken. Do you know how much you pay per palette? Like, 15 bucks, 10 bucks, something like that.
+
+Speaker  924698:39
+Maybe, probably, uh, I'd have to check. I'm not sure. The reason why it's less than it is less less than Amazon. And it's probably, it's probably the same. It's probably around 2020, like tactical.
+
+Speaker  927722:40
+Then the advantage you're getting out of Texas, you're more centric. That means your transportation cost through Amazon, patent carrier should be somehow cheaper than than working with a three PR in California, because, because, say, if you have to send to the East Coast, sending from Texas might be as a distance wise, maybe shorter, and then the fees are less. But that's, that's one way. The other way is, there's a there's a big, I forget their name. They're one of the biggest sellers on Amazon, like, as big as Utopia, even way larger than them. They came up with their own warehouse, and now they take us Oh. Pattern, yes, yes, that's the one. Yeah. Pattern, yeah, there's them. There's another guy. I forget their name, flip or something. Now, because they have so many trucks, they do five shipments daily, and from what I heard, it's live unload, and it's a bit cheaper than Amazon pattern Canada, but that means you have to send the stock to them, but I'm not sure about their storage fees. I do have someone from the MDs that has inquired about their prices and stuff, because they do supplements. I can, I can do a follow up with him and ask him, What, what, what sort of the race are, but for what, for what you're doing now, your only option is, I mean, unless you have a full truckload, unless you have a full truckload, then see, ask your team, okay, what if we pay the inbound placement fee and then we send everything in Texas? That's the only comparison you have. But, but again, like, like, most of the time it's more expensive. But again, who knows? Maybe you get an FC only 10 minutes away from your Texas three PR, then it might be cheaper just to pay that. But again, you need the volume. I'm not sure
+
+Speaker  957450:40
+if, yeah. I mean, like it's mostly LCL, LTL. Then. So if we're if we. Have pallets, like, full pallets, right? I mean, I So, so the five shipment split, you're doing SP you're doing SPD, on the five shipping, shipment split, is that what you're talking about? That takes two weeks, like
+
+Speaker  963615:59
+SPD, I'm talking about LTL with, yeah,
+
+Speaker  964463:59
+LTL, Amazon, partner, carrier, that's, it's good, as long as you're not worried about the two week timeframe, because they just drop it off.
+
+Speaker  966997:20
+If you're not in a rush and you're fine with two weeks, it works very well. But if I were you, I would do a comparison between AWD, Texas, I USF, and just using your three PR, because I Who knows, maybe AWD wins with the transportation, I'm not sure, depending, depending on your volume, but again, if you're storing more than two months, then don't, don't even bother
+
+Speaker  972650:40
+with a WD. I mean, yeah, I'm not gonna bother with AWD. We're storing a lot three. PL also does DTC fulfillment for Shopify, so there's, like, a bit of a you know,
+
+Speaker  975978:40
+they can help with tracking to Amazon by
+
+Speaker  977184:00
+Yeah, they Yeah, yeah. So, so if we're doing like, LTL also doing five, the five shipping, ship, shipment split as well. How does that work with a pet? Like, if you have one pallet, does that automatically get slake, how does it?
+
+Speaker  981957:20
+No, even with the pattern, they don't care. They don't use palace. They send them loose, loose cases to maximize the the truck.
+
+Speaker  984389:20
+LTL, no, don't worry about pallets.
+
+Speaker  985205:20
+You know, you know, with LTL, it does not mean, I mean, I mean, with LTL, yes, they have to be palace. But just it's easier for transportation. But whether you do LTL or RTL, you could send loose loose cases, but no one does that. No any PL does that. It's just too much work because, because if they have your stuff stored in pallets, they want to put them in the truck as pallets. But can you do loose cartons, yes. So that's what
+
+Speaker  992991:59
+pattern does, yeah. So we can, we like, if our three PL was okay with it, we could do LTL loose cartons. That's it's five ship, five shipments split. That would be the
+
+Speaker  996575:59
+wait, wait, no with Amazon. You know what? No Amazon partner, carrier, I've never seen them taking loose. No, only, only if you do it full truck load. No, I haven't seen Amazon doing loose. I can, I can double check. But I've never seen it because I was once in California, and then I was there at, I think, at tactical. No, I've never seen Amazon patent carrier, taking loose. Now, the reason why pattern is able to do it because they have their own trucks. It's a full truck load, and they mix everyone. Yeah, no, I think no, you cannot. You cannot do loose Yeah,
+
+Speaker  1005866:40
+yeah, okay, but you could with a non partnered carrier. Yes, you can, 100% Yeah.
+
+Speaker  1007690:40
+Talk with pattern like two weeks ago, and it's exactly like Mo said. They always do floor to ceiling containers, and that's how they like make things competitive.
+
+Speaker  1010336:00
+Yeah, they probably have good tracking system. They probably have bar codes on each cases, so that way nothing gets mixed. Yeah, I know who's working with them. They're even applying their fence queue labels, because they're in supplements, so they're just sending them in the supplements the bottle, the way they are. They do the packaging, they add the fence queue, and then they put them on a truck. They do everything for them, yeah, because it was way cheaper than them, so they had to shut down all their shipping department now. I mean,
+
+Speaker  1017349:19
+is there any reason to do SPD like? What is this? S What is sp like? Is there a certain
+
+Speaker  1018954:39
+I hate it, I do not like it, because people think if sometimes SPD is faster, maybe, but, but, but, remember the way how SPD works, even the sending by UPS is going to go to UPS, and then UPS gonna put it on a truck, and that truck is all UPS shipment, and then that truck will go to Amazon, is going to be a drop off, and then when Amazon has the time, will unload it and then do the receiving. So for me, yeah, I mean, if I really need something, rush, rush, rush, I'm not going to do all SPD. Maybe I'll try with one LTL shipment and one SPD, and then see maybe which one is faster, but, but I, I would argue with anyone as SPD is not faster. I mean, it's also, end of the day, it's going to be in a truck. It's the same as an ltr, yeah, but it's always good to try two different ways, just in case, maybe this one is faster than the than the other, and even trying different FCS as well. I mean, because, end of the day, it all depends on, by the way, even UPS make appointments because they need to take that full truck that has all these ups shipments. So that's why, sometimes quick, sometimes that I had a neighbor who used to work for Amazon. He was like, we have so many trailers in the backyard. He said, for us, we look which one has the most amount of money, like as a cargo value, because they get, I think, paid base that. On the cargo value. That's why he told me. I don't know if he said or not. He said, then we pick, we picked that one. So it's up to them, if they have, like, a 20 trailers to pick which one they think makes sense for them, and then they start unloading it. Yeah. So again, yeah, I haven't like, I mean, for you, I think you your items did not light. So I wouldn't do a speedy unless, unless you, you launch stock, and then that, that case, I'll do SPD and LTL. Just do both and see which one will check in first.
+
+Speaker  1048133:20
+Yeah. And we're also not, like some SKUs are higher volume, but generally speaking, especially for like, MDS members, like, we're higher ticket items, like, lower unit volume. So ship shipping out, like full pack. I mean, you know, 100, over 100 so like shipping out mostly full pallets of one SKU is unlikely, yeah, anyway, so
+
+Speaker  1054810:40
+that makes sense. Yeah. Okay, so even, even for your, I think for your account, tactical wouldn't be a good fit, because tactical is a good fit when you have a high volume skews. If you have low volume skews and many skews, then not because the thing is, you will never be able to have a full palette with them. Yeah, it's not gonna work. Yeah. So some questions here. I wasn't reading the shot. Oh, sorry, Aaron, yeah. Okay, so a WD, when it started, they called, they called the program star, S, T, A, R, that's, that's the name of a W D, back in the day. And then they came up with another name. And then the third name is a W D, I forgot what the second name is, but that's why the shipment star with S, T, A, R, the STAR program that's back in the day. Yeah, someone is asking why it starts, why? Why it's a star? Yeah? Sorry, sorry. I mean yeah, as Greg said, star means also the AWD fees, but yeah, star is any shipment with star, it's a WD, just distinguish it from a BA, shipments, yeah,
+
+Speaker  1073808:00
+do you ever do one, one warehouse like and pay the place? Is there ever a reason to ever do that? Ever?
+
+Speaker  1075712:00
+I've never done it for such a long time, at least for two years now.
+
+Speaker  1076448:00
+Yeah, and the three ship, three warehouses that if I
+
+Speaker  1077584:00
+want to do, if I want to do, if I really want to do one warehouse, then I'm better off doing it to AWD. I don't want to pay the inbound placement fee. Yeah.
+
+Speaker  1079733:20
+Okay. So basically, five, five warehouses, LTL, non partner, carrier, and
+
+Speaker  1081893:20
+then the last thing, if you have a very high moving SKUs, it's okay, AWD, as long your storage is less than two months, and you want to not pay the inbound placement fee, and you want to get a one in California too. So, like, I have some high, high moving SKUs, like, like, I still send them to a WD, but again, they don't get stored more than 60 days, probably 4045, days. The reason is the transportation fee is very competitive. And then by sending them FCL from China, I mean, you know, no matter what, you save so much money when you send an FCL, more than LCL, and I do with FCL DDP. But remember, FCL DDP is also risky, because if something goes wrong, then you have all your stuff in one container. So we try to mix between five LCL, DDP and one FCL, DP. But if I have to do FCL, then, for sure one location, then it's going to be AWD, no way. I'm paying seven, eight grand for one FBA. I mean, sending it to IDW gives me more control. I can, I can direct feed them to FBA whenever I need it. But not not to FBA.
+
+Speaker  1100234:40
+Yeah. Okay, so just, so, just to summarize exactly what you said, you said that ideally you send to five warehouses, five FBAs. So the itemized splits directly from China. In the case that you need to send one to a single warehouse, you got to do AWD because you can restock whenever you want and you fit. You save on the FBA, on the FBA inbound fees.
+
+Speaker  1105904:00
+It's an FCL, it's an FCL, it's a full container. Otherwise it's just
+
+Speaker  1107216:00
+thing, yeah, so AWD makes it make sense only in FCL, yeah, yeah. Okay.
+
+Speaker  1109695:59
+Thanks, Mom. Appreciate it. All right? I mean, yeah,
+
+Speaker  1110917:19
+we talk a lot, so anytime you let me know if you get stuck with other stuff. But yeah, I understand more skews more growing for the business. There's more pain point that comes with the scaling the business, but I'm sure you, you'll figure it out. Yeah, I know we over time, but yeah, other than that, before I sign off, anyone has any quick question, Are we all good?
+
+Speaker  1117306:39
+All good? Thanks a lot. Thank you. See you, mom. Take care. Bye. Bye. Thank you guys. Enjoy.

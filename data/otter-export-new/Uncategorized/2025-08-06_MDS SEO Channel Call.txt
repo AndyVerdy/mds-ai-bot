@@ -1,0 +1,650 @@
+MDS SEO Channel Call
+Date: August 06, 2025
+
+Speaker  10725:20
+Who do we Have Here? I
+
+Speaker  17248:00
+I see we have Ian, our fearless leader.
+
+Speaker  19792:00
+What's up? Alex, what's up, dude,
+
+Speaker  21216:00
+on the last week of summer break for me to got kids to play with all day.
+
+Speaker  23029:20
+Yeah, I'm trying to squeeze in jet ski trips between calls. That's fun. I went yesterday with my kids on the jet ski. We spent all day snorkeling. It was perfect. That's amazing.
+
+Speaker  27706:40
+Oh, I saw in your sag. So much fun. I'm sorry I saw in your sack for our meeting later today for the Atlantic meeting. It sounds so much fun.
+
+Speaker  30970:40
+Yeah, and the water is just perfect. It's like the Caribbean here, right?
+
+Speaker  32880:00
+Yeah, that's the one drawback of San Diego, is we don't have clear water and, well, it's sometimes a little bit
+
+Speaker  34576:00
+chilly. You don't have clear water there. I was expecting to be a little bit clearer. I know
+
+Speaker  35872:00
+the Pacific is not. The Pacific is not clear,
+
+Speaker  37040:00
+okay, I didn't know.
+
+Speaker  37312:00
+Yeah, it's mostly the Pacific.
+
+Speaker  38149:20
+But is the water brackish or is just dark blue?
+
+Speaker  39349:20
+This is the bay, whoops, on a walk right now. This is the, just the Bay Area, so it's like, looks blue hotel right here. It
+
+Speaker  41989:20
+looks nice. It's blue,
+
+Speaker  42389:20
+it's blue. It's very nice. This is the Bayside. There's a, there's a beach side as well. But yeah, anyway, right? You have a dog, yeah, but yeah, it's, it's, uh, no. Part of the Pacific is really clear until you get to, like, Hawaii, essentially.
+
+Speaker  49328:00
+Oh, interesting.
+
+Speaker  49648:00
+It's, it's more, it's more of a darker color. It's,
+
+Speaker  50624:00
+yeah, I've never been on that side, so I wouldn't, yeah, I might to the San Diego.
+
+Speaker  53360:00
+Okay? And the water temp, like the highest it usually gets is like 72 in California, 73 so it's when it's 85 out it feels great right now, but there is
+
+Speaker  56261:20
+85 right now. Yeah, I'm sure, yeah, yeah. That's fun.
+
+Speaker  58949:20
+Yeah. Okay, we have a pretty high attendance today. That's exciting. Yeah, 33 people, which is a lot for these channel calls.
+
+Speaker  62442:40
+I think the last time we had more,
+
+Speaker  63178:40
+okay, probably, maybe, but these are one of the most attended channel calls, so congrats on that, Alex. And we can start whenever you want. Well, we can start,
+
+Speaker  67344:00
+it's an open discussion, so whoever has any kind of issues or they want to address certain subjects, I'm all ears, and we can dive deep, dive into them. I know there are a few people who are asking me last week about if the hype is real regarding the AI for Amazon with Cosmo and Rufus. And I was saying, Yep, because most of them saw Kevin King's webinar, and right now they are just putting it out there. Oh, by the way, I have, if anyone needs, I have those chat bots, but I can post in the group as well. They did some chat bots for listing optimization with chat GBT. I can't say they are great, but if anyone wants to use them, they're they're free to do it. If not, I can show you guys how to do it easily with no issues. You don't need to pay for chat bots or do all kinds of stuff or something like that. I mean, the whole access is pretty much straightforward. Yes,
+
+Speaker  88325:20
+I was going to say that, yeah, that'd be awesome to jump off into. And I don't know if you have any experience on the Amazon comprehend, LLM, and using that along with something like a chatbot, like a chatgpt, or any of those others have you, you have any information, any details on optimization with titles and using Amazon comprehend for that.
+
+Speaker  95002:39
+Why would you want to use Amazon comprehend for that? My is it for the sentiment, or is just
+
+Speaker  97280:00
+exactly the sentiment structure, the the pairing of words so that they are also better recognized as as either entities or products or specific, specific phrases, when put together, are structured better. I've talked to it a couple of other sellers, and they're also playing around with this idea that moving words around in different positions within the title does make a difference, and so Amazon comprehend allows you to numerically see that difference in terms of a score, so placing a certain word in the back versus the front in this third position or fourth position. So I just wanted to see if you've had any idea or experience or thoughts on that
+
+Speaker  110954:40
+I was playing with Amazon comprehends two years ago, mostly for the sentiment portion, but overall, I dropped it last year because I couldn't see a huge benefit to it in the overall listing creation process. We are still checking in from time to time right now, but I haven't played with the LLM, which I'm guessing is linguistic language, something I'm trying to sign into the console. AWS, let me see. What if maybe they changed something.
+
+Speaker  122533:20
+Well, I mean, at least from a from a layman's point of view, I would imagine that Amazon, whether they're using the exact same formula that Amazon comprehends, provides you, you know, I'm not exactly sure, but at least from a framework and the structure can give you an idea and a little some clues into how an LLM might work when looking at your title or other parts, you don't necessarily have to be a title, but other parts where there are parts of language or descriptions or different phrases, or am I way off based on that?
+
+Speaker  134165:20
+No, you're not. I'm wait. I managed to log in into the console. So let's see. Yeah, they haven't changed anything. They have the key phrases. Let me just show those things easier. I
+
+Speaker  140378:40
+let's share
+
+Speaker  141178:40
+screens
+
+Speaker  143642:40
+so I don't see any any difference here
+
+Speaker  145456:00
+looks the same.
+
+Speaker  145872:00
+It's the same that they had two and a half years ago when they started with this. Let's see. Let's say some diving things. This is a very bad example, but it was my last search history.
+
+Speaker  153621:20
+Natural location came from plus key phrases, yeah, let's find the problem.
+
+Speaker  160762:40
+Yeah, so it's identifying the key features in the key phrases with the long handle here, in terms of the language, confidence, neutral, positive, targeted sentiment. I personally don't see a ton of advantages of doing this. I think you're just going to go more on down the rabbit hole when you should just focus on your main metrics with it, which is click through, rate and conversion. It's I mean at this point I haven't seen in the last year, I haven't seen listings that cannot index without a proper SEO structure. And nothing that we see here, I haven't seen increase in doing a detrimental change to the the overall listing. I think it's just a little bit of noise, basically, okay. I mean, if we create a listing right now, and let's say we put it here, and it's going to give me different key phrases that I need to switch around, I don't think they are going to make any kind of difference with if we are testing it for, I don't know, two weeks at a time, It's not going to make or break that listening, in my opinion, I might be wrong, but I just don't see it. That's exactly the
+
+Speaker  189546:39
+that's exactly the bottom of the rabbit hole that I want to get to. Is it worth the investment in time to actually make these small changes? I don't
+
+Speaker  192175:59
+think it it does. I really don't think it does. I mean, in my opinion, SEO and the overall listing structure is pretty much very simple. It's you're just feeding the algorithm exactly what it wants to to see, and Amazon is already giving you all that information in the back end. So why would you lose time with this? I mean, maybe you can embed, we can find some white papers and embed this into the chat box, and then whenever you're writing your listing, it can pull from this and do it automatically. But I wouldn't lose time in building a listing manually with this, in my opinion. But again, maybe I'm wrong, but I don't see any kind of changes in the last few years on comprehend nothing. I mean, yeah, I'm still writing them with a positive sentiment, depending on the niche. But other than that, I mean, the sentiment right now works far better for the overall reviews and for the Q and A section, not necessarily for the listing. And even if you have a very, very positive sentiment on the listing, you need to make sure that that niche is for something like that. So if you are going to have a children's book or a toy or anything related to children, yes, you want that to have a very positive sentiment. But if you have a beauty product or a supplement that sentiment usually needs to be neutral instead of positive, because that's how Amazon classifies it in in their back end. Same goes for sports. For kitchen. I mean, there are some sub categories in kitchen where it's better to have a positive sentiment on the overall listing, but most of them are neutral. As long as you're not negative. Got it. But usually if you're going to use chat bots, especially with chat GBT, I haven't seen chatgpt writing something negative by default. So he knows that this is a product for the masses, he's always going to maintain a neutral or a positive sentiment when it writes. So that risk is, in my opinion, pretty much eliminated. And right now, I think everybody's writing their listings with chatgpt. I haven't seen copywriters doing any kind of work right now. I don't even know. Do you guys still have copywriters in your teams? We do. No, but they
+
+Speaker  240143:59
+also that they're using their their supplementing, but for us, yes, we do have somebody that that, I wouldn't necessarily call them a copywriter, but that's the function, looking at listings using chat, GPT, looking at some of the other data tools that everybody knows, and making sure that what we want to convey has incorporates the words that we're going after the customer, and obviously now the sentiment as well, which is part of what Rufus is looking for.
+
+Speaker  248869:20
+But so it's basically, well, it's not a data analyst, it's a junior data analyst. It's just analyzing the data and combining everything into the the AI to spit out the the summary, right? More or
+
+Speaker  253210:39
+less, more or less, yeah. Okay, yeah. But this is not a data analyst, per se, somebody that went to school and formerly did it as part of their training, correct? Yeah,
+
+Speaker  256362:40
+yeah. Because using chat bots, it's, it's there. I mean, I just don't see the reason for why you should use a copywriter record, and it's been becoming better and better every single month. So it's, it can write whatever you want, however you want, it as long as you can find a way to download all the product reviews from your top 10 competitors, for example, and optimize your listing for to address all the issues that they have, combined with all the Q and A's that they have. So that Rufus is going to recommend you every single time you're going to push your listing in front based on that, and a human won't be able to do it, not right now, unless it's going to take them one month to analyze everything. Chatgpt can do it in two minutes.
+
+Speaker  272666:40
+Thanks. No worries.
+
+Speaker  273840:00
+Oh, I wanted to ask you guys something, because I've seen this happen. Last week I had two people reaching out to me this week another person, uh, apparently people are still modifying their category listing report whenever they are uploading flat files into the Amazon system. Are you guys doing the same? Or are you guys downloading a flat file every single time you need to make a listing modification?
+
+Speaker  282421:20
+I'll take I'll take you up on that question. We have started doing what you recommended, I think the last time I was on here, which was using a system that uses API versus flat files, yes, and that has been a tremendous amount of time saved from doing what you just said, we'd had to download the specific category, flat file, upload it. It didn't always work because there's errors. And now, I think last week when, when we discussed it at our staff meeting, the changes to either bullets titles is nearly immediate, like within five minutes, the update is, is there live on Amazon, which is wild. You don't know, no 24 hours and all that other BS that they tell you in similar support. Oh, okay, I absolutely appreciate you making that recommendation, because it's making our lives much better.
+
+Speaker  298485:20
+I'm glad. But so my my question was not to promote the service like that. It's not my service. I'm not getting a commission, so I don't care about that. I was just wondering, because I saw people where they are looking trying to identify the problems that they have on their listing using the category listing report, and then they just delete all the other fields, all the other listings from the category listing report, and they are just uploading that file as a flat file. And surprise, surprise, they are encountering a shit ton of errors because of it. And I was like, Who the hell taught you to do something like that. And every single time, I told them everything, each time you need to download the proper flat file, the most appropriate flat file from the system, if you want to use that, and do not use the old flat files, even if it's one month old and you uploaded with it a month ago, just using a new flat file, because they change every single month. They update something in the back end of those flat files, and that's causing a ton of issues, overall, on different attributes, not only on the GM, the product types and so on, but all across the board, and I just wanted to make sure, because it's I'm seeing it more frequently, and I think apparently it's a norm in in the Amazon world, and it's completely wrong. So I just wanted to make sure that you guys are not doing the same? Yeah, just a question. So if you download the category listing, the category listing file, and then modify that and re upload it, that's also not good, like you need to download a whole new batch file, yes, so the category listing report is just for you to see exactly what Amazon has on your listing, nothing else that shouldn't be uploaded. It's not meant to be uploaded because whenever you're uploading a flat file for a specific category that you just downloaded that one has embedded into it, all the GL, the Browse node, the Browse nodes, everything, the product. That's probably how I broke my my listing that I told you, oops, that's why I opened the subject, okay, because I see this becoming Ah, okay,
+
+Speaker  341616:00
+please, please explain a bit further. So if someone already uploaded this category listing report, how would you know that it's been uploaded and how to fix it?
+
+Speaker  344533:20
+Well, I mean, you can still find it on your upload status, I'm guessing. But that file is nuts. So you know that. Let me show you this. So add a product, yeah, upload. I'm guessing you can still see my screen, right? Yes, yes, okay, product, spreadsheets, and let's see, let's say mail, clickworkers. You can either use this portion, which is going to give you the most relevant two options. I prefer to go to browsea Product Category, because I have a little bit more. I don't know what it's called. Anyway it works. And usually the first two or three options are by far the most relevant, uh, product types that Amazon recommends for that specific product. Okay, and let's say we choose this one. We select this one. You can choose whatever countries you want. Generate the spreadsheet. This spreadsheet is going to contain in the back end everything related to that product, type, GL, roast path and so on. The moment you go to the reports, inventory reports, and you download the category listing report. This contains, if you have 200 SKUs on your on your account. This is going to contain everything in your catalog that's not specific for that, for that product. It's to give you an overview of what Amazon has in the back end. It's not laser focused on that. So always, always download a new flat file. Always, every single month you want to do some changes to one of your products, download a new flat file, copy, paste, give it to one of the VAs because I know it takes a ton of work, but do not use the old flat files. Download.
+
+Speaker  384330:40
+Just, use the same flat file, but clean it of all the information that's on there. You mean
+
+Speaker  385695:59
+no download a new one and upload all the new information, the old and the new information. I've seen errors, including when you're copy pasting from the category listing report to the flat file. So ideally would be to put to put them manually. I mean, I understand you cannot do that for bullet points, but I'm not using flat file. I'm not using flat files that much anymore, either way, but I'm not using the flat files to upload the bullet points or the description. Those can be done easily, manually. The flat files are usually done for variations, for different attributes and so on, because, for example, I have a case this morning where the size name was not showing up properly on the listing, a listing with variations. It was showing up the the ounces, when the the size name was 15x or 20x or 30x and it was just showing 6.2 ounces, 7.3 ounces. And finding to find out that they were just uploading the category listing report every single time, and it was basically taking the contributions from a different variation that rewrote the whole listing from top to bottom. So not uploading the correct file, yes, it's going to get you into a ton of trouble
+
+Speaker  411690:40
+overall. So then the best thing to do is to re upload just a normal, clean, flat file, right? Yes,
+
+Speaker  414298:39
+as long as it's the correct flat file for you, yes. So then you need to make sure that that's the correct flat file that you need.
+
+Speaker  416864:00
+It's not but you go and generate the flat file for your category, right,
+
+Speaker  418352:00
+correct, yes, for that specific sub category, for that specific
+
+Speaker  421664:00
+for that specific product type for this one. So this is the Browse path that you have. This is the product type and the GL in most case, in this case, is going to be GL mu for this one. So yes, you need to upload that. If you have nail clippers, you need to upload that, not the category listing report. The category listing report is exactly what the name says. Is just a report for you to see the status of all of your listings and what Amazon has on your listing. It's not meant to be uploaded.
+
+Speaker  433728:00
+So that's
+
+Speaker  434016:00
+helpful. Thank you. You're welcome.
+
+Speaker  435088:00
+I didn't even know that people are doing that.
+
+Speaker  435872:00
+Yeah, I'm not sure how we're doing that to be honestly, because in my case, the Amazon manager is doing that. I just want to make sure that he's doing that the correct way.
+
+Speaker  438469:20
+Yeah, because you have a ton of listings,
+
+Speaker  439061:20
+because I have no idea how to upload flat files myself, to be honest. So when, when you click that, when you click that, it's going to bring you to a next, next page where you can download the actual FAT file that you need, right?
+
+Speaker  443066:40
+Yeah, when you click select, it's giving you the Generate spreadsheet here at the bottom. And you just need to make sure that you select this for every single marketplace you need. If you just want to upload for us, just leave it like that. That's it. But, yeah, you can now download the new beta version of this template. Okay, this is new. Obtain better version of new template. Now I'm curious. Wormhole, as I said, they are changing this every single month. I spoke with the Category Manager, with several category listing managers. They are changing this every single month. They are upgrading flat files for the past a year and a half. So even if you have, I know cases where, oh, we have a product with 70 variations, because we have colors and sizes whenever we uploaded everything and change the whole listing, we use the flat file one year ago, and right now, if I want to add three new variations, I'm just going to take that flat file, add the new variations and just run with it. No, don't do that, because in the past year, that flat file has changed like 10 times. And then you will have GL issues. You will have display on website issues. You will have product type ROAs path issues, attributes that are not populating on the new listings, attributes that disappear from the old variations and so on. It was, and trust me, you really don't want that problems. Sam knows, I'm pretty sure you sleepless nights.
+
+Speaker  472757:20
+Amazon. Amazon makes so much problems that you don't need any extra problems that you that you're gonna make yourself.
+
+Speaker  474261:20
+Yeah, exactly. Amazon doesn't make problems. You're making your own problems. How do
+
+Speaker  476138:40
+you feel about category selection for SEO, as far as you know, the exact category, or kind of very similar category that clearly defines your product, but you have a chance maybe, to get the batch.
+
+Speaker  480010:40
+That was an old trick that we are using. A long time ago, I think in 2016 all the way to 2020, 2021, I think it still works. The Chinese are still abusing it. It's not as relevant that much. And right now, with the new AI, they started switching your product category based on the overall relevance and based on the overall copy that you have, because the the AI is going to recognize that and it's going to move you around if they don't find you relevant for that specific category. So we stopped using that when they switched the the system, and I highly recommend you go for the most relevant two options that they give you. So if you select, let's say adjustable
+
+Speaker  494186:40
+clippers gave you the first category, yeah,
+
+Speaker  494682:40
+yeah. They give you this. For example, there was one,
+
+Speaker  498272:00
+I can't see if it's on their list, and you go four down at least, and it's still a nail clipper, but it's, you know, ingrown toenail tools, and you have a chance to get the badge
+
+Speaker  501408:00
+correct. But ingrown toenail tools. So this five years ago, was perfect, because this is a much smaller category. You can get the best seller badge and so on. But now, because the AI is based on relevancy, whenever you list into ingrown toenail tools, it's going to affect the overall ranking for the overall fingernail clippers, because he knows that this is a very specific tool, and it's not going to be entirely relevant for people who are used for that are searching fingernails and toenail flippers, the standard ones, yeah, because this is A very special tool. Let's say, well, or at least that's how
+
+Speaker  513231:59
+per se the concept should be, be the authority, be the expert. Make sure your content, testimonials, image, everything is the absolute, you know, expert on fingernail clippers, so that the quality score, the BSO, everything ranks to that. Executing on that is the hard part. Obviously, send links articles. I mean, I do that for my headache product, and it does well, but we're not creating any shortcuts. You know, the competitors are Chinese. Competitors are and they just bump up for a week and then they disappear,
+
+Speaker  522725:20
+correct? Then, so it's not constant. They bump up for one week and then they disappear. Yeah, so you don't want that, you're building something long term. Yeah, so in the last five years, I only use the top two most relevant categories that the system is giving me, and it doesn't fail. It may take a little bit longer because you're facing a much bigger competitor pool, yes, 100% but you know, you're going to be indexed everywhere that's relevant to that, and you can still be indexed into ingrown toenail tools with no issues, you will be indexed for anything relevant to this. And I know, because we have a product in this niche, I'm still using different different titles for every single variant. I have three variants of this product. Each title is completely different from the others. And I'm just going for in Chrome, toenail tools for uh, seniors, wonderful. It works like a charm.
+
+Speaker  542330:40
+And I presume title, the images, content, the entire page is, is it speaks to that customer?
+
+Speaker  544026:39
+Correct? Yes for that, for that variation, specifically Yes. So I'm going to get ranked in this. I'm not going to get the best seller badge, yeah, from for this specific subcategory, okay, but you make
+
+Speaker  548112:00
+it overall pick.
+
+Speaker  548512:00
+Yeah, exactly. And as long as my listing stands out compared to all the other in the marketplace. Why do I care? And
+
+Speaker  550885:20
+is it the same exact product, or did, did you like put a light on it for for all
+
+Speaker  552149:20
+the same exact problem? Product, one is silver, the one, the other one is black. Who cares? It's just a color change, nothing else.
+
+Speaker  554677:20
+No, I did that for pink. We did a pink headed cap. We gave a $50,000 to Susan G komen to help fight breast cancer, and I changed that to one says headicap, one says migraine cap, a great gift for mom, all on the pink version, so that I'm trying to grab keywords and relevancy for those.
+
+Speaker  559466:40
+And did it work? It does,
+
+Speaker  559882:40
+but sometimes that might show instead of the black, you know, depending on what's going on. It's it's challenging. They actually just split, I don't know if anybody else on the call, they just split reviews. They're doing a beta test that I want off that the product is 42,004.6 stars. And they split them, and it dropped to 28,000, on the hero, and then, like, 8000 on that pink, because they're trying to test to see if that works. And I'm like, well, it's not helping us, because it affects conversion.
+
+Speaker  568421:20
+Correct? But are you sure they are doing that and you don't have an issue in the back end?
+
+Speaker  569701:20
+no, we're positive. Our SAS core rep is told us there's a beta test. We kind of volunteered for all betas, and we're like, can you remove us from that one? So if you haven't seen it yet, it might come down the pike. Yeah.
+
+Speaker  573706:40
+That will suck. Yeah. Makes no sense.
+
+Speaker  576506:40
+Alex is it okay if I ask a question? Yes, of course. So, so we did two optimizations in the past six months. We, you know, did a whole A plus B plus. In my opinion, it was great. It didn't change a bit on a conversion. And our price is much higher than the competitors, just the quality, and our price is higher than the mainstream brand, you know, a major brands. So now is, I'm think I have updated the hero image of one product as a it's a parent and child listings. We have about 1515, child listings. So we did, and the impact is it, we can't confirm about the click through rate directly, so we ask all the sort of questions, but the conversion is improved slightly. Some ASINs did great, improve a 25% some, you know, even go down a little bit. So in average, it had a small impact. So I'm trying to think, I think I still need to improve the hero images, some more products being around for five years, still going strong. But, you know, people, customer can get sick of it, right? But what's the best route for me moving forward, is that app I can ask, is the app? Ai existing tool? A prompt with chat GDP? I have a chat GDP Pro, or there's other apps out there. So
+
+Speaker  607354:40
+you're asking me, what's the best way to improve your overall, overall images click through, rate and conversions,
+
+Speaker  609632:00
+yes, but it's more about what's the steps for me to not I didn't seek this is what you need to do. Type of answer is, if you are to optimize the hero image, what steps, what tools, the sources, the steps you take to arrive a best plan.
+
+Speaker  615573:20
+Well, it, it's, it's very specific to your niche and how all the others are standing up in that niche. How are your main competitors who are selling at the same price in terms of images and conversions? How is the top main brand looking it's because your listing really needs to stand up.
+
+Speaker  624762:40
+You Yeah, the main brands we in my category, there's a brand, you know, I think in most of a category, we deal with mainstream brands, you know, they're there for like, 100 years. They just has the conversion and they're cheap,
+
+Speaker  629184:00
+but you have the advantages of, whenever you have a name brand, they usually do not take care a lot of their Amazon system,
+
+Speaker  632533:20
+that's correct. They also do one piece,
+
+Speaker  633205:20
+unless they go for a huge agency like pattern, and pattern is going to play a different game, but not that in most cases, they are not optimized. They are only there, and they are only selling because of the name. Brad
+
+Speaker  637466:40
+Casey, are you AC testing?
+
+Speaker  638730:40
+I haven't. No.
+
+Speaker  639034:40
+I think that's the simplistic answer, because whatever we think the CEOs on the call, or whatever our positions are. We think we know something, and this looks great, but the answer is, we're probably wrong, and we might not be the market. So AB test and let the data show. The other thing I would add for Alex is, if you go back up, you see some people starting to cheat with adding packaging. The one on the bottom right says nail clipper set. So kind of like his grandfather, whatever we've we've experimented with putting the main keyword, rendering the package, faking the package so that it doesn't exactly match it, and putting it behind the product so that it is TOS compliant, and AB testing that. So I'm
+
+Speaker  649717:20
+showing you this. Yeah, AB, exactly which one stands out? Because from all of this page, that one stands up whenever you scroll through it. This is a scroll stopper every single time.
+
+Speaker  654874:40
+And by the way, the good companies never stop. They might see that that's a great, the best one. And then try blue, and then try green and and just incremental changes. I'm not doing it either, but those incremental changes make a difference.
+
+Speaker  658688:00
+Correct? I usually update my main images if I feel there's an a still a slight improvement. I usually update it every six months just to test it out, just to see exactly how it works. Now, regarding the testing tools, I started using more and more the Amazon experiments, the AB testing, because that's the real life scenario on the product itself, and I stopped using Intel dB.
+
+Speaker  667898:40
+Alex, I think that's also key, because they let you test if you push the boundaries of TOS compliance, you'll know immediately in the experiment.
+
+Speaker  670714:40
+Yeah, yeah. Well, look in in some cases, they will cancel you for no reason, and you have a very small tweak that you need to do. So, for example, if you have the product box and the product next to it, they need to be overlapping just a little bit the moment they are separate. The box here, the product here, they are going to suppress it, but just by overlapping the product over the box, it's gonna, it's gonna, it's going to work out with no issues. Also the color matching between the products and the box. They need to be within the same color pattern, so it stands out, because if not, the AI will suppress it. I've seen, I've seen it happen where the AI is not recognizing that product package as being a product package, and it's just going to say, Oh, you're using a logo in your main image. And I'm like, No, that's a product package. So just by playing a little bit with the colors it's going to paint the switch immediately. How
+
+Speaker  689184:00
+about this topic on the call Alex for SEO, anybody's title been updated by Amazon directly, without you touching it. For duplicate keywords where you keyword stuff, sorry for the term where you're putting the exact keywords multiple, you know, one exact keyword, but your, let's say headache relief cap and then headache hat. I can't say headache twice. They change the listing without even telling me. And so I don't know if you guys have been hit with that, but it's, it's they're doing it, and there's obviously a lot of listings. So if they haven't gotten to yet a wise they they might, but that's next on the list to not duplicate any keyword at all on your title.
+
+Speaker  700074:40
+Then in the back end, there's a box you can uncheck. So, so that stopped AI updating,
+
+Speaker  701978:40
+yeah, but this is it's coming from Ai, but in some case categories, they are just doing it either way. So in my opinion, right now, I would highly recommend going and revamping your full cattle and test the shorter titles as well. See exactly what works the best for you. Shorter titles, meaning 90 to 100 characters. Wow. Do it on one product and see if it's going to make a detrimental change. If you're going to see it jump in rankings. Use that.
+
+Speaker  710725:20
+Alex is so fun you want to add a keyword that that's like a million in search frequency just because you have room in the title. You're like, don't do that, but I can be number one.
+
+Speaker  713557:20
+Okay, exactly. But it's instead of having a title like this. You can have a title like this, yeah, and you will see that in some cases, this title is going to work much better because it's it's not cluttered for the system.
+
+Speaker  718522:40
+I'm adding FSA, HSA eligible to the title, which will make it longer. But I'm curious to see if that, I mean, the search frequency on on those items is like 1700 so it's opportunistic. But I don't know what it's going to do to the quality score and things of that sort, but
+
+Speaker  723168:00
+I can You can only test. Amazon is just a platform for testing. Nothing else is just non stop testing. It's, I mean, those days when you are launching a product and you are riding the wave for 15 years are longer. It's and I'm seeing less and less people who launched back in 2015 they were riding the wave, and they are still riding the wave right now with the same product, without any kind of modifications to the overall SEO or images or adapting to the new styles, no matter how many reviews you have, I'll show you guys with 400,000 reviews or losing a ton of market share because they refuse to update anything great. Mean 400,000 reviews. Let that sink in for a second. So it's always testing. It's always adapting. If they are adapting the algorithm, if they are adapting the AI agents, we need to do the same thing. We cannot just sit around and wait, maybe something will fall from this time. So testing the listings, it's it's mandatory. Worst case scenario, you can always go back if it doesn't work. Okay, fine. I shorten the title and suddenly I dropped from 10 different keywords. Leave it for one week. See how it goes or lift it. Leave it for three to four days. See if it's coming back. If it's not coming back, change it back. It's not going to do anything. As long as you make sure that those keywords are strategically placed in the rest of your listing, I guarantee you won't have you're not going to experience a fall in rankings. And I did it so many times. No issues whatsoever.
+
+Speaker  757392:00
+But yes, was Casey. Casey was test the hell out of it, non stop until you find a sweet spot. Thank you. You're welcome. Are you monitoring the click through rate and the conversions and everything, or No,
+
+Speaker  762725:20
+I do, you know, we uploaded, we waited for three, three or two, four weeks before we analyze everything. The click through rate is not straightforward, so we see the conversion improved on certain are you using
+
+Speaker  767578:40
+jungle laser? What are you using? You can use Data Dive as well.
+
+Speaker  768864:00
+My team uses, you know, just Amazon business report and skill insight.
+
+Speaker  771472:00
+They're not inside. Has the sqp data.
+
+Speaker  772368:00
+I'm not sure my team gave me the data. I'm not sure.
+
+Speaker  773504:00
+I don't think they
+
+Speaker  774197:20
+do the date Data Data Dive, okay,
+
+Speaker  775605:20
+so Data Dive has implemented that in their system. I'm talking about the search query performance. Data that you can find under brand analytics, search analytics, search query performance. This is the data that you need in order to calculate your metrics, in order to calculate the click through rate, the conversion rate and everything, because it's going to always compare it to the market for each keyword. So you know that the average for this keyword, for silk, I'm asked, the average click through rate is, I don't know, 7.8 you are 10.5 wonderful. The conversion is at 12% for on average for this market, you are at eight. So something is stopping them from buying your products on that specific keyword. So it could be either pricing, it could be the images, or maybe they just don't like something about the listing. So you need to find out exactly what that is, but at least you will know where you are situated. And, okay, sorry, that's the benchmark.
+
+Speaker  798138:40
+Yes, so when you go to Data Dive, let me see I
+
+Speaker  801216:00
+although I'm not a huge fan of Data Dive, but it is what it is. I
+
+Speaker  808021:20
+so
+
+Speaker  808645:20
+when you add the sqp data, they're going to give you exactly that, and it's going to tell you for the purchase rate, add to cart, the clicks and so on, and see exactly how you convert and where you are located. And here you can start doing different changes. For example, I saw an opportunity on this one, this one and this one, so I started changing or moving the keywords around, because I know I'm converting much better from those listings. I'm moving them around in the title and my bullet points, and then I'm seeing my ranking should up, because now the listing is much more relevant. I have the first portion, which is the click through rate, higher click rate, higher conversion rate. But I was missing the relevancy part. My keyword was somewhere very in the back end of the description, the moment I moved it to in front of my title, everything should happen because I increased that relevance relevancy. So you need to monitor that that detail as much as possible. You can use jungle ace. You can use Data Dive. I'm not sure if scale insights has I mean, I'm using scale insights, but I haven't seen it there, and I'm not using this for that, either way. So I'm mostly using it for reporting, because there is sales reporting and weekly reporting is quickly done.
+
+Speaker  834256:00
+So yeah, I highly recommend you do that before you start changing anything on the lesson. And if you want, I'm happy to take a look. Maybe I can see something that you guys don't. I'm just you don't want to share it in the call, but if not, we can do it on a later date.
+
+Speaker  839973:20
+Yeah, I would take that off for Alex. Thank you
+
+Speaker  840933:20
+sure anytime.
+
+Speaker  842181:20
+Hi, Alex, yes,
+
+Speaker  842693:20
+question. I think it's something maybe related to what you already said, like we are optimizing our listing and incorporate a lot of roofers data. And also, like the data we're using Dorians tool capital, and so we are trying to incorporate our listing to answer customers questions the roof first has, and they their purchase barriers, and we are at the bullet point sections. And we just, like in the past, we have, we have like keywords in the bullet points, right, like focus on SEO ranking, but now we are trying to also incorporate audience like, audience based ranking. And we just kind of debating because we want to our bully more readable, and, you know, more more simple, like a short and to the point. And so we probably not able to include that, you know, the keywords we already have from the past. So just wondering, is it okay to remove those keywords that we already rank. Would that impact our ranking or or not, or
+
+Speaker  866400:00
+it depends on the metrics on those keywords. Are you do you have better metrics than most of the market on those keywords? So you have Are you converting higher on those keywords. Do you have a higher click through rate on those keywords? We have anyone else?
+
+Speaker  871253:20
+Yeah, since our product is like our price is like the most expensive one in the niche, and our main competitor, the name brands, the price may be 1/3 or half about price. So always our keyword, the conversion rate is always lower than the benchmark of the niche. We have good click to click rate, but the conversion rate is always not compared to the benchmark, but we kind of rank for it, yeah. So
+
+Speaker  882048:00
+do you only have one product in this situation, or you have multiple,
+
+Speaker  883520:00
+like multiple because of our product, the price is very expensive. Tested,
+
+Speaker  885504:00
+okay, whenever I so when I'm removing keywords, let's say I'm re optimizing my title and I'm removing three keywords, main keywords, from my title. I'm always adding them to the bullet points, having very short bullet points, like one line it has an advantage with the overall customers, with the overall conversion, because they can easily skim your listing. But considering most people buy it online, they don't see those bullet points either way. So in my opinion, I wouldn't remove the keywords. I would just make sure you you have that intent based search and that Cosmo is looking for. You have that behavioral analysis, embed in those keywords, in those bullet points. And I wouldn't exclude those keywords, because no one will see them, either, unless they are shopping on desktop. Or do you is your product being shopped on desktop, usually, or on mobile? Do you know?
+
+Speaker  905765:20
+Um, I think from mobile more.
+
+Speaker  906810:40
+Okay, I have because I've seen both. I've seen niches where 80% of purchases come from desktop, and I've seen niches where 75% are coming from mobile. So it's whenever people are buying, for example, tools or garage organizers or large, large products they are going to buy it from desktop, in most cases, whenever they are buying a phone case, I don't know, a notebook or whatever it is, like a writing note notebook, they are going to buy it from mobile or any household items that they need, for cleaning, for beauty, for stuff like that, it's mobile. Any heavy beauty items or large oversized sizes are usually coming from desktop.
+
+Speaker  922997:20
+So it's a different strategy for the bullet on
+
+Speaker  924586:40
+on the desktop, they can see the bullet points on the side of the images, like we all know, right,
+
+Speaker  926490:40
+yeah, and I think the bullet points way down on a list,
+
+Speaker  928416:00
+so they can see it here. But when they buy from mobile, they are buried somewhere below the a plus content, and they need to click a drop down list to see more product details, right. In most cases it's mobile. So if it's mobile, I wouldn't remove the why the hell is this swing mat anyway? If it's mobile, just leave the keyword. But even if it's desktop, just leave the keywords there. It's not going to make a huge impact, unless you have those big bullet that no one wants to read. The bullet point should have maximum two lines, and in those two lines you should be able to fit every single keyword that you have. Like a bullet point should have the size maximum. Don't go for those large chunks of five lines and maximize each bullet point with 500 characters, because it's not going to do you any kind of good,
+
+Speaker  946016:00
+right? Yeah,
+
+Speaker  947136:00
+so I wouldn't remove them, okay? So you can ask the AI to keep those keywords in the exact match while adding all the other features that you're looking for from Kat flow or whatever other AI you're using to rewrite the bullet points.
+
+Speaker  953141:20
+Yeah, that's a great idea. And also, how about the keyword in the product description which doesn't show on the front end.
+
+Speaker  955754:40
+Yeah, that's full of keywords for me as well, but I always make it look like a proper description, and changeability can generate that in a second. You ask it to generate the product description up to 2000 characters, and make sure you include all of those keywords in the exact match. And you just hand him all the keywords that you want to include it in. You want to include it in the exact match, and it's going to do exactly that.
+
+Speaker  964944:00
+Okay? And it's still, I do the same heavy lifting on the keyword ranking as the bullets or it's less
+
+Speaker  968581:20
+it's less relevant, but it's still getting indexed. The algorithm still pulls from that. So it's still an indexing field the back end description, and I highly recommend everyone that's not using it to take full advantage of it. The problem is, with the algorithm that it's always a hit and miss, it's not going to index everything that you have in the listing, so you need to make sure you have it everywhere, if that makes sense. So in most cases, the title gets the most amount of indexation. Then you have the first three bullet points. In some cases, they index all of them. In some cases, they index all eight of them. If you manage to put eight on the listing the description, it's a hit and miss. Sometimes they index what it has inside. Sometimes it does not, but they don't tell you. So you need to put it there, the generic keywords the same, and then you have all the other relevant attributes.
+
+Speaker  985317:20
+Okay, got it. So
+
+Speaker  985765:20
+just make sure you have that data everywhere, and don't leave any kind of space aside on your listing, and especially do not ignore the Q and A's ever if you can have a group of people posting 15 to 20 Q and A's every single month based on competitor research, based on their Rufus research on mobile, based on the questions that they have, answers that they have on their listings and so on. I would do that non stop, because keeps pulling data from that non stop just to make you more relevant. I do
+
+Speaker  998000:00
+we still have Q A? Because in our niche, I don't see Q A anymore, is, is it? Is? It's
+
+Speaker  999973:20
+still there. It's hidden. They started hiding it so they have this and on mobile, I think it looks identical. Look for a specific info. So can it be used in salt water? Let's say it's going to give me that, and then you can ask another question, blah, blah, blah. And then it's showing you show related customer reviews, and Q and A's here, and you have the option of post your phone question,
+
+Speaker  1008880:00
+which
+
+Speaker  1009248:00
+you don't do it as a seller, but you have a few friends family that can post your questions.
+
+Speaker  1011248:00
+And then, is it true
+
+Speaker  1011584:00
+that this can cure cancer? Yes, it's a Q, A, it's asked by a customer. You don't care. It's not going to be affecting Is this better than Chrissy? I don't know. What's this? Storage back? Yes, 100% ours is much thicker. It floats. It's whatever it is.
+
+Speaker  1018037:20
+Okay, that's Alex. I want to ask you a question about that Q and A piece we've we've put a strategy of trying to do exactly what you say, but I don't. We don't always get the questions coming through Amazon to our customer service team, and no matter how we've tried to investigate this left right center, we can't find a concrete answer on why every question is just not being forwarded to us as a seller. Have you run into this?
+
+Speaker  1027472:00
+I'm not handling that part, but I can ask. I mean, last time I was doing it manually, they were coming, but it's been a while, more than a year. Um, but I can ask my team and see what they say. Would love
+
+Speaker  1032405:20
+you can post it on the MDS thing. I'd love to hear that, because we can't find a either a straightforward resolution as to why. There are some questions that come through, some don't. There's no like notification anywhere where you can pull a lever and say, Yeah, community questions forwarded to this email. So anything you find would be absolutely helpful.
+
+Speaker  1039210:40
+I think there was somewhere it's not under the voice of customer, right? It was somewhere in Seller Central. Oh, yeah, great. This is going away. That's itchy, yeah, let me check. I know for sure, if you bought this product, you will get those questions, but not, not all of that. But before they were coming on the listing,
+
+Speaker  1050597:20
+my I was told by my team that the customers who bought the product and who have left the review will, for sure, get the question. That's what I was told
+
+Speaker  1055098:40
+could be but you cannot have your team buying the review, the buying the product and leading everything
+
+Speaker  1057040:00
+that's true. What we found we did a little bit. We did about 10 Questions so far, and targeting the keywords. Originally we were thinking we can manipulate and give the answer, we exactly how to respond. But what we find is, when we post a question, which is in my team with high we just ask a customer to do it, and the response actually is very favorable to what we want, and not exact the word, the keyword they use, but the response is very variable. So we just left alone. And we haven't got, you know, a one, nasty one, like, you know, but we ask a reasonable question,
+
+Speaker  1070682:40
+and even if you get a nasty one, Rufus, it might eliminate that. So if you have 10 good answers and one nasty one, Rufus is going to eliminate that either way. It's not going to highlight it, because they want their questions being answered in the most helpful manner possible. So they select those answers either way. So you can ask those questions in a way that they cannot be nasty. If that makes sense, maybe it makes sense in my head, and you can ask again, chatgpt to give you those questions open I think they're called open ended questions, if I'm not mistaken, or something like that, to be answered directly in a positive manner. You basically manipulate them into answering with your question, but they are still getting indexed. Is this product better than x brand? Yes, 100% but it's more expensive, but it has a lot more features. Look it has this. Yes, why not? It's market like marketplace manipulation. We should use it as long as we have it there, for sure, they are going to remove it at some point in the next three years or change it, but until then, everyone should use it.
+
+Speaker  1100522:40
+Anything else.
+
+Speaker  1102218:40
+I had a question on. I had a question on the Oh, thank you. I had a question on, like, data tracking and such. Right now, I don't do pretty much any of that. Like, occasionally I'll look at on the SQL, look at like my click through rate or conversion for one of my products, just to see, like, maybe what the lowest hanging fruit changes, like, whether it's main image or the image stack, but I really don't track this, like, regularly. And I'm launching my first new product in a long time right now, so I have, like, the listing done just launched today, and I'm curious what you recommend. Like, what should I be looking at like? Okay, the listing is out there now, hopefully it lands well. But how can I like? What should I do moving forward to like, know if it's good or bad, and if I start making changes to know if those are good or bad changes? Is is it like? I'm curious what metrics
+
+Speaker  1120976:00
+I would highly recommend you start tracking the rankings immediately, put as many keywords as possible in in the tracker, and let let it run from the beginning, from day one. If this today is your day one. Just make sure you add all the keywords in the keyword tracker. And again, if you're going to use and and people know me that I'm not a huge advocate of Data Dive, but their tracker, combined with the STP and so on. It's quite good. I would highly recommend you start tracking that and see every week to see exactly what kind of changes you have in terms of rankings. If, for example, a group of keywords are ranking better than the others, you check your listing, you check your listing to see if you have all the other keywords embedded in it. Where are they located? Are they in the fifth bullet point and in the backend description? Then you know for sure that they are not taking that into consideration. Try moving them around if you see them switching and they start ranking. That means it's working. Uh, check your click through rate, check your conversion every single time compared to the market. Those are metrics that you need to check thoroughly every single week, especially during the launch phase, because
+
+Speaker  1146485:19
+click through rate and conversion. Yes, those three things,
+
+Speaker  1147594:39
+yes. Because the sales velocity that you get all the ads that add budget, that you're going to spend, every single traffic that you're going to do, it's going to highly impact all of those metrics. And the more and the faster you rank, and the better you rank. The better is basically the algorithm telling you your listing is good. Keep up. Your listing is relevant. We are going to move you up. Got it? Okay? You need to track everything. You cannot fly in blind,
+
+Speaker  1157327:59
+and that's per keyword, like looking at the click through rate and conversion rate for each keyword, or is that overall like?
+
+Speaker  1160309:20
+Well, it depends on what your launch strategy is. If you're going for a batch of keywords, which I personally recommend, let's say you selected five to 10 keywords and you just want to focus on them, make sure your your listing is relevant for them, and make sure you're you start to move on those keywords bit by bit. The moment you see keywords that you are not focusing but they are run there, they started ranking as well, and they start jumping up, push on those as well, because the algorithm finds you relevant on those as well. It's the algorithm way of showing you your listing is relevant for this. So you should, you should capitalize on that as much as you can
+
+Speaker  1175413:20
+by making sure those are
+
+Speaker  1176661:19
+Yeah, because so if you're making shooting for the after two weeks, for example, then you need something is wrong. And then you know something is wrong. It could be something in the bros pad. It could be a Jill, it could be category mismatch. You can have a suppression, keyword suppression, or maybe your listing is just not good enough, right? But you need to know the more you wait without those metrics and analyzing all of those metrics, the more negative history you're going to gather on that listing. The hardware is going to be for it to shoot back up.
+
+Speaker  1188144:00
+Okay, if I'm not ranking on a certain keyword then what is like? How do you determine what needs to change? Do that like? What would be that order of thought? There, where
+
+Speaker  1192277:20
+is that keyword in your listing? Is it in your title? Is it in your bullet points? Is your listing actually relevant for that keyword? Do you have it anywhere in your images? Do you have it in the alt text? Do you have it anywhere? Is your product highly relevant for that? Because if I have nail flippers and I want to rank for scissors, it will never happen. Yeah. So if it's nail clippers for toenails. I think it should be pretty relevant. If you're not ranking for that, then you have a problem on your listing. You need to
+
+Speaker  1203024:00
+check, do you need anything other than Data Dive, or can Data Dive? Show
+
+Speaker  1203936:00
+all of this for ranking and for tracking the rankings. Right now, I'm using data and I and they go in parallel,
+
+Speaker  1207189:20
+okay? And for click through and conversion, does data type show that
+
+Speaker  1208117:19
+jungle? Jungle is for data type? Yes. Sweet, yes. It's based on what you you are used to nothing else, but if you want all in suite, just go for Data Dive, and that's it. I can't believe I said that.
+
+Speaker  1213546:40
+I remember you in the past calls like not being a big fan of Data Dive, but specifically for the listing builder, you were like it correct. The ranking juice is not accurate,
+
+Speaker  1216576:00
+correct? Yes, for the different it is, from the bottom of my heart, but for tracking the rankings and SKP, they're fine. It's overpriced for that, but it's fine. I understand what they are trying to build. I understand that they are trying to build an all in platform, most probably they are going to add profitability to it at some point, and that would be great if it actually functions properly and add management. But so far so good.
+
+Speaker  1226981:20
+Thank you, Alex, you're welcome.
+
+Speaker  1228010:40
+Alex, just Yes,
+
+Speaker  1228458:40
+quick question. Just curious, if the keyword you already have history, customer purchasing and you are index, your relevance, your ranking, does this still important? Of this keyword appear on your listing at all, or still,
+
+Speaker  1233183:59
+it's depends. You can remove it completely, if your listing is highly relevant for that, or that's basically your main keyword, your main niche, and you you might get away with it. I've seen both ends of that scenario. Whenever I'm removing a keyword from the book, the title, I usually add it to the bullets. I don't remove it 100% I did that in the past. It worked, but at some point it's going to start going down, and you will get back on it, and you are going to have to add it again and so on.
+
+Speaker  1246826:40
+So the answer is very listing specific, very niche, specific, based on your metrics, based on your click rate, based on based on your conversions, if you are, if you are grandfathered into that niche, and you are in the first two spots, removing that keyword from your listing, most probably is not going to make any kind of impact, but it's not going to make an impact on that specific keyword. But what happens to all the related long tail keywords to that? That's what you should be worried about, because the main keyword, okay, it's bringing you 10,000 units every single month, but the rest of the long tail keywords might bring just as much. And if those get affected, then what's the point? Right? Yeah, so I would be careful with that. Although they keep saying that it's not keyword focused anymore, the algorithm it still is. We didn't get to that level yet. Probably we are moving into that, into the intent and behavioral and language processing type of stuff. But it's not there yet. I think probably that's like two years out. Maybe if you can modify the search of the customers and or you can make the customer stop searching on keywords, then that change is going to be much faster. But until then, everyone is still searching for for keywords, although they started using more and more Rufus as a personal assistant, especially the young people with voice activation directly from the app. Order be sunscreen, it needs to be natural, okay, on it, but most people are still using keywords for searching.
+
+Speaker  1280522:40
+That's right, yeah, until
+
+Speaker  1280960:00
+then, we cannot go the other way.
+
+Speaker  1282512:00
+Okay, very helpful. Thank you. You're welcome,
+
+Speaker  1284048:00
+guys. I will have another call in 10 minutes. So if anyone has anything else, more than happy to discuss, I
+
+Speaker  1288085:19
+want to ask you about AMC. Are you? How do you get that enabled? If you're obviously, you're not using DSP. I'm hearing noise about that. You can get it enabled on your sponsored products if you're not currently using DSP, what's that? AMC cloud, I
+
+Speaker  1293930:39
+haven't used it.
+
+Speaker  1295018:39
+Essentially all of the additional metrics that are not visible for the customer journey inside of
+
+Speaker  1297551:59
+Amazon, exactly what you need. Did you ask SAS to help you with that? I
+
+Speaker  1299424:00
+don't have a SaaS rep, okay. I have to be a B to B to B. Rep, but I don't have a SAS. Rep, yeah,
+
+Speaker  1302437:20
+B to B is not they cannot help you with that.
+
+Speaker  1303909:20
+I wouldn't need somebody within the ads team, okay,
+
+Speaker  1304949:20
+yeah, or maybe a rep from the ads team. Maybe they can give you access to that. I have a meeting with the ads rep. She's coming to Florida. Apparently, she wants to see me in the end of August. I can ask if there's a way to give you access to that.
+
+Speaker  1310970:40
+I know there's, there's a couple instances that are there within the placements that are derived from AMC today, but there isn't any way for us to curate that or change that based on specifics that we see within our own metrics. But AMC should allow us to do that if we have the full, the full thing enabled on our account, versus the three placements that are there right
+
+Speaker  1319701:20
+now. Did you try speaking with we have people who are DSP providers in the group as well.
+
+Speaker  1322181:20
+I did not know. No, I didn't. I didn't know. We
+
+Speaker  1323178:40
+have. I'm very bad with names.
+
+Speaker  1326954:40
+I think no, not Hernandez. No, let's see. I
+
+Speaker  1329295:59
+see,
+
+Speaker  1330783:59
+yeah, I'll find them and I'll forward them to the to you, is Ian here? No, it's not because he did. I
+
+Speaker  1334917:19
+I'm very, very bad with names, but we have two members in the group, and they are quite helpful whenever you ask them something, and they can maybe help you with that.
+
+Speaker  1338853:20
+Friends. Let
+
+Speaker  1340570:40
+me see
+
+Speaker  1342826:40
+Jacob Hines, I think it's one of them. Yes, Jacob, yeah, Jacob is one of them, and his Business Partner is,
+
+Speaker  1349968:00
+I hate when I don't remember i
+
+Speaker  1356506:39
+Yeah, I kind I can't find him, but to speak with Jacob, and maybe he has some more information, because they have a DSP service.
+
+Speaker  1359050:39
+Okay? So they
+
+Speaker  1359322:40
+offer DSP for sellers. They have their own connection and everything. Speak with him, because for sure, they know about that. Okay, if there's a way for you to get access to that, okay?
+
+Speaker  1364783:59
+Now it's driving me insane. I need to find that person, but
+
+Speaker  1368389:20
+anyway, I don't know. But yeah, so guys, if you don't have anything else, I will have to jump in the advisory meeting.
+
+Speaker  1373034:40
+Thanks a lot. Alex,
+
+Speaker  1373786:40
+anytime, thank you.
+
+Speaker  1374250:39
+Thank you as well.
+
+Speaker  1374922:40
+Take care, guys.
+
+Speaker  1375338:40
+Alrighty. Bye.

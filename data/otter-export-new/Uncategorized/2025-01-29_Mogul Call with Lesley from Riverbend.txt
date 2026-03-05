@@ -1,0 +1,287 @@
+Mogul Call with Lesley from Riverbend
+Date: January 29, 2025
+
+Speaker  832:00
+Hey, Leslie, welcome back to the mobile call. Thanks very much for for for coming back on. So I gather that Amazon hasn't stopped suspending people and causing havoc, and so I'm guess you've still been, still been busy over the last year or so since you're last on. Is that right?
+
+Speaker  5749:19
+Absolutely. I wish I weren't quite so busy, because it means that all of my selling friends are having all kinds of problems with Amazon. But they always find new ways to hassle all of us, don't they?
+
+Speaker  9237:20
+Yeah, and the maybe the odd Seller is a little bit naughty. You never know. There and what happened to alright? So I've sent you over a list of some of the issues that have been coming up on MBS recently. But obviously, first of all, as as a perk for anyone who's on the call live, if you want to just drop in the chat, anything you would like us to cover because you're on a call live, I will give priority to that? Yeah. So first of all, I thought we could just cover it. There been some emails coming out from Amazon recently. We had the inform act. And then there was also the scary looking email where you needed to update your details. Do we have anything to worry about? Should we for the one that to just confirm our details? Should we all have gone in and just click, OK, I know that's what I did, but should we have given that more attention that was was the more to that email Leslie,
+
+Speaker  24581:20
+so really you just have to go in and click recertify, and it's all related, where they're asking you to update your account information, and the one that actually specifically says, in format, all of that is is interlinked. If, however, they suspend your account, it's so so here's why people avoid doing it. No one wants to even go in and click recertify, because there is a possibility they put you through verification again, or there's a technical glitch. So first warning on these is because they're going to keep happening. And in fact, it's supposed to be once a year, but this time, it was faster than a 12 month cadence that you had to do it again, which is odd, because last year, I think I remember it being like in April that we were getting these but avoid making changes to your account details when you do this. So you know, if at some point you have an address change or something, try and do that when it's not part of the inform act, because when it's part of the inform act recertification they do a lot of times, put a hold on your account. So I know this from personal experience, because when I did my recertification last week, they actually suspended My Account instantly. And what was bizarre was it said your account, your information, was verified. It gives you these little green check marks, and it says verified. But they suspended me anyway. And when I tried to reach out, they told me I had not submitted some document, magic document, they asked me for which just wasn't true, and I had to escalate to Jeff at Amazon to get it fixed. Now, once I escalated, my account was back on in 24 hours, but just know this is a possibility that this will happen to you, and if it does, regular solar support is as usual, worthless.
+
+Speaker  56165:20
+Oh, dear. So let's say I've moved house, or I've changed my phone number or something like that, I wouldn't be going in and updating that right away the regular way, not doing it as part of one of these times when Amazon's asking me to recertify
+
+Speaker  60810:40
+exactly, because when they are doing inform act, they are basing this all on regulatory compliance. It's things that the government is making them do. So they are much more likely to hit the suspend button and say, while we re verify your account is not active, they're not trying to get rid of you forever. They're just saying, We need time. So let's say you move in May of this year you want to go ahead and update it then, because Amazon is not going to suspend you then just for changing the address on your account.
+
+Speaker  70437:20
+Great. So one thing that's been a hot topic recently is cyber security. And you know what to do if we if we get hacked? Do you have in mind some some best process, best practices to to avoid getting to avoid getting hacked, and what we should have in place, security wise, and what would you say is the best escalation path if we do find we do get hacked at all,
+
+Speaker  77130:40
+if you're in a super competitive category, which I know a lot of MDS people are, so for example, if you're in supplements or some other category, that's kind. Like being in a knife fight back in an alley behind the bar. I mean, these are scary categories. Some of them were some there's some bad actors. It is not crazy to do things like run a checker to make sure you never have a keystroke tracking program on your computer, because I've actually seen that be an issue with sellers who were targeted and hacked by competitors using overseas resources and hackers so they had clicked some link they shouldn't have, and then a keystroke tracker is put on their machine, and all of a sudden they've got your password. I'm a big fan of using LastPass. If you do have to share any credentials with anyone else have a super complex password, change it every 30 days, put a reminder in your, you know, calendar or something, to change your password. Set
+
+Speaker  93834:40
+essential password change every 30 days. Yes, change it.
+
+Speaker  94810:40
+Also use the I know some people have, like, a workaround to not use the two factor authentication you need it. You know, the hackers out there getting really good at their job, and that means getting into your account. And the problem is, once they get in, the first thing they do is change your password, and then you can't access it, and then they change your banking details, and they steal all the money, because the next time you have a disbursement, it all goes into their bank account, not doors. If this were to happen to you, you can search on Amazon. There's a place to do a reset. It's to get help resetting your password, and it is on publicly available Amazon, because you won't be able to get into your account anymore. But I will tell you that recovering your account is rough, and it usually takes two to three weeks to do for Amazon to help you something to be really aware of. There's also a lot of spoofing of accounts going on, and it is where someone will get your publicly available information, like off of your LLC, documents that are publicly available, match them up to your storefront on Amazon and create a spoof of your store. They do this for several different reasons. Sometimes it's money laundering. They it. They'll try and make themselves look legit. It is worth doing searches or signing up for a service that watches your corporate documentation to make sure that you're not being spoofed. There's there's some think of it as like LifeLock for business companies out there that if you're big enough, this can be a challenge. We've had several clients who've been spoofed, and then Amazon will take you down thinking that you've opened a second account, or that you're a bad guy. So really important to safeguard things like your EIN you know, your tax number, not put it out there, not have a lot of people have access to it and your other corporate details, and again, keep changing those passwords.
+
+Speaker  129632:00
+All right, so I've heard from some people that it's better to use an authenticator than to use text message for two FA, do you know if you have text message set up, is there a way to delete that so you move over just onto an authenticator?
+
+Speaker  133840:00
+Yes. So you can go into your account under security and you can change it over to authenticator, great, yeah,
+
+Speaker  136517:20
+if that's not somebody, I have asked about this. If that's not working, I think somebody mentioned something about you have to delete the number and start again. But yeah, I
+
+Speaker  139434:40
+believe I have an SOP for that, and I can send it over to you after so that you all have it.
+
+Speaker  141306:40
+Great. We'll get that added to the notes. Tony is say Tony, go to login settings, disable to FA and then re enable with authenticator, yeah,
+
+Speaker  143978:40
+so the key is to turn it off and turn it back on, just like they tell you when you when you can't make things work, yeah.
+
+Speaker  145584:00
+And also just make sure when somebody new starts that they understand that they have to use an authenticator. Okay, so next thing I wanted to talk about is IP complaints. So I guess a lot of people are having,
+
+Speaker  150293:20
+well, there is, there is a one case where,
+
+Speaker  151365:20
+where another seller will
+
+Speaker  152277:20
+make a very spurious or completely fraudulent IP claim, knowing that Amazon is on the side of safety. And then you have options that are maybe a bit more gray, where you might have infringed a little bit what, what are the sort of best practices to try and avoid getting into those problems in the first place? And what should we be doing if we do come across across those kind of issues?
+
+Speaker  158938:40
+So one thing that we've seen lately for private label sellers that is a. Problem that I love to bring up in this area, it has to do with your trademark registration and the original categories that you register yourself in. Where we've seen some competitors really taking advantage is if someone did not have a great lawyer or do a great job on their original trademark registration, so they're not actually in all the categories for their brand that they need to be. And there are people out there who really take advantage of that. They will put up products with essentially the same kind of mark in a different category, and then say that you're infringing and then jump on your listings. So it's really a long game, but it is happening. So spend some time with your trademark registration. Make sure that you're covered in all the categories that you need to be when you get these fake complaints. Super important to make sure that no one on your team has made the error of putting a brand name in your back end keywords or anywhere in your listing. So a lot of times, we've had clients who think that they're getting a false claim for copyright, but actually someone on a listings team has put a competitor's brand name in the back end keywords of the listing which is not allowed, that is actually considered a copyright infringement, whereas, like over on ads on PPC campaigns, you can put competitive brand names in to create those ads, but you cannot on the back end of your listing, so double check, scrub your listings first, if they are clean. Generally speaking, the copyright complaints are pretty easy to defeat. You can do a DCMA counter notice, or you can just show the like your your copy that you've always had, screenshots of it, screenshots of your photos, certify that those are your images. That kind of thing. When we get in the area of trademark and counterfeit. We show a lot of images to Amazon. It's a huge hassle to have to prove your content is actually your content, your product is actually your product. But what's important here is to have all the documents on hand. This is something that Riverbend can help with. If you have these complaints, and you can use your perk, call us up, and we will help you with your perk. And in extreme cases, you might have to use an attorney to defeat these if you're being attacked over and over again. A really fun thing, though, is if you have brand registry over time, if you're being attacked by the same person, you can actually report those as a violation, and those competitors can have their brand registry removed.
+
+Speaker  205626:40
+Yeah, I think you actually referred me a really good attorney.
+
+Speaker  206682:39
+He's his hourly rate was reasonable, and he seemed to achieve quite a lot at an hour, which is not not the same for every, every attorney,
+
+Speaker  209728:00
+Bill with no mercy,
+
+Speaker  210480:00
+okay? And what steps do you think we should be taking to protect our own intellectual property, like, you know, our images, our brand,
+
+Speaker  212848:00
+you know, just overall, all of our IP
+
+Speaker  213856:00
+so, good question. So like I mentioned earlier, you've got to make sure that your trademark is covering all the right categories. It is really, really important that you have a library of all of the correct images in house. We don't want someone going off the reservation and using images that are a competitor. So if you have a library that you control that your VAs are pulling from, that is very useful for you. In addition, I like to screenshot my listings. The back end changes and disappears and gets overwritten. So I like to screenshot the back end of my listing so that I can show before and after. If I ever have a problem with intellectual property, that could be super helpful as well. Anytime that you can copyright something, do it, but there's really not a whole lot of instances where that helps you a ton on Amazon, since Amazon technically owns the listing.
+
+Speaker  230629:20
+Okay, so if I screenshot my back end, my back end keywords, and all of that stuff, and it's edit a Dropbox keyword, and it will have the date in that, I think the date is when you make a Dropbox screenshot, the date and stuff is included in there. So with Amazon, accept that as that means that screenshot is from that time.
+
+Speaker  235658:40
+Yes, they will. They typically will because, you know, they have all kinds of great software where they can detect if something, if an image has been altered. So they'll usually accept it.
+
+Speaker  239642:40
+Okay. So. If somebody copies my image completely and puts it in their listing, then I can complain and get it taken down, but if they've changed it a little bit, then there's not that much I can do. Is that, right?
+
+Speaker  243440:00
+It really depends on who at Amazon is looking at it and decides that they think it's enough, right? It's because that really comes down to a judgment call, and unfortunately, not everyone is going to see it the same way that you do. The more that you can take a screenshot of your image, put the other one next to it, and draw arrows. And if you have ever seen like how an attorney handles a patent complaint or a trademark complaint or copyright, that is exactly what they do. They put the images side by side in their legal document. They draw arrows, and you say like, you know, you can see here that this is the same, and all they did was move this and mark it all up. You're a lot more likely for Amazon to accept your plate,
+
+Speaker  255610:40
+right? I will bear that mind.
+
+Speaker  256554:40
+There has been some sort of changes in reimbursements. So I know in some areas now, Amazon only wants to reimburse your cogs rather than your full selling price. Can you just give us an update on the changes that have happened to reimbursements, and you know what actions we should be taking as a result.
+
+Speaker  262821:20
+So step one is that last fall, they said they were going to be reimbursing you more frequently and accurately for lost and damaged inventory, and they have actually done that. It is still important, though, that you review all of an audit your inventory, because they don't catch all of it with that though, they've made it a lot more difficult on inbound and they've shortened the time frame that you can submit and ask for reimbursement. So on inbound shipments, they're getting a lot stricter. They're wanting an invoice for almost every shipment. They're wanting proof of delivery, all kinds of information. So it's more important than ever that you have a dropbox folder or some kind of place where you always save the documents for all of your inbound shipments, anything from your carrier, or even screenshots from Amazon itself, if you're using the partner carrier to show that you've actually done everything you're supposed to do. So they'll reimburse you the new cost of goods that has not gone into effect yet. I believe it goes into effect in mid March. So what they are saying is that they are only the wording doesn't make any sense in the notice. So I'm fascinated to see what actually happens when this goes into place, because in one part of the notice about this, they said we're going to reimburse you at the manufacturing cost, which is insane for a lot of reasons that all of you know, right, because the manufacturing cost, well, that's really nice. If you're the manufacturer, I guess you're still going to lose money on inbound transport and all these other things. But okay, then if you read further in the notice, it doesn't say manufacturing cost. It says whatever your cost of goods is, including if you bought it from a wholesaler. So that would be what they would reimburse on. Again, they're going to require full documentation. They're going to want copies of all of your invoices for every single thing that you file a claim on, including lost and damage. They're going to say that they will want you to provide that documentation. The real problem here is that they're essentially saying they're only going to pay for the cost of goods, so you're eating all of your inbound cost and your prep cost, whereas before, we were all getting what the net was, what we would have gotten if we had actually sold the inventory, which is really actually more fair, since Amazon eventually finds all this stuff and sells it themselves, so they're passing on what they made, which is what we should get. I'm fascinated to see if this actually holds up. I would be very surprised if it does. Large sellers are going to be hollering a lot, as they should, because this could make you go if you have slim margins, this could make you go negative if they lose a few big inbound shipments, because you're eating it on those on all of your transportation costs for those shipments. I
+
+Speaker  312661:20
+guess you also want to
+
+Speaker  313061:20
+do as many reinvestment planes as we can before that deadline kicks in. But yeah, I think they're going to find it a bit of a pain to try and ascertain what people's landed cogs are, and I'll have to go back and forth quite a lot, so hopefully they'll decide it's not worth it. But okay, so what are the most common account health issues that you're seeing at the moment? I.
+
+Speaker  320256:00
+So since we are about a month out from Christmas, we're having all the returns stuff, the usual things, where it's all based on customer complaints for inauthentic and condition. Lots and lots and lots of that happening return you weary ends in two days. I know we're all going to be very happy when return you worry is over. It is so stressful. Everyone getting their last minute returns in and killing your killing your month, right? So lots of that going on. And in addition, we're seeing a whole lot of people still getting popped for this unsuitable goods issue. So something relevant to the MBS crowd, I have had a lot of sellers who are private label sellers, just like y'all, manufacture your own products, create your own goods, but then they want to boost their revenue. They need some extra money, so they decide that they're going to resell something, and because they are dedicated to their products, they're not experts in the in the wholesale space, right? So they didn't already have 456, great suppliers out there in wholesale, and sometimes jump to a wholesaler that is not great quality. So there are wholesalers out there. It's really tempting, because what they tell you is they're going to ship it all in to the warehouse for you. You don't even have to see the stuff. It's really great. You buy it, it sells. Whoo. You make money. Well, when you don't see the products, sometimes the products aren't what they seem. And Amazon is actually suspending people based on what the ship from address was. So a whole lot of people flock to one of these bargain wholesalers. They either sell stolen goods or goods that aren't actually the brand, and you get permanently suspended for unsuitable goods. So I just want to throw this out there, because I know this isn't how y'all do business, but I've had too many private label sellers that I've seen who were like, I've got to get some more cash flowing. And so they jump into one of these because it seems easy and it's and it's tempting. Don't do it, seeing way too much of that right now.
+
+Speaker  357104:00
+And so for these kind of account health issues, what would you say we should typically, typically do in terms of appeals, like, what should we look at first and then, what should we do after? Because I know you've got that call button on account health you can put in tickets. What would you say is that the best sort of escalation path to go on?
+
+Speaker  363077:20
+So since it's January, you're getting all of these pretty basic complaints most of the time. Amazon is giving you a really clear path for appeal, and what they want you to do might include invoices. It might include SDS or other safety documentation or testing. So first step is always to get that submitted. If there's something you don't understand, it's great to call account health. Just know that they don't always give the right information. I know most of you already know that, and they're not going to fix your problem for you. To me, the best use of account health is you submit an appeal and whatever documentation is needed, and if the response is nonsensical, you call account health. Account Health can either escalate it for you or tell you what you missed. That can be really useful. Since it is still January, and we can do some end of year cleanup or beginning of the year cleanup, I want to throw out one other thing super important to go through your inventory and delete all the ASINs of things you are not selling and don't intend to sell again, even of your own products if you don't intend to sell them again, if you were to decide to sell a product again, you plug in that asin, it's still gonna pop up all the same listing information you already have. So you're not doing anything to create work for yourself, but Amazon, when you leave stuff in your inventory, they assume that you're going to sell it again in the future. And so that means, if there are complaints about that product, if there's IP complaints false or true, if there's recall safety issues, whatever it might be, they will group you in with anyone else who's ever sold it, and give you violations, or even suspend your account, even if you haven't sold that item for a year. So just remember to clean these things out so that you are not at risk for things you've sold in the past. Oh,
+
+Speaker  393941:20
+I definitely haven't been doing that. We've just been deleting them, the main image, taking the main image down and changing the cell to date for 2099, but I would get the same effect by just deleting it, right? If I did somehow decided I want to start selling again, it would, it would reappear with the reviews as well.
+
+Speaker  398954:40
+Yes, absolutely. The asin is still there on Amazon. Com, it's just currently unavailable. So as as long as you know what that asin is, which you can get by searching for it anyway, but you have it in old reports and such, in Seller Central and in your own software, as long as you plug in that Asin and add a product, it's still going to pop it up. So don't just close the listing. Actually delete the listing.
+
+Speaker  406213:20
+Okay? And in terms of appeals, let's say the account health, you know, we've gone back and forth on the phone to the Account Health team is with the next thing you would do would be the the Jeff email, or the Jeff email after that,
+
+Speaker  410021:20
+Jeff is almost always my favorite first escalation. There are a few weird circumstances where it's not but that team generally does a good job, and especially if there's something that's an error on Amazon's part, or really poor customer service. Shall we call it? Like the example of when they suspended My Account last week, and I wrote and said, Hey, you said you verified me, but you've suspended my account. Here's a screenshot of where I'm verified. Please turn me back on. And their response made absolutely no sense, and sent me to a dead link. Well, I did that twice, and still stupidity. So it's so easy to go to executive seller relations and say hi, here's my problem. Please turn me back on. I probably sent them a five sentence email and they turned me back on. So especially when things are stupid and ridiculous, it's great to go to them. Just keep it really short.
+
+Speaker  425973:20
+So for UK, would you do the managing director one or for the UK, would you do Jeff?
+
+Speaker  427850:40
+I would still do Jeff. Managing Director is not very responsive. We get responses from managing director on really big, complex, difficult things, on everyday problems. They just punt. I don't really get it. Jeff is much more reliable. You just have to say, Hey, this is a UK account. Or, Hey, this is a, you know, whatever the geography account is. I always put in your merchant token so that they can find you easily,
+
+Speaker  436112:00
+all right. And then after that, are we talking? No luck with the Jeff bomb. After that, are we talking any contacts we might have had at Amazon, anyone we might have met or a friend might have would that be the next level after that?
+
+Speaker  440245:20
+So it really depends. Most
+
+Speaker  441189:20
+of the sellers that I talk to who have acquired, you know, like when you go to their event up in Seattle, and they give out their email addresses, and then everyone has the email address and and those people tend to not be responsive anymore, especially if they don't have an escalation team working for them. So yeah, if they care about your category, that might get you somewhere. If not, you're probably going to the general Escalation Teams at Amazon, we have some teams that we go to pretty consistently that we know that it's an executive who has an entire team, right? It's not just that. It's an executive who gave out their email and that was being flooded, and they have one assistant. These are people who have entire teams of people. It is also depending upon the issue. It can actually be useful, believe it or not, to in Seller Support ask for escalation to specific teams. So you can ask for escalation to catalog, for example, and you can get to catalog. You can also call account health and say, I've got this. Here's the case ID. I need this escalated to catalog. They'll actually do it for some specific things like product safety and catalog.
+
+Speaker  462490:40
+Am I right thinking that the catalog team doesn't, won't talk to you on the phone, but you can get they can be okay. So that's potentially another one to try, maybe before you try Amazon X to try and get escalated. And is it generally better to be on the phone to get stuff escalated, or is it you can do it just as well on email,
+
+Speaker  467920:00
+we found that it's generally not useful at all to get escalated on the phone. Now, if someone calls you or offers to do a hot transfer, great, but that doesn't happen very often, and it's happening less and less right now, especially with the return to work order at Amazon, they're losing a lot of their more experienced staff who would be these escalation contacts. That's part of the problem right now. It's very difficult to get people, especially on the phone, who know what they're talking about, because so many people at Amazon do not want to be in the office and are quitting their jobs.
+
+Speaker  478426:40
+Yeah, they all move further away into nicer places, and now they've
+
+Speaker  479338:40
+gotten used to.
+
+Speaker  480000:00
+Oh, you absolutely nailed it. You nailed it. With that, we have people on our staff who got Amazon approval before COVID to work from home, from a remote location where there's no nearby Amazon office, and now they're saying you have to be at an Amazon office, even if we gave you that approval and they're not offering any relocation assistance. So I think we're gonna continue to see a steady Exodus as fewer managers at Amazon are able to get exceptions for their people.
+
+Speaker  489013:20
+And the Twitter team used to be pretty good, but I don't really bother with that anymore. Is the social media team worth doing it, or you wouldn't bother.
+
+Speaker  491594:40
+So the one that that is sometimes useful now is LinkedIn. It's relatively new team on LinkedIn, and so they're trying to make a splash and show that they're valuable. That's that's the only one that we're really seeing very much. We leave that till the end. That's last. We don't like to do anything that embarrasses Amazon until we're on our last legs with something with a client. It's much better to really look like a partner. And when you're out there on socials, you're not looking like a partner anymore. You're looking adversarial. So I consider that very last resort, just like, you know, trying to not that you can sue Amazon anymore, but when you do mediation, you know, that's very last resort,
+
+Speaker  504885:20
+all right, and what should we not do when we're escalating and appealing?
+
+Speaker  506309:20
+Oh, I love that question,
+
+Speaker  507258:40
+because the thing is, when you escalate or when you appeal, you're very frustrated, and so it's really easy to lash out. Y'all, y'all, are all very professional in this group. You would be shocked, just like I am, by some of the things that I've had clients sent to Amazon where you're like, oh my, I wouldn't talk to anyone this way. So professional language is, of course, key. But also you can't assume, number one, don't assume that they look at anything. They are not going to take the time to look back at old cases. They're not going to
+
+Speaker  516000:00
+take every message. We explain everything again from scratch.
+
+Speaker  516800:00
+Everything is it's a brand new day. Every single time they do they literally, because of how they're judged, they don't have time to go back and look at everything. So you have to summarize really quickly. This is my problem. One, sentence, two, Max. This is what I've already done to fix it at Amazon. This is what I need. And then you go from there with more details, so that if they care, they can read more details. Always include case IDs, dates, times, anything that is very factual. Because imagine, I mean, y'all know how this is these teams get stuff. It's like a screed, and it's all like I've been selling on Amazon for 17 million years, and it's how I support my family of 32 children and my elderly mother. You know all of that, they've heard it all, it doesn't help you just leave all of that out and stick to the facts. And anything that you can do to make it simple for them to understand your situation makes you better off. There is a time for emotional appeals, but it's usually way down the line, way, way down the line.
+
+Speaker  535301:20
+I've got a couple in my notes here of MDS issues, a couple of mentions of category suspension. Does that mean when someone has a whole, a whole bunch of ASINs suspended? Is that what they would mean by category suspension?
+
+Speaker  539258:40
+So Amazon will gate someone out of an entire category, OR gate them out of a brand. And where we see that happen is where there's a brand that's particularly valuable, and y'all that doesn't always mean that it's like luxury. It just means it's a valuable category, valuable brand at Amazon. So like I had clients who were gated out of Fruit of the Loom as an example, none of us see that as luxury, but it's a that, but y'all understand it's a valuable brand. It sells a lot of goods. Well, the reason they got gated out of Fruit of the Loom is that they had two or three listings where they were not accurate in their descriptions. So it was, you know, the listings for a 12 pack of socks, and they sent people to six packs of the same socks, so it wasn't an exact match. And crazy people complained. And so then they think you're being deceitful about the brand, and they got gated out of the brand, even though they had sold it for more than 10 years, buying directly from the manufacturer. So that is why it usually happens is that you have one or two ASINs that Amazon goes beyond just thinking this is normal, inauthentic. You sold this new whatever they feel like there's something deceptive, ugly that they don't like, bad feeling. Too many complaints, and they'll gate you out of the entire brand or the entire category. It does happen. So when this happens, it takes a special an extra special appeal your it always has to go through an executive escalation. This is never anything that you solve on frontline, seller, performance, seller, support, never so you have to essentially prove to Amazon that number one, you have all the documentation, the invoices. You're not selling anything you're not supposed to. You're not selling bad inventory. You're matching corrective actions for whatever made them feel icky about you and they thought it was hinky. But then you need to show the business value of why it's important that they let you sell in this category or sell this brand. You have to build a business case, essentially, and so usually that has to go to someone on the brands team at Amazon or someone who has a fiduciary P and L responsibility over.com at Amazon, those are the people who will fix those problems. We've gotten a lot of them fixed. It usually takes about a month, maybe longer, and it's it's not easy, because you have to be very compelling and get it in front of the right person. But it can be fixed, especially if you have a history of successfully selling those products,
+
+Speaker  581968:00
+right? Um, alright, let's have
+
+Speaker  582389:20
+another one from the from the list we've got
+
+Speaker  583429:20
+avoiding suspension due to address change verification delay on Amazon. So I guess this is when someone's changed address and they've not, they've not is it what Amazon will send you a postcard? Is that the thing, and then the postcard doesn't arrive? That might be it. Maybe
+
+Speaker  587674:40
+no. So that's inform act is when they send So, so this is more like, if you just need to to change something, and then they freak out on you and put you through a full verification, like apparently they did on me for no good reason. Um, I am a fan of sending Amazon a note ahead of time, sending something to Seller Support that just says, Hey, just so you know, I need to change the address in my account. Blah, blah, blah. I will be doing that tomorrow, just letting you know
+
+Speaker  596112:00
+our same as bank accounts, right,
+
+Speaker  596640:00
+exactly, and change it. And also, I'm glad you mentioned bank accounts. Let's say everything changed. You know, you're getting divorced and you're moving across the country, so your name is changing, your bank account is changing your address. Everything is changing. Do not change at all at one time. Change one piece at a time. You're going to change one thing this week. You're going to change something next week, you wait two weeks. You change the next thing, gradual changes over time or are accepted by Amazon pretty easily, especially if you warn them in advance. If you change everything at once, they will freak out on you and put you through full verification. Even the video call with the blank screen, where there's like some disembodied voice on the other end and a black screen, and they're asking you to hold up your passport. Those are not fun, so just change the information really slowly, right?
+
+Speaker  611392:00
+How to appeal when Amazon holds disbursements?
+
+Speaker  612992:00
+So it depends on why they're holding disbursements first, I got to tell you, there are a lot of mistakes made where they hold disbursements, and you never find out why. It is not unusual. I mean, statistically, I'm sure it's small, but we work on enough of these that it is not like some crazy thing that never happens. So there is a team, a payments team, at Amazon. You write an appeal to the payments team at Amazon, just like you do to another executive, and say why you should get your money back right. And sometimes these do have to go to executive escalations, and it's usually people who, again, have P and L responsibility at Amazon, do not threaten to hire a lawyer. Do not threaten to sue them. Do not cite us. Code. These are all things I've seen clients do when Amazon's holding their money. Amazon will stop talking to you and refer you to outside counsel, and you do not want that
+
+Speaker  628400:00
+to happen. That slows, yeah, I've heard this. If you mentioned anything legal, it slows everything right down, because then they get their lawyers involved, and it's gonna take
+
+Speaker  630773:20
+months, right?
+
+Speaker  631109:20
+They refer you to Davis Wright Tremaine, which is their outside counsel in the Pacific Northwest. And if you're not lucky enough to have a few DWT email addresses hanging out on your desktop, like I do, you're gonna really be in a morass, and even the guys that I know there, sometimes they respond and sometimes they don't. It depends on how crazy the threat was that my client made to Amazon so you can definitely get your money. Now there are a few times when you won't get your money, and it's really limited. It's usually when you're selling something you're obviously not supposed to sell, or when you're selling stolen goods or proven counterfeit, not suspected counterfeit. So we all know the drama of the oh, what are the grinders? I know there were
+
+Speaker  644608:00
+grinders, right? Yeah, Herb
+
+Speaker  645184:00
+grinders. Yes, those. And I know there's MDS folks who struggled with the grinders, because Amazon allowed them for a long time and let it get by, and then they just shut it all down. And so then people listed the herb grinders as herb grinders and oregano grinders, and they listed stash jars as other things. And y'all, I didn't even know what a stash jar was till I got pulled into all these things. And I'm like, What's that? So then they changed them to, you know, change jars and all kinds of stuff that is circumventing the rules. And so if they figure out you're doing that kind of shenanigans, to list your products, they can hold your funds permanently with that. But almost anything else we can get your money. Yeah, money,
+
+Speaker  656794:40
+great. So this isn't one I'm an expert in, but one issue that's come up is correcting MSDS submission for Amazon listing mistakenly identified as prescription only,
+
+Speaker  661040:00
+correcting. So what I'm wondering is, if the MSDS let Amazon to believe it was prescription only, or if Amazon said this product is prescription only, so then there was an MSDS that needed to be submitted. Yeah.
+
+Speaker  665445:20
+My My guess would be that Amazon incorrectly get incorrectly for what a product was a prescription 90
+
+Speaker  667258:40
+products. So if that's the case, submitting the MSDS is only part of this. It's better if you actually cite FDA regulations and point them to the page on the government website, show them the link to the website showing why this is not a prescription product safety is in charge of this, and they will not approve it. Most likely there is a safety, safety policy email address that if, if someone at MDS gets stuck, you all should call us and talk to us to get that email address, they generally won't overturn these things, and they will have to go to an escalation. So you're going to want it all buttoned up real pretty in a case where it's all easy to understand with a case ID, and where you have your MSDS and you have the link to the FDA website, and then you're going to have to escalate that at Amazon and give them the case ID. So they'll overturn it. The front line people in safety. They're actually adjacent to and partially controlled by legal and so they do not feel empowered to overturn these kinds of things because they're afraid that they're helping someone break the law.
+
+Speaker  687162:40
+Oh, here's another one someone asking about. So are you seeing any suspensions for things that people might be doing for ranking manipulation at the moment, what's what sort of things you seeing now?
+
+Speaker  690832:00
+So Amazon isn't on a mission right now on this, because we'll see these periods of time where there's tons and tons of takedowns for anything around review manipulation or rate manipulation. We're not in one of those periods right now, but they are still suspending people for this kind of stuff. Recently, a couple of those review websites popped up again where you can pay to have your products on there and it and people click on the listings there and go, go to your Amazon site and buy the product. Those there were some takedowns related to one of those sites recently, there are people who are still putting inserts for free stuff and big discounts in the product that are being found in the warehouse. Amazon is actually going through your inventory in the warehouse, looking for inserts that offer discounts and free stuff. Before they were always just going off of complaints. Now they are actually going opening the boxes in the warehouse. So just be aware, because we have clients who've been taken down for that. Also super important to know if Amazon gives you a warning and it actually comes from the FB FBA team, it doesn't come from seller performance. You'll see in the email that it's from the FBA investigations team when they find those inserts in the warehouse. If they find it in one of your ASINs, and say, you've got to recall all your inventory and stop saying we're going to give you a free one. If you you know, give us a review. You have to review. Sorry, remove any other ASINs that also have the inserts. Yes, because they will consider that your second strike if they find another asin that has the same thing and you don't remove it. And we know this because we have clients who have done this and that was their second strike, and they're done so don't assume if Amazon warns you on one Asin and you clean up that asin, that you're good to go. You really do have to fix it on all the ASINs, or you're putting your whole account at permanent risk,
+
+Speaker  727333:20
+right? So is there anything that we haven't covered today that I should have asked about, that you're seeing a lot at the moment that we should be aware of,
+
+Speaker  729349:20
+that's such a I used to be a reporter many years ago, and that was what I always asked at the end of an interview, and it always got the very best answers. And I'm looking at this list. There was something on your original list I really wanted to talk about real quick, and that was a suspension due to forged compliance documents and manufacturer faults. Okay, this is very real. It's one of those things where people outside the Amazon ecosystem would say, Oh, your manufacturer didn't forge documents. You told them to, or you forged them. You're just blaming them. There are cases where sellers wrongly blame the manufacturer to try and get out of stuff, but we've seen manufacturers fake documents, and the reason they do it is because they don't want to do the testing, because it's expensive and time consuming, so they just fake a compliance document or a testing document and give it to you. So super important is brand owners like you all are that whether you're manufacturing in the States or overseas, that you have a way to know if the testing is actually being performed. I know that there are companies like over in China that will do inspections and things to make sure that testing is actually performed and that inspections are actually done on different lots of product. It's important that you know that you can actually trust the manufacturer that you're working with if, if Amazon detects forgeries in documents, they can suspend your account permanently. It gets really hard to get it back. We do get those accounts back on a regular basis. It's not going to get back twice if it ever happens again. But there are a lot of people who've been forced versus forge suspended for forged documents, who don't get back. So just make sure that, as a seller who sources for manufacturers that you you really know that the testing is actually being done. You confirm all of that. And then there was a there was a quick question about QR codes, scan the QR code, get a free 12 month supply. That is risky. You know, everything is about what your risk tolerance is. Personally, I wouldn't do it. My Account means too much to me, and I wouldn't do it if you have an established brand. You know, the more money you've invested into Amazon, the riskier that gets. If you've never been popped before for any kind of review manipulation, or the seller right? Manipulation, platform manipulation, you can come back from that one time, but if they catch you for something a second time, you're going to be done.
+
+Speaker  773504:00
+So what, what sort of things can we put on packaging and inserts to try and get email addresses or some sort of follow up? Okay,
+
+Speaker  776245:20
+for example, like a one year warranty, that kind of thing.
+
+Speaker  776869:20
+So if we're, if we're being really super technical, so I've told you what Amazon is definitely going to enforce on, like, if they find out, if they actually take the time to scan the QR code that Jill mentioned and see it's a three month, 12 month supply, they are going to at least warn you and maybe suspend you and make you write a plan of action. What is less risky but still against the rules is to say, fill out this form. Go to this page, fill out this form, I'll give you an extended warranty, an extra warranty that is against the rules for a few reasons. One is, whatever comes with the product is supposed to come with the product, no matter what. Secondly, it's diverting. So you're diverting traffic off of Amazon into your own website that is against the rules. They don't like it, and then, thirdly, they don't really love sharing addresses with you. They own the customer. Now there are programs and ways that Amazon is now saying that they will share customers with you as a seller, but you independently collecting that on your own website is not one of them. Now, have I seen people suspended for diverting I think like twice, and I've been doing this for 10 years, so not often, going after people for warranties. I've seen that one time, and it was for pillows, of all things. I. I wouldn't be as concerned about that, but there's, there's a risk. So I'm not saying it's without risk and to go do it, just telling you the risk for that is much lower.
+
+Speaker  803600:00
+Great. And I'll add another good question.
+
+Speaker  805232:00
+Oh, no, it's from Never mind.
+
+Speaker  806277:20
+So can we just do? Can you just recap us on the MDS perks that we currently have, the current services with MDS and river bend? So I think one is the we got the ace and appeal. We get one AC appeal per quarter. So that's for every MDS member,
+
+Speaker  811610:40
+yes, and that is, let's face it, y'all, that's the most valuable and important one. So when Amazon comes calling and they take down an asin, or worn on an asin, that is very stressful and upsetting, Do not stress about it. Just go through MDS and have my team do it for you. We will take care of it for you in a timely manner and get the issue fixed. Then we also offer a consult call for MDS members. We will have one of our consultants and an analyst look through your account, see any warning signs, talk to you about it, review your questions that you might have, kind of like some of the questions we've had today about, what about inserts? What about a warranty? We can talk to you about those things, even look at your product inserts for you and tell you if we see things that are warning signs. And then our last thing is we have suspension coverage that is not part of the perks. It's an extra charge, but it's our lowest rate for ndS members. It's $75 a month, and that is if your account is ever suspended. So you pay the small monthly fee, and if your account goes down, we will jump on it right away and help you get that reinstated.
+
+Speaker  831226:40
+Great, all right, but then if you could just put the air table into the chat, great. So if you guys could just help with a little bit of feedback, all you've got to do is give a little score outside. Really helps me to make these calls as strong as possible. And if somebody needs to get in touch with Riverbend, what's the best way? Leslie, so they can do it, I know you can. You can go via, if you go to the app and then you go to partners. You can do it from there. Is
+
+Speaker  838725:20
+there another way, or would that be the best way?
+
+Speaker  839301:20
+So you can email us at MDs, at Riverbend consulting.com so we have an MDS email address, so you get super fast help from Brianna, who's here on the call. She's our partnerships manager. And then also you can always go to our website. You can fill out a form or just call us. We have humans who answer the phone all day. Rare these days, I know, but one of those humans will pick up the phone and get you the help you need.
+
+Speaker  846794:40
+Yeah, I always go, yeah. I always get a call quite soon after putting in one of my tickets. So thanks, Leslie, really appreciate it. Thanks guys. Great contributions and questions, and I will see you guys next week. We've got Anthony Nugent going deep on jungle ace next week, see you guys. Thanks, Leslie,
+
+Speaker  851712:00
+thanks everyone. You.

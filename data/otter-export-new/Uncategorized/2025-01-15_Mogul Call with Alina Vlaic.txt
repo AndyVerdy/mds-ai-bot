@@ -1,0 +1,377 @@
+Mogul Call with Alina Vlaic
+Date: January 15, 2025
+
+Speaker  912:00
+Oh, hi everyone. Welcome to the mobile call. Just started the recording, so I'll start again. So welcome to the call. Alina from AZ rank, so we're going to be talking mostly about Rufus today. Is that right? Or are we going to be are we covering some more ground as well?
+
+Speaker  5184:00
+We'll be covering one more strategy for basic ranking, let's say keyword ranking before Rufus. Awesome.
+
+Speaker  8357:20
+And yeah, we should have lots of time for Q and A as well, guys. So if you've got questions, put them in the chat as we go. We'll either cover them at the time or at the end, depending. Alright, you want to go ahead and share your screen. Yes, okay, share and Costin, maybe you can keep an eye or you can maybe keep an eye on the chat as well, and I'll answer questions on there as well, and so people can get an answer right away, and then we'll cover the questions again. At the end,
+
+Speaker  18144:00
+I'm on it all right.
+
+Speaker  18672:00
+Is my screen visible? Yeah, I've got scaling smarter. Okay. Should I start? Yeah, let's go. Okay. Hi everyone. Nice to be here. Thank you, Jamie, for inviting us. My name is Alina, and my husband cousin with we're partners in life and in business and in crime as well. We are Amazon sellers ourselves. Been in the business for a couple of years now, and we are also running easy rank, which is an agency started way back in 2018 when search, find, buy was a thing. It still is. We're still we're still helping Amazon sellers and ecom sellers with ranking strategies, but in a little bit different way. For today, we prepared two strategies. One of them has to do with how to smarter select your focused keyword list for new product launch or for an existing product that you want to do rank, rank main maintenance, or you want to maybe re rank it because it was out of stock and newer strategy that has to do with Rufus and how you can optimize your listing in order for Rufus to recommend it to people asking questions about products on Amazon. So I am planning to finish this in about 30 minutes. So we we should have another 30 minutes for discussions and questions. The first strategy starts from product opportunity Explorer, which I we we consider it like a hidden gem in Seller Central. We found out recently, we daily find out that not a lot of sellers are using this, not enough, at least, probably most of you know where it is, but it's undergrowth product opportunity Explorer. And as I said, this can be used for new launches or existing products. We often recommend that even if you don't do any ranking or you just optimize your PPC or just taking a look at your listing to see what's going on in the niche, take also a look at your opportunity at product opportunity explorer, because basically what what it does. It gives you the the keyword, the top 2020, to 25, to 30 keywords, maybe that Amazon considers the most relevant for your listing and for your niche, and those keywords should be in your focus all the time. So how to do this one way? Everything that I'm presenting here, I'm sure it can be done in several ways. It depends a lot of on your niche, on your product. As you know, everything in Amazon is very dynamic and flexible. This is just one way of doing it. So we take five to 10 direct competitors to your product, and we put each of them into product opportunity explorer, one at a time. However, if you put your Asian inside product opportunity explorer, sometimes you can get this like, no matching products, right? Because they're not, they're not, I don't know, relevant enough or not big enough for for Amazon to extract info from. But that's okay, you just move on to your next product, to your next product, to your competitor. I mean, until you get this so until that asin brings up a niche and on. This niche, we go to the asin View tab, and then, this is a zoom one, right, we go to asin view and then we scroll all the way down to niches to find sometimes you may find several niches as it is. This example here, I'm not sure if I can. No, I cannot zoom. So sometimes, sorry, where is that? Here? As you can see here below, there are several niches correspondent for a specific product. For example, this is collagen peptides. It can be into collagen peptides. It can be into collagen powder, coffee supplements and so on. You need to find the most compatible one to your specific product that you're interested in ranking after that, after we found the niche, we go to search terms Amazon here in product opportunity explorer gives us the topic products, of course, for for this particular niche, not all of them relevant, however, and that's why we need to go to the search terms tab. And when we go to the search terms tab, we will get a list of 20 to 25 keywords that are specific to our niche. What we have to do right now is just save that list of keywords. After that we rinse and repeat for all ASINs and for all niches that match match the product. This can be kind of time, a little bit time consuming, but after you do it once or twice, you'll see it gets easier. Then we need to clean the list, remove duplicates and brand names. Of course, we don't. We're not interested in those keywords. Another option to get to the same point, to get to the same point would be to search directly into product opportunity explorer by broad main keyword. This is my favorite one, not the asin one. My personal favorite, let's say, because it's it gives you, like straighter image of what's in there and a little bit faster. Once we do this broad search, I use the same example, collagen peptides, right? And I get the niche view and asin view. We do the same thing, go to search terms, right, and we get the specific list of keywords. Now, if you are doing the asin option, which was the first one, you technically need to save all the all the keyword list for each Asin and for each particular niche. If you're doing the broad search term, like in this option, you need to find your your products, broad keywords. In this example, as I said, it's, it's collagen peptides because it's very broad if you're, if you're having collagen peptides capsules, for example, you're not interested in the keywords containing powder. You get the point, right? So you need to to choose the keywords that are actually relevant for your product. Again, as I said, I go to search term. This is the list of keywords, right? Good. As I said, this is the list of cures that Amazon thinks are relevant for specific niche. That's all that matters in our scenario, because we want to rank now we have a curated list of keywords. These are the keywords that we need to rank high on, right no matter what we do, be it giveaways, PPC, Google ads, all together, influencers and so on. But as you can see, they're huge. Some of them can be huge in specific niches, in hours, for example, collagen peptides. It's really, really big collagen as well. So how do we find a cheaper way to do this? This is basically where the strategy starts. We choose five to seven keywords from this list that we got from product opportunity explorer. Again, I don't have, we don't have, like, a specific recipe for this each product, it's each category, each niche is very different. You choose your five to seven keywords which you consider your best. If it's an existing product, it should be easier. Because you have search query performance, you have PPC reports, it's going to be a little bit easier to choose this five to seven keywords list. The most important ones, right? Search conversion rate, of course, can also be an indicator from from search query performance. Now, for each of the of these five to seven keywords, we choose five to 10 long tails. For each we like to use magnet from Helium 10. There are a lot of other options to do this. This is an example for I did for collagen for women. There are a couple of filters you can use here. I like to use the phrases containing filter, because I want to get the exact form of this keyword within another, within other long tails. But also, I like to have keywords that have some amount of sales. You can you can be very creative here. Can do however you prefer to get your long tails for each of those keywords, right? And when we finish this, we technically have a list of Hold on.
+
+Speaker  179360:00
+This is sorry slide was missing, yeah, so you get five to 10 long tails for each product opportunity explorer keyword, that will bring you to a list of, let's say, 50 to 70 long tails altogether. Now, so
+
+Speaker  185173:20
+we're using the Poe key. We're using the Poe keywords as the roots, and then we'll find and then we're finding some and then we're finding some long tails, some longer tail, pretty true. Okay, got it
+
+Speaker  188394:40
+exactly. So let's say we have gotten to a list of 50 keywords. Now we take all that 50 keyword all that list of 50 keywords, of the long tails, right? Actually, I've put on long tails here, here in the presentation, sorry. So we take all the 50 long tails and we validate them through cerebro. Technically, we run a cerebral on the competitors we have chosen initially, to check whether they are decently rent on as high as possible. Ideally, they need to be indexed. They don't need to be brand names. Of course, everything that can represent curation of this list, right? And this also can be done in several ways. You can put all the competitors at the same time and run all the keywords together. Or can you can put each competitor one at a time depending on the pro product or or your preferred way of doing it. After we do this, we should get a result something like that. Right Collagen For women, this is a shorter list. Right Collagen For women, which has a search volume of almost 200,000 and my best long tails for each which were validated by cerebral right, I have organic collagen, best collagen, collagen for more powder and so on. As you can see, huge, huge. Discrepancy between the root keyword, let's call it and search volume, and the long tails search volume, which are, of course, way more
+
+Speaker  217253:20
+approachable in terms of
+
+Speaker  218069:20
+ranking. And now we focus on getting the long tails ranked, the root keyword, we're also ranked. But the secret is, it's not going to cost you an arm and a leg, because we often see that many, many sellers are focusing on the main keyword, the root keywords, or if we the most important ones, right? Because that's where the traffic is. However, if, especially if it's a new product launch,
+
+Speaker  227040:00
+it's quite costly. With this strategy.
+
+Speaker  228256:00
+It it usually requires a lot, lot lower budget. And when I say budget, I am referring to PPC combined with giveaways, combined with everything else that that has direct impact to the keyword itself. Now, of course, we are talking on Amazon. We can be talking about keyword that have millions in search volumes. Right? Those root keywords won't get to top 10 from this strategy, but you will be able to take them to a more decent rank position. So then, when you start focusing directly on them, it's. Still going to cost you way less than if you were starting directly
+
+Speaker  241888:00
+from position 300
+
+Speaker  243456:00
+this is what I call the snowball effect. Technically, each each keyword as insignificant or seemingly unimportant as it is, will take, will take the root keywords, higher the most important thing, and take away that you. I would like you guys to take from this no matter how you can look at this strategy, strategy, because it can be you, you can be very creative with it and use it in several ways. The most important thing is for the keywords to be extremely relevant to the product we we've been playing with this and improving this strategy for a while now. And what I we can tell you is that if the keywords are not relevant to your product, it, if Amazon does not see them relevant to your product, they will not rank root. Okay, so
+
+Speaker  258960:00
+the list, so the listing would be, our listing would be very much geared towards women, in this case, right? Potentially, even some of the things mentioned in the longer tail keywords that that's how we would be gearing, gearing everything to begin with,
+
+Speaker  262885:20
+exactly, yeah, women, if it's, if it's, in this case, it's if it's collagen powder, keep it to the powder. Don't go I know that some people are looking for capsules or whatever other shape of collagen there are, but that would be, I don't know, like a second, third phase strategy, not in the beginning, especially not when we're talking about a new launch, because in the in the first weeks of life of a product where Amazon basically learns like, like the AI does about about us. And we've had so many cases with new products, with terrific listings, impeccable photos, everything was perfect, and they wouldn't rank because the listing wasn't relevant, because the maybe the browsing node wasn't relevant, because they wasn't they weren't using the right keywords for the for the listing itself. Okay? I'm gonna move to the next one, and then we can finish and discuss further. Is that okay?
+
+Speaker  280869:20
+The next strategy? Yeah, let's go.
+
+Speaker  281797:20
+Okay. So as I said, this goes well for a new launch, rank maintenance all the time, and lowering PPC cost. We have good results with that. Okay, strategies for our new best friend, Rufus, which everybody's talking about these days, how to start with the product you are already selling an existing product, so and craft a listing that's fully optimized for Amazon's AI driven algorithm, which is Rufus. Whenever we open our phones on amazon shopping app or the on the browser, we get now Rufus. And usually it asks, What do you need help with today? Sometimes it can ask a specific question based on your shopping history, right? So step one would be, first of all, I forgot to put this into the presentation. But you need to tell if you did this before, or if you have already a history with Rufus. You need to tell him it forget everything until now. So they don't it doesn't connect with some other I don't know, maybe you've served some competition or something. So forget everything until now and then we ask, what is your target product, right? In this case, I took an example of Shilajit, which is also a very trendy supplement these days. What is your target? What is Shilajit? And it will give you a very long answer, usually with a lot of information. We need to read that very carefully, and we need to extract the most important attributes. I have here, I have selected 12 to 15 attributes, which I found the most important in Rufus. This answer right? General tonic, boosting energy levels, antioxidant, blah, blah, blah. This can be shorter or longer, of course, depending on what we're talking about. As I was saying to Jamie before the recording. So. Started. I just found, I found out, we just found out a couple of days ago, for a product that was more into the medical part, not, not necessarily supplement, but I think this will be in the supplement very soon. So when I asked Rufus, I was doing an analysis for a client, and he was selling a Hemorrhoid Cream or hammer hemorrhage? Yeah, it was a cream. And when I asked Rufus this question, what is hemorrhoid cream, or what is the very strong hemorrhage cream was? Was the question? Something like that, Rufus replied with, I'm going to direct you to an AI health assistant that can help. So it didn't give me a straight answer. I think there. Amazon is trying to separate a little bit the medical, or the medical ish advises that Rufus will give in the future, because they can get into trouble. And when I moved forward with the hammering thing, I couldn't get too much. You'll see the next questions I'm asking here. I couldn't get answers for those from Rufus, because everything was focused into an advice, right, a treatment, how to how to use that product to be more beneficial for you. So that was interesting. If you guys are in that niche, I strongly suggest take a look at that. Okay, so going back, we have a first list of attributes extracted from the first question, step number two, next question, how should I choose the best Shilajit in our case, to buy? And then rufu says, when you're shopping for trilogy, you need to consider purity and quality, blah, blah, blah, source and origin, form, additives, and this list go goes on and on. I didn't put all the screenshots here. You can play with it for yourselves. Conclusion is, when we take out more attributes from from this second question, and I took purity, which are the most important, right, and which can be relevant, because, again, Rufus is an AI, right? It can can be wrong. So we take whatever is good, purity, quality, source, origin, you
+
+Speaker  358181:20
+step number three, after all this, after you asked these two questions, you will get from Rufus,
+
+Speaker  360725:20
+the follow up questions, which, in our case,
+
+Speaker  361861:20
+and this is coming from Rufus directly. This is these follow up questions are usually coming from Q A, from other listing, a, Q A, of people for other listings and so on, how patent are different product forms because found in either powder capsules and so on, what Do customers, review, say, and a bunch of other questions, and we read all that, and we pull ideas from the follow up questions, since there are clear indicator of what Amazon's considered highly relevant, you can look at the questions. You can look at the answers it gives. You just play with it, go back and forth and find what's most important for the product. I took out another list of attributes or benefit characteristics. It needs to be potent, highest mineral content, high quality, free form, additives and so on. Now we have three lists of attributes lists. Let's call them in general. We put all those lists together and we go to chat GPT. I use the o1 version. I find it a little bit more interested in analyzing what we give them. And I told it, write me five bullet points for an Amazon listing that focuses, sorry on and I gave it all the all the list of attributes. It was a paragraph before which I didn't put in the screenshot. I we explained first that, of course, it's about Shilajit and form, and this is what we got, right? You get it gives you fairly fast five bullet points that you can combine with your existing bullet points. I mean, you don't need to change them entirely, right? It's it's up to everyone's decision. But you can put your your former attributes from your existing bullet points together with the ones that we got from Rufus, and we optimize it
+
+Speaker  399178:40
+to this.
+
+Speaker  399914:40
+That's. Be good that came out, that came out on the first attempt. Did it? Sorry, so that's what chatgpt Put out on the first attempt.
+
+Speaker  402079:59
+Yeah, I just picked the first attempt. We can play with it. That's good. It's pretty good. Yeah, it's, Oh, you were asking if it's the first attempt. Yes, it's, it was the first attempt. And it even, it didn't even think too much. It is very trendy. I did this before, for some other,
+
+Speaker  407733:20
+I think for the college I'm baptized the other example, and
+
+Speaker  408933:20
+took him took it took him a while longer. So depends,
+
+Speaker  411221:19
+basically we're feeding,
+
+Speaker  412346:39
+we're we're feeding the AI exactly what they're looking for, because we are taking the data from the AI and putting it back. And of course, this is about customer intent with specific relevance for our products. That's pretty much it. Have you have you
+
+Speaker  418495:59
+tried, sorry, just quickly. Have you tried with Claude or Gemini? Have you know, do you think that they would all be okay? Or do you think Jackie, or do you think Jack GBT is definitely the best?
+
+Speaker  421600:00
+I cannot answer you that I only tried with chat GPT. I'm a fan of chat GPT. I'm pushing myself to to use Claude Gemini. It's I'm not very compatible with right now, but if I test it in the future, I'll let you guys know. I think this AI models. You know, there are so many right now that you need to find the best one. It's worth a shot. I mean, if you have the attribute list, no matter if it's like 50 in this example, or 200 or 500 it will still take just a couple of minutes to generate it with, with all three and you can compare.
+
+Speaker  433551:59
+Okay, so is the idea that if then somebody's coming into Rufus asking the kind of questions that we think they're going to be asking, they're more likely then to be directed to your listing than somebody else's. Yes, okay, cool. So we see, we see what Rufus wants to see in the listings, what people are asking about, and then we hope that we don't get we then get directed, well, our listing is then more likely to be suggested by Rufus,
+
+Speaker  440277:20
+exactly because you as a buyer, as a consumer of Shilajit, you might or somebody that wants to try it, You you will get on on Amazon and ask which is the best shology to buy, and then you need to be there as a recommendation. That's our goal.
+
+Speaker  446986:40
+Okay, so I we prepared a special offer for the MDS members on the call, which are, which contains in 30 giveaways for free, if we're, if you guys are in need of ranking. Um, this is on top of the MDS special price, which already is at five. And how to get in touch with us, our website or email first, and then we can connect through WhatsApp or other preferred channels if necessary.
+
+Speaker  457045:20
+And that's it.
+
+Speaker  457989:20
+Did I do it in 30 minutes? I think I did, yeah,
+
+Speaker  458629:19
+nearly Yeah, though, because we probably started a couple of minutes after, after five o'clock. All right, so you guys got any questions, put them in the chat, that would be great. I just, I've just got some questions. So thought maybe we could talk about how we might use giveaways on the collagen peptides, example. So can we go back to the slide with the collagen for women, longer tail,
+
+Speaker  465631:59
+with the short list this one?
+
+Speaker  466287:59
+Yeah. So the keywords like that, would you think that potentially you should be able to rank them without any giveaways? Would you would you try PPC only to begin with? Or would you be thinking that because it's such a competitive, such a competitive niche that you would, you would 100% need to be going in with a few giveaways
+
+Speaker  471877:20
+from the beginning.
+
+Speaker  473173:20
+I would now it's, it's different each in this particular example, the niche is extremely complicated and extremely competitive, so I wouldn't definitely not rely on PPC, on just PPC. However, with this strategy, and usually with with all our. Um, clients, we recommend the same thing, sellers or potential clients. You don't need to go really strong with a large amount of of units when, when you're using this type of strategy, if, if we're, if we're starting with the long tails, a longer period of time, and we recommend, usually 20 to 30 days. This is for a new launch. Right rank, maintenance or re rank, different story. Um, new launch, 20 to 30 days, but lower numbers, for example, for for this, um, I don't know. Costin, how many would we do for for this list of keywords, of a list of long tails?
+
+Speaker  493018:39
+Sorry, I was asking. I was answering some questions.
+
+Speaker  495066:40
+For the for this
+
+Speaker  495882:39
+long tails,
+
+Speaker  496682:39
+I would, I mean, it's depending on the situation the product is in that moment, if it's a first day of the product, let me say I would go with for all those keywords, around 100 units, because, I mean the whole amount, right, like 100 units for the long for the long tails. So the what, what I saw, and what we saw during launches and relaunches, is that it not only the quantity for a keyword it matters, but also you need to show Amazon that your general sales are increasing. You know, so if your competitor, if one competitor, you want to to fight with, it's selling 5000 units per month. I don't think with only 50 units, let me say you can beat beat him, you know. So that's why we recommend always to go on, on, on more keywords, not just to one, because you need also to give a certain quantity, like the sales you have in general, to be consistent, and Amazon see that your product is growing
+
+Speaker  522245:20
+so, so, So you'd be thinking, maybe, what something like 20 a day, for 20 a day, for 10 to
+
+Speaker  524618:39
+20 a day of the of these guys?
+
+Speaker  525322:40
+So I would, I would go for, I would go with the 100 in the beginning, and I would say that we should give this in two weeks, something like this. So
+
+Speaker  528576:00
+100 a day, or 100 giveaways, no,
+
+Speaker  529248:00
+no, no, no. 100 No. The campaign, it's 100 in total, and two weeks for only, for the long tail, over
+
+Speaker  531440:00
+two weeks with a gradual increase. And then we analyze weekly.
+
+Speaker  533072:00
+Oh, so you might start, maybe
+
+Speaker  534053:20
+one. You might move start a, 13123456,
+
+Speaker  535045:20
+maybe one a day for each of these, you would start at that and then gradually ramp it up, something,
+
+Speaker  536405:20
+something like this, yeah, yeah, yes. See what
+
+Speaker  537637:20
+kind of impact you're getting. You ramp it down as well.
+
+Speaker  539061:20
+Ramp it down, yeah. So often, 4521,
+
+Speaker  541258:40
+yes. We usually Yes. We usually we are doing this, but it's depending. I mean, we always discuss with the with you if you want to do just this phase. I mean, if you decide to do 100 and say what we should do after this 100 and say we'll do and you'll say we'll do 100 and that that's it. Of course, usually in the last two days we will decrease a little bit.
+
+Speaker  549775:59
+Yeah. So I guess, like for a typical launch, you might, after two weeks, it might start picking up on its own, and then you wouldn't, you wouldn't need, you could just taper down. But I guess if you were trying to rank on collagen peptides, you probably need to keep, probably need to keep going, right?
+
+Speaker  553685:20
+Yeah, of course. Of course. Yeah.
+
+Speaker  555157:20
+Keywords, readjust the keywords, because if you were launching collagen peptides, of course, you wouldn't be doing just Collagen For women, right? You would have also collagen peptides and a few and a few long tails for it, and another, probably one or two root keywords, one. Some long tails for each of those. So after two weeks, let's say, in this example, we'll analyze altogether, some of the keywords there will be already very high and being very small, they will stick there with no other effort, just just relying on PPC. And then we can focus the giveaways on on, on, on the remaining keywords, or add some more, or just move the move the from the long tails to the root, if, the case, if, if it's required, everything needs to be dynamic in this, in these campaigns. And this is how we usually try to do it, and this is how we usually have seen the best results. You know, if you do one per day for 30 days for same keyword,
+
+Speaker  574426:40
+working, but not always. Yeah, so
+
+Speaker  576298:40
+I've got another question about the keywords. Does anyone have any more questions about what we would do for give? Any more questions related to give giveaways on this example?
+
+Speaker  579968:00
+Okay, so till was asking about, okay, so once we've got, so I guess if we're writing a listing from scratch, we would get, we would get Rufus to talk about some of our competitors and see what kind of questions they're asking about the competitors, right? And then we would write the listing from scratch with those kind of, those kind of things in mind. And is it, is it still important to include um, search terms and search phrases. Or is that is that now less important? Do we still want to have exact match for all the important phrases in there? Or does that not matter anymore?
+
+Speaker  590314:39
+It is ideal. This is ideal to to cover both things, you know, also the keywords and also play with the experience that Rufus wants to offer.
+
+Speaker  594736:00
+Okay, so we So my understanding is that we would still want to try and get keywords in, but not at the expense of making the listing sound spammy or read badly.
+
+Speaker  598016:00
+Okay, so next question was about
+
+Speaker  598965:20
+the giveaway people, what's the size of the pool? And how can you kind of assure people that it's not the same people buying lots of these kind of deals that, so to say, might look, might, might have Fauci is
+
+Speaker  603738:40
+I answered that question in the chat? Can you see also the answer, yeah. I
+
+Speaker  605226:40
+just got a recording in February together as well. Yes, yeah. So we're around 50k
+
+Speaker  607578:40
+people. Of course, not all of them are, let's say, responsive all the time. If you're giving me 50,000 of one product today, maybe at one point I'll say it's too much, but that's not the case. We never had 50,000 units in a campaign, so we really don't have any issues with respecting the daily number of the units we're planning. And this is something also that I would like to mention, the plan that we're doing, the for the for the campaign, we respected 99.9% so if we're planning 100 units today, those 100 units will be done now, going back to the pool of buyers, we're constantly, it's very dynamic. It's constantly people in, people out, people in, people out. We've been doing this since 2018 we've been growing it organically. I'm not doing we're not doing Facebook ads to to recruit people or or post your products on whatever websites or Facebook group, that's not the case. So, no, I think it's, it's, it's quite missing the word. So the whole thing is, is enough? Has been enough for now, for our larger, largest campaigns that we've done, and
+
+Speaker  636954:40
+those were like, down in the 1000s.
+
+Speaker  637978:40
+Okay? And is there anything in place to stop individual buyers from buying like, 10 of these in one day or something? Yeah,
+
+Speaker  639674:40
+we have everything. Think everything that we do so the management of these campaigns is manual. It's not the software. We have employees handling this on a daily basis. So everything is under control. Now, of course, there are busier times when we have several, several campaigns, but we we try to organize them in such a way that it makes sense for for the seller, for the buyer and for Amazon. Never had any any complaints in this situation, never had any issues. We don't do reviews for the part from the purchases. So this is also another thing to keep us on the safe side.
+
+Speaker  652202:40
+Yeah, that's definitely a good idea. Do you guys sort out or recommend that people get clicks and add to carts on top of the giveaways?
+
+Speaker  655946:40
+Well, I live constantly this. It's his area. Yes,
+
+Speaker  656960:00
+I answered in the chat. So we are not doing this. I I'd say that it's okay, as long as you don't abuse them. So we, we, we didn't feel the need to do this. And the campaigns are working also without so that's that's why, at some point we decided not to do for
+
+Speaker  665077:20
+them. Some of the guys did them at one point.
+
+Speaker  665893:20
+Yes. So, I mean, if, if you think, I don't think it's necessary, basically, really necessary. But if you, if someone wants to be sure that that and they want to do, I can, I can teach them to use mechanical torque to do that Mechanical Turk. I mean, it's easy with Mechanical Turk, because everyone on the Mechanical Turk has an Amazon account. That's why it's it's okay to use the Mechanical Turk and not other services.
+
+Speaker  676160:00
+So, so your your testing and experience is that the campaigns work fine without clicks and add to carts, but exactly if people, if people want to add them, it definitely doesn't do
+
+Speaker  679333:20
+any harm, as long as Yes, but I would not abuse them. Yeah, thanks.
+
+Speaker  680613:20
+At the same time, at the same time, if you don't abuse the giveaways, like make like a push that doesn't make sense. For example, you're selling 100 units a month, and you're starting a giveaway campaign, campaign with 50 units a day, or 100 units a day. So, you know, conversion is going crazy. It's, it's, again, no need, because traffic is coming, you know, clicks from PPC and all that, everything comes together. That's our conclusion. After, I think it's more than two years then since we stopped doing the add to cart.
+
+Speaker  691200:00
+So are you seeing many products that need some degree of maintenance, so some degree of steady giveaways in order to keep ranking, in order to maintain rank. Do you see any products like that?
+
+Speaker  694885:20
+Yes, depends on your notion of many. But yes, there are specific. It can be either a niche that it's more competitive or more challenging with, when I say challenging, it can be with, like, lots of new sellers coming in, something very trendy, or it can be a very well established product that have been, has been there for a long Time, and it's just, you know,
+
+Speaker  704362:40
+a need for steady,
+
+Speaker  705391:59
+exact, specific purchases on specific keywords to maintain so
+
+Speaker  707280:00
+for a maintenance campaign, would you typically be recommending just finding what's enough on the main keyword just To keep it up there, or would you be trying to spread it amongst the long tail? A little bit
+
+Speaker  712437:20
+depends, I think I would spread them. It depends a lot on the rank position that you want to hold to. If we're talking about top three on on very expensive keywords, let's say very competitive keywords, it might be a little bit more effective if we're focusing on the long tails, but sometimes the long tail. Aren't helpful enough. If the root keyword is so big, so it's a it's a decision that is it needs to be taken specifically for for each product, usually for like, top three or top five, you're selling very well on that keyword. Usually, it's an important keyword, and you need help in maintaining that specific one. So usually it's going to be that one,
+
+Speaker  728133:20
+alright. So next question are, what? What are, what sort of size are the biggest campaigns that you maintain? Sorry, what is, what are the biggest campaigns that you maintain? I think she's talking about giveaways and the biggest
+
+Speaker  732394:40
+campaigns that we've done in terms of ranking, yeah.
+
+Speaker  734314:39
+So last, last year, we had, during the Christmas period, the campaign with 5000 units during one week. So we had some days with 800 per day for the same customer.
+
+Speaker  739232:00
+Wow. So that was a big key words,
+
+Speaker  740719:59
+yeah. And I think 2023, we have pretty much same thing, 800 to 1000 a day. It's not all the time, but it happens.
+
+Speaker  743573:20
+Okay. Next question is, what do you recommend for products that are not allowed to run ads? So I'm guessing that sex toys and a couple of other categories,
+
+Speaker  746437:20
+sex toys are very well taken into the giveaways, by the way. Just like funny, oh, they're always popular. They're always very popular. We've done them. If we're talking about this adult category, it's working with the ranking. The organic ranking is working well. Other than that, I haven't tried Rufus to be honest to see if that works. That's going to be interesting. I'm going to do that.
+
+Speaker  754768:00
+I'm not sure if anything else costing
+
+Speaker  755936:00
+or for so
+
+Speaker  758165:20
+I guess the if we're talking about the indexing
+
+Speaker  760021:20
+in the indexing for some keywords,
+
+Speaker  761157:20
+if you cannot do it with answers and questions, you need to write the listing in in the same way as some competitors which are already indexed on that keywords are written, you know, you you not copied the listing, but write the listing in the same way, let me say, to be sure, to To be sure you are indexed, and then, yes, a lot of people are doing giveaways in this kind of niches, with, without,
+
+Speaker  771568:00
+without the PPC.
+
+Speaker  772496:00
+So do you think that, like giveaways are, you know, before, are as common as they were before, you know, before rebate key got taken down? Or are they less Kat, are they less common? Now, I got the feeling that maybe they're less common, but also people don't talk about them as much. What's your feeling for you think probably both. They probably are a bit less common and less talked about. Or do you think it's still going on quite a lot, just not talked about?
+
+Speaker  780858:39
+Well, depending on who we're talking about, if we're talking about experienced sellers that have been there for a while, uh, everybody's doing it. They're just not talking about it. But since not a lot of people are talking about it, then the new people coming in, the new sellers coming in, don't some of them don't even know that this is a possibility, and it's still a debated strategy, if it's allowed, if it's not allowed, we tried, from our point of view, we tried to change it. I mean when I say change, I'm referring to the old search find by back in in the days when that was a thing, we tried to adapt it to to this times of Amazon and try to keep it in the safest possible way. To go back to your question, yeah, I think it's a little bit less popular, but because people are not talking about it as much, they still do it. Yeah.
+
+Speaker  800160:00
+Um, so let's say I've got a listing that's struggling. It's not doing as well as it as it used to be. What would you consider before giveaways? What would you recommend that somebody try first before they try some giveaways?
+
+Speaker  804400:00
+So of course, they can try the asin reset. Sometimes it works. Sometimes it doesn't work. Usually the people are recommending to give 24 hours for this asin reset,
+
+Speaker  808981:19
+basically delete that. Just delete it for 24 hours Exactly.
+
+Speaker  810053:19
+Yes, I'd say that you need to, to think about to a week or maybe more if you don't make sales. Doesn't matter anyway. So if
+
+Speaker  813338:40
+it's doing, if it's doing, if it's doing really badly, then you could, exactly yes, okay,
+
+Speaker  814810:40
+yes, yes. And then you can, you can basically start, to start, almost from scratch, with PPC campaign on or wherever
+
+Speaker  818624:00
+cool. There was also a question about relaunches. So let's say you know someone had a collagen peptide. You know they used to be on page one, but they'd slipped off. What would you kind of be recommending for them then,
+
+Speaker  822197:19
+and what are you seeing is working for relaunches.
+
+Speaker  823093:20
+So Fedora, I think, asked that question on the on the chat, when, when you need to relaunch a product? Basically you need to rewrite the history of sales. So the big difference between launching a product or re launching a product using giveaways is, of course, you need to, you need or you need to, or you can try the asin reset, and the campaigns are usually longer and the increasing, it's incremental. So if, during the launch you you can afford to to have some spikes. You know, because Amazon doesn't know your product during a relaunch, you cannot do spikes. So you need to to make incremental increases and longer, longer period of time.
+
+Speaker  838997:19
+Yeah, the longer period of time is the secret and to be consistent, this is I'm talking about the giveaway strategy, which, of course, goes hand in hand with everything else that you do for for your product, like influencers, external traffic, PPC and so on. But in terms of giveaways, 30 days is is not enough for for relaunch. Consider it that we're recommending steady and slowly going for a launch 20 to 30 days for giveaways. We're talking 45 to 60, maybe more. It's, it depends, of course, again, we've, we've been in this business for six, almost six years now, and I've never seen two identical products in terms of behavior, of ranking in ranking, right? Even if it was the same thing, if it, if it was the same culture and peptides, their behavior was different. And it makes sense, right? Because all their back end is different, all their attributes, listings, photos, traffic and so on. So each each time, it's a different situation, but on the on, on, on the definition basis. Let's say 45 to 60 days, I think would be a sweet spot to consider if a product is struggling, if you have been out of stock, if you have been suppressed, things like that, if you are just trying to bring product higher, which is doing, let's say, decent right now, but you want to bring it higher, that's a different, different strategy, different approach. Probably there. We will need spikes. We will need a little bit of a push and then maintain
+
+Speaker  870373:20
+things like that.
+
+Speaker  870997:19
+Yeah. So there was another question about whether sellers are coming to you the strategy that they want, or if people come to you and then you help them out, I think cost and you're saying that if someone is pretty sure and they know what they want to do, you're happy to do that, but you're also happy to give your advice and let people know what you recommend as well. Yeah, great. Alright, so should we go back to the last slide with a special offer? So is there an Is there a number of giveaways that somebody would need to order to get the 30 free? Or is it just with any order? Yeah.
+
+Speaker  879850:40
+Well, ideally more than 30.
+
+Speaker  881504:00
+Cool, but yeah, that's Yeah enough to give you guys a chance. And no,
+
+Speaker  882544:00
+just kidding. I mean, I know we know the MDS community, I know there's serious sellers here. I'm even if somebody wants to test our services and see what we're doing, 3030, giveaways can be done, but, yeah, from, from a larger amount of orders, there is no minimum. We didn't set up minimum, just, you know, common sense, the best email
+
+Speaker  891770:40
+sorry if you got your email address on there.
+
+Speaker  892426:40
+Yes, email address, hold on, is here. Also, there is a contact form on the website. If it's easier, however,
+
+Speaker  895530:39
+yeah, they can also reach out via there's an empty if you go to partners and MPs, you can reach out from there as well. Great. So if we could get the air table, that would be great. So yeah, I'm going to try and use, try and use Rufus for my own shopping. See how it works. Give it a shot. So looking forward to giving that a shot.
+
+Speaker  901376:00
+It's not, it's not something that is going to be visible right away. But, yeah, I've
+
+Speaker  902965:20
+only used it on listings to ask questions about particular products. I haven't used it to just be like, Oh, I'm looking at something to to, like, learn a bit more about it. So that would be cool.
+
+Speaker  906741:20
+Okay, so
+
+Speaker  907994:40
+great, alright. Well, thanks so much. Everybody. Got lots more exciting mobile calls coming up. So don't forget that if you, if you want the WhatsApp or the text alerts or email alerts, let Belen know, or you can just yeah, you can find them on MDS on the thread. So thanks very much, guys. That was interesting. Learned a lot. So I'll definitely, I'll definitely be having a look at the product opportunity explorer and Rufus, and dive a bit deeper into that. Thanks guys. See you guys, thank you for having us.
+
+Speaker  915856:00
+Thank you, Jamie, thank you. Bye. Thank you very much. Bye. Bye.

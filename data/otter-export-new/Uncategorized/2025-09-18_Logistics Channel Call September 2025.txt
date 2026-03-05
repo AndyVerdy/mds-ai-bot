@@ -1,0 +1,605 @@
+Logistics Channel Call September 2025
+Date: September 18, 2025
+
+Speaker  80:00
+Oh, I've never heard of it. Can you tell me more about it? Well, they, I'm not going to be at accelerate, so they couldn't really tell me, but I guess they're going to make some announcement.
+
+Speaker  2592:00
+Oh, Amazon, Amazon, cruise, cruise control.
+
+Speaker  3728:00
+Yeah, yeah. I vaguely remember it from last year. And maybe they, maybe they said, inspire. But the question came up because I've been talking to them, like every other week or so about delivery issues or TTR. But anyway, as a result, I was, I was trying to get clarification from them about when you do FBM, they have, they give you the option to do what they call expedited shipping, which is kind of not really clear what that means. And they said, Well, we're kind of changing it up a little bit. We're going to, we're going to go back to this program we had called cruise control. And they said they couldn't really tell me, because, you know, it has to, they had to wait till accelerate. But that it was a modification from the original program, which made it sound like it's like a, like a one setting thing, where you literally put it on cruise control, and it's supposed to solve all your problems, which I doubt it will. But anyway, that's what I know.
+
+Speaker  19296:00
+I'm not going to be at accelerate, but I know a few MDS numbers going in there. I'll ask to ask about it. I find anything. I'll let you know. Yeah, yeah. So it's more more for so it's more for FBM sellers won't affect anyone like, yeah,
+
+Speaker  23221:20
+I don't think it's going to be the FBA related.
+
+Speaker  24069:20
+Yeah, yeah. I mean, it would be nice also to fix FBA shipping during q4 because things get very slow, yeah, and congested as well. Yeah, yeah, did you? Did you come to Milan or? No, I can't remember.
+
+Speaker  28106:40
+No, no, I couldn't make it. I'm gonna, I'm gonna try to the Singapore thing next year.
+
+Speaker  29610:40
+Nice, nice. Yeah, and I'll be at Inspire, yeah, cool. I'll probably be at both, yeah, yeah. Do you have any other questions?
+
+Speaker  32800:00
+Peter, no, I'm not too many. Any anything new earth, breaking information from, from your end,
+
+Speaker  34448:00
+rather just just a WD, it just been hard getting appointments, like more inbound to AWD, not outbound, like for outbound. It's been always, like, as long you have it in your mind, that's going to take up to one month. It does work well, but the inbound has been, been a big, big challenge, yeah, getting appointments and all these things, yeah, and it's already started, like, last month or so, and last night, I think we said we're not officially in q4 I mean, we're not still officially. I mean, officially, that would be October 1, but, yeah, I don't know. I mean, they open another one. I us W but we'll see how things go. Like, I think, I think here that like, like, trying to send shipments as early as you can, and being on time is going to be play a big, big role and not waiting for last minute? Yeah, yeah. That's sort of the way how, how I see it, or, or, for those who works with China, another option would be sending direct to FBA five shipments and avoiding a WD as well. Like not throwing all your baskets one place. That's another way to sort of diversify. Well, yeah,
+
+Speaker  55541:20
+yeah, for me, I'm lucky. I mean, it's good that all this came out, because I don't know if you remember, but I was considering doing a w d this year, but now I'm there's no way I'm doing I don't, I don't really need to do it. I'm going to wait till till q1 to reevaluate and see if they've gotten their act together.
+
+Speaker  59882:40
+Yeah, you also have 1000s of skews as well, right? Yeah.
+
+Speaker  60778:40
+We have, yeah, yeah. And we're slowly, we're slowly shipping a lot, converting a lot more from FBM into FBA. But it's nice, nice. It's, it's, it's, you know, a little scary, just
+
+Speaker  63466:40
+because for you, is it wholesale or private label. It's private label. Private Label.
+
+Speaker  65008:00
+Yeah, it's just that we have when we've tried this before, they have done screwy things with us in terms of pricing errors and suppression. And so I'm doing a little bit at a time, and the ones we're doing seem to be doing rather well,
+
+Speaker  71077:20
+but sounds like, sound like, what print on demand, business or design?
+
+Speaker  72693:20
+Yeah, we do customization. It's, it's the ones that we send. Yeah, the ones we send in are not customized, but they're more stock items.
+
+Speaker  75866:40
+But, yeah, yeah, cool, cool, yeah. Anyone else here want to say what they have been seeing or they have a problem or something to share with us? Yeah? I. I and if you guys can open your camera, that would be cool. So I just don't feel like I'm talking to myself. Think it might just be me and you anybody else on I think everyone is on final mode today. Yeah, they also changed that. I mean, that call was supposed to happen last week, they moved it to this week. So I guess that created all, you know, I don't know, like, created all the, I mean, people think that I was last week and there was no any announcement here, here we have another one. This camera open.
+
+Speaker  89221:20
+Yeah, I'm here. It's just, it's like, 7pm here. So it was, I was off work, and
+
+Speaker  90661:20
+just, yeah, what? What's your name? This first time I see you on my channel,
+
+Speaker  91738:40
+yeah, my name is Alan. Do you know Mr. Bert naltrejolo from robust ventures?
+
+Speaker  93578:40
+So are you an MDS member or working for someone?
+
+Speaker  94426:40
+I'm working for someone. Yeah. What's his name again? Yeah, Bart naltrejo
+
+Speaker  95738:40
+Oh, yeah, yeah, he's, that's a Turkish, Turkish, yes, exactly. Yeah. I think I know bark. I've seen his post LinkedIn too as well. Yeah, cool. At 7pm now in Turkey,
+
+Speaker  99232:00
+yeah, it's 7pm and I just had a really rough day at work, but I'm still gonna listen to it. That's why I was like, I turned my mic off, I opened it for you. So, you know, nice.
+
+Speaker  102389:19
+Are you? Are you guys? I mean, would you say USA is your main market or Europe as well? Yeah, I'm sorry, what would you say USA is your main market or EU as well?
+
+Speaker  105237:20
+For Amazon, eu as well? Yeah, both, both. Definitely,
+
+Speaker  106405:19
+any challenges, anything you're seeing recently. I mean, since you're the logistic person, like, Yeah, a
+
+Speaker  107850:40
+few challenges are there, like the Capacity Manager side, all capacities fell down significantly. And we first, for first, for the first time you considered a W, A, W, D, shipments. We never but then
+
+Speaker  111738:40
+how do you handle that? I mean with EU or Canada, because EU Canada is no AWD. So how do you you just bid and ask for more? Or do you have an
+
+Speaker  114144:00
+account? Actually, never used a WD so far. We never needed it, and we for the first time we ever had to consider it, but we still didn't want to go for it again.
+
+Speaker  116960:00
+So yeah, again, I've been with him for years. It's not
+
+Speaker  117877:20
+bidding early or the season, you know, it did early, and we made the calculations so we already have our capacity, so the problem is kind of solved. But I really want to learn more about what you guys are doing, about solving your own problems, you know,
+
+Speaker  122517:20
+yeah, like for me, Canada is fine. UK, I have an AGL rep on an account rep, so I really asked them to see if they can raise it without me trying to bid more for it. I'll see if they can do because what they said they promised us, if we ship with AGL, it will not count. It will not count until the shipments arrives
+
+Speaker  128202:40
+for AW that way, but in even if you use AGL without the
+
+Speaker  129791:59
+Yeah, so yeah. Does not matter Asia. Yeah. It does not matter if Asia are going to AWD or Amazon. But the thing is, I tried that in Europe last night, and I was told that it's not allowing us, which is very weird. So I just messaged emailed our AGL director, just because they sent many emails. Oh, don't worry about it. Any shipments that uses AGL, it's not going to count. So basically because, for example, next month I see my capacity going higher, but then I need the shipment for next month, so there's no point restricting me now, because it's not going to make it on September. It's going to take at least a month. Take at least a month, you know? So just all I can
+
+Speaker  139994:40
+use the capacity of the next month from this month, so you should be fine, I think,
+
+Speaker  141066:40
+unless I bet, but I'm not bidding, yeah.
+
+Speaker  141882:40
+What I meant is, like, do you have the capacity for this month or the
+
+Speaker  143162:40
+next? So for this month, I'm already at 98% but next month I'm going to have at least two, 3x but, but since the shipment is created this month, they don't allow you, yeah, I don't know why.
+
+Speaker  146400:00
+I think you have, like, some kind of something like that, yeah, you, you should be able to use the capacity of the next month from this month. So you shouldn't have, like, currently increased our like capacity in the US market, like 40% and I did that like a week ago, and I can create shipments according to that capacity,
+
+Speaker  153029:20
+but, but, but, but you, you've done you, you bid for capacity, right? Or no, did you bet I bid for capacity? Yeah. So, so the way how it works, when you bid for capacity and you get granted for October, you get September as well. It's a bit different system, yeah, I understand you didn't bid for it. They just gave it. No, yeah, I didn't bid anything, yeah. So I understand why I think I'm trying without I mean, I probably can bet, but I want to see if the AGL. Can do something about it. If not, I would just bid. I mean, we have to bid very soon, otherwise it becomes sort of too late.
+
+Speaker  161616:00
+Yeah, by the way, if you like, need help, uh, trying to figure out the bid amount. Like, because you know, the performance credit cancels out the money you pay when you bid. Yeah, and like, what is the safe amount to bid. If you know how to calculate it, obviously you know how to do it. But like I just recently did it for four different countries, four different marketplaces, like Canada, EU, UK and US, and kind of feel warm about that situation.
+
+Speaker  169477:20
+So yeah, it feels it feels straightforward. From what I heard, it's not straightforward.
+
+Speaker  170986:40
+Yeah, it's kind of straightforward. No, yes, it's like, basic mathematics. Actually, you just, like, multiply, divide, and stuff like that. But it's easy to figure out what, what is the bid amount you should do? You feel safe with you will definitely get the performance credits and pay no amount of money. Like, it's calculatable, really.
+
+Speaker  176154:40
+Okay, that's, that's, that's good to hear. Yeah, yeah, yeah. The thing is, for the US side, they they're going to always say, Oh, by the way, you guys have a WV, AWV. But yeah, Europe, Canada, they have no they can't say aw because there's no other options. They have to work with us. Yeah, but yeah. I mean, yeah, cool, cool. Thank you for your feedback.
+
+Speaker  182453:20
+Yeah, no problem.
+
+Speaker  183253:20
+Yeah, anyone else here want to share their experiences, any issues they have, you guys can open your camera. That would be cool.
+
+Speaker  186309:20
+Yeah? What's up? Mo, how you doing?
+
+Speaker  187082:40
+Hello, Ryan, good yourself.
+
+Speaker  187642:40
+Uh, pretty good. Energized today. So that's nice.
+
+Speaker  188426:40
+Yeah. Are you feeling energized after coming back from Milan?
+
+Speaker  189546:40
+Yeah, Milan, honestly, that was, that was, that was my second summit. The first one I went to was Denver, and I thought Milan was, like, a awesome upgrade for me from Denver. Nice, nice. And, yeah, I enjoyed it.
+
+Speaker  193888:00
+Cool, cool. Yeah, I think you How about you? You never go wrong, yeah, you never go wrong with going to summits. You get inspired, you get encouraged, you get motivated. You see what others do, and you sort of want to be the same or even better as well. Yeah. So you always come back with many takeaways, yeah, yeah.
+
+Speaker  198965:20
+I thought Ivan and Jay Hunter. Those were like, two people that I was like, Oh, okay. Like they're killing it. They've done some cool stuff. I look up to them. So those are two cool people there.
+
+Speaker  202517:20
+And sometimes you think it's too complicated, but it's not complicated. It's just as simple as just new launches, variations, all these things, yeah? Like, sometimes we overthink, we make it too complicated, then we achieve nothing. But if you take it simple step by step, you should be able, like, sort of, you know, to do well, like, grow your brand as well.
+
+Speaker  208736:00
+Yeah, I agree. I like to complicate things.
+
+Speaker  209984:00
+Yeah, any anything from your side about logistics, anything new you're seeing or you, yeah,
+
+Speaker  211600:00
+I had a question. You actually sent me a voice memo back with it, and I didn't fully understand, but so I wanted to re ask, like, DDP versus DDU for Canada, like, right now with us? So I have all coming from China, China to us. I've got us figured out. I do DDP on the Canada side, I just started selling in Canada in January, and like, revenue started out low, but now we're doing about like 30 a month on average there. It's probably
+
+Speaker  223114:40
+going to pick up more, yeah, just give it some time. Yeah, yeah. So here's, here's, I still remember that question. So do you know your duty rates in Canada or not? Like, any idea. Do you know if it's 3% 4% 5% like, no. So maybe you can ask your team, or you ask your first photo. So the way, how I see it, you know, when you do DDP to to to Canada. I mean, say, I'm not sure what, what cause they use, but say they use, I don't know, say they use code. That's five, 6% you probably know DDP, they they also undervalue as well. So the thing is, if you want to be, if you want to do DDU, DDU means duly unpaid. That means you you have to be the IOR, you have to be the importer, which is fine. But the thing is, if you're the importer, then you have to do everything the proper way, like you have to use the correct duty rates. Yeah, you cannot misclass You cannot misclassify. You have to do everything the proper way. And the reason is. So being an ior gives one advantage. You know, when you import to Canada, you have to pay. It's unlike the US. It's like the UK, like Europe, yes, 5% on import, on imports, yeah. And by the way, that 5% is your cogs plus duty, and then they add the 5% on top of it. So always, the duty gets added to Congress, and then the 5% on top of both. So, so anyway, it says, not to complicate it. The nice thing that 5% you can always claim it back when you file your annual tax, sales tax returns in Canada, you can get that amount back. Now, what I want to explain to you, say, say that amount is 400 ah, dollar but then you do DDP. And I don't know what they do, you know, it's like a black box. They do so many things. They undervalue, they miss. I mean, again, it's their responsibility, without getting into, like into a debate here, if it's legal or not, what if the saving that they get you is $1,000 The question is, do you want to do DDU, or do you want to do DDP, yes. With DDU, you're the IR, you get the money back. Yes, the 5% but if you do DDP, they're not just saving you 5% they're saving you probably, maybe 10, 15% Yeah. So in this case, I mean, yeah, so. So for you, you just need to do only 111, experiment, like one test, meaning that you need to know all your duty rates and then do that comparison. Then, then, once you know how much you're saving, you probably know if I need to do DDU or DDP, because once you stick with one, it's not like, next month, oh, it's going to change. I'm going to go DDU, you know, like, I'll give you example. Like, I see some products sent to to Canada, they have zero duty rates. In this case, does it make sense even to do DDP? No, because there is no duties. I mean,
+
+Speaker  272517:20
+so it's like, yeah, so, so if there's D to you, you'd get the you'd still have GST, no matter what, you
+
+Speaker  274534:24
+still have GST. Yes. So there's, by the way,
+
+Speaker  275589:20
+and there's duties, GST or pay, regardless. Duties are variable based on category,
+
+Speaker  277158:23
+correct, correct, correct. Yes, correct, yeah. So even those guys who does DDP, they still pay somehow GST, but because they probably undervalue, use lower values or something. So for you, pick one product, get a code DDU and get a code DDP, but then you want to know what's your duty rating, Kat, and then you sort of, you do the math, and then see which one, to be honest, most of the time, DDP is cheaper because they probably, they probably undervalue. They probably use another code. It's not our business anyway. It's, it's there they are the IOR. It's their problem. I mean, yes, worst case. I can get complicated, but again, I mean, this is the worst, worst, worst case. But again, this is, this is the worst case with DDP anywhere, USA, Canada, Europe. I mean, in Europe, you wouldn't have to do much DDP anyway, because, because in in in Europe, it's a bit tough, because there's a system called because, for example, in the reason why we, I don't do DDP in Europe for two things. First of all, my product has zero duty rate. So many products being shipped to the UK have zero duty rate, number one, and then number two, unlike the 5% GST in Europe and in the UK, it's about 20% but the nice thing, they have a system, yeah, that. But they have a system where they delay that vat for I mean, they have a system called PVA, where they delay that 20% and you only pay, pay it once you file your taxes. So basically, there's no need to do all these things, because they have a very easy system. I mean, you you don't want to undervalue. You want to make sure everything done the proper way, because that about 20% you're getting it back. But if you do DDP, you're not gonna get, I think most Chinese straightforward do not do DDP to to you to the UK, because it doesn't work. And the system is fairly simple. And anyways, you're gonna get back your 20% back. So, I mean, yeah, and, and the duty rates not that high. There's nothing like, I don't know about all categories, but it's not like 20% 3040, like what the US is facing. Now, you know. So anyways, this is sort of the the thing. Yeah, your other part, your other part of question was about filing the tax returns in Canada. Sorry, filing the sales tax returns in Canada. Yes. So there are, there are two ways. You know, on Seller Central, on the back end for the Canadian marketplace, there's an option to enter your GST, HST number. So I. They leave it, usually, if it's a new account, or you've never been to the Canadian marketplace, it's a blank field. There's nothing entered there. So now, if you keep it, if you keep it blank, that's fine, then Amazon basically collects and remit those taxes to the Canadian government. But still, end of the year, you still have to file, but you file zero tax return because basically, Amazon took care of everything. But the only disadvantage with this, you can't claim back anything. You can't claim back GST, HST, paid on PPC, paid in FBA fees, paid on inventory, imported. I think at the beginning that's okay, but then once you grow and once you become monthly, maybe you have a half a million sales annually. I don't recommend that, not for the DDP. Forget about the DDP. Now you want to claim back that the DST, HST, paid on PPC, at BSL, because those are a big chunk, like they're a big amount, yeah. So once
+
+Speaker  335850:39
+you enter the number GST, if you're doing all DDP, no, no,
+
+Speaker  337072:00
+no, no. We're not talking about the inventory now. We're talking about PPC sales. We're talking we're talking about PPC fees. Okay, fee fees, because, because even PPC, PPC, FBA fees, they have that 5% on them too, so that, you know, yeah, oh yeah, yeah. And to be honest, it's not even 5% sometimes it's 13% because, for example, if the delivery happens in Ontario, where I'm located, now, it's 13% so it's even more than 5% so it's like 13% so basically, when you enter your number, I know it's confusing in Canada, but that's the way how it works. And I'm giving you like as someone who sells in Canada, I live here as well, so I'm very aware of, of course, you can always consult with the tax guys, but I'm telling you, like, like, why? You know, and I'm 100% sure. So if you enter your, if you enter your GST, HST number, you become that collector, and you have to remit, but, but just, just keep in mind that that payout that you received from Amazon. It does include the GST, HST money. So you have that money now in your payout, because now you enter the number, and basically, because you have that money, for me, that's good, because that's a good cash flow. I use that money, I put in a saving account, and I earn at least three 4% that's why I do usually, because I only file it at the end of the year. So anyways, because you have that money when you file your your sales tax return, you have to, I mean, when you you have to file your sales tax return, you cannot put zero. So basically, when you work with a with a good accountant, he he'll do all the calculations say, he'll say, Oh, you saw the C 1 million. Maybe you owe the governor. You owe the CRA. We call the CRA here, like the IRS, so you owe them $10,000 but then he will say, Can I get your invoice? Can I get your input, input taxes, like all these invoices that it's very easy on Amazon Canada, there's something called tax document library, or something, for example, when you pay your, say you, when you pay your PPC fees, they have tax inside them. But the thing is, you that invoice does not show how much. But there are, when you go to the tax document library, you can download all those PPC invoices. You can see the GST, HST you paid. So basically, you give all those I can send you the link after you can give all those invoices to your accountant, and basically say, if you owe the government 10,000 now, no, there's, there's 5000 maybe input taxes that you paid on PPC fees, seller fees and inventory if you don't do DDP. And then, instead of paying them 10,000 you're paying them 5000 this is, this is very simple system. This is how Australia works, Europe works, Canada works, except USA. Is that clear for you or not?
+
+Speaker  381002:39
+Yeah, yeah, that's all clear.
+
+Speaker  382042:40
+This is why it's good to work with the work with the I mean, I do it, I do it. I do with you locally, because I'm a Canadian base, so it's easy, but if you want, I can refer you to good accountant. I'm one of them. I work with Financials. I mean, I used to refer to them, but then I heard so many drama stories, so I have one that I work with. I mean, I can refer you to him as well. He's very good. He's also an E commerce seller. He knows how these things work, and yeah, he's he's really good. Just send me an idea. I can do an intro with him if you want. Yeah, do you
+
+Speaker  391733:20
+think it's worth it to switch away from KB to them like? Because, I mean, ideally I'd like less work like, but you feel
+
+Speaker  394229:20
+like, have you? Have you? Have you decided if you want to do which method, like, do you want to do the 01 or do you want to do the one where you claim back? Because they even charge money to claim back, you know, stuff. Have you decided what you want to do
+
+Speaker  398010:40
+with them right now? What I'm doing with kB is, like, just, they're doing, like, end of the year filing, and I.
+
+Speaker  400000:00
+Don't know you, are you doing a zero return or or something?
+
+Speaker  401152:00
+I don't know. I just know that we're doing, we're not doing GST, that's for sure.
+
+Speaker  402944:00
+Um, because it's very easy to tell if you're doing a zero returns with them. That means there's no a GST, HST tax number on your back end. If you, if you're on Amazon. If you're doing, I don't know if you're filing something, that means you have a GST, HST number. That's the that's the first thing you need to know. At least you should know that.
+
+Speaker  408085:20
+Yeah, okay, so if the GST number is on Amazon, then we are filing.
+
+Speaker  410837:20
+Yes. I mean, you're filing in all cases. But the difference is one, one case where you file zero because Amazon already collected and remitted the money, and the other case, you you're collecting and you have to file as well. So in both cases, you're planning, but one is zero, the other one is not zero, yeah.
+
+Speaker  415898:40
+Okay, and you recommend
+
+Speaker  416896:00
+for you just to make it very simple. First year, as long you don't have a number on the back end, just make it simple. Zero you don't claim back anything. And then next year, next year, maybe you re evaluate, yeah. So in any case, if you're doing DDP, you cannot get that money.
+
+Speaker  422149:20
+Where do you and then, so sorry, where and where in Amazon Do you check to see if the GST is being
+
+Speaker  423717:20
+okay? Let me show you one second, yeah. Let me just open my okay. If you guys are on the Canadian marketplace, you want to click on, yeah. So if you, if you're in the Canadian marketplace, click on the wheel where, where that has, I mean, it's all the way to the right where it has the account info, yeah. Then click on tax settings, yeah. And then you see GST, HST, restriction number, yeah, yeah.
+
+Speaker  432304:00
+Well, my mine's got x's in it. So I don't know if that means it's just no
+
+Speaker  433216:00
+if x's that means, if access means nothing's there. Yeah, it's nothing there. That means, if you start selling, or you're already sitting on Amazon Canada, Amazon will collect and remit the sales taxes to the CRA that means you just file a zero return. Yeah, I know Canada's a bit confusing when it's compared to the UK, like the UK does not even allow you to have it blink, they will suspend you. Yeah. Okay, Ryan, is that clear for you? Did you? Did you try that? I'm not sure. Are you still there?
+
+Speaker  443434:40
+Ryan, yes, I'm here. I was just grabbing my laptop to see if I had it on the back end. Yeah, but yeah, that, that all makes sense. I gotta see what I'm doing with kB and stuff.
+
+Speaker  447338:40
+I mean. So if you, if you already signed the contract, just finish it with them, just make a zero return, as long you don't have a number there, and then after that, just let me know I could do another recommendation for you. Yeah, sorry, we'll ask you questions.
+
+Speaker  450960:00
+I just happen to be looking at my ups brokerage statement that I got, and they have the SEMA special imports tax on there, which they basically, I did a chat GPT, and it says SEMA stands for special imports Measures Act, Canadian law that lets government put extra duties on imported goods that are subsidized or sold at unfair low prices versus Canadian equivalents. I'm wondering if that's recent because of the tariff stuff, or is this like, do I have some weird product? And my product is not, is definitely not
+
+Speaker  459578:40
+a, I mean, as your product made in USA, or was it, yeah, yeah. So, so, so for USA product, we used to have NAFTA, and then they changed NAFTA to Cosma, and then, I think as long as long your product part of Cosmo, then you shouldn't pay any new ease. But then there's also so many exceptions and so many things and so many changes in the past two months between Canada and USA. Yeah, yeah, I think probably has to do with that, but, yeah, okay, yeah. So the new, I mean, yeah, the new free trade agreement. It's not a new I mean, they changed the name from NAFTA to Kuzma, C, U, S, M, a, back in 2020 Yeah, but that's sort of what it is, yeah, yeah,
+
+Speaker  472517:20
+because they have, like, here, I'll just show you. Let me
+
+Speaker  473445:20
+just show you this real quick. Yeah, I've seen this. If he has brokerages invoices before, Mike, are you able to see that?
+
+Speaker  476346:40
+Yeah? Yeah. It's like, yeah, they have these other fees, like entry prep fee, disbursement fee, total brokers charges. Yeah.
+
+Speaker  479418:40
+So for me again, like. Uh, this is a lot for one reason, because the brokerage fees with UPS is really high and but I know maybe, maybe you're sending only a few boxes, yeah. I mean, yeah, it was, it was, yeah, for me, I tried to send by pallets, then I avoid all these crazy fees, but yeah, I mean, if you don't need Palace, then doesn't make sense. But I'm trying to understand what SEMA Oh, might be anti dumping. Yeah, yeah, that's why we call it here, like we seem as equivalent to anti dumping in the in in the US. So the reason why you're paying that small fee, it's, no, it's not small fee. It's 44.34, yeah. So that product has an anti dumping in Canada, yeah.
+
+Speaker  494314:40
+I think I put down, like, the, these are like, posters,
+
+Speaker  495690:40
+Oh, wow. So my recommendation is the reason why it triggered that maybe you guys used the wrong HDS code. Yeah. Like, if I were you, I would open the second page or the third page and then see what was HTS code there, and then try to sort of reverse it as charge GBT. Maybe you can find a better code, because I feel those ups brokerage companies, they don't do enough work to figure out, Oh, is that the best HTS code? They just put whatever they feel that it's somehow Correct. Yeah, I usually, I usually make it very clear when I create those invoices, I put my HTS code on the invoices. So basically, they're forced to use what I think it's, it's correct, unless they think it's, there's something wrong with it, then they'll come back and ask me, yeah.
+
+Speaker  508522:40
+Oh, wait, okay, I Well, I was using, I was using Frisbee to go through and do all this. You're probably familiar with them.
+
+Speaker  510298:40
+Yeah, of course, they're very good company. Did they maybe? Yeah, maybe you should go back to, hey, by the way, there was anti dumping on this product. Luckily, $66 is not a big deal. But imagine if I send a big shipment. That's that probably could be, I don't know, 1000 Yeah, yeah. So maybe ask them to to see if they can look up another code. I'd also use chat GBT as well for that.
+
+Speaker  516144:00
+Yeah, okay, yeah. I'm seeing, I'm seeing it now. It's got, it's got, you can see this posters duty, value, class, number. So that's probably the code I could
+
+Speaker  519189:20
+use to see if, yeah, yeah, yeah. It's, I didn't know even posters have anti dumping. It's crazy, yeah, yeah, yeah. So for so I advise everyone here, even if you do DDP or whatever you do, just have a whole list of all your products with the HDS codes and all your marketplaces. Just keep it like, I mean, I call it like my master sheet, but it's just nice to know all these things, because when you need it, you can go back, so you don't have to spend time researching your codes again. We also do revisit. We revisit that sheet every three, four months to see if any changes in the market. If we can optimize, yeah, and sometimes the same codes in us is not the same in the UK, so it's a bit, bit different. So it's always good to optimize or even hire. I mean, I think you could probably hire people on Fiverr as well. It's not that hard now, with chat GBT, it probably can help you to optimize to the best you can. Yeah, what you
+
+Speaker  536213:20
+were talking about here like, it says, oh gosh, it's not,
+
+Speaker  537845:20
+no, it's not. It's not that one. No, it's not. I know that. I know that page, but it's not that page. Yeah, I think
+
+Speaker  539674:40
+GST registration numbers. I don't know why my camera.
+
+Speaker  540762:40
+Are you? Are you in the are you in the Canadian marketplace?
+
+Speaker  541834:40
+Yes, wow, um, making it
+
+Speaker  542938:39
+hard. Let me, yeah, let me, let me, let me. Paste the link here. Well, just one, one second. Yeah, okay, yeah, okay. I'm just going to add the link here. Just make sure you're on the Canadian marketplace. Otherwise, it's not going to work. Yeah, one second, I'm just going to add the link here, yeah, here you go, yeah, just make sure you're already again on the Kat marketplace, otherwise, yeah, and then yeah, it's then you see, like a field says, GST, HST, restriction number, yeah,
+
+Speaker  553397:19
+okay, because it's blank on that other one I was looking at.
+
+Speaker  554597:19
+That means, that means, again, that means you still file, but it's zero, it's zero, it's simple. So maybe finish the year like that, and then after that, hopefully that time you'll do more in sales. And then we switch you to the other system where you came back because, because at 30,000 per month, that's 360 that's still okay. But. But then once you hit half a million or more than it's nice to have that it's not to have some some money back.
+
+Speaker  562208:00
+Yeah, okay, that link you sent takes to this page, and then it says accept. And I haven't clicked accept. You know
+
+Speaker  564144:00
+what? I can't see. It very clear. If you want, just take a screenshot. Send me a DM. I'll have a look, yeah, and I'll let you know, yeah, for now, don't do anything. I don't want to click on anything.
+
+Speaker  567493:20
+Then I don't know why my screen is so blurry. It's like, yeah, it's literally trying to it's as if you're under, swimming underwater.
+
+Speaker  569685:20
+I think maybe because it has some confidential information, it doesn't want to anyone
+
+Speaker  570842:40
+that's right. Maybe AI is doing that, yeah,
+
+Speaker  571850:40
+I don't know, yeah, but yeah, just, just send it to me. That's, that's the link. Yeah, I
+
+Speaker  573082:39
+understand DDP versus DDU now in Canada, and how?
+
+Speaker  574570:39
+But wait, that's not even, that's, I mean, DDU, DDP, that's, that works in any word, even, yeah,
+
+Speaker  576160:00
+this is, yeah, this is separate. And you're saying, regardless of DDP or DDU, once you hit 500k it's a it's a good benchmark to start filing your actual or filing yourself, instead of Amazon filing it, so that you can click back, expenses, other
+
+Speaker  581264:00
+expenses, right? Correct, correct. Yeah. But again, that should not interfere with your DDP shipment. You can continue doing DDP shipments. Is fine. I mean, you can't claim them back. But again, the reason I don't claim them back because the savings are so high from DDP, but I still claim back the PPC staff, the selling fees, all these things. It's fine. I mean, it's, it's, it's, it's your choice why you want to claim back. It's not like the government going to force you, oh, why you didn't claim back the 5% of your inventory. It's not there. It's not their problem.
+
+Speaker  589482:39
+You claim back everything, but GST,
+
+Speaker  590682:39
+yes, I mean, I mean, as someone based in Canada, I even claim back GST paid on my printer, all this stuff, because I'm, I'm established. It's the same thing for you guys. Like, where were you based? You're based in Arizona, right? Well, sorry, yeah, no, yeah, so, but in that case, when you buy supplies, you pay probably sales taxes. Can you claim them back in the state? Or it's not, like, Canada,
+
+Speaker  596624:00
+yeah, here, like, any business expenses, yeah, those, I write those off. I'm not paying taxes on those
+
+Speaker  598837:20
+expenses. So for us, we write them off, but we but also there is, there's a sales tax on top of those expenses. We claim them back. Yeah. Mm. So maybe, for you guys, you write off the whole amount with the sales taxes. Yeah, right, yeah. We can write off the whole amount. We write off the amount without taxes, and then the taxes, we claim it back. Yeah, sort of the same system, yeah.
+
+Speaker  604858:39
+Oh, interesting, yeah. Like our for example, $30 for printer, and we just write off $30 you pay $25 for printer, and then 5% and right there, off separately,
+
+Speaker  607802:40
+exactly the 25 we write it off as an business expense. But the the $5 is a sales tax. It's sort of my when I file my my Amazon taxes, I could take that $5 off because I was like, Oh, I bought the Sprinter to print labels for my Amazon business, something like that. Yeah. But I think also, you guys in the state, you could buy things, if you have a license or something, you could buy things even tax exempted, like we don't pay sales taxes. I've heard someone was telling me about anyways, this is off topic something, but I think you understand it very well. Yeah, just just code, and then do one comparison, and then see, I think DDP will win always, but just just in case.
+
+Speaker  617957:20
+Yeah, thank you. I understand this now. Awesome. Perfect.
+
+Speaker  619082:39
+Yeah, anyone else here want to share their any recent experience, any issues?
+
+Speaker  621386:39
+Oh, hey, how are you doing? Well, I should have been in the Milan, but I yeah, I was like, What happened to him? No, my flights and my visa. Had a fall, and I broke my leg, so I couldn't travel three Are you okay now? Yeah, recovering now. So thanks for asking. So Mike, we've finally exploring DDP, because we still it is just not price competitive anymore. For the longest time, we just wanted to stay away from DDP.
+
+Speaker  628016:00
+Are you exploring it? To USA.
+
+Speaker  628576:00
+For us, for us,
+
+Speaker  629072:00
+for us. My question is, how does it work with we sell only large in bulky, almost our entire portfolio is large in bulk. I remember, AGL makes a huge difference when we move Raj bulky, we can't even we, we've we're not competitive, price competitive, and we use a regular forwarder, so AGL gets point to point. And yeah, I understand it, but the followers did the problem with, I can't use AGL now, large and bulky sellers do when they have, yeah, I mean, because I benefit of DDP kind of gets offset by, I mean, offsets the AGL benefit, right? So what do large and bulky sellers do?
+
+Speaker  639674:40
+So I. Yeah, so I know someone named Ben beacock. He probably recognized his name. He exited it, but he also had large, bulky products. He said Asia would work the best. It has the most competitive prices when it comes to large items they can it works with any better than freight forward. But then, yeah, then when tariff started, it was very tough on him, because he still wanted to do AGL, and I think the new business owner didn't want to do DDP, because it's like, it's illegal, all these things we don't want to, like, talk about details here. The problem is for you, like see with the AGL, they still allow you to do your own invoices, meaning that you still sort of, if you want, you can undervalue. The question is, did, for example, like I remember when I checked the system few months ago, I want to change my cogs say from $5 to three. You you fill out a form, and they ask, Oh, why did your cogs go down? And then they give you option. Did you optimize it? Did you optimize your production? Like, like, basically, you can put anything, and then they accept it. Now, the question is, it depends, like, I feel like, if you use the AGL, you could sort of have your own invoices. But the question is, you cannot undervalue a lot, like, maybe, maybe you can do 10% 15. And to be honest, I see all Amazon AGL shipments. They're more scrutinized for exams, more than even other straightforward because Amazon is a big fish, the big customer for customs. So I feel like, like, I feel like, if I do, because I ship a lot with AGL and AGL, if I do, I don't know, say, if I shift, think Containers per year, at least three with AGL, they'll go like exam, but maybe with other freight forwarder, maybe one, maybe zero. So I always feel like AGL shipments, they always get more. So for you, it's going to be very, very, very tough. Like, have you I have one I have other options, sort of, like, more, like, legal options. Have you thought to speak with your supplier, and they become, sort of the importer, like, they become the exporter and the importer that meaning that they can use their own invoices. I've already asked a lawyer about it. So basically, they become the exporter. They become the importer. But the option is, you use AGL, and then they use their invoices at their own ox value, which is not your cogs, it will be much lower than that. That's another option. It's not going to
+
+Speaker  681605:20
+be Shouldn't they be selling on Amazon for them to use HDL?
+
+Speaker  683397:19
+No? I think what you do you when you create an AGL profile, you can add them. I think you can create any, any ior you want, with
+
+Speaker  685386:39
+Amazon, so it doesn't need to come into my company. Name is it? I can use AGL. But, yeah, it's a sale from, yeah, okay, yeah. So basically, buy from the US corporation.
+
+Speaker  688250:40
+So, yeah. So basically, I think you so basically, when, I mean, when they become the IOR, they they will pay for the taxes and duties, but, and then you have your own arrangement where you pay them after the duties they pay because they're not supposed to pay it. I can see which trade lawyer I can ask my there's a guy named John Specter. You want to ask him. He mentioned that to me. So, yeah, yeah. So just send him a message. He also have some oversized products, and he's been exploring that, but that was talk I had with him six, seven months ago. So, yeah, but, but I already asked someone. I mean, that's one way. But for you, the question is, yes, if you want to go DD I mean, the question is, yes, AGL is good, but then I doubt you would save much. So the question is like, yeah. I mean, you want to work with DDP, freight forwarders, just that way, sort of save, save some money. But then yeah, with AGL, yes, they're the best. But I think the savings you get from DDP outweighs a lot like, in my opinion, AGL, yeah,
+
+Speaker  706719:59
+you're saying, I mean, I'm just getting the numbers from my suppliers as we speak, we just ask them for the DDP numbers. So you're saying, even if I move away from AGL,
+
+Speaker  709680:00
+the benefit of agile DDP would more than make up for it is that, is
+
+Speaker  711205:20
+it correct? Correct? Yes. And and also with DDP, don't expect you're going to ship a food containers, and I wouldn't recommend doing that. There is also even a CL DDP, but they're very risky
+
+Speaker  715514:39
+containers, uh,
+
+Speaker  716282:39
+okay, let me give you an example. Say, say you say you ship one container per month. Okay, imagine you do FCL, DVP. Imagine it gets exam. Then all your, all your inventory is in that container. So for me. I see it risky, but I give you example. If you do five Containers per month, and you do FCL, DDP, then it's okay, because the reason is, if one gets flagged, you still have other four. And again, when I say when I think, every time I mention example of luck, people think, Oh, my stuff gonna get confiscated? No, there's not. I mean confiscation happened as the very last three door step. There are steps. I mean, even those, even even those, DDP fades forward. When they have issues, they still resubmit. They refile again. They resubmit invoices, all these things. So again, I don't know much about your volume. So if you have many containers per month, then it's safe to do FCL, DDP again. I've seen DDP is, is like doing an AGR shipment, but you you're undervaluing more, and you're not the IOR. That's the way, that's the way, how I see it. Can you make it yourself? Yes, but then, in this case, I wouldn't recommend to use your own us LLC, just create another LLC, because something happened, it gets burned, and then you don't have to worry about it.
+
+Speaker  736544:00
+Yeah, one class question. So in is it in all? DDP, the IOR is somebody from the supplier side? Correct? No, not supplier side, because I wouldn't want
+
+Speaker  739872:00
+to be the IOR, right? So, no, no, not supplier it's the freight. It's the freight
+
+Speaker  740880:00
+forwarder. I mean, from their side. I mean, it's there, yes, yes. Somebody from that. And believe
+
+Speaker  742053:20
+me, I, I have ways even to find those ior names. Sometimes they're funny. They're just Chinese names that live in New York. Sometimes it's a US LLC. Sometimes it's so many things they'll never tell you, who is that? They'll never tell you, because the reason is to find the IOR you need the master bill of lading and all these fake border they will not give you the mastermind. They'll give you the in house one. The in house one is something the faith folder will create internally. Got it but. But listen, who? Who cares? Who that ior is? It's not you. And the reason is they cannot have, I mean, they cannot force you to be there, because if you want to be the IOR, they need your information, they need your power of attorney. They need your EIN number. It's not like something, oh, I'm gonna pick you. I'm gonna put you on the spot. I mean, they can't because there's so many documents. I mean, you have to stand power of attorney because they're gonna clear under your name, you know, yeah.
+
+Speaker  755872:00
+So saying they don't care under my name is that? Right? Nope, it's going to be somebody in their network was the Iowa,
+
+Speaker  757717:20
+okay, yeah, yeah. And they have, they have so many iors, it depends on the risk too, as well. I mean, feel free to reach out to me offline. And then I can give some, like, DDPS, straight holders, some aggressive, some conservative. Like, when I say aggressive, like, they go crazy, like, super low. Some are conservative, like you have all these options, and then again, like, just see what I mean. They're all good. Just see what one thing maybe you want to do
+
+Speaker  764922:40
+isn't, isn't the DDP freight forwarder, somebody, the supplier picks somebody they're comfortable. So I get to choose,
+
+Speaker  766554:40
+no, no. In fact, I hate it when the supplier manages the DDP. I don't work with supplier that manage DDP shipping, because, end of the day, they find it for you. But the thing is, if they find it, they become close friends with them, and then they have more influence, like, like, if something, for example, say, if you didn't pay your supplier on time, then he said, By the way, do not release the shipment. Do not release it. Okay, got it. But if you have, if you have, like, a separate relationship, things become easier. You feel like your freight forwarder is more loyal to you. You get more updates.
+
+Speaker  776021:19
+Yeah, got it, yeah, that's useful. I'll, I'll message you one on one, yeah,
+
+Speaker  777221:20
+yeah. But like most of these suppliers who offers DDP shipments, they work with freight forwarders. It's not like they they have faith for us. Yeah. I personally prefer to find my own. And my supplier does not say. Some suppliers, they make it a big deal. But honestly, if you, if you sort of try to force it on them and talk to them, they might, they might accept it. Yeah, are you still shipping from India or now
+
+Speaker  784010:40
+China? No, I don't have anything
+
+Speaker  784400:00
+from India. It's already in China. Yeah, as I was, it was never India. Even you all, even I have
+
+Speaker  785887:59
+a team. I have a team in India. But the shipping,
+
+Speaker  786448:00
+yeah, because I was like, India, forget about it. There's no even. DDP, like, it gets too complicated, yeah, just feel free to message me offline, and then I can share some freight forwarders. Yeah, I'll do that. Thanks, Mom. Yeah, so I saw something by June, yeah, so that's why I thought, Ryan, in case you're here, or if you left, you can listen to the recording. June was saying, if you have a state tax exemption certificate to validate your B to B purchaser, then there's no sales taxes. Yeah, that makes sense. Yeah, I wish we have this option in Canada, yeah. Cruz, no worries, yeah, we are you here?
+
+Speaker  795946:40
+Cruise, Hi, yes, I'm here.
+
+Speaker  796842:40
+Sorry, no worries, no worries. I think they they rescheduled the call to this week, so that has created some confusion with some members. Yeah. I mean, we got, like, about 10 minutes. Anything new? Are you seeing anything interesting? Aw, yes, perfect.
+
+Speaker  800959:59
+I also use a sometimes DDB from our Canada achievements, but it's not something very common for us, because we have, like, the same quote from doing DTP or not in the most cases, but sometimes we do it, and it's going very good
+
+Speaker  806213:20
+also. So, yeah,
+
+Speaker  806901:20
+interesting to know. To
+
+Speaker  807237:20
+know, yeah, how are you seeing? Inbound to a WD? Are you seeing? Are you having any issues with appointments?
+
+Speaker  809445:20
+Yes, this month, yes. When we try to grade to the west. It was very difficult. So we grade 2000 draw. And it was, we can do it, very good. And the emotion from the previous months arrives. Very good.
+
+Speaker  814298:39
+This month also. And where do you guys send it? You said to the East Coast, or
+
+Speaker  815450:40
+where we always send to West is and we uh, is, and we, we, we are not having any trouble now, but from creating now in September, new shipments, yes, yeah.
+
+Speaker  819056:00
+So all, like all these ones that you sent to the West Coast, how did you figure, how did you manage to sort of solve the apartment issues, or there was no appointment issues at that time.
+
+Speaker  821701:20
+No, we don't have any issue, no. But when we create a shipment, maybe we put a West but the Automatically they started to create to south or different locations, yes, but from the ones that they appreciate our West section, yes, we don't have any trouble. The appointments are very good, but it's not, I don't know. Maybe from now we are having problems, because when we create we started you having a like a alerts that we can't ship to the west, book to the west. Yes, because of the storage levels, are
+
+Speaker  836032:00
+you using a ship from address USA? Yes, don't use that.
+
+Speaker  838213:20
+How like try to use, try to use ship from address, from China or somewhere else, yeah, okay, perfect. I mean, this is like a top hack secret, yeah, so, but,
+
+Speaker  841781:19
+yeah, perfect. Thank you very much. Yes, yeah, so, try that.
+
+Speaker  842501:20
+Try that should maybe work. Yeah. I think the reason is they see us. Shipments are in the USA. Need to be checked in in a week, or we don't have a space. But if it's something outside the USA, or is going to take a month, okay, space will open up. Basically, yeah,
+
+Speaker  846506:40
+okay, yes, we are trying to ship a now, a lot of quantity, because of all the the messages that they send about the the Prime Day, no, the cyber day, I think that is in November that we have, yeah, yeah. And this month we create an Ibo with a lot of quantity. And maybe for that reason, we have, like the alert from China. And in this case, I put from China to us, to AWD. And from that reason, I think that they starting to create the alert of the storage limitation in the West.
+
+Speaker  857205:20
+Yeah, yeah. They also have, now a new one, a usw, but it's only pallets only as well.
+
+Speaker  858922:40
+Yes, and I am going to try it because we have, like, one supplier from China that we have a lot of quantity from two SKUs only. So maybe we can try it for that supplier. And I don't know, maybe I
+
+Speaker  863930:39
+asked flow loaded is fine. If you send full container, flow loaded, it's fine. Or if you send LCL, it has to be palletized. So both options are fine, less than 10 SKUs and more than 50 cases. Yeah, that's what they want. Yeah? Awesome. Yeah, cool, cool. Yeah, perfect. Yeah, good, good stuff. Yeah, thanks for joining. Thanks. I don't know anyone else. We got a few minutes. Anyone else?
+
+Speaker  870517:20
+I have a few questions. Yeah, about a WD from seller perspective, how does it like
+
+Speaker  872805:20
+perform like?
+
+Speaker  873797:19
+Does it always keep you fully in stock in FBA side? And that's my question, basically, that's,
+
+Speaker  875482:40
+yeah, so again, like, people say bad things about it, but honestly, I've been, I'm a pro user. I've been two years. Yes, I'm not saying it's, it's, it's amazing. I mean, we had issues, but again, we have also our own email with AWD self support. I mean, that's something. Think I we that's something me and others, and yes, members sort of had some connections with AWD team, so they sort of solve most our issues. Now, when it comes to from AWD to MBA again, like, I am not a big fan of auto. I don't use the auto like, like, I just don't like it. I do manual, but
+
+Speaker  885957:20
+search free discounts and everything you tried auto, did it leave you out of stock in FBA, for example,
+
+Speaker  887733:20
+there are cases, yes, there are not me. There are cases that I talk to. They it leave them like, like, like, like, see, like, it's getting better and better. But still, the auto algorithm, it's not perfect. Like, if you have variations, if you sometimes it doesn't act sometimes. You know you're going to run the best deal and you know you're going to sell a lot, but it's it does not react quickly. So my advice is, do auto, but you can't sleep on it. You have to do you have to check every week or every few days. And then if you need, you supplement with manual. I'll give you example why auto sucked. I know a big, big sir that does like, 20 million per year. His Asian gas suspended. The asin does at least 10, 15 million per year. You know what auto did? It sent an auto shipment to a suspended listing. Can you imagine that's terrible, like, like, and I took him one month to sort it out. But then now he's he has so much stock, and he has a stock coming from his us supplier as well he could not block, and he has something from a WD. So I don't know there are cases you gotta be careful with. But again, like, like, for me, the discount is not crazy. Like, it's okay, it's a nice discount. But again, it makes more sense, like I don't store a lot. Like I'm not sending an eight month of stock at AWD, because AWD does not have the best storage rates. For me, anything AWD two month two and a half maximum, I mean, and then I keep re replenishing. So for me, the savings comes from transportation. But what I mean, they bring down the transportation from 115 to 105, which is nothing. What 10 cents per cubic feet? I don't know. It's not big, big, big money, to be honest, maybe if I'm $100 million yes. So for me, it buys me and my team the peace of mind. Yeah. Now sending from FBA to from AWD to FBA in a manual way, or auto I mean, I'll tell you more about the manual. I mean, it's the same thing in your mind. You want to give it up up to one month. I mean, just just, I mean, as long you send on time it gets delivered. It gets checked in, to be honest, if something gets delayed, I email aw set of support, and they tell me where the truck is, and they can track it, and they can tell me when the appointment is, but if you do your own partner, carrier, forget about it. Maybe they don't even come show up Pick up your shipment from USA. You don't even know what happened to that trucking. For me, I think I didn't like how they take very long time, but as long I'm planning a month, it gets always the leverage. I never had any shipment not being picked up. I never had shipments not delivered. I even had one late. I asked them. They even sent an email to their partner, carrier, the trucking the trailer, and they find out where the trailer is, what's happening, is it being repaired? So you get all those updates. And I had also something I heard from someone. He's going to confirm it next week. They said for this, q4 a, W, D, shipment is going to get a priority for q4 for FBA, I'm waiting for the final decision next week. I think that's what he said. But that's, he has a contact as well. He's also an MDS member. So that's, that's something cool. So for me, I think for q4 like, for example, for Prime Day, big day, if you didn't send your shipment from now from a WD, there's a big chance that you might not make it again. Like, like, the way how it works, when you send a shipment, auto or manual, they split them up to five shipments, assuming they come from the same AWD warehouse. But if your inventory comes from three AWD warehouses, it might be 15, because 555, okay, when they split them to five, one or two would go west coast. Two will maybe one will go center. Two will go east. East Coast, the West Coast. One will get delivered in two days, by maximum three days. I've never seen them taking a month. And then the Midwest one, then the East Coast. So, so sometimes for me, if I need things faster, I'll create multiple shipments, because I know every time I create it, some quantities will go to the West Coast, and they get delivered, checked in, right like quickly. And the other thing I like about it, aw to RBA, anything gets lost inbound, they can't say no, because they know it's coming from AWD. If AWD said 1000 unit, then it's 1000 unit. But sometimes, when I send, I send from China to RBA, they come up with Bs answers like, Oh no, it's not our problem. Check with your supplier, stick with your trucking company, as long AWD, send it as 1000 unit, and you have. That on the IBA shipping plan, they have no choice. They will respect that. Yeah, again, it's very slow, but it does work like, it does work like, like, I don't know. I've always been a big believer in having a staging warehouse, and now, because of the placement fees, you got no option. But again, some people's finding sending to five FDA centers from China is also cheaper than a WD again. Like, it depends. Like, I have a brand that has so many seasonality like, even on the same month, like, I can't control, sometimes sells up, sometimes sales down. So for me, direct FBA, I do it, but I don't do a lot, because sometimes I end up with so much stock. Like, like, I like the idea of having a staging, you know, warehouse, yeah,
+
+Speaker  973562:40
+thank you. Like, we are more interested in the automation part of the thing, so, and you're saying that it doesn't work and it can leave you stock out and or other problems. I mean, I
+
+Speaker  975850:40
+mean, if you want, you can have it, you can have it, you can have it working, but just keep an eye on it. And then you have to supplement with, I think that's what cruise here does they I think they use auto but they also do manual replenishment as well, just to keep an eye, yeah, but if, but if something goes wrong, wrong with if they send an auto, you cannot stop it. I don't know if there's any way to stop it. Yeah, I know we're over the hour. Just quick one, and then we end the code. Uh, cruise. Any, any issues with auto recently?
+
+Speaker  983845:20
+We we don't use it anymore, auto as well. No, because we have a lot of issues with the auto, but I don't know now, we stopped it, I don't know, four months ago, so maybe now is better, but we it was very difficult for us to reconciliate our inventory with the auto so we prefer to create manual orders. And we are very good now, so it's not so much the discounts, yeah.
+
+Speaker  991578:40
+So sometimes I see that peace of mind is better than that cost saving as well. Yeah. But manual works fine. Never had any issues, yeah,
+
+Speaker  993359:59
+yeah. And it's not about the money for us. Mostly it's about, like, the how the API of the system works. It makes it easy to command the supply chain, you know, and the automation, so you don't have to open several shipments every now and then. But, yeah, if you're saying all these, then it doesn't make a whole lot of difference with our own three.
+
+Speaker  998741:20
+PL, yeah. Are you guys very heavy on APIs and stuff? I'm sorry, what do you guys have like, Are you very heavy on tools and API for shipment and stuff you have your own? Yeah, we'll
+
+Speaker  1001717:20
+develop our own tools. Yeah, about very much, pretty much everything, yeah, and yeah, the data flow is, like, really crucial for the systems to work. And compared to a three PL we thought that Amazon's a WD service. Would have better API and better stock management services, but do the auto thing, it causes problems, then we might just, like, stay out of it for now,
+
+Speaker  1008944:00
+or just better, yeah,
+
+Speaker  1009903:59
+yeah, yeah, the manual, yeah, maybe, but still,
+
+Speaker  1011887:59
+yeah, we'll see if it gets better. Yeah,
+
+Speaker  1012352:00
+hopefully it gets better and yeah, in like, a year or six months, then we will probably do it
+
+Speaker  1013717:20
+nice, yeah, I just, I just want to ask one last question, which I've, I've asked before, but I don't think I'm going to get any better answer, but I'll ask it. Does anybody know of a good way for the and this is just us kind of domestic, which is the, you know, the Send to FBA, basically, only just gives you two options. One option is you can do a File Upload, like from an Excel sheet, but that only gets you halfway in, that loads your products. And then you have to choose how you do your splits, and then you gotta, you know, all these other things go on. I'm just wondering if there's anybody who's seen a system that does that more automatically looks for things like splits, you know, automatically put your dimensions in. Just, you would think that there would be something like that out there, because, because the file upload again, only, only does half, half the job. So I don't know if
+
+Speaker  1027824:00
+anybody, I mean, I might know a tool. It's called Nine Yards. Give them a try. I mean, they're, they're really good with this thing. I don't know them. Maybe you know, because it seems you're good with automation and stuff. I don't know,
+
+Speaker  1031461:20
+actually, like we're trying to develop that kind of stuff. So I think, yeah,
+
+Speaker  1033029:20
+someone's going to do it, yeah? Because it's
+
+Speaker  1033669:20
+definitely, I think, yeah, too many shipments, too many SKUs, and you're just talking about us right now. But that problem is also for, I don't know, yeah, for other marketplaces too. So someone has to automate it, you know, hopefully we find someone, or we become the one. You know,
+
+Speaker  1038714:39
+Have you have you guys? Have you guys, like, figured it out completely, or still, uh.
+
+Speaker  1040000:00
+Yeah, it's a work in progress, I would say somewhere. It's a thought, you know, but yeah,
+
+Speaker  1041344:00
+there's, there's going to be some kind of announcement from Vico, their Amazon company at accelerate, so maybe they're going to come up with a solution first.
+
+Speaker  1043615:59
+No one likes Vico, yeah, but, but the guy, the guy from nine yard, is interesting. Nine Yards. Yeah, he's really good. He knows his stuff. He he keeps improving his stuff. I even, even, like, develop an algorithm to sort of pick the best I've seen for place, like, for stuff like that. Like, not, by the way, it's all white hat. He doesn't do any more gray high. Back in the day, we had system to manipulate stuff, but now he doesn't do because, anyway, Amazon closed the loophole anyway. But yeah, check out their tool. I hear
+
+Speaker  1052522:40
+things about it. Is that spelled nine yards, like all letters, or is that Yeah?
+
+Speaker  1053722:40
+Yeah? One second, nine Yeah. Let me check Yeah. Yes. I just want to check the website. Yeah. So the website, the website is, sorry, there's no so it's nine yard.com Yeah, nine yards. I come okay. I can post it here before we end the call, and then you can check it out. You can have even a demo call with Don I think he lives in New York. Yeah, good guy, yeah, he knows his stuff, yeah,
+
+Speaker  1062085:20
+submit inquiry reserved for strategic use. Yeah, that's okay. I can't be it. That's scary. It says not secure.
+
+Speaker  1064565:19
+Did you get the link before I close the like, before we end the call? Let me check.
+
+Speaker  1066069:20
+Yeah. Okay, yeah, nine yards,
+
+Speaker  1068026:39
+okay, I see it all right. Thanks. Mo, perfect, perfect. That wraps up our call. Yeah, see you guys next month, on Thursday, second week, yeah. Thank you everyone for joining. Have a good one. Everyone, bye bye, yeah, bye bye. If I.

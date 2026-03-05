@@ -1,0 +1,56 @@
+8. Michael Corrigan
+Date: June 06, 2025
+
+Speaker  1488:00
+One of the things that they talk about in the book is like determining your irk so what you can eliminate, what you can reduce, what you can raise, what factors can reduce, can be reduced well below industry standards. And then what can you create for us? It was about, like, again, redefining the problem. So, like, travel pillows were all about supposed support comfort and pack ability. I'll go into how we've how we visualize that and the design team. But like, one of the big things was, like, because our product looks like a scarf, it presents a completely new form factor to the market. So completely redefined, redefined the problem, or redefined the answer to the problem. Sorry. And I know for a fact, like looking at things like cost per click and stuff like that, it really went like, in Google Shopping and stuff. It just drove the click and drove the intrigue. Yeah, and it's definitely one of the main reasons for why our product and brand has been successful, really simply in terms of how we visualize this within the team as a radar diagram. So the main things that people were focusing on were, you know, support, comfort and portability. We did this about seven or eight years ago, and so it was about like the main competitors were memory foam travel pillar, which are obviously the memory foam ones were, you know, somewhat supportive, therefore somewhat comfortable, but then not very easy to carry. The inflatable ones were obviously super easy to carry, but then give any support or any comfort like that. So we wanted to try and win on all these things and but then it was about how we had something different to it. And one of the things I thought about was, well, what else do people wear around their necks? I thought, well, scarves that could be quite interesting. It could be like a bit of a fashion thing there, and, you know, so that's how we, then, kind of started to look at it from a design perspective, within the within the design team that to know that you're winning on, or you're winning enough on the things that the markets actually measured on, but you're presenting something that's different to the market as well, and then kind of building on that. I'm sure everyone's using all these things, but as you get feedback in your product and as new products enter the market, you're looking at product reviews to reveal additional attributes that customers value. And so if I go back, sorry, what? What is essentially four attributes there, then becomes eight. And then you start to think about you can then start thinking about market positioning and stuff like that, and how you double down on what's working and stop doing what. Stop doing what's not working. This is one of the problems that we use. Um, I won't go that into too much detail, but, yeah, pulling in, pulling in customer reviews, and then using that to with, obviously, chat, GPT and stuff like that, and understand what people are really looking for and what they're thinking about things, how AI sports. So one of the things is really interesting, is like, I think in the last probably nine months ago, AI has always been really interesting, but in the last nine months or so, I've always, I've personally found it really useful in lots of ways, like actually, and probably I'd be interested to see what you guys think about this. But I was using either chatgpt Claude or groch, and probably for the fourth last four or five months, like grok was actually something. That was the one I really lied on. He's my husband's
+
+Speaker  63210:39
+best friend. But then even, I would say, even just like in the last five or six weeks, like chat GBT just seems to have went went to completely different level. And what we're finding is it's really useful in terms of, like identifying where the opportunities are, looking at competition, pulling data and just and these are things that you obviously need to go and verify through different tools and different sources, but we're finding it really, really, incredibly useful now. So some of the, I guess, the takeaways applying it out to your product grid, using available customer data. So, like, you know, the with the way that we use AI is creating, like custom GPT. So we'll have essentially Google Google Docs, or a series of Google Docs that will update once you have new information. Create them, create PDFs, put them into the AI when we're prompting it, we feel it gives us better answers. Some of the tools used, sparktoro, buc, AI is an amazing one, and. Both gummy search and Giga brain are quite cool for understanding like trends within Reddit and identified.
+
+Speaker  84432:00
+Yeah, definitely what voc.ai is actually awesome in terms of analyzing sentiment of reviews and stuff like that. Sparktoro is really, really cool as well.
+
+Speaker  87205:20
+What's err secret as like, the the eliminate,
+
+Speaker  88405:20
+like what you showed earlier, eliminating I got, and
+
+Speaker  90389:20
+then we've also, like, commission, customer research as well that we're we're putting up into the into chat, GPT and like, and then one of the things that we've worked on over the last few months is like, kind of like a 10 page Google Doc with working with our design team that basically identifies opportunities, helps us stress test that a little bit with the models to understand, like, you know, what the competition's like, where the gaps might be, what's the staying power of these opportunities as a trend, or is it something that's much bigger than that? And then how do we do, like, a minimum viable test as well and stuff. So that's like a 10 page Google Doc that is in there, and that's the value add. The link is there, and the QR code is there, yeah, yeah. I mean, I guess
+
+Speaker  106325:20
+I have a guy who sort of in charge of product development and finding opportunities at this point. I want to get them trained to get better and better at that. But trying to think of take things on a gradient scale,
+
+Speaker  110106:40
+you know, what AI he could do. I mean, what do you look at? Like reviews and, yeah,
+
+Speaker  111610:40
+everything. I think, like the watching, it just is, you is, you know, things like Spark Toro, I think gummy search is really interesting because it allows you to look at trends like the growth of specific subreddits and stuff like that, to understand where the opportunities might be and trying to hit them at the right time. And, yeah, just like, you know, simple things like using branded analytics to have pulled demographics and stuff like that. And I think it's just about getting people comfortable with using the AI to then surface and validate opportunities and stuff like that. So we where that document's been really interesting. Me, My coo worked on it as our product design guys were not really comfortable in using AI, but then this just gives them a framework to run through things and stress test things and stuff like that before they bring opportunities to us. Thank
+
+Speaker  127930:40
+you. So does it connect it like, automatically to your like, chatgpt connect to your central
+
+Speaker  130368:00
+No, I do it manually. I guess, like, there's, you can get a lot more like techy with it. Oh yes, like, because I think if you have a chatgpt Pro, there's APIs and you can direct active password database and stuff like that, but we are really just using like Google Docs, web flight, customer avatars, PDS, and then uploading that into chat, GPT and creating Custom gpts, then prompt, shoelace.
+
+Speaker  138245:19
+Yeah. What is shoelace? Shoelace?
+
+Speaker  140554:40
+H, U, L, E, S,
+
+Speaker  142650:40
+yeah,
+
+Speaker  144560:00
+we need a whiteboard to write this. Yeah, yeah,
+
+Speaker  146560:00
+spell it one more time. S,
+
+Speaker  147679:59
+H, U L, E, S, S, H, U L, E, S,
+
+Speaker  150693:20
+any other questions for Michael? That was great applause.

@@ -1,0 +1,152 @@
+Expert Call with Parker
+Date: January 10, 2025
+
+Speaker  528:00
+Let's welcome everyone. Welcome Nick. We have Nick today from Parker, and he's going to talk about scaling, right, yeah,
+
+Speaker  3440:00
+yeah, scaling cash flow. Basically, I'll share, I'll share a little bit of my E commerce journey and how I ended up at Parker. And, you know, feel free to jump in with anything. I'll share some of the comments, some of the problem or common problems I face as a founder, and just share some of the lessons I learned with you guys. Talk about Parker. We've also got Zach here, who leads our sales. So for any of the difficult questions, I'll pass this over to him, but, yeah, I'll talk through my what I've got here, just my former life is life as an E comm founder, a lot of the challenges I faced running an E commerce business, and then, you know, the bit of the Parker solution and how we solve for a lot of stuff I faced as a founder. And wish I had access to in my previous life and jump in with any questions. Hope this is interactive, helpful, helpful for you. Let's see. So my former life as an E comm founder, as I mentioned, I just got back from Singapore, but I was actually living there for a few years, and in 2015 moved over there. I was a former consultant, and started a retail and E commerce grocery business called Little farms. It's now got six stores and two cafes doing quite well, and with no background in E commerce, I was tasked with running the the E commerce business. And I don't know what your businesses are, but I hope none of them are in fresh food e commerce, grocery delivery, it's, it's really, really hard, and that's where I cut my teeth, in the the world of E comm. And my day, you know, probably not best practices here, but really what my day looked like as a founder and running the E comm business was, you know, top six things with just a lot of reactive stuff, dealing with customers, working on inventory, making sure the actual pick and pack operation worked, preparing for the next day, learning how to scale. That was sort of like lower priority, and just keep my team happy. And then, you know, the last priority was sort of everything finance related. And the way I sort of looked at it was like finance was kind of a monthly afterthought. You know, at the end of the month would just sort of close the books, put some rough forecasts together, and, you know, hope for a better month than the current month I'd have. And, you know, obviously not best practice, but just in my my work, you know, I think a lot of a lot of founders, you know, unless you've got a finance background, finance can tend to be an afterthought. And I think that's, that's sort of backwards priorities. And so, you know, we're all, we're all running businesses to make money at the end of the day. And so finance can't be an afterthought. And I think for a lot of founders, finance sort of does fall to not, you know, fall to the wayside. Sometimes understanding finance is actually really hard, especially if you've got multiple sales channels, multiple payment terms, and just figuring out your cash flow is actually kind of difficult, and managing not just cash flow, but like working capital, cash conversion cycle, all of those are super, super critical for your business succeeding, and it's not the easiest thing to do. I mean, as an early stage founder, these are things that I had difficulty with later. You know, I worked at an early stage VC, helping a lot of early stage consumer brands who were crushing it, and whether they were doing well or struggling. You know, the cash flow, working capital and cash conversion cycle problems are sort of universal. If you're doing really, really well and all your money's tied up in inventory. Up in inventory. Same problem is, if you're growing slowly and all your cash is tied up in inventory. So let, we'll talk through a little bit of that. But you know where I struggled, and I think, you know, I've seen many others struggle, is, you know, with with e com, you're pre paying for your inventory, depending on what sort of goods you're working with it takes, you know, one to several months to arrive. Then your goods are sitting in your inventory, and then depending on your sales channel, you know, I was working direct to consumer so, you know, having to spend on meta ads to actually move the inventory. And then you don't even have the cash in your bank from those orders by the time your credit card bill is due and other payments are due. And so you're just managing this cash conversion cycle that's just really, really difficult to get right. And so unless you've got a big cash balance, you can just sort of, you know, afford to just, you know, have lumpy payments here and there. It's really, really hard to do. And you know, one, as I mentioned, the cash conversion cycle is just a fancy way of just saying how quickly you can can turn inventory into cash. And so the longer your cash conversion cycle, the longer your cash is tied up in inventory. And that just can be deadly for your business. Whether you're growing slowly, growing quickly, I've seen e comm startups have to go fundraise to find. Inventory, especially once you move from direct to consumer into wholesale, where you're working with large volume orders, and you know, the retailers don't want to pay you or wholesale or distributor. You know, whoever you're working with, they don't want to pay you 30 to 90 days after they receive the goods. It's just, you know, I want to explain, you know, the challenges that you guys are probably facing to you, but hopefully none of this is too, too new for you. And then operating cash flow is just the cash receipt from customers, cash paid to suppliers and employees, interest and taxes, basically are operating cash. And it's, you know, you want more cash coming in than cash going out, and sometimes, depending on the financial stack that you're working with, easier said than done, and then working capital is just your daily financial fuel to power your business. And you know, working capital helps your business run smoothly and manage unexpected expenses, pretty standard stuff here. And so this is, you know, this is a wrong way of saying how I ended up at Parker. But basically when I met the founders of Parker last year and they explained to me everything that they were working on, I was like, wow, this is all the stuff that I wish I had access to as a founder, just back in my E comm experience, it was just so many of the tools that and I was doing e com consulting, so I was helping early stage consumer and E commerce brands, sort of like fractional finance work, as well as some marketing stuff. Bill, you know, building spreadsheets and charging hundreds of dollars an hour to build a model for them, or, you know, P and L, when Parker does it all in an automated fashion. And as soon as I saw that, I was like, well, Parker might put my my consulting work out of business. So I might as well join them. And so I'll give you some of the, you know, some of the products that we have and how they help. And as I mentioned, feel free to jump in with any questions. And so basically, we're, you know, financial stack for E commerce, businesses. And what that means is, we've got credit cards, banking analytics and bill pay all built from the ground up for E comm businesses, and so you've got a Parker MasterCard, which I'll talk about a little bit more in a sec, but a very flexible payment terms. Whether you're more focused on rewards and points or want longer payment cycles, you have a flexible limit to use that really helps smooth out a lot of the cash flow problems and a lot of the cash conversion cycle and all that stuff that I was talking about, our credit card and Bill Pay functionality really help solve for that on the banking side. So actually, just closed our series B last year, and as part of that, have doubled down into our banking analytics platform. So we're not just we originally went to market with credit market with credit, but now we've got a really strong banking platform that has analytics tied into it as well. And I'll share a little bit more about the banking. But because we have access to all of your financial data with the bank and all of your connections, we've built a really, really comprehensive analytics layer on top of that, and it's sort of all the all the financial metrics and some of the marketing metrics that I wish I had access to as a founder, and, you know, sharing my little farms journey with you, all the stuff that took me hours to do in a spreadsheet that Parker does in an automated fashion. And if you're making with us, it's, I think it's free right now. There might be a small SaaS subscription, but it's definitely a bargain. And then, as I mentioned, bill pay. So when you work with Parker and we underwrite you, you have a credit limit that can either used. It can be used to both your credit card as well as bill pay. And so for the merchants that don't take credit card, you want to pay for inventory. You know, don't pay cash for inventory, get terms on it, and then you can get terms on the bill pay in the inventory side, and then use a credit card for all your ad spend and get terms on that, and then you're working with a much better cash conversion cycle, better cash flow, better working capital. And what we've seen with a lot of brands that use Parker to scale can scale much more effectively without having to raise outside financing, because you're just working your financial cogs are turning much more efficiently. And our hope is, you know, we can help e comm founders, you know, scale from, you know, low millions to nine digits, just by the benefit of using Parker. And we've got, you know, several brands that have done that, or more than several that have done that. And so I'll talk a little bit more about in detail and some of our products here. But as I mentioned, feel free to jump in with with any questions.
+
+Speaker  151301:20
+As I mentioned, the MasterCard bill pay. So when you come to us, we take a full look at your business to give you the best possible credit limit. And so nine times out of 10 will beat Brexit ramp or some of the other incumbents out there. We're not just doing cash based underwriting. We take a full, like a holistic view of your business, you know, revenue, debt, run rate, growth margins. We take a look at everything to try to give you the most favorable limit possible. And so one you're not just getting a better. Limit, you're also getting flexible terms. And so, as I mentioned, you can use your credit limit either on the credit card or bill pay and on the credit card. The huge innovation that we've had here is rolling terms that no other provider, I think, in the market offers. And you know, I don't have to explain credit cards to you, but just bear with me for a sec. But you know, business credit cards work the same way as a corporate credit card, right? You have a monthly statement and you have fixed time period to pay it back. Could be one day, could be 14 days, but it's a fixed time period. And as I mentioned, you know, half the time your credit card bill is due sometimes from your payment processors, you're not going to have any of the cash from your orders in your bank when you have to go pay that credit card bill. And so you have these really lumpy payments, and your payment cycle isn't tied up to your sales cycle or cash conversion cycle. And so managing that with a with a, you know, standard credit card is actually really, really really difficult for scaling a business. And so what Parker has done is, instead of a monthly statement with a fixed time period to pay it back, we've introduced something called Rolling terms, and so you can get up to 45 days interest free to pay back your credit card. And what happens is, every day functions as its own separate credit statement. So you swipe today. All charges that happen today are due in 45 days. You swipe tomorrow. All charges do for you that you swipe on tomorrow or do 45 days from tomorrow. And so it's basically a revolving line of credit. And so you get up to 45 days completely interest free to pay back your credit card. And so it essentially works is a revolving, you know, revolving line of credit at 0% interest, and it's huge for it's a huge help for E commerce businesses where you're working with inventory, ad spend, other high repeat categories, and it really helps smooth out your cash flow. We've got really founder friendly and transparent rates. You know, for the credit card, it's, it's 45 days interest free. We go up to 90 days, which is a, you know, low, low percent fee for that one. And as I mentioned, if you're less focused on longer credit duration or rolling terms, you can also use your credit limit for cash back for points. So once you get an offer credit limit or offer with Parker, you can choose, you can set up one card with, like, 45 day rolling terms and another card on cash back, and you can choose how you want to use it. And, you know, we're sort of the anti merchant, cash advance play, I think, you know, I've seen a lot of friends and other founders, you know, be in a pinch, and then take an MCA to fund some inventory, and then all of a sudden, you're paying 10 to 20% and it just, it's, it's a short term fix, but it really doesn't help you over the long term. You know, we really try to be in it with the long term, with the brands that we work with, as I mentioned, flexibility, choose what you want, and I think the only credit card in the world that offers those rolling terms, any questions on the the credit card or bill pay?
+
+Speaker  210800:00
+Yeah, I have one, and I'm a Parker user, and I'm in my account right now. So I guess I didn't even realize so the is the bill pay completely separate than using one of the cards.
+
+Speaker  213941:20
+Yeah, and Zach, you can step in if I'm misspeaking, because he deals with this more. But Bill Pay, it's in the Parker system, and you can use, it's the same credit limit, but it's a separate, I think it's a separate tab in the product itself, where you could use it for, you know, for all the bill pay functionality, Yep,
+
+Speaker  218405:20
+exactly. So you have one overarching limit that you can use through two different avenues, the first being the card, the second being bill pay for those vendors that don't accept credit card. And that'll also allow you to stack terms. So if you have, let's say, net 30 with a supplier, you could go to the bill pay tab in your Parker account pay for that invoice on, let's say, the net 60 bill pay, and then you're stacking those terms and effectively getting net 90 on that same invoice. So a lot of folks are using that to help with cash conversion cycles on on inventory.
+
+Speaker  228128:00
+Yeah, that's what I've been doing. So is the maximum term for the bill pay the 60
+
+Speaker  229279:59
+days it is today. We have some conversations exploring going more towards 90 and 120 days, but as it stands today, 60 would be the max.
+
+Speaker  232581:19
+Okay, I've been using that and it's been it is helpful. Definitely love to hear it cool.
+
+Speaker  235562:40
+Rolling terms, yeah, pretty much gave you the overview. This is just a visual, but it just really, really helps smooth out your cash flow. And as I've seen, I've seen businesses that are crushing it, like, you know, triple digit growth figures and just all their all their money. I've seen, I can't name them, but. I've seen a very successful CPG startup that's doing incredibly well run out of money because they were growing so quickly, because all of their cash was tied up in inventory. And so it's just it's really tricky to get right in rolling terms, especially on a credit card, and then using the example that Zach said to get payment terms on your inventory. Just combining that is a really, really great way to have your dollars go a lot further. And we'll wait
+
+Speaker  247717:20
+Nick just to just to stick on that for a second, to double down. I so I know Nick mentioned that rolling terms can start to function like a zero interest revolver. And I just wanted to explain how, how that can actually, how we can actually facilitate that. So since every day functions as a daily statement, and each daily statement gets your full term, let's use the net 45 for example. That means 45 days later, you're only paying. Your payment is equal to one day's worth of transactions, right? The transactions 45 days prior. So if you're using us for recurring spend, which I would say is best practice, most of our clients are using us for their paid advertising spend, if you're using us for that spend, you get to the point, let's call it the 46th day where you are making a small payment, replacing it with new charges, but then rolling over all the rest of your balance to the next day. So you are essentially, over time, maintaining a balance with Parker in perpetuity, only making those small payments and then replacing them with new charges, which, over time, will start to function like a zero interest revolver, because you're maintaining that balance and getting that delta in cash back into the business. Which Nick I believe you're going to show on the next slide. Yeah.
+
+Speaker  269978:39
+Perfect segue. Zach,
+
+Speaker  271306:40
+yeah. I mean, Zach mentioned, yeah, as you're using us is essentially a zero interest revolver, you'll see a huge impact to your cash balance. And this is actually, I believe, a screenshot from one of our I can't share who it is, but one of our actual customers. And this shows you the cash balance pre Parker, and then with Parker and I you know, 50 over 50% increase to your cash balance just by using the rolling 45 day card. And this is a real example. And so, you know, sometimes when people come to us,
+
+Speaker  281141:20
+I'm seeing a question in the chat. I'll take a
+
+Speaker  282005:20
+look at that site. But sometimes people come to us and they say, Oh, well, I love Amex because I furnished my house with Amex points. Or I love to fly business class, first class, you know, with Amex points, or whatever you might be using. And what we've seen is, you know, you the increase to your cash balance. Use your cash to pay for those flights, like you have such a bigger cash balance to play with that, like points are sort of not really competitive with the increase to the cash that you're getting. That said, if you do want cash back or points, we offer that on shorter duration cards as well. So it's not, you know, it's not one or the other Parker. We actually give you the flexibility, which a lot of other credit providers can't, can't offer. And I'm seeing a question from Shyam, how does Parker make money on the zero interest revolver, and is there other flat fee? So Zach can talk about the fee structure. How we make money is based the same way all credit card companies make money is based on the interchange. So what happens? You know, Amex, any other credit provider, anytime you swipe a credit card, it's called interchange, and we, as well as other providers out there, take a small fee on that and for AmEx, for example, they take that fee and they give it back to you in points. And what we do is, instead of giving, let's say, for the 45 day rolling card, example, instead of giving you points on that, we give you extra time. And so that's, that's how we make, that's how we make our money.
+
+Speaker  306431:59
+Yeah, and just to, just to clarify, there, interchange is paid by the vendor accepting payment. So if you're using your credit card on your meta ads, meta is paying the interchange fee that credit cards and other pieces of the financial stack get a percentage of. So that fee is not being incurred by by you, the user of the card,
+
+Speaker  312789:20
+exactly.
+
+Speaker  313605:20
+And are there any other flat fees?
+
+Speaker  314597:20
+There's no if you're depending on the on the card that you're using, um, there could be a fee. So, as Nick mentioned, if you're using the rolling 45 day card, and in this example, I know this client is using us for Google and meta ads, although I believe Google's as I'm sure many of you are experiencing, trying to push folks to. Invoicing, they are only using the rolling 45 day card, so Parker is essentially coming at zero cost to this customer. If you were using us for Bill Pay and for terms longer than 45 days, there are small transaction fees that you could incur. For example, The Rolling 60 day card, which is a net 60 on every transaction. Typically, it has a 1.25% transaction fee. It's a flat transaction fee for those 60 days. So that equates to about seven and a half percent. APR, if you're looking annualized.
+
+Speaker  330885:20
+Great. Thanks, doc.
+
+Speaker  331770:40
+And then some of the banking.
+
+Speaker  332666:40
+Banking info here, basically no fees, you know, no maintenance, no maintenance fees, wire fees, international wire fees, I think our savings account is up to 3.6%
+
+Speaker  335898:39
+APY on savings,
+
+Speaker  336816:00
+and then I'll talk through some of the analytics that we offer on top of the banking platform as well. And basically this is all the analytics sort of that I wish I'd had access to as a founder, and a lot of stuff that we're talking that we were talking about, but like real time DNL, both cash, cash based and accrual. Product Level profitability that includes, like, refunds, discounts, your cogs. But, you know, I think marketing Kat is in there as well. So you can actually look at product level profitability across different products, AI, cash flow, breakdowns, Kat, LTV. I mean, that's there's a lot of tools out there now, but 10 years ago, that was something I was having to build in Excel spend a couple hours every week. And you know, that alone was a huge pain, and now we can do it in automated fashion. And one of the really interesting things that we offer that I feel like we don't talk about enough, is industry benchmarking. And so for a lot of the metrics that we're sharing with you, we'll provide benchmarks within your industry as well. So if you're like, oh shoot, my pack is up 20% this week. Is that a me problem, or is that industry wide because holidays or some other external event we offer industry benchmarking so you can actually, know, oh, actually, like, Kat, for everybody is up, you're still within, you know, a normal range. Or if you're not, it's like, oh, actually, there might be an issue with my meta tracking or some of the ads I'm running. And so the industry benchmarking is actually super, super helpful, because I think unless you're talking to a lot of part of this community, you might be but unless you're talking to other founders daily, it's sort of hard to know things that are happening outside, outside of your business.
+
+Speaker  366570:40
+Any questions on the analytics.
+
+Speaker  367994:40
+Cool, I would also just say very quickly that this is a good illustration of how we're assessing you for credit. You can think of our analytics feature as not only a client facing feature for you to use, but also a visualization of how we are assessing your business for credit, pulling on all these different facets of the business. Just wanted to add that quickly as well.
+
+Speaker  374325:20
+Thanks. Yep,
+
+Speaker  375269:20
+cool. And, you know, so I think, you know, if I looked back at my little farms experience and had access to the tools that Parker offers, I think my daily priorities probably would have looked a little bit different. You know, the financial stuff made a lot easier. I think it would have been a lot easier to prioritize a lot of the issues that I was facing. And you know now we offer, you know, analytics comes with banking. You know you're, if you're using our credit cards, you know a lot of them are no fees. So no fees, really, to work with, to work with Parker and get access to a lot of the tools that we're providing. And you know, as I'm saying, you know, with Parker, you can make your cash flow, working capital and cash conversion cycle work for you, not against you. And I've seen a question come in here, any advice in calculating the cash conversion cycle. I think there's a few tools out there. I was doing it all in Excel myself. And, you know, the cash it's I was taking, it depends on your business, whether you're doing, what sort of sales channels you have, you know, for direct to consumer, I was basically just looking, you know, when is money going out the door for inventory, and when are we getting payback on that inventory, and the the time it took to get payment for all that inventory. So if you're spending, you know, three months out on 1000 units, and then it takes you two more months to sell those 1000 It's then your sort of cash conversion cycles, you know, roughly five months. There's a lot ways to get a lot more granular with it, and depends on your sales channels and everything. But that's sort of a really easy napkin math way to approach it. Yep, exactly. Delta between cash out for inventory and cash in for inventory sold. That's, that's sort of the easiest way to do it. Cool, and you know, we've worked with, we've worked with a lot of great customers. I don't know if any of these, these brands are familiar to you, but Jolie Caraway chomps lot of great e commerce brands that we've got the pleasure to be working with, and we've got an offer $2,000 cash bonus after spending 200k in the first six months of opening your account. And with that, I'll open the floor Any questions, comments, happy to happy to answer anything that might be helpful for you.
+
+Speaker  416314:40
+For the offer. Does that mean spending 200,000 on the card, or would that include bill pay? That'll include bill pay as well. All right, can we get that if we're already a customer,
+
+Speaker  418960:00
+when did you start as a customer?
+
+Speaker  420176:00
+Like three years ago? Shoot me
+
+Speaker  420800:00
+an email. See what we can do. Okay.
+
+Speaker  421829:19
+I also want to ask who is? How do we find out who our account representative is? That's something that I've always wondered, who do I reach out to with a
+
+Speaker  424389:20
+question? So we do have a support channel, but we've done a lot of hiring in the last six months, as you might expect, as we raise the series B. So we do have individual account managers? I'll have whoever has been assigned to your account reach out directly rich and reintroduce themselves so that you have a direct line to them as
+
+Speaker  429290:40
+well. Cool. Thank you, Zach, of course, and
+
+Speaker  430314:40
+we can honor the bonus for your account for joining.
+
+Speaker  431146:40
+Awesome. Thank you. Appreciate it. I'll spread the word for you guys. Thanks Rich.
+
+Speaker  432816:00
+I see a question coming in, does Bill Pay support international wires of Chinese manufacturers?
+
+Speaker  435072:00
+Yes, we do have full international functionality for bill pay.
+
+Speaker  437600:00
+Cool. Anything else, anybody
+
+Speaker  438405:20
+and B will will mark down your name so that we'll look out for your application and make sure that you're,
+
+Speaker  440469:20
+you're qualified for the bonus as well.
+
+Speaker  442677:20
+Awesome. Yeah, and I'll put my I'll put my email in the chat too. Just if
+
+Speaker  443930:40
+you ever have any questions or
+
+Speaker  444762:39
+want help with the bonus or anything, just shoot me an email. Nick b at get parker.com it's put in the chat there for you. But
+
+Speaker  446938:40
+happy to happy to help.
+
+Speaker  448458:40
+Awesome. Thank you guys. It was really, really great. If anyone else has a question, feel free to ask that, and if not, then I'll go our separate ways.
+
+Speaker  452416:00
+Alrighty. Well, it's been a pleasure. Thanks everybody. Hope that was helpful. And yeah, feel free to get in touch. Love to get you, you know, get you on Parker and help with a lot of the challenges that I faced, and get you that that sign up bonus that we're offering.
+
+Speaker  456885:20
+Thank you, Nick and sag and everyone for joining. Thanks
+
+Speaker  457637:20
+guys. Appreciate it. Appreciate the service. Bye. You.

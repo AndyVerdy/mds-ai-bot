@@ -1,0 +1,455 @@
+MDS SEO Channel Call
+Date: May 07, 2025
+
+Speaker  00:00
+Start Recording, actually recording after you were saying, Alex,
+
+Speaker  1392:00
+do we have an agenda for this? This call, because usually it's a pretty open floor. Yeah,
+
+Speaker  2784:00
+yeah. We are aiming for open floor right now. And we can, like, think about our next calls, like, as they are going to be more regular, we can start thinking about if we want to do something special for them.
+
+Speaker  7989:20
+Okay, whatever you guys want. I don't mind. I'm open to ideas. Hey, everyone,
+
+Speaker  10213:20
+welcome.
+
+Speaker  10853:20
+We don't have a schedule, as you just heard, I don't have anything to present. I'd be more than happy to address any kind of questions you guys might have. It's an open discussion. Any issues you might be facing in terms of SEO, CRO and stuff like that. Happy to discuss, if I can help that's even better,
+
+Speaker  17728:00
+amazing. Thank you. So if anyone wants to start talking or raise their hands or show your faces so we don't feel like we're just garland Alex San trikon and I, that would be great, because with an open floor, it's like nicer to have people on screen. Oh, Alex said something in the chat. Alex Mills,
+
+Speaker  24389:20
+yeah, I see it right now. About the Title parameter changing again this morning. I don't think they changed it right now. They are. They want to go for the two titles on the listings, probably is going to be a short one and another longer one, which is going to mix everything up again. I'm curious to see how that is going to affect the overall indexation and ranking. I don't think we are going to see major changes last day. I don't think they are going to force it across the boards immediately. I think it's going to have a three months period, six months period until we adjust. I would highly recommend we jump on it from the beginning so we don't lose out. And I don't even know if it's going to be across the board or if it's just going to be in a few categories first rolled out and then in the rest of Amazon, because it's a pretty big change for them. But as you know, people were abusing the titles a lot lately, especially with all the keyword stuffing and everything, and since Amazon is moving into a much more personalized shopping experience, They are rewarding listings with shorter titles overall. So let's see how that changes. And that reminds me, oh, crap, Alex, I shouldn't that reminds me that I was supposed to answer you. Yeah, that's good. We need calls like this.
+
+Speaker  53424:00
+What are your best ways of sticking or having? So I have multiple products that have multiple variations, and I'm able to, I'm trying to get into multiple browse nodes on on the product, the one of the variations, or just both for the main listing in multiple browsers. What's your best way of doing that and sticking
+
+Speaker  61034:40
+Why do you want to go into multiple browsers?
+
+Speaker  61978:40
+I can't hear you.
+
+Speaker  62570:40
+I can. Can you guys hear me? Okay, yeah, it's on me. Okay, why do you enter? Why do you want to enter multiple Browse Notes?
+
+Speaker  66432:00
+The main reason for getting into multiple browser nodes is getting best seller badges.
+
+Speaker  68144:00
+Purpose, the old way. I up the overall relevancy and indexation right now relies a little bit more on the appropriate browse nodes. So you might get the best seller badge on one end, but you might lose the relevancy on the overall subcategory. So you need to be very careful with that,
+
+Speaker  74954:40
+even if one variation is not like in a separate browser,
+
+Speaker  76394:40
+if you have only one variation in one browse node and the others are in the correct one, that's what you're asking, yeah, you will have a disconnect, basically on a child level, and you will fall under that issue with the GL browse nodes and so on, which you are going to have a ton of issues afterwards in terms of ranking, indexing, relevancy and so on. So you will see in the last one year and a half a lot of people accusing the indexing issues or ranking issues, and most of them are related to something like this. And it was unintentional. You are trying to do this on purpose. It's, in my opinion, is going to hurt you, but you can test it. I mean, it's, it's risk versus reward on how much your sales are going to improve with the best seller badge versus the ranking that you're going to lose on all the other kids. Yeah, you have to test that. But I would, I recommend you don't. Would
+
+Speaker  94634:40
+it only hurt the Would it hurt all the ASINs or just that one child that has it
+
+Speaker  96320:00
+in all of them. So it's we're going to lose ranking on most of them. So we've seen cases where the parent is in home, two children are in lawn and garden, and the other children are under home. And yeah, because of that, the ranking started tanking.
+
+Speaker  102741:20
+That's a different case than my scenario. Is it's still like, say, automotive, and then it's in two different subcategories within automotive,
+
+Speaker  106005:20
+if you will, manage to get those other two subcategories in the automotive Yeah, but I'm pretty sure the system is going to rework you back to that subcategory for every single child, because under that parent you cannot have multiple subcategories. Yeah. I mean, the system is going to readjust automatically. If you can stop the system from doing that, you can try it, but still, I think we are going to have issue. Have
+
+Speaker  113440:00
+you found a way to start the system?
+
+Speaker  114991:59
+Nope, they are becoming smarter. Since they added the AI, they are becoming much, much smarter. I probably there are ways, I don't know. But again, if you want to test something like that, just move the full parent, the full children, and move it under that subcategory. That's it. Don't let a complete disconnect between them, because you know that everything needs to be perfectly aligned from the GL, the Browse node, the product, everything needs to be perfectly aligned in order for it to get the maximum amount of relevancy and indexation. Yeah. So I wouldn't touch it, but it's your tricks. I mean, that's those are the issues that I'm facing right now and that I'm resolving for for different people, exactly this type of issue, and you want to do it on purpose.
+
+Speaker  132976:00
+You're the reason.
+
+Speaker  133744:00
+Yes, 100% blame me. I'll take it. I'll take it. You know what? You gotta have some work. You know you gotta have some work to do. Alex, so Exactly, I'm just keeping you busy on jet
+
+Speaker  136901:20
+skis, non stop, yeah,
+
+Speaker  137861:20
+exactly,
+
+Speaker  138725:20
+taking your miles new weeks or more. That's
+
+Speaker  140490:40
+only question I got. I'd love here. If anyone else has any questions or things that they're doing for SEO, that's working really well.
+
+Speaker  143082:40
+Alex, I wanted to ask you if listing is already doing good. I mean, do you recommend doing semantic SEO on those listings?
+
+Speaker  146400:00
+Is it doing good? You're the best seller in the category, or it's just doing good?
+
+Speaker  148672:00
+It may not be. It may not have best seller badge, but it it's one of the best seller, it may be among three, top three.
+
+Speaker  150885:20
+Okay, you can,
+
+Speaker  152133:20
+normally if a listing does well, I would leave it alone. I would still test a few other conversion rate optimization things, just to see if you can improve the click rate, just to see if you can improve the conversion rate overall, and so on. But in terms of the SEO, I wouldn't do any kind of major changes unless you identify that. You start playing with Rufus a little bit, and you see that on different competitors, Rufus recommends those products only because they have, I don't know, two or three features that your product does not have in front of those customers, although that product has those features, and maybe I would rewrite that just for Rufus so you can get a Little bit more recommendations from it. But other than that, now I wouldn't do any kind of major changes, if that makes sense. If something works, just replicate it and do it five times more, 10 times more. I wouldn't try to change everything, just for the sake of if you are bored, sure good. I can go wrong. But other than that, no, I think I saw another question somewhere. How do you approach on page versus off page? Seo? I'm guessing you are thing New York talking about front end and back end?
+
+Speaker  177808:00
+Yes, that's correct. So can explain a little bit from
+
+Speaker  179440:00
+your perspective, that would be great, sure. Um, on the front end, we started writing the overall copy to be much more relevant for Cosmo and roofers. Right now, we are modifying the catalog for much shorter titles and with a ton more descriptive type of listings focusing more on the overall benefits and how they can change or influence the life of those customers. In the back end, it's still the standard keyword strategy where you are just trying to put everything that you have in all the remaining fields on the back end, you guys have a ton of attributes available. Most of most people do not use them. They I'm talking here about special features and stuff like that. Make sure you guys upload every single or complete every single attribute in the back end as possible. And if you're doing that, you can easily do that with chatgpt. But if you're going to do that with the AI, ask it to write it for Cosmo and for Rufus to be relevant for for Amazon AI, because you can easily scrape all the customer reviews. You can scrape the reviews from your competitors, you can scrape the questions from Rufus from other competitors, and place all of that into the AI, and then the AI is not going to come up with the perfect copy for each of that attribute, because once you start doing that, you will see you will basically teach Rufus how to recommend your products even more for that perfect customer avatar, and you will going to get a lot more clicks because of it. You're welcome. I just have another question, I know it's like a follow
+
+Speaker  218677:20
+up right next to it. What's your SEO strategy for launching a new website versus optimizing an existing one?
+
+Speaker  221194:40
+Well, it all depends on what you want to achieve. So usually, when I'm launching a new product, I usually focus on one or two major keyword routes, and then going after the the overall long tail keywords related to those. And I'm focusing all my marketing efforts, usually on that. It's an existing and then you just do it all over again, and you just re optimize based on everything that's coming. If it's an old listing, then you need to look a little bit on metrics and see exactly what's converting How is and just focus on the ones that actually need help and identifying missing pieces that the others have and you don't, and you can focus on those. So there are two different things that you can do. People have the logic you're only having 1315, maximum keywords that are actually relevant and they're actually driving sales. So you have a ton of options either way. You just need to make sure that your copy your titles are relevant for the algorithm and they are as descriptive as
+
+Speaker  247045:20
+possible. Last question, I have seen a lot of people like doing their listing and myself as well. But is there something that you might come across that people are making the same mistake over and over, like, what are the mistakes that you have came across and that, and how did you approach and achieve your goals?
+
+Speaker  253146:40
+Keyword stuff, I still see it extremely often. Instead of focusing on their main UGC, did I say correctly? No. Anyway, instead of focusing on what makes your product unique, what makes your products stand out, and adding that in the beginning of your title, people are still keyword stuffing like crazy in their titles and in their bullet points and everywhere else, we've seen very good glitter rate optimization just by highlighting something in the beginning of the title. So if it's a natural ingredient supplement, make sure you add that before your main keyword and so on. Instead of starting your title with vitamin d3, k2 blah, blah, blah, just put all natural ingredients if you have that, of course, vitamin d3, k2, and so on. It's going to make a big difference between you and it's going to create a gap between you and your competitors, because everybody has the same titles in that market and in most markets. So you need to find ways to stand up, and people are still not focusing enough on their main image or their image stack, or they haven't touched their listings or updated their listings or optimized anything in the back end for five years, And they keep complaining that they are using sales so those are the most frequent things that I see. People are usually afraid to touch their listings. They're afraid to optimize anything on them.
+
+Speaker  287130:40
+Thank you so much. Like there were very detail and, you know, amazing answers, and agree with you, of a lot of them, oftentimes don't want it to change our catalogs, and we're afraid, like, if you change something, it's going to break the whole thing. It's better to change as you go.
+
+Speaker  293008:00
+Yes, I would highly recommend you start changing your catalog. You can do it. You can do a test on one or two listings initially. Don't go all in from the beginning. But if you do it properly, you wouldn't you will not see any kind of sales drop or ranking. You will actually see improvements, some rewards. Words so relevant this thing is going to be for you the long run. So I highly recommend you jump on it and do it. I
+
+Speaker  306032:00
+How do you go about changing the GL we have several ASINs. Put them into categories like automotive and video games. Those are not relevant to our products. The easiest way Rolando is to you have two options. You either contact catalog team, but if you have access to the specialist team, I highly recommend you go through the specialist team. They are far better, and they know exactly what's what has been happening.
+
+Speaker  315658:40
+Alex, when you say specialist team, is that somebody you request, or do you mean like a, like a rep that we have from Amazon? No,
+
+Speaker  318426:40
+it's a special team that they created. Not every account has access to it. I don't know how they selected the accounts that have access to their special to the specialist team, it usually appears I can just share my screen. Thank you.
+
+Speaker  323168:00
+Let me see how I found it. One
+
+Speaker  325792:00
+Sure so when you are in Seller Central, you need to click here on get help and resources, and
+
+Speaker  328837:20
+you should see this, this blue box,
+
+Speaker  330133:20
+if you see this, that means your account has been added to the beta testing of the specialist team. Basically what they did some of the best of the best of the cataloging captive team. They've put them into a separate, small department. All of them are US based. So all of them are working on the US hours. They're smart, they're very fast, and it's extremely responsive. So usually when we have, we have, we have a pretty large catalog. We gave them even 150 200 ascents to resolve the GL, they resolved everything in less than two hours. Wow,
+
+Speaker  343541:20
+that's a Wow.
+
+Speaker  344549:20
+I'm just uploading a spreadsheet and just tell them this is under Home Improvement. They need to be under automobile and that's it. Check your parents as well, and so on. So be careful the GL, because in most cases, you will have so if you have five children and one parent, you will have one child that's in a completely different GL, but you need to check your parent as well, because the parent could be in a different GL as well. Yes, we've
+
+Speaker  352944:00
+found those types of problems. Recently, we scrubbed through our catalog and we saw things that were really goofy. We saw several items that were in the wrong GL Code, wrong category, like as well GL and category, we saw some products that are in drugstore, and we we don't do anything with supplement, nothing consumable, so we're kind of a surprised to see that and and just wanted to see how you went about it. So specialist support seems to be one way to go. You wouldn't be able to correct that via flat file. It would be a ticket. You'd have to open the flat
+
+Speaker  364938:40
+file. Is the cause of all the problems. They started a flat file system last year, and since they started doing that, we've been having GL issues. So they have a problem in the flat file system. If you're using a third party app with API access, you can try doing it from there, but we do okay. We use store Automator, and you can do it from there as well for the API,
+
+Speaker  373152:00
+okay,
+
+Speaker  373797:20
+but the easiest way would be to do it from with cataloging or with a specialist. And you don't have to over complicate the case, just tell them the following ASINs are not in the correct GL attribute, and you just got correct GL attribute and the list of ASINs and they will just work on awesome.
+
+Speaker  380602:40
+Got a got a question on along those lines, I noticed something recently in category Insights, where they have all three things that affect your listing category, product type and item type, and if you select the item type and you type it in, it will essentially align all of those theoretically, with what Amazon sees as where it's supposed to be. Are you aware of this? Or have you seen this in Seller Central?
+
+Speaker  388224:00
+No, I haven't, but it makes a little bit of sense, because all of them are perfectly aligned. So if you have that disconnect between the GL product type, growth, everything, then everything goes to so it would be for them to do that.
+
+Speaker  393429:20
+If you go to growth in your drop down menu on the left, there's something called manage product marketplace, or some something like that's manage something. Do you see that marketplace
+
+Speaker  396890:40
+program?
+
+Speaker  397162:40
+Yes, that's the one. And then you're going to see three tabs at the top. The third one should be category. I believe it's category insights. Then when you scroll down, you will see there is a four column panel, and on the left is the marketplaces, us and all of the rest. And then you'll see category you'll see product type, and you'll see item type. And what was interesting when we started playing around with it. Some of the item types where we were located, you can't, you can't find them as much as you try to scroll into the right category. But sometimes typing a related type of product, that's like a synonym, synonym of it will eventually pop up, and then you will see all the categories align up for that item type. So that was interesting as well when we started using this tool.
+
+Speaker  412890:40
+Interesting. I've never played with it, but I will now
+
+Speaker  414442:40
+sure go and then, then below you've got a bunch of other nice metrics that you can also look into, but from strictly a catalog perspective, this is seems like a guide, and I was wondering if you'd, I know, obviously you said you didn't use it, but we're starting to open cases and adjust our flat files according based on this information. Yeah.
+
+Speaker  421232:00
+Well, by the way, if you if you have SAS, SAS can give you a full report on your listings that contains the parent ASINs as well. So you can just take a report from the stat it's under fulfillment reports, and you just download the exactly what it's called, the FDA inventory report, and that's going to Okay. It's called on AJ. That's going to contain all the GLS for every single child, child, but that unfortunately, does not contain the parents from one the only report that comes with the parents is the one from SAS. And I don't know how they put it down, but it's amazing. And you can just give that report to the catalog team or the specialist team, and they will resolve
+
+Speaker  436976:00
+interesting
+
+Speaker  437712:00
+so you don't have to go one by one. You can just pull down the reports from FDA inventory under the reports under fulfillment and exactly and sort them out and see exactly which ones are the ones that have the most amount of issues.
+
+Speaker  442901:20
+Got it. Well, that's tremendous,
+
+Speaker  443978:40
+definitely. If you don't know how it's not, it's not hard, okay,
+
+Speaker  445354:40
+sure.
+
+Speaker  447962:40
+So you need to go under Reports, fulfillment reports here. And once that opens, you just click on show more under inventory and go for the last option, which is at the inventory. You just download, request the CSB download, and then in that report, if you look at the column, AJ, it's going to have the GL type, okay. And just sort them, filter them and see exactly which ones are all improvement. Which ones are in automotive, which ones are GL this, which is usually an error? Drugstore, yeah.
+
+Speaker  458517:20
+So we've seen some of that. We've seen a few in the BIS. How does that happen?
+
+Speaker  459546:40
+That's an error that's basically from my understanding. It's when they are hanging between two different geo nodes, and it's giving that error that needs I see.
+
+Speaker  463162:40
+Have you heard and I heard this in conversation recently from one of our catalog people, they said to me that when they were talking to the catalog team, that they said exactly what you said about the mess with the catalog and files and all that. But what was interesting was that once you upload a file, a flat file, and if you have errors, to use the the new file that has the errors on it and re upload with that one, because that second file tends to be the latest of all the files that they have for downloading. What? What are your thoughts on that
+
+Speaker  473477:20
+we were doing that every single time we were putting children in families or uploading different stuff who are using flat files, and we were always using the the latest available flat file. We were always downloading the the latest flat file, and still we were facing those errors, okay, get all the way to the Category Manager in on our on our big category, and they admitted that they have an issue with the flat file system. So even if that flat file is updated, it doesn't mean that they resolve the geo issue.
+
+Speaker  484992:00
+Gotcha. Gotcha just
+
+Speaker  485536:00
+I would highly recommend you put one of your team members every single week to check the report and identify any kind of GL issue you might be facing, or whenever you are uploading a flat file, give it 2448 hours and check the geos. Yeah. Awesome.
+
+Speaker  491200:00
+Thank you, Alex, appreciate that. Anytime.
+
+Speaker  493338:40
+Let's what else does the GL code directly or I'm directly influenced SEO in Amazon. It's not a direct influence, a direct influence on the overall SEO. It's influencing the overall relevancy and ranking in the algorithm. So basically, the algorithm sees a disconnect between your product and that marketplace, and you are going to start following in rankings without no feasible explanation, and you will see a ton of Seller Support members trying to fix it, not I haven't found one of them who actually looked at the GL and tell them, Oh yeah, you are in the incorrect GL type. Let me just fix that for you. You always need to tell them what the issue is, because they don't know how to investigate that. So No, it's not influencing the SEO you might have, the best seo possible, the best listing available, you are still going to drop like a rock if you're in the incorrect GL code or GL attribute. Have you found a way to circumvent Amazon putting the brand name at the front of the product title entitled, yes, maximize the title in terms of the characters. If you have 200 characters maximum, just write 197 198 or 199 and it's going to it's going to fix that problem for you would adding things like handmade in the beginning of the title, be helpful as well, as long as your customers are looking for something like that. Yes, so look at the other competitor reviews and see if people are actually using handmade or if they are appreciating the fact that it's a handmade if that's the case, check in brand analytics on the
+
+Speaker  532544:00
+or even in the product opportunities for and send search for handmade plus your keyword, see if you have any kind of traction, if you have if you have searches, if you have some traction, if you have some conversions on that, then yes, it's worth doing handmade in the beginning of the Title, if it's relevant for those customers, for that marketplace, if it's not, then don't put it just for the sake of having something in front of the type. Category insights, is there a way to get account access to specialist support? Now I spoke with head of the head of SAS, and she said that they will roll out more accounts into the program, but and they don't, they cannot publish how they are rolling it out, how they are selecting the account. It's basically just a better slash test pilot program. I'm lucky enough to have it on every single account that I don't ask me why, but I don't know their selection process. I don't know how they did, but again, those specialist guys are the guys that you can find in the catalog team as well, especially the US base funds. So if you can get to those, then you are basically, there probably is more than 5050 I think it's a 5050 chance you might run into one from The Catalog team.
+
+Speaker  563744:00
+Okay, wait again. We should start with
+
+Speaker  567877:20
+up protection. I'm making this up. Should say it's brand all natural sounds mean for maximum UV protection or something along those lines. In this case, names, I would start my title with 100% natural. Or, I don't know exactly what kind of chemicals they are usually using in what's it called the sunscreen, but if you can add that in the beginning of the title, because people became much more informed when they are using sunscreen or different types of products that you put on the skin, and they are looking for the natural, alternative, organic ingredients and stuff like that. So I would start the title with something like that. So all natural ingredients, sunscreen, protection, UV, X, blah, blah, blah.
+
+Speaker  584869:20
+I know you were somewhere. Nate did that? Yeah. I
+
+Speaker  585733:20
+mean, okay, no, it's, it's interesting because, yeah, like we used to, we've been optimizing titles for like, just main keywords, just with the thought of being like, if someone looks up a keyword and then you hit them with it like, right off the bat and the title, they just be more likely to click on it possibly convert. So switching to like, a benefits forward approach would be an interesting practice, an interesting task to us.
+
+Speaker  592752:00
+Well, you are going to stand out a little bit more in the search results. That's the whole idea for it. I'm looking at the sunscreen market right now. I just want to see if I have,
+
+Speaker  596304:00
+I don't sell. I saw sunscreen, but if I was thinking of like an example, I know
+
+Speaker  597813:20
+I was trying to see in the sunscreen market, in the example that you gave, if we have something like that, people are actually searching for, like, all natural sunscreen, or natural ingredients, or organic ingredients, sunscreen, stuff like that. I know for sure there are a few elements. I'm not buying sunscreen. My wife is, and I know for sure she's looking for those.
+
+Speaker  604810:40
+Like, it's like I have a benzone or something, something.
+
+Speaker  605962:40
+She knows those ingredients. So I would, if people are looking for something like that, I would make sure to highlight it in the first 90 characters as much as possible, and having it in front of the title stands out a little bit more on the search results, because you will always be compared to the people next to you. So standing out in front of them, it would be much easier, and we've seen good results with something,
+
+Speaker  613296:00
+yeah. So even if like object sunscreen is going to be like, a bigger search term than like, whatever Ibo benzone free sunscreen, or whatever the chemical is that people try to avoid, right? Yeah, but you'd still want to differentiate yourself in the search results by by the SNAP benefit.
+
+Speaker  619029:20
+I I'm looking at Sarah.
+
+Speaker  623210:40
+Okay, that's the one
+
+Speaker  623882:40
+second to go live. So I was looking at the titles here. The one that stood out the most from all of those is this one, 100% mineral sunscreen, SPF 50 with zinc oxide and blah, blah, blah. This one stands out compared to all the other ones,
+
+Speaker  630389:20
+yeah, so this,
+
+Speaker  632453:20
+I mean, I wouldn't put the brand name, although I know this brand is massive, and they are getting a ton of brand searches, for sure, but you can clearly see it on the package. You don't need to use it here. So I would just start with 100% mineral sunscreen. So this is an example of exactly what you're asking instead of starting your title with sunscreen, SPF 50 with zinc oxide. This stands out in searches.
+
+Speaker  641824:00
+How much does the title matter versus the main image? When it comes to like user behavior and search results pages, both
+
+Speaker  644192:00
+of them matter. I would so for example, for this image, in order to match the title, I would add some badges on the packaging in Photoshop with 100% mineral and any other features that the product has. And I would make this packaging a little bit wider, to occupy more white space and just to appear a little bit bigger in the search results, I would maybe add some natural ingredients next to it. I don't know if they have something like that in the in the composition, but I would, for sure, add, like, I don't know, an orange peel or an orange slice, or anything of that nature, just for it to stand out even more in the search results
+
+Speaker  658383:59
+and their A plus content,
+
+Speaker  659600:00
+just like their image, but yes, I would try to optimize The outcome, because for sure, you can improve the click rate and the conversion on this product, I guarantee you, doesn't matter how many units they are selling, 7000 baht in the last month. For sure, why not sell 9000 or just changing some things that are not going to cost you any kind of money?
+
+Speaker  667322:40
+Can you improve the brand name and still get, like, the bolded brand name feature? That's how you get that you need to start with a brand
+
+Speaker  670394:40
+name. Yes, but that's very category specific. If I mistaken they are talking about, let's say, Harold sunscreen
+
+Speaker  673008:00
+today, if possible.
+
+Speaker  674448:00
+It's that brand name that appears here right just above the title,
+
+Speaker  675568:00
+yeah, see it's, I feel like it's like on one day off the next day on Amazon,
+
+Speaker  676880:00
+it's still testing that. It's very category specific right now, probably it's going to be applied across the board. But as you can see in this one, it's not. But if you go in dog supplements,
+
+Speaker  680741:19
+I'm pretty sure you have it there.
+
+Speaker  682117:20
+No, it's not. Also, I'm using an ad blocker, so that might influence a little bit how they portray. Because, as you can see, I have no ads on Amazon. Yeah,
+
+Speaker  686138:40
+I've seen it before, in our category, and then I've like, same products, seen it, not there, like, the next week. So I definitely testing it. So
+
+Speaker  688912:00
+this is new,
+
+Speaker  689728:00
+with the Rufus beta here as a on the left hand side, enhancing canine health and nutritional supplements. See, this is one of the reasons why you need to optimize your listings right now for Rufus, because Rufus is testing this out, and the product that he's going to recommend are the products that are the most relevant for that specific customer market. So having a very well optimized listings for that AI, is crucial, because now it's giving me exactly the recommendations.
+
+Speaker  703130:40
+How did you get that? I don't see that my
+
+Speaker  703802:40
+it just appeared I didn't do anything. It just popped up. Which dog supplements are fat recommended to try to make this big. Okay, which dog supplements are vet recommended. What ingredients should I look for in that supplements? Are there? Supplements for dogs with specific health issues, all of those questions, you can give it to the AI based on your listing, based on the customer reviews, based on your ingredients and everything, and as the AI to write the copy based on that. So it's going to become much more relevant for Rufus.
+
+Speaker  716250:40
+This is the next question this chapter. Is there a tool for getting Rufus information? Is it? Are you just copy pasting it when you find it? That's really right. I like a VA, just getting all right. The questions that they find down a piece of paper, the
+
+Speaker  720202:40
+roof was section on every single competitor that you have, you can identify yourself of five competitors, for example, which I know in your case, are the big guys, but you can see exactly here
+
+Speaker  725296:00
+you're just copying these and
+
+Speaker  726261:20
+play around with it. Are the most
+
+Speaker  728005:20
+important.
+
+Speaker  730645:20
+Spelled it correctly, but I don't care. So now it's just basically going to tell me exactly what it has on this product. But if I go to a different product and ask the same question, you will see a far bigger paragraph, because they actually put some time into optimizing for the AI. And you can just play around. You can select five or 10 questions for Rufus. You can ask Rufus on every single listing, take those answers, give it to chat GBT, let him organize everything but analyze everything, and start spitting out the info that you need to stand out against all the other guys, or just copy paste their Q and A's. You can do that as well, and you have them here,
+
+Speaker  747882:40
+yeah, you have them here.
+
+Speaker  748874:39
+See two answers. Let me see if you can unlock every single one. But I highly recommend to everyone to start optimizing for the AI, because it's it's coming in, it's coming in. Very, very fast. It's becoming a more and more very optimized shopping experience, personalized, sorry, shopping experience. I and
+
+Speaker  761733:20
+what are you using for gathering Rufus information, it's usually just manual search that scrapes Amazon right now, I'm guessing you can use a script, but manually it takes, it's taking you three to five minutes. Nice. So it's, it depends on how many listings.
+
+Speaker  770304:00
+Have you played around with Amazon comprehend for Title optimization? Yes, I haven't played in quite some time with comprehend. I
+
+Speaker  774325:20
+Let's play with it. If you guys want
+
+Speaker  776277:20
+mission, oh, they change the menu. You have a new UI. Wonderful. I um,
+
+Speaker  781290:39
+I would play around with it if I would remember my username. So I need to find out my username, AWS, and then I can play around, sorry, um, but I haven't went through the Amazon comprehend in the last six months, I think because you don't actually need to do it. I mean, once you have a pretty specific process, and let you know that it's working and you're building the relevancy and you see in the results, in terms of ranking and indexing and everything you don't need comprehend for that, I would play around with recognition a little bit more than comprehend, because that's going to judge the product images that you have and how the algorithm sees that.
+
+Speaker  797626:40
+Need to find a way to ensure that the brand name appear at the beginning of the title. Amazon keeps hiding it, but we want it to show you want, I exactly the the the opposite of everyone else. Try shorter titles, it's or if not, if they keep hiding it and they put it above in bold in the search results, then that's just the category specific, and there is nothing
+
+Speaker  808037:20
+June you said no harsh solvents. You might get flagged for using something like that. I don't think that EOS is going to allow you to use that. But again, it could be category specific, and you might get away with something like that.
+
+Speaker  814234:40
+Can I mention again, what's the category? What's the program that I'm using? It's store Automator.
+
+Speaker  817056:00
+It's this one.
+
+Speaker  820368:00
+I your main image or putting on the packaging. Okay, yes, we discussed about that. For back end attributes, there's normally a drop down column for a list of attributes you can pick and choose. Is it better to try to pick them from what Amazon provided in the drop down column, instead of typing ones yourself, ourselves? I find it to so the ones that they have in the drop down in most cases, they are not any remotely relevant to your product or your category. I think they updated that list 10 years ago. So I highly recommend you use your own because you know your product the best, and you know exactly what your customers are looking for by picking from the drop down. We can only pick one per box if we type it our own, we can put multiple in one box. It depends on the attribute that you are going after. For special features. Attribute, for example, you have 50 characters per line where you can just add,
+
+Speaker  842181:20
+copy,
+
+Speaker  843141:19
+extremely relevant copy with features or benefits of that product, instead of selecting dishwasher safe, and my product is a case for headphones and stuff like that, because you will know that's the case. So it depends from one attribute to the other. If their suggestions are relevant for your product, you can go with them. If they're not, just add your own. If we all use AI, how would you differentiate your listing? So I'm not sure I understand this question. Probably most sellers are using AI right now for the copy. It's very using the AI for the copy is not the differentiator is telling the AI how to use it properly and how to build that listing in order to be relevant for the algorithm and for your perfect customer avatar. That's the key. AI is just a copywriter right now, nothing else. And it's just, well, it's a lot more than that. But for us, it's it will. It's able to analyze the products and the markets properly and identifying all of those different traits, but it's still working based on prompts. So you need to know exactly what to ask the AI in order to stand out in front of everyone else. Because right now, most people, they just go on to chatgpt, and they give the product to chatgpt. In most cases, they give only the title, and they say, write me the five bullet points and write me the description and just optimize his listing. It's not that. Usually when you're writing with AI, you need to give it your top five, top 10 competitors. You need to give it data from the back end, you need to give it reviews. You need to give it questions from Rufus. Then you based on all of all of that, and you make it do a summary of all of that information. Then you start asking him questions. Like to build the perfect customer avatar, building the emotional triggers, building the key features, benefits, whatever things you can think of, because the more you're going to give it, the more he's going to learn about that niche, about that product. And then you can start writing with AI the copy, because every single time now you can tell him, okay, building the five bullet points for this specific product based on all the analysis that you found and using only this list of keywords in the exact match every single time when You are building that also make those bullet points relevant and compliant with the the back end Cosmo AI and the roof was shopping assistant on Amazon, so we can get the most amount of relevancy. And when you give him everything like this, you will have, you will stand out, and you will have the best possible copy ever
+
+Speaker  903301:19
+on your listing.
+
+Speaker  905141:19
+Makes sense?
+
+Speaker  905877:20
+Yes, absolutely. Thank you so much. That's the that's the question I have, because most of the people, what we do just just you said, like, you know, we'll just write down, hey, optimize it. Write us, copy descriptions, titles, but you have to know what exactly the prompt you wanted to
+
+Speaker  911050:40
+give me for that specific
+
+Speaker  912698:40
+and see the AI as much information as you can about that market, about your demographics, about customers, reviews, anything you can think of, just give it to, and then it's going to write that copy, and you are going to stand out compared to everyone else.
+
+Speaker  920805:20
+Any other questions
+
+Speaker  922725:20
+is long bullet points work better, or short bullet points work back, none. It's on the bullet points. In most cases, no one's going to read them. So the bullet points are there for indexing and relevancy. In most cases, you have 200 or 250 no 200 characters that get in not they have a maximum of 500 characters, and they only index up to 1000 in total for all the bullet points. So you can but in most cases, the first two bullet points are getting the most amount of indexing from what I've seen, I would just focus as much as possible for those bullet points to be as relevant as possible for Rufus and for the overall shopping experience of the customer, because That's what Rosas is going to pick up as well and add keywords in the exact match as much as possible. By Nate, so, yeah, but from a customer standpoint, the bullet points don't matter anymore. On in the Amazon App, in the shopping app, the bullet points are buried somewhere below the a plus content, and in most cases, they have a drop down list, so you don't even see them anymore. And also on the on desktop, when you click on a product, there are categories where bullet points are not being displayed unless you click on the on the drop down list. So Amazon knows that no one is going to read them either way. So that's just for indexing and relevancy. I think it's
+
+Speaker  956058:40
+but try not to go 500 characters for each bullet. It's it's going to look extremely stuffed. Are you using the description field? If you are using a plus content, the old Description field, the one that's in the back end that the customers are cannot see anymore. That's basically where we are adding the majority of exact match keywords, but we added with AI. The AI is basically building a description of 2000 characters, field stuffed with exact match keywords. So just in case Amazon comes knocking, you'll have an actual description done, but every single field is usually completed in the back end is this a monthly call or a weekly call? We can do this on a weekly basis if you guys want. It's whenever you guys want, I'll be here. It's not something so I think right now, I don't know if Belen is still in the call. I think right now it's set as a monthly meeting. If I'm not mistaken. Belen, are you still here?
+
+Speaker  979232:00
+Yes, I'm here, yeah.
+
+Speaker  979696:00
+Do you know if this is a monthly or by month, monthly call setup or monthly
+
+Speaker  981520:00
+call. Okay, it's every, let me check my calendar, but it's every first Wednesday of the month. Yeah, at this time
+
+Speaker  984693:20
+invite, but we can do it sooner than this. If you guys want, I'm I'd be more than happy to do it.
+
+Speaker  987706:40
+Okay, however you like. But the fixed schedule is that first Wednesday of the month, 10am PST, yeah,
+
+Speaker  989738:40
+I know it's, I think one once per month, it should be okay. But if something,
+
+Speaker  991450:40
+yeah, yeah,
+
+Speaker  991882:40
+if something wants to come something comes up, or Amazon just changes a policy, or something, just post it in the SEO channel, and we can easily jump on a call.
+
+Speaker  995104:00
+Amazing. Thank you so much. You're welcome
+
+Speaker  996400:00
+very first one. Instead of the mind, use the same zoom link. It's the
+
+Speaker  997717:20
+same link, and I'm gonna share it anyways, closer to the date and add you to the Google calendar invite so it's in all of your calendars too.
+
+Speaker  1001525:20
+Anything else that I guys.
+
+Speaker  1003790:40
+Okay. Well thank you guys. Thank you Alex so much and see you soon then. Thank
+
+Speaker  1005808:00
+you guys. Bye.

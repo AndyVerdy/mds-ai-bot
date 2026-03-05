@@ -12,8 +12,8 @@ COPY *.py ./
 # Copy data for ingestion at build time
 COPY data/ ./data/
 
-# Build the vectorstore during image build
-RUN python3 -c "from ingest import ingest_directory; ingest_directory('data/')"
+# Build the vectorstore during image build (331 transcripts → ~9800 chunks)
+RUN python3 -c "from ingest import ingest_directory; ingest_directory('data/otter-export-new/')"
 
 EXPOSE 8000
 

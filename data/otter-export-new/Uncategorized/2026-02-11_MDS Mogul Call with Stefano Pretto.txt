@@ -1,0 +1,380 @@
+MDS Mogul Call with Stefano Pretto
+Date: February 11, 2026
+
+Speaker  20528:00
+Hey, Jamie, hey,
+
+Speaker  21072:00
+I'll be Back in one second.
+
+Speaker  26869:20
+Again. Hello.
+
+Speaker  27461:20
+Hello. How are you great to see you,
+
+Speaker  28314:40
+good to see you again. How are you
+
+Speaker  28858:40
+I'm great. How are you with all these changes that have been happening, all good. You know,
+
+Speaker  30634:40
+Problems are opportunities, as always. You know it's like,
+
+Speaker  31690:40
+of course,
+
+Speaker  32042:40
+there were some troubles, but we were able to make it through. So, yeah, but all good. Thank you for asking, Belen,
+
+Speaker  34527:59
+are you going to go to inspire this time?
+
+Speaker  35904:00
+Inspire is the one in March, right? Yeah, in Vegas. I'm actually debating, you know, because I think I will struggle to come to the summit, because it's right after my honeymoon. So my future wife to stop the honeymoon and go to the summit, I'm not sure she will be very happy.
+
+Speaker  41477:20
+So where would you Where were you planning on going on in hymen,
+
+Speaker  43162:40
+actually, Hawaii, so it's quite a big trip for us, because I'm in lisman, so it's like 24 hours to go there, and then from from Hawaii, we should go to Singapore, which is another 20 hours of flight. So yeah, I don't think she will accept this proposal. I'm still elaborating. You know how to sell the this proposal, but I think will not work for sure. Yeah, do you have some travel plan?
+
+Speaker  52240:00
+Belen, I'm going to go to inspire in March, to Vegas. For sure. I already have my ticket, and I'm guessing, and probably go to Singapore too. Hopefully, I've never been to Singapore. So that's, that's fun Vegas. It's, I've already been to Vegas three times, and it's way more than enough. It's fine. It's fun. Anyways, yeah, the event, the people and everything, but just traveling to Vegas, it's, it's not that I love that much,
+
+Speaker  61770:39
+you know, like I've been there four times now, I still did not gamble anything like $20 you know, I keep thinking, you know, at least $10 like last time
+
+Speaker  65712:00
+I gambled, the last night, because I was alone and I didn't know what to do, and the event had already finished and everything, and I almost lost everything that I gambled, which it was like 100 bucks, which, depending who you ask, is a lot or not so much, but it's like for nothing, 15 minutes of nothing. It's 100 bucks. I actually recovered like I got everything back.
+
+Speaker  74021:20
+So really, you want it
+
+Speaker  74405:20
+back? Yeah, I want it back.
+
+Speaker  76666:40
+You want it back? Like a tough woman, I was in Monica at the Monte Carlo Casino, and I've lost like 300 euros. I was walking down. I'm like, Nah, went back, but yeah, I don't have many gambling stories like that. It's normally the
+
+Speaker  83920:00
+other way around. Jamie,
+
+Speaker  84544:00
+no, I, I think, yeah, one of my more recent Vegas trips, I decided to give up on casino Kat. Yeah,
+
+Speaker  88997:20
+amazing, yeah, I'll do poker. I'll play poker for money with friends, but that's Yeah,
+
+Speaker  90117:20
+yeah, but that's more fun, at least it's longer, you know, press couple of buttons and money just goes away. It's not that fun.
+
+Speaker  92122:39
+But, yeah, my track record is probably even
+
+Speaker  93898:40
+worse. That's funny. I
+
+Speaker  94426:40
+was wondering if we should make the, you know, the Mogul call WhatsApp is broadcast only. I'm wondering if we should unleash shit and make it, make it conversational. The AI one is the AI one is popping off,
+
+Speaker  98480:00
+yeah, the AI one is really popping off. And the resellers one, it also has decent engagement. So we're thinking of, probably, most likely, moving everything to WhatsApp, every chat
+
+Speaker  102581:20
+of them all with school
+
+Speaker  103269:20
+Greta is happy. It's
+
+Speaker  104101:20
+gonna drive a ton of, yeah, drive a ton of engagement. I think, yeah.
+
+Speaker  104933:20
+I think that's going to be what we are going to do. Just we want to, we want it to be easy for members. So this is has proven, proven to be easier and more engaging.
+
+Speaker  107754:39
+So yeah, I've been inspired by the AI chat I've been getting on Claude today and yesterday, and I've been, uh, hitting my hitting my limit again and again. But yeah, you know, I took your tip about trying not to make the conversations too long and trying to just make some bootstrap files, and I'm setting up projects. So, yeah, so I think it's gonna be really good.
+
+Speaker  114144:00
+Yeah, I'm excited. Ai, is the new frontier in the last week? I mean, it's been for a while, but you know what? I mean,
+
+Speaker  116016:00
+have you seen the MCP of Amazon ads?
+
+Speaker  117007:59
+I just saw that. Yeah, that looks pretty cool.
+
+Speaker  117685:20
+Yeah, we actually tested it. We're a bit scared right now, you know, like, I could lose my job, you know, who knows? So? But yes, we are, we are testing it cloudy is amazing. Like, I'm a big fan,
+
+Speaker  121717:20
+because I already have an output of all of the Amazon ads data on Looker so I don't really need the MCP connection, but why I'm going to be doing is having Claude look at my all of my Looker files, and see a lot of stuff is done manually. At the moment, Claude can just go in there. So for example, like every week, someone goes and looks at all of campaigns and is trying to work out, okay, are there any campaigns that too many keywords just getting dominated by a couple of keywords, so that you can set up new campaigns or whatever? Whereas I'm pretty sure that Claude could do that.
+
+Speaker  131487:59
+Yeah, and what we are building is a massive SOP, because in the end, you need data and knowledge, and once you have that, you plug it in, and that is what the magic start. Yeah, will be cool, right? Did you launch any new products? Jimmy like, I remember the last time we lost
+
+Speaker  138005:19
+somebody in the last year. It's a sort of mixed, mixed success. So we're like four different variations, and some of them, some of them did really well, and some of them did really badly. So we know what we'll probably keep a couple of them for this year. But yeah, one of them is there still 6000 at the factory. The fact that you would ask us what to do with them, we want to try and persuade them to hold them for six months. Six months, if you can send them into but even to sell them. And we made a mistake. We didn't we made it just under the limit for small package or whatever one of the package limits. And what we didn't really think about is that actually, as the box gets bashed around a bit, it ends up getting a bit bigger. So we didn't have a sufficient margin of safety. So it ended up costing us an extra dollar, 40 fulfillment fee per product. It just completely, just
+
+Speaker  153365:20
+completely destroyed us. What is the average? Is a less than $20 yeah, yeah.
+
+Speaker  154597:20
+It's a cheap product. Yeah. We're selling them for like, 10 or less.
+
+Speaker  155370:40
+Yeah, we're hoping
+
+Speaker  156154:40
+we might be able to sell them for 15, but, yeah, no, not as but we managed to sell a few. We've been managing to sell a few for Valentine's Day, but it's not putting a big, much of a bump in the 1000s that we've got. Oh, hey, Charlie, new new UK chapter member. How's it going?
+
+Speaker  160474:40
+Charlie? Hey
+
+Speaker  160815:59
+guys, yeah, new, new member. It's nice to be here. I think it's actually my first mogul call.
+
+Speaker  162656:00
+So awesome, man. You're coming to you coming to London chats? You come to London chapter meeting in March?
+
+Speaker  164112:00
+Yes, in March. That's right, yeah, looking forward to it.
+
+Speaker  164944:00
+That'll be good. Yeah. I need to, need to confirm the venue for that. But yeah, that should be fun. Hey guys,
+
+Speaker  167413:19
+my call
+
+Speaker  167797:20
+the Americans on, I've just started watching land men, and now, now I want to know, because before I was watching the one, the one that, the one about the ranches, and I was, I was obsessed. I wanted to go. And I wanted to go. I wanted to go and visit, like, where it was filmed, and I was all about ranching. And now I'm now, I'm all about oil. I'm in Texas. You can come visit. I have, like, loads of questions about whether, like, whether, like, the wind farms are a scam. I really want to see ourselves. I'm like, Did this guy used to be the owner or something, and now he's trying to work out. It was brilliant. He's like, Taylor Sheridan, man, you know, he knows how to make it. He knows how to make a good TV show. It's, yeah, it's great watch.
+
+Speaker  181088:00
+Was it Yellowstone? The one about the,
+
+Speaker  181557:20
+yeah, Yellowstone and I watched the, there was a couple of pre cool ones that I watched. I watched as well. Yeah, apparently, a lot of
+
+Speaker  184133:20
+it in Texas. But
+
+Speaker  184693:20
+let's do
+
+Speaker  185653:20
+the MDS slides quickly. I've got other fans in here. Good. Jennifer, doesn't All right, let's see the MDS slides. First one will be your reminder to use the app. So, I mean, now more than ever, there's more recordings. There's more like you cannot be able to turn up to all these calls live. So I think there's a trading one kicking off. So that recording will be on. You've got recordings from various chapter events. So best content out there. So make sure you're checking those out. You can have a listen in the car, out for a walk. So, yeah, go, go and check those out. Alright. Next up, inspire. Get your tickets for Inspire. Is there like a price increase or some kind of, some kind of perk at the moment.
+
+Speaker  198421:20
+Belen, yes, price will, prices will increase on the 14th. So grab your spots, and there's very little space. We don't have any more space in the win at the win, but we do have space at the other hotel that's right, close by, but there's not many spots left, so you should book now.
+
+Speaker  203914:39
+All right, get that booked. Okay, next up. Okay, so we've got our we're gonna have our first mogul hot seat next week, and I'll probably do another one in April. So if you have a pressing problem you'd like help with, then message me. Let me know. Yeah, join the WhatsApp, currently just a broadcast group, just to remind you about calls that are coming up. All right, next up, of course, train ads, founded by Stefano. And Stefano was formerly at Nomad MDs, you might recognize stuff. So there is what you can get, free PPC audit. What is the what can you go back one? What's the other?
+
+Speaker  216645:19
+Perk, we're going to give away five PPC mistakes, and also the SOPs on how to fix this, and then a 14 days free trial of our software and plus a call with me and my team to add the team to anyone who wants to fix these mistakes. Great.
+
+Speaker  220810:40
+Okay, so start the main recording from here. So welcome to the MogulCall. Everyone really happy to have Stefano back on. A lot of us are spending a lot of money on Amazon, PPC, so other than making us rich from credit card points, it's one of the most important things that we need to do in this business, is to make sure that we're spending the money in the right place and we're not spending too much. And I'm guessing, Stefano, you do quite a lot of audits, and you have a lot of clients that you've seen a lot of accounts, right?
+
+Speaker  229311:59
+1% Yeah, I think I was doing calculation actually how many accounts I was there last year. And I think I'm around at least a 100 I think 100 brands. So I can see what's happening across different brands and different ad spend. So from 10,000 up to 1.5 million a month, our biggest fans is spending 3 million a month. So yeah, it's, it's, it's very cool to see the difference between these brands and see what they're doing right, what they do wrong, what they could do better. And so, yes,
+
+Speaker  237370:40
+great, right? So let's, let's find some ways to waste a bit less money.
+
+Speaker  239306:40
+Let's do that. I might need to decrease your your points. So sorry, guys, I would do my best.
+
+Speaker  241328:00
+Okay, we're struggling to spend all the points that we.
+
+Speaker  244128:00
+Let me know if you see my screen,
+
+Speaker  244911:59
+all right, I've got it up, and that's the first screen there.
+
+Speaker  245792:00
+Do. Let me put you here. Okay, amazing. See some people that I know here, Victor, Carl, amazing you don't know. Okay, amazing guys. So I'm very excited because, first of all, I want to thank the MDS community for the support over this transition period. I have lots of clients that are also part of MDS who has been very nice to me during this transition and so, yeah, I really appreciate that. So I really appreciate the MDS community as a whole, like it's it's amazing that you build such a cool community and with great people inside. So very excited to do this presentation, and I want this to be a bit more tactical than the other ones that I share. And this is based on what I found, what we found after auditing many brands and after managing quite a lot of ad spend. So we made a lot of mistakes in the past, and so we want to make sure that you prevent to make these mistakes moving forward. And one thing that we noticed that for all the brands are doing between three to $100 million per year in sales, they tend to still repeat the same five PPC mistakes. And after being at the MDS Milan event, I remember it. They show you, they show they showed us this metric, which is 67% of MDS members, they manage PPC. Now, so, which means that you might have maybe a PPC Manager, RVa, or a software managing your Amazon PPC. And so what happened most of the time that you, as the business owner, you tend to both manage PPC and you need to manage new product launches. You need to manage cash flow. You need to manage advertising, this case, so you have lots of things to do. And what happened most of the time is that the decisions that we take on the PPC side are more reactive than driven by SOPs or clear targets. And the cool part that if we're able to fix this, and we work, for example, with an MDS member, he's doing around $4 million a year, and by just fixing one of the mistake I will share with you today, he was able to increase profitability, profitability by $4,000 a week by just fixing one mistakes, which is amazing. And he did that. He Himself through our, what we call accelerator program, or, for example, this $50 million Amazon brand, where we were able to work with their team and our team, and we were able to increase this by 1.5x and double the profit in 12 months after fixing all these five mistakes. And obviously we have done a lot of other stuff, but yeah, so, so what you will get today? So I want to be pretty straightforward, so you will get the these five PPC Mistakes You Should Avoid and how to fix them, and to help you to fix these problems, we will give you access for 14 days to our advanced PPC software that we use internally, and we will have a call with you to go through the to go through your account and to share with you what we see. No strings attached. We will just share with you what we think you could do better, and you can go and apply these changes. And in terms of our company, we have, let's say, two business model. We have one model where we help you to hire and train a PPC Manager internally, or we manage your Amazons for you. And now let's get started, because we have quite a few slides. So I want to talk about the top five PPC mistakes. But before going there, it's very important for me that we discuss who is only in this department. So this is the key question we want to go through first, especially if you're the business owner, because you want to understand who is going to take care of all these SOPs, because you don't have the time most likely to go through all this kind of stuff. And if you're doing less than $1 million per year, and I think many of you are doing less than $1 million per year most of the time, what we see is that the founder Plus a va is is managing the DTC himself or self. If you're doing between 1 million to 5 million per year, most of the time, you have a partner in PPC Manager or maybe an agency helping you. And if you're doing more than $5 million per year, what we see that you have a dedicated PPC Manager in house, or a team of PPC managers or a PPC agency that is acting as a partner. And we discussed these in a previous in a previous, previous call where I share the framework on what I think is the best for you, for for you as a business owner, if you should have someone in house, or maybe working with an agency, or maybe doing that yourself. And we went through 50 plus slide the last time. So, but the first question you need to ask yourself is, who is going to own this department and who is going to apply these SOPs in your account. Once that is done, we can move forward and discuss about the first biggest mistake we see across many brands we audit, and the first one is inconsistent negative keywords, and so if you only add the negatives when things looks bad once in a while, this is for this is for you. And what does it mean? Doesn't mean that, if you are the kind of business owner, that when things start to decrease in terms of profitability, or you see, for example, tacos is increasing, is a you then entering what I call a panic mode, is that you see them. My tacos is very high. Let me go inside the advertising console. Let me check the what we call the waste of the Aspen. So search term with clicks and orders, and we start to add a bunch of negative keywords. And this is most of the time. It's very dangerous to do, because it's an action that sometimes we take. We are the too many negatives and that create a bad impact on the account. Or, for example, it's you don't have tools or clear recipes on how to add negative so we still use what I call an old school manual report, downloads that are so painful that no one does regularly. I'm still impressed on how many companies they still don't have any software or any tool to add and manage this part of the business, and we will discuss that later on. Or the last one is playing Whack a Mole like here is when you see that you add a negative, negative exact in one campaign, but that term starts to appear in another campaign, and that is a clear example of a lack of a master keyboard list that we will discuss in a second. And let me share with you an example. For example, for this brand that I was auditing a few weeks ago, they had the $36,000 of search term that were getting clicks with orders that were equal to 15,000 15,000 clicks with no orders and or, for example, in this case, where 11,000 words got clicks and orders. This is called the N Graham analysis, or we call word analysis, where we analyze the performance of each term, and we see how much we're spending, how much, how many clicks we're getting and how many orders. In this case, we had the 60,000 $60,000 of possible inefficiency. And here what we see that the one, two to 3% of the monthly ad spend can be saved if we do this properly. And here is an important point that it's important to remember is that no matter what you will, you will always waste money on the Amazon advertising game. So for example, even if you spent 1 million last year, most likely, just as a guess, I think that $100,000 is most likely spent on search term with zero orders. So waste that spend will always be there, but we should still be managing the wasted ad spend, because it's 1020, for some accounts, is even up to 50, 60% of the total PPC budget. And so we must make sure we keep control over over our wasted ad spend. And the first step for me and what we do for our clients is to start to be aware of these number we need to know exactly what is our waste ad spend. For example, in this account, we know this, 20% of the total ad spend is wasted, and there will always be wasted. And you don't want someone that could be a service provider who whoever to come to you and say, with that, say it's too high. No, you want to answer to the service provider say, No, we are aware of the waste of the ad spend is this amount over the last six months, and we are applying these SOPs to fix this. So that is the first step is to be aware of the number. And I want to ask a quick question in the chat, how many of you? You can type one if you're aware of your wasted ad spend percentage, and type zero if you don't know. I'm curious.
+
+Speaker  387616:00
+I did see on an audit that somebody did for me once, yeah, I think it was something like 18 or something. So it was like, not too bad, but not in the best tier. Because the opposite, right, is, if you, if you tried too hard to bring your wasted ad spend down, then you would never be trying any new keywords at all, right? And you just, you would
+
+Speaker  393557:20
+exactly. You would just be, you know,
+
+Speaker  394389:20
+never experimenting, never and you wouldn't have the chance to keep growing exactly and growing good keywords anyway.
+
+Speaker  396442:40
+And your case, Jamie, like you, tend to have a very low waste of the ad spend because you have a very high PPC conversion rate. So you need the fewer clicks to get an order. And most of the time, what you see that when you have a very high average order value product, you tend to have a much higher wasted ad spend. So I said to some people, some people know, some people don't know. So I think the first step, and we will share with you how to do it, roughly of them on how many clicks with zero orders before you want to order to negative. Charlie, good question. So this depends on the conversion rate of the product. So so the higher the conversion rate, the lower the amount of clicks you need to wait. For example, Jimmy will use your example. Since I know a bit of your products, let's say that your product, they have, they have a conversion rate of 20% what we see that you can wait around eight to 10 clicks to have enough data to take decision. But for example, let's say that your product have a price of 100 have a price of $100 so your conversion rate is much lower. Let's say it's 2% obviously you cannot wait only eight to 10 clicks. You must wait much longer and much, much more clicks. And we will share with you a formula in the SOP that you can use to understand how many clicks you should wait so that it will be included. But yeah. So overall, like, let's say 20% conversion rate. If your PPC conversion rate is 20% you can wait around the eight to 10 clicks. If it's lower, you need to wait for more. It's a bit more technical, but we will share that in the SOP. But yeah, amazing. So I see that some of you, you know so are you? Oh, no, you see, you know, but yeah. So first step, understand this number and what, what we've seen at our best clients are doing that. Are tracking this number on a monthly and weekly basis, and you can do both on a search term and keyword level. So, so, yeah, that is the first step. Be aware, okay, so now that we know that okay with the admin will be there, but we can still manage it. What can we do? So the first thing we want to do, we want to set the month, weekly and monthly task, and this depends a lot on the type of the product, for example, for our best sellers and launches, we want to analyze the search terms report every single week, because we know that for launches, for example, we don't want to waste money on irrelevant search terms. For B products that are spending a bit lower like we want to do it at least on a biweekly basis. And for low spending products or a mature products, you can do it on a monthly basis, and you will see that once you do it consistently, most likely, you should see fewer, fewer irrelevant systems. And you want to aggregate the data on a product or parent is in level. So if you just do this and applying your business, and we share with you this appear after you can save a good amount of money like it's it's that challenging to say a number, but we've seen amazing results here. And once you get this data, you want to put this data inside what we call a negative keywords master list. So these, these bank of data, will help us to avoid to create a new campaign and spend again on irregular search term. We don't want to do that. We want to create a new campaign for a product we already know, and we want to avoid that new campaign to spend on irrelevant search terms. For that reason, once you find that these irrelevant search term or irrelevant words you don't want to spend on, you want to add these into your negative keyword bank or Masterlist. And every time you create a new campaign, you have this list that you added to the campaign, and you stop spending on these irrelevant search terms that it's is will also help in terms of the conversion rate of the campaign. You can also use these AI prompt we were discussing before about code we like to if we have lots of search term and lots of words, you can add your search term report and description of the product and add this simple prompt, and you can get some suggestion on search term or words that you can add in negative, exact or negative phrase across your campaigns, everything will be included after so no need to to worry about it. Okay? So the next step is, okay? We know we do it manually, so we have a human who who is using their brain to analyze data and to understand the problem and say, Okay, this is irrelevant for my products. On the other side, we also want to use a software and automation to automate part of the job. For example, in this case, we use a scaling sites to use the rule based settings to avoid to overspend on keywords if they achieve a good amount of clicks. And this is back to the question which Charlie asked before, how many clicks depends on the conversion rate. But, and then with skin insight, the beautiful part of skin insight that you can set your custom rules. We will share with you this rule after, but you can set these rules. So let's say, after 1315, 20 clicks, you can say, I want to stop spending on this keyword in negative exact or, for example, if I have a very high ACOs and a good amount of clicks, I don't want to spend on this campaign. So you want to use
+
+Speaker  477210:40
+20 past so we're 1/3 through our time. So wow, we need to move fast, pick up the pace, because we not even got through mistake number one. But basically, we put as we pick up, everything is going to be in the SOPs, so you'll be able to dive detailed into this in the notes with the recording.
+
+Speaker  482544:00
+Yeah, amazing. So here is the SOP, so you can go through after and here are the results of a one hour client is an MDS member. By just applying these SOP, they were able to decrease take us from 17 to 19 to 12% we're still working together, and right now it's 10% I was checking before the call. So by just applying this SOP, it's it's beautiful, like, Okay, let's go with mistake number two, inconsistent targeting of new keywords. So here what types yet, if you launch less than five new campaigns last month, you're probably not doing enough. If analyze, for example, one of our biggest client, they launched around 120 to 150 new campaigns per month, without counting new product launches. And this looks like in your account, especially if you feel like you have no recurring process to harvest the new keywords or your best search term are stuck in automatic some broader match campaigns. And we're not actually testing this search term across different match types. And in your case, if you know that, you should do it, so you should take this search terms are working and put them inside other campaign ties, but you don't have the time to do it yourself or your maybe your PPC Manager or your PPC agency is not doing for any reason. So here is an example of a Home and Kitchen brand that we analyzed a few a few weeks ago, and we found 116 search term with more than five orders that are not targeted in exact and that is a big issue, because we don't have control. You want to have at least targeted in a sponsored product extract match, because what I keep coming back on the Amazon advertising side is that we want to have control. We want to know exactly where the ad spend is going, especially because the market is always evolving. For example, this search term increase by 200 200 research volume to 2500 search volume. So if we don't keep testing campaigns and put them in a campaign type that where we have control, which is a sponsored exact match, we might lose lots of opportunities. So for that reason, what we call coverage is essential if we want to keep scaling the brand. And we will share with you the recipes to apply these. So it's very simple. You set a harvest routine. You harvest from search term. You use a research tool like DATADIVE, you unless you check if these keywords are targeted or not already, and then you added these new keywords in your campaigns. And one important point when we launch these new campaigns, we want to make sure we are spending on these campaigns, because we really don't want just to launch campaigns to so to make all that work, to launch campaigns, and then we don't spend on them. So it's important that the person who is owning the department is also checking if the campaigns are actually spending. And this is, for example, a brand where we we double the monthly sales in less than one year through ongoing testing of ad campaigns. They enter a big, big niche where there is a massive, massive opportunity. So that is what you can achieve by keeping, increasing, improving the coverage of your brand.
+
+Speaker  530080:00
+Okay? So they're right in thinking that you're getting new keywords from auto and broad campaigns and also from research tools. So from two plates,
+
+Speaker  532800:00
+yeah, and and sqp. So yes, we have research to like DataDive and sqp, so I will share in a second sqp, because we also use that to analyze the market. But yes, okay, amazing. Okay, let me the third mistake is something that I see some time. I do see all the time, but it could be very, very bad if this is, this is your account. So the fastest way and to lose money is to not control one simple thing, which is the campaign budget. And a great campaign with no budget can help you. So even if you have the best campaign structure, the best keyword inside if you put a $5 budget, nothing will happen. And if you have a bad campaign with a big budget that can destroy your profits. So here is an example of one brand that we were auditing where a campaign spent five times more in a single day, and that had a massive negative impact on the overall profitability, because the PPC Manager, there was a mistake on the PPC side. And the ad spend of the campaign went from 275 to $1,000 from one day to another, and no one was able to control it because the budget was too off. So usually this looks like in your account, if you see, for example, that during big events like Prime Day, like Friday, the daily ad spend and the budget are too far off. And so what happened at the during these big events, like, say, Valentine's Day is coming, and you have, for example, a campaign with daily spend of $10 and you put a budget of $1,000 you give too much, too much leash to the campaign to spend. So you we want to control again, what we're doing, and because, if not, you can see that the from what they did to another, the spend for campaigns could double or triple, and you're not able to control it. And I use the word control a lot because Amazon advertising is a lot about controlling your money. And this is very expensive, because what you see is bad campaigns. They keep spending more. If the bad campaigns spend more, most of the time is because they have a higher bids and CPC, so they tend to remove, to take over performance from the good campaigns. And what we see at the PPC says tends to increase, and they cause also a higher takeoffs. And to fix this is, is super simple, and you can check it very quickly. You just need to analyze your advertising console. You sorted by ad spend, you create a new column that you call a daily spend average, and you can quickly compare, okay, what is my budget compared to my daily spend average? And if that is too far off, you want to normalize it. So, for example, we have some clients that they don't have issue with budget because they want to spend as much as much as possible. But if you have, if you want to control profitability and you want to make sure you're you're not overspending, we always suggest to normalize the budget based on performance, and again, in the Super pieces, we will share everything and on how much we suggest the gap to be. So for example, let's say we spend $10 a day. We don't want the budget to be 100 we want to be around the 15 to $20 to $25 so for example, during Prime Day and Black Friday, if you control this, so if you control the campaign budget, which is one of the most important thing to do after bids and placements, that you can maximize the take us over these days. So the stickers is very stable, even during peak days. You don't want take us to skyrocket or be too low during these days. Okay, I think I still have 10 minutes Correct, yes,
+
+Speaker  590586:40
+okay, 33 minutes
+
+Speaker  591322:40
+terrific, yeah, but they will have 10 minutes of Q, a correct, yeah,
+
+Speaker  592144:00
+that'd be good. Yeah, I did.
+
+Speaker  592704:00
+Okay, okay, this is a big one, and this is a mistake that we also have done in the past, and which is one clear example, was this no storm that happened a few weeks ago, where we have seen a sales across all across all our clients accounts decrease, but sometimes, like the mistake we made, that we apply the right solution to the wrong problem. So in this case, we try to increase the we we try to increase the PPC ad spend by responding to a declining sales by pushing more with PPC. And what does it mean that we tend to increase the bids. So what what happened after the CPCs goes up and the clicks that could go up is not always the case, but that could be the case. And so what happened at the sales stays the same or even drop, causing higher takers and ACOS and these what is the lesson here is that we cannot control the market, and we cannot, we cannot fix the market by just increasing PPC. For example, this keyword decreases by 86% in search volume in just 30 days because the market was not looking for this keyword anymore. And sometime, we have sent Amazon by only Changing the term they were suggesting to the customer.
+
+Speaker  618730:39
+But we want to first, to use a top down approach, where we analyze first the market. We see, okay, what's happening. And to do that, you can use mainly two tools, which is the sqp Report, where you can analyze the data that Amazon is giving you, where we can analyze, for example, the search volume on a weekly basis or on a monthly basis. And what we like to do, we like to use DataDive. DataDive allows you to analyze the search volume on a search term level, so we can see like I showed you before, like this search term if it's a market issue or if it's a market share issue, because if our market share is the same, so the amount of share of the market that we own is the same, that's not an issue. But if our market share is decreasing, that's an issue that we could solve with PPC. So to avoid this, instead of going straight to the PPC and trying to fix the PPC when you see sales going down, I would suggest that we have also the PPC Manager to go and understand what are the causes of decreasing sales. So for example, we check first the competitors, we check if they're running aggressive deals, we check the market trend with this sqp And the Data Dive. And we check if the market or the market share is decreasing, declining or growing. And then based on this decision, so first, we analyze the market, and then we decided what to do on the PPC side, because, for example, we said, okay, for one keyboard, we are losing market share. So we can go inside the PPC and say, I want to gain more market share for this keyboard, so we apply a strategy to try to gain more market share for that keyboard. So it's, it's an approach where we are a bit more cautious about the market instead of only thinking about the PPC side, because PPC just a part of the game. And for example, here, usually these what happened at the Wednesday start to decrease. We have seen that some sellers, or some companies, they struggle to maintain the same margin percentage and the same takers. But if you control the ad spend and you avoid to, let's say, overspend during a decline, you can keep the same take cost and the same margin percentage across all the period, which is what we want to achieve. And the final mistake that for me, it's always the biggest one that I see across all the brands we analyze, and every time that I audit an account, is the first place. I always go like, I don't go anywhere else. I always go here first. And I want to ask you a quick question in the chat, like, when was the last time you check your campaign placements for your sponsored product's campaigns? Was like today, yesterday, last week, two weeks ago? Last month? Okay? Curious today, that's good Monday, rather like that today, every two weeks, that's good.
+
+Speaker  665125:20
+Yeah, it's really important.
+
+Speaker  666517:19
+That's good. I like that. Okay, so if you analyze this, Megan, okay. Megan, if you analyze this every day, that's great. That's what we want to do, like every time you enter in the advertising console, what we want to do, we want to analyze this almost on a daily basis, especially if you never check that before. And this is a key, a key thing, especially if you are in that situation where you modify the placements once in a while and you don't change them for some reason. Or, for example, where you see that the product page placements, they waste a lot of ad spend inside the campaign. Or where you analyze anything, keywords and search term, but skip placements entirely. Today we said that we they're obsessed about the keywords, the bids and the search term, but they don't take care of the placements. And for example, this is a brand. We brand we I audited two weeks ago. They're spending 500k a month, and I've seen that they were not optimizing placements where they were overspending on rest of search and product page by around $270,000 a month, so they were allocating the budget in the wrong place. So as you can see in the picture here, you can see that the ACOS for top of search and also the conversion rate tends to be much higher compared to restore search and product page, and that is what we keep seeing over and over again, especially now where Amazon is keeping up the also other placements, like B to B or audiences, and also videos. This is a key component of your PPC PPC optimization. And if you just do this, we have seen like incredible results. And to do this, it's a bit more technical, so we're not be able to go through all these this stuff during the call, but it's there must be someone who is owning this, who is aware of this, most likely a PPC Manager or a VA who is following your SOP and but if we do this, I've seen like impressive results from one brand, for example, that they were sharing before. And this client did it himself, and he was just, by just doing this, he was able to increase profit by $4,000 a week, which is around 100k a year, which is, for me, is insane, by just fixing one one thing, which is the placement. So I truly believe that if you make sure that you fix your placements, you can be such in a better position compare your competitors. Because every time I audit brands, I see that that are not doing that in a consistent way. So yeah, if you, if you fix these five mistakes, I truly believe you will be like ahead of 90% of Amazon sellers in the market, because I keep auditing them. By fixing this, you will be in a really good spot on the PPC side. So that is what we see. And if you want to get access to all these like decks, and also the other 50 slides where I explain the difference between, let's say, hiring in house, or maybe hiring an agency or doing yourself, and also the SOPs and framework that we share here. Feel free to scan this code, the code here, or go on the website, and after that, if you want, you can also schedule a call with us, whether we connect your account to our software for free, and we we tell you exactly what we see in the account, and if we see it, for example, with the ad spend is not an issue, we will tell you, and we say, Look, we don't see an issue here. I think maybe placement could be a problem you should solve. So you should be able to fix everything yourself, which is amazing. And I truly believe that if you fix these five mistakes, you will be such enough good spot on the Amazon advertising side, and you will have control over your ad spend. Which is the goal? Which is the goal?
+
+Speaker  728261:20
+Amazing. All right, thank you. Well, we've got lots of time for the Q A or maybe to also go deep in a couple of things. So if you guys, if you would like to ask a question at live, you can raise a hand. Otherwise, you can put questions in the in the chat. Jennifer, so I know that you guys use scale insights. Do you scale insights for all your clients, or do you do you have clients on other systems as well?
+
+Speaker  737376:00
+So we have, our tech stack is based on free software. So we have scaling sites for mainly rule based automation, and then we have DataDive for keyboard ranking. We have seen that that is by far the best software for tracking ranking, DataDive. And then we have our own software, and we are also using as in insights, which is, I think, is a Chinese company that is more for advanced analysis when we want to analyze competitors, for example, and we want to see where they're spending in on their on Their PPC side, yeah, so
+
+Speaker  746965:20
+ace insights that, yeah,
+
+Speaker  748906:40
+I can write it in the chat. I think
+
+Speaker  749466:40
+maybe you can get some.
+
+Speaker  751738:40
+There's another software I've been using for that, yeah, really, that Chinese, like the, what was it called? Like, the Chinese Helium 10. Matt Allman recommended to me a couple
+
+Speaker  755440:00
+of years ago. Was
+
+Speaker  756272:00
+it called, right?
+
+Speaker  756816:00
+That's the one, yes, yes. That's right.
+
+Speaker  757909:20
+Okay, thanks for the great session you mentioned to increase budget during Black Friday, Cyber Monday and Prime Day. And in that screenshot, ACOS was around 12% discount. Price didn't profit. We normally keep two, 4% ACOS push before Black Friday. So you want
+
+Speaker  762325:20
+to go, do you want to go back to that slide, yes, I'll just summarize. I'll just summarize the question. So he's saying on this screen, on this screenshot, you can see tackles was around 12 to 13% of the price. It didn't hurt profits. He's saying they keep their tacos around two to 4% and just push before Black Friday, Cyber Monday. Yeah.
+
+Speaker  769872:00
+So here we have some clients that have different prices, like we have some clients that don't want to spend during Prime Day. So we have some kind they turn off all the ads during Prime Day because they want to maximize profits, and they run heavy discounts for this specific brand, like they're always concerned about profitability, and they don't run and they don't run a massive promotion during Prime Day, Black Friday, so they just leverage the extra traffic during these days. So yeah, so during these days. So we're seeing that CPC tends to go higher. But usually the amount of sessions, the extra session that are coming to the to the listing is, is like. We don't like usually we don't need to increase too much the CPC for the account to increase overdoses. If we increase we don't. We usually don't increase builds. We just increase placements. If we want to increase the ad spend during these days. So yeah, we don't. We don't go too aggressive, to be honest, during these days. On the BLD side,
+
+Speaker  787824:00
+you using AMC for targeting as well.
+
+Speaker  788928:00
+We are testing ms marketing cloud. We start inside your sponsored product campaign's you can add audiences, and you can add specific audiences, and now what we're seeing is the high likelihood to purchase is the one that we're able to scale the most. And you can create your custom audiences. What we are concerned about is the cannibalization of organic sales, and if these actually audiences are helping us to increase the overall revenue of the business, we have done a test where we start to invest more heavily into these campaigns. For example, for some supplement brands, we have done YouTube brand customer audiences, but we did not see a massive impact on YouTube brand or other audiences. So we still debating about the effectiveness of these of these audiences is also challenging to to track if they're actually helping the overall business. So we are using them. We're using Amazon, marketel, especially on the DSP side, to better understand if he's actually helping. But on the PPC side, we still struggle to understand if he's actually helping the overall business. That is what we can in the end. Are we getting additional sales, incremental sales? I don't know if. Imran, have you seen some big impact on the overall sales after you implemented this? Remember, we spoke, I
+
+Speaker  811322:40
+know with our with our AMC campaign's they look profitable, but it's not, it's it's not a huge amount relative to our other PPC sales. So it looks like they're good, and they seem to convert better than our regular ads. It's not just not a huge amount of sales overall. So it seems like it's worth doing, but, yeah, you know, is it just, is it just taking sales from our regular ads and putting them somewhere else? I can't be I can't be sure.
+
+Speaker  818480:00
+Yeah, that's what we also noticed, Jim, like, we have a much better ACOS, because we have, we tend to have a much better conversion rate, but we don't know if that is actually up in the overall business, like we did not see massive improvement in overall profitability and accounts. So that's the challenge. Okay?
+
+Speaker  824053:20
+I'll read out the question from Assad. So for scale insights, negative rules for search terms, should 20 clicks always go to negative? Exact? What about the same keyword with a plural having great sales of a great ACOS? Will that then negate it too? But he's saying, for reasons like this, he generally prefers not to rely on automation and check manually.
+
+Speaker  831466:40
+Good question. So in terms of the amount of clicks, it depends on the conversion rate of the product. As I said before, I can make sure we also share like, how do we calculate how many clicks in the after the slide? So maybe I will write it down so, so that depends is not always 20, is not always 10, is not always eight, depends on the product, and when you add the negative keyword, the most likely, you will also negate the plural. So even if you don't have the plural that you will not be able to get clicks on the search term. So so I'll I'm okay if you do it manually, I would say maybe just what we prefer to do is to maybe have a higher threshold for for the clicks. So instead of waiting, let's say we have a good conversion rate on the PVC side. So we could wait 10 clicks, we prefer to have, let's say, 15 clicks, but still have the software to double check the data and to other negatives, because with skinning sites, you can also revert, revert back if you want to. But yeah, the approach is also to do it manually. I know many companies that do it manually, and the idea you always need to rely on on someone to do it. So if that person is on leave, someone else needs to do it. And then there are a bit of some issues when you rely only on people, as we know.
+
+Speaker  854016:00
+So I'll read out the best question so you bear is asking about Mistake number four, pushing PPC while market is declining. I guess what your strategy is is you're saying you might just be better off accepting lower sales rather than pushing too hard. But you said, what would be, what? What could be a good strategy for keep for hitting revenue targets. If just pushing harder on PPC isn't an option,
+
+Speaker  861386:40
+I will say, let's review the revenue targets first. I don't know what are the targets, but let me lost the question. So your client says recommended external traffic. Let's say when, when the market is decreasing, it's very challenging to and to gain market share, because what we said, when the market is increasing, more competitors are running deals, so it tends to be more challenging to gain market share. So I will say like maybe making sure that the leadership team is aware of that what's happening in the market and having clear data to show them. I don't know if this is your business or maybe you are working inside a company, but I will say the first step is to make sure that the leadership is aware of of what's happening in the market, and they don't push you to achieve some revenue target that are not feasible. And I think one metric we always analyze for one client, for example, which is who is dominating a niche like he wants to see that his market share is above 90% he knows that, for example, summer, it's a big hit for him. And q4 is very low. He doesn't care about the revenue. He cares about the market share. So for that reason, we always suggest that to analyze with sqp to have this data. So we analyze this data every single week or every single month. You can do it on a brand level, or you can also do on an AC Level, on an asin level. That will be a bit more challenging, because you don't take into account variation. You can do that, but I will say, SKU analysis first understand the market and then decide what to do. And in terms of external traffic, right now, we just focus on Amazon advertising. In my experience, I've seen some clients they have good success with Google ads. So they sometimes they see some success with Google ads. Some clients they they're heavily invested in Tiktok ads, Tiktok and Tiktok ads, and we have other clients that are really into my head. We see some obviously spin off, spin off effect on Amazon, but we don't take care of this part. So I struggle to recommend any of them. I see Charlie a question, how often are you optimizing, adjusting the placement of modifiers every day, today's week? So this depends a lot on the amount of data we collect, and we'd like to do it at least on a weekly basis, especially on a weekly basis if we were not doing that before. So on a weekly basis, we like to that because we want to see if the percentage, what we really care is, is the percentage of ad spend on that placement. For example, if I see that, okay, yesterday, the percentage of ad spend on product page was 25% and today, when I changed the bid yesterday, now is 15% I said, Okay, we are going in the right direction, and we don't like to make too aggressive changes like that is also something that I'm not a big fan of. So we prefer, like, slow, static improvements. But I will say once a week and once a week is, is what we prefer to do and issue go for it. Charlie, so I was gonna say,
+
+Speaker  913120:00
+you said you don't like to make two vast changes, because I'm just to give a bit of context, my brand, we've got literally 1000s of SKUs, 10s of 1000s of campaigns in exactly the way that sort of you explained. And I'm often, you know, with the modifiers going way above, like 20% adjustments per day. So are you suggesting that you should keep it if I'm going to adjust those modifiers, they should be under 20% each time.
+
+Speaker  921029:20
+So I like the 25% modifiers. Tell me one thing, Charlie, do you also decrease the bids when you do that, or you just increase the placements.
+
+Speaker  923098:40
+No, I like to have really low bids and just keep them live, so it's almost gold panning style. And then I only adjust the modifiers. So, I mean, in theory, it's like, you know, three or five cent bids. And then modifiers could be, you know, 400% 500% whatever they are, because I want to be in control of, you know, top of search, and not necessarily have those product page placements.
+
+Speaker  929696:00
+Okay, so I see what you're doing. So when you increase by even 25 point percentage, when you are a 400% as a baseline, that's a big change. Because, as you know, like you do one plus 400 so it's a big change. One thing that we noticed like because we were doing that before in the past as well. I'm curious about your experience, Charlie, but when we have such a low bid, sometimes we see that the campaign's not stable, like they tend to spend one week then stop spending, and so the ad spend on these campaigns, sometimes we see that it's not consistent, so we prefer to have a higher bid and have more control placements. I don't know if you notice that, especially when you have so many campaigns, it could be challenging to control.
+
+Speaker  942522:40
+Yeah, might be worth me looking at individual campaign level. Again, I'm playing these things on like, you know, 10s of and hundreds at a particular time, but not we've not massively seen, like huge changes on specifications and their performance if we make those vast changes. But I could be wrong, yeah, yeah.
+
+Speaker  948416:00
+Do you know the percentage of spend on product page and as a search which one is performing the best for you?
+
+Speaker  950181:20
+Oh, no, it's 100% we do a lot of, like, top of search and rest of search and like, but then again, I'm generally okay if ACOS is at a reason, like, my goal for the ACOS, for instance, on product page, is like, if we can do it at like, 10 15% then that's profitable, like, highly comfortable, and that's incremental, right? So I'm okay with that. But ultimately, for rank, I want to make sure that I'm getting top of search and rest of search also conversions higher there. I don't know. My feeling is product pages, I don't really get great rank either, so I'm less, like concerned about that. And yeah, yeah. Again, like, the percentage points, like, if something's at 400% and the ACOS is out of a search, I'll drop it to like, instead of 400% as a modifier, I'll drop it down to 300% and that might be considered to to grand a Yeah,
+
+Speaker  965925:20
+I can share with you, for example, our calculator, so you can check that on how much we change the placements when the placement is so high, like these, yeah, we need to be a bit more mindful, because, if not, the campaign's tends to stop spending at all, especially when the bids are so low. That was our experience. Yeah, I would check that there may be the trend, like, if some campaign's, they stop spending from any reason. I would be very curious to do that analysis.
+
+Speaker  975482:40
+Stefano. This is Imran. I just wanted to share my observation. Exactly the same thing. When we use multiple of hundreds, you know, placement for top of the search, we are not getting an impression on on campaign's, very few of the campaign's were getting impressions. So No,
+
+Speaker  980656:00
+interesting, and you use the same tactics. So low bid, high placements,
+
+Speaker  981717:19
+yes, yes. Like 200 600 times you want to use in the past.
+
+Speaker  983029:20
+Yeah, yeah, that is what we noticed as well. I would love the strategy to work like I know that, because that gives you the most amount of control. And it looks like Charlie for you is working. But sometimes we see that we are not able to be consistent with the ad spend, which is something that I like about. Thank you for sharing that. Okay. Mathias is asking about, what is your experience with sense checking the SP results, we have had some struggle to interpret our Q for results and the level of kind of conversation involved. Even in Amazon Marketing Cloud data, it looks like 90% of our DSP sales are DSP, which is super high. ROAs makes it hard to interpret. We have any data source that you use to sense check the DSP results coming out of the console. Really good question. So this is something I'm actually working on, because I'm i I'm sometimes I like to be honest with you, I don't believe the DSP roles. I don't I don't care about that one. I care about the overall session on the products so and they can check in the in the Seller Central, and a few other metrics, especially if you're a consumable brand, that I really care about is a new to brand customer, like, how many new to brand customers did we get in percentage compared to the previous month or before running the SP? So these are, let's say, the main two metrics I care about because I want to see that more people are visiting my page. I want to see that a new to brand more new to brand customer, and I want to see more overall revenue in general. So that is a that is what I'm working on right now. Because I know with Amazon Marketing Cloud, you see it is bringing new to brand customer. But when you check the data, you see that the session are not increasing, or you need to plan customer are not increasing. So we are very careful about DSP like and we have some trends where we stop it completely, because we think for some brands, it doesn't make sense to run DSP. We run DSP right now only for consumable brands, so only for people who keep keep coming back to buy the products. And we have seen good results in terms of new to brand customers. We have seen that the new to brand customers are increasing, which is the metric I care about. But we have one of the one of one of the person who is hosting this call. They have one of the biggest Amazon brands on Amazon, they don't run DSP. They only run a PPC. So I don't believe that everyone should run DSP. I believe is worth testing if you have a consumable rent. And if you check different metrics, and not only DSP Ros, I'm not a big fan of the DSP roles, to be honest with you.
+
+Speaker  1026096:00
+You guys might have heard of the CEO of ridge wallet, who's huge, said that they they turned off DSP and it made no difference at all to their overall sales. That's why a lot of people are skeptical of it. We normally run it every q4 but we didn't run it last few four and we did absolutely fine. Okay, we're gonna have to go quick fire. Now. We may not have time for all of these, but could you just quickly say where you're using AI Stefano in your business, in your business, and with with your processes, with your clients.
+
+Speaker  1033573:20
+So we have four developers, so our developers obviously using the AI to build faster the software. We are integrating a analysis, as I shared with you today, like we have lots of wasted ad spend, so we were integrating, in this case, Claude, maybe open 4.5 to analyze the search term and to help us to give us suggestions on search term we could stop spending on we are working on right now. We are building tools for our for our clients, for example, new to new to brand customers, lifetime value. So we're using a lot of no code tools, and we are integrating AI into our platform to quickly analyze the account and to quickly find waste in the account. That is what I'm very excited about. So that is the main two area. We're using AI, okay?
+
+Speaker  1045717:20
+And what KPIs would you recommend that a brand owner uses to evaluate their PPC team?
+
+Speaker  1047269:20
+Oh, good question. I had a call with another business owner who is here, so yeah, I would say I love a question that I keep asking myself about my team, and it's not about KPIs knowing what you know today, would you hire this person again? And you need to be honest with yourself, and you need to answer that question, it's not about KPI. It's about you. Do you have the right person after in terms of KPIs? What we suggest is to set the KPIs on a parent is in level, and to keep the team accountable based on that so so the team knows exactly what are the KPIs they need to achieve on a parent is in level, and it's quite straightforward to do it. And so you can measure your team based on the output, based on if they're achieving their goals. And you set the target, take goals, target ACOS and the revenue goals you would like to achieve if you do this, and then you think you have the right team. You're in a very good position, right?
+
+Speaker  1061861:20
+So last question is somebody saying, when they take a good keyword out of an auto campaign, it converts worse on its own doing in the auto campaign, is that something that you find?
+
+Speaker  1065701:20
+Yeah, yeah, don't remove it from the auto campaign like we don't other in negative exact that search term, we let it in the automatic campaigns, and we just add it in exact match. Yes, I agree with you. Like automatic campaigns, they tend to have a much lower CPC compared to exactly match. Campaign is something we have seen across all our clients accounts. So if you want to scale a brand, most of the time, automatic campaigns tends to be a good place to go, because you tend to have a much lower CPC and so. So, yes, I will not remove that from the automatic campaign for sure.
+
+Speaker  1074463:59
+Okay, there's been a few questions about the frequency of how often you should look at your placement modifiers. So do you want to just recap what you think of the best practices for that,
+
+Speaker  1077925:20
+if you don't do it, to do it daily, to start like I would suggest, if you don't analyze your placements, do it daily. If you do it already, I would suggest at least once a week. And so at least once a week. It needs to be the norm, like every time I audit one of our clients accounts, that's the first thing. Analyze placements, so once a week and make adjustments at least once a week. I'm not big fan of making adjustments every single day, because that could could really impact the campaign's too much. But once a week and you will be good in a few weeks. Brilliant.
+
+Speaker  1087002:40
+Okay, do you want to go back to your final screen? In case anyone wants to get the SOPs or get an audit, I got an audit a couple of months ago. It's very useful. Picked up some useful stuff there. So, yeah, don't be afraid to don't be afraid to get the audit and look forward to trying out those SOPs. I have signed up already in the chat, guys, you're going to see the virtual event feedback link. So if you could just click on that and give me a call, give me a score out of 10, and some feedback really helps me to make these calls as valuable as possible for you guys. So I'm going to start planning the calls for April and May soon. So the more feedback I get from you, the better I can make the calls. So thanks so much for coming on, Stefano, I know you've helped out. Got some great results for a lot of people in MDS and yeah, but hopefully it's gonna be a great year for you. Yeah, first year is, you know, the big owner, the big boss,
+
+Speaker  1103034:40
+yes, future changes, yeah, yeah.
+
+Speaker  1103658:40
+I hope you guys great for you. Thanks everyone. I'll see you guys. Thank you.
+
+Speaker  1105056:00
+Thank you. Thank you. Bye, bye. You
+
+Speaker  1110757:20
+you. Thank you.

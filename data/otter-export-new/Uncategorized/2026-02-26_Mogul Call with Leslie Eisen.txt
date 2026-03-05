@@ -1,0 +1,509 @@
+Mogul Call with Leslie Eisen
+Date: February 26, 2026
+
+Speaker  00:00
+Presence. Welcome. Leslie, hey, thanks.
+
+Speaker  1584:00
+So, yeah, for those of us that didn't see your first post, do you want to just just recap what you posted about a month ago and sort of where you're at with your business?
+
+Speaker  4112:00
+Yeah, I was just asking for help with our Amazon back end because we have been using, like an agency to run our advertising, a small agency, and I'd say they've been doing like C level work, just running really the basics of pay per click. But like, aside from that, we had not touched our listings or done anything to optimize them or improve them, I'd say, in at least 18 months. And I was just, you know, losing sleep over that, realizing that that was a real liability and something we should have done. And so I was asking for help, looking for resources to change agencies or change partners, so that was what my original post was about. And yeah, I realized too late that we had really taken our eye off the ball with Amazon and our listings.
+
+Speaker  19360:00
+So how would you say your sales are split now between Tiktok shop, your website, and Amazon and any other channels, big channels for
+
+Speaker  21877:20
+you, yeah. I mean, for a long time, Amazon was like 65 to 70% of our sales, and then our D to C site was the rest. And then now Tiktok shop is been scaling up very quickly. We keep running out of inventory. Well, we I think that this year we expect tick tock shop to be more than half of our sales. But that's what we're projected to be, once we can get enough inventory in stock, so then it'll probably be like 4040 Tiktok shop, Amazon, 20 DTC, something like that. That's what we're projecting.
+
+Speaker  32746:40
+Well, could you good to hear you're having a high quality problem of the stockouts, it's just impossible to plan with it. When Tiktok is going, well, it's impossible to plan the inventory, isn't it?
+
+Speaker  35328:00
+Yeah, yeah. It's been so frustrating, because things will really start to take off, and then they'll just be, you know, and then we'll run out of inventory, and then things will take off and we'll run out of inventory. So we just had a we just made a huge order with our manufacturer that's going to ship out this week.
+
+Speaker  39269:20
+Go Big. Going big, great. So we've got Alex and Andre have agreed to have a look. Alex is as you were on first Do you want to, do you want to start off with your first impressions of Leslie's hero listing, and any other thoughts you've got on her position,
+
+Speaker  44474:40
+I do have a first question for it. The idea is, why are you in facial peels first and not in facial serums, which is by far the most accurate category for your type of product, from what what I could find
+
+Speaker  49312:00
+for that Mandelic Acid is, is a peel. It's an extremely exfoliating product. So I think it, as far as I know, peel would be the appropriate category.
+
+Speaker  52784:00
+But maybe not
+
+Speaker  53344:00
+okay, because based on what I could find, most of your competitors are under facial serums, not facial peels. There are a few other facial peels as well, also the mandelic acid on the main listing, because we're only talking about the main product that you have is all the way in the end of the title. Is there a reasoning for that as well?
+
+Speaker  60746:40
+Well, our titles haven't been improved in quite a while. We had been we when we were working with an Amazon full service agency, they had told us that changing any of the copy like is when we're in this category that's so restricted by Amazon, like puts us in danger of them rejecting our listing, or looking at our claims again and saying that we can't make these claims so any so we just hadn't changed our title because they had said that that was the riskiest thing to change and what to change last that's what this agency said, and then we never ended up changing it okay?
+
+Speaker  72549:20
+Because in terms of the overall relevancy of sto since you already have an angelic asset in the title, it wouldn't matter that much if you have it in the front or in the back, but in the search results, people just can't see the mandelic acid in it in any shape or form. So for those people who are actually searching for mandelic acid, and it's a huge market for that, they won't know what. What your your product offers, they only see the exfoliating serum, and basically, that's it, and it's that's an acne serum, but they don't know if it's angelic acid or not, without clicking on your listing.
+
+Speaker  83584:00
+So what is your, what's, what's your main search term?
+
+Speaker  84672:00
+Leslie, sorry. I mean, honestly, our main search term is our brand name, but, but I don't know it might be folliculitis treatment is an is after our brand name is the next most common search term.
+
+Speaker  89909:20
+Okay, let's see the folliculitis treatment as well.
+
+Speaker  92666:40
+Top ad spot, yeah,
+
+Speaker  93610:40
+but yeah, we don't see you can't see the the Mandela Kat, it's not early enough to be seen
+
+Speaker  96154:40
+in the In Search. I Yeah, a lot of our products are spot you can see, like those were quite a few of our products that were in the sponsored ads, but we're not. Yeah, we've fallen way off on this term. Where are we? And are the organic listings? This is terrible to see. There we are.
+
+Speaker  101888:00
+Yeah, I already got rid Here we go. Do a lot of scrolling.
+
+Speaker  102853:20
+Yeah? So anti asked me, bad is good?
+
+Speaker  106053:20
+Yeah, Alex, did you have any other questions?
+
+Speaker  106517:20
+Alex, yeah, so basically, if I would modify this listing, I would start it off with, I know you're so you have quite a few searches on your brand name in the in the overall search Frequency rank, it's not a lot, but still, you have more than most people, which is great, because you have that massive overflow from tick tock or all the other platforms that you have. So in this case, in your case, although you have a long brand name, I would still add it in the front of the title, which I'm a huge advocate against it in most cases, unless you have brand searches on Amazon, I would still add it in the front of the title, and I would actually start with the main keyword, which in your case, is the Mandelic acid. And you can also go with pushing a little bit the limits with Amazon, I'm guessing in your category, or if you switch to the facial serums, I'm 100% that you want, 98% sure that you are going to be allowed to have mandylic acid treatment in your title, because I can see half of your competitors using the same keyword, and they didn't get into trouble in any shape or form, because that's one of your main keywords, and this is what people are also searching for. Also I wanted to ask you, is level two and level one? Is it a common term for this specific market, or it's just something that you are using because I couldn't find any kind of reference for level one and level two in any shape or form, from an SEO or copy standpoint,
+
+Speaker  138805:20
+it's just like, that's what I named the products, way back when I started this business, before I knew anything about this type of thing, okay?
+
+Speaker  141370:40
+Because level two, basically, in my opinion, is just wasted space in the title, is wasted real estate in the title. So the title would look like volunteer mandylic acid treatments for acne or whatever. And then you continue with the rest of your title, and that will improve your overall relevancy score in the back end and in Rufus as well. And it should improve your click through rates a little bit as well. For that and for this product, I can build your full title with no issues looking at the bullet points. Overall, you're focusing a little bit more on the features of the product, not the actual benefits of the product. So I would switch to that, and I would try to answer as many review questions that you can find from Rufus for this particular niche, and build your bullet points on that so that the AI. Can start recommending your products for everyone who started using the AI on Amazon, and that number has been growing month over month in terms of the main image I would make the I don't know if you are planning to do any type of rebranding,
+
+Speaker  166581:20
+yeah, we're right in the middle of that. Or we're yes, we're rebranding,
+
+Speaker  168149:20
+changing the box and the design completely.
+
+Speaker  169173:20
+Yeah, okay, good.
+
+Speaker  170213:20
+I would highlight the fact that it's Mandelic Acid also on the box. I would make the box, the front of the box much wider. I would make sure you use on the top of the box something like maybe in USA, because I know your product is made in us, any kind of ingredients that are relevant for this niche, I would highlight them there as much as possible. If you have any kind of natural ingredients, I would maybe add them to the main little to the main image as well. Anything to attract attention, everything to make it stand out in the search results, you are fighting some of the big brands who are not doing that, but they are relying a lot on their brand search,
+
+Speaker  184053:20
+things I know sometimes, like people add to the main image copy that's not actually on the Box. Like is that would Is that something you recommend?
+
+Speaker  187802:40
+Yes, I've been doing that for years, and I never got into trouble. And worst case scenario, what can happen? They can take down that image and it will revert back to the old image. It's just a slap on the wrist. It's an image suppression. It's not a product suspension. So you can do that, but considering that you are rebranding everything, you can easily add Mandelic acids bake in the in the design of the box and also on the bottle, so it stands out
+
+Speaker  197605:20
+our brand that's all done. I mean, we can't do it now, yeah, okay, and add whatever you know we maybe missed. We can. We can add that in with graphic design to the image.
+
+Speaker  201621:20
+Yeah, you can add it on the box with no issues, because no one is ever going to complain that how it says exfoliating serum and Mandelic acids only small underneath. It's not the other way around. Like you presented in the box, you will never see that issue. Or at least, I never had that issue. For our products. For example, we have a box in the image, and our products are not coming in a box
+
+Speaker  208848:00
+for that, I think it's very, it's very common practice within MDS for people to change their their box, change their boxes in their main images, and it's hardly anyone's been pulled up on it.
+
+Speaker  211183:59
+Seriously, yeah. Well, how would you, I mean, it sounds like you were saying that, like you were using your knowledge, like general knowledge of what people are looking for, like, natural ingredients or made in the USA, to, like, make an educated guess about, like, what would go on the box for the copy. But like, Is there, like, a specific way that you choose what to test? Like with competitive research. Like, how do you decide what? Because I we could add, you know, there's, like, a I could make a list of 50 different pieces of information that might be valuable to add to the box. Like, how do you for the how do you decide on that? What's your process?
+
+Speaker  223002:40
+First of all, you need to go for whatever the people are searching the most, and most people are searching for Mandelic acids, for this type of a product, because they know that this is what it works for, that specific niche, for their problems. So it's a subconscious help that you are doing with them, with adding that mandylic acid clear on the box, it's going to make them click a little bit more, because that just strengthens their their search on Amazon, basically. And in order to answer your question with what else you would put on the box, you can easily scrape all the reviews, put it into clouds, give you the most important things, and just add those also to the box as well. So it's not, it's not something that takes a ton of time.
+
+Speaker  239514:40
+I put it through just i. Put it through Kat, Cal post scraper, which had a look at 500 reviews. And there's, there's other tools that do this as well. But yeah, from your reviews, you can find out things to add on, and you can get good, good insights from that as well.
+
+Speaker  244560:00
+Yeah, you can put extra strength. You can put water. Whatever people are actually searching for. I don't know this niche that well. Also what I saw, and from my research last night, I saw that usually black people are more inclined to use something like this a little bit more, which at least that was my research. You can contradict me, if you can, because you know your product and your niche much better, but your view is not addressing that in any shape or form.
+
+Speaker  254826:40
+Yeah, that's a really tricky one. I could I don't know how relevant it is to other people. Like it may be like, different niches have different desires for a skincare product. Like black people, they want the product to make their skin peel, and they see that as a like that's seen as beneficial because they're usually using it to get rid of hyperpigmentation. Whereas, like white people in general, they don't like their skin to peel. They think like, Oh, it's too, that's too strong for my skin. It's too, it's it's overdoing it, right? And so it's like, really hard to find the right messaging, because, like, if you say, this will make your skin peel, then some people are like, I don't want that. And some people complain that, Oh, this isn't making my skin peel enough so, so it's interesting with the audiences and how to you don't have to have an answer for that, but that, you know, it's a tricky thing to thread that needle.
+
+Speaker  270234:40
+Or I understand, but I'm not saying to put black people with what's it called, with pigmentation? Yeah, exactly. I just, I'm just saying to use black models a little bit more, yeah, in your overall marketing. Yeah.
+
+Speaker  275728:00
+So we were doing a photo shoot on March 5, and we are, so I'm excited about that.
+
+Speaker  277328:00
+Okay, in terms of the overall listing design and quality, I would say it's okay ish, but I would like it to be a little bit more colorful, a little bit more modern in terms of the overall graphics, but with a little bit more. What's it called, ugcs, and before and afters. I know you have in the main images and also in the in the a plus content, but I would like to see a little bit more than that.
+
+Speaker  286906:39
+Where would you use the ugcs, like? Where would be the best place to
+
+Speaker  288239:59
+put them. I would say, in the first two images, you already have it. In the third image, I would give normal examples with a little bit more text, and I would use because here you only have white people. And I know Jay, we keep jumping from that image because it's showing different parts of the body that he probably doesn't want to go through in the cold. But the third image is great. I would just update it also with some black for sure, and make it a little bit more clear, also, any kind of social proof that you might have, I don't know, millions of bottles sold featured in a list of magazines or podcasts or promoted by any major influencers in that space that will help as well with the social proof overall and with the conversion,
+
+Speaker  306368:00
+okay, that's that's good to know,
+
+Speaker  307647:59
+and adding some natural ingredients throughout the the listing. I understand that the listing itself does not have all I can see, do you have natural ingredients? I don't think you do.
+
+Speaker  311861:20
+Other than this is mostly like a natural product. It's very minimal.
+
+Speaker  313429:20
+Can you say 100% natural or but still, having those ingredients, like an orange peel or an orange slice or, I don't know, anything of that nature, will increase the trust a little bit more into the product, because it's going to make it look a little bit more. Natural overall, I can give you some examples. I'm pretty sure, using that, let me just search for something.
+
+Speaker  324480:00
+Can I say one thing that's just yes on my mind? Hi, Leslie, nice to meet you. I have to jump off in a minute, but just like one thing is like your box, like this is all complete dead space, like you're wasting this whole side of the box. Nobody could read one thing of what it says. So I would see what you or Alex or whoever wants to add. Nobody could read that on the search results or on the detail page. And then also, I would say, Wait, can you just go back one second? Sorry, I would say you should bold all the main keywords. It's very, very small, like Alex said, nobody's ever going to give you an issue and complain that the the wording on the picture was was bigger than, you know, than the actual bottle. You should make all those like bolder look nice, of course. And also, I would recommend that you get a strike through price so it shows like The MSRP, you know, 3999 slash, and then it'll say the percentage off. And also, I don't know if this is something that people Subscribe and Save to, but I would put a one time per a one time coupon and like an aggressive coupon for their first Subscribe and Save purchase.
+
+Speaker  347850:40
+We've This is, I mean, a huge, it's a major Subscribe and Save item, and that's a different topic. But we are advertising,
+
+Speaker  350634:40
+who I said, subscribers from from the one time coupon. If you do like an aggressive your first purchase, you'll get a very big discount. Like, you just need, like, nobody wants this cream to just put on their ass and just try it for no reason, unless they really want it, you know, unless they're really in the market for this item. So if somebody's gonna, if somebody's gonna purchase your item, they're a potential, real customer. So you give a big discount from their first Subscribe and Save order, they'll subscribe, and if they're happy with it, they'll just stay subscribed.
+
+Speaker  358645:20
+Yeah, that I 100% agree. And our advertising agency that we were using, I asked them to do that multiple times, and it's probably very simple. This is an example of how they weren't. They couldn't figure it out. They were like, we don't see how to use that coupon like we don't. So that's strange. Yeah, it's terrible, right? Terrible. But that's, that's something that is 100% on our to do list.
+
+Speaker  366186:40
+Now be able to walk you through that, no problem.
+
+Speaker  367642:39
+Yeah, I never heard somebody else, and I had to do that.
+
+Speaker  368464:00
+Yeah, I know. I mean, like, it's, you know, sometimes you live and learn with the partner that you're we, I took my eye off the ball and let them take control when they weren't really qualified to take control. But it's you're saying that, like the side of the box that that text is out of focus. And so what you is, like, just scrape that and like, put copy on there that, like, we think people want to know and like, make it in focus. Basically, is what you're
+
+Speaker  376741:20
+readable from the search results.
+
+Speaker  377349:20
+Yeah, like they were saying something that you could just, you know, I don't know American flag if it's made in America, or just some like, call outs, just things that they could see from this search results page, something that'll just pop out image if you want that complete dead space right now, right?
+
+Speaker  383002:40
+Yeah. I mean, that makes a lot of sense. It's like, I just think like, from like, what I guess my question is, and it seems like other people would want to understand, is like, so to fill that space like we are using our review like you guys said, scrape your reviews and look for the information that people like are questioned about or want to understand more of that's one source of, like, how to know what to add there and then, just like, your general knowledge of like consumers and what they're looking for, like most consumers are looking for, like a natural product. So like, because, you know, you there's a lot of information that you can choose to add. Do you guys have, like, sort of, like, a way to to to that, to to to know that you're choosing the right information. Or is it like, is that just like a B testing?
+
+Speaker  397818:40
+It's a B testing in most cases, yeah, in most cases, it's going to be a B testing. But this is an image where the side. Of the box. I'm not a huge fan of the colors, but anyway, this is an image where the side of the box is not showing up in any shape or form, only because that's only that space, as he said, as well. So you can easily read everything on the box with no problems. You can easily read everything on the on the product itself, on the bottle, as well, from the search results without, without having to click on the actual product. So just yeah, just shifting the perspective a little bit, it's going to help with the overall click through rate, because the majority of the click through, it comes from the main image, so if you can stand out in the search results, you're going to win the clicks.
+
+Speaker  412970:40
+Okay, great. So helpful.
+
+Speaker  413946:40
+I have a question, Jaime, is that how you say? Jaime, yes, yeah, because you had said we want to strike through price, right? But like, our price is always considered. Like our MSRP is the same across all I mean, not on Tiktok shop. We're constantly running deals there, but everywhere else it's it stays consistent. Like, is there a way to do that? We never change our price.
+
+Speaker  421184:00
+All you need to do. All you need to do is add, you know, go to the back end, go to the list price. Raise it to, you know, something normal, raise it a little bit. And then raise and then change your your price to match your list price. And then after you get, like, one or two sales at that higher price, just drop your your price, back down, and then after like three days, you'll get the list price. And it usually lasts for like, a few months. Wow, your price, your price. I'm sorry the list price is the MSRP. So the list price, you raise it $10 or $5 whatever, and then raise your regular your price $5 so that they're the same. If it's something that sell, you know, leave it until you get a couple sales, or ask somebody to buy it at the full price. And then just bring down the the selling price, the your price, and keep the, keep the list price, which is the MSRP high. Don't, don't change that again.
+
+Speaker  439509:20
+Okay, easy enough.
+
+Speaker  440437:20
+A lot of people fall. It improves the ads. It improves the conversion on the on the whole listing, like people believe, okay, I'm getting a discount, as in the big letters, you know, minus 15% off, or whatever it looks like it's on sale.
+
+Speaker  445194:40
+Okay, thank you.
+
+Speaker  445482:40
+Is that the only way to do it? Just that's how I always do it.
+
+Speaker  447210:40
+Yeah, I wanted to bring Alex, I wanted to bring Andre in. Was there anything that you wanted to cover quickly before I bring Andre in?
+
+Speaker  449808:00
+No, no go. Oh,
+
+Speaker  450592:00
+hey Andre.
+
+Speaker  451008:00
+Hi guys. What's up? Hi Leslie, nice
+
+Speaker  452032:00
+to meet you too. Hi Jaime.
+
+Speaker  453200:00
+Yeah, for those who don't know, Andre has a software, a polling software, and it's sort of like a mini agency that helps people with Amazon conversion rates. So Andre has always got really good insights. It's helped to help me out with some of my listings before. So yeah, what are you? What are your sort of opening thoughts Andre?
+
+Speaker  458373:20
+Yeah, so it's interesting. I agree with both of you what you said. It's totally correct, so you should write that down. It's it's 100% that's gonna work. So I went a little bit. So can I share the screen? Yeah, sure. Okay. Do desktop, okay, so what I did is I went through your listing, Okay, switch keyboards. Okay, so I agree the main image. So first of all, there's always a sentiment. When you look at a product, right, like it's your first impression. When you see a person, like, how is it dressed? How is it, I don't know, smells good, stuff like that. You have the same thing with the listing. So you have to make sure that you make the right first impression, right? So, and I think your product is quite nice, the looks is good, but I think it's not optimized for conversion rate. It's probably maybe for some store, for a shelf. But even then, where is the Mandelic Acid? It's like that. I agree with Alex. This is the first thing that it has to be, because I bet dollars on that, that mandelic acid. Is your main keyword. It has to be,
+
+Speaker  480960:00
+yeah, for sure. I
+
+Speaker  481968:00
+mean, like, I know it is. This is what happens. Yes, I agree totally. This has to be seen, and I don't see it at all, and you have it exactly in the title at the end. So I would switch so Alex is correct on that thing for sure. Then you have to look at like, how do you make this main image more appealing? You have to stand out like, I think Jaime showed somebody with a serum vitamin C. That image was captivating. You have to bang your head with Claude and GPT, 5.3 image. Whatever is that new image? Jen, it's crazy good. Like, I just went and did a few images for you. For example, right? Like Alex was saying about the side pack, Jaime said about the side panel exactly like, remove that thing. You don't need it. Make the thing so Poppy. So it's just, I don't know, it has to be juicy, it has to be appealing. It has to get the right emotion. Because right now it wasn't as as a like, if we compare it, you see, like, look at this one. It's and I, we had, we did one like here. So I'll just put them side by side. And this is just chat GPT. We didn't do anything like work on it, right? Just prompted and said, make it more appealing. That's it. And right away, probably, maybe the colors, maybe are not as good yet, and stuff like that. But you see this one feels more volumetric. You see volume in it. So most probably this image will win in a survey. This doesn't even make sense to test stuff like that, but you need to bring your main thing first. This one is not readable. I I can bet that you can't read this on it like, let's, let's go to find you on the mobile browser and see maybe
+
+Speaker  512496:00
+make me depressed as you scroll down.
+
+Speaker  513728:00
+It's okay, like everybody's there,
+
+Speaker  514640:00
+yeah, it's really important to look at your listing on mobile and mobile search
+
+Speaker  516384:00
+results like that, it will have your keyword, but you have such a big advantage because of your tick tock, you probably have a lot of overflowing traffic from tick tock. You just have to nail your SEO the right way to have it. Keyword rich density, like the the sense has to be there, like it has to make sense, semantics and all those things. But you feel like you're pretty jumpy. You have a bold color, but I can't read shit. Sorry. Like, I can't read anything here. I just see a logo. That's it. You have too much text, but it's like, where is it? Okay? Exoplaning Serum. That's all I see. And this guy's okay. So this one is the same thing you Yeah, you can. You can decompress a little bit. You can remove some stuff that that is there, and maybe you don't need it. And a lot of stuff here you're repeating on the box as well. So probably doesn't make sense, right? You have to choose what information you say on the box and what are you saying on the on the label.
+
+Speaker  535541:20
+I just sent you that image that you were talking about on Messenger. To me were to who to you, because you're presenting. So, okay,
+
+Speaker  539546:40
+oh yeah, this one, look at this freaking interesting. Like, it's super exciting. You want to click on it. You want at least, like, what's what's in there? Like, and now with GPT and all those stuff like, this is doable. And then you get a designer to, like, maybe adjust it a little bit, but this is really doable, and it will look so much better because your colors are pretty good. You just and look the way he framed it. Everything he has, this thing, the orange here, the this green leaf, also helps a lot. The dropper, it's cheesy, but probably kills it. Another thing that I was looking I was like, Man, you have to work on on the image, like, there's too much us over here, but, but
+
+Speaker  553397:19
+thing that people that's on, that's on there, because that's, yeah, exactly concern that people are buying this for so people who need it are like, Oh, that's me.
+
+Speaker  556154:40
+That's people with those problems. And the images have to look and kind of like raw way, but maybe it's too raw. For example, this image is unprofessional completely. I would remove all the text feed it to GPT and say, make it beautiful. Because. The lady is cute, but it's not a professional photography. It's shot an iPhone. And I don't think you need UGC when you presenting a premium product, like, customer generated UGC. Like, you can fake it a little bit. Like, fix it, right? Make it more look more like Pro, right? Like, I don't know, it's all about how you being perceived, and I think this is taking away from it, but you can basically keep the same model, keep everything the same and say, like, can you make it like it's short with a professional camera and professional lighting? And it will keep the model. It will keep everything. And this is probably for teenagers, right? The product
+
+Speaker  571141:20
+25 25 through 45 is the graphic. Okay. But we, we're, we're, like I said, we're doing a photo shoot with models in a cup in a few weeks here. And that's they're going to be in a studio. Yeah.
+
+Speaker  575866:40
+So the these will be these will be fixed,
+
+Speaker  577104:00
+yeah, okay, so it would be interesting to see your your new box, how you are designing it, what's gonna be on it.
+
+Speaker  579632:00
+But okay, let me see. Hang on. I gotta
+
+Speaker  580992:00
+and, yeah,
+
+Speaker  582197:20
+it has a lot of white space, like it has more space on it
+
+Speaker  583621:20
+for can you send it in chat or
+
+Speaker  584693:20
+hang on? I just got to pull it up packaging. I mean, it would have been good to do this call before we actually, sorry. Let me find a better
+
+Speaker  589082:40
+I was looking at two images, and I think you're confusing a little bit the customers with the way you like, there's should be the customer journey. This is a psychological customer journey, right? That's, that's the thing that came to me first, when, when I was looking through your products, is like, when, when usually present something right? So, like, there's, like, our products, like, there's a problem, this is how we'll fix it. This is why we good to fix it. Or reiteration, like, then something else, right? Like, get scientific facts, something like that. But I think you are jumping kind of like, back and forth through those hoops. So you have to be like, this is the product. This is your problem. This is how we can fix it. This way we're good at this. This is how we're fixing it. And this what other people are saying about this. That's it. You don't need to say anything else. Base of that. I'll show you the I have it on my on my stuff. You send the image. No, I'm,
+
+Speaker  605562:40
+I'm still, I'm working on it.
+
+Speaker  606042:40
+Okay, so look at this. So basically, I mapped every image. What are you saying, right? So take every image and always distill it to what's the main, main, main message of this thing, right? So, like, What are you saying in this image? By the way, is not the best image. This is very, very basic, too much wide, and the second image is your most important, right? So where is the problem? Solves multiple scheme, concerns, gently, that's it. That's what you're saying. Relief and reassurance, right, the sentiment and the customer journey is consideration, then you go this one like, I hate this images already. Like, don't use it. I think this is not a very good because in all the surveys we've done, and we've done 1000s of them, we always see people going against this is like, why are you cheating on someone other brand, like, Why? Why are you trying to, like, put yourself up and someone down and stuff like that. So, like, I think in this day and age, this is not the best thing. It used to work. We used to do it. We don't do it anymore. I think you can say, and by the way, none of them have what you do, like, for real, right?
+
+Speaker  624640:00
+Like, people, yeah, it doesn't work anymore, and people don't believe it.
+
+Speaker  625792:00
+At least put one green here, right, right? But like, he's, like, you're like, perfect. And what if someone sues you because you claim that, right? Right? Like, I don't know, but like, I would advise completely remove this. You're wasting space with this, right? So this one, again, what's the message? Mandelic Acid is gentle and more effective. That's it like we have a good product versus someone else. Another one, clarity and the message, choose the right strength for your skin. This is educational one. This is really this is really good. The execution, it's okay, but this is where you say, like you may need this one, or you may need this product. So choose wisely according to what you need, right? This one is a good one. How you show it? Probably you can think. How to show it better, maybe not, but it's like proof, social proof. This is where they make a decision. This is reinforces them, right?
+
+Speaker  643392:00
+Do you think so with social proof and like ug like Alex was saying, to use UGC as well with, you know, it's kind of a form of social proof, but, like, my impression was like that on Amazon, especially in the PDP, like, people don't want to see UGC. That's that's really unpolished, like, it's hard to know on this platform, like, what type of UGC to select? Because I think that if you put just true UGC, like a custom a couple of customer photos, or where, where it looked like it was taken on their iPhone with, like, a crappy background, like this is not the place for that, right? Is that what your testing has shown?
+
+Speaker  655418:40
+I totally agree with that. Like unpolished, unpolished creative should not go on your image at all, like, you have to curate your your image decks, like, I don't know, super precious stuff. So unpolished, no, but you just see yes, but the right way, yeah. And if we know that this can be manipulated, why do you think the customers are so stupid that they don't know? Like, everybody knows that this is easy manipulated. They know that if it's perfect, it's way too perfect, so it's always the balance and not over promising. But it has to be reassuring. It has to look like this can solve my problem. But you look at everyone like at serious brands, they they don't tend to show like. You see like this a pretty polished image. Yeah, but like, this one looks better, and it's like you're showing the image to, kind of like, reiterate the same message that you're saying in the in the text, because it's like, nobody's believing that you were putting on this thing, right? People buy it because there's social proof, there's reviews. Many people bought it, heard it in recommendation, and it's cheap, so like, let me try it, but like, they know that that's not the real product, even maybe it's some white cream on it. I don't know, right? We know that this is playable, and we know about AI, so I don't know this works, but you have to be careful, and have to have it curated. Don't, don't put like, random stuff that somebody gives you from UGC and you put it right away. You have to curate. I think, okay, so then you go to this one. So empowerment and aspiration, the sentiment, right, and the message, clear skin leads to confidence, but I'm just seeing a happy girl. That's it. So if this is the right audience, it may create a hook. Yeah, lifestyle. This product gives body confidence, okay,
+
+Speaker  686602:39
+you can Yeah, this one is just a waste. I think this bottom one,
+
+Speaker  687610:40
+but this one bottom badges. You can barely see them.
+
+Speaker  688656:00
+Yeah, that's, that's the main point of that image, is the badges on the bottom.
+
+Speaker  690144:00
+And when we go here, basically, here's the customer journey. So you were doing product benefit, differentiation, variant proof and emotion, right? So a better approach would be problem science, choose level, ingredients, authority, proof, how to use reassurance, kind of like,
+
+Speaker  697173:20
+Andre sorry, I think I missed this. Like, what software? What are you using here? Like, what is this? How did you create this?
+
+Speaker  699466:40
+This is text. This is just an infigma. We just wrote it with, with typing.
+
+Speaker  701178:40
+Oh, but you didn't use an app like, or like, AI like this better approach. How do you know?
+
+Speaker  702538:40
+Oh, we used AI to summarize the ideas to like, to tell me, okay, so what is she saying? Like, right? So I gave a task to the team, like, look at the images, summarize me, what is everyone? What is every message? So filter it properly, and that's it. And then they wrote these things, made this thing. This is already done by hand, but the AI helped me summarize the message, right? And then we verify, like, does make sense? Or is he hallucinating? Yeah. But, of course, use AI. You need to use it.
+
+Speaker  711477:20
+But that's the analysis with AI if you want about your market and your product and specifically what's missing and what's not missing.
+
+Speaker  713861:20
+Well, yeah, I would love that. I'll take you. Thank you.
+
+Speaker  714821:20
+So this is a deeper one, right? So basically it says, like clear product visibility in the hero main image, okay, if that's bullshit, nothing critical you're saying, but no clear sign. Psychological flow, right? That's the thing that triggered me. That's why I asked the AI to do the summary, because I felt that you are jumping between the logic right, back and forth. You need to when the user comes, there shouldn't be any like, right? Like, it has to be the message has to come across like, clearly, bum here, he's educating me. Here's the problem, there's the solution. That's it. Go buy. And then we went, and we just did a little bit of play with this and but this is not like design. This is more like placing it and giving ideas, right? So, but this may work may not. This wasn't tested anything. It was just a quick touch up to see what's happening, right? So stage one, the problem body breakout, can affect anyone. So it shows the problematic things. Okay, you have the acne. We just double this because we need a message here so, but you can show it in this way. You don't need to show 10 of them. You can show just a few of them. And this is 100% generated with AI. I think
+
+Speaker  739360:00
+Leslie, I just sent you that analysis as well. You should have it on Messenger. Let me know if you can open it.
+
+Speaker  741504:00
+So basically, it shows the problem, how you can solve it, choose your level, write your image. I would redo it. Then ingredients, authority. Why? Why this product specifically visible improvement right before and after? That's your images, I think. And then how to use that's it simple steps. And if you have the seventh image, but I don't think you have spot for it, reinsurance, and why women choose this. And, like, I think this, this is not bad at all, like, that kind of stuff. It's pretty cute, but probably this is too small, right?
+
+Speaker  752426:40
+Yes, it's fantastic. I mean,
+
+Speaker  752992:00
+that would be my, my flow to go. I would go like that, like simple, understandable, digestible information, Bam, Bam, Bam, Bam, done.
+
+Speaker  756304:00
+That's really helpful, because it's so hard to know like you, you know, using AI as a tool for this, and then it just makes it so much clearer what needs to go in each image. And then, of course, you're going to AB test from there.
+
+Speaker  759957:19
+But you know that the thing with AI, it's genius, but it's general information. Yeah, AI is general intelligence. It doesn't know specifics as much it knows, as much as it got from us or from open markets like it can't even go on Amazon and scan it. It can't depends on what you see to him. Yeah, exactly. You need to educate your AI like you need to have your own agent and teach him and stuff like that. Where, like, you have your subscriptions to anything to entropic or to open AI, and you constantly feed him with data. He learns, then he makes better decisions. But take that kind of stuff, then layer on top with your knowledge about this thing, he can teach you how to think properly, maybe. And then you apply that stuff, and that usually works. Yeah.
+
+Speaker  773573:20
+It's interesting, though, because I noticed in the AI that it said, like, like, one of the bullet points it said was that the lifestyle images were conflicting with the with our that this product is trustworthy and like, dermatologist tested, and that was, we just worked with a branding and marketing agency and agency and spent, I don't know, $30,000 doing customer research and interviewing a lot of people to come to that, like, our new branding is actually based around that sentiment. And so it's interesting that that was like, AI was just like, bam, this is a kind of conflict,
+
+Speaker  784282:40
+like bucks for AI, yeah.
+
+Speaker  785168:00
+I mean, of course you'd want to test that out. But that was pretty impressive, and I noticed that,
+
+Speaker  786800:00
+yeah, you have to. So first you have to make the product more clear. What is it in the main image? Like relabel, it properly made the images nice and appealing modern fix the flow, and you've got the winner, probably,
+
+Speaker  791781:20
+yeah, okay, um,
+
+Speaker  792773:20
+so that's the images. And then I don't know about, do we want to talk about the bullet points or no, because we haven't changed our bullet point. Like, as far as something that I'd like to know is like with, and maybe this is off the topic of this call, but like with Rufus, like and your bullet points. How do you know how to optimize those for for roof?
+
+Speaker  800080:00
+Us. Well, Rufus is going to feed basically from your listing directly, and Rufus is going to promote your product, and it's going to put it in front of customers, as long as you are answering their questions. So if you can feed all that information into something like Cloud, I highly recommend you use Cloud and not chat to be key for that only because they have a far better model than anything so far, it's going to spit out the exact copy that you need for Rufus. And that's why I was telling you initially that you're you focused a lot on the features of the product, but not on the overall benefits of the product that actually answer the customer questions and the AI questions, which is Rufus. So I would change those as well. So when once you change your title, I would change the full listing from top to bottom to speak directly to the AI algorithm.
+
+Speaker  819216:00
+Here are some examples of some of the things you could change on Rufus.
+
+Speaker  821104:00
+Great. Wow. For example, I have what is the best treatment for Oleg colitis on my body is mandylic acid, good for fungal acne. Fungal acne is something that you're completely missing from your listing.
+
+Speaker  825269:19
+Yeah, because we can't use the word fungal or fungus. That's why. Yeah, I
+
+Speaker  826997:20
+wish we could talk about that, but we can't
+
+Speaker  827754:40
+what body acne product is safe for dark skin. Again, that goes back to your customer avatar. What's better for the body acne, salicylic acid or Mandelic Acid? How do I get rid of bumps on my butt and thighs? Those are all questions that people are asking. Rufus, and once you answer those throughout your listing, in your images, in your bullet points, in the description, in the back end, you're going to start showing up a lot more in their search results, because now the AI is going to recognize you as an authority in that space. Got it. So, my opinion, every single seller right now on the market needs to optimize for that.
+
+Speaker  840869:19
+Yeah. So it's like answering customers questions, not it's like, not at all, like keyword stuff, you know, the old model of just keyword stuffing, like is this truly valuable information that's answering the questions people are really asking
+
+Speaker  844650:40
+correct and you cannot answer customers questions without using keywords either way. So it's going to be a win, win either way.
+
+Speaker  847226:40
+Okay, great. Yeah.
+
+Speaker  848095:59
+Are you planning to add an ingredients image?
+
+Speaker  849120:00
+I don't know. Do you think we should help, of course, clarity. I mean, that's
+
+Speaker  850544:00
+a whole you think we should take up a whole space with the ingredients?
+
+Speaker  851616:00
+You can add ingredients where you have the badges, as long as you can put the badges much bigger on the side, so they can stand out. I would add the badges there. Let me show you. Let me see if I have a few examples on that, on how it would look. For sure, I have something saved, because
+
+Speaker  859130:40
+usually ingredients is a narrow stuff, and then you have half of the image empty for for badges and claim, yeah, big. It has to be pretty big. Yeah, yeah, that's right, yeah. And always check it on your phone, like screenshot it and put it on the phone on the same size as on Amazon, or upload it and check it, look yourself. Is this readable? Because your images are not optimized for mobile, it's pretty square or even wide, and they have to be taller.
+
+Speaker  867120:00
+I'm not a huge fan of this image, but it's much clearer than what you have right now in terms of the overall badges, and you can easily put the ingredients underneath, or you can put the the ingredients on top. You can change the overall look and feel, but the message still stays the same. It's upfront. You have it, it's there, and you're open, but it's clear, big, yeah, it's clear. Exactly this one clear
+
+Speaker  876666:40
+to me, that image has a lot of text. Like, maybe a little too much, but yeah, this one, yeah, no, no. The other one, like,
+
+Speaker  878698:40
+that's a lot. That one was a little bit overwhelming, yeah, but I
+
+Speaker  879738:40
+get, I understand. You're saying, Yeah,
+
+Speaker  881584:00
+but you have to remove yourself from from this thing, right? Like, look at you as an observer what people like, and give them what they like. So it's about testing and
+
+Speaker  883824:00
+stuff that one's really nice. I like that one.
+
+Speaker  884864:00
+Yeah, I'm trying to find
+
+Speaker  885632:00
+the Alex, the for the Amazon Q A, is that a session? Is that section being completely removed from the listings now? Or can you still find it the listing Q A,
+
+Speaker  887989:20
+you can still find it with Rufus. If you're going to ask two or three different questions to Rufus, then it's eventually, it's going to give up and it's going to give you, hey, this is the Q and A take it and it's going to give you the full list.
+
+Speaker  891786:40
+Yeah, because we used to get emails the questions that people were asking on the listing, but they they sort of stopped coming a while ago.
+
+Speaker  894154:40
+Now they go as a question in the customer answer questions in Seller Central. What? Once you answer it, it's going to show up in Rufus as well.
+
+Speaker  898000:00
+What are they? What's this image bank that you're looking at? Alex is, are those just ones you've saved that you like? Or what is this?
+
+Speaker  899744:00
+Yeah, yeah. I usually just save images. Whenever I'm browsing through Amazon, I just save a ton of images. I have them for inspiration for different uses.
+
+Speaker  902741:20
+Yeah, that's a really good thing,
+
+Speaker  903445:20
+and I can always go back to them whenever I need something for sure, I found something that I liked before. In terms of the UGC, you're asking something about UGC, you can use something like this
+
+Speaker  907338:40
+as well. Yeah, that's pretty cool. And you see you have UGC, and you have the the logos as well. So it's kind of balanced the social proof, yeah, yeah.
+
+Speaker  910314:40
+And I'm pretty sure they have it in the a plus, but not on this product. But hey, they have it here as well.
+
+Speaker  912896:00
+So, you know, we gotta, we gotta wrap it up now, because we're at the end. But I think there's definitely some, some, some very easy wins here.
+
+Speaker  915888:00
+One thing to note to add, I think you have to treat your listing as a website, something like that. It has to be like, like your credit card, like a business card, right? It has to be perfect. So spend as much time as you can on it, because
+
+Speaker  920229:20
+you've got all these people coming in from Tiktok that have heard about your brand, and you just need to get mobile line. Then also, you know, people on Amazon that maybe haven't heard of your brand that's searching. So a ton of extra people that can get, that can get converted, and as those sales go up, you should just naturally come up in the in the rankings. If yeah these changes, and your PPC should convert better as well.
+
+Speaker  926154:40
+Yeah, is that there's a lot of room for growth.
+
+Speaker  927834:40
+Yeah, on copy and SEO,
+
+Speaker  928911:59
+I challenge you to go and find a good, popular brand that looks sloppy or neglected or like not polished. This is none they it's it's immaculate, everything. All the touch points are perfect. I think we have to treat our Amazon listings the same way, perfection and everything, so that would help a lot.
+
+Speaker  935269:19
+You're pretty much never wasting your time if you're working on the Amazon listings of your most important products.
+
+Speaker  936741:19
+And Alex, I don't know if it's true, but sorry. Sorry, Jamie for interrupting if you constantly update the images. Do that affect the SEO? Do you think Amazon likes you changing and testing?
+
+Speaker  939770:40
+No, as long as you're not doing it based on some metrics. Yeah, you don't have any kind of issues. I used to update images every three, four months. No, no,
+
+Speaker  943258:40
+why, but he sees that you're adding always new images, as long
+
+Speaker  944522:39
+as long as you are improving the overall metrics, they don't care. They actually love you for it.
+
+Speaker  945888:00
+Yeah. Alright, so guys, there is a air table feedback form there. So I hope if anyone's got any any body acne, make a purchase. Yeah? Let me know. Crushing it on the reviews and people must love it on Tiktok. So, yeah, I've got a bit of my arms, little bit a little bit of, oh, that's, that's Kat
+
+Speaker  952773:20
+show it on the camera, or something
+
+Speaker  953365:20
+else for that. No, I've had it for years. Nothing gets rid of it. So if there is anything that could get
+
+Speaker  954645:20
+rid of it, we can talk about that at Inspire. I can help you. Cool.
+
+Speaker  955642:40
+Alright, I'll send you the link for the kelpo scraper thing that I was sending earlier as well, because that's got some good ideas on it as well that we didn't have time for. But yeah, thanks, Alex. Thanks. Andre you guys are interested. Join the you can join the SEO and. Optimization channel on the app, and these guys have a monthly call as well, so make sure you check up. Check that out. Thanks. Cool. Thanks. Well please, please fill out the air table everyone. Leslie, thanks so much for sharing your brand. Look forward to see what you can do with it. And yeah, thanks very much for Alexander being very generous with your time there. Thank you. Thank you, guys. Bye.

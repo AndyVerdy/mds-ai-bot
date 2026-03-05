@@ -1,0 +1,320 @@
+Tiktok Channel Call October 2025
+Date: October 27, 2025
+
+Speaker  25:36
+Revenue. So that's like a that's a meaningful number for us. So it's like we're talking 30% of our tick tock revenue now is reoccurring subscription revenue.
+
+Speaker  3657:36
+How much of a discount do you give on your Subscribe and Save on tick tock
+
+Speaker  5449:36
+the initial? So the ongoing is 10% and the initial is 20% plus, at least historically, they've had the ability to stack it so like we're we're looking at like a 35% in general, 35 to 40% discount on initial, and then it and then it backs down to like, 15, 20% on ongoing. But that initial we definitely lost, like, a good amount of money for a while, but now we're kind of on the back end of it, where we're starting to see LTV kick in for those users, for for those of you that aren't running a lot of subscriptions the way that Tiktok manages subscriptions is a definitely a pain in the ass. You're going to need to have basically a CS person running points on it, like we're getting 2030, messages at least a day that need to be managed around that. Because the way that it's managed is not through the Tiktok app. It is. It's managed through, you know, iOS or or Google Play. And so the subscription basically goes in, like an app subscription on your phone, versus a versus a Tiktok managed subscription, and it it creates all sorts of customer service issues, like I'm working with Tiktok on that, on that right now, like with our with our account rep, and they're definitely helping out to a degree, but it, it's hitting us on negative reviews on our products a lot, because users just fire off on reviews.
+
+Speaker  32704:00
+What's that like? Churn rate on subscriptions? Like, how many first time subscribers are becoming, ordering their second and third?
+
+Speaker  35888:00
+We're definitely, we're north of, like, 65 70% on our on getting it at least through one term. We don't have long enough data to be like pretty confident, but there's a very much a handhold element of it associated with people not being able to figure it out what that ROI is going to look like long term is a little bit harder to say, but definitely all up. ROI on our on our businesses is now increasing substantially as a result of all those subscriptions kind of in the in the pipeline that are hidden.
+
+Speaker  46234:40
+Do you put like a description in your listing? Like do you highlight that you know they can save more money if Did you like to Subscribe and Save like.
+
+Speaker  48960:00
+It shows it really clearly on on your listing. If you, if you go and look at it on your phone, if you have it, it highlights how big the difference is. It's pretty hard to miss like. I think our products at least stacked with other current offers that were that were running go from like, on our base level, goes from 1995 to like 1295 so like it shows a huge value add for for the customers and so hard, hard for them to miss. But as a result, you end up then with a lot of people that seem to be confused as well.
+
+Speaker  60042:40
+Do you offer the same product as Subscribe and Save on Amazon? And how do this compare?
+
+Speaker  61802:40
+Do offer on Amazon? We mark up our prices on on Tiktok to a degree, but Amazon doesn't, at least price match against subscription pricing, so I haven't had issues, knock on wood to this point with with price matching against that, but would anticipate that that could obviously change it at any time.
+
+Speaker  69519:59
+Yeah, I see this as, since it's a subscription through Apple or Google Play, I see this as a big issue, because it's very easy to dispute those over time. Yeah, and I, and I understand why it is like that, because Tiktok doesn't have a website, right? They have no way around it. I don't think they can build it in into their app without paying Apple, right? So it's probably here to stay, and it's a little bit of a problem, because I can go back like six months and demand all my money back with the subscription on Apple.
+
+Speaker  78890:40
+So yeah, we haven't seen we haven't seen much in the way of Kat. Drawbacks on it to this point, and I'm guessing, obviously, if anyone's going to get a specific carve out to build it into their app, it's going to be, it's going to be Tiktok, but Amazon or Walmart or something else. But to this point, that has not become a major issue for us. But I would suspect that at some point Tiktok is gonna have to do something different, because what the way that it's managed right now is not scalable.
+
+Speaker  87413:20
+So I have a question around fulfilled by Tiktok, if anybody wants to chime in. So I got approved, I started making a shipment, and then all of a sudden figured out that Tiktok, you can't buy the shipping labels through Tiktok like you can on Amazon. Anybody else come across that issue? Yeah, that's the way. Yeah. So how are you just creating shipping labels separately?
+
+Speaker  94474:39
+So we're, we're doing it through like our own, through like our our warehouse manager or OMS type system, but, or you can do it through Shopify or what have you, but, but, yeah, there's no way Tiktok should offer that. I don't know why they don't.
+
+Speaker  98607:59
+So we use our three PL to create the labels. It's
+
+Speaker  100032:00
+just like an added step of multiple edit steps.
+
+Speaker  101408:00
+You us agree, yeah, you use use ship station. They can give you, if you're using UPS through ship station. It's a little cheaper pricing. Gotcha. Thank you. What are you guys thinking about? The GMV Max stuff. I'm I'm like, I think Tiktok outsmarted Amazon with the GMV Max stuff. Like, they're charging for organic and for ads orders. So, like, it's insane. Like, you literally are paying for organic orders. Like, even if they don't didn't authorize, which is insane to me, like, even if a creator doesn't have ads authorized, you're, you're still going to get billed for those orders. If you're running GM connects,
+
+Speaker  115359:59
+you're, you're right on Dan, because they removed, like, the ACA program, obviously, because now they just opt everything into it. So they just charge a way higher rate for ads than they were before. But we're actually running into an issue right now. I'm like, just going back and forth on it, exact same problem where people are. We've had creators that are offering BOGO on our product that, like, we don't have that offer in place, but they're telling people that they get buy one, get one free, and we're getting flooded with consumer complaints because they're receiving one product. And we can't get the we can't get the videos removed. Yeah, that's the other side, and we're paying and we're paying for they're all hitting our GMB Max, and we can't execute
+
+Speaker  128314:40
+them the bottom of funnel, leeches. Like, I call them leeches because they literally are providing no value to us business owners. They're just making five second videos, and that's what they're performing. Is like, Jimmy Max looks at how much people watch the ad, and if it's a five second video, just saying, free, free, free. And a person watched 100% of the video, they're like, Oh, this is a good performing ad. Let's run it, you know. And they're spending a huge amount of Jim V max spend on those bottom of funnel videos, which, yeah, they need to change that. Because
+
+Speaker  137013:19
+I did hear from somebody, maybe there's a webinar that I was watching that they're starting to change algorithm. So that doesn't happen, whether or not that's true, who will find out. But I did hear that something that they are shying away from.
+
+Speaker  141274:40
+Oh, are you guys running GMB Max? What is your ROI targets like? I'm even at five ROI. I have some creators that like 30, 40% commission I'm not making any money on a on a 5x ROI because of the crazy commission that I'm paying the creators that are supposedly driving the sales organically at 40% commission, and I'm paying $5 on top of that.
+
+Speaker  148304:00
+Didn't Dan, are you? Are you setting their their advertising commission at a different rate
+
+Speaker  150021:20
+I am, but that's the problem. Like more than half of the orders are still coming in through like organic, and I'm paying 40% commission on that. But again, Jim V max is considering all orders, so it's considering anything that comes in through your shop. They're taking. You know, their cut from that.
+
+Speaker  156682:40
+There doesn't seem to be any way to exclude that, unless you, unless you drop a product entirely from GMB Max. It's just kind of become like the gatekeeper for for everything, because if you turn off GMB. Max, you then don't, like, your sales go away.
+
+Speaker  161168:00
+So are you? John, like, what, what are you setting your targets at? Are you, like, profitable with GMV max on?
+
+Speaker  163056:00
+I mean, we're in the like, are you in the supplement space? Dan, like, supplements are kind of there. So, like, our cost, because we're We also manufacture our goods. There's like, you know, we're running 10 to 15% like, cost of goods sold. But of course, then, like, we import from our manufacturing facilities, like in China and other things. So we layer in like, good amount of other costs associated with it, but we're like, we're just walking up past two right now, like, if we were five doing the handstands, but we're walking just past two right now, and, like, just passing break even. But we're getting a ton of, a ton of volume on Amazon as well coming off of it. So it's been, it's been productive for us, but, but I think, like, running at five would be really high, versus, like most of the people that I'm talking to, I don't know if you guys are seeing anything close up to like even three, I think would be really high.
+
+Speaker  181183:59
+I'm running a 1.2 Yeah, so, and I'm having a hard time getting GMB max to actually deliver my ads, yeah.
+
+Speaker  183813:20
+And we've walked up from like one two to two over like, the last three months.
+
+Speaker  185269:20
+But it's a very cool I think it really depends how much content you have. You know, if you get really good content that can be pushed via GMV Max, I think you can get those ri higher. But, like, if you don't have much content, or is, like, all the stuff, I think it's really hard to get a decent ri on on your GMV Max,
+
+Speaker  192346:40
+yeah, John, what are you giving affiliates? What commission
+
+Speaker  194288:00
+kind of our open collabs that are out there on the supplement side are 20% and then targeted are generally 30 but, but then our but then our ad Commission's 10% and kind of my view is like nothing runs through. Nothing runs through, basically organic anymore, at least when I go back and tie out commissions like our overall paid commission rate on our sales for last month was like seven or seven or 8% if I kind of look at it like within the realm of, like tacos, like an it was like an 8% commission rate associated with it so well, well, I've seen some really big numbers, and part of that's like driven down by either people go to Product cards after seeing videos, or also now we have subscriptions feeding in which don't get paid commissions as well. But, but while the numbers look like they would be big at 30% like very few people are actually getting paid 30% based on what I'm seeing in the
+
+Speaker  212416:00
+portal, I'm like, just thinking, I'm struggling to see how your break even at even two ROI. So if it's a $20 product, you're paying Tick Tock $10 per order. That's after you paid the 20% commission, which is $4 so you're at $14 per order. Tick tock fulfillment is $4.38 you're at 1818, 32 and so.
+
+Speaker  220858:40
+So I'm not looking at it at the at that level. I'm looking at it kind of holistically. And that's where I say like, if you look at your all up Tiktok, p&l, or last month, look at what your actual commission number is that you're
+
+Speaker  224250:40
+paying. So you're saying you're actually paying only 7% of, like, on total of
+
+Speaker  225808:00
+total sales last month. That's that's what it came in for for us. That's interesting. Yeah, it is. And I think that has to do with that fact that almost everything's getting assigned to to advertising sales.
+
+Speaker  229664:00
+And what's your ads commission rate? 1010, okay.
+
+Speaker  230997:20
+And then, and then you have, like an organic or whatever, just coming to your overall shop, or other things that come out of that, and that gets assigned a percentage. And and then we have the subscription piece, which still goes against GMP Max. I have no idea how, how subscriptions go against GMB Max, but is kind of what it is.
+
+Speaker  237098:40
+Are you guys trying non GMB Max ads, like rich campaigns, etc, instead?
+
+Speaker  239290:40
+No, not
+
+Speaker  239594:40
+me, yeah. I mean, we'll. We're trying to get into, like, a little bit of the branded game, and not and not tagging products, but just to kind of set that up under a couple of second, a couple other accounts that we have just to see if we get additional reach on that. But like, you can't even really create individual campaigns right for products, so just be brand oriented or talking about the story, right and then trying to manage that Leo or am I missing something there?
+
+Speaker  248021:20
+Of course, you can GMB Max is not the only option you have. They kind of hide it there, but you can still do regular ad campaigns. And I hear that a lot of people stop doing JMB Max altogether. They're just doing, like rich campaigns, and it's converting. Yeah, they get, well, there is no direct connection with your shop, right, but you still get more sales, right, right?
+
+Speaker  255610:40
+So where do those ads show up?
+
+Speaker  256816:00
+Though? They show up on the Tiktok Yes, yes, yeah, the Tiktok feed, yeah. So there is a regular ad center, like ads, where you can check like best performing ads and stuff like that. And there is a lot of, like supplement ads and all sorts of ads, and I see the rich campaigns, right? So I don't know. I've heard from other people. I never tried, by the way, so, but I've heard from other people that it's actually doing better than Jimmy Max, because Jimmy Max, as you rightfully mentioned, that they take from everything, from all the sales. It's like, it's insane, right? And the ROAs, like, everything became worse than before. They did something with it. It's not that efficient anymore.
+
+Speaker  270250:39
+Yeah. So the way describing, do they send it to, they send the traffic to the Shopify, then, yeah, you
+
+Speaker  272416:00
+can send to any link, right? You can send to Shopify, to Walmart, to whatever, but people still buy off Tiktok shop as well, because you have Yeah, so I don't know. I'm just saying, What? What I was told?
+
+Speaker  278080:00
+What? Do you guys have? Like, we've been using an agency, and they performed really well for a few months, and their performance has gone down a lot, and so I'm going to probably be letting them go, but I need to hire people to take over. So I'm wondering, like, how many team members you guys have running your tick, your Tick, tock, and like, what? Yeah, like, how you hired them. How do you find them?
+
+Speaker  286346:40
+So when you're talking about the agency, do you use them to run your shop and also find new creators, because it's two different things, right?
+
+Speaker  290720:00
+Sorry, my, I think my internet just cut out. Can you say that again?
+
+Speaker  291584:00
+Yeah, no worries. No. I was saying the agency, you use them for two different things, to run your shop and also find creators,
+
+Speaker  293895:28
+yeah, they're like, they're basically a full service agency. It's Bullseye sellers, like they find our affiliates, communicate back and forth with the affiliates, run our ads, create our inbound shipments to Tiktok. Shop up, do customer service. They do everything. They do all the customer support they charge. We're they're charging us $3,000 a month, plus 3% of Tiktok sales, but I know they raised that to $4,000 a month recently. I think they're gonna push us into that soon, but they just, they've become less and less responsive. I think that that agency is taking on so many clients a lot of times, it'll take 48 hours before I get a response from them and our GMV, 28 day, like GMV has just been going down and down, so I've been less happy with them. But I need to figure out how to replace everything that they do, which is everything
+
+Speaker  309904:00
+so so now we have like Freelancer that is basically handling all, like Tiktok shop stuff. And then we have one person that does the customer service, but you know, she does it for all kind of platforms. So basically, that's it. Now, to find, to find creators. This is one agency. But what I don't like, it's like, it seems like a lot of the time the you know, we have like 20 creators per. Months with the agency, like on the rolling thing. The problem with that, and it's like, it seems like it's always, you know, you got four or five maybe creators that gonna generate maybe 80 or 85% of all the GMV. And then I feel like I'm paying for all these other guys that kind of, like dead weight. And I kind of, I would like to just be like, Hey, I just want those three or four guys, and not only all the other guys, but but then they kind of insisting on that. It's like, hey, no we, you know, this is like a minimum that we need to be at a certain level. And I feel like I'm paying for a lot of people that don't necessarily do much overall. It is working because the three or four that are doing well doing really, really well. But I feel like it could be a lot better. Yeah, I
+
+Speaker  337232:00
+I think that's, I think if anyone had a silver bullet there, on on cutting the on cutting the dead weight on Tiktok, we'd all be making a lot more money. But, but as far as your thing, like, I have a similar setup, or, like my I have one customer service person that that handles tick tock, PTC, Walmart, Amazon, etc, and then she handles, like, also returning phone calls and stuff like that.
+
+Speaker  344933:20
+So, yeah, exactly sense it up, yeah,
+
+Speaker  346101:20
+and then, and then I have one person, like my listing manager. I mean, I initially kind of created all of our listings on Tiktok, but I've the same listing manager that manages all the platforms, kind of handles that side of it, SEO and then, like, outreach, like, that's the point I have in the bot, is you kind of jam all of that out, but it's through a singular things. You don't really have to touch it once you set it up, except tweaking. I'm sure, I'm sure I and everyone could probably get better at not sending out just free products that people that create shitty content. But it's, but it's really hard, and at some point there's kind of a trade off there in terms of how good your targeting is on on creator outreach versus versus Kat. I know I'm not a probably good source for that, because we, we kind of sprayed and prayed for a long time, but walking up your GMV is certainly a good place to start there. But you can also race to the bottom if like, your GMP max or other things are going to be set too high.
+
+Speaker  364186:40
+And do you use, like, some agencies to also find you some like, good creators? Or is everything from, like, product seeding, I guess, from Yuka or Ibo that you're describing earlier?
+
+Speaker  367786:40
+I just, I, as I say, I'm probably not a great source on this, but, like, we just exclusively use Yuka. And then have, I have a person that does creative, but, like, technically, they're, they're an agency, but it's just a a husband and wife team, and they have like, they have lots of different accounts that they manage, but they spend a good amount of time on this, and they at least respond to creators in the portal. And they also do like our Creator connections, campaigns and things along those lines. So basically that, and then like Facebook, Instagram, posting, etc. And we're paying them, like four grand a month, but it's like they're doing the same thing for lots of different people, but that's kind of the overhead side of that. So it's more of a it's more of a like they handle social posting. They're also pretty deep into the industry and a lot of the other things, so they're creating content around that to post. Okay,
+
+Speaker  389152:00
+but I'm sure quality could go up if something like that was brought in house, I don't know. I leverage our team in Asia for like, all of B roll and other stuff coming off, and then it's mix match with Creator content and AI generated.
+
+Speaker  393557:20
+How are you guys, yeah, good. I was gonna say. How are you guys finding the creators or affiliates to reach out to. Are you searching manually? I know we spoke about Yuka. Any other tactics or, you know, features or strategies to finding relevant creators or affiliates? Yeah.
+
+Speaker  400704:00
+Honestly, I mean, for me, like, I've been relying heavily on, like, the agency to find me those creators. And I've done, like, No, I didn't, I didn't use Yuka or anything for like, a year, and it was, it was doing okay, but I came to the conclusion that it's just getting too expensive, because, as I was saying, You got probably only 15% of the guys that I'm paying for that are really performing. So we're starting to use Yuka now and doing the outreach, like a lot of people. But for the outreach, I don't know. I kind of just started that, so I don't know. Honestly, I
+
+Speaker  410773:20
+I
+
+Speaker  411733:20
+know levanta is a great platform for this. I'm going to start doing that because, you know, we've, we've done a lot of like spray and pray, kind of throwing out samples, Yuka outreach, stuff that everybody's been talking about, but now we are trying to do a bit more of targeted affiliate marketing, finding some kind of higher tier creators to form a more like long term kind of retainer based partnership with and Levant is a platform we use a lot for Amazon, so gonna start searching there for for good people to work with. For Tiktok.
+
+Speaker  424245:20
+Did you get people from levanta to get back to you? Because we reached out, like there's a time only six months ago, we sent out so many like emails to like people on eventa And just like nothing back. It was depressing. I was just stopped doing it because of that.
+
+Speaker  429338:40
+I know we we've done a lot with it on on Amazon. I've not managed it for that purpose, so I can't speak to that exactly, but yeah, it's definitely been a useful tool for us on Amazon.
+
+Speaker  433152:00
+Yeah, are you pushing, like, meaningful volume through levanta? Like we've been on it for two, two and a half years, like we got in, we're, I think, one of the first people on the levanto platform. And, like, we never have seen a major sales come off of that. And like, outreach, same thing where we just dead air on on almost all of it, so we really stopped putting much effort into it. I mean, we're still on the platform, but we struggle to even get to five figures a month ever on the market?
+
+Speaker  444074:40
+Well, yeah, we're doing about like 13k a month right now, so just just barely hitting that five figure mark again. You know, I've not managed this platform. I'm just looking at the dashboard now, and I know from talking with my boss about it that it is something that's been meaningful enough to keep using it. And we definitely do get a response from people on it. We're in the weight loss category of supplements on Amazon, so I don't know if that is a particularly helpful category to be, to be working in for whatever reason. But yeah, it's, it's definitely doing something for us.
+
+Speaker  457157:20
+Got it and what commission rates are you at on that? I know some really high
+
+Speaker  458645:19
+it would be probably 2025, we do 30 on on Tiktok, but I don't think we were that high on on Amazon. I'll try to
+
+Speaker  461562:40
+pull that up that's including the 10% back from Amazon or not.
+
+Speaker  463450:40
+Uncertain. Uncertain,
+
+Speaker  464394:40
+yeah, yeah. If it just says 30% in the in the portal, that or 20% that's pretty kickback. But then you have to, then you have to take out your three or 5% depending on which program you're
+
+Speaker  469648:00
+on, on the line. So yeah for like, Tiktok affiliates. So you said you you've kind of recently set a limitation for like 1000 GMV to send out to people. How many samples do you tend to like send out per week with those restrictions, and what kind of affiliate GMV. Are you getting from that?
+
+Speaker  475978:40
+Um, on our supplement Rand, yeah, we're sending out
+
+Speaker  478202:40
+like 150
+
+Speaker  478522:40
+200 samples a month, but our GMV at almost 200k now. So um. Them, it's become small, but like when it was early, we're sending out probably 500 samples a month.
+
+Speaker  482240:00
+Yeah, that's about where we've been at with, yeah, wave, you know, like roughly looking for like 200 GMV and like a 50% post rate as kind of our filters and and just getting, getting nothing, yeah, yes. Just just absolutely coming up with with goose eggs from that. So yeah, just we've kind of been rethinking our our affiliates program and giving out samples in the first place, just in the past like week, kind of going back to the drawing board on that. So I'm just curious of, yeah, just what you guys have been doing and what kind of numbers you've been seeing.
+
+Speaker  495562:40
+Yeah, definitely not, not getting too that's kind of a tough place to be in. We're definitely at that place for for a long time. And then on, like, our skincare brands, we've kind of cut back and just increased GMV tiers because we just weren't getting anything out of it. And so, like, our big question, and like, what I'm still trying to figure out is if the big driver for us has been this subscription piece, and if that is what's allowing GMB max to now mature and grow at a very consistent pace, as well as our overall GMB. And then obviously it's a Tiktok flywheel that, as you start to grow, becomes more attractive to other creators. Other creators jump in. But that's kind of a that's kind of an unknown piece. I can't I can't speak to that one where or the other. I was actually really curious if Alex was going to be on today, because I don't know how much he's been doing with with subscription or not. So I was curious to kind of ask him about that piece of it. I know that he was having, like, supply issues and other things like he was down a little bit and wasn't pushing but I don't know if he's back in the market pushing
+
+Speaker  516848:00
+heavy again now or not. Do you guys tend to focus on one product at a time in terms of sending out samples, trying to get a hero product of some sort, and then move on to the others, once you start getting sales for the other one, for the first one.
+
+Speaker  521061:20
+Yeah, we, we did. I mean, we have, we're, like a pure aloe company, so, like, that's, that's all we do. But we focused on Aloe capsules because small, lightest supplement, and then we create aloe juice as well, and those organically went nuts, kind of once the capsules got exposure. And so now we have, we have three products that each accounts for about 30% of our revenue, and then another product that's like roughly 10% and then we have, like, oh, another subset of things, but that organically grew out from one hero product. I think getting your getting your shop to to over, and then gold status certainly, certainly helped that from creators. And then you just got to get, I guess you get lucky, or something else, something else happens, but fully on the same page with like other people, from like an observation standpoint, that novel products seem to do better than commoditized products. And so, like on our skincare, like we just do, we have allo Jones, we have a proprietary process, like own it all and all those pieces. But after initial breakthroughs, the only things that went viral for us were, like, aloe gel for hair, slick back. There's like random, random stuff that went viral, but like, normal stuff featuring brand or how we're superior, or other stuff doesn't matter, doesn't sell, but Aloe supplements are, like, really unique, because just not many people have heard of it or what it's for, and they're instantaneously effective. And so that hook seems to run through almost everything that goes viral that and people telling people that if they buy one, they'll get two free. So, but, but like, at least, that would be how I would approach your like product mix is like, what's different or what's something that people haven't heard of, and that seems to be the number one hook right at the beginning of most products, is, if people aren't familiar with the product, like, I don't think you see a lot of like vitamin D brands or whatever, going going crazy on Tiktok.
+
+Speaker  559274:40
+Do you tell your creators Exactly? What you want them to do, or you give them creative freedom.
+
+Speaker  561392:00
+A lot of a lot of creative freedom. I think that like we give we tell them what the product is useful for. Then, like all these guys are looking at each other and seeing who else is doing well on the brand, and they seem to copy a lot of that content or those hooks we've been we've been more successful, in particular with Spanish speaking creators, absolutely. Yeah, that's by far our top, our top creator pool, but it's now kind of slowly branching out from that, just because it's it's gotten big enough that it looks attractive to other creators.
+
+Speaker  572426:40
+Yeah, I was doing a shape wear product for for a client, and all I did is I went to Kat data and I investigated the top performing videos, right? So I made several scripts. I gave them well, I used joint brands, obviously, because it's my platform, and I gave them exact script. So I hired more than 100 creators right away with certain GMB above 10k each, but everybody Spanish speaker or African American, yeah, and those videos just were killing it, yeah. So you always need to know your demographics Absolutely. And you need to investigate what competitors are doing. And like, I hope all of you know what Kat data or fast moss is, and you actually give them what to say, I never rely on creative freedom, because it never works unless it's like some genius creator. And those are hard to get because they know
+
+Speaker  588922:40
+that you get lucky. Like, yeah, come on. After hit,
+
+Speaker  590122:40
+tell them exactly what to say and give them examples. It improves everything so much
+
+Speaker  591562:40
+I'm trying two different strategies right now. The first one is giving the exact script on a joint brands campaign, and giving a little bit more creative or freedom with the Yuka bots and seeing what they can come up with, but giving them, you know, things to mention, things to avoid, things to say, so on and so forth. But a little bit more freedom giving examples also, but not an exact script. So I'm just interested, interested to see which one you know may end up working out better.
+
+Speaker  599749:20
+Well, I've seen so much over what our clients are doing, and I can tell you nothing that is given without exact instruction is working very well, even with high GMB creators, right? And what you should do is, out of this 100 creators, you pick the best one or two and keep rehiring them. You know, rehire, rehire. Okay, do one more. Do one more. Do one more. And then that's what's and exactly the same videos. And then you can change an angle, maybe, like, two weeks later. Okay, try it now, this angle, right? But it's very difficult to find people who are successful in this game. Most of them are not. Yeah,
+
+Speaker  610944:00
+I think that's where it's like, really attractive, like, based on, on your your post, like the idea of being able to create AI personas around it, and then just tweak, tweak, tweak, and create lots of different pieces there. Well, well, I definitely like appreciate the angle of going out with with real creators. I think the absolute kind of minute to minute creator control provided by AI is really attractive, also for them, bringing it in house and scaling it. It's just, I think that that's like the idea of being able to create in like, yeah, maybe it's using their their look or their persona, but then being able to iterate on that until you find the hook or the angle, or whatever works best for for videos, is, like, really attractive, and also being able to stay on script, so it can actually be, especially in supplements, it's so tricky in terms of, in terms of what creators say, like, awesome. And yeah, they get, they sell a lot on GMB Max, but we can't post them on on our own brands, or we can't use them across Facebook or or elsewhere to drive CTC. So I think that degree of control is probably one of the biggest barriers, especially in the supplement space.
+
+Speaker  634469:19
+I agree, yeah, because I mean having them say something, but I didn't say this right, having
+
+Speaker  636154:40
+gone through, like an FDA warning and all of that, and getting cleared, don't want to, don't want to be doing that again. And like I look at three quarters, at least of the of the supplement space videos that are out there. And like they're all making illegal drug claims, not that, I think anything being done about that kind of stuff right now, but
+
+Speaker  642048:00
+a lot has been done. They're changing the TOS all the time, right? Same thing
+
+Speaker  643440:00
+about I just meant no one's enforcing now.
+
+Speaker  644496:00
+Just don't post them on your own account, like your brand account. And if somebody says some claims, okay, you didn't do it, but at the same time, like you, you're losing at the competition. If you say nothing about your supplement, the only thing you can say 100% Yeah, you may get health benefits, but you may not. Right? Nobody's going to buy this, right? But the prime is like, if you push, if you're pushing it with GMV Max in in a way, you're saying what they're saying, because
+
+Speaker  653706:40
+the message,
+
+Speaker  654042:40
+you're technically liable for anything, because you gain benefit from it. That being said, the fact that I'm going back and forth with Tiktok, that they've completely removed your ability to actually even untag or unpromote videos puts this squarely back in Tiktok fault. So I think Tiktok, you used to be able to exclude videos from GMB Max, if you're running a product GMB Max, and you cannot anymore, they've removed that feature, and so somewhere between their legal department and their product department, they they missed that because that thereby makes them liable, or at least partially liable, for it.
+
+Speaker  665525:20
+Yeah, so don't complain too much about maybe it's a good thing.
+
+Speaker  666965:20
+Do you guys prefer fast most, or call it data?
+
+Speaker  668490:40
+I like more color data because I'm used to it. Yeah, but I hear that fast most is just as good. Okay, talking about AI we work with a lot of the product developers and I get confusing messages. On one side, they have bytedance ai API that has that can do a lot of things, right? But on the other side, they don't really want AI on their platform, especially certain products, right? So there's a lot of confusion here, what is allowed, what is not? I wasn't one webinar where they flat out said that AI is not allowed for shoppable videos, like, just don't do it at all. And anything that gives you any advantage, you're breaking out to us. Like, What? What? Yeah, so that is what, what I know about AI and they, they're gonna get stricter, probably about AI videos, you will have to disclose, probably your sources, like you can use a real person that is AI augmented, but you need to know the person, or you need to know the source of that person, so something like that. To keep in mind, when you're building your 6000 Tiktok accounts and using unknown sources,
+
+Speaker  691152:00
+yeah, I think that's going to be really interesting. We've had a lot of videos, even legit videos, that have then been flagged as they said that. They said that we didn't have clear ownership of content, which I don't know if that was a, if that's a code name for AI or or not, but some of some of them are actually fully real, but they flagged, then unflagged, and now they're in like an optimized going and optimize it. So, I mean, they've got to be struggling with it. I think everyone's struggling with how to with how they're going to determine what's AI versus not, because at some point it's going to be very difficult to tell. It's already getting difficult to sell.
+
+Speaker  703738:40
+But yeah, I think AI is here to stay. You will just need to disclose, if you, like, Who is the person behind the AI, like you can't. Or there will be some legit avatars you can use from tick tock that are already cleared, but then everybody will have the same faces. Yeah. So, yeah, yeah.
+
+Speaker  708656:00
+I think, I think that that's where something like what you posted about were being able to use a by dance API or something to help build it out, it's going to
+
+Speaker  711205:20
+be there. Will be legit because you use a real person behind it, and you actually will pay some commission to that person, I don't want dollar or something like that, for the use of their face, then it will be legit. I talked with their API, and like I said, this is the use case we're gonna do. And they said, Yeah, it's cool. Cool with us. We just don't want, like, illegal images. You cannot take somebody else's photograph without their knowing, without their approval, and use it in AI, yeah.
+
+Speaker  719178:40
+That's, that's, yeah, that's, that's the first. Timeline of, oh, then I augmented it in some other platform, and now it's not that person anymore.
+
+Speaker  721280:00
+So yeah, for our avatars that we've played around with, we just had GPT just make an image of somebody, and then you kind of don't know if what they're using, what GPT is using as a reference. So I suppose it could be just a slightly augmented picture of some real person we just don't really know. So I wonder how something like that would would be handled, if it's just going to have to be that you have to prove that you have approval from a real person, or if you can just make somebody up, and if they can't find this person in any sort of database, but I don't know, it's just hard to say where, where GPT is pulling these, these faces from
+
+Speaker  734010:40
+this country is run by lawyers, so think about it. Yeah, so they have a huge field of opportunities now, for sure.
+
+Speaker  738160:00
+All right, I have to, I have to jump on another call here guys,
+
+Speaker  739392:00
+yeah, I think we made good use of the time.
+
+Speaker  740383:59
+Anyway. Okay, see you guys,
+
+Speaker  742101:20
+thank you, bye, bye, bye.

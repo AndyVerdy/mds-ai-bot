@@ -1,0 +1,371 @@
+Logistics
+Date: April 02, 2025
+
+Speaker  1376:00
+Rising fees, tariffs, and all this stuff going on with having to use, you know, AGL supply chain, bananas on AWD, three, pl, FBA, you know, like short term storage, long term storage, every fee in the book. How are you, how are you running your business, like, properly? How are you modeling landed costs per unit with all these things? How are you forecasting with all this, like, the, you know, Tiktok going crazy? What's current strategy for minimizing Overstock, or, like, debt inventory? So, I mean, we can start. What do you think is like, what would you want? Let me get you. Mike,
+
+Speaker  11189:20
+hello, everyone. My name is Michael Hill.
+
+Speaker  12234:40
+I also moderate the logistics channels on the MDS app. I think I'd like to have a sort of an open discussion, maybe hearing everyone opinion, and maybe I could add more on that and how I do, like, how I run logistics for my own brand. So what does everyone think of that? Like, like, I mean, they don't need to be, do they need to be limited to those questions to us? I
+
+Speaker  19072:00
+don't know, but I think I'd be like, I mean, like, Franco, you do products that you need to manufacture yourself, right? And, and how are you dealing with like, stuff happening now? Like, like, how are you forecasting? Because, especially, I mean, everybody gets sick or something, yeah,
+
+Speaker  22581:20
+or maybe we could speak, speak first about the turfs. I think this is the tariffs, yeah, something. I think everyone Yeah. So who wants to, who wants to drop me on tariffs? I have some stuff about tariffs I could share with you, with everyone here, yeah, go, if you want me to start. Yeah, okay, okay. Does everyone know? DDP, okay, so I sort of used to be against of DDP, you're doing? DDP, now, yes, I'm full. DDP, now, like, there's no other way to survive and save my business if I don't do. DDP, like, I'm the guy who does full containers, no. DDP, my staff tariffs are one 2% but now with the with the 20% it's very high. I'm in a very competitive niche. I'm the only Canadian seller. Everyone is Chinese. And I've looked everywhere, and I spoke with many faith forward, and even interview some of them. And I only see the only way moving forward, is
+
+Speaker  38021:20
+doing DDP shipments.
+
+Speaker  38661:20
+Who's doing GDP in here?
+
+Speaker  39989:20
+Okay, yeah, okay, so let me explain what
+
+Speaker  40949:20
+DDP is. It's delivery duty paid. Now, is it legal? It's legal. But again, let's just wait. So if we go back to the Incoterms, you know, there's export afobi, DDP, but the problem is, Chinese do not do it. DDP, the way we the way that everyone knows about it. For example, when you do, DDP, the IOR, the import of when you import, the supplier need to be the IOR. They need to have their own Customs bond as well. But the thing is, they do not do that. They basically give you a DDP rate. They give the shipment to a freight forwarder. That freight forwarder give it to a consolidator, and then you have no idea who's the importer and those freight forwarder consolidators, they have 100 US LLCs with 100 Customs bond, so they have no problem like, for example, if you sell in toys, oh, you might be risky. I'm gonna put you with my first US LLC. Of course, they don't explain that. I mean, because I spoke to many of them, I honestly find it less risky than me using my own Customs bond and trying to undervalue stuff, and then I get caught by customs, at least with DDP. If I ever get caught, it's not my problem. And again, there are good faith forward that they knew they know how to do DDP in a very efficient way. For example, I'll give you example. You can clear customs before even the vessel arrives at the port. And then What? What? What they do if they get flagged, they tell customers, okay, I don't want, I don't want the cargo anymore. I'm gonna really, I want to send back the container, back to China. They swap the container, and then they send it back. Because when we, when we look at it, if, if they don't do it that way, there's like 50 customers in the same container. So it's a big risk for them. It can flag their Customs bond and flags everyone else. Now, the only downside, if you're trying to exit some aggregators do not like it.
+
+Speaker  72981:20
+No aggregators like it, nobody. That's
+
+Speaker  73989:19
+you accept a few sellers.
+
+Speaker  75141:19
+But I think my thinking now, do I want to save my business, or do I care about exiting now? I mean, but not all of them do that. I can give you example, like toys. For example, say, we all sell toys, and there's one service sells educational toys. Educational toys would be zero tariffs. I mean, that's if. Were
+
+Speaker  80000:00
+the Kat so it's not only undervalued invoices, but using different HS codes. But basically the reason to use DDP is for you to do stuff to your shipment that you wouldn't want to do under your own company, and to let the Chinese do because they don't care. So it's very gray area, but it's very
+
+Speaker  85989:19
+profitable, and there are ones that do it in a good, good way, and there are ones that do it not in a good way. So you want to work with the good ones. That's another thing.
+
+Speaker  88629:20
+Can you give us some guidance on how to find a forwarder that does a good, good way? But yeah,
+
+Speaker  90405:19
+you want to take, yeah, everybody should make their own decisions. And I'm not judging anybody. But, like, this is duty fraud, and I wouldn't, like, normalize it. It's a massive risk. Google, duty fraud, prison. Like, shit happens and I don't. It's not a judgment. I'm not at all judging anybody, but it's, I just want to, like, use the right term. It's not normalize it, because if a certain percentage of people in this room, and it's widespread in the industry, eventually shits gonna happen. Well, I mean, this is something that, like shiny, for example, is going to Congress and campaigning against Exactly. But
+
+Speaker  99216:00
+for example, there are solutions. For example, I was speaking with an import lawyer, yeah. He was like, speak with your supplier. Let them export everything under their name. So basically, they use their own invoices. And probably that the cops will will be for example, my house is five bucks. Maybe the COVID is one $2 and then have a deal with them whatever duties they pay. Just
+
+Speaker  104869:19
+there's Yeah. There's lots of people worshiping to their right hand, to their left hand. There's a lot of ways to do it. Just Yeah. Everybody has to make Yeah. So, I mean, GDP has existed for years, yeah, years? No. DDP is just your supplier handling it for you. That's an entirely legal thing. What we're talking about is, but
+
+Speaker  110394:40
+the problem is, there's not the importer, there's someone else. That's why it becomes like, like, DDP. It's legal, yeah, if it's done the proper way. But Chinese do not do it the proper way. That's why I call it exactly the Chinese DDP
+
+Speaker  113984:00
+fair. All right, yeah, okay. Next, there's like, landed costs, right? So, how does anybody have an approach, like, how you, how do you, how do you do your landing costs nowadays? How do you measure with everything happening? There's
+
+Speaker  117845:20
+no way to do it exactly.
+
+Speaker  118565:20
+There's no because you have to take the mic.
+
+Speaker  119813:20
+Yeah. I mean, you could get so granular trying to calculate the exact landed cost, like, if you have a container that has different goods in it that are different volume fees, how you are you putting that on your cost of goods? Say that again, the placement fees. Are you putting that as part of your cogs, probably shipping to Aw, okay. No, those are after my cogs, the placement
+
+Speaker  125690:39
+fees. We avoid them by shipping to AWD, yeah. Or the other options, you would have to ship to five locations, yeah, or just pay the placement fee. Yeah? Anyone? Does anyone does anyone here pay
+
+Speaker  128496:00
+the place this fees, as far as landed costs go. So what we do is, and because the container, I don't import, but I also mix truckloads, so I'm a little different, but same idea. I blend based off of weight, and I blend based off of cost, and that's how I get to my landed cost of the shipment. So it's a little bit of both. That way, it's not heavier on weight and it's not heavier on price, because in my category, I have $1,000 item that weighs two pounds, and then I can have a $50 item that weighs 80 pounds. So it just kind of, that's the blend that we do. I want
+
+Speaker  140122:40
+to hear what you have to say. And I wanted to add one more thing to the variable, long term storage that's now happening like 90 days, right? 183 6180, but I think they're adding something. They're adding they're adding all these little costs, right? So if you're not keeping stock, keeping track of that, like, by day x, this unit incrementally increases in cost. And what are you doing? Like, on your books? How are you guys handling it? Yeah, you have something.
+
+Speaker  147632:00
+Well, we're using a software because we were having a lot of issues with that, expect, especially with this inventory surcharge stuff. So we're using profit Cyclops. It's not perfect, but to people, if anybody has used it before, it's 100 bucks a store, and it's not bad, and it takes into consideration. We use that for granular and then we do all of those as like an SG and a so just a general overhead cost
+
+Speaker  155146:40
+cost of that one got something to save for him.
+
+Speaker  156426:40
+So for long term storage, we have someone monitoring noise when anything's close to 30 days hitting that threshold, which is aggressively running promotions to get out of it. And we're also using a tool, easy seller kit. We use File repricing. They just added new rules where you can put. Rules based on long term storage. So you can put in a target, because sometimes you can have units that are already long term storage of the same SKU that you have units that are recent. So for example, you have 300 units that are sitting there for six and a half months, and somehow you have another 100 units behind it. So you can set a rule, just keep discounting the price until those units are out, and then it goes back on its own, off the monitor, just as a long term storage. Well, I'm trying to remember, what were we talking about before long term placement, right? The cost placement? Yeah. So most of my shipments are out of California, so we do it. But for now, we have a lot of we sell bedding. Stuff is like, you have anything from pillowcases, sheets that's up to bed says, so I have the person who does all the inventory planning. She has prepped, like, all the shipments we're going to need for a next while, and she's just checking daily to see what shipment we're getting for a single placement. So very often, it'll be, you know, for a few minutes, it'll be available at the local place that we're paying 350 bucks. So again, which we're thinking about it on a per piece cost. So we're constantly tracking how much my placement fees, plus how much is my cost the shipping goods. I'm shipping 15, 1015, trucks a week, so we're constantly looking at the per piece cost to get it to delivery. So if we're getting G, y, r3, or something in Arizona, which doesn't cost us too much money, she's gonna hold off and just keep checking, keep tracking. And I've seen sometimes Saturday night at 1230 I see her online. She found a little window, and she's booking $50 that was one of the hacks, exactly. And sometimes you just got to keep exactly. You got to keep you do one or five. So so far, we've been doing all
+
+Speaker  183493:20
+one. One makes more sense, because it's a full truck load close to California. I'm paying nothing for
+
+Speaker  184533:20
+the shipping, right? I'm paying 350 of shipping. So it's really just a place and fee, and we just blend it out, and that's what we use as our metric of, you know, what below or above we're willing to do before
+
+Speaker  186661:20
+moving to a WD. I used to do that, but then at one point, west coast so, so hard to get it. Yeah, yeah.
+
+Speaker  188250:40
+I mean, did anybody switch to East Coast now? Because it's East Coast has been so cheap to get into.
+
+Speaker  189306:40
+I think Antonio had a shipment to East Coast AWD, right?
+
+Speaker  190570:40
+How are you finding
+
+Speaker  191450:40
+it east coast? Like, checking
+
+Speaker  191978:40
+fast, like we
+
+Speaker  192368:00
+were having issues with
+
+Speaker  193376:00
+delivery, our forwarder told us that he was having issues with deliveries to the West Coast, so we decided to send a few to the East Coast. Also, we were saying that once the products left AWD, they would stick around California for too long, and our delivery date, the delivery times were longer in the East Coast. I really
+
+Speaker  198645:20
+so from AWD to FBA, you're finding East Coast longer times than
+
+Speaker  199877:20
+No, no, my products that were mostly on California. AWD, it would take a long time to trickle into the East Coast. So what we did was we decided to have one ship and center each way, just to have, you know, the country being served by both sides.
+
+Speaker  205818:40
+Did it work? What port does it go?
+
+Speaker  206794:40
+We did Baltimore thing.
+
+Speaker  207834:40
+There's also the low inventory fee. Anyone has tips for everyone here?
+
+Speaker  209536:00
+Billion, we
+
+Speaker  209904:00
+use the AWD, unfortunately, because that helps with it. With the auto replenishment, yeah, yeah, with the auto replenishment, because that's the only thing we can really see. When we first started, we had to split the inventory between AWD and FBA, just to kind of jump started, because we heard a bunch of horror stories about AWD taking forever. So we sent in stuff that we felt got us through the two months, and then it seems to have been working. We have probably about 400 SKUs on auto replenishment, and they seem to be working pretty well. I was more surprised. We brought in a huge shipment of printers which were in their oversized category, which has been the trouble, and I don't know why, maybe because Amazon sells it also as a 1p they've been pretty good at replenishing it and actually giving us a good amount of share in the buy box. And I don't know if that has anything to do with it
+
+Speaker  223466:40
+for me. Why I do? Since the low inventory fee is tied to the parent, asin, I make sure my hero asin is is like stock, stock very well. And then the other child, ASINs, even if they go low end of the day, they look at the average. So no matter what I feel like, is very important nowadays to have variations. Sort of, it protects you. I mean, if you didn't do AWD and then auto replenishment, then that's sort of the other way around it. Yeah.
+
+Speaker  230565:20
+Just curious. I saw this on a chat the other day that there's this additional tariff that's going to be kicking in for anyone who buys any country who buys oil from Venezuela, which includes China, or an additional 25% kicking in April. And I haven't seen anybody talking that it's going to be 25% above the 20. I know you look shocked, and so that I when I saw it, I'm curious, if anybody's hurt, is this like a mistake, or is this for real? Does anybody know? I mean,
+
+Speaker  236666:40
+if it happens, it's always above, right? Because that 20% is blanket, there's no exemption, maybe military or guns or something like that, when I looked into it, but anything other than that, it's always above. So the steel one is very interesting, because even if your product has small components of steel, you still have to declare it and then pay that extra 25% of that component too. And if you try to lie, they do with those x rays, they're gonna see what's inside the product too. That's one is very interesting. One you don't get always selected for X ray, yeah. And now they have two DDP rates for steel one and non steel one. And the DDP rate for the steel one is a little bit more expensive because I've done an extra 25% Yeah, that has been just a few days ago. Yeah.
+
+Speaker  248709:20
+Brady, what you got to say? I feel like you also have a lot of logistics knowledge. No, know how, how you dealing with the times? Um,
+
+Speaker  250485:20
+what we're doing, really, is we're just trying to work more with our Chinese manufacturer on storing more inventory in China, because we find AWD as being a better ticket for us. So sitting on inventory and then just more kind of feeding it directly to AWD constantly, and using kind of three PL less has been helping save costs, because AWD, essentially, is that new three PL for us. Another thing we're doing is we are incrementally raising our prices, just getting our customers ready for these tariff bumps that we're going to be going to be paying. Big toss, toss,
+
+Speaker  263029:20
+pull it. Just make sure, if you're using a WD, that you have an internal system that will track what's been shipped and what's being received. Because in October and November, we had several shipments had, like, hundreds and hundreds of skews and units like, 40% of the shipment never made it to FBA. And we wouldn't know that until the shipment closed on Amazon as not received. And we would contact AWS. They would say, oh, it's misplaced. We don't know what it is. We'll try to ship a ship. A ship it again. And we basically lost all of our q4, sales, a lot of our products, because AWD wouldn't find our stuff.
+
+Speaker  275120:00
+Sujay, can you grab the mic? Sujay,
+
+Speaker  277135:59
+we have you found a WD to be improving? So my experience, my latest experience with them was the MDR. Recently, not many issues, but we were tracking closely. Now
+
+Speaker  280789:20
+we have something valuable that no one like that email that they give it to us. Oh, like, it's the best thing. Yeah, I went full Karen on them, and
+
+Speaker  283594:40
+they like, what do you know,
+
+Speaker  284010:39
+that's the poor email for AWD, yeah, when they, when they had the first call with us, huh? It sort of created the email for us, the MDS. And it works. It works, yeah? I mean, sorry, no, no, the server was down for a few days because we haven't, I don't even know we had that. Yeah, it's a special one. Oh, special one. Join MDS. Honestly, when I do, when I do the interviews, I was like, listen, we know aw team. We have an email. I was like, Oh, wow. And honestly, they solved 90 95% I wouldn't even have, I happen to know the director, like Antonio bindi, but I really have to email him now, the team, they're the good team, most of them based in India. They solved 90, 95% of the problems. So I feel that email is very valuable. That's why I'm still with AWD, yeah. I think for me, at the beginning, it was very hard, but now I know everything is slow. As long as I adjust everything, I adjust my lead time. It's fine with me, like, like, even if it takes a week, two weeks, it's okay, totally. The only bad part we had to sort of stock more at AWD, which little bit, here's the cash flow. But again, there's always ways you work with your supplier, you know, having a better payment term, stuff like that. Yeah.
+
+Speaker  302410:39
+Toss it back that way. I forgot what was your name. Sorry.
+
+Speaker  303338:40
+Hardeep. Hardeep, yeah,
+
+Speaker  303930:40
+yeah. So we made a pretty big switch to a WD during q4 which was a bad decision. Now we are trying to figure out how much of the stock split should we do between AWD and like a third party warehouse, just because AWD is going to have longer check in times I'm giving it like four weeks, if I'm with, you know, three PL, we can usually get it in two weeks strong, somebody early, and they said they're doing 5050, between AWD and, you know, third party. What is the consensus in the room? And more would be curious. Your thoughts. I
+
+Speaker  314906:40
+knew this is happening. I remember I had a talk with Brady. I think if he didn't split his shipments, he would have probably be I mean, I'm sure you remember our conversation. I knew this is happening, and Tony knew about it. I think what I did, I didn't send everything to Aw. I probably did 5050, I'm not sure if there is. Sort of an exact number, but you want to, you want to basically diversify. And I'm seeing this is happening this year too, because I just spoke with the AWD person there. He was, like, we still have, we still didn't have new buildings. So they expect is going to be bad this q4 as well. So I think the idea is you don't want to send everything to AWD, like, like, even if you have to use a three PL and then pay a placement fees. That's one way. Or even send five, five DDP shipments to Amazon FBA. And remember, every time you create a shipment, you get different FC so that, I think that's one way to diversify. And always, always send stock from AWD to FBA very early, like, like, even end of September, not even wait, wait till October. I know, yes, storage fees is very high, but you don't want to stock up. That's, that's the whole idea. Yeah, can
+
+Speaker  331914:40
+we, I want to talk a little bit about, yeah, sorry, Overstock, Overstock, yeah. I feel like that. Or like, does anybody have a reliable way for getting rid of that inventory?
+
+Speaker  334218:39
+Antonio, you have anything to add on Overstock?
+
+Speaker  335354:39
+That means you're very optimized, I guess. Yeah, you
+
+Speaker  336128:00
+suck at it. I mean, I mean, like,
+
+Speaker  336976:00
+all right, we go. So I'm
+
+Speaker  337664:00
+so answers no for me, but what I've been doing is I've been taking some of those overstock inventory out and using that to get wine reviews. Since they're already in the country, take them out, send 30 in, and just use them to at least get wine reviews, since they're just dead inventory, like a new asin or Yeah, so I would just take everything out, create a new asin, send 30 in, just churn it to get wine reviews, since I already have it here, but I don't have an answer for Your question.
+
+Speaker  346677:19
+I think there's one program called the outlets or something, where many MDS members try to use, I don't know, you have
+
+Speaker  348394:40
+to, like, 60% off. I mean, most times I found it costs more to sell that ship, the unit, than it is. So it's like, you're a negative. You might as well just destroy it, donating a challenge. I mean, like home goods. I mean, that's stock. I have a couple close up. I mean, I email lists for all closeout brokers. I like a list of them, but that's only your warehouse stock. Nobody wants to buy an Amazon inventory. Nobody will take that 100 shipment removable remove and the movies crazy bank fees, and
+
+Speaker  355759:59
+you need to figure out what the total cost of removing, plus getting rid of the of the Asian is against selling it for huge discount, I will at least bring you some even if at a loss, it will just bring you some cash into the account, not just throwing it away. But we have this super complex spreadsheet that tells us, with time, how how much we can discount that unit without being at a loss, and well, how many we have to get rid of and certain amount of time not to fall into over over storage fees and long term storage fees. I mean, we track that pretty well.
+
+Speaker  367738:40
+You want to share that in MDS as a big post got ourselves smart,
+
+Speaker  369584:00
+positive back there.
+
+Speaker  370640:00
+So one of our concerns with closeouts, liquidations, et cetera, is ending up back on our listing and messing with product reviews. So you said you have stuff going to where'd you say, Overstock
+
+Speaker  375029:19
+home goods or home goods? Yeah, yeah, they just all in their own stores. Is
+
+Speaker  376133:20
+there, like, a reliable outlet where I can get rid of damaged goods or, like, open box, whatever, where it doesn't end up back on Amazon. For me,
+
+Speaker  379306:40
+like, actual selling, right? If it's something that a buyer will take, like home goods, like, when we probably, sometimes we make a little bit of money, but most times it's like, we're maybe losing 30 to 50% of our cost of goods. And then we use, I mean, Good Morning America, and I'm sure GMA. So like, we run with all of their view your deals and 40 boxes. They have a time that's actually going 40 boxes. They have a sub deal segment, which is they run a two week long deal. And we fulfill, like, we like, these are listings that are dead, right? So, like, we don't care about pricing on it, so we jack up the prices on Amazon, send it to them. They honestly don't care. They just need to approve it. So it's like, we manipulate the price. We do a deal for two weeks, and they and then we shipped MCF. But can you do MCF? Can you do by MCF? Because it's a drop ship per day, right kind of thing? And they
+
+Speaker  394181:20
+and, I mean, we can move, like, 1000
+
+Speaker  394533:20
+units, because when I asked about this, you need to have a three PR, but maybe three PL, but maybe not all missing. We
+
+Speaker  395850:40
+have a three PL, but we still do, yeah, yeah. So that that's but yeah, I if it's product that you want to maintain, then yeah, you got to be careful where you selling if you want to get rid of it, then get rid of it.
+
+Speaker  399386:40
+Okay? And then one more question. So. I was just talking with the AWD folks out there, and my my understanding from everybody that I've been talking to is kind of the default assumption, is that if you let AWD automate the replenishment, that you're kind of hurting yourself, or you're you're gambling a little bit. Anyway, she said that you can set up guard rails that say if how much inventory, how much inventory you want to be, kind of your break even before they send in. I didn't realize that you could. Actually, they
+
+Speaker  408501:20
+added it a few months ago. It's as the skill level. But I'm still, I'm a big fan of manual too. Yeah, like Antonio, do you do both? Like I do 100% manual, because it's more controlled, and then it makes the person working harder, because that means they have to review. You have to do forecasting on a weekly basis. I feel with auto, if you don't have a team, you get lazy, and then you trust the system, then, oh, I'm out of stock. Now. Yeah, right, yeah, okay. I think attorney mix of both, yeah. And after this,
+
+Speaker  417568:00
+I want to talk a little bit about forecasting and chirality and stuff. We
+
+Speaker  418784:00
+we've it's hit and miss, but we've had success with something similar to what Brian Williams hack was actually. So if it's an item we want to keep, and we don't want it back on ourselves by blowing it out, we'll do we'll try and run some, like giveaway, almost meta ads on just pay shipping, or, like, even sometimes win a product. So then at least we're collecting emails, and then we just fulfill the order to the customer. So not the cheapest way, but when you really put the cost down on pulling that item out, it's at least we're getting an email, and it's not that much more.
+
+Speaker  427322:40
+Another thing I wanted to talk about is
+
+Speaker  428266:40
+with all the like trying to manage inventory and AWD and FBA, I find Amazon still really bad on knowing seasonality, especially with your capacity limits. And we have found that even they, they under judge some of our seasonal events and getting inventory, especially if you're launching new products into Amazon, is hard with managing their capacity limits, and the hack of the hold orders to free up your capacity limit is still still working, which I didn't want to say in front of Amazon reps out there, but
+
+Speaker  437813:19
+this is a closed room on that. I have not been able to have success with this. I'm testing it so WOOT owned by Amazon. If you get I've been trying to get a buyer to accept it. They just now accept it again we submitted, but it's like they have deals where either you fulfill it or they use your FBA inventory. If you get a deal approved by a buyer, the inventory time clock resets because they pull the inventory into their possession. So you don't actually sell anything. Doesn't matter. You're not trying to make money. You just they take the inventory and they give you back the inventory and resets the clock. It's very
+
+Speaker  446794:40
+hard to get accept. Very hard to get accepted. Camera Walker was like, I'm still waiting. Yeah,
+
+Speaker  447850:40
+yeah. So I haven't gotten them, the buyer, to accept.
+
+Speaker  448976:00
+No, no, they accept.
+
+Speaker  449648:00
+Yeah, it's not. They just need to accept it as a as a deal, which is the hard part.
+
+Speaker  451487:59
+But you can always bid, of course, but you have to pay for it. But the nice thing when you bid, say, if you're trying to bid for December, and it's November and it's too late to bid for November. Once you get approved, you get November too as well. So that's, that's has been always working, like it's, it's never too late. That's all I want to say, Yeah, but I yeah, that still works, yeah. So we got, like, six, yeah,
+
+Speaker  457093:19
+let's do forecasting. We have five minutes forecasting
+
+Speaker  458373:20
+for So, okay, for Kat,
+
+Speaker  458874:40
+who's does tick tock? Anyone does tick tock here? Nobody here has went viral. Guys, what are you doing with your lives?
+
+Speaker  461690:39
+I guess, I guess that's why they're here. You're the wrong room.
+
+Speaker  463370:40
+Do we skip that? And then just yeah,
+
+Speaker  463722:40
+we can skip that. Who has a problem? Yeah, you have a problem. Wow. Okay,
+
+Speaker  465295:59
+so we use seller mobile, I think is the name of the product company, to help with forecasting. But what it never takes into consideration, I don't know what anybody else does, is it never takes into consideration when the product actually drops. So like, you send off to FBA to get some pre sells, which is great. It kind of gives you a run rate. But when does it actually, like, if we send off 1000 units, when does it fully land? And that's when it should really give you the run rate, not from when it left my facility, not when it got Yeah, but like, let's say 90% of it is now checked in, ready for sale. That's really when I want, the run rate, not that other information.
+
+Speaker  476154:39
+Is there any way to add to added buffer? Yeah, like doing buffers
+
+Speaker  477274:40
+ourselves, manually, but I want, is there a software out but that's intelligent enough to understand that?
+
+Speaker  480000:00
+I don't have what I'm trying to say is, I don't want to add
+
+Speaker  481087:59
+that. There's plenty of ones out there where you can add in your buffer. I don't want that in the buffer. I want it smart enough to understand that goes, Okay, well, we're only going to take it because it's doing this. I have to actually still manually review it. I want something that's intelligent enough to do it in somebody you
+
+Speaker  488197:20
+hire Scott Deese to put together a crazy spreadsheet for you. So
+
+Speaker  489205:20
+does for forecasting?
+
+Speaker  490245:20
+Do you guys use tools or spreadsheets or a mix of both,
+
+Speaker  491402:40
+because of both? Yeah, I do the same mix of both,
+
+Speaker  492346:39
+so stuck and then my own Google Sheet. Yeah, Antonio, probably your mix system based off RBI,
+
+Speaker  495786:40
+does complex forecasting, so you
+
+Speaker  496687:59
+probably have to cancel some stuff, I guess.
+
+Speaker  497679:59
+Yeah. How many will use the software? Raise your hands. The rest is sheets.
+
+Speaker  499695:59
+Yeah, good way to go. Anybody else have a problem we can fix in two minutes?
+
+Speaker  500704:00
+I have a question. You have a separate person doing the forecasting the supply chain?
+
+Speaker  502293:19
+Or do you sort of unfortunately
+
+Speaker  502773:20
+right now, it's me.
+
+Speaker  503701:20
+I'm looking for someone, but because I'm very picky about it, I can't find the right person. But I've seen people doing it different ways. Maybe Antonio bindi could talk about it, because he had a big team. And Tony, do you have one person or two for that?
+
+Speaker  507834:40
+I have one leader that does my forecasting and commercial planning, and he's fed by data from my inventory manager.
+
+Speaker  511402:40
+I feel like I don't know at the very beginning, you could do it with one and that depends how fast you scale. I mean, end of the day, it's just a system, and then you just, you know, it depends on the complexity.
+
+Speaker  514320:00
+We have 400 SKUs and 13 different, I mean, in four regions. So it gets complicated with time. And yeah.
+
+Speaker  517477:19
+So the other thing I want to add also containers. I know we cannot ship containers because of DBP, but last time I checked with my fridge folder, they're at 1600 now it's like the lowest, the lowest in the past. Where to from China to La? La? 1600 1600 Yes. But then you get, you get the tariffs. Of course, you have to do the math. Oh,
+
+Speaker  523338:40
+yeah. And has anybody successfully got discounts for their suppliers?
+
+Speaker  524458:40
+So that way, how it works. I got 4% that means I have good prices. But if you get 20% that means he was, he was not good at all, I see it, yeah. So if Yeah, I mean, I couldn't get more than that. The other thing, I'm hoping China devalue their currency so that that means a USD will buy more RMBs, so that will help sort of with the tariffs. I It might happen, we're not sure yet. So yeah, DDP, shipping cost down, devaluation, I think we is going to be something good for us. That's,
+
+Speaker  533456:00
+yeah, of course, of course. Yeah. I
+
+Speaker  534581:20
+like all my purchase orders in RMB, but when I pay my supplier, we base it off the USD, RMB exchange on the payment day. That's the best way. It's fair for you, for your for your supplier, but if you have it in the USD, you always have to negotiate, because sometimes it's better for him, so that's better for you. That's the way how I do it. Yeah, I.

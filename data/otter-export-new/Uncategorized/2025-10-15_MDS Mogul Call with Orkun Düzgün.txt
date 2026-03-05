@@ -1,0 +1,236 @@
+MDS Mogul Call with Orkun Düzgün
+Date: October 15, 2025
+
+Speaker  00:00
+Give me something? Do
+
+Speaker  864:00
+you want to put? One, if you're using if you're using AI every day? Two, if it's definitely every week, of course, we're using it all.
+
+Speaker  4336:00
+We're seeing once everywhere. This is what I was expecting. Thank you so much all. And then the second question is going to be more details for which cases you're using the AI most. So those are the ones that I'm actually using them for my purposes, and feel free to write yours. And meanwhile, I'll just mention a few of them that I'm using. I'm sometimes using not a lot of them using for research. I am using as my doctor, because of my blood tests and everything, I just want to make sure everything is running smooth. Gym buddy. I go to gym all the time, so it's pretty fine. I also edit friends here, but I'm hoping that no one is using any of those AIS tools as a friend. But I'm not gonna judge if you're using as a friend. That's also fine. So any other use cases that you're using that I haven't mentioned here, yeah,
+
+Speaker  17520:00
+put them in the chat, if you've got any good ones. But I use it to help explain stuff, to help explain stuff to my kids, like I had to explain to my son why he had to wear shoes with his with his football boots. And if you say you're here, you go, Oh, hey, I'm here with my son. He's four. He will then speak to them directly, and they love it, and they can ask follow up questions.
+
+Speaker  24405:20
+The other day, I saw one video about like on a Chinese girl. I think she had some sort of an AI tutor, and I think she broke her tutor, like the thing that was broken, and she was crying so bad that her AI machine is broken and she cannot talk anymore. But anyways, I'm seeing some gurus like image creation, brainstorming, research, coding. I'm also using for coding as well. I am a computer engineer, so it's pretty good virtual girlfriend. I love it. Yeah, good luck with that. I think, I think it might be a good idea to go out and have some fun. I know it's joking, so let's continue then. This is a study that is done by McKinsey, and you can actually see the link at the bottom the state of AI. And this is actually showing us something interesting. You can see that they analyzed the usage of AI by industry, and you can see that marketing and sales on the top and overall, with four to 2% of people on the marketing and sales using AI. And you can see the whole list. But again, even with the IT category, which is on the third and fifth or sixth, is software engineering. They are lacking behind using AI. So we know that so far with the AI enhancements, we know that marketing and the sales is going to be the number one thing that's like, the best thing that you can like, the best industry to use AI. So here is a story the other day. I was actually cooking pasta. You can see the pasta in the background. I was literally on my kitchen, and give me Excuse me for a second. Okay? And I was on my kitchen. I was cooking pasta, and this is also a product that I was planning to eat. And then I had my iPhone, I took my camera out and I took a photo of it. The idea in my head was, Can I actually take this photo that I just took while I was cooking pasta and turn it into a listing, like a complete listing, an AI listing from scratch, just using one iPhone photo. And then I thought to myself, Okay, what do I need? I need main image. I need creative lifestyle images. I need informative images. And maybe I need even more. So, of course, the first stop was my best friend, which was chat GPT. So I started planning with chat GPT, and I started with a super simple prompt. And by the way, this is something that I want to mention, you will be able to get all the prompts at the end of the slides, or maybe even tomorrow, Jamie, please correct me, but I'll be sharing all the link and the SOPs so that you can follow it along.
+
+Speaker  68813:20
+Cool well, and it's a recording as well. Yeah, oh,
+
+Speaker  69733:20
+yeah. So we started with it like, I started with a super simple planning I asked for this product, which I attached? What are the seven images that that can be created for an Amazon listing? This is super simple prompt, and this is my this was my starting point. I started with some some ideas. Like, I got my main image idea. I got my lifestyle images idea, and I liked one of, one of the ideas that chat GPT mentioned, which was, okay, this can be used for hiking. And the idea of, like, gym, hiking, outdoor, or, like smart, smart snacking and stuff like that. And since I am a gym Gore, I wanted to create the listing in a way that it focuses on high protein gym and and like impactful and healthy snack kind of nature. So this is how I want to plan. And I was able to like, I was able to chat with chat GPT a lot to be able to come up with those ideas. But then after that, I started with my first prompt. I took the main image one, and I actually was able to create this one by just a simple prompt that you can see at the bottom. So this is going to be the simplest thing that we will be doing in this presentation, and we'll just going to get more and more advanced. So I was able to create this 3d rendered image. And normally you might imagine that, like creating a 3d render image or a product would cost. I don't even know. So at the end, I have the product, but then I realized it's it's not good enough. And then I started looking for some competitors, right? You might be already aware all of those tricks and tips and tricks that we have on Main images, using packaging, using the ingredients that are available in the product, or the fruits or whatever, or even the third one, which you can see on the right, which says sleep protein. You can see that it says magnesium calm, and it also says 20 gram of protein as a label. In reality, I know that I checked the listings, I know that this product didn't actually have those tags or those texts, so those are all generated afterwards. So then I realized that I really needed to improve the packaging, like what is happening in the background of the product. So this time, I didn't work with the same image, but I worked with some test images, just because I wanted to see what else I can do. But just to give you some ideas, all of those images that you're seeing was were created with, this time with chatgpt. But before that, we started using nano banana, Google's nano banana. You will hear a few tools and how to use them throughout the slides. So don't worry about them. I'll just mention which one was used on which creation. So anyways, my main image was ready. I was able to create it from the iPhone photo that I took. Then the second part was creating the lifestyle images, and this was the part that was a little bit more challenging. First, I'm just going to show you one photo, which, if you are creative enough, and if you know how to use the tools that we have available right now, this is what you can create. So you can see at the bottom of the whole you can see the prompt at the bottom, which is a pretty long prompt. It includes a lot of details. It includes some camera shots and everything. You can see pieces flying around. There's smoke and everything. But of course, this is when we go full creative. And I'm just gonna break this down how I did it, and everything. So first I started, if you remember, from the beginning, I started with my planning. My planning was for this image create seven, like, give me seven image ideas that can be created to use an Amazon listing. And if you remember, the second one was outdoor and adventure idea. And this gave me an idea of a person hiking, and like, there's a backpack and he's taking or she's taking out the product from the backpack. So it's showing that dynamic nature of the product. And then I started this idea, and with, again, another simple prompt I get for this shot, give me a prompt that explains the scene in detail. So here you need to provide the scene that you have in mind, and you don't have to provide all the details, but you need a detailed prompt to be able to create this image. So at the end, as you can see, my prompt was pretty simple, a lifestyle image, outdoor hiking scene. I mentioned the position at a warm lighting I mentioned, and those are all came from the brainstorming ideas that I did with chat GPT so and from this prompt, we were able to get a pretty detailed prompt that you can see below. But this is the part that that I also realized there are some things that are not matching. So if you can see the red highlighted part, I realized that it was mentioning something about clearly, like showing the product clearly towards the camera, and the beef jerky package should be in a sharp focal point. I didn't like those ideas, because at the end, I wanted the product to be more like, not on the main shot. I just want it to be there, but not in your face, kind of a structure. So I removed that, and then I got my final prompt, and I also use the same iPhone image that we have, and with, again, pretty long to prom, I was able to get this image. So this is a
+
+Speaker  161200:00
+pretty good you got prompt from chat GPT, but then you edited it a bit, exactly like to edit it a bit, okay, exactly.
+
+Speaker  164160:00
+So at the end, you really cannot use like, the first prompt that comes out, or the first suggestion that comes out from chat, GPT, or any other tool. At the end, the idea here is to just iterate and try to find out what actually is your vision about your listing versus what you want to create, and what is the prompt. And then if you can match this prompt with your vision for your listing, then you're good. And then, of course, this is going to take some time to create multiple images. Like, for example, I realized, and I realized this after creating that for, like, after a couple of hours, I realized, and maybe you didn't even realize, but there are actually two backpacks, which doesn't make sense. So even when, even knowing that this was done by AI, it is really hard to catch some stuff, especially when you're shopping, you don't really look for details. You don't really look for if this guy has two packages, or you don't really look if this shoe is looking normal, or whatever. But at the end, if you want to make it better, this can this was like, we could make it better, but I didn't want to, so we just want to continue. And yeah, Lisa was mentioning good catch. Didn't notice, to be honest, I didn't notice, like, until this moment. So again, that's totally fine. Moving on. Then I realized, over here, I realized that I actually created a character, right? That in some cases what we are doing is we are creating characters, but the consistency is not there because the characters are changing. But let's say I want to, because I'm like, I want to, I want to have some sort of consistency, consistency on my listing. And here is the challenge, what if I want to create? What if I need to create a character? I started with a super simple prompt, and those are all created on Google's v v Google's nano banana, and I just made a super simple, super stupid prompt. I said, Give me a California based influencer, UGC. Shot, not UGC, user generated content. Shot, no text or image. Make it look natural and blah, blah, blah. This is what I have. This is super solid. This, even though it is super solid, it doesn't really make sense, because, why? Because it's not telling anything about my product, right? My product was a beef jerky like, what am I going to do with this? Then it's all about iteration. I realized that I can just take this image, take my beef jerky image, and then prompt in a way that make this character holding this beef jerky. And I also mentioned, which is one trick that I realized that is helping a lot. Is to mention the height of the product, around 2025, centimeters height. And then, rather than a bottle, and this is what I was able to get. This is super solid. This actually helps. This is usable. But I want to take it further, because, if you remember, I wanted to use this. I wanted to have a listing that is gym focused, like more protein focused, and this doesn't look like any of it. This is just a random girl. Looks like California. There are some palm trees and everything, all good, but it doesn't work for my listing. Then we iterate. I iterated further. I took this image, I added I didn't need to do this, but I just wanted to challenge it. I said, change this to a Jimson, and at the same time, change the pose while holding the product. And this is what I have. And as you realize, this is still super consistent when it comes to face consistency, the body consistency, the product fitting perfectly. So at the end, this is almost what I wanted to have. But of course, I didn't want to stop. I wanted to make it even better. If you realized I mentioned that I wanted to have a dark team on my listing. I didn't want a light team. So as you can see, there is like, a huge amount of highlights coming from the background, and I don't want that. I want a black gym. So then I took this image, and finally I said, Okay, let's change the gym with a darker gym and make her sit down while still holding the product. And this is my final result. So this is exactly what I wanted to do at the end. I wanted a darker gym. I wanted to have this product. We could change it to any other thing you can say, even the girl taking this product from her gym bag or something. But again, this was good enough. And when you start iterating like this, you will be able to come up with images that actually looks like the ones that I'm showing you right now.
+
+Speaker  236826:40
+So these are all nano banana, right? Exactly.
+
+Speaker  237626:40
+These are all some of some of them are mid journey. Some of them are nano banana. But at the end, the tools. At the end, the tool choice is, even though it's one of the most important ones, it might not be the most relevant one in two months later, because the space is moving too fast. At the end, what we really need to focus on, how is the processes and how we are actually creating them. But for now, the best tools out there, which I will also mention at the end of my slides, are going to be Google, standard banana and mid journey for image creation so far. So we created all the images. Everything looks perfect and Nate, that's a great point on the left corner. You will also realize that the packaging changed. This is also something that I realized this can be fixed. But again, for this purpose, I just kept it as is, but if we just upload the same image and ask for a change, it should be done. But again, we always need to keep in mind that those are AI created. There are going to be still some stupid stuff, but the stupid stuff that is coming out right now is way less than what it was coming five months, seven months ago. So the pace is super fast, and we need to align like we need to catch up with the speed. Yes, this packaging is not looking correct, or the guy had two backpacks or whatever, but we are talking about the pace where, one year ago, we were not able to create anything, almost anything. Right now, if you're looking at photos that is almost impossible to identify the difference, and just imagine what's going to happen six months later. So this is the idea that we always need to keep in mind, and that's why we also need to keep testing those products to see how we can actually fit our fit them into our processes. Like, is it listing creation process or something else? But anyways, so moving on. And this is again, me. I didn't like this AI creation, but I just went with it. But anyways, what else can be done? Maybe a video. Because, again, the listing is all about visuals, right? And especially advertising is also all about sponsored brand videos. So you might know that there is an AI Amazon's AI, sponsored brand video creator that is actually live right now. And I actually tested this. This is one of the products that we are actually managing, and this is how the video came out. And I'm not kidding, this is how it came out, right away with the first try. I don't know if you are hearing the video. Can you hear the video getting the sound? How can we get that's okay,
+
+Speaker  281957:20
+when you can get the sound. If you stop sharing, start sharing again and say some like, take something that says something about audio. I don't remember that.
+
+Speaker  284778:40
+That's totally All right. That's totally All right. So I'm just not gonna do it. But for the next video, we might need to do it. So I'll just
+
+Speaker  286282:40
+you got good sound, you got good sound? Did you What did you got voiceover? Or this?
+
+Speaker  287482:40
+This? No, this was like, some, some stupid music, let's say, and the video is not with the video is not looking good, right? It doesn't. It doesn't really look like it can convert or anything. But there is just going to be one more link that I'll share with you in a second. Let me just find it real quick. Meanwhile, because I was hoping that the the video sound would work, but that's totally fine. All right, I'm gonna move on. So you realize that this is an image, that this is a video that actually cannot be used, right? This is, this is unusable. So then I realized I need to find another solution, and for me to be able to create sponsor brand videos.
+
+Speaker  298805:20
+So you you're not recommending that we use the Amazon tool at the moment, not,
+
+Speaker  299882:40
+not yet. But there is a small, small note that I need to mention. They actually launched a new link. I can also find that real quick, like, let's just make it more casual. Wait, it's, I think, called Amazon dot studio, if I'm not mistaken, let me see if that's the correct link. It's nuts. I'll find it out, and I will share it with you. Actually, like they actually launched something new, super new, AI studio.
+
+Speaker  307552:00
+The link in the chat,
+
+Speaker  308096:00
+beautiful, exactly. Ai studio at Amazon. Thank you so much. So this is actually looking pretty promising, but again, this is only wait lists. You can actually apply for the waitlist, and hopefully maybe it's going to be live, but right now, we cannot do that. But anyways, moving on, for me to be able to create videos, what I need? I thought I might need a Christopher Nolan Mines a lot of creativity, a script with visual scenes, an AI tool. So the problem was, obviously, I don't have that Christopher Nolan mind, and I am a computer engineer with a data driven mindset, so I don't have creativity. Sorry about that, but at least we have chat GPT, and we have a brainstorming friend that can help with the script, and then everything. So I started with, again, brainstorming. It always starts with brainstorming. And I started with a simple prompt that says, for this product, give me a 32nd video. And I will read this completely, because this is something that are some pieces that I want to mention specifically for this product, give me a 32nd video script with each scene around five seven seconds. So five seven seconds is one key. The other one is keep each scene detailed and explain the starting frame of the scene in detail. This is also second important thing, which I will mention, and the script should include different use cases, like hiking, gym, at home, high quality beef and how it was prepared. This was just my personal preference when I was thinking about this video and what it should include. So going back to some key points, I mentioned five to seven seconds right now, most of the tools out there can only create somewhere around seven, 810, seconds of high quality video. If you're going more than that, the quality gets worse and it's all it becomes almost non usable, and you can kind of distinguish the difference between AI and the and the original one. So the second thing that I mentioned was mentioning the starting frame, right? So what I said was, like, give me a start frame, and may tell me the action. So what does start frame means is the first image that we are seeing on that video. What are we seeing? How the how the scene starts, and the action part is the the following 765, to six or six to seven seconds, that what the video will show. So I got all of this, and then I took the first frame, the image that is mentioned in this scene, and then run it through Google Video three, and I was a Google's Nana banana. This is the image that I got. You would remember the same image which was uncut right now. This is 16, my nine for the video. And then I took the same image, and I combined with the actions part of the prompt, which was telling what the action looks like, and everything. And this is the video that that come out with. And you will find out some problems, but let's just watch it first, and the sound is not important. In the sound, we are just hearing the like a wind and stuff like that. So the first thing that you might realize is that the back of the product was actually the front of the product as well. But at the end, you will realize that this doesn't really matter, and this can even be fixed with a few more prompt tests and everything. So this is 1c
+
+Speaker  365562:40
+pick one more time. Of course, you
+
+Speaker  368106:40
+didn't catch it in the
+
+Speaker  369056:00
+first one. That's good,
+
+Speaker  369600:00
+okay, so then what, what I did was like, I just rinse and repeat, right? I had all the scenes that I have in my mind, and I created all the images, and I created, I turned those images into videos, and those are some ideas that I had.
+
+Speaker  376549:20
+And this might not look like a video to you, this looks like a video to me. So I was like, Okay, this is ready. Let's get started. And this is how I was able to turn this into a video. But again, for this one, I actually want to share the link with all of you so that you can actually listen it as well, because there is some background noise in it. Should we reshare the screen, Jamie, or should I just share the link of the YouTube link
+
+Speaker  385184:00
+you can reach? And I think it's pretty easy.
+
+Speaker  385936:00
+Okay, let me do it. So tell me, how would I do it again? Just reshare.
+
+Speaker  388352:00
+Yes, reshare. And there's something that you can tick that says something about
+
+Speaker  389973:20
+shared sounds, yeah, I Got it now.
+
+Speaker  394693:20
+Okay, can you still hear
+
+Speaker  395258:40
+me? We still hear you. Yeah,
+
+Speaker  396426:40
+no, I believe I cannot hear you. Jamie, can you? Can you give me a yeah, we
+
+Speaker  397450:40
+can hear we can hear you. Okay,
+
+Speaker  397882:40
+my sound is gonna I'll try to fix it in a second. Sorry for it. Okay. Can you
+
+Speaker  400224:00
+So, okay,
+
+Speaker  400960:00
+I can hear you perfect. All right, let me try to run this real quick, just to make sure this is running. Can you hear this one? Oh, yeah. Okay, beautiful. Then we're just gonna go back again. I created all of my images, and from there, I rinse and repeat them. I turn them into videos, and this is what I have at the end. And
+
+Speaker  417728:00
+wow. So everything you see here was aI generated, and you have seen the whole process. Can it be better? Definitely, at the end, we just need more green sun, repeating, more brainstorming, more prompting, but I can share the link. Yes, let me share
+
+Speaker  423061:20
+how much back and forth, how much back and forth did it take to make that
+
+Speaker  423957:20
+I will mention that as well. I'll mention that as well. So this is the video, if you want to have a look, but I'm gonna move on. So let's continue. So first I'll mention the pretty important part, which is the content workflow. So AI, marketing content workflow, what are the tools that we used and how I did it? So brainstorming, as I mentioned, it can be used with chatgpt or any AI chatbot, the foundational image, it can be mid journey. Nano banana, CDNs, chat, GPT, the edits. Again, I usually use Nana banana for the small changes on the images. The video creation part is VO three, mid journey, Holly, AI, Kling AI, Higgs field. AI, so at the end, those are super strong ones. But for this specific case, we only used Google's Nara banana, Google's vo three and mid journey for some of the image creations. And midjourney is really nice with the video creation so far, but those are some of the best players out there yet. So Jamie, to answer actually your question, does it worth all the work? Right? I was able to do this in around four to six hours. Everything start to bottom, not including the presentation, but everything else. Was able to, like less than a day, and I also needed to a lot of research, of course, a lot of trial and everything, but everything was under six hours for sure. And what I needed an AI tool, which is around 50 to 200 a month. And again, you can go with a premium version, which will come up even better results. The results that you have seen were actually created using some free versions, some paid versions. I didn't pay more than 20 euros. Maybe these are all euros, because I'm in Belen, by the way. Moving on, what if we would want to create those, assuming that those are Freelancer generated, like at the end, let's say there's a freelancer that you are working together, which is not in house. In that case, there are some Freelancer friends that I actually ask around. And these are the prices that are looking at. And at the end, in total, we are seeing somewhere around 200 to 600 depending on what are you creating, what kind of production you want, how professional you want, the details of the images, if you want 3d rendering and such. So it can get pretty much complicated and expensive. And at the end, this also includes a lot of what's that called, scripting as well, because all the videos will also need scripts and stuff like that. So this was pretty were you thinking that this took more than maybe six hours or less? What were you thinking, Jamie? And maybe I'm also asking everyone else as well.
+
+Speaker  469248:00
+Yeah, I was definitely hoping less than a day. But I guess also, like, if you then say you only had to work on that brand, right, and then you wanted to make more stuff, the next videos wouldn't, wouldn't take as long. Is that right? Because you would then you would then know what kind of prompts you wanted to use and what you liked and what you didn't like. So if you created, you know, one sponsored brand ad for gym rats, like a headline search ad for gym rats, then you could do the hiking one, and it wouldn't take quite as long, because you kind of worked a few things out by then. So
+
+Speaker  477754:40
+Exactly, exactly, by the way, this also includes all the research that I did as well. Like, at the end, this was like from zero to getting the video, getting the listings and everything. But as you mentioned, like, as long as you have an let's call them, let's call it a prompt library. As long as you have a prompt library that you know what kind of output that comes out from that prompt that you have just keep that prompt running, just you're just gonna change a few stuff, and then you have another product, another product. I think it just gets easier. As long as you have more and more prompts going into your library. But let's move on. Let's wrap it up a little bit why advertisers should, should care about creatives, and this is the part where my data driven person kinda gets into way and stops talking about being creative and talks about data. So at an end, this is, this is a great formulation that I always love to mention as an advertising person, which first, first thing first? It looks pretty simple, ad spend equal to Ad Sales, right? Let's dig a little bit deeper. Ad spend can be calculated as CPC times clicks, cost per click times clicks. At sales can be calculated as conversion rate times price times clicks. Those are all just mathematical equations at the end. And let's just put, let's just put ad spend and add sales with the new formulations. And then our ACOs formula looks something like this. It looks a little bit complicated. And as you can see, there are some clicks. And for the people who are good with mathematics, can realize that clicks will just cancel each other. And here we have an ACOs formula, which you might not actually seen before, which is cost per click divided by conversion rate times price. And there is another formula that I want to mention, because we canceled the clicks and clicks can be calculated as click through rate times impressions, then how does two formulas explain why advertisers should care about creatives? So the answer is ACOs, as you can see, relies on cost per click, which is an advertising metric, which can be controlled by bid management, relevancy and everything. And the other two metrics that you're seeing, which is conversion rate and the price, is actually not an advertising metric, it's a listing metric, it's a conversion metric. It's like listing quality metric. So this is first thing why we should be caring about conversion rate, because those creatives that we are creating, all the listing images, all the video, equals to higher conversion rate. Higher conversion rate becomes automatically lower a cost without doing any advertising change. And the second part, to be able to drive more sales, more clicks, you need more impressions, but with more impressions, you need more click through rate, and where is that click through rate comes from your main image, your sponsor brand video, or your sponsor brand headline. So this is why we should care about creatives, and this is how we can use AI on our listing creation process. So this is going to be the end of my presentation. Thank you so much all for listening. And I would love to discuss some questions, and maybe do some, I don't know, open discussion.
+
+Speaker  530448:00
+All right, let's do it. Do you want to just put your email address in the chat, and then we can, and then you can unshare and we can, we can have a chat for some questions. Okay, so if you would like to ask a question live, you can put your hand up. Otherwise, if you want me to read out, you can you can put it in the chat. How do you manage the highest suggested bids? If your ACOs is high? Right?
+
+Speaker  539461:20
+Just, let me just drop my email here as well, so that if you, if you ever want to reach me, this is going to be the email address. Okay, perfect. And the other thing that I want to mention, I believe I shared with one of you guys, which is the LinkedIn as well, if you, if you if you want to share that, because they can also reach out to through LinkedIn, which is usually easier for me. But meanwhile, let me answer one of the question that you mentioned. How do you manage highest suggested bids if your ACOs a size? So that's one of the actually, we are usually seeing this on accounts with competitive niches, right? Because if the niche is competitive, the suggested bids go side. But at the end, what we usually try to do is we try to not to check the suggested bits that much. At the end, what we really care is our cost per click, even if the suggested bid is five. And there are some cases I know that the suggested bids can even go up to 1010, $15 which is crazy, usually in the supplement category that's also defined at the end, we should be bidding in a way that we can afford. And as long as your conversion rate is high, and as long as you improve your listing, what's going to happen is because of the formulation that I just mentioned, because your conversion rate goes higher, your cost per click becomes less relevant. You can go higher with the cost per click, because, again, your conversion rate is actually higher, which is lowering your a cost. But overall, let's say that you also have a conversion rate issue. The whole focus has to be, how do I control my cost per click? And this is directly bid management. So at the end, just make sure that you have down on the bits, and you're just focusing on your, focusing on your, basically, optimizations.
+
+Speaker  568357:20
+Cool. So would you say so, other than so headline, headline, search ads would be a major use, and then also listing, listing videos. What other types of ads could you? Would you benefit from being able to do more create, to test more creative, or have more specific creative?
+
+Speaker  575018:40
+So, yeah, let's, let's talk about q4 right? Like q4 is coming up. We you might want to have some q4 focused listings, or q4 focused videos, headline images and stuff like that. So at the end, we had few clients, and I'll just give you one live example that we just did literally two days ago, that we just changed the listing image in a way that it has what's that called, like a ball, like, like a ribbon that we that we put it on the listing photo and the like the box in the background, so that it is actually more appealing to the people who wants to buy for their Q for gifting. And then we started targeting keywords like stocking stuffers. We started targeting keywords like holiday gifts, Mother Gifts, gifts for women, stuff like that. So at the end, it's all about matching your advertising strategy with the creatives that you have. So imagine I'm just running stocking stuffers keywords as an advertising but at the end, my main image is not matching with that, or my video is not matching with that, it's not gonna really resonate, right? We are trying to tell a story. And even though telling a story on Amazon is hard because you just have a sponsor product placement, your main image can still tell a story. And the whole point always should be telling a story.
+
+Speaker  598096:00
+Um, yeah, thanks. Another question related to that, Belen review out a couple more. Do you have any hacks or tips for creating listing images for 50 products at once? Or do you think you always have to go one at a time? I guess, I guess Joshua follow up question, would that be like other products, closely related or not? So say you had to say you had a range of different of different like snacks, but they were related. Do you think you would be able to get
+
+Speaker  606618:40
+so I actually tried that
+
+Speaker  607194:40
+time. Yeah,
+
+Speaker  607482:40
+I actually tried that. So at the end, for example, the Can I share that image? I don't think I can, but at the end, so the image that you have seen with the one that is all the pieces were coming out there was like smoke and everything. It was like the full creative image that I showed that was actually used more than four times, four different occasions. Like in one case, we were actually using it for a French press, and the coffee beans were flying around in the second one, we did it for hand cream, and I think lavender and some other things were flying away from the product. But at the end, we didn't change the main prompt. The main prompt was always the same. We just changed a few parts that needs to be changed, and we always highlight that so that we know that when we are pushing a prompt, we need to change those highlighted parts to make the prompt work with the new product that we are attaching. But at the end, if they are completely different, let's say we are going with that gym focus. And then on the other one you are focusing on, I don't know, beauty, or something else that might not really, or maybe you're, in one case, you're going with tools like, I don't know, of any tools that you can imagine, and the other one is just hair dryer, like, they're not gonna match, of course, then you need to come up with some maybe niche, focused prompts that would work for that specific niche. If it's like supplements, then probably a few prompts can be reused, but if completely different niche, then I don't think it's mostly doable. Let's say Yeah. One
+
+Speaker  634549:20
+thing I would add here guys, is if you get a really good output, but after a lot of back and forth, then what you can do is you can just ask the LLM for a prompt to use in future, or a prompt to try on other llms, or, like a prompt template or something. So a lot of the time, a lot of the time, it's easy to get what you want just from going back and forth, but then if you want to replicate it, then it's quite good to ask it for a prompt that you can then use, you can then use for in a new chat for different products.
+
+Speaker  642416:00
+And one more thing, Jamie, since you mentioned it's not kind of relevant, but this is something like a tip that not everyone actually knows when you're using Google's not a banana. It's hard to get the image size that you want. Let's say you want an image size that is actually fitting with Amazon's guidelines, right? What you need to do is you need to provide the last image to be the same size of the output that you want to have. So let's say you have a rectangle one, and another one is a square one. So if you upload the rectangle one first and the square one second, the output will be square. If you upload the square first and the rectangle second, the output is going to be rectangle. So this is one tip.
+
+Speaker  654826:40
+Is that better than just writing down the format or the size? It doesn't work. It doesn't work. Okay? So yeah, now that just put, you put an image up that is the same size and
+
+Speaker  657200:00
+exactly that's that's one tip that I think pretty important.
+
+Speaker  658720:00
+Okay, so next question is, do you have any golden rules for sponsored brands? Static brand, visuals.
+
+Speaker  660832:00
+Sponsored brand, static
+
+Speaker  661632:00
+brand, what? Just headline?
+
+Speaker  662277:20
+Headlines I will sell Yeah, I believe so, yeah, oh, yeah. Okay, any golden rule that's that's a good question. Let me think about it for a second. I would say, okay, so we usually try to be as visual as possible there, because that's an advertising type that doesn't really convert well, it doesn't, it's it's not working that well in most cases. And that's the first thing that comes up in front of the in front of the customer when they're searching for a product. So at the end, it really needs to be eye catching. So we usually try to go with some some something colorful and something eye catching that would stop the scrolling. So the whole idea is always about stopping the scrolling. And I think that's first image, like the going full, full creative image that I showed that the pieces were flying around and everything. For example, an image like that can actually stop people scrolling. The whole idea should be always like that. But I cannot, of course, give like a specific rule that would fit fit every product, but being visual and being eye catching should be the goal for sponsored brand headlines. I
+
+Speaker  683722:40
+Okay, so Andres asks, Is it possible to make images with kids using nano banana?
+
+Speaker  686410:40
+Hmm, I never tried. That's a good question.
+
+Speaker  687066:40
+Can any, can anyone help? Anyone help with that one? Because I know some people were saying before, you need to just ask, ask about, ask about families or whatever. Don't explicitly ask for kids, but then ask the situation that kids will be in.
+
+Speaker  691056:00
+That might work. Yeah, this, this is, this is an interesting one. I assume you're selling, like, kids products and everything, which you might need to put, I'll try in this, like in the back end. I'll really, I really want to see what comes out. But yeah, anyone
+
+Speaker  694437:20
+knows the answer that? Feel free to put it in the chat or let us know. Okay, so question from Sean, oh Rabia says, Yes, it does work. Saying, can get nice kids, that's great. Sean says, how? Do you get Nana banana to give an image with 2000 by 2000 I think we covered that earlier, right? You were saying just put in an image that is 2000 by 2000
+
+Speaker  701674:40
+so nano banana would not give you the 2000 2001 it will give you the square, but then you will use any other AI tool that would make it enhanced. So there are tools out there that is just making the size bigger, but it's just, it's not just stretching the image, but it's just filling the pixels in using AI. So it doesn't look like it's just zoomed in. It actually looks like it is higher quality. There are a few tools that I might be able to find out and maybe share later on, but just look for AI enhancer tools, enhancement tools and stuff like that.
+
+Speaker  710661:20
+But that they would be specialist tools and not like the main ones that we would already have,
+
+Speaker  711861:20
+no that should be something else. But again, they are usually credit based. So let's say you have five images, 10 images you want to enhance them, probably couple of bucks.
+
+Speaker  714421:20
+Yeah, okay, so not going to cost a lot.
+
+Speaker  715210:40
+Yeah, it's not a lot.
+
+Speaker  715898:40
+So one issue that we've had is that we find that it's getting really difficult to update images in Seller Central, like, a lot of the time, Amazon just doesn't want to let us do it. And we're putting in tickets, and we're finding it really which we're trying everything. We're trying flat files. We try and delete the listings, putting it just makes us not want to try anything and not want to change, not want to change listings. Is it? Have your clients been running into this issue at all? Have you found like any good, any good ways to get Amazon to accept your listing changes?
+
+Speaker  724592:00
+I mean, not all of our clients, of course, but we are seeing in some of our clients that are happening more often, and if that client is having that specific issue, it's usually really hard to change that image. It's not like like, it's like as if like, your account is cursed. When you have that issue, you always have that issue, but when you don't have issue, you can just upload it and it's just updated right away. We are usually seeing some accounts that are switched from vendor to seller having a lot of issues, but this is super specific thing that not not everyone, might have the same issue. But other than that, we actually don't have any walk around other than just pushing it, as you mentioned, flat files, updating again, opening a case, opening another case, and another case, and then trying to change it.
+
+Speaker  737744:00
+Yes, we have one product that says a wrong main image, which is super annoying. So
+
+Speaker  738864:00
+it gets unfortunately. The next
+
+Speaker  739312:00
+thing I'm going to try is just Guido's, Guido's approach, which is to basically just, just continuous, continuous seller support tickets. So I'll let you guys know how that works. But if anyone else knows anything else I can try, please let me know. So you guys are offering free audit, right? So for those you don't know, bid X is PPC agency, and you guys do DSP as well.
+
+Speaker  746133:20
+We are doing DSP and sponsor product management or either through the tool. It's either self service or directly managed by us. But yeah, as you mentioned, we are a PPC tool. We are doing DSP as well, and we are even providing entities. DSP entities if you're an agency, if you want to start your own DSP agency, this is also something that we are doing, but at the end, we are actually providing a free audit, and again, it costs nothing, and at the end, we will find out some stuff that you might be missing because we have some tools that we are running in the background that is coming up with some interesting results. And I'm actually the one in MDS who is the head of audits. At the end, I'll make sure that we'll finding out something. So feel free to just, just, just request an audit. Great.
+
+Speaker  759221:20
+Can we put that? Can you put that link in the chat, in case anyone missed it at the beginning? And if we could also have, if we could also have a link to the air table for feedback as well? Oh, Robbie has got some suggested tools for image enhancing, topaz, gigapixal, Ai, Luminar, Neo Remini. So,
+
+Speaker  765050:39
+yeah, I heard Remini. Yeah,
+
+Speaker  765722:40
+try some of those for upscaling. So that's the link for the and I think it's there's an MDS discount for if you, if you do want to use any other services from MDS as well. So makes MDS as well, so that there's going to be a link in a second for the for the feedback form. So just just, if you guys go, just give me a score out of 10, helps me to work out what you guys like. If you want to give some feedback, some suggestions as well, I appreciate it. That really helps,
+
+Speaker  774149:20
+and I will really appreciate hearing that feedback as well. Jamie, keep me updated. And by the way, Lisa, I saw your question, yes, it's Amazon only audit,
+
+Speaker  777781:20
+awesome, and you were going to send me the prompts as well, right? Yes, and they'll be with the recording, and the sap is and stuff as well. So we'll get that Dorian Gorski on next week. So I'm going to be running for the rest of October, and then we'll run, I think we do free calls in November. So I won't go the day before. I won't go the day before Thanksgiving. So yeah, I've got some exciting calls lined up for you guys. PPC, some other stuff, so I'll let you know once I get those booked in. But yeah, thanks. Thanks for coming on. Orkunum. I hope you guys can get some great, great, great images up for q4
+
+Speaker  789856:00
+thank you so much for the appreciate that and thank you so much.

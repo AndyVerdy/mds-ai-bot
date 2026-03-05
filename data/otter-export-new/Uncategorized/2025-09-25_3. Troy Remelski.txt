@@ -1,0 +1,143 @@
+3. Troy Remelski
+Date: September 25, 2025
+
+Speaker  1456:00
+Next victim. All right, so, okay, so we're going to talk a little bit about the zero Kat strategy. This is a D to C strategy, primarily involving meta ads, but paid ads in general. Yeah. This is something that we sort of, my pet brand wasn't getting a lot of love. I own a few different brands. Wasn't getting a lot of love until, I don't know, the end of or, yeah, start a q4 at the end of last year. I was like, There's something here. Let's really, like, apply ourselves to it. Let's build it up. Let's fix it and so we we ordered a bunch of new products at the start of this year, and then I started diving into the website to see what we could find. And so that's where this whole thing came about. My name is Troy. Been a member since 2022 started e com back in 2013 with Mason's dad, making me feel old. Yeah, I've owned a few different brands, exited some stuff, bought some new stuff. I like it. I'll keep doing it for a while. I call myself king of the introverts. I almost canceled this when I found out I had to be up here and presenting. My heart is racing, and so I never present. I've been asked more than once, and I'm like, No, and so bear with me. We're gonna, we're gonna, I'm gonna muscle my way through this. And yeah, I'm grateful that a few people aren't here. Okay, yeah, in a former life, I left being a stunt man and an aerial Acrobat to join the world of E commerce. I actually transitioned into E commerce while my wife and I were under contract, living on a cruise ship, performing. So we were traveling the world. I was paying for Internet by the minute, and started on E commerce at that time. So that's a little bit about me. What we will cover today. What is the zero CAC offer. I know big mystery, huh? Ooh, yeah, the math behind break even CAC because I think sometimes it's a little too general. So we'll get into how we actually break down the numbers. How the pet lab CO, if people are not familiar with pet lab, they are a, I think they're owned by a private equity company, but they have very strong DTC presence, very strong on Amazon as well. And the way this came about was my team was taking the long running pet lab ads and trying to make our version of the same ads. And we were doing we thought we were doing pretty well at it, but we ran into some problems. And so then it was like, well, this ad's been running for pet lab for, you know, a year. Like, why is this working for them? And it's not quite working for us? And then after zero Kat offer, we'll talk about some add ons, the halo effect, once you get it going, and then what to do next? Oh, the AI generated image made me laugh, because I wanted, I wanted, like steps, and I couldn't quite get steps. And I was like, What about like stages or like milestone markers? And so it just, like, threw random numbers up on all the fence posts. And I was like, All right, yeah, we'll go with that. Let's move on. I can't spend like, 30 minutes trying to create an image for something like this. Okay, so the screenshot is our meta ads. I'm trying to think, I think it was back in March. Basically, you can see we had an impossible CAC. Need to break even. So based on our average order value, which was $37.06 our cost per purchase, our CAC was $29.05 which is not a bad CAC, in my opinion, I was really happy with that a row, as was 1.28 and so the Kat needed to break even on this would be $21.36 the CMO that I had hired. He's really good guy, really smart guy. He used to run ads for ag one when they were a little bit smaller. He ran pet honesty. And I was like, and he's like, we need better ads. We need to, you know, if we have lower CPMs, high CTR, then the cost of ads will be cheaper, and then we'll get to this CAC number that we need to break even. And so I was like, I think we're thinking about this wrong go ahead and flip to the next slide. And so the scaling death spiral that we were trapped in was we were spending $29.05 to acquire a Kat to acquire a customer, only getting back $21.36 after cost. So we're in the hole on that first purchase for $7.69 which fortunately, we sell consumable products, and so we plan to make it up over time in LTV. The problem is that it takes like unless your email marketing goes and you're able to cross sell somebody right away, you've got to wait 3060, 90 days to get that second purchase. And so it's a long time. And so if your pockets aren't incredibly deep, it's really hard to scale. You kind of like Peter your way up. And that wasn't the way, you know, we wanted to do it. And so the question was, you know, what if that. Same $29.05 could buy me a customer and break even on day one. And that's where this came from. So the formula is $10 in an ad spend should equal $10 out in gross profit. What that means is acquisition becomes cash flow neutral. You you just you acquire a customer and you break even. And you can do that over and over and over again, especially on the DTC side, because the payouts, you don't have to wait for Amazon to pay you out every two weeks. You just get, you know, the sweep account. And you're, you're just turning, churning your cash overnight. So the misconception is it's not about high row, as the marketing guys want. Well, we need better ads to have a higher row as and that's how it works. And it's, it's yes and no, it's not quite that. So how to do it was increase the gross profit of each sale to equal the CAC that we were able to get. And so in order to do that, you got to do the math. You have to do a true ROI calculation by doing the granular math. And every every penny that goes into a single unit sold, is what I want to know. Most of the time we're just looking at cogs cost of goods sold. But what we really want to look for in this is, is cogd Cost of goods delivered. Things that people skip over are usually the processing fee, which is, you know, two point whatever, percent plus 30 cents per transaction, the actual like, pick and pack fee, or whatever the warehouse fee is that goes into fulfillment and then actually getting the the product to the customer from the warehouse. It's like, Don't neglect those costs. You need to know what those costs are. It makes all the difference in the world. Like, you might think you're selling something at break even, but you're actually losing a few bucks on it, and you'll wonder why you can't scale. So make sure you do the detailed math, know your gross margin, know your gross profit, all right? And since we were already, you know, hip deep into pet labs marketing schemes, we decided to look at what pet labs actual funnel was. And so live on a call with my with my marketing team, I was like, let's just go through their entire checkout process and we'll map it out, and we'll look at what they're doing and how it's different from what we are doing. And so this is they do a few other things, but this is a simplified version of what they did. They go from like their product page with the buy box on it to a cart page where you enter in your checkout information, upsell. They offer a down sell, which I didn't get a snapshot of, but that's okay, a cross sell. And then they take you to a thank you page. You page. And so this is comparing our Buy Box to theirs. And I was a little embarrassed to like put this slide up, because the buy box that was on our site on the right hand side, it wasn't like that when I bought the company because whenever I did my review of it, it checked enough of the boxes that I thought it was okay. I don't know where the two pack came from, but hey, you know we're working with it. So anyways, the best practices for what pet Labs is doing is the amount saved in percentages. They call that out, 0% 20% 25% scale like as you buy more, you save more. Call outs for most popular and best value to catch your eye, and they show the price per unit, Buck 25 per chew, Buck Buck 94 or, sorry, not Buck 94 just 94 cents. And you know, psychologically, what that does is it takes the customer and, you know, it gives them like, hey, it's only like, you know, 50 cents a day, 94 cents a day, or something like that. It brings the the the psychological cost of the product, much lower than the 30 bucks or whatever they're gonna spend to acquire the item. So all those, I would call the best practices, we were doing like none of them, we had no amount saved in percentages, no call outs for most popular or, you know, or whatever, is best value, no price per chew. And we weren't doing any sort of substantial discount. As a matter of fact, this $26.99 product, whether you bought 123, or six or like, if you bought the six pack, all it was, it was six times $26.99 we weren't even offering a discount on it. And so when I looked at the data, what it was was we had a result that 96% of our purchases are for one unit, even though we bothered to put all the other packs up there. So yeah, we messed up on that one, but we have fixed it. Yeah, yeah. Nobody had to do math. Okay. And so went to Upwork, and 48 hours later, we had a replica of pet labs Buy Box, just with our brand colors. And we had this thing, yeah? I was like, hey, Shopify guy. Just neat, yeah. And they're like, We got you. And so this is how the unit economics work on this 50 like right away, 51% of checkouts by one unit, 34% by three units, and 15% by six units. And so what that works out to be when you do the math across so this is averaging out 100% or 100% of customers. You get an average order value. Of $65.59
+
+Speaker  160592:00
+with gross profit of $31.89 and so this is versus our average order value previously of $37 and so with you like snap of the fingers, we changed our unit economics on this checkout, but And right here, we're already at zero. Kat, we're already profitable by two bucks on it. But you know, why stop there? We got a full funnel to go through next slide. Did you change the price for a single unit? Nope, no, other than applying the discount to more. So you just apply the discount to 2699 Yep, cool. Okay, so we are at the second stage of the funnel or the cart page. And frequently, you'll see this if you go to DTC sites, there's some kind of a cart bump where you would enter in your credit card information. Frequently, it's like a complimentary product. Sometimes it's a digital product, like some kind of e book or white paper, or it's a continuity offer, like join our newsletter or join our community free for 30 days, and then it costs something after 30 days, and it's just a little check box to get it. And then I didn't have a continuity offer on this brand. So what worked for us was a shipping bump. You said, get your order quicker. $6.99 and so that had a take rate of 14% and it dropped 98 cents into our gross profit per order average. And from there we would go to upsell one. Pet labs did two, I forgot it is two tubs. Yeah, two tubs at a savings of 40% and of the same thing you just bought the same, I forget what it was. It was probably joint care or something like that. Whatever that product is, this is kind of the general rule in consumables for the first product that you're up selling is they already liked it, give them more at a discount and see if they take it and so what? But the rule of the discount is, if you remember from our Buy Box page, our biggest discount was 25% and so the rule of upsells is it's got to be better than that offer for it to work correctly. And so what we did was six tubs at 40% off worked out of the few that we tested, the average take rate on that was 22% of our customers, and the average gross profit it added was $9.03 this is something that I was gonna say about that. Oh, I've seen, I've heard people talk about they get like, 40% take rate on their on their first upsell, and I don't get it on urban close. So 22% I'll take that. That's pretty good. Yeah. Next slide, if they don't take the upsell, the no path goes down to down sell number one. And the psychology behind this one is basically the offer for this one is, if we are offering six tubs at 40% off for the upsell, and they didn't take it, but we know they bought the product already. So down sell number one is just, well, you already like the product. Maybe it's the units. Maybe it's six. Is just too many for you to commit to. And so we say you don't want six. How about three at that same 40% off that we were offering in the upsell. And that seems to work the best. So the average take rate on this bad boy is 10% and the average, whoop, average gross profit, $1.97 All right? And then, as far as our cross sell is concerned, pet labs doesn't, regardless of upsell, down sell, everybody gets to the cross sell. And for pet labs, they actually have a whole, like, full page built out for this. It's really beautiful. It's really good. There's limitations on the the out of the box Shopify software, so I couldn't do what they were doing, which was offering sort of a multiple choice of the cross sell either, either two pouches for 30% off or four pouches for 40% off. They also have, like their they also have trust pilot on there for social proof, as well as a testimonial like they built out like a full fledged sales page on this and I could only screenshot that, but, but it's a good page. So anyways, I'm limited on the number of skews that I have in this brand to be able to cross sell. So where I'm at right now is one tub at 20% off of a of a complimentary product in pets. It's pretty easy. Like, if, if you know if you're selling a dog product upfront, then make sure you're offering a dog product as a cross sell. Product as the cross sell. Cat product, cat product, that sort of thing. And so the average take rate, 11% average gross profit, $1.40 okay? And so when you string all these together, and you do the math all these little incremental things, they don't look like much, nine bucks, dollar 97 Buck 40. But in the end of the day, what it does is it takes your average order value, and instead of being $37 before now, we're up to $95.26 and instead of $21.36 in gross profit, we're now at $45.27 and so that's well above that's well above my Kat to break even. So you. For per purchase when I snapshotted this a couple of weeks ago, or something like that, then $31.27 and our meta AOV jumped up basically to match that number, at $96.09 and as a by product, our purchase ROAs climbed to three and we didn't make any marketing changes, we're still running the same types of ads. It was just by fixing the offer itself that the ROAs came up the halo effect. So now I'm spending as much money as I can on meta. I'm scaling those ad sets as fast as we can, incrementally. And as most of you guys probably know, there's a spillover effect or a halo effect that happens. I haven't done anything different on Amazon. And then May, June, July, start spiking pretty much directly proportional to our increases in our meta ad sales. And then, of course, subscriptions on Shopify, they be climbing. They started taking off. Basically, you know, we're spending more money. We're acquiring customers profitably. Subscriptions go up, but wait, there's more. So after this is kind of the things that I'm testing and dialing in now for this, after that core offer is in place, the the improvements that you can make are like, you can put an exit pop on your offer page. Anybody not know what an exit pop is, and then test the very various discounts you can get for that, and then add in the abandoned cart email sequence. Email Marketing counts for a lot, and so we're getting an extra three and a half percent checkouts based on that and the email abandoned cart sequence that we're using ladders in incrementally increasing discounts. And then the last one says you don't want to buy from us, buy it on Amazon. And so we offer a coupon to go out and buy on Amazon. And I should put the take rate on that, but I didn't. So there you go. And then what next? So in my experience with D to C, you kind of get more of the same. And so it doesn't make sense to pour gas on that offer to watch it burn until you get that thing dialed in. Now that it's dialed in, then you start working on the front end of it and how you get people into that buying process. And so that's where your video sales letters come in. That's where your quiz funnels come in. That's where self liquidating offers come in, which is like free plus shipping sort of stuff, do, do, do. And then subscription offers for this type of checkout process work just a little bit differently, because when somebody buys a product on subscription, you usually want to keep them on subscription for at least as long as you can. And so that whole sell them more of what they just bought. You don't really want to do and so in that, in that methodology, or in the subscription, whatever checkout flow, what you want to do is do a lot more cross sells of products. And then the thank you page offer that I like to make is just a CTA to join our community or follow us on social and stuff like that.
+
+Speaker  288688:00
+Thanks. Have you read Alex for Moses 100 million dollar offer I
+
+Speaker  289856:00
+have actually, like, when, when we did this, I started, I went back and I looked at it because I was like, I was like, There's something wrong with
+
+Speaker  291616:00
+this same stuff clicks like, I'm like, this is applying. Because I read that, I took a lot of those things and applied it to my Amazon listing. And honestly, my Shopify needs to be more optimized. But I was thinking, I was like, there's a lot of things that you're doing that check those same boxes of the
+
+Speaker  295589:20
+urgency of it's same, but different, because I like when I was doing this, I was like, What exactly did he say? And so he has sort of a similar methodology of acquiring customers at break even, at least, but usually trying to be profitable. But the way he goes about describing it is a bit different. He's doing like version
+
+Speaker  301050:40
+2.0 that this
+
+Speaker  301754:40
+Saturday, actually, yeah, I've signed
+
+Speaker  303514:40
+up the exit pop up that you said is that from the app? Do you use, like, after sell, or Rebo, like, one of those Shopify apps for I
+
+Speaker  305712:00
+don't know what the actual app is. I just, I just told my team who couldn't exit pop, put it on the
+
+Speaker  306912:00
+page. Did they custom code it, though, or the app allowed you to I don't
+
+Speaker  308080:00
+think it's custom coded. I think it's just some out of the box solution
+
+Speaker  308944:00
+is that, is that the same for all of your upsells down cells having an exit pop? No. Is that an app that you're using, or is it
+
+Speaker  311765:19
+just I played with a couple like Ezra has one called one click, One Click Upsell zipify, and that's been my favorite so far. With the exception of, I just started moving everything to check out champ. I don't know if you're familiar with Checkout champ, but it's, it's like, very, very custom, and you can do almost anything you want inside of there, but there's a learning curve, or you need to find somebody who's a developer or something like that to to get it to work. So we're going over there because it'll, it'll also do all like the exact. Uh, analytics and metrics and stuff like that. It's, it's pretty cool, but it's over kill a bit.
+
+Speaker  321712:00
+Another question on your buy, more of the same, like the first upsell offer. Are you doing that no matter of if they bought one, three or six tubs, it's always the six tubs at the 40% Yeah. And is it? It's not 40% off the six tub price. It's 40% off the MSRP value.
+
+Speaker  327189:20
+It's 60% or, sorry, it's 40% off the one unit price,
+
+Speaker  329157:19
+because the six tub was already sold at 25% off. So now this
+
+Speaker  329989:20
+it was off. Yeah, it was offered at 25% but yeah, regardless of what that is the so it's 2699 times six and then 40% off.
+
+Speaker  332394:40
+Have you tried to add a referral like, step in this whole flow? Like at the end, offer them a discount for a referral to a friend, instead of just joining our community?
+
+Speaker  336330:40
+No referrals in the
+
+Speaker  336672:00
+pet space is huge. Like pets and babies are like the most referred. Because, as a pet owner, if you like something, but not you know, nobody's gonna refer, just like a cutting board. But whenever someone else
+
+Speaker  339616:00
+has a dog, yeah,
+
+Speaker  340304:00
+does pet labs? Are they the chewy? Are they the ones who make I mean, not to what is it?
+
+Speaker  341685:20
+Soft shoes. They do soft shoes.
+
+Speaker  342805:20
+They called, there's something. There's some stuff that I give to my dog that, like, some joint stuff. What is their
+
+Speaker  344661:20
+brand? Called pet lab co
+
+Speaker  345557:19
+there's another one. But any anyways, I've told so many people, yeah, elderly dogs. I'm like, oh, mobility bites.
+
+Speaker  347162:40
+It's the, I don't know if that's our zesty pot. Oh, zesty.
+
+Speaker  348250:40
+I've told so many people about them because I had an old dog I was 12 that wouldn't get up on the couch anymore, kind of like, strained his back. And then we start giving him those. And literally, it's like, he's a puppy again. He's like, night and day, yeah. And so I've told so many people, I'm like, if you have an older dog, so I feel like a referral. I'd be interested to see if you, if you test it, tell a friend some places in there that may be a
+
+Speaker  354384:00
+referral. Yeah, it's a good idea.
+
+Speaker  355104:00
+I'm just starting to try to we just added that to our flows, is after somebody receives their item, and we're just following that out this month, just sending them a 10% discount code telling their friends about and see if you can track how much more referrals we're getting from that
+
+Speaker  359445:20
+we do have, like, UGC requests, where, like, we're like, hey, you know, if you take a picture of your dog or your cat with our stuff and send it to us, we'll give you a coupon for 25% off your next thing. What are you guys using for the flows themselves, the funnel pages we had built that or, sorry, the front end or the back end. We're using zipify, and now we're transitioning to checkout champ, to check out.
+
+Speaker  367034:40
+Champ, check out. Champ, yeah.
+
+Speaker  367674:40
+Why are you transitioning? Because it's just a more custom and robust solution. And so we could do like that, multiple choice, sorry, cross sell option, where it's they offered two different things on or two different discount types on that same page. So Ezra Firestones weren't keeping up. I think he sold zipify
+
+Speaker  374517:20
+Last like, thought or question, but um, have you ever done like, a test of offering, like a post, purchase, email or SMS offer, where I because there might be some customers that just click through, like, I know when I'm shopping, I'm not even looking at the offers. I'm just like, exit. Like, get me out of here. I bought. What I wanted Is that something you've tested. It's like, hit him with an SMS
+
+Speaker  380042:40
+or something like, No, I don't think we have that's interesting. There might be, there might be a limitation to it, because I think that there's something about the the cookie being attached to the flow, to be able to charge the credit card, they would have to check out again. I think for that to work, I mean,
+
+Speaker  384688:00
+because I feel like you could follow up with an SMS, like, if they just exit and they don't get to the third force set to upsell, then you could be like, Oh, just a reminder. Like, you could do that in an SMS to get them to click and come back to the funnel. It'd be interesting, because I've been getting decent SMS, actual, like, since we started SMS, we've been actually getting
+
+Speaker  391397:20
+like decent amount of clicks. Yeah, it's usually
+
+Speaker  392821:20
+better than Troy. Do you see a certain amount of spend on Facebook? See an alo effect on Amazon? I think
+
+Speaker  394805:20
+it just becomes noticeable at some point, like there wasn't anything. Like, when we were doing like, 20 grand a month in meta spend, I wasn't noticing anything. But then as we started scaling up, it was just like, oh, like, Amazon's going with this. This is kind of nuts. I. Yeah, I think we're running about 65 grand a month in spend right now. But like, I mean, you could see from the graph, from the graph, it was like, I would say it was noticeable around between 3035, somewhere in there.
+
+Speaker  404272:00
+Yeah, we've been running Facebook ads for years. Brought back a lot because we just weren't seeing the ale effect.
+
+Speaker  407877:20
+But did you? Did you already have the Convert like you already were increasing conversion rate, and then you put fuel on the fire for Meadows.
+
+Speaker  410213:20
+We just fixed the offer. We just needed to be able to acquire customers at break even. Ideally I want it, like, twice. Like, that's where I'd want to go.
+
+Speaker  412154:40
+So you figured your cat was great. So you were just like, how do I patch? I was like, I
+
+Speaker  413338:40
+don't think that's a bad. CAC, like, every time I run a supplement offer, it's like $70 to acquire a customer.
+
+Speaker  414826:39
+So you didn't want to mess with anything on the initial offer. Like, that was good.
+
+Speaker  416026:39
+It was like, 29 bucks, I think is pretty low to acquire a pet customer from meta. I was like, I think we're doing all right here, guys. But like, my poor, like, my marketing team was like, we need to drive this down. I went to where, like, where are you gonna go? I was like, What's your average order value? And so we started looking at it, yeah, but like, I would want to get it, like right now we're only at 45 I really want to get it to like, much closer to 60 in gross profit on that order, because you can scale so so much faster you.

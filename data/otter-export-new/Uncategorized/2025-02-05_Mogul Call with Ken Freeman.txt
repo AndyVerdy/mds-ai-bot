@@ -1,0 +1,368 @@
+Mogul Call with Ken Freeman
+Date: February 05, 2025
+
+Speaker  00:00
+All right. Hey Ken, welcome back to the Mogul call. We got two pretty big topics to get through today, right?
+
+Speaker  2336:00
+Two big topics excited to share. Let's get let's get into it. Let's go. All right, guys, let me share my screen. We'll get to it. Alright? Alrighty,
+
+Speaker  6741:20
+cool. I think
+
+Speaker  7477:20
+everyone can share my screen. See my screen? Okay.
+
+Speaker  8133:20
+Last edit, 17 minutes ago, commitment, I like it.
+
+Speaker  9445:20
+Last minute scramble, I've got a lot of value today. Jamie invited me on this call last Thursday, which I appreciate, because it really expedites all of the special projects that Nick and I got cooking in the background. Okay, so the last calls that I gave you know it's all about ranking our products on Amazon, and really what I see as the foundation of ranking and all success on Amazon is really about like, having a listing that converts everybody talks about AI all the time. But how can we really implemented our business in meaningful ways that allow us to ultimately just make more money and let our business be much smoother as we scale right? So that's what I've been thinking about a lot. Today, I'm going to be sharing something that Nick and I have been spending, actually, like many months kind of planning and developing, and it's basically a system of using all of the absolute best tools for data and AI to really unlock unlimited image creation that's a high quality that speaks directly to your ideal, you know, ideal customer, essentially, and build out listings for them, and then to test that infinitely. And essentially, what we really wanted to create is always be tested, a system of constant creation, constant testing. In order to do that, here's our tool stack, and we'll be sharing. I think we have like something to share at the end, so we can give you guys access to like, everything that we've put together each step and all of the different things that you'll have to do to just to do this simply yourself. I also really welcome any feedback, because this is just something that we want to improve a lot, but basically our tool stack, Voice of the customer.ai, is a phenomenal tool that can essentially analyze every single review of your products and all of your relevant competitors. What we throw this into an AI system, Spark Turo is also phenomenal for customer demographic data. Then we've got our own AI listing builder tool that we've created, which we can share with you guys. Very bad ass. We also use ever art.ai which is insanely amazing to I basically feel it's probably no longer necessary to do product photo shoots anymore. You know, which are 1000 2000 3000 bucks and beyond. I really think just with your iPhone and the product in front of you, you can create enough material to feed into this, create an AI model and create phenomenal images. Leonardo.ai is another tool that we use that builds out all of our graphics. We'll do walkthroughs for each of these. It's the outputs are insane. And then jungle ace, which was a tool developed, I believe, by Anthony and Dimitri, please. So in fact, check me, but the split testing methodology, using pay per click is phenomenal. So that's the last step of the puzzle. But yeah, as I said, basically it all comes down to conversion rate. It's like the elephant in the room. I feel whenever we're looking at problems of what's going on in the accounts, the foundation of the pyramid is certainly conversion rates, which leads to more sales, greater efficiency in your ad spend, and, of course, profitability. Right? As a very simple example here, if you just have a listing that's roughly doing $3 million a year at a $13 price point, with your tacos at 12% if you just improve that by 2% conversion rate, that sounds doable, right? We're literally talking about half a million dollars in extra sales at the end of the day. Okay? So a very small difference can lead to a huge impact. So I've kind of already mentioned it. I'm going to guide you guys through this step by step process using all of these different tools in the best way possible, and we'll go from there. So first of all, Data Dive is a tool that we absolutely love, and it's really the best for analyzing all of our competitors and really figuring out, like the ranking juice feature I love, all of the rubbers eights and stuff to figure out every single keyword that is leading to a conversion. So we use this to help us develop a perfect lifting when it comes to, you know, sort of the from the SEO standpoint, right? Plus, I also love this view. Nick showed me this one when you hit collapse, all in this section of Data Dive. Literally just like shows you all of the every major competitors, image stacks directly next to each other. So I just love having that snapshot. And our creative team, we always use this as the foundational document, and we shared this with them so we could see, because we don't have to reinvent the wheel, right, like what is working and why, and Data Dive is really the best for that spark Toro Nick turned me on to this one is a incredibly amazing tool that you can basically put your main competitors in, or your main products or anything like that, and you'll get extremely detailed demographic data, gender, age, income, level, everything. So we basically want to use all of this incredible source material of every single customer, review, potential demographic data, and build listings that speak to the audience. Okay, so this is just an example of what Voice of the customer.ai. Looks like. We uploaded many different listings, and it's like, it gives you tons of stuff, some of the best. See, it's just simply like, what are the main themes that people don't like about the products, right? And then, and the opposite of that as well, good taste, obviously, for this type of product, which was like a Keto coffee creamer, I believe, right? Poor mix ability. But basically, we want to use and call out every major issue and every major benefit in the listing right. And I'll walk you through some things, and I'll be sharing all of our prompts and all of the examples of the outputs shortly. These are some examples that we put together, but I'm analyzing the VOC data to capture how customers describe their problems, pains, joys, data. All of this will be provided for you guys at the end as well, so everyone can have access to it step by step process. And like I said, I really welcome your feedback for any improvements, but then the outputs it gives us is really cool, like part of me, like loss of collagen causing things skin tired of looking aged and dull, skin showing visible kinds of aging up. And then with that prompt as well, we have our purchasing triggers, looking for a natural anti aging solution. Wanted a science backed base ingredients, not just marketing claims. Needed something that works from the inside out. Speaking seeking preventative aging care, other solutions tried as another section expensive creams and serums that didn't deliver. You can say, are you tired of expensive creams and serums that don't deliver? Whatever that may be. So we have all of this sort of factual information that's turned into amazing sales copy, essentially, that we're going to use to build out our listing. So this is something that I just made with you know, if you guys use replit or anything like that, I don't know how to code anything, right, but these tools are insane, where you can just tell it exactly what you want to do. So I'm building this out, and I'll be should be ready like early next week. Her team's building it out internally, but basically what we're going to be able to do is upload all of our customer images. Data Dive has a very easy export, upload the voice of the customer output, the master keyword list from Data Dive, and then the ranking juice section, essentially where we can see what are the most SEO optimized listings. Because our goal we want to have when it comes to the titles, the bullet points, descriptions, the greatest amount of ranking juice, to put it simply, from data dives perspective. But then we want to build out our listing and also call out the keywords, the benefits and pain points throughout our image stack. And then our next sort of process in this methodology is so we're uploading everything here, and then this tool is going to guide me through. And we actually, for each step of this process, have our open AI key, API key integrated with prompts in the buttons. So I wanted to make a dummy proof process where we could just, like, upload all of the information. So on our team can upload all the information and click through and it will develop customer avatars and listings. So actually, by the end of this, what we want to do is develop unique customer avatars, different ones for each product that we have. And then we're going to have aI outputs that are going to create unique, SEO, optimized listings for each unique avatar, and also a a complete brand guideline with different colors, typography, look, feel for each customer, Avatar, and so we're going to be able to really create really bad ass looking images scientifically that are for our target market.
+
+Speaker  159114:40
+Quite easily. Can't mess it up. Is the goal we're.
+
+Speaker  160272:00
+And so we want to build out these customer avatars for the specific product, right? And some of the outputs are going to be name, age, occupation, educational, income, as an example of the outputs. These are from Claude, which Claude is my favorite AI tool. But then, based upon that similar one, which was the collagen coffee creamer, I believe that we made here we've got professional preventative Patricia, age 32 data, here's the pain point, starting to notice the first signs of aging, shopping behaviors. Research is thoroughly social media usage, etc, like everything that we would ever want to know about customer mindful mother Michelle, age 42 and then we've got executive Ellen, okay? So then we want to develop, we'll share, we'll share each of these at the end, so you can create multiple customer avatars and build out full listings for yourselves at the end. Then we even then make our whole brand guidelines based upon each unique avatar. So we'll finish with three brand in this case, three brand guidelines for each of them. And we've got brand essence of values, visual identity, typography, design elements, photography style, which will then output AI image prompts, which will plug into the different tools that will show you as well. And will show you as well.
+
+Speaker  182405:20
+So what it's trying to do is create listing and images that's going to appeal to all free avatars.
+
+Speaker  183589:20
+Is that right? Actually, we're going to create three separate ones. Okay, three separate
+
+Speaker  184821:20
+ones, and then you can decide which one you want to go with, okay, and
+
+Speaker  185861:20
+we'll be testing and the real goal is to then test each image stack continuously, because we don't know what will be the winner, essentially, but we want to design three separate brand guidelines, three separate
+
+Speaker  189930:40
+so you'd rather be crazy popular with one avatar than pretty popular with free like you want to just really resonate with one group, one type of customer to the starting point. You
+
+Speaker  192976:00
+know, it's very, you know, whatever we've got, you know, executive Ellen and mindful mother Michelle, etc. You know, that will be the source information for these AI generated brand guidelines and AI Generated Image prompts, which will then give three distinct look and feel, maybe different colors, different elements use. And then I just want, then we want to use testing tools where I just say, I don't know, and then we'll just continuously tap, and it's actually so quick and easy to create these my goal. And, you know, I have an agency right that we have, like, you know, so many we have to do everything at scale in order for this to succeed. So we wanted to be able to create phenomenal output, and then continuously, just like, put in our system to keep on testing and then iterate. And then there's really the goal is that there's really no end to that. So we'll be sharing all of the prompts. Let's see we got. And then depending on where you're at as well. I walked through this and like, made, like, our logos, our brand names, for instance, this brand in particular, and I had it create, like, 20 different if this is the section, not sure if this is the section, it doesn't matter. But made it made brand names, everything for this sort of collagen coffee creamer we made. The brand name that we selected, which is all AI generated, was called radiant ritual, which I loved. It speaks a lot, and ritual implies regular usage, like a morning ritual. And then, so yeah, we'll share what the image prompts look like after this. But depending on where you're at, you can just start from anywhere, but it's, it's really bad ass we're able to do. So this is where some of the results that we had, which the source material, nothing was just AI image prompt that we created, like luxury life lifestyle shot of radiant ritual college and coffee creamer and all AI output I also just shared here. It's probably not necessarily in the right place, but we you will also finish for that unique customer avatar. And this is a different product, actually, but an SEO optimized listing of titles, bullet points and description, which can all also be tested. Okay, as far as the image outputs, though, for radiant ritual, the amount of before you bring a product to market, as well, the amount of like, potential product packaging or, you know, bottles or whatever that you're using, is phenomenal. But that name, again, radiant ritual. It just really made to me images that speak to like, what a great way to start the day, you know, like, very fancy, elegant, all 100 this is there's no post production here, which you're always going to need with where we're at now, with AI stuff, you will always need post production stuff like it does mess up the letters and stuff sometimes, and then you'll have to make the packaging consistent Once you finalize what you want that to look like. Um, another product that we developed, I mean, all of the. The elements into this shot. Speak, really generate, create a certain look and feel very specifically. I just like
+
+Speaker  242544:00
+wellness, morning ritual. So just
+
+Speaker  243392:00
+super impressed guys, leonardo.ai, highly recommend checking it out. It's insane. I was using Canva at first to create this, but I learned that Canva actually bought Leonardo, and so they have all of the main AI models for image generation in there, so you can actually like
+
+Speaker  248037:20
+so if you've got a Canva subscription, you've got Leonardo. Now,
+
+Speaker  249301:20
+actually, no, they still keep them separate. Canva uses Leonardo. So if you're using Canva dreamlabs, it actually just uses Leonardo. But then when I learned that I just use Leonardo, and actually, the level of control and the quantity of outputs is insane for the price it's getting. These products are getting so cheap as well, which is really amazing. So I just have added tons of pictures, you know. Here's me trying to figure out what sort of just playing around with what sort of product packaging ideas I liked. And so you're able to just create, like, an infinite amount of options, and then you come in as well and figure out what you like. This is also just infographics, which, yes, as well. I'll say again, you need some post production stuff, of course, as well, but insane. And so this really increases
+
+Speaker  261493:20
+your chances that your you know, if you've got a new product line, you're going or you're going into a new niche or new brand, that your first product is gonna is gonna pop right? It's much more likely, because you can see so much different ideas. You can test stuff rather than taking so much of a punt with your first order. You
+
+Speaker  267082:40
+can test infinite things, right? And then, you know, imagine just for, like, for the product packaging. Here you can go in you if you want to use a, you know, a real tool, and real people have vote. I mean, you can easily make infinite number of options. And then, you know, have people vote, test them. My Pipe Dream, which I would like to share, if anyone thinks it's possible. I also am kind of building out of my tool. You know, the AI image recognition stuff is also advancing tremendously. Google has, like, a crazy good model. Deep seek has this model, I believe, called Janice, that does image recognition as well. If I'm wanting to play around this. This one, I don't know if it's there yet, but what I really want to play around with is
+
+Speaker  279013:20
+training these models with like,
+
+Speaker  279925:20
+with as our customer avatar, but also with like, conversion rate optimization principles and understanding like, what what are they looking for? What are the most important things and What elements do we think will convert us on the listing? Because got deep seek guys is like, 37 times cheaper than chat BT, and I know you can't ask it questions about TN and square, but it is 37 times cheaper plug that shit in, and it's getting to the point of being near free. So what I would love, and I'm kind of developing a little bit in our tool as well, is to have like, create, like, 50 unique agents that all vote on their favorite images. And why I don't, I don't think it's quite there yet. But anyway, I'm testing on that one. And anyone that wants to test this thing out for free. It's not something that I'm selling or anything I would love. I'll just share it with everyone. Should be ready by next week. If you guys want to click through and have any inputs or improvements you'd like to make Ibo just a team working on it and building it out. So happy to hear your feedback. But that's my goal. I would love if we can get like an AI agent voting system to help us make a lot of selections. We'll see that there for I mentioned a tool earlier called ever art, which this also comes from Ai. You know this tool, our tool, is going to also have outputs of AI generation image prompts, right? So, who is our avatar? What do they look like? Here they are holding the product right. So just here's the training data on the left, quite simple, and then these outputs, I mean, absolutely beautiful, photorealistic models of our ideal customer avatar using the product. It's pretty awesome. Same thing on the left here, a little supplement company we're working with that's the source material that we have. And same thing for the outputs. So with ever art, it's very cool. You could just say, run a campaign, you give it a prompt, and it'll create 100 images, 200 300 at a time. So you can just, you don't have to do a photo shoot.
+
+Speaker  314213:20
+Oh, so. But it was like, if I wanted to just improve my image stack. I could put my current images and some other photos I've got on, and then it would just come out better ideas.
+
+Speaker  316250:40
+Absolutely, yeah, you'd use that to train the model essentially. Then you click Run campaign, which say, hey, I want to run a campaign for executive Ellen. Here's, you know, these AI. Image props develops specifically for so then it's really like the whole thing is to craft a listing that is specifically for customer avatar, right? That's the kind of the foundational thought process. The outputs are insane. So, like I said, I just don't think it's necessary anymore to do expensive photo shoots. I think you just take pictures with your phone and then feed it, and then at the end. And this is just something we're this whole system is just something we've been developing. We're about to unroll, and we want to run it across our whole catalog of brands, out of all the you know, different tools, AB testing tools, Amazon has their own, of course, but slow jungle ace, which is developed by MDs members, the PPC campaigns that they build out. And it's possible to test your your main your main image, your image stack, a plus pricing and titles, basically. So through the process, we're creating three avatar, you know, full image stacks, titles, bullet points, descriptions, unique for each customer. Avatar. We're saying three here. It could be 300 as well. It doesn't really matter, right? But to finalize that with just infinite testing. So we, Nick and I just promoted someone in our company to be like our conversion rate optimization specialist. So his whole job is literally just to go through our catalog and find products that are not converting, that are converting below market averages, I should say. And we just simply want a conveyor belt of infinite testing for everything. So Hero, Hero, you know, main image, your image stack, a plus, everything. We want to continuously be testing so that we're going to be sharing that with everyone. You can use it yourself. I welcome any feedback as well. Would
+
+Speaker  348282:40
+you then, would you then take the winners from Jungle ace and then run Amazon experiments? Or would you just pick them
+
+Speaker  350074:40
+live? Jungle ace, to me, is achieves the same I would just make them live, right? Well. And actually, jungle ace is making them live in a way, right? And it's like switching things out simultaneously. Basically, I so I want to be, like, totally, totally unbiased, right? We want to infinite unlock of creative which takes so much time and feedback, it's like, really hard to do to work with creative people. Nick and I have just hired on a creative agency as well to really help us. That's like, super high end. So we can just like, unlock tons and tons of creative, but we're giving them all of the source material, and then they put the final touches on things. So it's a lot of work to unlock infinite high level creative that speaks to your target market. I think this system is like the best thing that we've thought of in jungle ace, after all of our research, seems to be the absolute best tool that does it really quickly, so Jamie should and I've got a part two here, which is on a different topic, and it's more like ranking stuff,
+
+Speaker  366730:40
+yeah, so let's have a look at see if Any questions
+
+Speaker  367466:40
+on the chat.
+
+Speaker  368458:40
+Rana says, Does the listing development process incorporate data, drive, rank juice,
+
+Speaker  370272:00
+yes. One of the files, Nick, do you know the name of that file? There's a section in data devs,
+
+Speaker  371840:00
+the listing builder that ranking juice, one that's in there with the export on the far right, we pull that one out and throw that into the AI tool as well. So
+
+Speaker  375445:20
+are you finding that it's still important to try and get as many keywords in as possible, or are you finding that it's not so important anymore, as long as you've just got the main keywords in there and people understand what it is, I
+
+Speaker  378437:20
+still like to get them in there, like, getting the top three, but definitely not like, there's plenty of times where I'll, I'll not try and go for top, for the number one spot, right? Because they just have it, like, too stuffed. And from like, a marketing perspective, it just loses its touch, in my opinion.
+
+Speaker  383866:40
+Yeah, I also feel just like Amazon is just like so smart, and they want to, they want to rank your your products right, and they know, as long as you have that really the 8020 of like you can see with search group performance report in your PPC search terms, which keywords are leading to converts for your brand. It is still true, though, I feel like the most important keywords that are leading to conversions for your brand should be at the branch should be at the beginning of the title. I think that has the biggest impact. And besides that, we just want to make sure, yes, we have best practice kind of old, you know, Data Dive is just simply the best tool for that. I think so. And it makes it pretty dummy proof to Yeah, make sure that you are using all of your most important keywords throughout your listing, but more so to me. So I basically Amazon smart. It knows which where you know which keywords should be associated with my product. We want to run PPC campaigns to build our listing. To do that. But then more importantly as well, it's like, I want to call out some of those same say. Queries. But those you know, those keywords and those main value adds, those main pain points and benefits in the image stack, to me, that's the most important thing. Nevertheless, though, best practices for building out your listings at datatype is my favorite tool for that.
+
+Speaker  404624:00
+It does help you to take it does help take you through the steps. There's quite a good tool.
+
+Speaker  406037:20
+If I've already
+
+Speaker  406400:00
+got brand guidelines and I want images that are going to fit within the brand, at what stage Am I putting my own brand, grand brand, brand guidelines in, rather than just having the AI generate them for me?
+
+Speaker  410085:20
+Yeah, you can just go take that as well and go into Claude and then say, Here's my brand guidelines, please help me create seven AI image generation prompts for my Amazon listing that speak to my target market. So your brand guidelines have your ideal customer avatars, all the qualities, their fonts, the colors you want to use, etc, you already have that, and it just go into clod. And that's what I love to do. It was like, Hey, make the AI image prompts. So the tools of Leonardo and ever art, we want to come to those tools using the AI image prompt prompts, and then plug those into these tools. And it's just really amazing. What you can get. You can also just ask it to make multiple iterations of your brand guidelines, maybe make a little little shift here and there, and it's just effortless and takes seconds. So yeah, then you can
+
+Speaker  425333:20
+eventually work out the prompt that works the best with. Okay, so you're generating a lot of creative. How do you then decide what to actually put forward to a test? Are you doing some human polling and then jungle ace, or it's just a matter of judgment calls from looking at the creative, how are you deciding what to test and what's what's the funnel from Ai output to jungle ace?
+
+Speaker  432474:40
+We were using Intel levy a lot,
+
+Speaker  433296:00
+quite a bit, and I think going forward, but at the same time to do that at scale, and the amount of tests that we want to run, it's a lot. And so I feel our process going forward is going to be, you're always where we're at now. You still need a human eye to make, you know, some best judgments, but nevertheless, you know, so you need to make some best judgments, and then you grab those images, and you will need a graphic designer to put the finishing touch on things. Part of me, let me see just some examples again of the of the image out. There we go. Well, I lost where my here it is, yeah, no, like, these images are all basically the same, but nevertheless, like, from a different angle, this or that. So having a human just simply pick, but this would be all of these were say that most of these here, except for the one on the right, which is like the infographic style images for all of the which, when you'll share this, you'll see each of the different images prompts that that will be output. One is for like an infographic. One is for more just like a beautiful product shot like this in a natural setting, one is like the journey your customer avatar goes on by using your product and the benefits they receive from it. So sometimes there's like a split screen that shows before and after, if that's relevant for your product or not. And then, yeah, little human touch, grab the most, the best, your favorite image from each of those seven or so that you create, and then put the little final touch on it. Make sure that all the information is correct. If you have a supplement or something, just making sure that the writing is eligible and correct, and then just plug it in. Last
+
+Speaker  460922:40
+question before we move on, so you mentioned that you're using the open AI API, and then you're also using Claude as well. So part one is, what's chat CBT doing and what's Claude doing? And the SEC second question from Guido is, in your testing, is Claude still the best AI to feed your exported data?
+
+Speaker  466752:00
+Yeah, you know, in the process of setting this up, we you, so when we were manually doing this by my tool that we're setting up, I think it's just we found finding it's easiest just to put the I'm no developer at all. Really easy for me to grab the open AI API key and plug that in, which is what we're doing. Right away, I'm trying to get the deep seek API, but the website keeps going down, so I haven't been able to get access to it. But by far, though, my favorite in terms of the output of writing, but also, just like playing with the tool itself, Claude, just to me, beats open AI each step of the way. Was there another question I missed,
+
+Speaker  477722:40
+particularly good for written output, isn't it? I think Nick was mentioning something in the chat about the limits of Claude. Do you want to just
+
+Speaker  479722:40
+comment on? Yeah, that's annoying.
+
+Speaker  481024:00
+So I think Nick was saying that you can't it. You can only do it. You can only feed like, 500 reviews at a time. So it's, it's not you have to kind of work around its limitations, but the actual output is the best.
+
+Speaker  484704:00
+Yep, that's where we're at. Now, there's different limitations on the things, but Claude is truly the best. I mean, if you're trying to, like, when I was trying to program our little app here, I mean, you can create it on the fly. There's so many different tools, but Claude, you could just, it's, it's really infinite what it could create. And then so the and the little tool that we made is essentially, you know, a very simple interface that guides someone through a step by step process. If you have people on your team, some people just are never going to figure out AI, right? You just could tell the like, their brain just doesn't work and how to like under unlock the the power of that. So for me, having creating, like a step by step form and process that people go through on our team to run. This is a nice interface that makes it extra W proof.
+
+Speaker  498160:00
+All right, sounds good. Looking forward to giving some of this stuff a try. I've signed up for my free I've signed up on Spark Toro already. You get five free a month. All right. All right, let's, let's get into guys
+
+Speaker  501056:00
+real, real quick on the spark Torah thing. That's great if you don't have, like, I use that a lot when we don't have data for demographics. But you also want to get that demographic data out of your Seller Central account and plug that into there as well, because that's actually who's in your account shopping for stuff.
+
+Speaker  506325:20
+So definitely don't miss out on that?
+
+Speaker  507578:40
+Yeah, 100% it's good. We want to use all of the data that that we're given or that we can use, and then feed that into the eye to help make wise decisions, right? So Can, can you just confirm again? Guys, you can see my chat automation for Amazon growth screen. Cool, so another thing that we've been working on the background, and everyone here can just get access to it 100% free. If you guys just want to help us work out the kinks for this, you can use this tool for free. But pretty much everyone here has probably used many chat at one time in their life, and it was like that was the whole thing that everyone in MDS was doing, and everyone else in Amazon, but there were many, many restrictions, like how you interacted with them, like, oh, you can only message them within 24 hours of engaging with you, first, that type of stuff. So that that was an interesting for me, that made it not worthwhile using mini chat anymore. And then also, also more recently, though, you know, all of the different launch services have become more expensive, significantly more expensive, actually. And so Tyler, who might be on this call, and Jose, as well. Two other ndS members, Jose really initiated this, but they've really helped, taking the lead develop this tool. I just want to give them some credit, but basically, we have made, or have almost completed, a jailbroken version of many chat and because all of these launch services are significantly more expensive, I think there's just a way, basically, to do it for free, for yourself. And so I think that's what we created, the main benefits of what we created, and I'll share a couple pictures and stuff, but everything is totally unrestricted. So instead of using messenger, we basically built out our own little chat tool, right? So we use SMS when people sign up. We can talk about how to get people to go into your buying group to get your products for free. When people sign up, it'll be the name, email and phone number, which can be optional, but an SMS blast to someone's phone. It's just so powerful, and as well that will allow us to do unrestricted one click broadcast. So if you remember, with many chat, you can just like, boom, and then message your whole list, and then watch all the people go through the flows, which was really, really satisfying us. We have that. We also have a wallet integration feature that will you could just like, fill your own wallet. It'll be integrated into the chat bot tool that we have and as well into Amazon to confirm your order IDs. So fully automated, you can have flows built out. In fact, we have a lot of badass pre built flows for Amazon ranking reviews, and we're even considering how to launch Tiktok videos, which can be cool for many, many reasons. But the coolest thing is, I mean, really fully automated. Can run these flows for yourself. And so basically, how we're seeing this working is we want to leverage Tiktok to create. The AI generated ads, which I can show you what some of those look like. It's insane. These AI avatars that can now just hold your product right. So making Tiktok ads, or just organic placements, they click on the ad, go through a little flow. They'll receive a button to you know, they connect everything, including their phone number, which is preferable but won't be required. They click on that sends a text message to the phone. They click on that, the chat bot will open up. And then, depending whatever flows you want to do, whether that be for reviews, which is very cool, or for ranking campaigns with particular keywords uploaded, it'll be guided through. And then they can upload their order ID and be, yeah, refunded automatically. We're also going to be integrating this tool, which a lot of you have seen before, which will show for every single keyword, the exact amount of say, giveaways, clicks and add to carts that would be required. So we want to basically take a lot of inspiration from all of these other great launch tools and figure out how many giveaways, clicks and add to carts are required to rank any product. And then we could build out these flows with caps to make sure we achieve that giveaway target every single day. And the most important thing you'll basically be able to do it for free. And so I think this is just reiterating enough having that wallet feature auto integrated into the chat bot and confirmation of the order IDs to make sure that you know, no one's getting scanned, we can have a feature as well, just a blacklist anyone, which is going to be very useful, in case anyone's taking advantage of that. But nevertheless, it's very cool, because the top of the funnel ad is going to be this is just an example. Guys highly recommend. Go check out this website called Top view. And I just played with it recently and just made ads for my own product, but in the main webs, the main page of this website, watch the video. This screenshot was from the video, but it's just like this, AI avatar talking looks absolutely photo realistic. And it's like, hey, which product you want to plug in, dude? And there you are. There's a green screen feature you can upload your Amazon listing or videos of your Amazon listings behind you. And there's like, a green screen feature where it's her talking about your product, this or that. Maybe put a like, hey, get this product for free. Type caption over the listing. But my suspicion is really now, and where I want to put a lot of my focus is that this AI avatar stuff, combined with Tiktok, can be the source of a lot of things. It can both feed this group, if you want to make your own sort of internal launch thing, which then that's keeping it safe for you in a way of like, Hey, this is not some buyer group or some review group. This is a list that you've compiled together, and it's people scrolling through Tik Tok that want that your particular free product. So I think that was just going to naturally be pretty easy to build a buying community. But then also it's going to people be people that actually want the product, and not just, not just people trying to scam for 20 bucks or whatever. And so this is just a screenshot of what we I have tons of videos and screenshots because this is being developed actively, but it's been, we're actually, like, super close to going live, and anyone can just use it for free and also let us know. But it's, it might look very familiar.
+
+Speaker  617765:20
+You're trying to persuade people to buy it, and then you're going to pay them back. Yeah, absolutely. And so we have an
+
+Speaker  618933:20
+auto wallet feature. They're going to get it from. Get it for free. If that's what you wish to do. I think that's the way how I want to use right now, is, if I were interested in getting more reviews for my products, that could be one thing, right? You have your review funnel flow that's pretty powerful. That steel space, because people really want that product.
+
+Speaker  623754:40
+Well, people might, they may want to build up their GMV on Tiktok shop, maybe, or something as well, right?
+
+Speaker  625120:00
+100% and I won't call out Tyler, who I think is on the call, but he's pretty genius when it comes to that stuff. And I think really unlocking Tiktok to boost many things for your business and brand awareness and stuff like that is is pretty cool, but essentially jail broken many chat, wallet integration pre built out flows. That's what we're doing. And then you can run these things, full giveaway, control AI generated content for building up your community and like blasting that out on Tiktok. And then all these pre built out flows for whatever you need to do, and that is what we're developing. This call really helps speed things up. We've got a development team fully dedicated to this thing, and it's almost done. And anyone that wants to use it here can use it totally for free. I would just please ask for your feedback as you're as you're using it. And so
+
+Speaker  640272:00
+So is it, is it still pretty buggy? Or do you think you've got it mostly dialed in now,
+
+Speaker  641536:00
+version three is going to be live in like, an hour, and then I'll let you know, but it should be pretty good. It's just a matter of actually, where our last step is, just integrating the wallet feature to make sure that people are going to receive you upload money to the wallet, and then when people buy it, your product, it analyzes the order ID and the money that was spent, and that money could be redeemed automatic. So got to make sure that one's done right, but I think that won't be a problem.
+
+Speaker  649109:20
+So people are asking how to sign up. Have you got a link? Or do you just want people to email nick or something? Or
+
+Speaker  650469:20
+Nick? Do we have a link?
+
+Speaker  652250:40
+You're on mute? I think,
+
+Speaker  653258:40
+yeah, I got a link for you guys.
+
+Speaker  654218:40
+So the plan to roll this out later is like a paid tool.
+
+Speaker  655850:40
+Maybe we'll see anyone that signs up. Now, I'm not going to charge you guys, MDS discount George for 399 but you have to tell me your feedback and use this tool. What we might do is just have a small percentage on the the wallet feature in the future,
+
+Speaker  660960:00
+in terms of, like,
+
+Speaker  661856:00
+a small percentage that would be charged on top of that, so people can run their own giveaways. It's not charging, it won't be charging per giveaway, or anything like that. We've obviously Nick and I may have helped a lot of people do watches, and we have a ton of experience with that, so we can always do that for people, but at the same time, this can allow people to do the do the do it themselves. And the way that I'm considering monetizing it in the future, one of that for you guys now, is a small of charge on the wallet, but then people are running their own giveaways.
+
+Speaker  670218:40
+Oh, okay, so when somebody pays us back, we wouldn't quite get all the money back, but then then you just take your Kat on that little bit there. That's
+
+Speaker  672426:40
+what I'm that's what I'm considering. But,
+
+Speaker  673360:00
+yeah, yeah, interesting to see what people see. See what people do with it, and how they use it. Be interesting.
+
+Speaker  675536:00
+The main thing is you just fully own your audience. And so it will be really with text message blasting that can. You can send them anywhere. The chatbot will be fully functional, and you can build out any custom flow that you wish. But we're going to have tons of flows already available for for different practices, and I am going to keep this one, like, kind of close to the inner circle. I will be running any ads for this one. We're going to keep it
+
+Speaker  682741:20
+low key? Yeah, it could run into problems potentially if it got too big, right? Because once it's big enough, then people start
+
+Speaker  685066:40
+on the other side, start trying to figure out how to game it. And like,
+
+Speaker  686250:40
+you know, marketers are in everything,
+
+Speaker  687098:40
+yeah? So we'll, we'll see how he goes. This is a newer thing for me, too. But the coolest thing about just having my agency is I just have to figure out how to do like it, to do everything at scale, and so it's fun that I get to incubate all these different tools and just use it for ourselves.
+
+Speaker  691760:00
+All right. Oh, all right, guys, so we're gonna open up to questions so we can go, you know, any of the AI questions or launching or something you've heard Ken talk about for in the past, somebody's asking about data warehouse build out. Is that something, oh, that's
+
+Speaker  697077:20
+so funny. So funny. Just seemed to, I think we spoke about that. Oh, that's so funny. Just team and I owe you a data warehouse buildup. I'll talk to my wife.
+
+Speaker  699754:40
+Yeah, I'm, I'm looking at it at the moment for something, so I need to try and figure out a way to download of all of Amazon's reports to do with logistics and stock and then try and get it into a presentable format.
+
+Speaker  704058:40
+Yeah, if anyone's interested, my wife is, like, a master, has a master's in data science that used to build out dashboards for like, billion dollar companies, and so we have her, and then two young guys that have master's degrees in AI that are building, that are on our data team, and they're just building all this bad stuff for us so we can, that's Kat. I just do, we do so many services that I didn't think about building out data warehouse stuff originally, but we can do it. Where can we see the prompts? If you do the fill out form, we're going to just make sure everything is cleanly compiled and send it to you guys.
+
+Speaker  713797:20
+Oh, cool. We can get the prompts there as well. All right, so how ready is the so the other thing that you said you're working on is you're working on something that will be someone won't have to log into chat, GPT, and they can just go fill out boxes, blah, blah, blah, blah. How far away do you think that is from being ready?
+
+Speaker  719946:40
+You. I should be able to have that by next week. My main guy told me that he actually thinks today we'll have it up and running and I'll just play with it for a few days before I send it to you guys. But it's it's actually pretty dummy proof. It's a very simple app that's just a click through thing, but each button has an AI integration and a particular prompt that we use. So I'll just make sure that the prompts are out, but, but that should be ready 100%
+
+Speaker  726629:20
+that will be all, that'll be all with an open AI, basically, that would all work from open AI at this
+
+Speaker  727877:20
+at this moment, someone just messaged me that the deep sea API is up and running again. Thank you for that. So I'm going to be test. I'll just be testing out a bunch of stuff. And I hope you guys, if you have any, let me, let me know how we can improve it, because we just have teams working on stuff all the time. So
+
+Speaker  732970:40
+So Nick briefly touched on getting data from Seller Central about your customers. Nick, can you just talk me through exactly how I would do that and where, whereabouts I would go and click,
+
+Speaker  735850:40
+yeah, I'll poke through it now so I can give you the exact steps, but it's in brand analytics. And I actually, like, you know, when we're writing processes or something, I'll always just see if I can, like, grab a link for that. And if, if, once you navigate to this section, you can grab the link and then, like across different brands, you can, you can log in and it'll take you straight to this page
+
+Speaker  743749:20
+on expanding a product line, then I've already got a ton of information from Amazon that I can use Right, right? So I can feed that in, rather than going from, rather than going through through
+
+Speaker  748074:40
+Tori. So I call it Yeah,
+
+Speaker  748394:40
+Tori, yeah. And analytics, cert, consumer behavior analytics. And then there's a demographics
+
+Speaker  751098:40
+button, which I believe is mostly like age and income. If that's correct, I would still recommend, right? Let me know if there's more there too. But I would spark tutorial is really bad ass for get getting extremely thorough, and then using that as our source material for the rest of the AI prompts that follow. Yeah,
+
+Speaker  756304:00
+you're going to get a lot more detail from them, but yeah, this one will give you the merit married status, gender, education in common, age.
+
+Speaker  759077:20
+Oh, cool, great.
+
+Speaker  760197:20
+And is Rufus status? Is Rufus something that you've been looking to incorporate into your processes,
+
+Speaker  762581:20
+not necessarily Dick Nick has thought a little bit more about that than myself. I don't have a I don't have a smart answer, because it's
+
+Speaker  764538:40
+harder to automate, right? Because you gotta go on the listing, see what the questions are. Go on the competitive listing, see what the questions are. Look at your own Q and A. It's a bit more manual, right?
+
+Speaker  766890:40
+Yeah, I haven't done that really yet. I mean, like, I have personally myself, but from, like a solution, we would want to roll out a scalable solution. I just think it would be kind of splitting hairs a little bit, you know? I think we're going to get the majority of the results from just really trying to understand the customer as much as possible.
+
+Speaker  773440:00
+Yeah, right now, I think a brief list is difficult to find a way to automate it, but I think it's definitely worth paying attention, at least for your most important thing, it's gonna give me what kind of questions are coming up. Yeah, still relatively easy to plant answers as well. So
+
+Speaker  777493:20
+right now, you can kind of just build up the Q A
+
+Speaker  778245:20
+stack, not Yeah, I think if you're going to be if I think that's a different right angle there, if you're going to be putting questions up on the listing, then I think Rufus is definitely worth checking out.
+
+Speaker  782730:40
+Oh, well, just as I ask if anyone else has any final questions before we go, Belen, if you could just post a link to the air table. I know Ken's put a lot of work into this. We've got some exciting stuff. So if you could just rate the call out of 10, give us some feedback. Really helps me to to make these calls as high value for you as possible. Also going to put a link into the WhatsApp the WhatsApp group. So hopefully you guys can all join the WhatsApp group, broadcast daily, and just get to know you, so you always know what kind of calls are coming up, even if you haven't been on Facebook or you haven't been on the MDS app.
+
+Speaker  792277:20
+But yeah, that's awesome, man. So
+
+Speaker  793029:20
+look forward to seeing look forward to seeing what you've got there, having it, having a play with it. I've also found that sometimes just doing the simplest possible things with AI has worked well, like, we just put our product in, and asked for, we put, like, our best selling product in, asked for some ideas to improve the packaging, hold it, change the main image, and like the sales, just the sales just blew up. And then we changed our packaging. And I was just, like, really simple, just upload, just simply. I. Loading into chat GPT and asking for ideas before,
+
+Speaker  801600:00
+if anyone has good for me, that's cool. I would love to hear George talking about what he was using operator with last week. Yeah, let's go.
+
+Speaker  804128:00
+It's yours. Well,
+
+Speaker  804496:00
+I don't know, for the guys that know, I'm bit lazy, so I decided let me give a you know, go with this operator thing. So far this week, I've had it hire someone to set up a reverse proxy using Upwork. Literally told it, just go into Upwork. You give it blogging credentials. I don't really care anymore. I'm so lazy. Here's my password. Do what you want. It literally found someone really good, interviewed 10 people rejected them by not giving them good examples. It was fantastic. Then the polish in me was like, Why didn't I just have operator set the reverse proxy? But that's a whole nother story. Some dude was advertising his services for some backlink, tagging, SEO stuff for your Shopify store didn't want to pay him. Kind of Vax, the operator to go to his ad review, it figured it out. Said, you go to Shopify and you write the code, wrote the code. We'll see if that brings me any sort of sales. Been having it hang out with the UGC stuff. It's been hanging out, enjoying brands and some of the other things that we play with and, you know, sending out messages and all the good stuff. Literally, just tell it what to do. It does it today it was, I told it to go into Amazon and basically look at what Amazon's recommending in our store for some sort of new recommendations, and it started editing the store. Haven't gotten suspended yet, guys, I think it's doing a fantastic job. So yes, operator, don't be scared. This
+
+Speaker  830794:40
+is the $200 a month.
+
+Speaker  831306:40
+Oh yeah, think about the people that just got didn't get gigs from me. Literally, it's amazing. It just paid for itself in one day, quite frankly.
+
+Speaker  834096:00
+So this is so with with regular chatgpt, I can't tell it to go and do stuff, but operator, I can give a login and it will let go and actually do things. Yeah.
+
+Speaker  836944:00
+So basically, what happens is, for example, let's just say I want it to go into my Upwork account. It will go to Upwork in its browser so it doesn't actually take control of your mouse. It has its own computer. And what we'll do from there is you log in, so you take back ownership, you type in your password and all this other stuff, and then you release control back to operator, and it does its thing.
+
+Speaker  843690:40
+That's crazy, man.
+
+Speaker  844282:40
+So you don't need to use these, you don't need to use things like Lindy or AI agents. You don't need to use external services. You can just do it yourself now on literally
+
+Speaker  846810:40
+one call, it's doing all kinds of things. And one thing, it's shopping for a car for me right now. So, you know, listen, this thing is going to change lives, end jobs,
+
+Speaker  850064:00
+hopefully it doesn't become an Amazon seller.
+
+Speaker  851440:00
+All right, yeah. So it's the ultimate VA for $200
+
+Speaker  852672:00
+it's true, yep. So
+
+Speaker  853600:00
+church, can you run multiple can you run multiple agents kind of simultaneously? Uh, so
+
+Speaker  855077:20
+far, I've only run into an issue with up to four. So I've been keeping it at three. I'm assuming, as I've noticed just in this week alone, when I started doing some of this stuff, on Monday was slow, and Tuesday got faster. Wednesday, it got faster. So it's learning really quickly. I'm blown away by it. I mean, I've been talking about this at the dinner table. I'm telling anyone who wants to talk about operator is a game changer for me as a 90s kids. This is like, AOL, dial up. This is unbelievable game changing stuff. It's doing everything. I mean, I haven't figured out what it can't do, to be honest with you, but is
+
+Speaker  866256:00
+there a learning curve on it, or you just start talking to it and it will tell you how to do it?
+
+Speaker  867312:00
+Yeah, there's certain things where it will ask you certain like things. You sure you want me to send the email. You sure you want me to do this, and I write back, I'm lazy. You do your thing. And if you break something so badly, I guess we'll ask for forgiveness, and you know, but yeah, no, seriously, we'll stop and say, Hey, are you sure you want me to do this? You can supervise it. You can just tell it. Keep going. I basically just say, keep going. Don't ask me. Keep going. Don't ask me. And now it's starting to sort of not ask me. I guess it realizes I'm I am lazy, so
+
+Speaker  877402:40
+nice. I was thinking about learning how to do some automations in na 10, which is like a cheaper version of Zapier. But I wonder if I could just get up, just get operator to build them for me.
+
+Speaker  879978:40
+Yeah, I don't know. Because I think what would have to happen with with that kind of stuff is it will need, you need to kind of be around right now, right? You need to be you can't just walk away for like, a couple of hours. I think I walked away for maybe four hours, and I came back and they were all locked out. So there is some sort of time restriction there, you know. So let's say you went to sleep tonight and you told it to do something. There's a chance you may wake up and it's probably not going to have happened, or it would have paused asking for your input. Should I do this, you know, using it through in the course of the day. For me, you know, I have two screens, and I just keep it on the one screen, and I'm just watching and monitoring certain things and make sure it's still working.
+
+Speaker  893450:40
+Awesome. Well, look, let's get everyone, let's everyone sign up for a month, and then we can all swap notes on, we can all swap notes on what we do, absolutely.
+
+Speaker  895594:40
+Jamie, you got me thinking here, because, you know, I'm testing everything, but I need some input here. You know, you guys are so much smarter at this stuff. I can't imagine what you would have it doing.
+
+Speaker  898960:00
+There's going to be, I think it's going to be some good ideas. So awesome. Well, thanks. Thanks, Kat and Nick for coming on. Awesome con content. So there is that link to sign up in the chat. Guys also, please join the WhatsApp and please give us a rating on the air table. Thanks guys, thanks for coming on. Got lots of exciting calls coming up. So hope to see you guys next week. Thanks guys. See you guys.
+
+Speaker  906261:20
+Thanks everyone. Peace. You.

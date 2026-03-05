@@ -1,0 +1,278 @@
+MDS Mogul Call with Peter-Paul Maan
+Date: February 04, 2026
+
+Speaker  448:00
+Yeah, but yeah, the same I did the same thing. Thing, back to Travis earlier today, he was waiting for me like 20 minutes. And I think this is the reason why he showed up later. I think we still respectable within time. So that's good.
+
+Speaker  4287:59
+You're ready? Yeah, we were ready to rock and roll, man. I'm excited for today. Yeah, yeah,
+
+Speaker  5616:00
+just to tie what we were talking about before. I generally last year, we focused a lot more on just basically our most successful products. And I think that probably, probably that, generally speaking, is the way forward is to focus, focus efforts on the big winners. Because, you know, five, 10% improvement on those is worth a lot more, even than, like, say, a 50% improvement on on some other products. I do want to improve the other products as well. I'm just want to try and hopefully maybe use as much AI as as possible. But, yeah, we've just been trying to work out when. You know when, when Kaylee really needs to look at stuff try and get the system right. So I'm gonna, I'm gonna try and sort of build a new system for it. So hopefully we'll cover some of that, some of that today. All right, should we have a look at the MDS slides quickly? Welcome guys. Good to see you. I hope you guys are ready to geek out on some polling and listing optimization. You know, do a lot of things here, and we know listing optimization is the one thing that, one thing that always moves, always moves a needle. We look back at some of our past, past optimizations over the over last year, and
+
+Speaker  32000:00
+available to the whole community. So some real gold and some real stuff that you may not you may not get to see otherwise. So definitely check that out. Listen in the car. Check it out on your computer. MDS, inspire coming up. I think there's a price hike coming up. Is that right? Yes, prices are going up on the 15th. Okay, so, you know, get in. It's going to be an awesome event, especially if you're nearby. Get those get those tickets in, and you can bring along non MDS people to it as well. So bring all your E commerce friends. It's going to be a great time. Yeah, if any of you have a particular problem that you'd like featured on a mobile call, we're going to be doing some HOTSEATS. So I'll get an expert in as well, or one or two experts in to help you out. Maybe the rest of the community can help you out as well. So a great opportunity. First one of those is coming next month. Yeah, let me know. Yeah. Get the WhatsApp reminders. You can scan that QR code. We'll put a link in afterwards, just just to get reminds of the calls. It's just a broadcast only group. Of course, Intellivy is our partner. Got Peter Paul on today. So there's all sorts of special MDS pricing. Is that right?
+
+Speaker  51952:00
+Yeah, absolutely. I think you're the community only community with the most discounts and our special offers are out there.
+
+Speaker  53781:20
+So, yeah. So, yeah, check, check, check that out. All right. So we've got some, we've got some of the cutting edge stuff to share today, right?
+
+Speaker  57285:20
+Absolutely, I have, I'll
+
+Speaker  57973:20
+just say so, you know, Peter Paul helped me out with some of our stuff on our brand, and it's been, it's been really helpful. Obviously, people's got very unique perspective from being, you know, on the ground with with the polling software, but also from working with a lot of brands as well. So hopefully you guys can all learn some of the stuff I've been learning, and I'm looking forward to
+
+Speaker  63930:40
+learning some new stuff. Yeah, I'm happy to be here. Can I share my screen?
+
+Speaker  64832:00
+Yeah, let's go good.
+
+Speaker  65696:00
+So I'm not just here alone. I'm here with my colleague, Travis, so while I'm sharing my screen, maybe good moment you introduce yourself.
+
+Speaker  68256:00
+Yes, it's great, great to meet everybody. I'm excited to be on the call today, actually, excited to meet as many of you as I can in Vegas here in about a month or so. So pumped to be here and talk with Peter Paul and help you guys get the needle moved here for the new year.
+
+Speaker  71957:19
+And maybe also good to mention, like, what did you did before? Before this?
+
+Speaker  72981:20
+Travis, yeah. So before I joined Intellivy, I started working with Intellivy About three months ago. Before that, I was part of bid X for a couple of years prior to that, my first foray into the Amazon world was with coaching program called AMZ insiders, which was run by Jamie Davidson, where we were just building, you know, six seven figure sellers through a coaching program in the Amazon space. And that led me to bid X, and bid x let me do intelliv And let me do this call.
+
+Speaker  80944:00
+Yeah, I'm really, I'm really glad, and also nice going see each other in Vegas soon. So that's great. Yeah, yeah. And then a bit about me. So if you don't know me yet, so I'm with Intellivy for quite some time before that, since 2014 with Amazon sales, and, yeah, the last year, like I'm running so so many done for you services. So that's that's something new that we launched at Intellivy, where I'm doing a lot of polling and consumer insights Mark research, and I'm going to explain a bit about it today. So Well, without further ado, let's continue on this. So the topic for today, why did most creative tests fail to drive sales? And I hope that in the end of this presentation and the end of this MogulCall, we can change that sentence like, how do we create creatives that drive sales? Because you need a methodology for testing creators with intent and not opinion. And that said, testing is not about confirming that something looks better. I think I'm, again, I'm starting with this topic because I see, of course, also other polls, other insights, other testing, but just having feedback this one is better than the other. It might be valuable at a certain level, like, for instance, testing one color instead of another, or having it bigger or smaller, all fine, but if you really want to know what drives a sale, you need to understand the important decision drivers, and you need to see it in the full context of the marketplace. That's the only way. Now, fun fact, it brought me back to a moment that I thought about this. This was 2023 Barcelona, MDS, and that was my first time I got the opportunity to speak about optimization. And that day, or that time I spoke about reinventing the optimization team, and I couldn't imagine like even that on the right side. This is one of the slides that I used back in the day. And I used GPT four, so that was already there we were. I was one of the early users. But what I spoke about is that you cannot just optimize a listing. You need you need to have a good skill set. You need to have someone who understands research. You need to somehow have someone to select the competitors, someone who's creating the images, someone who understands the USP's, but then everything in context. Well, just just think about so you need those experts now, the whole thing is that design executes strategy does not define it. So without clear intent and without expertise, Destiny becomes random guessing instead of structured learning, and we see a massive leap in AI. So today, of course, everybody wants that. I'm going to, I'm going to, I'm going to show it. I'm going to show AI. I cannot do it without it. As a matter of fact, I'm making my life so much easier by using AI. But it's also an explosion of tools and automation, like, I don't know, guys, you see so many tools out there, you can create a full listing image set for $6 I don't know if you've seen that message recently. I think probably if you look it up, you will find it. But that that might be amazing, and it is, but still, I think we have to keep in mind that we have a mindset Rick risk in the industry. There are some sellers out there that started in 2014 2015 huge amount of sales, millions. We have seen that we I know, like people, they're not in the space anymore. They're just gone. And I think the problem is in the industry that are you have, like, a certain level of sellers saying a lot, knowing a lot, always in front, like the newest tools, the best ever, but they do not stick around. And the ones that you do not hear, those are the guys doing something different. They are roughly working on optimization, listening to consumers and make better products and better listings, and we are in contact with those people, and today, I tried to share a bit of that world to show you how the human factor comes into play. Because consumer the real consumer feedback, is the absolute norm, or fundamental understanding context beyond numbers, yeah,
+
+Speaker  150757:20
+we need that. We need that human context, any type of design or any type of decision, it should really be based on a human experience, not just kind of like, hey, what I think, or this looks good to me, or this is what AI told me. AI told me that today was Thursday when I was when I was using chat GPD this morning, I was trying to schedule something out, and said, Well, today is Thursday, and said, Well, today is Thursday, and that's a pretty basic misstep, right? It's a huge tool and a great thing, but nothing really compares to having that human element to it, because that's who's buying your products, right? So AI helps them and helps us, but when it really comes down to it, we need to make sure that we are including and really kind of elevating that human factor in that decision process Exactly.
+
+Speaker  160928:00
+Thank you. And each day, each day in our office, like really, each day, but in each conversation I have daily, if I just run all my calls, looms whatever through chatgpt or whatever too, it will detect each time that I'm using AI tools, I'm using them, and I want to learn you today and also get back feedback, like learn from you, so it's back and forth, but aim for efficiency, but do not never, really, do not, never rely on AI alone. It's just not going to work. You have to keep everything in place so perception over execution and visual quality is secondary to meaning.
+
+Speaker  170981:20
+Yeah, AI is a great enhancer, but not a replacement, right? It's a great thing to help enhance and get to a place quicker, but it can't right now. It can't replace everything that we need to do to get that human element so
+
+Speaker  173834:40
+Exactly, exactly and but today I'm going to show you, like category templates. I'm going to try you, to give you a direction, like how to create it. And of course, we have one hour, so it's just one hour, and that's where we are like as Intellivy, the team, reach out to us. Hey, Oscar, good. See you. Hi. But we are here to help customers and to really make sure that you find a methodology that works for you, by the way, interesting that well, nevertheless. So let's continue on this. So markets move fast. We know that. And this is one thing that I already want to say up front. Always, always follow your competitors. If you see like a minor change in your competitor, then do react on that you cannot just sit still like, why not take that image, throw it in a small poll and just check, like, Hey, is it having impact? Is it having an effect? Each test must have clearly defined question and confirmation signal. That's like, absolutely what you have to do. Now. That brings me to the final slide I've created the document for today, and it is, I'm just going to walk through it, so I hope it's all big enough. And if you want to make it bigger, I'm going to start from top to bottom, and again, it's going to be a lot of data, a lot of information, but I'm just going to walk through it. And if want, if needed, or anyone who wants to raise a question, then do it. Then we can make it even interactive. I love, I like to do that so, but let's start number one thing that I'm using for so, so many years. And maybe you're not used to it, but I just want to throw it out here, OPA. It means, by the way, in Dutch grandpa so like, it's old school stuff. You know, to me, it means something. But OPA means outcome, purpose, Action Plan. And I think whatever you do, so if you're implementing something, if you're hiring someone, if you are doing something, you have to make sure that you understand, like, what is the outcome, what's the purpose, and what's the action plan? And the same applies to for today. Now I changed the title instead of having Why do most creative tests are making a mistake now and have changed it into how to turn creative testing into real sales growth so the outcome is a clear, repeatable method. That's what we want to prioritize and validate optimization decisions with confidence, less wasted effort. The purpose using pulse, of course, using polls to optimize optimization hypotheses, instead of guessing what might work, that's what we need to do, and create a structure between quick wins and rough overhauls, and deploy consumer insights before changes go live. So investments are based on buying behavior and other assumptions. And it all makes sense. So then we have an attack action plan. We have to do this per listing, which optimization, by the way, also per category which optimization phase it's in which validation track fits, establish minimum research steps required before each optimization decision, and set a practical step by step plan for current case to start with the right pulse. Then, if you look at this is, I call this a validation framework, but to honor, to be honest, if you will sit down with me for a week, probably you end with 30 frameworks. I'm sorry, but it's just, I don't know. I cannot help it. I try to always narrow it down to a simple step. But it doesn't exist, not yet. But one thing that does count is this. Number one, what is frustrating the customer? And you can get that stuff from review, mining and understanding real problems, but also, like an objection, Paul, you need to understand, like, what are the concrete improvement points? Number two, can we credibly solve those problems better not just sit down, but think about like I have a USP in mind, or I have something better in mind. Is it really realistic? And can I bring it across? And if it does not, if it's not possible to bring it across? Well, I don't know, but it's not going to work. Does the consumer recognize so that's another part. I have something unique, but do they recognize it? And that's not just your product. No, it's in relation to other products, the context everything, then, is the consumer willing to pay for it? And I say even between brackets, more, that's what we want. If we're creating a new image or a better listing, are they willing to pay more for it? Is it indeed something that is shifting the needle, and does the total concept beat current top alternatives? Does it all make sense so far?
+
+Speaker  248805:20
+Yeah. If you guys have any questions or anything, feel free to put them in the chat. I'm kind of monitoring so we can make sure you're engaged with anything that you need.
+
+Speaker  250981:20
+Yeah? Now here are just a simple example. Let's just start, start a bit soft, you know, let's, let's make it simple and easy. This is a poll from last year done by one of our customers, and he did this because he was in the face of product development, so he was testing this. But the thing is, if you look at it, and that is Paul setup. And I'm just going to explain this now. I keep it simple, but the Paul setup is making a, the winner, B, C, D, E. And what you can see now here is that the lower price is a, then second is 159, it just goes up. Look at it. So it's I'm just showing this as an example, because the whole point here is that right now, with the price element,
+
+Speaker  266666:39
+minor element of the feedback. You're not going to get the exact result on what is it? What design people like? And I'm just showing this, maybe everybody who's watching right now is like, yeah, the I understand that. That might but I'm just saying because what I explained to this customer is, hey, listen, just detect designs in the market that are out there, and how simple is it to create with your eye on white backgrounds, just the products, and then test the images. Then as consumers in a pool where you get positive and negative feedback, what have these? One of these designs do you like or not? Which one are you willing to buy as a first step? It's simple, and it avoids a lot of waste and a lot of noise. I hope that makes sense. Now, this is part of a validation framework. Now let me explain this one. The validation framework is what I always use, and maybe I've seen this image before, and I like to use stuff that I'm that I'm using a lot, because things that work keep it IDEATE, hypothesize, create, test, validate. Paul should validate an hypothesis, and should not generate them from scratch. This framework. So on top is product validation. I also have one for listing optimization that will be the next. And by the way, after these two frameworks, I will also dive into an actual case study so that you can see that one the framework overviews. I have two tracks here. So one is like off the shelf validation, products available at Factory supply, so ready for purchase. You can just launch it. It's already there, but maybe you're working on on something new, like a golden sample, totally new concept. Of course, track two is going to be higher priced. It's just more complicated. Let's be honest. You have to create something to create to make it visible in a simulated marketplace. But the core principle is that your poor investment is focused on actionable stuff. You never skip the desk research. Now that brings me to this point. If you do not understand this, like what I'm looking here, like the competitor, landscape mapping, having everything clear, like dimensions, capacity, weight, color, size, counts, everything. And, yeah, recently I spoke with someone, he's here, like, is it bamboo Katzen? It's just a difference, and it's going you're going to reflect, you're going to see that import results. It's going to happen. So you have to make sure that those elements are just in there. If you're optimizing for a specific product review, mining, understand the repeated complaints, unexpected stuff, feature requests, anything that's in there, listing gap analysis. Then continue like you pull when you have a clear hypothesis to validate you do not pull when you you haven't done competitive homework or hoping Paul will tell you what to make That's nuts. Like, why it's much better to have an idea upfront and to start with validation, anything to add to it.
+
+Speaker  318858:40
+Travis, no, I think, I think that's the right idea. Like, you know, where are we starting where are we trying to get to? Back to the OPA thing, right? And what are the things in between? They get us there, exactly.
+
+Speaker  321808:00
+Yeah. Now then, here you see the off the shelf product validation. Where explain so you start with purchase variable, understand, what are the buying objections, ranking pole you can test specifically on specific take a product listing of a competitor, throw the images in there and ask them, like, Hey, if you look at these images, what would help you to buy this product in what order would you rank them? It's a very affordable pool. It's easy to do, and you understand, like, how do consumers behave in that specific situation with that specific product in mind, marketplace, pool. Understand how clicks are driven with all the context in there, taking elements out, adding into them, but make sure that you understand that part. So you see investment, investment summary. And you know, I can share this stuff, and then you can easily read it. Let's continue to the other one if you're okay with that. So that is framework for a default listing optimization framework. Here it starts with identifying the problem. Is it CTR? Is it CVR, is it the full funnel issue, and you start with diagnostics. Then also here applies that competitor check. So the same that I did here, that also applies in listing optimization, if not, if you do not use that and you're going to do consumer insights polling, and there are differences in dimension or capacity, whatever, it's going to make a difference in the poll. Of course, if you want to know that, and you want to beat the competitor, although that difference exists, fine, then that's your pull setup. But if you want to stay away from that part and really want to learn like how to communicate with the consumer, then you do different. So you have the data collection checklist, sqp data that will be a bonus in this call today, we have something new in the Intellivy platform that is pulling all the SQP data, and it's going to help you the full pool investment and market research within Intellivy platform. With SQP data, your current CVR and CVR benchmarks, your competitor main image you need to have that the competitor image stacks you need to have that. You need to understand the full sales story, everything like, what is, what are they doing? How is each listing, selling the product, having that mapped out. You need to understand how they do they do that. What are the gaps?
+
+Speaker  361589:20
+Yeah, and I think this speaks to the the system is systemization of this type of process, right? As opposed to, hey, let me just run a poll. This is what I think. And let me just go find who I think. Like having these things in place ahead of time, just for going to optimize results, which is going to allow you get to the end goal more quickly and more efficiently, exactly.
+
+Speaker  366538:40
+Yeah. So also, here you have pool investment. Everything is in there, and then you see all, like the quantitative analysis, what won? Who won by what margin, demographic splits, qualitative analysis, why did they choose? Why did they choose, reject, extract, exact consumer language, the negative mining, which obviously got least criticisms, criticism. Everything is in place here, and it has to come across. Now let's look into an example creating a winning product label. So this is a product, and let me show you. It's here. So it is a label for its D scale for coffee machines. And we did this. We are doing this together with an agency, and this brand wants to they have, like, high potential with these scaled products. It's insane and that you just see, like a bottle, and then how many units they sell. It's really insane. It's a lot. But when they asked the agency to optimize for their product listing, they also got the opportunity to change the label, and they found a designer that made a new label, and then the agency said, Well, wait a minute. If we're going to do a label design, I want to make sure it's going to be a scroll stop element, just to go down for four bit reference images in the category looks a bit like this, so a lot of stuff around it, like badges, 60 users, whatever. But we started by just going back to the label itself. We did quite a bunch of labels in testing, like all concepts, read it, understand, like, what is that people really care about? And we learned that, if I'm just going to show you that, so we have now a winning label. But why? Because all the elements, like safety, messaging, everything is coming across that really, really matters. So we are creating a label that is so highly focused on, and you can see that here on the poor example, let me show you. So this is number one.
+
+Speaker  399482:39
+And then here in this pool, in the ai ai report, you can already quickly detect it from situation insights people care about product effectiveness and compatibility and the ease of use, of inconvenience, and then, of course, price and value. But here in this overview, item B was always the winner. So when we started that main competitor was doing better. But right now you can only see that it's visual appealing. It's informative and clear. That's it. Well, this one is getting a professional, desirable appearance, but more importantly, chemical free and safe. But if you just look at first glance, it's not really enough. It's not like, wow. That is a decision driver that I'm aiming for. So when we go to the other one, and I hope you did you see what I showed that you see it immediately. Here, natural, safe ingredients made in the USA, effective design, readability, but also color and visual appealing, where the more eco friendly is praised. Now, from this point, we know now that we can continue with this step where we recommend it. Okay. Now we know this. Now we need to work through the label. Testing is complete, but now we need to work on the main image, and we need to work on the image listing itself. Make sure that the hook is in there in the second image. Make sure that the third image is addressing the why having a differentiated image in there to we are beat the competitor. Make sure that the consumer knows this is the product you're looking for. So I hope this makes sense what I'm explaining here. Then another one that is a case study we did with white glove. Maybe a few that are in this call right now have seen it before, but in this specific example, we, this customer reached out to us. So this is a white glove project, and it all started with the fact that they are selling a luxury product, a gift product. It's high priced, so it's around 220
+
+Speaker  433487:59
+$10 a gift product, classic gift product.
+
+Speaker  434912:00
+Yeah, it's really classic gift product. But it's also a very unique item, because if you look at this category, you will see that this this model like so big. It's really big, it's useful. It's really huge, but you do not see it very often, like this. And they started first. We started just looking at the product, and of course, also the mapping of the category, understanding the differences and everything. But we started first. Like how to lift the premium feeling, because it's a gift product, so make it more giftable. And the question was, gold versus black. Other straps, whatever. In this poll, it's not really like easy to say, like, what's we do? So what we do is here we can do. So let's start the slide. By the way, that's easier, like this. So what we did from this step, we know fora do go deeper, like just having that AB test isolate, but also add the title to it, just to give some little bit more context, like make sure that the buyer understands what the product is about. And here we saw strongly that gold was winning. Meanwhile, the competitor came up with a new idea. They came up with the idea also heading towards sales season, where they got a model in the main image. So we felt like, oh, you know what? We have the winning concept with the goals. Let's first check how we are standing up against the competitor in this context. We continued on that. And then we felt like, Okay, we have to move forward with a model as well. But yeah, what kind of model and how should we organize these images? And of course, this whole creative process is something that you have to do yourself. And that brings me back to the expertise that I mentioned before. You need to have someone who understands that you have that skill set. If AI can do it for you, fine, but still test it. Then from this poll, we learned that on B, A, B is the winner. Well, close, B is the winner, but it has soap. We brought the soap to image D, D had a bigger pillow, so we kept that bigger pillow, and then we continued. And we felt like, Okay, we have the bigger pillow. We have the soap, but now we are doubting the model itself. Should it be brunette? Should it be planned, whatever, and from there, we continue to going up to the competitor again. Now this is just the main image. There's much more, because in this whole thing, we did the full listing optimization as quick as possible. We started first of November and ended end of November, and we did a purge parry pole try to counter as much objection as possible across the image stack. Here you see the objections coming from the perch, parry pole, and then make it visual in the stack, we checked each function of the image, where I always use baseline. So the baseline is hero image, Wingman hook, the Y, the benefits, the Differentiator image, the proof point, etc. We did that, and we also checked on the design itself via a plus content. So we did an A plus content pull up against the competitor, and we we checked on the design, because this was my idea. I felt like you have to make it much bolder and much more contrast and better. But no, no, that was not true. The winning concept with a very low amount of votes, by the way, that was possible. That's it is possible. We learned that the plane like the most boring design was the best one. Now, long story short, before sales season, they were at position 120 BSR. During sales, it dropped to 12. They went out of stock. Unfortunately, on the other hand, it's also a good thing they won from the competitor, and right now, they are steady at 50 in BSR, and that is done via a route of consumer insights. Multiple polls we did, what is it? Six in total, and the customer did also free themselves. So it was a total of nine.
+
+Speaker  501813:20
+Yeah, I think that speaks to the I love this case study because it speaks to the stages of it, right? Like, it's not just hey, I'm doing one poll. Okay, this is it. Let's make that change, and then we're done. Speaks to the stages. And I love what you said earlier, Peter Paul, about you had the one picture with the bold images, with her washing it. I always kind of go by Hey. Feelings are good advisors, but terrible leaders. Like, hey, feeling can help us figure out, Hey, should I test this? But feelings can't be driving the car, right? We need to let consumer data and actual buyer data drive the ship when we're trying to increase our sales.
+
+Speaker  509946:40
+Exactly. This is like a $30 bath pillow. Is it?
+
+Speaker  511066:40
+What is it like? Is
+
+Speaker  511482:39
+it $30 this product?
+
+Speaker  511994:40
+No, no. 200
+
+Speaker  512559:59
+200 Yeah,
+
+Speaker  513344:00
+and they're going up against 10 to $20 alternatives, right?
+
+Speaker  514624:00
+So, no, no, not really. It's really, it's luxury corner. So it's, it's the Higher, higher product. And no.
+
+Speaker  516959:59
+So there are other luxury, there are other luxury buff pillows at a similar price point,
+
+Speaker  518101:20
+totally different if I go to Amazon,
+
+Speaker  519557:19
+and then here buff below,
+
+Speaker  520741:20
+there it is. And then, of gosh, yeah, that's something else. But you see? So of course, I have searched on it more than normal so, but these are the competitors, like these kind of options. But this is the one that I'm that he's he's competing with. That's the luxury item. Okay?
+
+Speaker  527066:40
+So, you know one first step is to win the actual get a click, and then they've got to handle the objections and persuade them that this is the
+
+Speaker  528959:59
+exactly, but, yeah, this
+
+Speaker  529328:00
+is the bar pillow of your wife's dreams, basically,
+
+Speaker  529903:59
+yeah, but the objection is, of course, already counted. You have to counter as far as possible from main image level already so, and you need to understand what is the specific hook, and am I addressing that when someone lands on that second image that that I have their attention immediately, that I just know, like, this, is it? That's what I want to communicate. Something else is any questions about? About that case study? Because it's of course, or anything else, like, if you have something else that you would like, Yeah,
+
+Speaker  538677:20
+I'll ask one question, and then if anyone else got any questions, any questions, please let us know you can raise your hand or put in chat or unmute after me. But what, what percentage of effort is going into the main image, and then what, what percent of effort is going into the rest of the listing
+
+Speaker  542554:39
+in this specific scenario? I think it was almost 5050, so that that means that in this, in this case study, the weight of the main image was pretty high, because, let's be honest, you're dealing with six, seven other listing images. But as a matter of fact, I think this is, by the way, most of the time the case that image number two and three and four like that's kind of the max. That's where it has to happen. So at a certain point it's not that important anymore to have all those extra images. And by the way, if I have scanned many, many listing listings right now, and each time I see the same thing, repeated stuff, it's insane. Like, like, so much stuff that we are repeating all the time, not just in images, by the way. So if you have the product in one angle and it continues like there it goes. Well, but that's another part. But 5050.
+
+Speaker  556842:40
+Yeah. Jamie, yeah. So Peter
+
+Speaker  558282:40
+Paul, there's a question about what happened to Amazon patrolling to s compliant hero images.
+
+Speaker  560154:40
+Yeah. You mean like that they were rejected. Or
+
+Speaker  561248:00
+feel free to
+
+Speaker  561568:00
+unmute if you want to Constantine,
+
+Speaker  562480:00
+no, I can see in this category, people are just not using anything remotely close to to as compliant as an I understand having some sort of props and elements, things like that. But here is just like a bathtub, and no white background, anything like that. And Amazon used to be more militant about this, but it seems like it's not
+
+Speaker  568853:20
+well that. Oh yeah. Okay, so in this specific category that this is also it is allowed, so it is allowed, but indeed, in other categories, it's not so there you have limitations. That's what you mean, right? And then that's exactly so. For instance, we are working on a medical device. We do that a lot, by the way, that category is completely changed. So that is already for a year now, even longer, even if we change all the images into new ones. It's, it seems like we are activating a system within the Amazon space, and all of a sudden, all we, all we can do, is just the product, white background, that's it. Nothing more, no box that's not even allowed. I don't know if you've seen in all the categories. I hope not, because that's going to break down a lot of creative stuff that we can do.
+
+Speaker  582245:20
+So in categories where you've got a lot of competitors that are pushing the envelope and breaking the rules of it, would you have one pushing the envelope image and then one safe image that you can go back to?
+
+Speaker  585541:20
+Yeah, I would say yes, but it's not that that safe image is, of course, going to shift the needle that yeah, of course, it hasn't been good one, yeah, yeah, yeah. But by the way, it's a good example. Jamie, I'm I'm answering way too quick. This is a context example. So if you say, like, you know what? What if I have to go back to my default image, the most boring example ever, just the product on white background. That's it. Then back to my Kat example. Here. Do make the competitor. This is boring as well. Just take the images as they have and then test up against those and see that you have the best winning image up against the other boring images. So then you're ready. You're prepared. I hope that makes sense, because if you're testing it, your boring image, white background, and then the phenomenon, whatever it might be, like a product, and you test up against the competitors with boxes and everything and props and whatever, most likely the other one will win. Then still you can, by the way, lift it and make sure that you have the feedback that you that you want, but I would do that. I have something else here. So heading towards MDS Inspire. I'm working now on the case study together with prudence, and this is one of the things that we are using right now. So if I start with a product, and this is all testing phase, by the way, I'm doing it with cloud, and that is one of the things that I want to mention, by the way, about AI. I haven't said that much about AI, by the way, but everything that you see is, I'm using chat, GPT, I'm using clouds, I'm using Jni. But here, this is with with clouds, and it's not this is the just projects. I don't know if you're familiar with it, but in projects, you can load MD files. So if you have like, you did a task in clouds, when the task succeeded, for instance, you did some steps in optimizing the main image, you can ask to create an MD file, and then it maps out the structure what you did, and you can upload that MD file in a project, and it's going to be your brain. So it's still a chat environment. Maybe it's also good to show what it looks like. So it's still a chat environment, but it's you can talk with it, but it's all coming from your your knowledge. So here I have the MD files on the right. So you have, for instance, my pull situation generator, or my report style guide, my competitive comparison pull analysis, my conversion story coach that I've created. Everything is in there, and I'm using that now. So if I start by just feeding it with an asin, it's capable of coming up with these kind of reports. So it's capable of coming up with, for instance, let's start with the category. Well, it's a sea of same in this product type, the category lands, say, landscape, and it's about a sea salt optimizer starter. So I have to keep competitors in my in my overview, I can go down and have the critical consumer pain points are coming through, hair type confusion. Well, I'm mentioning stuff now that's related to the product. Nobody cares. But you see that
+
+Speaker  639082:40
+you just put the asin into Claude, and it's done all this on its own with the Yes, yes yes, you already have Yeah.
+
+Speaker  640592:00
+And then, then, for this specific point, I have to admit that it's not, it's not scanning reviews. No, it's scanning the web, like just brought in the US, and it's scanning snippets of reviews related to these kind of products, and it's scanning reports that they can scan, because if I just feed an asin in cloth and say, like, scratch or scrape the listing, it's not going to happen for that. You need our tools, yeah, but it does a good job. And the whole point is, what I said in my start of everything, you have to have a good understanding of the whole landscape. What is that I'm dealing with. I need to understand like if I cannot understand it, how can I ever understand consumer feedback? That's not possible. You need to understand the product. You need to understand everything that's happening. That way you move forward in optimization and market research. That's understandable for yourself here, but optimization hypotheses. I get that stuff already before, just like I have this, hypotheses, 345, everything is coming across recommended Intellivy Pull sequence. Well, of course, that's part of my flow. I want to have that because I use that that way, I can easily reach out like, Hey, I'm working on this. I propose blah, blah, blah, blah, blah, quick wins. That's also nice to have. We're going to do this, by the way, in Vegas. So we're going to start with these kind of reports, and then you get this recommendation. So we're working pretty hard to get the job done, to make sure that this is going to deliver valuable stuff and also low hanging fruit to work with. You see the competitive advantage, to emphasize risks, to monitor everything is in there?
+
+Speaker  670650:40
+Something else so visual clarity. First, another example. CK, this here is a ranking pool, and in the ranking pool, well, you see the results. But the thing that I want to mention here is that visual clarity that you make sure that I don't know why that wait, make sure that everything's working fine. Make sure that the image is communicating what it should communicate. So if you look at this image, it's German, but it means, like, hygiene, like, it's very, very easy to clean, but you see the cat in the litter box, and to me, it's communicating size, like it's a spacious litter box and the cat can comfortably move in that litter box. And indeed, that feedback is also coming from the poll results. So that's kind of off, like what's happening here, but that's because of the way that images are created. So what I recommend here is that you create images that without text already communicate. What they have to communicate. Does it make sense? So they should do their job without text, and you can even test it and see if it works. So we have, for instance, the impact poll shown for two seconds, ask respondents, what did you see? What did TMS communicate? And if that works, the languages
+
+Speaker  695909:20
+are getting mixed up the whole time by Amazon. Anyways, it's useful.
+
+Speaker  697685:20
+Nevertheless, this specific example, and there's a bit more to it, because if you look at this example here, the client created this situation, and he made this so by the way, I'm saying it again. Having the situation in Paul, it's it's such a fundamental thing that you need to have good insights, but you're also guiding respondents. So here we have your current litter box causes mass and lynching odor. You want a stainless steel litter box for better hygiene? Now? What do you think if you're going to read the results of this poll, the amount of people that are going to say something about the mass, the odor and the hygiene is extremely high, because I already am saying it in the start. Does that make sense? It's going to come back to me if I'm going to ask feedback on the images. So I propose to the customer, hey, you know what do this one again. We made a special offer for that, by the way. So then, you know, we are willing to to sometimes experiment on the testing itself. But make it simple, just imagine you going to buy a semi enclosed ladybugs on Amazon. This changes everything. Because if we're going to ask the respondent, hey, what would be important to you, then it's their mindset. And that's exactly what we want. So if they say, like, whatever it might be, size whatever, then that is the start. Then if they go to seeing the images, their psychological moments, their decision drives are in there. So they will decide with what they have in their mind. And that's exactly what you want. Instead of that, you're feeding them with your ideas, because otherwise you're just guiding it in the direction. And here you see that it's changing. And by the way, you see another example of an image instead of this one having just water in no show the cleaning process. And although it's a weird scene, I totally agree, like it's weird. What is that thing doing on the floor? Why would you do it over there? But nevertheless, the image is communicating that you can clean it. And then here, finally, on the left, you see that I just flipped it. So let's go back to these images. So this is image 138, liters, with the cat seeing from top. And then it is saying extra big. And then here it's the hygiene. And then that Kat where I mentioned like it looks like comfortable size. I just recommended to flip it, nothing more. So that image in the middle, I recommended to change exchange those. So you see now on the left is bigger. On the right you have to 38 liters, and it's hygiene. So it's clean for 38 for 30 days. Does it make sense?
+
+Speaker  751098:40
+Makes total sense. We did have a question like so these results, right? The results that you're getting from the polls for the litter box and the bath. And the math pillow, how well would you say that they correlate with real Amazon NYU results?
+
+Speaker  755168:00
+Well, the Manage your experiments. It does so it does relate, however, and that the start before this call, when the recording was not started yet. Jamie mentioned that he did some he had some results with some good running products, and he had some with one that had low volume in sales, right? Jamie, you mentioned that, and then from pulling we learned that consumer insights, they tell us, like, this is the battery in which this is the better main tile. But then in the actual marketplace, it doesn't come across. And the thing is, with the management manage, my experiments that you have to need, you need to have a decent amount of traffic, otherwise it's not going to work. So I hope that makes sense, but I see it quite often that it's not always the same, and that has more to do with traffic and with the volume than just the consumer insights and the quality of the image, of the quality of the title, whatever.
+
+Speaker  773312:00
+But I don't, I do not feel, I do not see it as the best way to test images. By the way, I think you first need to have good understanding of consumer insights. Understand what is driving a click, what is making the decision towards for the customer that they choose your image over another one?
+
+Speaker  779189:19
+Does that help? Yeah, so will you normally skip manager experiments and just make the change if you're confident in it?
+
+Speaker  781380:15
+Well, I'm not the one in charge of any management experiments, but for instance, Aaron kodovis, one of our customers, he rather uses PPC to check results quicker, and he gets much quicker results and insights via PPC then via manage my experiments.
+
+Speaker  787248:00
+Yeah, I know a few people that will skip manage your experiments if they're, if they're, if they're confident.
+
+Speaker  789088:00
+Yeah, I see so many times like, it's so low volume, then you have, like, what the heck? You still don't know what to do. It takes,
+
+Speaker  790677:20
+does take quite a long time to get a result. Yeah,
+
+Speaker  791349:20
+yeah. I mentioned the SQP data here. We have an example, by the way, again, this recording is MDS community only because I'm showing stuff here, and I want to make sure that it stays here, so it's for us, right? But we have an SQP connection, so Amazon connection in the in the Intellivy account. If you have the Pro Plan or the business plan, it's included. And if you do polls in in 30 days, so you are, like active in 30 days, like having a poll, you will get it also, then, with a little bit less in amount of ASINs that you can target in a amountavvvvmateavriont,
+
+Speaker  804096:00
+you canavsdashmlt, from the sales dashboard, you can go to everything you want to know about sales results. You can dive into search query performance, check on each keyword, how it performs, and fire this route. So in this specific example, this is also one that we are working on. We knew that we have a very high so from this SQP data, not going down here, because I want to, I just want to explain from, from, from search query, we saw that there is a high branded keyword that they get searched on, and that they are getting sales on. So it is a Tik Tok hype. And the Tik Tok hype is driving sales. So women are going to marketplace in this search for that specific supplement. We are taking sales from that one. So we dove into that exact route, that exact journey like, what does it look like? How can we make sure that we understand why are we converting from that traffic? Because we understand that conversion traffic, we can lift that and exactly that's what we did. So we are working on that part. And then here you can see that in the platform, you can also do an ri calculation, so you can connect the pulse related to that product to that Asin. Now you have an overview of the investment of pulse. So the one who's in charge here and doing the polls for this specific product, you can, they can simply do that by just attacking a pole. And there you have it. You have everything, one overview. And the whole point is, of course, that you see this happening, that the consumer insights are indeed lifting sales and making more profit. That's what you want, and that's possible with our dashboard. So I keep it short now, but if you want to know more about it, then please ask me, because here, this is the moment, but we will also have this with us in Vegas, and we can show you that's about it.
+
+Speaker  837568:00
+Great. Thanks. Any questions, guys, please put them in the chat, or you can raise your hand up. So I think last year with our brand, we definitely did a lot of testing, but there were a lot of things we weren't doing. So I think a lot of the time we weren't going in with a hypothesis. And another thing, a lot another thing, it's that we didn't, we didn't measure the impact of the change past about two or three weeks. So what one thing that we're doing now is we're gonna, we're gonna make sure that we regularly going back to look at the impact of changes and see how they performed, because obviously the competitive landscape is always changing, so you've got seasonality, but you've also got the competitive landscape as well. So six months later, you know, all of our competitors might have improved their images. So it might be time to might be time to revisit some changes.
+
+Speaker  852928:00
+I see, by the way that Oscar is mentioning that we aim for 60% plus votes. When this happens, we usually see meaningful increase in many smart experiments. Can you explain it a bit?
+
+Speaker  856789:20
+Yeah, the logic behind is very simple. When the gap is big enough, you know, like, significantly big. So for example, like, when we get 60% of UL, usually number two option, like one of their competitors, gets around, like 20% and this is a good indicator for us. Then when we do a B tests on Amazon, like, we can also see some meaningful increase in conversions,
+
+Speaker  865024:00
+yeah, yeah. But I know from from your approach, that you're, if you're, if you speak, about 6% that you're also doing like an actual marketplace test, like having reviews, price, everything in there, right? Because otherwise, if you're just doing it on the images alone, you have, like a winning image, without the title, without the price, without raining, then you do not have that strong, confident feeling to know like, oh, let's, let's go for manage my experiments, that that's not the same thing. And I know that you do that. So, yeah, thanks.
+
+Speaker  872933:20
+So people, are you saying you would test first with just the image, and then after that, maybe, it may be test with
+
+Speaker  875050:40
+it is, it is in layers, so the image on itself. It should, it should outperform the competitors. But sometimes the image just needs a bit of juice. And with juice, I mean, like the title is part of it. So let's be honest, the consumer sees the title as well in the marketplace. So you have to decide. And this is not like one route, no, sometimes you need it, sometimes you don't. But if you really want optimized specifically on the main image, then that part is done. So check, check in the box. Better image. Then you had add the title to it. You have to add the price and rings to it as well. Otherwise it will not be fair to say, like, now let's go to manage my experiments. That's weird.
+
+Speaker  886005:19
+Yeah, we pretty much never test with the brands or the price showing. Maybe something we should start doing.
+
+Speaker  888421:20
+I would do that because it is the exact truth. It's exactly what happens in the marketplace as well. I see, by the way, Imran, well, that's a good one for you.
+
+Speaker  891418:40
+Travis, yep, I was gonna make sure. I will. I'll just put my link to my calendar in there. That way we can schedule a call and I can get you in the right direction so you're not driving the ship without a GPS.
+
+Speaker  894762:40
+Yeah, and both having access to those Google docs here absolutely. So the ones that the frameworks last year, I'm going to make sure that the link will go to Jamie and then, or will it be Belen or Bogdan? Yeah, thanks, yeah. So I'm going to share that make sure that you can share it as well. Jamie, okay,
+
+Speaker  900000:00
+so we get added to the notes with the come of the recording.
+
+Speaker  901040:00
+Yeah, yeah. So I will share this stuff with you.
+
+Speaker  902117:19
+Yeah, guys, please, click, please. Can you go on the air table? And just as with all call, give this a score out of 10, and if you want to give some feedback as well, really appreciate it. So I go freedom every month. It helps me to sort of plan these calls and make these calls as good as possible, which I always want to do. So yeah, thanks. Before, I ve definitely look forward to going through this Google docx, because I know it is you could only cover a small amount in this time. So I'm looking forward to going through that. And one of, one of my big focuses for this quarter is to really improve our testing process. Because, I mean, some testing is better than none, but I think if we, if we can make it more sophisticated, have a plan, have a framework that will get much better results, because, yeah, otherwise we are sometimes just throwing shit against the wall. Yeah,
+
+Speaker  916416:00
+by the way, you make the joke, but that's kind of the thing. Also, with AI, we're shitting against the wall. What if we going to automate the shit against the wall in our AI? Then all of a sudden we have more shit much quicker that that's not what we want. So that's exactly
+
+Speaker  921461:20
+the Sauber Claude looks really interesting as well. So, yeah,
+
+Speaker  922437:20
+yeah, you have, by the way, this, I skipped that, but you have co worker now, so I would really recommend to check it out, because coworker is going to be your assistant. It's right now. It's all over the place, in the news. It's in Europe, in Netherlands, like crazy. Like jobs are people are getting fired. It's insane. Like the world is shifting so, so quick, quick. And with tools like coworker and cloud, you can just create your own assistant does everything we
+
+Speaker  929552:00
+need to be. We need to be the puppeteers holding the strings, not the not the other way around.
+
+Speaker  930976:00
+Yeah, exactly, but yeah, yeah. And being that puppet, if you are the puppet that made some mistakes in your business in the last couple of years, you have to make sure you're going to make the same mistakes in the automation of AI.
+
+Speaker  934581:20
+Also, more, thanks, guys. I hope, I hope everyone can get a jump up on your competitors with some some amazing listings this year. It's a job that's never finished, but I hope you guys get some good results. Thanks. Peter Paul, remember to check out the recording for those resources as well. So hopefully the recording should be live tomorrow and have access to all those Google Docs and everything as well.
+
+Speaker  939882:40
+Thank you. All right. Thanks, guys. Cheers.
+
+Speaker  940266:40
+Thanks, everybody. Bye.

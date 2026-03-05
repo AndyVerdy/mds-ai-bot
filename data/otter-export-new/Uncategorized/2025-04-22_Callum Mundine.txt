@@ -1,0 +1,86 @@
+Callum Mundine
+Date: April 22, 2025
+
+Speaker  00:00
+Music. Okay, I'll try and keep this short and sweet,
+
+Speaker  2272:00
+but I'm Cal originally from Australia. I live in Barcelona now, and my talk is about AI agents and automation. So is anybody running automations in their business at the moment, okay? And anybody using AI agents for anything? Okay? One person. So AI agents, it's a very new field, and it's building off the back of the large language models like open AI. I'm not an expert or anything, but I am learning every day, so I think I know most more than most people, and I really think that this is going to revolutionize every business as we know it, and we can really, like reduce costs on humans, but also like errors that humans make which computers won't make. So I think it's a really good opportunity for people to start exploring these and figure out how they can build more leverage in their company using this technology. So first up, you're all probably familiar with some of these, chatgpt, Claude and stuff, but these are actually just tools within bigger companies that offer a suite of other tools. So open AI, for example, you know, chatgpt, but they have Sora whisper, which is a text to speech tool, and then there's assistance, which essentially is like a custom GPT accessible through an API, and that's what a lot of the agents are built on. So what's the difference between a chat bot and an AI agent? You're all familiar with chat GBT, it's just a simple chat bot, and it just organizes information that already knows or what you can feed it, and you can ask it questions, and it brings you back a report. You're all familiar with that. But the thing with agents is they use the same technology, but the main difference is they can actually take action on the instructions you give them, so being an agent, so this is where the revolution is. I also want to talk about automations versus agents, because I think there's a bit of a crossover there that people are kind of confused with. So automations is more like a traditional computer program. You tell it to do something and then do this next. You need to refine all the small details, because it will literally do exactly what you program in. But it is good for tasks that really repeat, that are just very predictable. And the difference with agents is it kind of builds upon that automation, but it decides what it's going to do and what tool it wants to use. So I can give you an example of that. It's also using the LLM. So it's using AI from OpenAI to power the agent. There's a few tools that most people use to build these agents and automations. So Zapier most people are familiar with. There's make.com and my personal favorite, which is n 8n which is the most flexible and cheapest, because you can self host it, and they don't, you don't get charged per operation. So they're worth checking out. And this is like the typical arrangement you would see. So it's like a drag and drop interface. You don't need to know computer programming or anything to build an agent. And this is from nhm, but it's very similar to Zapier or anything. So I just want to show you some examples of like automations or agents that I have built or am using. So you can get some ideas on how you think you can leverage that with the Amazon business. So this is very basic automation. It just looks at our seller board data every day, summarizes it and posts it into Slack. So for us, we had somebody doing this manually. It took them, like three to five minutes, but we just set up, fuck it like let's, let's just automate that to see how we can use this technology in a practical sense. There's other things that are like a blend between automations and agents. So something we're building is a Slack bot that's a product log. So you can use natural language to write in a Slack channel of product updates. So for example, we changed the price of an asin from 20 to $18 because we want to see how it impacts conversion rate. So this is where agents come in. You can input like unstructured data like that, and it will process it and store it in a database in a structured way that you can then retrieve later with just a message prompt. So an example here, like, you can start to ask it the knowledge base that you've created about, like, hey, what's been happening with this product? And it will give you, like, a log of all the different changes. So for me, this is very important, because it means I don't need to then go and, like, ping one or two employees to say, hey, what's been going on with this product? Like, why are sales slow? So we can actually see, like a log of everything that's happened. But to program this with a traditional like computer code, it's very like fiddly and probably not practical, but agents allow you to do this in, like, a very unstructured way. Another example would just be a bot that check the checks your sqp data every week or whatever to check what is your highest converting keyword, and then would actually just rewrite your titles and upload it to Amazon through the API automatically. So that's another idea of something that we're thinking of working on. And then you've got the full agent. So this is when you're using, like, the full extent of the technology. So a supply chain negotiator. You all know that raw materials prices are changing, and you can use that as a leverage point with your supplier. So I was thinking like build, build an agent that tracks the changes in the raw material costs. You can make an analysis of how much this should change the bill of materials. You can draft an email to your supplier and start negotiating the pricing, and then it pings you in Slack, saying, Hey, here's a message that I've drafted to this supplier. Do you approve it or not? This is what I found, and this is what I'm trying to negotiate. So you can see how it could really replace a lot of like human work that probably gets left behind because all your team members are super busy doing other stuff. Another example of an agent, so such thing as an agent and sub agents. So I can just show you on this chart here, you'll see, like Slack is the interface the main agent. We're calling the FBA assistant, and then they have access to all these tools, like data, rover, sellerboard, raw materials, like index, a tool that scrapes Amazon your database with your bill of materials, so you can actually build an agent that talks to other agents. So an example of something we're looking at building is an agent that watches seller board identifies a product that has like, dropped in sales across the normal average. And this would usually be a trigger for us to go and do some manual research, like, what's caused this drop in sales, but you can actually gather all the information and make an analysis through agents. So you can check the keyword rankings in data rover, check the ad spend in scale insights, check your conversion rate in sqp, or even do a search on Amazon to check your competitors pricing, or maybe some new entrants into the market. And the AI, if you program it right, will do a critical analysis and say, like, Hey, I think your sales have dropped because competitor A, B and C have, like, got a coupon, or they've dropped their price, or something like that. So for me, this is super useful because it saves, like, potentially hours or for team members time just looking into one little thing. So yeah, here's an example, just theory so far, right? No, I haven't built it, but it's I'm just like, there's so much stuff you can build. I was just trying to show, like, practical examples of where I know we're wasting time on, like, very repeatable things.
+
+Speaker  131424:00
+Put together data as well. Do you need to match everything by yourself? Meaning that you build, like, a database that you're not pulling from seller, for example, but you're pulling from Amazon yourself, so you're the owner of the data. Because for me, kind of past people have been thinking about the same thing is like, okay to put data set it actually runs who it owns the data, because that's kind of a key component,
+
+Speaker  139402:40
+and how it makes like, those learnings?
+
+Speaker  139882:40
+Yeah, it depends. Like you do need to do some like hacking to get the data, because most tools won't, like make it available through an API, right? So, for example, seller board, we just get a daily email with a CSV, and that goes into the AI model, and it can understand, like your previous day sales and make an analysis. Or, like the Amazon scraper, there's tools out there, or you can do like a browser automation, which will go to a product and interact with the page to get the data that you need. Do you work with Gorilla ROI or no? Because that would simplify a lot of things, right? Yeah, it's super expensive, though, isn't it? Yeah, yeah, yeah. This is just an example of, like, a type of report that I think you could very easily automate looking at all those data sources. So actually show you, like, Okay, here's all the keywords you dropped ranking. Here's the sales you probably lost from losing that ranking. And it's probably due to these reasons, like drop in conversion rate, or there's a new competitor, or something like that. And for me, that's super useful. Like to receive something like this in Slack, because it just gives you a really good overview of what's going on with your products in the market. And yeah, that's basically it. But. Yeah, there's millions of different ideas that you can do, and I'm always exploring how I can use automations and AI agents to better leverage my time and remove people. And I just wanted to show you like, this is an example of a project I did nothing to do with Amazon, but I said in my truth, truths and a lie, like, I'm running a world war two newsletter. So this is a newsletter that's like, 100% automated. I don't touch it, but it gets published every day. We we generate the image, we generate the post to WordPress sends the email. It's like, completely hands off. And this is just like, an example of how you can use AI and automations to really leverage yourself. Yeah, just in summary, I'd say that, like, a lot of SaaS softwares will be replaced by these vertical agents, which just do, like, one type of thing, if you've noticed, like helium 10 and stuff they offer. Like, all these tools, you don't actually need 90% of them. I do still think it's early, though, like, you need to be tech savvy to implement these tools, but this is, this is going to change over time, how they make them more just about natural language, and, like, the layman can implement it. So yeah, just, just be patient, because I think in the next six to 12 months, this will be much more accessible, and I think you'll be able to replace a lot of vas. So it's opportunity to save on costs and be more competitive in Amazon. So yeah, this is like the golden opportunity, because if you get in now and adopt this technology, I think you can have like, a year or two of Head Start against other sellers,
+
+Speaker  186133:20
+and that's it. She was
+
+Speaker  188362:40
+so we're using like air table, open AI in a 10 fire crawl.
+
+Speaker  190282:40
+It just depends on what you're
+
+Speaker  190682:40
+trying to do,
+
+Speaker  191322:40
+scraping, yeah, yeah. So you can turn any website into an LLM, or do like scraping. Just put in the URL and we'll, like, download all the content and you can use it in your automations or
+
+Speaker  194128:00
+and what about like, say you want the search query this report is it pretty easy to log in and tell it to scrape that. Or you have to write it
+
+Speaker  196768:00
+behind with fire crawl. It might be difficult, but there is called, like browser based, I think it's called, which is like a virtual browser. You can talk to it in natural language and say, go to Amazon, log into my account, go to the search query performance report, and it will know everything to do. And then it can extract that data. Login is asking for the two. Fa, I know I can get past capture capture, but to FA, you might be able to
+
+Speaker  205338:40
+be API, right?
+
+Speaker  205914:40
+You might have to do the API rather than logging into Amazon, because you asked me to log in into Amazon, yeah. I mean, he asked for the authentication. You want to get a stack in there, it's
+
+Speaker  208272:00
+always better to have an API to get the data than relying on browsers. What's the tool you just mentioned that goes on Amazon, mainly not for me? Yeah, it's called browser, browser based. I think it's not really like a consumer facing thing. It's for developers to build, like browser automations, browser base, yeah, I wouldn't recommend, like, using it as a as an entry level thing you have
+
+Speaker  215733:20
+developer in house, or, you
+
+Speaker  216837:20
+know, I build also, you do, yeah, just using chat GPT, like, hey, I need to do this. I so thanks.
+
+Speaker  220090:40
+What I do is like, for example,
+
+Speaker  221002:40
+for all the product questions and the customer questions, I logged it. I mean, I've logged it for the past two years in airtable. I feed it to chat GBT, and I created a database, and when my one of my employees asks or closes specific question, chat GBT tries to combine all the data and then gives is the best answer to my team members. So it's like a basic module that we created in chat GPT, yeah, so I guess at this stage, would it be wise for us to focus on tools like chat GPT to begin with basic modules
+
+Speaker  234629:20
+like this, or to go advanced? No, like, chat GPT is awesome. It's just like, where is it getting its data? So if you like using an a 10, you can connect it to your database, your air table. So whenever you ask it a question, you've created, like, your own custom GPT with all your product data. Yeah, chat GPT, or like, open. AI is still the best tool to use to, like, run all of this.
+
+Speaker  242096:00
+How hard is that any 10 tool to use?
+
+Speaker  242928:00
+Yeah. I mean, there's a bit of a learning curve. And, like, it's the more the most technical out of the three is API make.com and natin, which are like the industry leaders. It just depends how text server you are. Like,
+
+Speaker  247717:20
+if you're average, then you're smart enough to work it
+
+Speaker  248373:20
+out, like, when you put the hours in. Kat, yeah, it just depends what problem you're trying to solve. Like, if it's a problem in your business that only happens like once every month or something. It's probably not worth you investing the time to build it out. But if it's something that's happening like every day, or something like this, and you just think this could so easily be automated, then yeah, it's worth it.
+
+Speaker  254250:40
+Can you end up with quite a big bit if you build up a lot of automations? Can you end up building up quite a big bill yourself if you're doing on Zapier or make
+
+Speaker  256010:40
+Yeah, because they charge you per execution, like every little node in that, that diagram I showed you, they charge you per step, whereas na 10, I'm paying like $5 a month, and I get more or less Unlimited, okay,
+
+Speaker  259808:00
+yeah, if you really serious about automation, then it would be worth learning. Yeah, for sure. I
+
+Speaker  262245:20
+Okay, thank you. Thank.

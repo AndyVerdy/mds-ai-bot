@@ -1,0 +1,332 @@
+MDS Resellers Channel Kick Off Call
+Date: February 02, 2026
+
+Speaker  784:00
+Okay, let's hope for people to get here. Yep, we have a let's see how many people we have now, okay, 27 people. I'm also going to share this in the mobile in the app chat, just in case, because some people never migrated, because they didn't, either didn't accept the invite or something happened there. So just in case, I
+
+Speaker  12106:40
+lose
+
+Speaker  14138:40
+kick cards.
+
+Speaker  26402:08
+Me outside I
+
+Speaker  41108:16
+and everyone should have received, yeah, the invite for this one.
+
+Speaker  42324:16
+So yeah, I made sure we found last week, yeah,
+
+Speaker  44282:40
+you confused the people with that truck of yours. Yeah, I know it's just life I did. I know I
+
+Speaker  52608:00
+one way or another, I know that the replays are going to happen. So yeah, and I was going to ask you, I was going to ask you afterwards, I wanted to post to the MDS group, the wider group. I wanted a thumbnail for, yeah, this is dead like, that's the I'm going to, I'm sure you want to, I can give you this, but Ben was up. I could give you this slide. If you want to just use that slide, I could take this out.
+
+Speaker  62474:40
+Yeah, this slide as part of the video recording, like, the
+
+Speaker  64528:00
+link, yeah, I'm saying it's like, if you want to MDs, it with the theme stuff, we're fine.
+
+Speaker  66144:00
+We don't have panel slides that are not MDs, brand data. And it's okay, okay, that's fine.
+
+Speaker  69216:00
+Okay, wait for a couple more minutes, just in case.
+
+Speaker  78730:40
+Charles, where are you out of Brooklyn?
+
+Speaker  79418:40
+Brooklyn, really warm Brooklyn.
+
+Speaker  80170:40
+All right. Well, unfortunately, I'm in really warm Colorado.
+
+Speaker  81024:00
+Aha, so yeah, we're relatable. For once, Colorado and New York
+
+Speaker  82672:00
+not supposed to be this warm. It's the worst snow pack in recorded history.
+
+Speaker  84640:00
+It's but you know what you I guess Colorado functions under that kind of condition. When you have an incompetent city, it it hurts a little more,
+
+Speaker  88917:20
+yeah, yeah, yeah. We're not running cities. We're just running mountains, very different. You can avoid the mountains. You can't really avoid the city. If Okay,
+
+Speaker  93002:40
+let's get it like until 10 past so we can let everyone join you. It, and in any cases, it will be Recorded and ready for everyone. Yeah,
+
+Speaker  122137:36
+but I you Okay? Let's just go to start the recording in couple seconds. Okay, here it is. Welcome everyone. Thanks Charles for this kickoff call and just, let's go.
+
+Speaker  133408:00
+Alrighty, let's go. Let's kick off. A little bit about me, guys, I've been, as it says on the screen. I've been on Amazon since 2010 and guess doing what, reselling. So I figured this is right on my alley, and I just prepared this presentation for a different for a different conference before, and I said to myself, I mean, what is the best value I could give to you guys? It's this. So excuse some things that are that may not be pertinent to you guys. MDS guys, but I'm going to try to spin it to deliver as much value as I can to you during this time. So I go to a bunch of conferences, and I present all the time. This is me in the very beginning, I'm in business with my brothers. We are literally stuffing our van to the brim, reselling things. We eventually graduated into what we do now, sending out full truckloads. No surprise to everybody here, right? We're high level sellers, and this is what we do COMMINGLING ends March 31 it's important to go into the details of what that means and how Amazon will be enforcing it. First off, the level of permission you have to have in brand registry to continue to send manufacturer barcodes. That's number one. Number two, when Amazon will actually move your inventory into unfulfillable status at the very best, or potentially suppress your listing. So all of that is already public knowledge. I'm going to go into the Amazon issued policy and text as to when that's going to happen. First off, you're going to see three circles here, or three draws to attention. First inventory shipped on or after March 31. Meaning, if you have a ship date of March 31 or prior, you'll be fine sending it under manufactured barcodes. So as of the date of this recording, you have two full months. This is February 2, two full months to ship manufacture bar coded items. Number two, the red circle, Amazon, of course, decided to be really nice and clear and define their terms. I'm being very sarcastic in that Amazon decided to be complete whatever with the brand represent brand owners with the brand representative selling role on Amazon brand registry will no longer need to apply Amazon barcoded stickers to prevent Commingling for your product, which is really confusing of a way to say the brands can still Send in manufacturer barcoded items and anybody else cannot. For resellers going into the black arrow, you will now be required to use Amazon barcoded stickers for products, even if they have a manufacturer barcode already on it. If you're already using these stickers, you can continue to follow your existing process. I shouldn't have been illuminating anything new to you guys, besides for you can ship until March 31 doesn't matter when it's checked in, and Amazon is trying to only have brand owners send in under manufacturer barcodes, a little more of the technical background behind it. When a brand goes into brand registry, it's very likely, especially if you're doing authorized resale, that you have a contact at the brand itself. The way you will get that unlock and that quote, unquote luxury of sending them in manufacturer barcodes is by following this process, you probably have to hold the brand representatives hand through the process, and really hope they trust you. I'm sure if you're dealing with bigger brands like Disney, they're never going to let you hold their hand like this. They're going to go through levels of corporate and bureaucracy and legal and compliance to get you nauseous. But that's but for smaller brands or brand with not as much red tape, this is how you would hold their hand through the process. You simply have to explain to them that Amazon's not perfect. So we have to navigate this imperfect system together. You go into brand registry, you click that manage access that you see circled in red. Next step, you go into the brand you have to be marked as a brand representative. What's probably going to set off a bunch of red flags from the brand itself is, you see me highlighting right over here in that question mark, an internal first party seller who is directly employed by your brand. Are you directly employed by the brand? You're not. But guess what? You're going to have to do that so you can send it on the manufacturer barcode. It's up to you and your relationship with the brand, whether you could finagle them to do something like this to you, because if you're just checked in as somewhat of a reseller, like the designation, whoops, yeah, like the designation over here, it's just simply not working on the right, you won't have that enabled. So option number one, speak to your brand to get this designation. Option number two, you change your processes to apply Amazon barcodes, what I call Fn, SKUs or what. Here's a fun fact, seller cafe and Seller Support called XO codes, because they all start with the x and the and the digit zero to each and every product. So it's traced. It's be it's able to be traced back to the particular seller. I will say there is a third option, and it's not a good one, but it's something that you guys should know about. I'll touch on it later on, there was a LinkedIn post that made it up the Amazon chain, and a lot of people at Amazon were looking at this and saying, Maybe we should make a third classification of reseller like you see here, with the delegated ability to send in under manufacturer barcode if, because, if you think of it, it's not that hard to do. Amazon just needs to make a third role. And yeah, being a technology company, shouldn't be too far out of their reach, but they still have to get around to it, and I wouldn't rely on rumors or He Said, She Said, or hearsay to run our business. We both. We're all too smart for that. We know the point of it is they want, they want to be the gatekeeper of all the stuff that are being sent into Amazon, if, in case of their if there's authenticity issues, or if there's any kind of liability claims, they can suppress and narrow it down all the way back to the seller level. You sort of have to understand it. But the implementation is obviously not ideal for all of us. The next steps for the next eight weeks for you guys, we have eight weeks left to implement something like this is really determining your risk score, seeing what is and isn't labeled. At the moment, to be frank, we had four total months to adapt to it, but now we have two remaining. I know a bunch of resellers in MDS from all levels, being people working out of their basements, the people with having full warehouses and doing in the 10s and close to $50 million in resale. I don't know what your lead time is to have things relabeled, restickered, and adapting to this kind of, this kind of workflow. And again, I don't know what kind of relationships you guys have with the brands. To see if you could get that brand representative designation, you need to assess. You need to see how you're going to disrupt your workflows. And three ways to do it really having it done at the factory level, where, if you're getting authorized goods from a brand directly, they may be able to put your fn SKU or XO number or Amazon barcode directly on the product packaging, perhaps alongside a UPC, Amazon FBA may not like that, up to you and your tolerance and what your relationship as far as repacking with the brand might be a Prep Center, a three PL that can handle it for you. I'll tell you firsthand, plenty of prep centers are loving this change, because guess who gets to pay for it? You and you're going to have to deal with the brand to see if you can recover some of that margin from the brand in terms of relabeling each and every SKU third and I guess the most intensive, but I guess the also the best return on investment could be in house. That's how we do it. We have, we have warehouse operations completely in house, processing, packing, picking, all in house. While it's the most overhead, the most amount of control is controlled by us. We have to check in every day, we have to run a staff. We have to take care of HR and payroll, but it's all done within house, and that's maximal control, five steps. A lot of you guys may not be familiar with the entire FNSKU process and some of the pitfalls that may happen. Some of the pitfalls are
+
+Speaker  285482:40
+you may have each well, put it this way, every SKU should have a different FNSKU, even though you have one asin, every SKU and the fnskuws could be unique. Even worse, a staff may be may mix up two different fnskuza, two different item labels. You're gonna have to come to some sort of SOP in warehouse, or the three PL, if you choose, choose to do that. Should do that for you in making sure when they're picking packing and labeling things. One item label is completely rid of the second product once, once they're done labeling the first product. So if I'm labeling a bunch of pens, there's the FNSKU going directly on the pens product packaging. And then if I go on to notepads, then I go into and then I I still have some pen item labels left. Your staff may mix up the pen item labels, put it on the notepads, and you're gonna have to do double work. There goes your increased labor cost and just it. Those are just some pitfalls that happen and things you will have to optimize for. In case you decide to do it on your own. You Oh, one more thing you're going to want to make sure that you print out those item labels on the correct dpi, which is the correct quality that Amazon can use their scanners to scan. I there's there are inbound defect violations that happen if Amazon cannot scan your barcode. So you're going to want to make sure that it is listed on on the seller help articles on what they want your printer settings to be for item codes. So make sure you comply with that. These are things that break sellers. Because not only are you going to have to item item label things now, you'll also have to case label things now, mixing up those case labels and items in the cases can break your whole shipment. Your your defect rates will go up, and you'll also be charged a defect fee per piece that they have to reconcile labeling costs. I mean, like I said, you're going to have to go back to your brand, to your manufacturer, to your whoever you're sourcing your product from, and say, I'm facing this increased margin, as is, I'm going to have to item label. Can you item label on your own, on your labor, and then sell me the products at the same price? That's one question you can ask them. If they say, No. You can say, well, someone's going to have to eat the margin of this new Amazon policy change. How are we going to work this out? That's those are your next steps, really? So you're going to get paid, or you're going to align different permissions. Here is the LinkedIn post that I was talking about. You can go ahead type this in Leon Betesh from Komar put this together, got the attention of Dharmesh, Doug, Nadya and everyone you see here. So he's putting together some people who are advocating for a third designation. Go look it up. I reposted it on my LinkedIn, engage with it, and you can even reach out to Leon. He's, he's putting some people together. Amazon reached out directly to him, and that's happening. He James McConnell. He is the authority in the space when it comes to running, running any kind of logistics when it comes to Amazon or DTC operations, before you outsource to a three PL or consider hosting in house operations, you're going to want to read, read through a few of his posts about that. This is about two weeks ago this post, but it's particularly illuminating when, when you're making that kind of decision and your business plan going forward. Last but not least, I'm actually attending this in a couple of days from this recording, I'm attending this on February 4, and it's been posted in the MDS group quite a few times about the voice of the seller program. Amazon knows that they completely shattered their reputation with sellers thinking that Amazon is not on the seller side for a lot of things. Shocker, this is not exactly a seller friendly policy change. They are willing to hear us out in some capacity, cover some travel requirements, as far as I was informed, they they there are even some travel reimbursements, whether you're in New York City or in Seattle, and depending on what your case is, they may even fly you out to Seattle just to hear what you sellers have to say. Do I think that policies will drastically change as a result of my feedback? No. Was I assured that every policy that every concern a seller had will be addressed in some capacity. Yes, do I believe them? I'll let you know. But there's this program going on and definitely engage with the MDS posts in the Facebook group if you want to get involved and sort of voice your opinion to Amazon directly. I will let you know how it goes in a couple days. Let's see how that happens. And I write about this all the time, so feel free to send me an email, send me a DM, whatever it is, and happy to take questions. And for those of you watching the recording, please, please, please, don't feel intimidated to engage with me in the WhatsApp group. I want others to get value as well. Or if you want to go direct, you can definitely text me direct any questions, if not wishing you guys all the best and the best of luck with this crazy policy change.
+
+Speaker  376661:20
+I have a quick question. If you have the brand rep status, is there any benefit to actually just building the barcode process, stickering into your process? No, because I have it on two of mine, but not the others. And so I've been, I pushed to get them, and now I can just send it with barcode, which seems a way more efficient, but I've been doing it for years. I thought I'd be curious.
+
+Speaker  381802:40
+I'm, yeah, so, so, you know, I I hit, I hit the jackpot. Because when I started in the beginning, I told, I told myself, I'm like, I don't trust Amazon and this whole manufacturer barcoded process. I chose to item label Anyway, like this was a cost I was building in from the get go. If you have that option, I think it's the best option. I mean, it's it just is because, I mean, when I send in things on the manufacturer, barcode happens all the time, where things get checked in on a different shipment, where, where, let's say I send in shipment number 123, the same product will be checked in on shipment 345, but double the quantity, and then shipment 123, will remain open. So if you have Amazon barcodes, or fnskus, as I call them, you'll run into those issues so much less. And if it seems like you have two out of three, you have the brand designation, but the third you won't get it, I'd say, just optimize completely for the Amazon barcoded thing, because once you have it set up for one brand to do it for the other two, is really incremental, and the benefits outweigh the drawbacks, in my opinion.
+
+Speaker  404320:00
+Yeah, Charles, thank you. Have you used with any of your accounts the transparency codes, or thinking about using this process to make your your vendor switch to transparency codes? Or you don't see any benefit with using transparency codes this.
+
+Speaker  411690:40
+So this really doesn't have to do with the transparency codes, but I mean it on a broader scale. The vendors I use enrolled in the transparency program, but don't always give me transparency coded items. So, you know, i Good luck calling them up and saying, Hey, come pick up this pallet of goods doesn't have the transparency code. That's just something I've been facing recently. But this particular update doesn't really have to do the transparency codes unless I'm missing something.
+
+Speaker  422149:20
+No, no. I was thinking, I understand. Yes, it has nothing really to do with this. Thinking, is this a benefit with some of the brands that you can do this so you can? I was thinking my case to tell them, Okay, now that this is happening, oh, by the way, I agree with you. I I have very horror stories with the Commingling, so I, years ago, I stopped doing them. Nothing new for me here, but I was thinking for some of the vendors, tell them, Okay, now it's a good time to switch to transparency, and I'm the one, and I want to be the exclusive one if I do this.
+
+Speaker  433359:59
+I mean, you could do that, you could do that. That will assure the brand that whatever goods are being sent in are genuine, but you would still have to apply your Amazon barcode onto the product, and it doesn't change the fact that the reason why Amazon is doing this is because they want every good sent in that's not brand direct attributable to one seller.
+
+Speaker  441333:20
+I have a brand that actually is not mine. A friend of mine has the exclusivity, and he's selling to me, and he's applying the transparency. And he told me that he found one of the transparency, have the FNSKU and the transparency in one same label, because he was using them separate as your Yeah, yeah, you could do that. And he said that, what was that? Jun, oh, sorry,
+
+Speaker  448010:40
+this is Jun, yeah, that's, that's that's one of the options where you can get both the transparency label and the FMU under one label.
+
+Speaker  449823:59
+Yeah, that's, that's doable, yep. Okay, thank you. Any other questions, ladies, German,
+
+Speaker  453968:00
+cool. So I guess just to Hey, just like, just to Jun what's up? Yeah, chime in on that, and as a sanity check as well, Amazon ending. Commingling, yep, as of March end has zero impact on transparency enforcement, right?
+
+Speaker  460186:40
+Yeah, it totally doesn't have to do each other, right? Got it? Okay?
+
+Speaker  462474:40
+Charles, you mentioned earlier that you've been fnskuing Just in a just forever. Just trust,
+
+Speaker  464090:39
+yeah, just because of mistrust of Amazon, there's no we never did manufacture barcode. We could have scaled our operation 10x but, but always, we always did Amazon barcode.
+
+Speaker  467568:00
+There were some just probably a couple years ago in MDS. Further, I forgot who the member was, but at scale. He'd been sending in, yeah, yeah.
+
+Speaker  470517:20
+I saw the post. I saw the post when I was doing my research in the group for anyone who posted on
+
+Speaker  471701:20
+this, yeah, he
+
+Speaker  471989:20
+goes, he goes, You could do 10s of millions if you just do manufacturer barcode and just go at scale, yeah. But that was, like a couple years back, that was I saw
+
+Speaker  474709:20
+it crazy, I was like, I'm just gonna continue, right?
+
+Speaker  475674:40
+I mean, I'm like, you're gambling with a lot of goods getting lost. If you, if you actually followed what he was advocating in that post, I agree.
+
+Speaker  478554:39
+Well, sorry, besides the product getting lost, you're also my case is, I had to request a product to send it back to me from FBA. And what they sent me, there were a couple of 100. Were done, that many units, and it was not a very high price item. But what they sent me was kind of it. It looked like it, it seems like it, but I, since I had the real one, the packing is not was not the same. So I think that's something that might help in to the identify when people is selling counterfeit.
+
+Speaker  488421:19
+So remember that picture? Remember that picture of me doing it my brothers, this is one of them. And here's, here's a here's a manufacturer barcode horror story, yeah, but not for us. We were actually the beneficiaries of it. So there was one skew that we had way back in the day that we were sending in goods under with the manufacturer barcode for FBA, and all of the sudden, I noticed that there was a lot more inventory than we actually sent into FBA. So what I noticed it wasn't it was a manufacturer barcode skew, and that potentially a different seller. Inventory was checked in under our under our shipment. So we just let the the inventory and the goods sell out, and then a few months later, Amazon actually contacted us and told us it looks like we checked in some inventory that didn't belong to you under your account, and there was, I'm not sure if they had to reimburse the other seller while maintaining our sales, but that was something that I thought a different seller just got totally screwed up. So that was some that was the reason why, back in the day, we decided, hey, we can't trust Amazon with going ahead and and using the manufacturer markets. Keep track of our inventory. Don't coingle, don't do any of that stuff. Make sure our inventory belongs to us and only us. And you keep now on what can we have now? You combine that with the new reimbursement policies, where they're magically calculating your cost of goods. It makes sense that I'm saying. It makes sense in terms of their philosophy and their mentality, that they're just reimbursing whatever they want to reimburse you before, back then, when that story happened, they actually reimbursed you based on the invoices you uploaded. So that, I mean, that's just the general philosophy of where Amazon is going. Yeah, yeah, there's that.
+
+Speaker  524842:40
+I don't think you already have a point for next meeting, but I think that will be a good one to see what everybody's doing with that enforcement thing.
+
+Speaker  527130:40
+I mean, I have content on that. I could, I could definitely cover it next meeting, in case there's maybe I'll bring in somebody from true ops, Belen, we can do that.
+
+Speaker  530000:00
+Yeah, that'd be cool. Yeah. Hey, Charles, I'd like to ask you a question, a little slightly different question, regarding enforcement on brands, something that we've noticed recently some brand I'll call them brand bots, not not the brand themselves, but Amazon keep going. I want to say from we've been on Amazon for almost 12 years until we've seen it all right when it comes to we're resellers. So we've seen that brands typically are lazy, and if they have a complaint, they go through brand registry, they file one, two complaints, call it a day, right? But in July, we saw something change, and where an in mass, 40, 5060, listings all were being hit by the bots. And saying,
+
+Speaker  545232:00
+now you're talking about brand registry. Are you talking about PTI and stuff?
+
+Speaker  546400:00
+Not even GTI and stuff. This is suspected IP violations.
+
+Speaker  547487:59
+Oh, okay, fine.
+
+Speaker  548240:00
+And then this, this is why I wanted to ask the broader group, if you're reselling, are you seeing anything come from MDs, not brand registry? Which are the brand himself filing the complaint? But suspected IP violations, where multiple listings under one brand are getting hit?
+
+Speaker  553557:20
+I'm Yeah, so on my on my account health, there's a lot of suspected IPs, but all of them are no impact, because usually you have to create the page for suspected IP to have an impact. So they're on my account health, but on the on the severity column, it's no impact. Are you seeing something else?
+
+Speaker  559162:40
+We're seeing we're seeing that. We're seeing exactly what you said, and we have pages that we've also created.
+
+Speaker  560608:00
+So so the the ones that you created with a bad GTIN, maybe
+
+Speaker  562752:00
+negative on the GTIN, because these are all GS one codes. So we went out and got our own GS one codes, as we've been doing fn our own FNSKU years ago as well.
+
+Speaker  565280:00
+Yeah, I don't know what they do to you in that case, but if you simply hopped onto a different page and you fought, you're fighting for the buy box with a bunch of other people, and you didn't create the page, you're not going to suffer any impact. The way I do it is I just make sure that every violation on the Account Health Dashboard has a response. I know I'm not going to get it removed, but as long as if it comes back to bite me, it has a response. I can point back to the paper trail. Say, Hey, I responded. Here are my invoices. I didn't make the page. I responded. I mean, leave me alone. That's my general philosophy. Now you're saying you went into GS one and you you created new ASINs
+
+Speaker  576384:00
+with yep, yep. Try to also isolate hijackers and all the all the same things everybody here runs into to try to keep that at bay. So we went down a couple of extra rabbit holes. But what I also want to share with the group is that that also this problem led us to a contact at Amazon legal, and over the last few weeks, we've had a lot of correspondence with them. A couple of things came through that I think is going to be helpful for this group. One, there is a problem on the Canadian side. So if you're selling Canadian goods or selling into the Canadian marketplace, when it comes to enforcement, there's a glitch, even if you get reinstated or everything's clear, it doesn't always come through. It doesn't always get removed. And that's some kind of technical glitch that I was told this week they're working on. Second the the four phrases that we can all use, compatible with, if you create your own listing, compatible with, made for, and all that. There is also a glitch in that, because it doesn't always pick up even the fair use trademark terms. And furthermore, there's more in or, I should say, there's less enforcement around the one phrase compatible with all others get enforced more way more. This is from the mouth of somebody that works for the legal department at Amazon. Said this to me, so if you create your own listings, compatible with seems to be the safest, but not the safe, because they still the bots will, for whatever reason. He told me, they still pick up compatible with, even though your fair use trade phrase is in the title, if you create your own listing, which was which is wild. Do you think a trillion dollar company wouldn't do that, right? But like you were saying, it's Amazon for whatever reason that happens. So that is absolutely crazy that they have different enforcement levels for those trade fair use marks,
+
+Speaker  609072:00
+yeah, ultra, ultra, and that's what, that's what I've seen.
+
+Speaker  610191:59
+Yes, I have seen an increment in the last two months.
+
+Speaker  611519:59
+Yeah. I mean, it's the GTIN stuff is really, is really a killer for us. We don't, we don't take on any products anymore without verifying the UPC, we don't, and it's been that way since the beginning of 2025 I mean, it's just it's been killing us in terms of stranded inventory and the removal fees being too much to pull back all the suppressed items after we sent in pallets full of it. I mean, it was crazy.
+
+Speaker  618581:20
+It is, yeah, by the way, there's also the another, another bit of info. All of us, I'm sure, have run into the, yes, we're authorized. Yes, we're dealing with the brand. I know the brand rep. I could pick up the phone call them. I'm already authorized. I got the letter of authorization. There are many times that the reps do not adhere to the SOPs. And what this person was telling me at the the legal side is that he was sending a new version of SOP to the groups that handled this enforcement. I don't know when, like I don't you. Didn't give me a timeline, but he said he issued a new SOP to be revised, especially when it comes to using those fair use terms, because his words were over enforcement. That's the word he used with me. There's over enforcement right now, and so that means, to me, from a legal term, they're being way more conservative and more liability conscious than ever.
+
+Speaker  637082:40
+Okay? I mean, there's really no liability, even when it comes to unauthorized resale.
+
+Speaker  638762:40
+No but the there's no liability, but it all gets like, use your word commingled counterfeit bad actors, right? All of that gets lumped into one group, and so they're just trying to avoid all of that type of exposure. Yeah, cool.
+
+Speaker  645568:00
+I never done creating my own listings with my own GSM gum codes, but I know a friend, he used to do bundles, and he told me that last year, they came even harder, and they shut down all of his listings there I sell that most likely those, those, those ones that I've been using are not GS one, and then they have been closing all those,
+
+Speaker  655242:40
+all those listings on, you want to hear this that happened To me. I had, I had hundreds of 1000s of dollars in inventory based on those bundles that I've been creating. It was right when they came out with the you can't bundle consumables policy. It wasn't a consumable, but they, they, they really impacted my margins for the whole year, because they came down on all we created the bundles in January. They suppressed all of them in May or June. Somebody from Account Health called me up and said, If your account wasn't that big, we would have suspended you. Yeah, this
+
+Speaker  665621:20
+is exactly this. What you just mentioned, is tied to what I was just talking about. We had our own listings. We were bundling. And after several, several rounds of conversation, by the way, we have created our own listings and we put it under our own brand. We were, it was all kosher, right? So we had, we'd found a loophole. But the only way, after literally six or seven takedowns like this, the only way to still keep a bundle and no and not be in in the scope of the bots that are looking for this is to have the listing under the brand
+
+Speaker  676191:59
+itself. Yes, that's what we do. That's
+
+Speaker  677200:00
+and I hate doing it, because it opens us to hijackers, right?
+
+Speaker  678693:20
+Other who tank listing.
+
+Speaker  679269:20
+Yes, yes. But if, if, what's worse? And this is, this is a bad and worse situation. Bad is a hijacker. Worse is Amazon takes all the listings down, right? No revenue. So the folks over there on the legal helped us move all of those listings as of last week, back onto the brand, and now hopefully, fingers crossed from here forward, we don't have any of these mass takes down. So if you're bundling, you can still bundle, it just has to be under the brand, not anything else.
+
+Speaker  688298:40
+But then you also have to you, but the GTI n that you use is going to be suspect.
+
+Speaker  689504:00
+Then there, here's the, you know, knock on wood. Thank God. Something happened. They are going to use the GTI ends we used and map them to the brand.
+
+Speaker  693088:00
+That's an operation. You're going to get a GTI and reassigned to a different brand. That's a hell of an opportunity.
+
+Speaker  694533:20
+It's a manual effort. And as of Friday, all the US issues got cleared out. This still leaves us Canada and a handful in Mexico.
+
+Speaker  697941:19
+I got you Yeah. I mean, I'm experiencing everything you are. Don't you worry. Yeah.
+
+Speaker  701210:40
+So are you so, Charles, are you all still bundling? Or No? Have you moved away from what? No, no.
+
+Speaker  702858:39
+We've moved away from bundling under our own brand. We moved more towards bundling under the under the brains brand I
+
+Speaker  704800:00
+see, and you're still having, I'm sure other sellers jump on your listings.
+
+Speaker  705904:00
+Oh yeah.
+
+Speaker  706176:00
+Are you doing? You do consumables or not? You don't do and we don't either. Okay,
+
+Speaker  709168:00
+so we're all in the same boat. There's that, yeah,
+
+Speaker  711845:20
+cool, and I guess that's that. Any other questions, comments, insults, I'll take all of them
+
+Speaker  714805:20
+as a future talking point, or I want to mention something, if it's possible, what is the like the profile distribution look like for those in this channel, at least in the WhatsApp channel that does brand management with exclusivity, like with the brand
+
+Speaker  719402:40
+I know, put a poll on the WhatsApp.
+
+Speaker  720544:00
+Yeah, does anyone here just in this immediate at least do that? No, I don't know
+
+Speaker  722256:00
+me personally. I don't have that brand management designation. No, yeah, we'll
+
+Speaker  724128:00
+look to connect with people who are. We're just going more along in that direction, just as far as overarching strategy, as opposed to just purely arbitraging across listings where there are multiple sellers and just competing for the buy.
+
+Speaker  728197:20
+But I mean, don't, I wouldn't view the brand management designation as the, as the, as the golden ticket, because I can imagine Amazon coming out and saying, if you have the brand management designation and you don't work for the brand, we're going to penalize the brand for doing that, because it's only meant for people who work there. I mean, can't you see that? I could, I could see them coming down that way. That's why I wouldn't view it as the golden ticket.
+
+Speaker  735770:40
+Makes sense. That's fair. I mean,
+
+Speaker  736112:00
+just that's just as my two cents is somebody wants to take that chance. It's up to them, but it's my two cents about it.
+
+Speaker  737488:00
+Yeah, yeah. We have a talking point for next one
+
+Speaker  738960:00
+about people using that brand
+
+Speaker  739408:00
+management. Oh no, no, just for our next meeting.
+
+Speaker  740112:00
+Next meeting. I liked the idea of reimbursements, reimbursements based on either Amazon's magic formula or invoices. I may work on getting somebody in from either true ops or seller investigators, something like that.
+
+Speaker  743877:20
+Okay, are you currently requesting for reimbursements on Amazon returns where just didn't show up?
+
+Speaker  745781:20
+I don't do anything manually. I do everything through either true ops or seller investigators. Yeah, actually, I should probably share my sop on how I do it. It's it's pretty cool, it's pretty cool, and MDs will like it. Yeah.
+
+Speaker  749194:40
+As far as true ops, I don't think they have functionality for tracking what didn't and did get received at the or at your return warehouse level. They wouldn't have transparency into that.
+
+Speaker  752719:59
+I don't know if they would, but I use multiple providers for that reason. Seller investigators, for sure, does. Long story short, the SOP I have is true. Ops gets the first bite at the apple because the better commission. There is a delay. And sell investigators doesn't offer a delay. You have to go up the chain to request the delay after two ops files, then cell investigators can take it straight.
+
+Speaker  759653:19
+Yeah. I see Yeah. We have that set up right now where true Ops is first layer and then yeah, whatever crumbs get left over, get Tita eats that up. No, yeah, yeah, that's why we have set up right now. But we haven't, we're not. So the reason I bring this up is because I've chatted with another seller where strictly on Amazon returns, they're tracking, they're getting granular to tracking each shipment and making sure that each and every item is received. And he's finding that Frank like frankly, we're not doing that right. We're not looking at the returns as granularly he is. And he's finding that there's a discrepancy in what was being sent in a FBA shipment ID back to his warehouse versus what actually got received. And he's fighting for that, and Amazon's apparently reimbursing on that. So maybe some, just incremental, incremental, just, I guess, revenue recovery through that method not employing,
+
+Speaker  777653:20
+yeah, yeah,
+
+Speaker  778501:20
+for sure, yeah, I think that would be a good topic.
+
+Speaker  779706:40
+Well, thanks for facilitating my pleasure. Thank you.
+
+Speaker  780922:40
+Jess, I used to use geta. I At some point, maybe two years ago, Amazon told me that they were creating too many cases, and they were getting denied. They were not filing at the right timing, they had to wait. So I stopped using a Tita. I switched to cell investigators, and a couple of months ago, my team told me that they did a deep research and they thought they could handle most of what they were doing, and actually they began to get everything before selling investigators. So my team is getting most of the I'm going to say was because lately, this year, they they told me that they don't have to do almost nothing, because Amazon is doing everything by themselves, and they will be the missing things. And they told them, okay, this they are creating, automatically the case. I don't know if that's that's been happening to you guys, but in my case, Amazon is creating more of the of the cases, and that they are giving me whatever money they want to does that the same case for you guys?
+
+Speaker  800880:00
+No, but I believe it, just because of they announced last year they want to be more proactive in refunding you before, and that's why they they played with the time window you can file to reconcile a certain FBA shipment that hits their warehouse. I believe it. I also believe that their algorithms are saying when it's more worthwhile for them to reimburse you than to investigate Yeah, but I mean, I would still have, I would still have those FBA Recovery Services enabled.
+
+Speaker  808437:20
+No, I do have them too, but I they almost get nothing else besides my team, very few. I remember you used to get invoices for 1000s of dollars. I was so happy because I was three times that, but now I'm getting hundreds. So they lowered the whatever they were doing, yep, okay, again, Charles, thank you very much for putting this
+
+Speaker  814922:40
+you got it cool. Anyone else before we close it out? Thank you. Thanks guys. All right, cool. Thanks, Jun,
+
+Speaker  817600:00
+thanks everybody. All right,
+
+Speaker  818016:00
+take care. Belen, I think we're
+
+Speaker  818400:00
+good, great, amazing.
+
+Speaker  819040:00
+Okay, cool, we'll be in touch everybody on WhatsApp, see you soon. See you guys. Bye.

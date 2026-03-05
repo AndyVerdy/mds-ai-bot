@@ -1,0 +1,482 @@
+MDS Mogul Call with Dorian Gorsky Part 2
+Date: June 04, 2025
+
+Speaker  00:00
+Your mic settings. Okay, cool. How's
+
+Speaker  2384:00
+it going? Guys?
+
+Speaker  3072:00
+Good man, I'm excited. I'm trying to do lots of lots of AI and calls as well. For a long time, like listing optimization has been really popular as well,
+
+Speaker  6405:20
+because some froze for some reason. Oh, okay, yeah, cameras frozen. Okay, we're good. Yeah, you're saying,
+
+Speaker  9797:20
+yeah, just for a long time, there were different kind of trends towards ranking and I've got, it seems like the last year or two, everyone's sort of gone back to, like, listing optimization being like the most, most important thing to spend time on.
+
+Speaker  13482:40
+Yeah,
+
+Speaker  14058:40
+it's, it's definitely fun, and it's definitely big ROI workflow, especially now these days, with this, you know, the margins becoming smaller and smaller, but it's still a mystery for myself. Also, I've been working in terms of conversion, listing optimization for 13 years now, and I still can't figure this out. It's a lot of it's a bit of science, it's a bit of creativity
+
+Speaker  22757:20
+and a little bit of gut feeling all together,
+
+Speaker  23861:20
+yeah, because it's weird when you're basically sure that something's gonna work and then it doesn't. Yeah.
+
+Speaker  25573:20
+I
+
+Speaker  25845:20
+just like, yeah, and then or like, something will work in one marketplace, but not in another, or it works with one product or not another. It's It's really weird. Belen, I can't blend, I can't log into the app. Can you just go on the mobile call channel and just say the call is live? Yes, it's weird. When I check, when I click on the little speech bubble to open up the messages, it's trying to get me to log into something else. But, yeah, if you could do that, that'd be great. Let
+
+Speaker  33712:00
+me just get some water, if that's okay. Yeah, no problem.
+
+Speaker  34816:00
+Hey guys, all right, should I go Quick toilet? You
+
+Speaker  52960:00
+so the so Dorian, do you do a lot with do you do a lot of na 10 as well?
+
+Speaker  54357:20
+Yeah, I'll be showing some stuff today. Actually, when it comes to Nan
+
+Speaker  56517:20
+we do actually a lot. I'll be showing you stuff that's cool.
+
+Speaker  58245:20
+Yeah, there's a lot of talk about na 10 at the moment as well. People are saying it's quite it's, it's, it's tricky, but it's very cheap and has very good usability. I mean, what it can actually do is very good. What's the right word for that, usability or flexibility?
+
+Speaker  63930:40
+Yeah, it's actually pretty easy. I use you don't need to know a lot of coding. You can actually have help from I use Cloud opens for to help me set up all the workflows. And to be honest, I've been actually learning coding all along together with AI so and save so much time we built few workflows. I'll be showing some of them today.
+
+Speaker  70693:20
+Oh, so what? When you type it into Claude, and then Claude explains why it's doing something, you kind of pick up as you go, how it works, yeah.
+
+Speaker  73589:20
+Oh, that's cool.
+
+Speaker  75029:20
+Hey guys, hey, Oleg, hey, Guido, Chad, how's it going? Guys,
+
+Speaker  77210:40
+good. Hey, Jamie,
+
+Speaker  77898:40
+yeah. We forgot my we got voice doing one of my listings today. I put it out I put it out there last week. Does anyone want to submit a listing? And no one took it up. So I'm like, Okay, we'll do Was it one of mine? We've got some quite cool ideas. Should be good.
+
+Speaker  85120:00
+Okay, and so if you've got all the tabs open Dorian that you need? Yep, yeah, you doing? Are you doing much sort of travel for, like, conferences and stuff, Dorian? Or is it just like, apart from Santa sessions, not doing too much, not doing
+
+Speaker  89733:20
+too much, to be honest, I rather travel for holidays.
+
+Speaker  92618:40
+But if I'd been honest, I quite been on as many holidays as I had, like Amazon, coffee, because I'd be happy. I
+
+Speaker  98704:00
+Well, the MDS conference, they do it in a different city every year, so I get to go to some places I would have been otherwise. What are you
+
+Speaker  100672:00
+guys going next? The Milan, Ah, nice. That's the thing
+
+Speaker  102981:20
+about Europe. There's so many different cities to go to that it's difficult. You can't really go everywhere, particularly like, you know, like Italy and France have so many different good cities, it's difficult to to collect them all. Which
+
+Speaker  106917:20
+one's your favorite?
+
+Speaker  107754:40
+I really enjoyed Rome. Like, just like the history. I really like the history and stuff. So I thought, I thought Rome was pretty awesome.
+
+Speaker  111386:40
+I like fraud. I like France, particularly. Like getting outside of Paris. The good bits of Paris are pretty good, but like, just getting, getting out around the rest of France is just so nice. I'm looking at going, we're looking at going to a campsite in northern France in July, which, which should be fun, because we can get, you can get, like, a little cabin for like 1000 euros a week, and they've got a kids club and stuff. So that should be pretty cool.
+
+Speaker  118053:20
+Got it? You got kids? How many? Yeah,
+
+Speaker  118629:20
+two. They are four and six. So most of these French campsites, four is like the minimum age for the kids club. So now it's now it's good times. They'll have to have to work on their French, because all the kids will be French there, but I'm sure they will. I'm sure they'll work it out. So has anyone tried out anything from the call so far? So if you had a go on Manus or Jen spark or any of those tools from the first call, let me know in the chat. I've started using mana small I particularly like a personal life, stuff like, I missed my I missed my window. We had managed to go and check if there were any retailers left where I could still pre order, and it's always saved itself messing around trying to find a switch. I'll just have to, I'll just try and go and buy one tomorrow instead. Yeah, that's been fun. And actually jet spark to my team a few days on Monday, so they've been having a bit of a play on that as well. I've got a page Gen spark account now.
+
+Speaker  139598:40
+last month. I spent nearly $3,000 on all their subscriptions. It was insane. We tried everything.
+
+Speaker  142237:20
+Yeah it's once it's once you start having something today, fat on my sofa at the moment. Oh,
+
+Speaker  143760:00
+Jim
+
+Speaker  144032:00
+frente, so I've got. In. So I'm locked in. You're gonna you're taking notes. That's good. That's what I want to see. Okay, let's do the slides. So I'm just going to share, I'm just going to some size slides, MDS slides, like last time, and then we'll go into into your one Okay, so the first slide about guys about C is about the MDS app. So we've now got there, is it an AI and automations chat that's been jumping off. So we'll put a link for that in the in the Zoom chat here. So if you guys aren't on the AI and automations chat, then please join that. This is great for catching out recordings from events you've been to or from mogul and expert calls. So yeah, definitely make sure you get the app on your home screen. Open it up regularly. It's getting better and better. Next up, Milan. So hope you guys are going to come to Milan. Generally speaking, the summits, they're getting better and better, and it's always fun to hang out in real life before your MDS buddies see a beautiful city. I think you can still get into the main hotel. Is that right? Belen, still get into the main hotel? Yes. So, yeah. So yeah, definitely order before try and get in before the main hotel fills up because it's way more fun to be in the main hotel. Okay, WhatsApp, yeah. So if you're not getting the WhatsApp reminders, scan that QR code. We'll also put a link in the chat later. It's just broadcast only, so I'm not drowning it in messages. Bias just means you can get regular reminders about the course.
+
+Speaker  171575:29
+Next up.
+
+Speaker  172476:49
+So Kat flow is Dorian software. So helps to come up with products, ideas, few other functions that you've built into it, right?
+
+Speaker  176668:49
+Dorian, you muted?
+
+Speaker  177746:09
+Well, yeah. So at the moment, we're developing a lot of new workflows using AI, especially focusing on helping you improve click through rate and conversions. And I will share some of those workflows with you today, and that's the basis pretty much of Kat bla it's a AI startup which utilizes AI to help you guys win on Amazon. Oh,
+
+Speaker  184632:00
+we got big discount there as well. All right. So welcome back. Thanks for coming on two weeks in a row, and I see this time, we are fully prepared. So if we could, we just switch over Dorian to your slides. Now, if we could start the recording. All right, so awesome, guys. I know we've got a lot to get we've got
+
+Speaker  192253:20
+to give you a little bit for classic segment, gave me 2000 this time. I have a lot of interesting workflows and actions to get clothing, and I'll show you how those tools and to give you access to some of those workflows if you're interested. So my main expertise really is in conversion increasing I have been in this industry for this and be told I am still trying to figure out a lot of stuff. So just a little bit about me. Run a couple of agencies, work for, for, as you can see, Titan, and then I took a break professional development. So I actually did MIT data science program to that we our agency is ready for the for the upcoming AI revolution. I've got one thing here on my window I need to switch off. So let me talk to you about the we have. We have two big levers in that we usually talk about in the Amazon space. It's either ads or conversion. Did
+
+Speaker  209346:40
+you want to add the slides on now? Or even though you've not slides in a bit, you
+
+Speaker  210386:40
+can, oh, you can't see my slides. No,
+
+Speaker  210802:40
+no, no, no. Okay.
+
+Speaker  211138:40
+Okay. Let me show again now. Can you see? Here we go. Beautiful. Okay, so how?
+
+Speaker  213986:09
+So I want to talk about the two big levers, so it's either ads or conversion. So ads, when we talk about ads, it's very it's very much data driven numbers, and when we talk about conversion, it's much more qualitative approach compared to the quantitative of the ads. So how everyone knows here, how important are conversions? But whenever I talk to my clients, or whenever I talk to anyone from the industry, no one can really grasp an idea on conversions, like, how do we actually increase it? Do I work with designers? Is that the way copywriters? Yes, that's a part of it, but we have to take apart conversions. So how do we actually increase those? And we we we trying to make it as simple as possible these days to make sure that especially with the AI workflows, that we are able to deliver those results fast, and we do not over complicated it. So it's a little bit of data and creativity, and I want to jump straight to two examples, because we don't have much time. So let's talk about main image. So how do we use AI to improve a main image for example? And I'll show you here an example of how we use open AI playground to come up with ideas for new for new main images. So that's one of the tools that you can use and come up with a ton of concepts. So let me and also
+
+Speaker  237517:20
+open AI playground, isn't you can't get it from your main chat GPT thing. You have to go into it. You have to, like, log into it separately. And you might have to verify your business to get on it, and then you have to and then, but then also it will charge you, like a small amount per image. But I think the trade off is that even though you're paying it's if some of the highest output. Is that right,
+
+Speaker  244482:09
+exactly? And I'll show you exactly how to how to use. And this is so Jamie was kind enough to allow us to use his brand and his product for this specific for the specific case study. And I also show you how we were able to build this entire workflow for main image generation using an 8n as well. So you can actually create 100 ideas in 10 minutes. And just to give you an example of how powerful this workflow is is. Let me skip I'll do live demo in a moment. We were able to come up with 100 images. Specifically here different types of some of these are really crazy, but that's the point in a lot of times we get stuck when creating main images, because we don't know how far we can push it. What can we do? The normal workflow in our industry is just look at the competitors, see who's, you know, who has the highest CTR and who's whose images are the most appealing, and try to copy or make it better. But that's actually not the way we're trying to push really boundaries and come up with something completely original. And as I said, some of these ideas are crazy, but the more ideas we have, then the easier, really, then to redact the duct and come up with something, something unique. So just to give you an idea, we came up here with a few main I've created 100 main images using open I literally took 10 minutes. What I did then is I picked the ones that are found quite interesting, which I thought, Okay, this has potentially some sort of a, you know, this might work on on Amazon. And what I did, I created a very quick, very quick search simulation on product pinion. So here you can see whether using intellivie or pick full we use product pinion, and basically ask customers which ones of those you'd pick. And also, here I have included in the in the right bottom corner, the original main image that is currently live on Amazon. So just quickly, which one do you think guys have won? So if you can just quickly put a number in the chat, 1234567, which of these images, concept images, potentially win
+
+Speaker  282728:00
+numbers in the chat, let's, let's go all right, let's
+
+Speaker  283853:20
+just, I can't see, so you'll be, you'll be my victory lap
+
+Speaker  284797:20
+for everyone that gets it correct. So just while we wait for those, there's just a quick question about from Ramon, which is, does open AI adhere to branding slash text on products I see the brand name appear correctly, kinda
+
+Speaker  289164:49
+exactly it does.
+
+Speaker  290242:09
+Jamie, you're my eyes. I can see the chat soon. Okay,
+
+Speaker  290914:40
+so four seems popular, but there is a, there is a bit of a spread, um, some sevens. Four seems to be the most, the most popular one. So let's see. Because obviously we've got a group of experts here, but it's not necessarily our target market for this product. Got
+
+Speaker  297880:00
+it, no problem. So
+
+Speaker  299111:29
+results. So here you can see the actual real your existing main image has got only 8% of the votes, and Option B and C and D got 19% votes. So that's okay.
+
+Speaker  302781:20
+So option C was ops was number four, right. C was number c was number four. What would be and D?
+
+Speaker  304732:49
+Let's see B and D, that's option. So got this and this, B is three, six. Sorry, no, three and D is five. Okay,
+
+Speaker  309362:40
+so if you have three, four or five, you were, you were you were basically Correct. They're kind of first equal.
+
+Speaker  311175:29
+So see how quickly you were able to come up with new concepts, new main image concepts. We didn't have. We didn't have to ask a designer. We don't have to pay anyone on a fiver. All we needed is just simple prompt, which I'll show you in a moment, and a access to open AI account,
+
+Speaker  316173:20
+yeah, and he's kind of, these are kind of rough and ready images, and they all crush the existing main image. So
+
+Speaker  317645:20
+exactly. So the next, so we, you know, you, what we do in this particular workflow is we simply send the entire the all the mock ups, the AI generated mock ups together with the product pinion poll to our designers and just say, Listen, these are the winning concept. This is what people like within those images. Now come up with the final main image. So we've removed the creative and hypothesis part from our workflow, and we're able to come up with ton of a ton, ton of images, tons examples, and potentially, which, with the new one, we're able to increase the conversion. So let me show you how to do this. There is so open AI. So if you have an open AI account, all you have to do is go to playground and go to images. If you don't have access to this part, it will ask you for an authorization, which is simple. Just simply send your credentials, which is usually a name address, and you have to scan your ID, okay, so how we work on this? So let's go on Amazon. I'll quickly pick a product that could be interesting to optimize. Let's see something like this. I'll download the image, and we have entire we've also prepared this entire workflow for you guys. So all the prompts are here. I'll share this at the end. So what I do is I'll simply copy the prompt, and I can use any type of, any type of, any type of AI for this. Let's use chat GPT to be to be set to this to do, to make it simple, I'm gonna upload this image from downloads. And then we're going to ask what it does, basically is, oh, that's not the prompt, sorry. What it does is the main image ideas. What it does is, is generating 2020, new ideas, 20 groundbreaking ideas. So I'm gonna and it has also some rules for Amazon main image. So white background product must remain the same, etc, etc. So now we have 20 distinctive main image concepts, and all of them come with the prompt. So let's just copy, for example, this prompt I'm going to go to Open AI, and this is important. You have to upload the original main image. So open AI has a reference. And someone asked at the beginning, does, you know, does open aI have, you know, create consistently all the branding and all the keywords? Yes, but you have to upload, with the prompt, upload your current main image. So what I usually do is I'm going to number of images, five. I'm going to put this and it's going to start generating, and I'm going to do this literally with every single prompt, and you can generate as many prompts as you want. So I'm going to load failed. Let me try again, and I'm going to try this with another prompt. I'm going to just paste it here, and let's just quickly wait to see what's good, what's going to come up. But that's, that's pretty much the simplest way. And you can repeat this process on and on and generate a ton of ideas. So paste and just with the prompt, and you're going to have all those, you know, literally 10 minutes. You can have 100 ideas. So let's just write thing takes about one minute. Any questions Jamie at this stage,
+
+Speaker  376776:00
+oh, there was one question about earlier, which is, how did you pick the 100 image? How did you pick seven images from the 100 playground images?
+
+Speaker  379639:29
+Truth be told. You have to, this is a bit of a gut instinct. And you just have to take a look at the the generated images and ask yourself, Does this represent my product in the right way? Is it? Does it have any type of, you know, the opportunity to actually win search page, etc, etc. So it's a bit of a gut feeling. So you can see we have two new main image ideas. One is this is quite interesting. The other one here is with the box. So you can see we have new main images, and I can simply download this from here, collect all the main images, test them on product pinion against my current main image, and that's pretty much it. And that's what we've done in this particular workflow, is generated the ideas, generated the ideas, and then uploaded them to product pinion, and we have our new concept. So that's pretty much the process for main images, and I'll show you at the end, if you wait, I will show you exactly an eight and workflow where you have a simple form you can just paste in your your product asin, and it will do the entire thing for you, so you don't even have to have an open account. So that's main image. Any questions regarding main image.
+
+Speaker  401618:09
+Yeah. So one thing I noticed is that if you just ask chat GPT to come up with image ideas, it can come up with some okay ideas. But from what I've seen, is it playground is is it the playgrounds better, or it just has more volume, or both?
+
+Speaker  405362:09
+It's just volume. It's much faster with chat GPT. The other thing I can do here is guys. So what's great about this workflow is I can get come here, and I can, if there's something I don't like about this image, I can actually add, you know, change the problem, or, let's say I really like this main image. I think this is really good, right? But let's make the box red so I can just simply iterate very quickly, and now it's going to create the same type of images with the box, with the red box, so I can create a much faster and I can iterate much faster.
+
+Speaker  417036:49
+And that's why we use open AI playground, pretty much.
+
+Speaker  418162:09
+Is this the speed and the volume that it can put out. Okay, got it
+
+Speaker  419234:09
+exactly all right. So that's main image. Very simple AI workflow to start optimizing your main images today, listing content. So and when it comes to listing content, it's much more complex, because we need data. We need to understand who we are. We selling to, what is it that they care about, and come up with hypothesis, what could potentially work. So this is, in a nutshell our workflow, and we use AI to get all this data. So you get product data. So this, we can scrape this from Amazon. You get customer insight, which is reviews. You can also scrape them easily using an eight and or other workflows. And then deep research, also, you can use a lot of AI to get that deep research, which is usually competitive analysis. We then analyze it, all of these data points, and come up with a hypothesis for a new listing. Obviously, in there we plug in our knowledge, which is, make sure that the output is right. So we plug in our knowledge, which usually consists of, make sure that the first three images highlight the main benefits, make sure that it's visual, the copy is consistent. So somewhere that you have to let it know what you're expecting. So if you go to this website, stun, dot store, slash Kepler, you'll be able to download this PDF that I'll show into for free, which is this one? Which can
+
+Speaker  443064:00
+you copy that into the chat as well? Please? Yeah,
+
+Speaker  443949:20
+so it's gonna be, let me just open that and put it in the chat, whereas zoom one second, I can never find the chat. Okay. Chat, okay. So if you go here, I'm pasting right now. You can get the entire workflow here also. So let's talk about this workflow. The main three ais that we use are cloud, Opus four, Gen spark and manage I want to talk about we've tested them comprehensively. We use them every single day. We have access to all the Pro accounts and everyone that team is using. And I can tell you a little bit about all of them and the pros and cons. So starting with Cloud ops four, which I think is probably the best out of them, simply because of the speed and the reasoning. So out of all of them, I usually 80% of the time I use Cloud ops for Gen Spark is probably similar to cloud ops for the only issue, because we use a lot of coding, we use a lot of n, a n workloads, so a lot of times we need help with coding. Cloud Optus for is much better Manus. Manus is very particular. It's it's a powerful, powerful tool. It's really great at one thing, it's really great at scraping Internet data. So it has actually amazing scraping capabilities. You give you can give it a prompt to analyze your competitors, or even Amazon reviews, Reddit, it will do it all the other softwares, all the other AI models won't be able to get the site the same type of the quality of output when it comes to scraping data. The only problem with Manus is it's really slow. It can take up to half an hour, sometimes to an hour, to get proper output out of manage. So these are the three that we are using. We also have the same process that I talked about, built in into an 8n so it's using, as you can see, review analysis. It actually scrapes data from Amazon. It analyzes every single image, every single bullet point. It does large research, which is deep research, analyzes new competitors, read it, all of this, then it's merging it, it's consolidating and it's creating a final report, and it can send that report in a Gmail. So let's look. Let's let me show you a little bit about how manually, how manually we can do this. So we have, we can automate this, which we have our internal tool to automate this process, but it actually came from a manual workflow, which I'll show you using those two tools. So we have, so we have here, if you have your if you, if you have access the the website, with the with the process, you'll be you'll be able to see deep research, review, analysis and content plan. So the first thing we usually do, let's say we go, we copy this prompt, and let's say we open a new chart, I'm going to paste in the prompt, and I'm going to paste in this link from the listing that we're working on, and I'm going to simply ask you to to do a deep research on this product competitors, and analyze any type of Any type of demographics. Who is buying these products, gender. So I want to get as much details about this product as possible. You can use research, or you can also use deep research, which is really good. So this is searching the web, but if you want a little bit more data, then I can't remember what it is. But you can select deep, deep research. So we have our customer purchase motivation, common barriers to purchase. So we get into, you know, the product a little bit more. So we have this the next thing I'm going to close this for now, the next thing we usually do is review analysis. So without an API, it's really hard to get any type of reviews from Amazon, as you guys know, but the one thing that's really one, one tool that is great at review analysis is Manus. That's why I've mentioned before. So if I go to Manus, you see here early on, I have provided the prompt with the link to to the Amazon page, which was the brush set that we were working on. And you can see it was, it took quite a long time, but he was able to come up with an extensive, extensive research. So we have Amazon product reviews, executive summary, product analysis, customer review, analysis, usage patterns, main purchase motivation. So we get in so in this step, we're trying to get as much data on the customers as possible from any type of mentions in Amazon reviews, Reddit. So in the prompt, we actually specify use that data from Amazon forums and direct competitors, website and any other resources you find useful. So it's actually, it's combining all that data into this research. So at this point we have, we have deep research review analysis. The only missing part here is the product data, which manually you have to input yourself. So this is once we have all of this, we can actually start creating a hypothesis of how to improve our our listing. So it's very simple. We actually use Cloud for this. So everything that you have collected from any type of research you just have. We open Claude. Have too many tabs cloud, so I'm going to open Claude is actually here,
+
+Speaker  543132:49
+and I am going to which is this one or this one, I lost it.
+
+Speaker  546402:09
+Okay? I think it was. Let me just open this up. So I'm gonna actually do it from the beginning. So all this data I can actually, let's say I'm gonna put all this data here. You can export it as a PDF. So I'm going to put all this data here into cloud. I'm going to also download all my data from Manus.
+
+Speaker  553879:29
+So while you set that up, I just the thing I like about Manus is with if you want to put reviews through chat GPT, you've got to use another tool to download the reviews first. And most of those tools only want to give you 500 or 1000 reviews, but if you might have a listing with 30,000 reviews, so it's a bit of a pain, whereas with Manus, you can just put the ace in it and it will just crack away. It'll just crack on. So I think it just, it just really reduces the friction. Exactly, manage is just good for anything that, like you would typically pay a researcher to do that involves clicking in and out of websites, like I used it to look, to look at campsites in France, or it's just, yeah, it's, it's really awesome, and a free version is great,
+
+Speaker  565410:09
+exactly, so you the workflow is really simple, simple. You input your research, you can add your product URL, and you just copy the master prompt. So I'm going to copy the master prompt here, and we have the product here, so it knows what product we're talking about, and it's going to generate a generate a full on analysis of all the data we have. It's going to look at the listing, and it's going to come up with a hypothesis for a new content plan. And we actually structured the prompt, which I'll show you. Where is it? We actually structured the prompt to come up with a HTML format. So this is what, this is what was created for Jamie's brand. So Lily Ingrid, her brush set. So we have all the data. As you can see, it got all the data from from Amazon and other sources, and it actually was able to find five critical improvements. So the first one was address hair grip as and slip at usage. 12% of negative reviews sit at poor hair grip bristles don't create enough tensions, etc, etc, high impact, enhanced visual demonstration of results. So it's actually going to give you a opportunities based on what people are mentioning, so negative sentiments or FAQs, if they're asking for a specific thing, that means they're that's a purchase barrier. So it's going to give you all these insights. So these are, this is your hypothesis. So whenever someone's asking, Whenever someone's stuck, how do I improve my conversions? I don't know, like we're trying to figure stuff out. All you need is data. So the more data you have, the more data you get from those tools, the easier it will be for you. Then for the AI to come up with a hypothesis, because the only thing it needs is data, and it's going to also give us a six image visual strategy, so it's the highest priority. So here's an idea for an image that we can test. And actually, with this prompt, you can actually also have a AI image generation prompt, which you can generate quickly, just for maybe you want to test it, maybe you want to see how it looks. Maybe you want to forward this to the designer as a reference. This is what we need. We need to create this image. This is really important. It's a it's a high priority, critical issue. I think we need this main image. You send this to designer, they have everything. They have design specifications. They have copy. Everything is here, and it goes on and on and on. So image five, six, and then the same, with a plus content strategy. So this is how you come up with a with a hypothesis for your listing conversion. And you have all of this, these workflows in the document that I shared. So let me talk a little bit more about this. So as you can see, we have the entire content plan, and we were also able to create very quick, just quick mock ups, quick mock ups. These are not perfect. These are not meant to be. So were these
+
+Speaker  619469:20
+done by these being done quickly by a designer, or these were done by Ai, ai?
+
+Speaker  621612:49
+These are just concepts, and you look at those concepts with the designer, with the entire research and UK, what do we need to do? These are some ideas. So when it comes to conversion or click through increasing workflows, the main obstacle is coming up with hypothesis type. What do we test? What? How should it look like? What should be the copy? People get stuck on this because execution is simple. You can find designers everywhere on Fiverr, etc, but it's all coming up with ideas. Or a lot of times when you hire a designer, they don't have the specific Amazon knowledge, or they don't understand the research. And as you guys know, it's really crucial to get you know to know your customers, know your competition, and understand clearly what are the conversion triggers, what's the most important thing that we need to show and the main and you can only find this out from understanding your consumers. And this is basically our hypothesis for the listing for newly England. This is so if Jamie was came to came to me, asked me, Dorian, how do we increase our conversion? I would come to him. This is the main image we should probably test on managed experiment, and I'll probably create this type of images for you for the listing. And let's see. You know this, it's not a bulletproof workflow you still have to test. But the great thing about this, it's actually giving you ideas. It's giving you a ton of ideas that you can test. And that's pretty much I'll show you the Nin workflows also. So when it comes to Nin, we all, we develop a lot of workflows. So for example, if you build, I know this is quite interesting for some of you guys, if, for example, you have certain workflows within your company, whether this is, whether this is for, I don't know, scraping keywords or coming up with ideas, or anything from team management or email workflows or accounting, you can actually build everything in an eight and you don't actually need a lot of coding the way we I build these things myself. I know a little bit of coding, but the main, my main help here, really, is cloud. So I usually try to even draw my workflow. I explain my workflow, and then we start setting up the notes with the help of cloud. So I'm just going to give you an example here. So you
+
+Speaker  662808:00
+just draw it on a piece of paper and then take a picture and say to Claude, this is what I
+
+Speaker  663880:00
+want, exactly
+
+Speaker  664184:00
+as simple as. So when we were talking about this workflow here, which is product data, customer insights and deep research, analyze it and come up with a content plan, right? I showed you how to do this stuff manually using all sorts of AI tools. So you can do this stuff manually. The only thing is, you need to jump from one another to another. It's quite it's quite tiring. You can do it, obviously, but if you do a lot of this, or you can build this whole system in Nan. So as you can see here, if I wanted to test this workflow, I simply, we have a simple form which takes on the product Asin. So if I go to Amazon, for example, I'll take this product, take this product, and I'm going to put product URL, and I'm going to put product Asin. I choose this as you as and I'm going to put my password, I'm going to submit this, and I'm going to show you what nint does the entire workflow. So as you can see, any what it does is now gets the first step it does it aggregates all reviews. So you can see it's starting to aggregate reviews. You can get 10 pages of reviews from Amazon. So right now we'll be able to, let's see we have the reviews. So you can see here we have, we should have all the reviews here, 10 pages, and the reviews should be somewhere here.
+
+Speaker  691522:09
+As you can see, is it using vanus to get the reviews, or is it using something else?
+
+Speaker  692738:09
+We have our own API now it's reviewing the analysis. Then the next thing it's going to do is going to pull that all the data from this listing, it's going to pull all the images, all the bullet points, and analyze it and create a benchmark. This is where we are. This is what the listing looks like. The next thing is going to do is it's going to create a deep research so it's going to go out there to Reddit, it's going to go out there to your competitors website and see, okay, okay. This is our product. This is what customers are saying. And this is our compete competition that is
+
+Speaker  702108:49
+managed for the deep research, or is it doing Claude
+
+Speaker  702701:20
+for the deep research? Claude, Claude, okay, Claude. And
+
+Speaker  704029:20
+then it's merging everything, consolidating with our best practices and creating the final report, which then is sent to a Gmail. Pretty simple. So just simple form, I was able to do everything I just showed to you guys. In a matter of minutes. We just get the report, and that's our hypothesis for the listing. So
+
+Speaker  709602:40
+how long until you get our email to reckon
+
+Speaker  710578:09
+10 to 15? 15 minutes. Oh, wow. The next thing, we also built the same for images. So you can see we build the same system for images, so it's actually passing all the data, coming up with, coming up with the prompts, analyzing, and then it's able to come up with new main images, and then that is also being sent to an email.
+
+Speaker  717964:49
+Would you use different tools for any 10 than you would do if you were doing it manually?
+
+Speaker  719484:49
+Yeah. So everything that we do in manually, everything that we do in manually, and we know it works. We try, we try to automate it everything.
+
+Speaker  722498:09
+Are you avoiding Manus because it's too slow? Or, yeah, that's too slow.
+
+Speaker  723858:40
+We're able to, we're able to get this even better data than Manus by setting up certain workflows manually. Okay, so
+
+Speaker  726775:29
+you're basically trying to, you're trying to try to use Claude, and you're trying to use Claude and open AI wherever possible. Basically,
+
+Speaker  729128:00
+yeah, and our own API, so yeah. So minus is scraping data from its own APIs. We have our own APIs, which are much faster than MDS.
+
+Speaker  732412:49
+Okay, cool.
+
+Speaker  733212:49
+And that's, that's the that's, that's what we're trying to automate. And guys, if anyone's interested in this, workflows we have, we just launched today, our little Amazon AI Club, which the goal of this is, I realized that a lot of a lot of people might be interested in this workflows and, you know, and everything that we are developing. So we actually sharing all the workflows, everything in there, if you want access to these, and we literally launching every new workflow a couple of weeks. So if you want access to these, or if you have ideas for workflows, or anything like this, we want to try to build a Amazon AI club where we share all the insights, and the price is only for the tokens. So all of the tools that we share with you, you can use them as much possible. And the membership really just covers the token usage. So if anyone's interesting, you can, you can join the club today.
+
+Speaker  751213:20
+So are those one off sums, or are they monthly? So
+
+Speaker  752797:20
+Amazon, AI club, it's a monthly, you guys have MDS 20% discount. It's a monthly and it's, it's, we're trying to form a group of testers and Amazon sellers and brand owners that are interested in automating, interested in the latest workflows. Want to test our tools. Want to give us feedback. Want to come up with ideas with us, you know, jump on the call and see what we can do. And that's our main I think we spend a lot of times these day on automating these workflows. So anything we can share with you, any type of feedback, it will be, you know, it will be very useful and beneficial, I think, for both sides. And as I mentioned, the cost, really monthly cost is to cover the token expenses, because some of these are some of them those workforce can be quite expensive, and that's pretty much it. I have to show to you guys. All right. So we had a
+
+Speaker  767725:20
+couple of questions. We had a couple of questions on the chat, which we can cover, and then if anyone else has any questions, we can go questions, we can go through those. So there was one question about product pinion. I know one of the reasons you use product pinion is because you're friends with the founders, but what do you think are the other advantages of product pinion, or pros and cons of product pinion versus intellivier PickFu or something else?
+
+Speaker  774562:09
+Well, for me, it's the cost price. Really it's cheaper because we run so many tests. Run, you know, every single day we run tests. So it's really about the cost on our side. I think the data you get from product opinion is comprehensive enough. I know intelliwhi has can go a little bit deeper, but for our use, product pin is just enough, pickful, it's pretty much, it's missing some of the functionalities that we are looking for, that we use. And it's also a little bit more expensive. So I think, you know, product manual and televi these are really good options. It really depends on what the budget is.
+
+Speaker  787474:09
+So the na 10, one that you shared is that sort of already live in your group. Is that the sort of thing that's in there?
+
+Speaker  790274:40
+Yeah, the listing optimizer is live. I posted it today. The main image optimizer is also live, although we have Nick has mentioned here any hallucination. So with the main image optimizer, we are today found out that we have a little bit of hallucination, so we're working on that. That should be fixed tomorrow, and then we have couple more coming in the next couple of weeks. So we're doing one, which is going to be an extensive review analysis of you and your competition, and other one also that we working on. So we'll be dropping all these tools in the next couple of weeks, and then as we go along, okay, so
+
+Speaker  800930:40
+sim and a shot. I hope that covers your question. Sylvia's question, would you say these kind of processes would work well, also for product packaging and product design,
+
+Speaker  804338:09
+100% what what you need is a ton of ideas at every single stage of no creative process. It used to be that, you know, a team of creatives would sit down and just, you know, look for inspirations, come up with concepts. It's a it's a lengthy process. With these tools, you can come up with those ideas very quickly. The more you have, the better. And then you just deduct previously, you have to you had nothing, and then you just have idea, 1234, now you can have 100 ideas at once, and then just deduct, get the best ones, and then you can iterate it. So any creative process this, this type of workflow is definitely beneficial.
+
+Speaker  816476:49
+Hey. Next question is, do you have any issues with hallucinations when analyzing a listing or looking at customer insights? Is there a way to verify that the data is accurate?
+
+Speaker  819842:09
+Sometimes, sometimes, you know, a little, a little sentence, you know, gets, you know, gets here and there, and then you know where it shouldn't be, and then model might hallucinate. I would say it's a five to 10% probability that you'll get some information in that data that shouldn't be there, but it's still better than you know nothing. So hallucination is still an issue. You have to resolve it by a lot of times by make, by checking the data couple of times and adding, adding additional prompts on notes to validate. So that's something definitely we're working on, but it's still, it's still happening.
+
+Speaker  831804:49
+Okay, so question from in Ran is, why would you use open eye, open AI if Claude was available. So I guess when? When is it? When would you tend to use open AI instead of Claude?
+
+Speaker  835426:09
+These days, we only use open AI for image generation.
+
+Speaker  836594:09
+Oh, and that's
+
+Speaker  837202:09
+pretty much it, to be honest, image generation, or image analysis, is really good when it comes to their image models. Anything else we use Claude,
+
+Speaker  840535:29
+and then what? What do you think I should be using Gen spark for? Or is Gen spark not so useful? Now, if I have, if I have Claude and open
+
+Speaker  842584:00
+AI, Gen spa
+
+Speaker  843048:00
+is great. It's very fast. It's it generates amazing, amazing outputs. In terms of, if you drop all the data there and ask it to come up with a content plan, it will generate your entire pages good reasoning and good copy. So I have nothing against James spark. I think just cloud is a tad better, but nothing against James Spark,
+
+Speaker  850114:09
+Okay, so next one is, obviously, you work a lot of designers, if your agency, do you have any recommendations on what level of experience our designers should have? Do we still need someone who specializes in Amazon optimized design? Or is that less important now, of AI tools, what kind of designer is most effective today?
+
+Speaker  855607:29
+I think you need someone that understands Amazon, so understands the what's needed in terms of the layout, that it should be mobile, optimized, that you know, the font should be the specific size the image should convey. It should be, show me, don't tell me approach where the benefits are. Show visually. So certain things, I think they need to have that knowledge, but you helping them a lot with having the ready content and the reason behind the content. I think that's the main thing that people struggle and design the struggle. A lot of times you give them a listing or something to improve, and they just don't know what's important. So they need data and they need directions if they're not experienced in Amazon,
+
+Speaker  867522:09
+right? Any follow ups on that? Ryan let me know. Peter says, Opus four is the way big endorsement. That's good. Nick says, How would you structure a content team when factoring in the usage of these AI tools in the future? How do you think most AI optimized content teams will look like in terms of staff, resources, roles, Amazon, businesses?
+
+Speaker  874199:29
+I think so. We are at the stage where you get a lot of data analysis and content ideation automated. So when you have we used to do all these reasons manually. 10 years ago, we would go through all the reviews, write them down and look for the center and write the sentiments and keywords and put them in a spreadsheet. So that was so the the majority of the work was usually come getting the data and coming up with ideas. That's the most important thing you can have them the most amazing visuals. But if they don't convey the right things, they will not convert. So a lot of times, people get this wrong design is 10% of your success, 90% is having the right messaging, the right messaging that triggers conversion to click through rate. So we are, as you can see, we already automating a lot of this. So we've automated most of it, but you still at this stage, you have to vet a lot of things. You have to go through the content plan and see if there's no hallucinations. Is this really is this really important, or is this actually the feature that our product has? So you still have to vet it and then send it to the designer. So and when it comes to design, we still don't have any AI tools that are capable of generating the right images, the fonts consistency. So I think at this stage we'll still need designers to do the final work. But who knows, in the future, we might have aI designer that will do everything for us, and then it could be just a click of a
+
+Speaker  899842:09
+button. Cool. All right. So can we just
+
+Speaker  900226:40
+go back to the page that had the free winning designs for the main image? Yep. Keep questions coming in the chat, guys. Or if you want to ask a question live, you can do the raise hand, and I'll come to you as well.
+
+Speaker  905511:29
+So would you say a next step here would be just to poll these three against each other, or to do separate polls, polling them against the competition.
+
+Speaker  908268:49
+Good question. I think I would take those three concepts. I would ask the designer to at least finalize them, polish them a little bit, and then test them against each other 100% and then set up the Manage experiment, yeah, of the winning one. And
+
+Speaker  912909:20
+then if we go to the the other ones, the ones that have been clicked out the last set you showed me, yeah. And then what would you suggest as a next step here, sort of trying to work out a sort of provisional image stack, so working out maybe some changes to an image stack, something like that, and testing
+
+Speaker  920040:00
+that. So when it comes to image stack, this comes to, let me just this comes from this data. So we know exactly. It comes from data I'm
+
+Speaker  923725:20
+just seeing like a black screen. I'm just seeing a black screen now and then that little square in the middle saying, continue to share. I'll stop sharing. Keynote.
+
+Speaker  925565:20
+Okay, one second. Let me share again.
+
+Speaker  927932:49
+So when it comes to when it comes to stack, we know exactly what are the most important things. So we know what the critical high impact, major critical improvements. So we know what's important at this stage. This is backed by data, like we know exactly this is from reviews. We actually analyze reviews, so we know that 12% look for this that you know, 35 six salons hours, so we know what's important. So at this stage, what I would do is, I would ask the designer to finalize those concepts, to get them as good as possible. Then look at our our content plan, see exactly what the main improvements opportunities, and run them, you know, and run them through managed experiments,
+
+Speaker  944396:49
+yes, so I want to see you. Okay, potentially space managed experiments. Yeah,
+
+Speaker  945810:40
+great.
+
+Speaker  946034:40
+All right, I've got enough questions. What are the best AI visualization tools for design that
+
+Speaker  948162:40
+you've tested?
+
+Speaker  948930:09
+Observation tools for design? Definitely open AI image Gen, because it creates the most consistent images. You actually understand what so when you show it your product, you actually understand the physics of the product. So if you have something like a keyword, as you can see with the Liliana, so if I you know it had the brushes look 80 to 90% similar to what they are in real life. So no other tool out there right now can be as accurate as open AI, so definitely for visualization, it will be open AI.
+
+Speaker  960348:49
+Okay. Next question,
+
+Speaker  961618:09
+when it comes to polling platforms, have you noticed any particular bias that you have to account for? For example, Nick saying, I noticed when running intellibi polls that it sounds like cluttered images and lots of information, which doesn't always translate to conversions
+
+Speaker  966002:09
+100% so you have, you have high and low funnel. Okay, so and, and when you polling these cast, the people that reply to your answer and to your to your questions in those services, they don't come there with the buying intention. So a lot of times, they might not even be familiar. Be familiar with the product, so they will usually judge and reply based on the visuals and some information. So you have to take it with a grain of salt. We still poll stuff, because it's better to have some data rather than none, and it's also good for coming up with ideas. So a lot of times people say, I prefer this, because how about this? So that also gives ideas, but never we would bet all our money that what has won a pole is going to win on Amazon, because that that funnel on Amazon is completely different. They actually come up with the intention to buy your product, and they're looking for certain specific things.
+
+Speaker  984023:29
+All right. Next question is, in, how did you get open? I to change the box to red for the flashlight. I think it was like,
+
+Speaker  987271:29
+let me see if I still open. I think I closed it let me see if it's still open. No, I closed. You simply change the prompt and run it again.
+
+Speaker  992684:49
+How would you use these kind of tools and workflows for product research? We're looking like for new product ideas
+
+Speaker  995090:09
+for product research. Yeah, that's a really good question. That's something that we're actually working on and we'll be releasing very soon. So imagine that you can imagine that you're launching a product, like a can you flash light or survival style flashlight, and so you're trying to find out, okay, what can we improve? How can we make this better? The best type of data is actually from reviews. So imagine that you can scrape reviews from the entire category, from, let's say, top 10 competitors, and find the sentiments things like this. This is not working, or it's missing this, or etc, etc. Then combine all this and analyze this data, and it's going to come up with critical improvements for product development. So it's going to say, you know, most of the competitors you know, don't have the right grip, or the you know, or this certain element is missing or breaking, and that's your hypothesis for improved product development. And that's something actually that we're working on, and that should be live, probably in a couple of weeks.
+
+Speaker  1014631:29
+But potentially in the time being. Manus quite a good one, because it can go in and really, you can get going right away by having it look at reviews and think about ideas.
+
+Speaker  1017192:00
+Manus can only access the some reviews in Amazon. It can access all the pages. Okay, so you interesting.
+
+Speaker  1019240:00
+It
+
+Speaker  1019592:00
+seems like a lot of tools like helium 10 and other ones are restricted, like the first 500 Is that right or something? Yes,
+
+Speaker  1021245:20
+so helium 10 and all the other big tools out there have their own API. So do we manage can access that, that much amount of data on Amazon. You'll see if you do this and you ask it to scrape more reviews or data from Amazon, it's going to come up with a capture on Amazon. It's going to block manners, and we only going to get so much from it,
+
+Speaker  1028066:09
+okay, but have you found a way to get all of them from the API? Yes, Ah, great. But what manners could be a reasonable starting point for product research? Do you think, yeah,
+
+Speaker  1031592:00
+100% because it
+
+Speaker  1031992:00
+can scrape Central, it can also go into Reddit, blogs, that kind of stuff, and see what's kind of, you know, if I wanted to see, like, well, what if I wanted to see, okay, what are the latest developments in skincare, right? Where's, where's the part going in skincare? I could, I could, I could have Manus look and do like a kind of little research project, or I could do that Claude as well, right? Yeah,
+
+Speaker  1038381:20
+100% there's a lot of data points. Good. One is Reddit. So that's also something we look at a lot of people, when they buy a product, they usually look at Reddit to look at what was it that people are talking about the product? They actually give way more insights on Reddit questions. So that's another tool. Again, more data combined, the better you're gonna have, the better analysis you have. So you can have reviews, you can have Reddit data, and then you can have other things like market trends or product development trends. What's happening, what's you know, what can we do with this product? So the more you combine, then it will be able to give you ideas.
+
+Speaker  1049335:29
+Okay, last couple of questions. What sort of flows would you do for optimizing title and bullets?
+
+Speaker  1051943:29
+That's a tough one because it's very keyword specific. I think there are really good tools out there like zonguru or Django scout or helium even 10. They do have some a capabilities you have to have with the problem with that is you still need to look at the search volume, and all of this is you can't really rely on AI to give you a full title and bullets optimization plan, because it doesn't have that connection to Amazon API where it understands the search volume, click through, rates, all of this. So at the moment, I would use those tools that do really, have you seen any
+
+Speaker  1062536:00
+there's just some new functioning on data new function on Data Dive, yeah, yeah, there's some new functioning coming on Data Dive. So we're going to showcase that soon. I just got access. I've been meaning to check it out, but Danny helps help them with that as well. Could last question, could AI take an app, non Amazon compatible website, and look at the products and determine which ones would be good to try and list on
+
+Speaker  1070812:49
+Amazon? Not really, I don't think so.
+
+Speaker  1071628:49
+That's where you're gonna. Probably have to use a bit more your own judgment.
+
+Speaker  1072668:49
+Yeah, your judgment, you need a lot of data from Amazon sales. All of this, there are, there are good tools, like, I know, all of these tools, the big ones, they they aggregate a lot of the data together, and they look out for opportunities you need, Amazon speed, Amazon specific data, which any of these tools that we like Cloud manage or transport, they don't have access to that data.
+
+Speaker  1079239:29
+Okay, awesome. Well, you've given us a good sort of introduction to some various tools that we can get out there and use ourselves. We've got all the prompts ready to go on that. So that is awesome. And then if, if we want to use your na 10s or whatever and save ourselves the trouble of building, then we can join that the community with the MDS code, right, which is the sort of make things a bit easier, but, or, if that all seems like too hard work, you got an agency as well, right?
+
+Speaker  1088652:49
+Yeah, yeah, no, no, we we want people. We want everyone to test these tools that we building. We want feedback. We want to build stuff with you, for you, and we're super interested, and all people here are interested, and we want to exchange ideas and things that we use in workflows, what works for you, what doesn't work for you, what? And I know this was just an idea that came up with yesterday. How about we all come together and, you know, experiment, and I can share everything with you. You know, we created, I created this group just for that sole purpose and the fees only just to cover the token expenses.
+
+Speaker  1098967:29
+Brilliant. All right. Well, thanks so much, Dorian, we're going to have an air table feedback form in the chat. Oh, it's already just great. You guys can see it. Get your feedback on this call, particularly if anyone was on the first call. Like, how do you feel? How do you think it compared? Do you prefer having the slides, or did you prefer more of the kind of screen sharing type things would like to love to get your feedback on the call. You know, do your more stuff like this. What did you enjoy? So I go through those every time. So please, please leave that feedback there. Just a quick score out of 10 really helps with these calls. Well, thanks, Brian. You put a lot of work into this. You shared a lot with us with those prompts and stuff. So yeah, really appreciate it. Thank you
+
+Speaker  1109874:39
+so much. And thanks everyone. All right.
+
+Speaker  1110402:40
+Thanks, guys. Cheers. Bye.

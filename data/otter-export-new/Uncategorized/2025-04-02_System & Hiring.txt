@@ -1,0 +1,221 @@
+System & Hiring
+Date: April 02, 2025
+
+Speaker  00:00
+We're gonna talk about structuring your team and systems to scale efficiently, especially when hiring offshore or replacing those roles with AI, since we have a smaller group instead of doing instead of doing like breakouts, where you can just kind of free flow and talk on these topics. And I think this will work. So I mean, at first, I guess we'll just open it up to main point, which is kind of what SOPs or systems have made big impact on your onboarding and or delegation. So I'll open it up if somebody has something they want to
+
+Speaker  10885:20
+first of all, we have, we're really, really crazy about documenting processes. We use notion, and everything is required to be done in notion. So that's been really huge. Generally, what'll happen is I give my management team, hey, we need to do it this way. Then I'll record something, where the manager records something, then they document it all in notion. So that's huge with onboarding people, plus what we do is we rotate it depends on the size of the team. So let's say the finance team or the Amazon team. We rotate roles. So there you have two, three people, and every month they're doing something else. So when someone else, new comes on, you know that they have multiple people that can help train them. And then, like I mentioned this morning, huge to be able to test people before they come in, really set a wide net. And then the other thing is, I should share this. I could share this if anyone's interested. I saw years ago, when I was looking for a job, whatever, 20 years ago, I saw someone write a job post that it said, if, if you're this kind of person, you will love this job. If you had been here in the last 30 days, you would have done this in the next two years, it's likely that you will blank, blank, blank. And I get people contacting me saying, Hey, I don't want to work for your company, but I love the job post so much that I just wanted to contact you. So having a really exciting job post that focuses on your brand and gives like pitches the opportunity is going to get you a smarter person, because they're like, Oh, this is a place I can grow and it's a tremendous game changer. A lot of the best people that I've gotten are because they're like, oh, wow, this sounds really exciting, and something that I can grow in,
+
+Speaker  36912:00
+that's an interesting one. So we have over 30 people at MDs, and we started doing this. We have a 10 page job description, and we have a shortened version too. But like, it explains the whole history of the company. It explains, it mentions, you know, that who you'll be helping, like the members and members, brands and all this stuff. Debbie, you've seen our job post. Did it? Did it excite you when you looked at it? Yeah. So it really explained everything very thoroughly. It had all the KPIs in there. It had the first 90 days really well mapped out. And I think that is very true. It helps you get quality people, because good person wants to know that they're making a strong decision. Anybody else? Really good stuff on hiring, or SOPs
+
+Speaker  49888:00
+over there? What's your name?
+
+Speaker  50592:00
+It's more of a tool that you guys can use if you wanted to. It's called a predictive index pi. You can go predictive index.com and do it for yourself. I have no affiliation with them, other than me using them. It's a performance evaluation system that evaluate everyone that you currently have and will point you out what's the best way they perform under what conditions, and then, depending on level or predictive index you want to get for yourself, it will give you abilities how to work with them. So you may have a great guy in the wrong position that you want to replace. All you have to do is just move them on the hiring side of things, the way we use it, predictive index hiring module allows you to upload, if you have, for example, from other businesses like I did. I was a VP of insurance company, so I have a stellar sales people there. I could predictive index all my top sales guys and create a profile of the top performing sales guys, and anyone I hire gonna go ahead, compare it to that profile. So if they mention that profile, I don't, I don't really necessarily do a lengthy interview, other than just making sure that they are clean background, this, this, this, I will hire them because that profile is so accurate that anything I use that for, I'm 90% right. My success ratio, using predictive index with hiring, was 90% success rate, which is very high. Wow. And the same thing, if you have a good executive, for example, if you have somebody that was a great operations person, you can create an operations person profile, and any of your hiring is going to be compared against that profile. If you're using they offer you also a what's called the Business architecture tool, and that allows you. To our to predictive index all of your team, and they will give you a allocation quadrant of how each team performs in 100% productive environment. Then they will place you each member of your team in that quadrant, and you will know if your company too heavy on one side or the other. So you may be having a great talent, and you may be wondering why your company doesn't perform well, but it could be you may be too heavy on innovation and very low on operation, and your operation guy is pulling the hair out because they're dealing with too many initiatives, because your company is too far on that side. And it's an eye opener when you start seeing this like we need our company. I was the other way around. I was very heavy on systems and not much on the creativity. So my systems guys were great. System operates like a clockwork, but they were slowing down innovation completely because I only had one personal innovation, and 40% of my team were thrown in operations and systems. So the innovation guy could not deliver anything because he was the only one fighting the other seven. Once we figured that out, and we moved them around a little bit, and we brought in more innovation people. He just, have you tried,
+
+Speaker  100112:00
+like chat GPT or Claude, or any of that for this kind of thing, or is, are you
+
+Speaker  101040:00
+I've used chat GPT for that, it did not give me as much. The predictive index came from Cambridge Analytics, which is one of the largest data company. It's
+
+Speaker  103781:20
+expensive, though, right? Like, it's quite expensive. Predictive index is expensive.
+
+Speaker  104805:20
+So if you have a big company, but for me, if be I compare it mine before using it and after, the amount of money I saved on mistakes, on the wrong people, especially firing the wrong people, was way worth the price of that. Yeah, so if any of you desire to really tune in your team and try it,
+
+Speaker  111386:40
+predictive index, yeah, I think it's a couple 1000, right? It's a couple 1000.
+
+Speaker  112640:00
+Yes, my membership is eight and a half 1000 a year. Yeah, yeah.
+
+Speaker  113792:00
+We looked into before doing a membership for MDS, but it's difficult. I want to just quick poll, who here has, who here doesn't have any employees? Three, four, okay, who here has at least three employees, five, keep your hands. Of five employees, 10 employees, 1520, 25, 5060, how many do you have back there? Sir, 80. Okay, all right, tell how do you manage your team of 80? Or what, what's, what's the, what's one of, like, what biggest mistakes you've made?
+
+Speaker  124922:40
+I mean, the key is hiring the right people. So you hire slow and fire fast, right? As as, as mean as it sounds, that's, that's really the way of life. And obviously there's an evolution, right? Like, back, back back in the day. You take your own sweet time to get rid of people who are not talented, people who are a bit of a boat anchor. You learn from that mistakes. And just, just
+
+Speaker  130624:00
+how fast are you letting people go within? I think
+
+Speaker  131648:00
+the fastest we have done is probably like, within three months. You still need to give people an opportunity to develop, to grow,
+
+Speaker  134325:20
+something which,
+
+Speaker  135077:20
+if you guys want to invest in this book, I think it's called, like, the method of hiring for a players, good for, like, managers and hiring executives. And in essence, like, what it says is like, hey, unlike mutual funds, right, where the past is not a good prediction of the future. When you're hiring good talent, the past is really a good prediction of the future. And you make sure you ask a bunch of pointed questions, ask enough of information to gage whether this person's done stuff in the past, which he would demonstrate in the future, and then case studies, right? Like if you're hiring people for a bit of technical roles, most of us here Amazon sellers like product manager roles, listing manager, marketplace manager roles, have them break down one of your listing and say, like, how would you grow this listing? And look, if you want to be fair, just pay that person 500 boxes or for their effort. But I think it's time well spent. Yeah,
+
+Speaker  149488:00
+I think so interesting thing we've been doing lately is chat GPT with like, we follow who method, and the first step is a screening interview, which is, you ask a few questions the same, it's the same questions to any role. And we actually asked those screening questions with a video. There's an application to a conform, but a video, they're supposed to record a video. We put those videos into chat GPT, along with, like, resumes, and it screens for you, and then we do all the interviews, we record them, and we drop all of the transcripts into chat GPT. So, I mean, we start from we start kind of from the beginning. I mentioned. We have these, like, big 10 page, uh. Uh, job descriptions that are highly detailed. Like, we build the job description the test that they're going to do all of that, and like, one chat, GBT flow. Then we start putting in all the applicants. It starts like, you know, saying, who's good, who's not good. We then it gives you pretty good insights, and especially when you can upload all the inventory, all the interviews, and all of the transcripts and all that, and all the referrals conversations. It's interesting. Yeah, it's interesting.
+
+Speaker  166533:20
+So I've actually used that for the second stage right when you're creating the scorecard. So we use fireflies or meet gig. Just download the entire transcript and then put like, a top three or top five candidates and ask chatgpt Like, hey, how would you rate and rank them based on these five parameters, as well as on your scorecard, it gives you a decent, decent response.
+
+Speaker  172554:40
+Who here feels they have their SOP game down packed?
+
+Speaker  174266:40
+Who feels their SOP game is an eight out of 10?
+
+Speaker  175434:40
+Sop eight out of 10. Close. You want to talk a little bit your SOPs. I mean, the biggest problem I always have, especially with Amazon, right? And it's typical of business, you build the process that solves the problem, and that process works for extended period of time, but in Amazon, I feel like processes need to get changed every month, every week. I'm Matt. You might have something. How do you keep up with all the changes? All
+
+Speaker  183525:20
+right, so Ryan DICE has a book called Get scalable. It's, it's been, I've read most of the books that's been the best one yet makes everything simple very straightforward. His SOPs were, like, my SOPs really beautiful, collecting a couple inches of dust on the shelf. And his best advice, which I think is great, is assign each critical SOP to an employee, and their responsibility is that SOP, they have to sign off on it every 90 days to make sure it's updated. And if it's not signed off on it, they need to be called out on it. So I thought that was really great because, because, as you were just saying, processes change, things change, so the critical ones have have somebody responsible for that Tim Kat
+
+Speaker  197184:00
+dimension that you don't have to be all or nothing on SOPs, I would say we're like a nine out of 10 on supply chain and finance, because those almost never change, and the team there is so solid. And then on Amazon SOPs, things change so much. They're like much more fluid, but that's the quality of the team. So it's much easier for us to hire someone new in the predictable SOP areas, but it's also a bigger investment that we make into making those SOPs, because we know they're not going to change. So I think looking at SOPs is all or nothing, which sometimes is challenging. Has
+
+Speaker  205450:40
+anybody successfully built like an AI bot that your employees can ask questions to Joe? You want to talk about that? Because, I mean, I know Sony will always like, I'm going to do this, and then it never works, so I'd love to hear yes. So
+
+Speaker  209232:00
+we plugged in all the job descriptions, all the titles, all the reporting managers, all the phone numbers, all the email addresses, and we plugged it into custom GPT. So any employee that has a question about, where do I get this? Where do I get that? Who do I contact for what? The custom GPT just spits it out. That's
+
+Speaker  214933:20
+more like a CRM for your employees, kind of more so. And
+
+Speaker  215733:20
+then we, we put in all the manuals, all the marketing, the marketing calendar, all the deals, everything that's that's happening across the company. And that's the
+
+Speaker  218117:20
+What are you using for that? What? What are you using for that?
+
+Speaker  219018:40
+So, of course, we have such a large team, so, so I'll be we have over 200 people on our team. So it's very important. Communication is the biggest roadblock. So having this custom GPT and everyone knowing that they can turn to it allows the communication to flow much easier. And how
+
+Speaker  224128:00
+would you build that? What's it based on the GGB? Oh, it's based in chatgpt, so it's like the enterprise
+
+Speaker  225648:00
+version, yeah, I don't know which plan. It is probably a plus or something, one of that, but not even anything
+
+Speaker  226960:00
+crazy. And it works? Yeah, it works. Anybody else has had success?
+
+Speaker  229392:00
+Does anybody have a problem?
+
+Speaker  230181:20
+Okay, all right, David, start with your problems. Does he already have the mic? I just have problems.
+
+Speaker  232069:20
+Pass it back to Nate.
+
+Speaker  232853:20
+All right. Um, so I'm, like, fairly new and like the management side of things. I have two employees. Hired them both in November, I hired someone last year that managed, but he was our PPC guy. He just kind of knew what he was doing, so I let him run. One of them is great. The other one, I feel like I asked him to do things, and I just don't quite get like what I want every single time. And it's always like trying to iterate. And right now, I'm like, at a point with him where I'm like. Like, I feel like one, like, I could be a better manager, but I'm, I'm trying to figure out, like, Is it, like, am I the issue that's like, not allowing him to succeed in the role, or do I seem to, like, cut, cut it, and, like, hire someone new? And I just want to know, like, if anyone has more experience, has like, insight on, like, when, when you kind of, like, just fire someone, find someone new. Or, like, when you know, like, you get kind of look at yourself, like, okay, like, like, how can I help them succeed? Like, I guess that's like,
+
+Speaker  247477:20
+kind of, what's their role? Like, where are they based? How big is the company do all the Yeah,
+
+Speaker  248549:20
+so, I mean, the company's rather big. Amazon, like, we'll do, we'll do like, 30, we 30 million last year. We'll do bigger that this year. But the Amazon side of things, like, I'm just managing Amazon for him. We just have three people, so it's just me, and I have to do direct reports, yeah, like a PPC, like boutique agencies, just like one guy, he doesn't have many accounts, so it's, it's a small team, and he him specifically. He's, like, our platform manager. So like, ideally I could tell him, like, hey, like, sales are down on, like, this product, I need you to go figure out why, right? And like, I need you to go, like, come up with, like, a game plan. By the
+
+Speaker  257600:00
+way, there's a there's a partner in here who has a GPT for that. Okay, yeah, I don't know how well works, but it sounds interesting. Anybody have a solution to the Nate's problem, or a suggestion?
+
+Speaker  261024:00
+What should he do? Vlad back there,
+
+Speaker  261493:20
+we have a process when there is a lack of performance, we evaluate prior to making decisions let go or keep a person over time. Firing is more expensive than hiring. So because you invest the training and all that, typically you have a you have a change that you want to make within somebody, right? But you got to remember that it's an individual, and you whenever you want to change, you don't criticize a person. You could just sign a situation of behavior. You never go after the personality, because that's a number one tool. They ain't going to do anything. You can tell them you do this. They're just going to be looking for a new job and walk away the moment they find it so. But there is a condition you want to change into something. Then there is an environment that may be causing them to do or not to do certain things. Then there is a cognitive understanding of what you want, and then decision, those are like areas so you can try and force a decision and an action, which, as an employer, you always can, but you're attacking more so a person versus the versus the situation. But there is an environment option in between that most management systems don't address. So if I want you guys to put a jacket on, for example, here today, I can tell you, like, put a jacket on it's cold, or I can go to ace to AC and lower it to 30 degrees, right? So I didn't force you anymore to put the jacket. I just changed the environment that made you evaluate situation differently. Therefore you went to do decision that I wanted you to do in the first place. So we evaluate the environment before we make a change in a person. So when I meet with someone who underperforms, I will ask him, Okay, is there something within our company that lacks you the performance? Because what we've noticed is that the result in your department was not where you thought is going to be and where we expected is going to be so is there something that's making you think that way? Because as a person, you're a good guy. That's why we hired you to begin with, but the condition we're receiving from your performance is not the best. How can I help you? And I'm trying to change the environment, not the person, and they become a lot more open to that change, versus if I'm going after them personally, and that's been successful for us. So we had, like, lack of a sales performance. My top sales guy, for example, right? And we have certain criteria as we monitor to perform sales. I sell high ticket items, so I'm a little bit different from you guys. I do a little Amazon, a lot D to C. So we have a certain system of follow ups that needed to be done, because our sale is stages like we need to know. Stage one, we're not going to close it. Stage stage two, we create relationship. We close on stage four, right? So, but there's a follow up system. So one guy was completely underperforming in follow ups, and if it's underperforming, cost me ton of money, so, but it's been with me for four years, so I was to the point of letting him go, and then this like a you got to come down, use your system that you don't. So we met with him and think it's like, hey, Clint, you your your ratio of follow up closing is like 30% down. Why? What? What's going on? I know that it's not you. I know it's not your effort. I know it's not your desire. So I took that out of the way completely. I know it's not you, but I noticed that your performance is quite a bit lower here, therefore you're not making enough bonus. He goes, Yeah, I'm kind of low on money. I said, What's the situation? What is changing? And. The thing that was problematic for him the environment is the fact that we change the timing when he does follow up on abandoned carts, we put it in the morning, and he comes into work he's loaded with the phone call from the night before, check out the messages, answer all the phone calls from night before from the customers, and then he's supposed to do all the abandoned carts follow ups right after that. It's a loading and my mental is not easy. So he goes, I'm just, I'm pooped by lunch, if you I gotta follow up 25 abandoned cards. Understand their discount, and I just answered 15 voicemails. All we did. We moved abandoned cards to the later afternoon. That's all we did. His performance went up 50% crazy. So we changed the environment in what was causing his bonus reduction, sales reduction. I when I look at sales, I look at bonuses. First of all, I look at, like every other month, I go bonuses. I see who dropped in the bonus. If they dropped in the bonus titles are down. I don't that kind of gives me the feedback. And that's give you an example of that, a warehouse guy. We changed his attitude by moving by adding one more day between he receives the orders from the factory to the time when we asking him to ship the orders from that arrival before we had it, he receives it today, and we were asking him to pull it next morning instead. Now we're just asking him to pull it in between three and a five next day instead of morning next day, his performance quadrupled. But he was negative. He was swearing in my my operations manager. He was like, this is sucks. I don't have time to fart blah, blah, blah, blah, blah. And I went and saw him. Okay, what's going on? Because you I can't, I can't take off 500 or a pallet, 500 pound pallet today. So Okay, let's move it five hours later, and that's it that made a change so that understanding that environment that may cause you people not to do something is worth evaluating before you moving them or removing them or firing them and change try to change environment, but when you change environment, set the parameters that you're going to evaluate again in 30 days. So okay, we're going to change this environment, like I did with him. We moved abandoned cards to later. But I say, Okay, let's review. In 30 days, how are your follow ups conversion now in 30 days, is follow up conversion at 40% and we just changed the mood. We just changed the timing. That's what we did.
+
+Speaker  361653:20
+You can use maybe chat GPT to give you ideas on how to change an environment of this employee? Yeah, Brandon, you had your van headed first, then you catch, got the toss that
+
+Speaker  365594:40
+what's your problem? How can we solve it?
+
+Speaker  366218:40
+So I definitely recognize that I need to hire and scale as I've brought on people, I see that I get a focus we're really on growing the business and certain things like that. But one thing I struggle with is I don't always know, with a small team, you can't onboard very fast because you're because I'm building out systems. And you know what I mean, I'm not to the point where I can just be hiring super quickly. So it's like, what is I don't really know right now, what would bring me the most value if I was to just bring on, like, what is the next position that would honest, would bring my business
+
+Speaker  375269:20
+the most? Give us some kind of Who are your people right now? It's you, your brother, right? I
+
+Speaker  376277:20
+got an operations manager here, Alex. He's us. I just brought on a graphic designer that's doing social media, all that other stuff. Two VAs in the Philippines that do operations, slash customer service. And then I have a VA for social media as well that's doing outreach. And then I have agencies, agencies that do what? PPC, yeah. So I'm listing Amazon agency, then an agency that does meta, Google ads, email marketing for Shopify,
+
+Speaker  383418:40
+an accounting team. And your question is, who should you hire next to make the most impact. Like,
+
+Speaker  384432:00
+what is, what is the one player that I could add to my team that's gonna give, that's gonna help the business the most? And I know that for my situation, probably someone can't say just, oh, hire a CFO or this or that. But what, how do you does anybody have any insight of how, like, they've been able to figure out where they can, where they should be hiring to add the most value.
+
+Speaker  389541:20
+Who wants to Colin,
+
+Speaker  391013:20
+I had the same problem, and I went to and a business mentor helped me out with it, and he just said, what's really important that you're always pushing off, and what are you not doing? What are you choosing not to do that you need to do? I don't know that worked for me. Tim
+
+Speaker  394949:20
+Kat, you had something else? Oh, yeah, I didn't see you there. You didn't spoke yet. Toss it that way. What's your name? Brian,
+
+Speaker  397130:40
+so what do you not like to do? Similar? So that's the, one of the things that excite me. If I'm not passionate in the business, I'm doing something else that I'm. Not enjoying that would be the first things to try to look at offloading. Simcoe,
+
+Speaker  401520:00
+you have something different, but that's the one, okay.
+
+Speaker  402624:00
+You want to add something? Yeah. Mike, yeah. Assist,
+
+Speaker  404512:00
+this is, I think, one of the big, biggest, biggest things that I struggled with. And what I started doing is keeping a Google sheet that every time, every time that there was a task that either wasn't getting done or wasn't getting done well enough, I would just write it down, and I would have all my other managers do the same thing, and then we would all have a meeting together and group them into logical areas and say, When is this? When has this resulted in enough of pain that we want to part with some money in order to solve that pain. So first, if there's something that's not getting done, I'll push my team harder to do that, because there's no excuse not to get things done. I've become less nice as I've become a manager for a long time. So first of all, we have to get it done. And if there's a reason why we can't get it done, and that's a legitimate reason, and we have enough things grouped in a similar category that we can hire for it, then we hire but it's only to solve pain, and not because we don't like doing it. So counterpoint, I like it.
+
+Speaker  418784:00
+You got a question right there? What's your name? Yeah, Sam, you want to share your situation.
+
+Speaker  420608:00
+All right? So hired a few people over the past few months, fired or hired. Hired, hired. Okay, one of the challenges that myself and both my brother and myself have had is that where we own multiple brands, every single time we onboard somebody, we have to train them about the brand, about the products. It's the same information over and over and over again. Is there a specific method to creating an SOP or a specific tool that can aid in alleviating the time, which is basically repetitive information over and over and over again record it? Is it as simple as loom
+
+Speaker  431034:40
+or, yeah, there's there's apps now that the plugins that you record and then they'll make SOPs out of it too. That's what I would start with. I never with hiring. Never have an unrecorded anything like, like with training, like first ever, and then out of that, like 90 days that you train somebody, Calvin, create a training document for that role. So if you ever have to let them go, there you have it. Yeah, anybody want to add to that? Yeah? Antonio,
+
+Speaker  440053:20
+something we do with the new hires is that we have someone in the team that is responsible for every when we're onboarding, someone in the team will onboard the new people in their area. So my catalog manager is the one who explains what asims are and what the products are, what the families are. And someone else comes in next day, and it explains a little bit of what people you know, the big picture of what PPC is you need to teach people who don't have never worked with Amazon, a little Amazon. So we have the team, give them, give them like small like the sessions of small training. And we always have the latest hires watch that again, go through that again, because we think the repetition is good. So every time someone new comes, the last three or less four people that were recently hired also come in for that to reveal that training session. And at some point, we find someone who's really good and transmitting that, and they take the role of
+
+Speaker  459626:40
+onboarding people.
+
+Speaker  460218:40
+So this was something that we did interesting training perspective. So we use air table a lot, sometimes to a fault in MDS, and we have like 1000s of little learn how to do this, learn do that, learn how to do that. Maybe a chat GPT is a solution. But when we they're categorized by departments, and when we are hiring somebody, we actually select, okay, out of all this, this training bank, this is the things that they're going to need to learn, right? So, and it just, it's just pulling from the same list. So it's like creating their, their checklist of training from a bigger training bank, because it's like, you know, so there's a lot of tools that do this, but it's like, you probably have a big training bank that you can reference. And it's like, every single time you just put together, okay, this is what's relevant to that person that's drawn to that person, and then always iterating, yeah,
+
+Speaker  472693:20
+do you always have this recorded? Or do you have someone there's,
+
+Speaker  473621:20
+there's, there's, yeah, but it's just like, stuff for them to go through, like the reference documents and stuff like that. But there's, there's looms there, there's documents there, there's links there to stuff. It's like, it's like, a wiki kind
+
+Speaker  476842:40
+of thing. There's someone going through with with them, or, yeah, we where
+
+Speaker  477866:40
+we have additional but it's like, hey, in between that, like, you go, like, research this stuff, and then we'll meet again, right? Okay, and you. Yeah, I think it's really important also in the first days for me, at least. I don't know if anybody agrees, like, what'd you do today? What'd you learn today? Right? If a new employee is not every single day to their direct report saying something, that's a bad sign. So it's like, you need that daily, and you can immediately be CC on those and see how effective a new hire is. Yeah.
+
+Speaker  486757:20
+So one thing, and I got in the Marine Corps almost 20 years ago, so if I slightly butcher this, but when I was in the Marine Corps, and I went through corporals course, and you're kind of learning how to move Mike a little closer, and you're like, they're kind of training you how to be a leader, one of the things that I that stuck with me from that training was, like, when you get a new marine and the supplies to employee or whatever, right? I need to first tell you what I want you to do. I need to then maybe give you an example, so that you, like having it have a standard, and then, like, I gotta give you time to, like, digest that information, and then come back and it could be a simple meeting of, like, okay, so, you know, tell me a little bit about this, or, like, just get them to explain it to you. It's not there is. You can have tests for certain things, but whenever you actually have a conversation with somebody, same thing as if you're trying to teach somebody, teach me this what you just learned, right? And if, whenever they have to re articulate it, that's whenever it's like, oh, yeah, wait, what? How does this work again? So I think that I've always done that everywhere I was at when I was an engineer or whatever. I always give some time, some time, a couple weeks, whatever, and then come back and sit down and you have the whole checklist on, and it's like, tell me a little bit about this. What's, what's some problems, or, you know, just ask a few questions. And depending on what, what the role is, you might have two or three questions that are good, explain me this whole process, or whatever. And then that way they also know this is kind of coming up, right? And you give them some kind of expectation, so they're kind of like preparing for it and study and make sure, making sure that they can't just do 80% of the work. They really know 100% all those little details that they're maybe not doing every day.
+
+Speaker  510410:40
+But I'm surprised this hasn't been mentioned. But Eos, like, how many people here use EOS? So really small percent in MDS, about 40% have MDs, have Eos, like, if men in their business, I feel like a business of the size, where most of us are, that really helps have a streamlined process for just look it up. It's worth reading that book. I want to, we have a few minutes. I want to talk about, like, biggest failures, who has, like, some really big lessons that they've learned over the years. Jason,
+
+Speaker  519077:20
+throw it over to Jason back there.
+
+Speaker  520069:20
+I'll probably tie two together, but I think over the last four years, I've started leaning into more executive hires. So everybody probably starts with, you know, VAs or low cost employees, but to reach scale, I decided to start to really kind of go after the low six figure level, probably director level, where they can come in and they're smarter than me at their part of the business. So three of those hires went completely wrong. One guy I brought in for DD marketing, phenomenal dude, but I basically had no plan for forecasting, budgeting, cash flow. I said, if it works, spend more money on it, right? And we did that, and almost went bankrupt. I think we had a couple months where we lost over $100,000 for about three months in a row. So had to completely blow that up and and that taught me to put in financial constraints and things like that. And then I hired a integrator, so CEO, essentially, and very big resume, corporate, all the you know, logos that you know, made her sound impressive, but I understood there that, you know, someone who works in a corporate environment does not work in a, you know, Bootstrap, small, scrappy company, right? So she lasted about 60 days before I had to just, kind of, you know, pull the plug there. And then the last one that we brought in, I promise, we learned along the way, but the last one that we brought in had some question marks about her. Still sort of made the decision to bring her in, and learned very quickly. She was probably similar to the integrator that I hired. She was a great fit. Had some really good, big, big DTC brands she worked for, but what? Just didn't know Amazon, right? And we sort of made a bet on her learning Amazon, and she just came in day one and was like, that's, that's, you know, it was, it was, it was tough. So I think that the biggest thing that, if I had to roll, roll it all up, there's a book called The WHO hiring scorecard, the best book I've ever read, hiring and how to really vet people and start with scorecards and ideal outcomes. So we don't hire for duties. Now we hire for we need you to get us from here to here in the next 12 months, right? And so we interview from that perspective, and we kind of score these guys against that perspective. And that's helped us to kind of, you know, get rid of some of the noise and really get down to, can you do the job? How will you do the job? So by day one, where they walk on the door, we already know what the next 12 months looks like. So that's been fun.
+
+Speaker  556522:40
+Cool. Anyone want to add to that? Or
+
+Speaker  557482:40
+Simka, I'll let you close it off for us, because you're a wealth of knowledge. Here. I
+
+Speaker  559018:40
+have two mistakes that I keep making. One of them is not. Having people do a test project before we hire them. It's always like, well, this person, they have enough experience or whatever reason I now started there, literally, if it's someone in the US or someone that has a job, I'll spend a day on the weekend, and we'll work together. I'll do the homework and prepare data for them, or a research assignment or whatever it is, and work together with them as they do it every time I don't do that, it's a horrible idea. You have to test people before you hire them, just because of where we are. And the other one I forgot, so that's the other one. Wasn't that big. You.

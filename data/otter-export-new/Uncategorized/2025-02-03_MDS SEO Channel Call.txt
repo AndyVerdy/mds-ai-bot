@@ -1,0 +1,983 @@
+MDS SEO Channel Call
+Date: February 03, 2025
+
+Speaker  832:00
+Thanks anymore.
+
+Speaker  2480:00
+Hi for me, the hot topic is the recent title changes. I'm just wondering, like, how is everyone handling that? We are kind of like, wait and see approach right now, I wonder if you guys, like, start changing your titles, or, like, what's the strategy there
+
+Speaker  7333:20
+for our brand? We optimize already the titles last summer. So this update is not influencing in any shape or form, what they changed, because we went with a much broader type of title. So usually the structure that I'm using for the title is the main USP, which I always prefer. So we can increase the click through rate, plus the main long tail keyword that contains the main root keyword, and then you have some other product benefits or features, and then you can continue with the rest of the keywords. So what I mean here is to give you an example. Would be something like, if you have, I don't know, a supplement or a cosmetic product, and you need to make it stand out somehow. Considering that most of the purchases are coming from mobile, they can only see the top the first 80 to 100 characters, depending on what you're using in the beginning of the title. So that title needs to be optimized, basically for click through rate as well. It's not only your main image. So instead of searching, starting your title with vitamin d3, k2, 4x I would start it with, if that applies to it, all natural or all. Yeah, all natural ingredients, vitamin d3, k2, 4x and then you can just put non GMO made in us, and then continue with any other keywords you might have relevant. The reason I said vitamin d3, k2, 4x is because that would be maybe a long tail keyword that you want to decide to go after, but it's also containing the main root keyword, which in this case, probably is vitamin D or vitamin d3
+
+Speaker  41125:20
+so there's a trade off there between the conversion and SEO basically, like, are you able to not repeat any root keywords more than twice,
+
+Speaker  43802:40
+correct? Yeah. In most markets, you will have two to three maximum root keywords. There are just a few that I've seen, especially in the toys and games sector, or in the card games sector, they have a ton of root keywords. Ideally, if you are using variations, you can just have different titles for every single variation. As most of you probably know and like that, you can just target multiple root keywords. But if not, if you only have one product, then you can work in batches. I prefer to work in keyword batches. So I select one root keyword or two root keywords I'm trying to rank for those specific keywords and all the related long tails to that, optimize my listing for that. And then once I start ranking, and once I start generating sales from those. We can just move on to the second batch of root keywords and re optimize the listing and so on, and change some things back and forth on. It
+
+Speaker  62634:40
+does that make sense? Yeah,
+
+Speaker  63082:40
+yeah. But I mean starting categories, they're like, the same root keywords, you know, repeats a lot, so it's hard to have those like, you know, keyword phrases to rank for this, you know, keyword phrase and not repeat them in the title is going to be challenged
+
+Speaker  67264:00
+Correct? That's why, I mean, the algorithm still reads your listing. They are still ranking based on keywords, but it's also ranking based on the overall content that you have in your listing. That's what the Cosmo is doing in the back end. It's basically reading your full listing, and it's making the interpretation for relevancy for Rufus and how to put it in front of all of the those relevant Amazon customers. So even if you don't have all of those repeating keywords in the title, it's still going to index. It's still going to put you in front of it, as long as they understand exactly what your product is. There are. Cases, what I've seen that a more, a far more detailed type of title that does not contain that many keywords, it's it's ranking better only because it's much more explicit on what that product is and what are the exact features of that product. Does it make sense? That makes sense? Because once you have a certain product, Amazon knows how relevant that product is, if for all the other three root keywords, you don't need to repeat them, non stop and not stop once you have those everywhere in your listing, because they are not stopping you from repeating the keywords in the bullet in the back end description and so on, so you can easily repeat those there as many times as you want. Just try to focus as much as possible to have them the first two bullet points, because those are getting a little bit more ranking juice for indexing than the last three. And I think that's mostly coming from the amount of text that people are putting in their bullet points. I'm still seeing a ton of very ton of listings with this much of a chunk of a text in every single bullet point. The bullet points only get indexed up to 1000 characters in total. So having 500 characters in the first bullet point and 500 in the second one and so on, it's it's completely irrelevant. Plus no one will ever read it ever. So I would highly recommend going for shorter type, for shorter bullet points, between 150 200 characters maximum. You don't need that much unless it's a very, very technical product that requires a ton of stuff. But if you cannot have that in all of your images and in the a plus premium, then you for sure you have a problem if you need to write all of that, those things in the in the bullet point,
+
+Speaker  117312:00
+Alex, but so what's, what's your approach? Like you're targeting a route, right? This route has, let's say, 25 different keywords from really High search volume to really low. How do you go about? Obviously, you put some of those keywords in your first two bullet points. Which ones do you pick to start off with? What do you what do you do?
+
+Speaker  122901:20
+Working batches. Select seven keywords, eight keywords, initially, focus on those. Rewrite your title based on those and the first two bullet points. Make sure you are containing those two bullet points and the rest. Just fill them everywhere else across the listing, and focus on those initially. And then you just start switching between them once you start ranking, and once you start converting from those, you will see ranking on the others that you didn't manage to put only because it's dragging it along with the root keyword as well. So everything that's ranking on the route. It's going to rank on the on the long tails as well. It might not be just as fast, but still it's it's still working. So just working batches.
+
+Speaker  137189:20
+By batches, you mean seven to eight, seven to eight at a time. I'm sorry, incorporated by batches, you mean seven to eight. You incorporate seven to eight in your listing at a time, and then it
+
+Speaker  139450:40
+depends on how long those keywords are, because if you have keywords with, I don't know, five different words in them, and they are like this big you can work only five keyword batches, but in most cases, you don't have that. Usually you can fit at least seven to eight keywords in a batch with no problems. Even more depends on the market. I know you're a specific example. You are one of the few that have a ton of root keywords. Unfortunately,
+
+Speaker  148992:00
+when you like, try to attack those seven or eight keywords. Do you use same for back end or maybe images, or like the a plus type as well?
+
+Speaker  151909:20
+Are you talking about the alt text, the a plus premium? Yeah, alt
+
+Speaker  152917:20
+text, a plus type, and then back end search term in
+
+Speaker  154021:20
+the search terms, I usually only put whatever is left tends not to repeat. So the search terms usually I started with a main long tail keyword that also contains the main root keyword that I'm going after, even if I'm repeating it from the title, just to make sure that so let's say. I have a long tail keyword that I started in the title in the search terms, I will start with another long tail keyword, but from the same root, and then I just don't repeat anything that's there. From what I've seen in the last 12 months, the search terms are a huge hit and miss,
+
+Speaker  164864:00
+huge in terms of indexation.
+
+Speaker  166000:00
+So yeah, I don't know what to tell you with the search terms,
+
+Speaker  167413:20
+hit or miss means, what can you explain that? It
+
+Speaker  168165:20
+means that normally, I haven't seen them index. Okay, that's interesting, and
+
+Speaker  170021:20
+I've seen it in several categories. I don't know why, but it could be something that's blocking that field the moment you start building your listing. I don't know, but it's a huge hit and miss right now in rankings, with the search start, the most amount of keywords that are getting indexed and ranked for our title, and the first two bullet points from what I've seen. So if you can concentrate everything there, you should be fine.
+
+Speaker  179136:00
+So quick question there, Alex as a follow up. So we've also seen randomly some like very relevant keywords being de indexed very randomly. What's the first thing you do when you see the index, like editing the bullet points right away, or change the title? If
+
+Speaker  183493:20
+you get the index right, you need to check everything in the back end. For sure, you must have an issue with the overall growth path, anything from product display, the product type, sorry, the GL, the display on website category. Something changed somewhere in the back end, and usually Amazon is not showing you that. If you guys want, want to, we can go over an example, and I can show you what I mean. But I think we did that in the last call as well. But I know more people are still having issues with that, only because they had an error in the flat file upload process, and that was messing up
+
+Speaker  196832:00
+the Browse pad
+
+Speaker  197488:00
+in every single category.
+
+Speaker  198213:20
+Can I clarify something real quick? Yes. So I like this approach of like the batches and the root because I have one specific launch that is struggling to kind of break out of just 20 to 40 range on a lot of the niche keywords, even though, like, we're the sixth best seller in the in that niche for months. So I think that this might help. But where do you repeat this batch of eight? Are you so the generic back end keywords, you'd probably go after all the rest of, like, the relevant things that you want to be targeting, right? Because you said everything that that's left. But then on your alt text, am I wanting to retarget these same root batch of like eight keywords there as well, yes,
+
+Speaker  209008:00
+but the alt text is not from what I've seen. It's not getting a ton of ranking juice in any shape or form, so it still counts a little bit for the algorithm. But the alt text, it's not going to get you ranking on keywords, you're better off just those are. I think the alt text is better for the overall visibility, for the customers, for the relevancy, but it's not going to give you that extra ranking juice. If I have it in the alt text, I'm going to rank straight into page one because I have it there. It's not that ranking. It's not coming from
+
+Speaker  220026:40
+okay? And then the other thing would be, I guess the product description, I'm using premium A plus content, which would be another question, premium versus regular A plus content. But should I stuff these in my product description as well? Right now, I just keyword stuff because you don't see it. So I just like
+
+Speaker  224768:00
+the a plus is the a plus, the standard A plus, and the a plus premium is not being indexed. You can stuff them in the old description that you have in seller center, in the back end. So
+
+Speaker  228320:00
+use the same eight there, and then everything else that's left. Just put that in
+
+Speaker  229360:00
+anymore. Just stuff them there. What I do for that, for that field, for that description, I usually list it in the AI in chat, GBT, and I asked him to write a description for that product using all of those, I don't know, 20 keywords in the exact match in that description, and you need to check it, because usually it's going to if you give him 20, is going to write the description only 15. So you need to make sure you check it. I was putting them as keywords. I was using that as a keyword. Field in the description before, and I got suppressed before, so they need to see it, just in case someone asked or someone verifies, they need to see that it's an actual description. So just mask it with an actual description in
+
+Speaker  244384:00
+the back end. Yeah, yeah, the yeah in Seller Central, like the back end that you see, so are you and then going back, sorry, going back real quick, on regular A plus content, you're saying that crawlable text is not indexing. Is that what you were saying? Seeing
+
+Speaker  248261:20
+indexation on that, and I haven't, well, I haven't used regular A plus content in quite some time. I've been using premium every single time.
+
+Speaker  250261:20
+Yeah, I've been using premium for a while. I was wondering if it would help. I was going to think. I was thinking about testing it, but maybe it's not worth my time.
+
+Speaker  252170:40
+The last time I worked on a plus content, they didn't seem to rank whatever is on the front end. Okay, they're not indexing that. That's for for conversions. So that's why we started using a premium, because a premium converts just a little bit higher than the standards a content, a plus content. Okay, thanks
+
+Speaker  259072:00
+all your math on the bullet points, you said they index up to 1000 but you only recommended the first two bullet points being, you know, 150, 200 as opposed to getting the full index of 1000 even on the first two bullets. Yeah,
+
+Speaker  262997:20
+the most amount of characters and keywords are getting indexed from the first two bullets, from all the tests that we've done over the years. But
+
+Speaker  266181:20
+you would not recommend taking it to 500 it's too big
+
+Speaker  267274:40
+to get the full 1000 no
+
+Speaker  267610:40
+one read it. So when you look at the product page on your mobile phone, you will see that the bullet points are buried somewhere in the bottom of the picture. So Amazon knows that. They know that no one is going to read those bullet points. So the bullet points are right now just for indexing and relevancy purposes, nothing else. It's not for the customer. It's for you. So writing it with 500 characters is just going to look a little bit strange on on desktop. Basically, that's it. I mean, I would prefer a product that has five equal bullet points so are somewhat equal to show up on the right next to the images, and something that looks nice and organized and well, I'm a little bit OCD, so maybe that's
+
+Speaker  282645:20
+but I haven't seen any kind of benefits of
+
+Speaker  283786:40
+putting them 500 500 and then have 100 100 or whatever it's. It makes no sense. And I don't think you have that many keywords. In most cases, most markets, they don't have more than 12 to 15 keywords maximum that you can go after, and that includes the long tails. Again. The exception to this is toys and games, card games and so on, because those are also very seasonal.
+
+Speaker  293168:00
+Would you only say them once, or would you put the root keyword more than once in the first two
+
+Speaker  294789:20
+you can put the root keyword several times with no issues. Why not? You're going after the exact match. So the algorithm works better. If you have exact match, they you can easily see exactly your SEO core in The Product opportunity explorer.
+
+Speaker  300762:40
+Just a second.
+
+Speaker  303258:40
+Let's say i
+
+Speaker  307376:00
+Where is the window?
+
+Speaker  309472:00
+So
+
+Speaker  312949:20
+museum garments. I
+
+Speaker  315722:40
+In most cases, whatever you have in this list, it's all that you need for this specific product. Now, if you have different completely different routes, you will have to do that for every single route you. Keyword. But in most cases, most products on Amazon only have, like one or two large roots. And all all of your SEO core lays here, and you will see that a ton of them are actually branded keywords, so you can't use them. So actually, that list is much smaller. For example, this one, it's nature's made. What else
+
+Speaker  327893:20
+you know? Again, nature made.
+
+Speaker  329077:20
+Then you have some Spanish ones. Again, you know, mag citrate. I don't know what's this.
+
+Speaker  331130:40
+Oh, it's mute.
+
+Speaker  331786:40
+Alex, quick question for you is with a name, like natural something, whatever it was, nature made, so could you put in the description, or somewhere in the bullets, like nature made in the USA, or something like that, to try to index? Or it's too dangerous, right? Too risky, but too
+
+Speaker  336688:00
+dangerous. Put it in the Q and
+
+Speaker  337568:00
+A in the Q, the customers are asking those questions. The customers are answering those questions. You can answer them as well, but you can just put it, is this more open than nature made magnesium gummies, and that's it, and you will get the ranking benefits from as well. And I would highly advise you to do that on every single major competitor that you guys have just put it in the Finder, exact match keyword phrases and put them in the Q and A's
+
+Speaker  347530:40
+like, what do you do with the Spanish terms? Sorry, what do you do with the Spanish terms? Do you put the manual?
+
+Speaker  349562:40
+You can put the Spanish terms either in the search terms or in the back end description. You can't have it on the front end because it's, it's going to look strange in an English listing, and have magnesium gummies, and then Sitra to then magnesium Alex,
+
+Speaker  355008:00
+have you tried adding questions to your Q and A lately? I tried recently, and it just basically sent me a direct message, as opposed to putting a question on the actual listing. I don't know if it worked for a Nixon or not, but it definitely did not land on the listing itself.
+
+Speaker  359349:20
+I haven't tried it in, I think one month and a half,
+
+Speaker  360805:20
+if they shut it off,
+
+Speaker  361589:20
+we have a big problem. I haven't tried it. Yeah,
+
+Speaker  362661:20
+I tried it properly within the last month, and yeah, it would not. It would just send a message to the seller, which was me, okay, other than asking a question within the listing, I responded. Nothing showed up.
+
+Speaker  366938:40
+Yeah, I responded and nothing showed up. Yeah.
+
+Speaker  368330:40
+Interesting. Maybe they're doing some updates. I hope they didn't shut it down, because the section is still there on the product page. See,
+
+Speaker  371696:00
+I don't know how relevant. I no
+
+Speaker  372144:00
+longer see the the Q, a on any of our listings anymore. You have to, like, there's a Rufus section, and then if you type in, you know, one of the keywords, the questions you've asked before, then that might come up. Yeah,
+
+Speaker  375717:20
+that's happening for the past, I think, seven months, but those questions are still there because he's basically reading all the questions that customers are asking, all the answers, and he's trying to give you the correct answer based on all the database that they have and responses from the customers. So we are talking about this section here.
+
+Speaker  381978:40
+Yeah, but how do you add a question here? For example, on this listing,
+
+Speaker  383370:40
+I would have to look on mobile. Let's see. Let me open something on mobile and see if this works. It would be very strange if they removed it.
+
+Speaker  394309:20
+So if you ask it several times, you will get a prompt with post your question. So I asked it three times on a cleaning cloth for a car, and then it came with a prompt you don't see what you're looking for, show related customer. Reviews and Q and A's, you have a drop down, and underneath you have a button with post your question. The moment you click post your question, you can write the question and post so it's still there. Did I lose you guys? Or
+
+Speaker  405200:00
+are you fine? Yeah, I believe that's what I did. And then what it did is just send me a seller communication.
+
+Speaker  408101:20
+It says question received. You'll be notified of answers of your question by email. The question will be posted on the site under public profile name, and that's my name.
+
+Speaker  411786:40
+That is, we're still working there. Yeah,
+
+Speaker  412138:40
+it's still working, but you need to go through the roof interface. So basically you just need to eat, you just need to ask him two or three related things, and then it's going to prompt you to that. Basically, AI knows that you are trying to find out more things and something specific, he probably doesn't want to give you the answer, or he doesn't know the answer, and he's just asking you to post so it can be overridden, overridden.
+
+Speaker  420640:00
+And for sure, they are still giving it,
+
+Speaker  421552:00
+I don't think they, they shut that down.
+
+Speaker  422805:20
+So could you for a
+
+Speaker  423621:20
+product like, let's say you're launching a new product, right? Using this strategy of of, you know, taking a batch of for a specific route, for your top high volume route keyword, right? I Right. Sorry, you forgot my question. I just forgot my question for a second. Sorry, I'll come back to it. I was writing notes and then totally forgot my question. Sorry about that. I
+
+Speaker  433200:00
+Oh, sorry, I remembered. So how would How would you like? What would you pair this with, on the PPC side for, for the same strategy, are you going to also like, focus heavily, like most of your spend on this, for this specific asin, on this same batch of eight keywords?
+
+Speaker  438325:20
+Yes, so I would focus all of my efforts to that specific batch of keywords. Initially,
+
+Speaker  440549:20
+like 80% of your spend with sponsored brand videos, everything. Basically,
+
+Speaker  441717:20
+you need to push everything that you have for those initially, they will start getting traction. But again, that strategy, it's pretty much irrelevant if you're not going to do your homework before. And that means you have a very good click through rate, you have a very good optimized listing, and you have a very good conversion. Because if you are going to start spending money on a listing that does not convert or
+
+Speaker  450592:00
+it makes no sense,
+
+Speaker  451296:00
+no matter how well it is optimized in terms of SEO.
+
+Speaker  452288:00
+Alex, I actually had a question about click through rate and conversion rate, because we can obviously see the average for each keyword in sqp. But I'm just wondering, how do you determine how much you need to beat that average by in order to rank in top three? For example, for click through rate and conversion rate. Does that does that question make sense?
+
+Speaker  459962:40
+Yes, I think the best person to ask something like this, I think it's Anthony, because he crapped that that code, usually you need to be at least 2% higher than the average just like ranking on the first
+
+Speaker  464672:00
+2% raw like, for example, if the average is 22 you want to be at 24 or are we talking Okay, got it
+
+Speaker  466688:00
+two, you can rank on the main page with the but 22 is not going to get you in most cases, if it's a very aggressive niche, it's not going to get you above the fold
+
+Speaker  469765:20
+understood, Yeah,
+
+Speaker  470517:20
+about that. It's going to start. You're going to start climbing up, because the people on top, they don't have 22 they have 2425 26 you need to convert better than they are.
+
+Speaker  473621:20
+Got it. And I guess, follow up question, let's say you're testing your AB testing for click through rate and conversion rate for click through rate. In what order would you start AB testing? I imagine image title, event, price or or in terms of importance, I guess in weight, for improving click through rate,
+
+Speaker  479210:40
+in weight the images, by far than. Most important, from what I've seen, the image counts for, I would say close to 80%
+
+Speaker  481888:00
+got it. And then title and price. How would you
+
+Speaker  482656:00
+rank those kind of promotion you might have that shows up in the search results? Now, if you are priced at $100 and your market is a 20. We have a problem either way. But if you are priced similar, or just a little bit above the market, then you should only focus on anything related to image and the first 100 characters of the text, which is this, probably, I think, yeah, that's and then
+
+Speaker  491738:40
+for for conversion rate, same question
+
+Speaker  492346:40
+for conversion rates is mainly the main images, any kind of coupons you might have here, any kind of upsells you might have here on The images, it's mostly the first five to six images. No one can see past image number six on mobile, or I think even image number five on mobile. And the a plus premium is just basically a bonus, because usually when a customer clicks on your product, they are going to go down to read the reviews. When they go down to read the reviews, they will see the a plus premium as well, which needs to be in the same style and continue the same style that you guys have in your main images. I've seen so many listings lately where they did the a plus premium, I don't know, six months or one year after they did their main images, so now the style is completely different, so it's a breaking point between them. They need to be they need to follow the same pattern. They need to flow, if that makes sense.
+
+Speaker  510490:40
+Yeah, it does. So kind of like telling a story, following from the image stack down through the plus content. Yeah, makes sense. And
+
+Speaker  512544:00
+every single piece of your product page, because this is not a DTC website. People, from what I've seen, people don't care that much about your brand here. They just, they are just looking for the best deal, for the best possible product that resolves all of their products, all of their problems, sorry, to get it at the best price possible, that's it. So every single piece of your product page needs to sell them something or offer them something. That's why I'm not
+
+Speaker  521637:20
+an advocate for
+
+Speaker  522453:20
+brand stories that tell
+
+Speaker  524218:40
+I don't know things about your brand I really don't care about that. Just give me an offer. Just upsell me on all the other products that you have in the catalog. Give me a discount, whatever you can. Just keep me there and connected to the page. Allow me to buy something else from you only because I know I'm getting 15% off. So if I'm buying I don't know a body wash for my car for sure. I need a cloth or a clay bar or a ceramic coating or something. And if I like the brand, I know the brand, I would be more inclined to buy something like that. For example, I bought, I think, like, five different products from this brand, and they didn't upsell me on anything I own, because I I know for sure they are very good and used by the professions.
+
+Speaker  537157:20
+You like them better than atoms and Chemical Brothers. Uh,
+
+Speaker  538245:20
+yes, these guys are being used by the highly professional detailers and so. And usually they have ceramic coating going up to 700 bucks for a very small bottle. Wow, yeah. And usually there are only two or three major brands. It's this one and there's
+
+Speaker  546160:00
+But anyway, this is not a
+
+Speaker  546544:00
+call for, right? Yeah, the car detailing.
+
+Speaker  547920:00
+Whenever you guys want. I'm I'm in,
+
+Speaker  548895:59
+yeah, oh, I love cars. I'm huge car note, so I'm in for a car chat.
+
+Speaker  550677:20
+Alex, I have a question that I asked also in two calls ago. I don't know if it's doable, but can you show us how you use the sqp for Title optimization, like with a real example, I
+
+Speaker  553845:20
+wouldn't need a product for that.
+
+Speaker  554837:20
+I'm using jungle days
+
+Speaker  555594:40
+in general. I know the theory, but I think the beauty is to see that in action, because I'm sure we are going to have questions. If it's not doable in this call, we can do it like in the next call. But I really wanted to see really, how do you take the data from the sqp, and how do you prioritize? Highest keywords in the title, and how does that drive your strategy?
+
+Speaker  561328:00
+Let me see if I can show something from you. It
+
+Speaker  564224:00
+would have been easier before,
+
+Speaker  565344:00
+when we could have uploaded
+
+Speaker  566293:20
+the files directly for each product in jungle, a straw, right now, it's only working with the connected accounts.
+
+Speaker  569637:20
+Let me see if I have Something that we could share. I
+
+Speaker  577296:00
+but basically you just need to find the keywords where you have you have a higher click through rate and a higher conversion rate than the market, and just optimize for those and push for those. If you find those keywords and you're not actually ranked ranked well, you are ranked in the second page or the third page for those keywords, and most of your sales for those keywords are coming from ads. That means there's something missing in the relevancy, in your SEO, in the back end or in the front end of your listing. So the moment you take that those keywords and you add them to your listing in the front end, maybe you will rewrite your title a little a little bit to show those to the algorithm. Maybe you are going to add them to the first two bullet points, or all the bullet points and so on. You should start seeing that ranking jumping. I don't have an example on hand that I can show right now. Oh,
+
+Speaker  594384:00
+yeah, we can do it like next call. But So just to reiterate what you said, Alex, so you say, check the sqp if you have keywords where your CTR and CVR are higher than the markets, put those in the title, bring traffic to them, let's say through PPC, and then you should see the ranking spike. They get it right
+
+Speaker  599365:20
+if you don't rank for them properly. So let's say you have those keywords are on the second page, or are on the bottom of the first page, but you know you are above the market. Something is missing from the relevancy on those keywords, and that's why it's usually not jumping. But also make sure you are checking your brows path and everything, because that might be a cause as well. Okay, so listings need to be perfectly aligned in the algorithm in order for it to find you relevant, to rank you properly. Okay, thanks. You're welcome. And I think Sam is here, Sam, you're here.
+
+Speaker  611008:00
+Me, Sam, me,
+
+Speaker  611280:00
+yes, Sam, you, yeah.
+
+Speaker  612672:00
+He had an issue where he was shadow banned on one of his products for using a specific keyword in back end, right?
+
+Speaker  615269:20
+Yeah. I actually, I spoke to Alex, and he told me to ask the if you guys have, like, the new customer service, I don't know, is it called the specialist? Yeah, and they were surprisingly very helpful. First time that they were actually helpful on Amazon customer service, and I had a keyword that was like best. The keyword actually was like a phrase in search term, there was like best for and something like, like, digestive issues, whatever. And the keyword best was, apparently, you know, it got me shadow band. So ranking was actually very, very high to, like, organic. Ranking was like, very, very low. I was like, on page five, and then I removed it, and now it's like, slowly going up, but now I'm starting to rank on page one for a few keywords. It's slow, though, like it's not instant it got removed on like the 10th of January, and still, right now, it's still going up.
+
+Speaker  632613:20
+I think that's the main reason for that is the negative history that you have on the list. So it needs to rewrite that negative history bit by bit. That's why you see it moving slow.
+
+Speaker  636138:40
+Yeah, I'm just like, very aggressive on PPC now, so I'm trying to kind of like, rewrite that history. But I know it just takes time. It's never like, it's not that it jumps back up and that's it.
+
+Speaker  639258:40
+And Sam, where was the keyword? Asked the it was
+
+Speaker  640400:00
+in search terms, so it was part of, like a phrase in a search term. So I know that you cannot say like best seller, for example, that I knew I would never have brought that. But I think someone on my team, when they did this thing, they just did like best for and then a certain like use case, and they thought that, you know, and the algorithm just picked up the best and and just slapped my hand,
+
+Speaker  647077:20
+even though it was in the back end right? Yeah, back
+
+Speaker  647829:20
+end sections.
+
+Speaker  649093:20
+Yeah, that's kind of crazy, because we have a an ace in that we I'm looking right now, and we use best in there for, like, I think, five different times in the product description, and we've had trouble ranking it. So I'm wondering if that's the same exact issue. I would
+
+Speaker  653034:40
+I would actually suggest you, you called the specialist. Hopefully you have it. It's a beta, so not everyone has it. If you have it, just call and ask. Say, just, you know, I have indexing problem. That's what I did. Alex, suggest me to do that. I have indexing problems. What can it be? And the the woman that was on the phone, should you say, Oh, it's just like a keyword that is, you know, it's the best in search terms. So they will tell you. If they don't tell you, just ask, you know,
+
+Speaker  660128:00
+and where can we find the specialist button
+
+Speaker  660848:00
+or whatever? I I'm sure you
+
+Speaker  662309:20
+find that more successful than SAS core or different.
+
+Speaker  664405:20
+I've had SAS core for like, two or three months, and I hated it. So, yeah, I think they're better, but I don't know that's my experience. Yeah,
+
+Speaker  667194:40
+they're much better. They basically took the best of the best. So when you click, get help and resources, you should have it
+
+Speaker  670250:40
+on today. Possible.
+
+Speaker  671658:40
+This, this blue
+
+Speaker  672720:00
+segment. This is the specialist.
+
+Speaker  674000:00
+So they what they did. They took the the best catalog guys and the best captive team guys, where they are together now, either way, in the in the department, and they formed a special department with the best of the best. But they are not offering this to every single seller. You cannot appear. You cannot, sorry, you cannot apply to join. It just happens. I don't know exactly the metrics. I know I spoke with, I can't remember her name. It's the head of SAS core and over business. And she said that you cannot apply. You need to be selected. There are no metrics. They are not giving us any kind of information, and they are not going to roll it out to every single other cell. But what you do again? What?
+
+Speaker  690160:00
+What? What's the breadcrumb? Sorry, what did you do to get there again? What's the breadcrumb?
+
+Speaker  692352:00
+You just go on to help, like you are opening a case, and you should have this section here, the blue one, listing issues. Connect to a specialist and solve it faster.
+
+Speaker  695925:20
+If you have this, you are very lucky.
+
+Speaker  697221:20
+They actually show you their pictures, their names, how much experience they have. You can only contact them during the US work hours. Most of them are US based, or, I think Costa Rica and Puerto Rico, if I'm not mistaken, mistaken. So you are not going to find from
+
+Speaker  703242:40
+from India or Pakistan.
+
+Speaker  704282:40
+And they are very, very good on resolving any catalog, catalog issues you might have, very good, even you can only contact them by chat or by phone.
+
+Speaker  708608:00
+Bingo. Sorry, I said, bingo, I see it
+
+Speaker  709605:20
+No, great.
+
+Speaker  710453:20
+They are just the same. Even if you contact them through chat, I resolve like 20 listings at a time in in the chat, and they fix it on the spot, which is insane, because usually we are not used to something like that from Amazon.
+
+Speaker  715514:40
+Yeah, I don't see it in mine, but that's extremely frustrating that they're so selective and secretive about it. That's wild. I don't
+
+Speaker  717738:40
+know why. I mean, when they have the next event in Seattle, maybe, whoever is going, maybe that you can, you can. Ask them, or maybe they are going to present it on stage and explain how you are being selected for something like this. I don't know. I have it on every single account, and it's been great. We used it on an account that we didn't have this, and they've managed to help as well. So we asked them about ASINs on a different account, not on this one, and it worked.
+
+Speaker  728021:20
+That's good to know. Actually, I have it only on one account out of three, and they were super. I was actually impressed for the first time with apps and customer service. Me too.
+
+Speaker  731770:40
+So yeah, use them every single time you have something. Stop calling catalog or anything. Just use them if you have them. For the first time in 11 years, I was satisfied with
+
+Speaker  735690:40
+Amazon support. And if you do not have that option, what's the step you will take?
+
+Speaker  737696:00
+You need to contact catalog team. Catalog team. You can contact them through. The only way I know it's still possible to get in contact directly with them is by selecting title, description, bullet points. You need to select product description. It's the only one that it's not going to prompt the attribute. So for example, if you select title, and let's say we put one of the agents, I think here today, yeah, you need a skew, and then it's going to ask you to write the new title that you want to change, so in most cases, not going to connect you with them. But if you select the script, the same happens on the bullet points, but if you select description,
+
+Speaker  751738:40
+I'm sorry, my computer is super slow, and I'm doing some calls today.
+
+Speaker  754304:00
+If you select description on description, you can actually write whatever you need. So let's say we select the Asin.
+
+Speaker  757952:00
+They changed it
+
+Speaker  758837:20
+two days ago. I did this.
+
+Speaker  761157:20
+Oh, well, scratch that. It's not working. I correct.
+
+Speaker  763898:40
+We need to find another one.
+
+Speaker  764842:40
+Two days ago, it was working.
+
+Speaker  765754:40
+So basically it was prompting you on the issue you were just writing the case. Let's say my GL is not correct, or my category is not correct, I need to change it from this to this on the station, and then it will prompt you with phone call, email or chat your you were you would always use a phone call. In most cases, catalog team answers directly the call, unless they have a very big waiting time if normal, regular Seller Support answers, you can just easily ask them, Are you from the catalog team? And they will normally say, Why? Because we can help you as well. And you can just tell them, It's a GL issue or a product display type issue, or display on website issue, then, because that goes directly over their heads, they are going to connect you directly to Kat. So you need to give them something that they don't understand in order for them to connect you.
+
+Speaker  782842:40
+But I need to find another way to contact
+
+Speaker  784266:40
+them. Alex Jake, just posted in the chat that it works with brand registry. Jake, can you elaborate? What do you mean?
+
+Speaker  787888:00
+Hey, can you hear me?
+
+Speaker  788464:00
+Yes. So yeah, I just put in an asin, and then below it says contact and associate, or my issue is resolved. So I click contact and associate, and then I'm writing in it to display on the Amazon website issue. And then it says Review and Submit. So will that then prompt me for the chat or call?
+
+Speaker  794389:20
+Is this in brand registry?
+
+Speaker  795269:20
+The asin that I'm in is in our brand registry, yeah, and then it says phone or chat, so I am getting that, that flow that you're talking about, because it says you are the registered brand owner for this Asin.
+
+Speaker  799594:40
+You wait, wait, wait. I'm trying to understand you open the case, yes,
+
+Speaker  800592:00
+title, description, bullets, okay. And then product description, yeah. And then enter an asin for which you have brand registry, of course.
+
+Speaker  803616:00
+And I
+
+Speaker  806197:20
+let's put a live one.
+
+Speaker  811013:20
+Contact an associate, yeah. Basically, I think I selected an asin that's not included in, yeah,
+
+Speaker  812378:40
+I think that's the hack, though, maybe. And then, and then I've just put it's a display on the Amazon website issue, and then it has me like, phone or chat, and I can phone or chat. Now you're saying that'll maybe go directly to a catalog. Person,
+
+Speaker  816304:00
+yes, so, so, yeah, exactly. So when you you can put exactly the catalog or whatever you need to them to do, review and submit, fix the product page, phone, less than one minute you just put in your number, call me now they are going to call you if they are calling you from overseas, and you will sense it in their accent. Just ask them if they are catalog team. If not, ask them to transfer you to the catalog team because you have a GL product issue and because they don't know what's that, they are just going to transfer you to Kat.
+
+Speaker  826965:20
+Great. Oh, good hack, thanks. You're welcome.
+
+Speaker  827594:40
+Yeah, it's it didn't work before because I put an asin that was not on this account. But yeah, this is the only way I found where you can still connect with catalog.
+
+Speaker  832458:40
+Maybe there are others, but I don't think so. I haven't seen one.
+
+Speaker  834896:00
+Going to be with AI. So
+
+Speaker  835712:00
+back to SEO. Quick question, how do you feel deals do we're running a top deal today? Um, do you think the algorithm adjusts accordingly whether it's a top deal, best deal, Lightning Deal, that they're showing it to sell it, to move it more? Do you think it affects the algorithm and they move up in ranking or no?
+
+Speaker  840533:20
+Top deals are getting different placements? Then best deals, Lightning Deals are not as effective anymore as they were for me, best deals are working very well. Top deals are working tremendously well. So the difference between on a bus deal, I'm getting five to 6x than a normal sale. Day of sales on top deals, I got up to 12.
+
+Speaker  847594:40
+But what about rankings? Forget the revenue increase, obviously, I'm talking about just ranking position. Is that self fulfilling because they are moving you up and kind of disregarding where, where the day before you were, and, in theory, forgetting the increased BSR or traffic, you know, a week later, will you drop back down to where you are?
+
+Speaker  853424:00
+They will move you up because of that increased conversion. But then you are, we are going to drop if you are not going to maintain the same amount of conversion there. So either find a hack to, and I think Mo has it, to run those type of deals as fast as possible and as frequent as possible, or you're just going to go up and down, up and down for something every single time you run them if you do not convert at the same pace. But, yes,
+
+Speaker  861818:40
+but it's based on the data. It's based on the velocity and the conversion, not that they move you because there's a deal, they move you higher position and self fulfilling, you sell more so you stay there for a few days until you drop. But they're waiting for the data to come in. I'm asking if they jump you up ahead of the line, because there's a top deal without the data yet. No, okay, that's my question.
+
+Speaker  868320:00
+For those details, they have different placements, yes, but they are not going to place you hiring organic rankings only because the deal is going to start or the deal just started today. No, yeah, those are two different machines. Are there are doing that? Okay, so the results usually, top deals are for a few days, right? You don't have it for only one day
+
+Speaker  875130:40
+today. It's one day only. Okay,
+
+Speaker  876490:40
+you should see some effects after two or three days. You should see it ranking better if you perform well on it.
+
+Speaker  878394:40
+Yeah, they will always compare
+
+Speaker  879194:40
+all of your listings to. Or your competitors listings, non stop, who has the
+
+Speaker  880928:00
+best seller badge? So we just like to juice it. Yeah, the
+
+Speaker  882000:00
+best seller badge is going to help you with the conversion either way. So if you can keep the that best seller badge for as long as possible, it's a huge conversion driver and a click through rate driver as well. Yeah.
+
+Speaker  887397:20
+Anything else. I
+
+Speaker  888533:20
+posted a question in the in the chat,
+
+Speaker  889397:20
+canonical keywords, do they do they rank? They say, let's say you get a sale within your storefront, do they rank at all? Do they do anything
+
+Speaker  892106:40
+canonical words through canonical links?
+
+Speaker  892858:40
+Yeah, the canonical URL, the keywords that you add in your URL,
+
+Speaker  894698:40
+Amazon is rewarding any kind of outside traffic you're sending to the to the platform. If you're sending traffic from Google. They already communicate with Google so they know exactly what keywords to reward you on when you're sending that traffic, but you are not going to see the same effect that you are seeing on Super URLs with targeted, super targeted keywords when you are using a super URL specifically for that for engine. But yes, they reward you, and even if they didn't convert on your listing and they converted on someone else's listing, as long as it's not a direct competitor. But let's say you send the traffic to your car. Cleaning product, but they purchased completely different product. I don't know, a clay bar. They didn't buy it from you. They bought a clay bar from someone else. You are still going to get some ranking benefit, because that customer made a sale on the platform.
+
+Speaker  912688:00
+Alex, what about URLs in general? The actual URL, I'm looking at my URL, and it doesn't have my root keyword in it. Amazon created it, and it says words that are meaningless to me and to the customer, and there's no way to change that.
+
+Speaker  916496:00
+You can. You can still use super URLs if you want to, but they're completely against the QL, so I highly recommend, yeah,
+
+Speaker  918389:20
+when I've submitted a ticket, I've had my URLs changed, you just submit a ticket and request, like, what? Keywords, what, what?
+
+Speaker  920965:20
+Yeah, be careful with that.
+
+Speaker  922149:20
+They've approved it every time you are going to sorry, they've approved
+
+Speaker  923050:40
+it five times so far. Yeah.
+
+Speaker  923482:40
+But Alex's point is it 404, redirect. Like, what you could lose all the outside links, the juice, the exactly. I wouldn't. I would if it ain't broke. I'm not trying to URL. I mean, maybe for new product launch, if you launch it don't like it immediately, that would make sense. But mine's long standing, you know, I'm one for you know, been down to 14 in health and household. I don't want to touch it. Yeah,
+
+Speaker  930592:00
+I've seen that happen in the group to someone. They change their canonical and everything disappeared, all their backlinks on Google, everything, and they could never bring it back to the level where it was before. Well, I played
+
+Speaker  934581:20
+Pickleball for two and a half hours this morning, so let's do a reset with a good Danker drop. Frankie's not on the call, but the idea of, let's say you're launching a new product and you're willing to give up and start over, you get the URL. Does it help? Would it help if the root keyword was in the URL? I mean, I feel like the answer is probably yes. It
+
+Speaker  940922:40
+should. Yes, it should. Would
+
+Speaker  941850:40
+you recommend that you you don't do that?
+
+Speaker  943162:40
+I mean, the last time I think I did something like that was probably four or five years when a different algorithm and different ranking mechanism. I mean, pretty much the ranking mechanism doesn't change. The giveaways are still working fine for whoever wants to use them. I stopped using them a long time ago.
+
+Speaker  948288:00
+Go find me. I mean to us compliant or non compliant? What TOS compliant, like, go find me or the or the illegal giveaways, not inside TOS
+
+Speaker  951061:20
+compliant. I mean, yeah, so any giveaways that you're doing, they're not giveaway. They're not TOS compliant. It's still ranking manipulation, and now they have the wording in the TOS to give you exactly that specific
+
+Speaker  955386:40
+third I found some success in some Google AdWords, whether pixel me or just Google AdWords. What you know, instead of buying clicks, buying add to carts and buying and giving away product, do that on Google with your root keywords, your long tail keywords, and you're you're driving traffic, Like Alex said to Amazon. On, it's costing you a little more, but it's absolutely 100% to us compliant. In fact, they love it. So I think a lot of people don't want to spend money on Google until the listings got a number of reviews. But the reality is, it's a great way to launch and Spike and legally, you know, row in the same direction as Amazon and drive traffic to those keywords. So pixel means great from carbon six, and there's others, but, you know, turn up the PPC. And, you know, this calls about SEO, and ultimately it helps the SEO for those specific keywords, cuz it's telling Amazon it's related.
+
+Speaker  969173:20
+It's cheaper than Amazon PPC as well. So, yeah, we're going to get the reward either way. Even if they convert or they don't convert with your page, it doesn't matter. It's just outside traffic that's coming to the platform, and they love you for that. Yeah. I mean, look at all the new Tiktok products that are being launched on Tiktok. They are just going straight to top of the page in every single market the moment they are unleashing that it's just outside traffic for them, because they know that those customers, they have the metrics, probably a large percentage of those customers are still going to buy something from the platform, but you are getting the Ranking benefit out of it.
+
+Speaker  981664:00
+So yes, drive outside traffic as much as you can.
+
+Speaker  982917:20
+That's why big brands are doing so well onto Amazon, because they have that amount of overflow traffic
+
+Speaker  985269:20
+coming down south. That was my question before. Drive outside traffic. Great. What does that mean? Straight to your listing. Doesn't that kill your conversion rate? Nope. Why would I kill it? Well, because you're going to get a whole bunch of impressions that the reality they're not ready to purchase at that time. So your conversion rate is going
+
+Speaker  989994:40
+to suffer. That was a few years back where it was actually hurting you. Now it's not they change that. And if you really want to make, if you really want to be sure, you can easily create in your storefront, you can create a landing page.
+
+Speaker  994720:00
+That's what I was talking about. Yeah, create a landing page to try people there for
+
+Speaker  995856:00
+that product specifically, and that's going to filter them out completely,
+
+Speaker  997408:00
+right? So I have a product I know exactly the demographic, and 21% of myself come from the state of Florida. Doesn't get any easier than that. Let me just target Florida. This demographic start running out square. But I don't want to kill my conversion rate by getting a whole bunch of impressions that do not convert so let me send it to a storefront landing page. People that want to filter themselves out do not hurt my listing. Are you saying that I should just simply send them to the next them to the listing script,
+
+Speaker  1004106:40
+I would say, tested before. I haven't seen any kind of issues so far when driving direct traffic onto the listing, I would say, test it with or without the landing page. Using a landing page on the storefront is they are just going to filter them out. So whoever is actually has decided to purchase from you, they are going to click and follow the next steps. So you are filtering, filtering them out. If you feel safer that just do it like that. And it takes you, like, five minutes to to build a page in in the storefront for that, right?
+
+Speaker  1013605:20
+I would also add, I don't know. I just, I'm not the expert. I'm just, you know, living this every day. But if you're sending X numbers and you're sending you filter 1000s of people down to 20, and then the traffic that you send to Amazon, Alex, please confirm. If you send 20 people to custom, 20 people to Amazon, and 19 of them convert, they might say, wait a second, that's well above your, you know, the actual conversion rate, and they might flag you for a different reason. So you might filter them too successfully and say, wait that. That ain't legit, that's not organic, that's not normal, even if you're doing it correctly. So you might be overthinking it and split the traffic or, you know, slowly integrated into your daily traffic anyway, and, you know, make it as organic as possible. But if you send too much traffic, that's 100% conversion. They might think that that's not COVID static either, just a Fauci thought,
+
+Speaker  1028768:00
+yeah, you're right, but it's, I mean, they can see the source of traffic. They can see that that's paid traffic. That usually works the best for Amazon in terms of the overall, yeah, that's my kid
+
+Speaker  1033541:20
+in terms of the overall ranking juice.
+
+Speaker  1034757:20
+If they see you are willing to spend money outside of the platform just to drive traffic to their platform, they are going to reward you for a lot. So it's not a problem of killing your conversions or click rates in or at least I haven't seen you.
+
+Speaker  1040448:00
+So I would highly recommend you
+
+Speaker  1043904:00
+and attribution links to a storefront page. Does that work?
+
+Speaker  1045696:00
+I think so, yeah, yeah, because India whatever link you want. So you can put the storefront link if you want, but the storefront also has their own attribution, if I'm not mistaken, so you can still see it. How many people clicked? How many not directly, but how many people? No, they have it by link, if I'm not mistaken, yeah, they can still, you can still see those metrics, but, yeah, you can use attribution for storage.
+
+Speaker  1055498:40
+Now try directly onto your listing. I
+
+Speaker  1056458:40
+guarantee you are not going to have 5000 people clicking in one hour on that listing.
+
+Speaker  1058160:00
+They're Floridians.
+
+Speaker  1059360:00
+Yeah. The last thing I would want, though, is just like, oh yeah. It did matter. After all, hey, by the way, you got to restart building that commercial. No,
+
+Speaker  1061104:00
+it won't I don't think it will happen, but I would still test it. Thanks,
+
+Speaker  1063973:20
+Alex for the launch strategies or completely brand new product. Do you? Do you launch with reviews? You pre build with vine or other methods to have, like, minimum amount of reviews. Or what's your strategies
+
+Speaker  1069050:40
+after the four or five or the first four or five reviews are entering, I already start pushing it as fast as possible, because I don't wait any longer, only because it's going to accumulate negative history, so you cannot leave a product there without driving traffic to it, or without showing Amazon that you have you are willing to pay to play. Every single second counts, especially in the beginning,
+
+Speaker  1077568:00
+because it's it's going to come to the root your your metrics, overall and history.
+
+Speaker  1079285:20
+So to clarify, you start with how many reviews, if you would start today a completely brand new product,
+
+Speaker  1081397:20
+or five reviews, or five jumping on,
+
+Speaker  1083882:40
+where did this come from? You're saying organically, they just come or fine. Why?
+
+Speaker  1085050:40
+I'm still using wine with no problems. I know some some people have issues with them and never had issues. I mean, I had them in supplements, yes, in cosmetics, yes.
+
+Speaker  1088298:40
+But I think it's a nature of the beast. I hate doing it, because they're not consumer products that are typing in what you're selling. They're just people on the program. And then, you know, for my cold packs or my headache, they're like, it didn't stay cold for 24 hours. They they never even used the product, and they gave it a bad review. So a one star. You know, at a launch could be murder, but you kind of need it no matter what. I just find it silly when someone spends 1000s, if not 10s of 1000s or hundreds of 1000s of dollars on inventory to launch a new product, and then they want to spend $50 a day and not 500
+
+Speaker  1097429:20
+Yeah, I know
+
+Speaker  1098181:20
+you. You need it either way, unless you have a very for keywords, you have your own database and a database of raving fans, then fine, you can go with that 98% of people, they don't. So just go with mine and hope for the best. I mean, if your product is trapped, you will find out immediately.
+
+Speaker  1105871:59
+Alex, I have a question on and I missed the first 15 minutes, so sorry if you've already talked about this. But are you using any chat, GPT or any other llms to help with your listings? And if so, are you training it with Cosmo or Rufus or anything like that? No,
+
+Speaker  1110661:19
+I'm not training it with Cosmo or Rufus. I'm just training it normally. So basically, what I'm doing I'm selecting my top five to seven competitors that I want to go after. Initially, I copied all of their listings into chatgpt. I asked chatgpt to analyze those listings from an SEO semantic or perspective. Then I asked him to identify the customer avatar and all the other things, emotional triggers and so on, while his. Analyzing this, and he's giving you that information. He learns more about that market. So questions you ask him, the more he's going to learn about that market. And then you can just prompt him with this is going to be my new title. Build me the five bullet points for this specific product using a list of those keywords in the exact match, and you give him the keywords, and he's going to start writing the bullet points. If you don't like them, you can just regenerate as many times as you want until you are satisfied, or you can just change them yourself manually. Then you can ask him for the description with the same set of keywords or with a different set of keywords. You can even ask him to give you the Q and A, the questions and answers, and you can give him the competitors. You can give him the keywords that he needs to use on the Q and A, make sure you ask him to formulate those questions like they've been asked by actual customer in a very friendly and positive tone, and then he's going to write exactly that. So you can use those.
+
+Speaker  1139984:00
+But yes, I'm using chatgpt nonstop.
+
+Speaker  1141056:00
+Got it? Yeah, I use a kind of similar process, but I feel like my process is very disjointed. You know, I don't really have a great SOP for it. I'm still trying to figure out a good, standardized way to do it, because this is, we're launching a product this next month, and it's the first one we've launched in eight months or so. So it's kind of relearning how to how to do it with the new AI technology. Do you happen to have any prompts that you use, that you kind of have systematized?
+
+Speaker  1149658:40
+Are basically the prompts that I just told you? I mean something super specific. You're just having the conversation with him, but into understand what the market is. First, he needs to analyze your competitors, and he needs three to five prompts before you start asking him to deliver the bullet points and the descriptions I would never let chat GPT to build my the title ever. But for the bullet points, considering that no one is reading them, I don't care. I don't even care what he's putting there, considering he's speaking about the product which he already asked. You can give him, if you're in supplements, give him the supplements or the technical data CEO sheet for for that product, whatever you have on that product, just give him, let him analyze, let him find the avatar, the emotional triggers, anything in the demographics and everything, so he can learn what people are actually searching for. And then he's going to write based on those specifics,
+
+Speaker  1168880:00
+got it. Thank you. Very helpful. Don't
+
+Speaker  1169504:00
+overthink it, because no one reads
+
+Speaker  1170832:00
+right to be mainly for the algorithm to understand exactly what your product is and how relevant that product
+
+Speaker  1173616:00
+is. And do Alex, yes,
+
+Speaker  1174213:20
+I do have a do have a question about images? Do you have any way you like create images or like come up with new ideas on how to create images that are better convert?
+
+Speaker  1178389:20
+I have them in my head,
+
+Speaker  1180378:40
+you will have to test a lot,
+
+Speaker  1181482:40
+so usually take inspiration from competitors or Yeah,
+
+Speaker  1182634:40
+but you need to go through 1000s of listings to find something that's actually good. Or you can actually search in your niche outside of Amazon on the DTC. The large DTC websites in your niche, they usually have pretty amazing images
+
+Speaker  1188048:00
+because their conversion is much lower than
+
+Speaker  1189184:00
+whatever you can find on Amazon. So their products are usually very well optimized for something like
+
+Speaker  1190853:20
+that. But
+
+Speaker  1191877:20
+I don't have, I mean, I have that folder, which I think I showed you that folder. Yeah,
+
+Speaker  1193093:20
+you showed it to me. So you think, like, inspiration from, like, large DTS, large and successful DTC brand is a, I think is a good tip. I didn't think about that because, yeah, their landing pages are for sure. Yeah, converting very well.
+
+Speaker  1197338:40
+You can try it and see exactly what it is, but on Amazon, it's always going to be about testing how you can stand out in the search results and how you can convert. It to those bits.
+
+Speaker  1200816:00
+I mean, zesty pauses, the best example,
+
+Speaker  1202112:00
+big, bright orange, perfect, quick.
+
+Speaker  1204688:00
+How about as far as keywords in images. I'm going through another launch right now, and I'm just about to work on creating the briefing and inspiration for my image stack. And I'm just wondering, like, with the new with, like, the new crawling of text in images, like, I'm wondering if you have a new process, or anything you're doing to make sure that the right keywords are included in the images, not just like, not just like the right kind of marketing, but also like, making sure the keywords are there to get indexed better
+
+Speaker  1215994:40
+the keywords in the images, I haven't they're not ranking you like they ran they are. They're not indexing you like you're indexing from the title keywords or the bullet point keywords. The keywords in the images are more likely for the algorithm to understand exactly what that product is or what that image is it's not for ranking purposes. Still play around with what's it called, the one in AWS,
+
+Speaker  1225669:20
+the AI that reads the images recognition, Rufus, no.
+
+Speaker  1227109:20
+So you can still play around with recognition I was giving. I gave him the best seller from the milk throttles, which I'm guessing everyone knows Aaron,
+
+Speaker  1230586:40
+to analyze the first image, the first three
+
+Speaker  1231818:40
+things that he identified in that image was a great a bomb, and only then milk frother coffee and so on. So the AI is still a little bit behind on that. It can be text Yes, but it's more for Rufus on describing what that product is, just to place it in front of those customers. Better not for ranking. For SEO is just to understand exactly what that product is.
+
+Speaker  1242197:20
+Okay At what point
+
+Speaker  1243077:20
+images on recognition. You would be amazed to see the amount of stupid stuff it spits out.
+
+Speaker  1245322:40
+Okay, at what point would you say it makes sense to include your brand name, your branding as part of your marketing, like it's just once you have a certain amount of branded search, or
+
+Speaker  1249408:00
+I would say,
+
+Speaker  1250576:00
+I would say yes, depending on product,
+
+Speaker  1252144:00
+whenever You can find. So let's say brand is below.
+
+Speaker  1255861:20
+So whenever you can find your brand in the search frequency rank below 150,000 so between one and 1000 frequency rank, that's when you you should start putting that brand in front of your title or everywhere else in your market. Before that, you don't have enough monthly searches for it to matter that much. So if we're searching for
+
+Speaker  1264122:40
+and give me a brand that's not No,
+
+Speaker  1265216:00
+or let's go for a brand that's actually no.
+
+Speaker  1267312:00
+Here 10,000 in search frequency rank. That's a huge monthly volume, because the search frequency rank is inverted compared to the actual search volume.
+
+Speaker  1270613:20
+But if you are taking let's see how it performs.
+
+Speaker  1273893:20
+Nike's 500 Look
+
+Speaker  1275418:40
+Mr. Beasley doll, something probably is a we can find a different brand. We need to find a different brand, probably blue daily planners.
+
+Speaker  1279690:40
+We've got native. Pet to chick,
+
+Speaker  1280384:00
+yeah. Native
+
+Speaker  1281120:00
+doesn't matter. They're branded.
+
+Speaker  1282688:00
+Native pets has a ton of searches. See, yeah. So the closer it is to one, the smaller the number, the higher the search for, uh huh. If native pet was here on 233
+
+Speaker  1287941:20
+I would say, don't put it in front.
+
+Speaker  1289013:20
+But 14,000 Yeah,
+
+Speaker  1289701:20
+at 14,000 it's the equivalent of all 100,000 monthly searches. So it's a big search term for Amazon, even
+
+Speaker  1293130:40
+100 you put in, sorry, 100,000 you put it in,
+
+Speaker  1295034:40
+yes, 100%
+
+Speaker  1295882:40
+because then that usually 100,000 translating somewhere between five to 10,000 monthly searches
+
+Speaker  1298112:00
+by converting, yeah, okay,
+
+Speaker  1300176:00
+got it. Thank you for that. It's very clear, very clear. So if
+
+Speaker  1301589:20
+you have brand new brand that you're launching, you don't have to put it in the title. Don't do it. Just maximize your title for SEO. Do 197 198 199 characters, and you're fine. Amazon is going to index your brand either way,
+
+Speaker  1306677:20
+so it doesn't need to have it in front
+
+Speaker  1307274:40
+and you don't use Data Dive, right? That was the my understanding. Sorry, you don't use Data Dive. My understanding was that your their ranking juice, algorithm and system, you personally don't, don't think too highly of it, right? But know
+
+Speaker  1312154:40
+what's behind it, and I've seen them
+
+Speaker  1313136:00
+missing a ton of keywords just one second.
+
+Speaker  1317680:00
+Sorry for that.
+
+Speaker  1318501:20
+I'm still using Data Dive, but only I'm using it when I'm doing the initial dive that's showing me my product and the competitors, the ranking. I don't know what that window is called where they are, showing me where those competitors are ranking on every single keyword. This is position number five. This is position number seven. This is position 33 that's the only tool that I know of who's still doing that.
+
+Speaker  1327002:40
+It's like that heat map kind of that's going to
+
+Speaker  1327722:40
+allow you to identify the gaps, where you need to be, where they are not, and where they are, and you don't have to be and so on, and where you can push but optimizing with Data Dive, no,
+
+Speaker  1332800:00
+guys, I will have to jump in maximum four minutes, just Alex,
+
+Speaker  1334085:20
+thanks for going above and beyond. Wow.
+
+Speaker  1334693:20
+You're welcome. Thank you so much. Agreed, man,
+
+Speaker  1335253:20
+thank you, and
+
+Speaker  1335621:20
+you're welcome. Any other questions, anything else do you want to address?
+
+Speaker  1337573:20
+Who's going to be invited?
+
+Speaker  1338837:20
+I will.
+
+Speaker  1339930:40
+Alex, you know, are there any videos or things like that you would refer to for that listing creation, for the SEO, like the title and bullets and stuff like that. I sat on the last one and you went through some with how you do it, but I'm just wondering if there's like, a source of information go through that entire listing.
+
+Speaker  1346752:00
+I don't think I've posted something like that ever, but we can do that with issues. We can go through a live listing process. If you guys want it, I just need a listing to do basically, and we can do it from top to bottom. I don't have a problem.
+
+Speaker  1351669:20
+Okay, yeah, that. I mean, for me, that would be super valuable. I don't know, maybe other people too or not, but, okay,
+
+Speaker  1353605:20
+no, I'm not sure if in Vegas I will have a presentation, or if I'm going to be in the coffee chat, I think I'm in both. And we can just do a case study, if you guys want in Vegas, but that's going to be for people who are going to bed if you want. We can address it in the in the next call. We can schedule a call in one or two weeks, and we can go through that.
+
+Speaker  1359946:40
+I'll. Okay, I'll follow up in the chat. Thank you, Alex, very much.
+
+Speaker  1362208:00
+And any kind of questions you guys might have just, I'm usually non stop on Facebook or anything, just shoot me a message or in the SEO channel, and I'm going to try to answer. This month has been completely chaotic in terms of time, but I'll try to be a little bit more active in the channel.
+
+Speaker  1368613:20
+Is our the best way of communication for channels is on the app, right? Yes, it's just on the app, okay, yeah, I haven't even gotten it on desktop as well.
+
+Speaker  1371338:40
+You have it on desktop. I think it's something Okay, yeah, this is app, dot MDs, dot Sego. And then you can jump on chats. And you have it here as well. Well, I need to log in again. Got it but, yeah, you have it there, okay, but on the app, you you always have your phone in your hand, so it should be fine.
+
+Speaker  1380928:00
+Anything else? Have a
+
+Speaker  1381840:00
+great weekend, everybody.
+
+Speaker  1382565:20
+Thank you. Thank you so much. Thank you. Have a great thank
+
+Speaker  1383221:20
+you so much, Alex, you're the best everybody.
+
+Speaker  1384245:20
+Thank you. Thank you. Soon. Bye.
