@@ -454,12 +454,21 @@ HTML_TEMPLATE = """
             padding: 0.5rem;
         }
         .disclaimer {
-            color: #a1a1aa;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            max-width: 560px;
+            padding: 0.625rem 0.875rem;
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            border-radius: 0.5rem;
             font-size: 0.75rem;
-            max-width: 480px;
+            color: #991b1b;
             line-height: 1.5;
             margin-top: 1.5rem;
+            text-align: left;
         }
+        .disclaimer .disc-icon { flex-shrink: 0; font-size: 0.875rem; }
 
         /* === CHAT MODE === */
         .chat-container {
@@ -631,7 +640,7 @@ HTML_TEMPLATE = """
                 <div class="topic-pills" id="popularPills"></div>
             </div>
         </div>
-        <p class="disclaimer">Disclaimer: This tool provides AI-generated summaries from recorded MDS sessions. Responses may be incomplete or inaccurate. This is not professional, legal, or financial advice. Always verify information and use your own judgment.</p>
+        <div class="disclaimer"><span class="disc-icon">⚠️</span><span>This tool provides AI-generated summaries from recorded MDS sessions. Responses may be incomplete or inaccurate. This is not professional, legal, or financial advice. Always verify information and use your own judgment.</span></div>
     </div>
 
     <!-- CHAT: appears after first search -->
