@@ -5,6 +5,7 @@ Uses Claude (Anthropic) for LLM, OpenAI for embeddings.
 """
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -60,6 +61,82 @@ def clean_source_name(name: str) -> str:
         if name.lower().endswith(ext):
             name = name[: -len(ext)]
     return name
+
+
+def format_display_name(raw: str) -> str:
+    """Clean a raw speaker/source name into a user-friendly display name.
+
+    '2025-06-06_5. Prue Millsap'  → 'Prue Millsap'
+    '2025-12-08_MDS Large Catalog Sellers Monthly Call with Nick Amos' → 'Large Catalog Sellers Monthly Call with Nick Amos'
+    '2025-10-21_22. FC Chats_ Perfecting Media Buying in 2024' → 'FC Chats: Perfecting Media Buying in 2024'
+    '2025-04-21_Josh Hadley_1' → 'Josh Hadley'
+    '2025-01-10_Mogul Call with hasan & Dave' → 'Mogul Call with Hasan & Dave'
+    '2025-03-07_Coaching Call with Steve Taylor March 2025' → 'Coaching Call with Steve Taylor'
+    '2026-02-13_GMT20260210-210732_Recording' → 'Recording (Feb 2026)'
+    """
+    if not raw:
+        return raw
+    name = raw
+
+    # Strip date prefix (YYYY-MM-DD_)
+    name = re.sub(r"^\d{4}-\d{2}-\d{2}_", "", name)
+    # Strip leading number prefix (1. or 22.)
+    name = re.sub(r"^\d+\.\s*", "", name)
+    # Strip trailing _N or _NN (numbering suffix)
+    name = re.sub(r"_\d+$", "", name)
+    # Strip _otter_ai suffix
+    name = re.sub(r"_otter_ai$", "", name, flags=re.IGNORECASE)
+    # Clean "FC Chats_ " → "FC Chats: "
+    name = name.replace("FC Chats_ ", "FC Chats: ")
+    # Strip "MDS " prefix — it's always MDS content
+    name = re.sub(r"^MDS\s+", "", name)
+    # Strip trailing month + year (e.g. "Jan 2025", "March 2025", "Feb 2026")
+    name = re.sub(
+        r"\s+(?:January|February|March|April|May|June|July|August|September|October|November|December|"
+        r"Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+20\d{2}$",
+        "", name, flags=re.IGNORECASE,
+    )
+    # Handle GMT recordings
+    if re.match(r"^GMT\d+", name):
+        name = "Recording"
+    # Strip inline date codes like "03192025" (MMDDYYYY)
+    name = re.sub(r"\s+\d{8}$", "", name)
+    # Fix lowercase person names: "hasan & Dave" → "Hasan & Dave"
+    # Capitalize any word that starts lowercase after "with" or "&" or at the start
+    def _fix_caps(m):
+        return m.group(0)[0] + m.group(0)[1].upper() + m.group(0)[2:]
+    # Capitalize first word after "with "
+    name = re.sub(r"(with\s)([a-z])", lambda m: m.group(1) + m.group(2).upper(), name)
+    # Capitalize words after " & "
+    name = re.sub(r"(&\s)([a-z])", lambda m: m.group(1) + m.group(2).upper(), name)
+
+    return name.strip()
+
+
+def extract_date_from_speaker(raw: str) -> str:
+    """Extract a formatted date from a speaker/filename string.
+
+    '2025-06-06_5. Prue Millsap' → 'June 2025'
+    '2025-01-10_Mogul Call' → 'January 2025'
+    'Some Name Without Date' → ''
+    """
+    match = re.match(r"^(\d{4})-(\d{2})", raw)
+    if match:
+        return format_date_display(f"{match.group(1)}-{match.group(2)}")
+    return ""
+
+
+def format_video_url(url: str) -> str:
+    """Convert admin video URL to user-facing format.
+
+    'https://app.mds.co/admin/contentlibrary/detail/69a8e1ff.../0' → 'https://app.mds.co/videos/69a8e1ff...'
+    """
+    if not url:
+        return url
+    match = re.match(r".*/admin/contentlibrary/detail/([a-f0-9]+)/\d+", url)
+    if match:
+        return f"https://app.mds.co/videos/{match.group(1)}"
+    return url
 
 SEARCH_LOG = Path(config.DATA_DIR) / "search_log.json"
 TOPICS_CACHE = Path(config.DATA_DIR) / "topics_cache.json"
@@ -189,10 +266,24 @@ def ask(question: str, verbose: bool = False) -> dict:
         low_sources = []
         for doc, _ in docs_with_scores:
             m = doc.metadata
-            sp = clean_source_name(m.get("speaker", "Unknown"))
-            if sp not in seen:
-                seen.add(sp)
-                low_sources.append({"speaker": sp, "date": format_date_display(m.get("date", "")), "event": m.get("event", ""), "topic": m.get("topic", ""), "type": m.get("type", ""), "source": clean_source_name(m.get("source", ""))})
+            raw_sp = m.get("speaker", "Unknown")
+            if raw_sp not in seen:
+                seen.add(raw_sp)
+                display_date = format_date_display(m.get("date", ""))
+                if not display_date:
+                    display_date = extract_date_from_speaker(raw_sp)
+                entry = {
+                    "speaker": format_display_name(raw_sp),
+                    "date": display_date,
+                    "event": m.get("event", ""),
+                    "topic": m.get("topic", ""),
+                    "type": m.get("type", ""),
+                    "source": clean_source_name(m.get("source", "")),
+                }
+                video_url = m.get("video_url", "")
+                if video_url:
+                    entry["video_url"] = format_video_url(video_url)
+                low_sources.append(entry)
         return {
             "answer": "I don't have enough information in the knowledge base to answer this confidently. The most relevant content I found doesn't closely match your question.",
             "sources": low_sources,
@@ -217,31 +308,53 @@ def ask(question: str, verbose: bool = False) -> dict:
     chain = prompt | llm
     response = chain.invoke({"context": context, "question": question})
 
+    # Check if Claude's answer indicates it doesn't have enough info
+    answer_text = response.content
+    _no_info_phrases = [
+        "i don't have enough information",
+        "not enough information",
+        "doesn't contain specific information",
+        "doesn't contain enough information",
+        "does not contain specific information",
+        "does not contain enough information",
+        "no relevant information",
+        "not directly addressed",
+    ]
+    if any(phrase in answer_text.lower() for phrase in _no_info_phrases):
+        avg_confidence = min(avg_confidence, 0.18)
+
     # Build deduplicated, enriched source list (clean names, format dates)
     seen_speakers = set()
     enriched_sources = []
     for doc, _ in docs_with_scores:
         meta = doc.metadata
-        speaker = clean_source_name(meta.get("speaker", "Unknown"))
-        if speaker in seen_speakers:
+        raw_speaker = meta.get("speaker", "Unknown")
+        # Deduplicate by raw value (unique per file)
+        if raw_speaker in seen_speakers:
             continue
-        seen_speakers.add(speaker)
+        seen_speakers.add(raw_speaker)
+
+        # Use metadata date if available, otherwise extract from filename
+        display_date = format_date_display(meta.get("date", ""))
+        if not display_date:
+            display_date = extract_date_from_speaker(raw_speaker)
+
         source_entry = {
-            "speaker": speaker,
-            "date": format_date_display(meta.get("date", "")),
+            "speaker": format_display_name(raw_speaker),
+            "date": display_date,
             "event": meta.get("event", ""),
             "topic": meta.get("topic", ""),
             "type": meta.get("type", ""),
             "source": clean_source_name(meta.get("source", "")),
         }
-        # Include video URL if available
+        # Include video URL if available (converted to user-facing format)
         video_url = meta.get("video_url", "")
         if video_url:
-            source_entry["video_url"] = video_url
+            source_entry["video_url"] = format_video_url(video_url)
         enriched_sources.append(source_entry)
 
     return {
-        "answer": response.content,
+        "answer": answer_text,
         "sources": enriched_sources,
         "confidence": avg_confidence,
         "chunks_used": len(docs_with_scores),

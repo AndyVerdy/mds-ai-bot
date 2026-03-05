@@ -180,7 +180,7 @@ WIDGET_JS = """
     items.forEach(function(t) {
       var btn = document.createElement('button');
       btn.textContent = t;
-      btn.onclick = function() { input.value = t; send(); };
+      btn.onclick = function() { input.value = 'Summarize the key insights and advice from MDS sessions about ' + t; send(); };
       container.appendChild(btn);
     });
   }).catch(function(){});
@@ -622,7 +622,7 @@ HTML_TEMPLATE = """
                     const btn = document.createElement('button');
                     btn.className = 'topic-pill';
                     btn.textContent = t;
-                    btn.onclick = () => { landingInput.value = t; searchFromLanding(); };
+                    btn.onclick = () => { landingInput.value = 'Summarize the key insights and advice from MDS sessions about ' + t; searchFromLanding(); };
                     topicPills.appendChild(btn);
                 });
                 if ((data.topics || []).length === 0) {
