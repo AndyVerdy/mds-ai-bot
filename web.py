@@ -420,6 +420,13 @@ HTML_TEMPLATE = """
             font-size: 0.8rem;
             padding: 0.5rem;
         }
+        .disclaimer {
+            color: #a1a1aa;
+            font-size: 0.75rem;
+            max-width: 480px;
+            line-height: 1.5;
+            margin-top: 1.5rem;
+        }
 
         /* === CHAT MODE === */
         .chat-container {
@@ -561,6 +568,7 @@ HTML_TEMPLATE = """
                 <div class="topic-pills" id="popularPills"></div>
             </div>
         </div>
+        <p class="disclaimer">Disclaimer: This tool provides AI-generated summaries from recorded MDS sessions. Responses may be incomplete or inaccurate. This is not professional, legal, or financial advice. Always verify information and use your own judgment.</p>
     </div>
 
     <!-- CHAT: appears after first search -->
