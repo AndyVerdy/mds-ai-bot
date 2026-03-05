@@ -9,7 +9,7 @@ MDS AI Bot — Web UI + Embeddable Widget API (Flask).
 import os
 from flask import Flask, render_template_string, request, jsonify, make_response
 from flask_cors import CORS
-from query import ask, track_search, get_popular_searches, extract_topics
+from query import ask, summarize_source, track_search, get_popular_searches, extract_topics
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}})
@@ -201,9 +201,26 @@ WIDGET_JS = """
   var sendBtn = document.getElementById('mds-widget-send');
   var isOpen = false;
 
-  window._mdsWidgetSummarize = function(name) {
-    input.value = 'Summarize the full conversation and key takeaways from the MDS session: ' + name;
-    send();
+  window._mdsWidgetSummarize = async function(name) {
+    sendBtn.disabled = true;
+    addMsg('Summarize the session: ' + name, 'user');
+    addTyping();
+    try {
+      var res = await fetch(API_URL + '/api/summarize-source', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({source: name})
+      });
+      var data = await res.json();
+      removeTyping();
+      if (data.error) { addMsg('Error: ' + data.error, 'bot'); }
+      else { addMsg(data.answer, 'bot', {confidence: data.confidence, sources: data.sources}); }
+    } catch(e) {
+      removeTyping();
+      addMsg('Could not connect.', 'bot');
+    }
+    sendBtn.disabled = false;
+    input.focus();
   };
 
   toggle.onclick = function() {
@@ -845,10 +862,26 @@ HTML_TEMPLATE = """
             doSearch(question);
         }
 
-        function summarizeSource(name) {
-            const query = 'Summarize the full conversation and key takeaways from the MDS session: ' + name;
-            chatInput.value = '';
-            doSearch(query);
+        async function summarizeSource(name) {
+            sendBtn.disabled = true;
+            addMessage('Summarize the session: ' + name, 'user');
+            addTyping();
+            try {
+                const res = await fetch('/api/summarize-source', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ source: name }),
+                });
+                const data = await res.json();
+                removeTyping();
+                if (data.error) { addMessage('Error: ' + data.error, 'bot'); }
+                else { addMessage(data.answer, 'bot', { confidence: data.confidence, sources: data.sources }); }
+            } catch (err) {
+                removeTyping();
+                addMessage('Failed to connect to the server.', 'bot');
+            }
+            sendBtn.disabled = false;
+            chatInput.focus();
         }
 
         landingInput.focus();
@@ -886,6 +919,24 @@ def api_ask():
     track_search(question)
 
     result = ask(question)
+    return jsonify({
+        "answer": result["answer"],
+        "sources": result["sources"],
+        "confidence": result["confidence"],
+        "chunks_used": result["chunks_used"],
+    })
+
+
+@app.route("/api/summarize-source", methods=["POST"])
+def api_summarize_source():
+    """Summarize all content from a specific source/speaker by metadata lookup."""
+    data = request.get_json()
+    source_name = data.get("source", "").strip()
+
+    if not source_name:
+        return jsonify({"error": "No source name provided"}), 400
+
+    result = summarize_source(source_name)
     return jsonify({
         "answer": result["answer"],
         "sources": result["sources"],

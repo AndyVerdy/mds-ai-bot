@@ -286,7 +286,9 @@ def ask(question: str, verbose: bool = False) -> dict:
     chain = prompt | llm
     response = chain.invoke({"context": context, "question": question})
 
-    # Check if Claude's answer indicates it doesn't have enough info
+    # Check if Claude's answer indicates it has NO relevant info at all.
+    # Only strip sources for SHORT "I don't know" answers — not for long
+    # useful answers that happen to include a caveat/hedge at the end.
     answer_text = response.content
     _no_info_phrases = [
         "i don't have enough information",
@@ -296,17 +298,22 @@ def ask(question: str, verbose: bool = False) -> dict:
         "does not contain specific information",
         "does not contain enough information",
         "no relevant information",
-        "not directly addressed",
     ]
-    if any(phrase in answer_text.lower() for phrase in _no_info_phrases):
+    answer_lower = answer_text.lower()
+    has_no_info = any(phrase in answer_lower for phrase in _no_info_phrases)
+
+    if has_no_info and len(answer_text) < 350:
+        # Short answer that's purely "I don't know" — hide misleading sources
         avg_confidence = min(avg_confidence, 0.18)
-        # Don't show misleading sources when bot has no relevant answer
         return {
             "answer": answer_text,
             "sources": [],
             "confidence": avg_confidence,
             "chunks_used": len(docs_with_scores),
         }
+    elif has_no_info:
+        # Long answer with useful content but a caveat — keep sources, just note lower confidence
+        avg_confidence = min(avg_confidence, 0.35)
 
     # Build deduplicated, enriched source list (clean names, format dates)
     seen_speakers = set()
@@ -343,6 +350,124 @@ def ask(question: str, verbose: bool = False) -> dict:
         "sources": enriched_sources,
         "confidence": avg_confidence,
         "chunks_used": len(docs_with_scores),
+    }
+
+
+def summarize_source(display_name: str) -> dict:
+    """Summarize all content from a specific source/speaker.
+
+    Instead of doing a semantic search on the speaker name (which fails because
+    transcript content doesn't mention the speaker's name), this function:
+    1. Finds the raw speaker name from metadata that matches the display name
+    2. Fetches ALL chunks from that speaker using exact metadata filter
+    3. Sends them to Claude for a thorough summary
+    """
+    key_error = check_api_keys()
+    if key_error:
+        return {"answer": key_error, "sources": [], "confidence": 0, "chunks_used": 0}
+
+    vectorstore = get_vectorstore()
+    collection = vectorstore._collection
+
+    if collection.count() == 0:
+        return {"answer": "Knowledge base is empty.", "sources": [], "confidence": 0, "chunks_used": 0}
+
+    # Step 1: Find the raw speaker that matches the display name.
+    # We do a small semantic search first to narrow candidates, then check metadata.
+    initial_results = vectorstore.similarity_search_with_score(display_name, k=20)
+
+    raw_speaker = None
+    for doc, _score in initial_results:
+        raw = doc.metadata.get("speaker", "")
+        if raw and display_name.lower() in format_display_name(raw).lower():
+            raw_speaker = raw
+            break
+
+    # If semantic search didn't find a metadata match, scan broader
+    if not raw_speaker:
+        all_meta = collection.get(include=["metadatas"])
+        for meta in all_meta["metadatas"]:
+            raw = meta.get("speaker", "")
+            if raw and display_name.lower() in format_display_name(raw).lower():
+                raw_speaker = raw
+                break
+
+    if not raw_speaker:
+        # Last resort: fall back to regular ask with a better query
+        return ask(f"What did {display_name} discuss in their MDS session?")
+
+    # Step 2: Get ALL chunks from this exact speaker
+    results = collection.get(
+        where={"speaker": {"$eq": raw_speaker}},
+        include=["documents", "metadatas"],
+    )
+
+    if not results["documents"]:
+        return ask(f"What did {display_name} discuss in their MDS session?")
+
+    # Step 3: Build context from chunks (up to 15 for token budget)
+    chunks = list(zip(results["documents"], results["metadatas"]))[:15]
+    total_chunks = len(results["documents"])
+
+    context_parts = []
+    for i, (content, meta) in enumerate(chunks, 1):
+        source_info = ""
+        if meta.get("date"):
+            source_info += f"Date: {format_date_display(meta['date'])} | "
+        if meta.get("event"):
+            source_info += f"Event: {meta['event']} | "
+        context_parts.append(f"[Chunk {i}]\n{source_info}\n{content}")
+
+    context = "\n\n---\n\n".join(context_parts)
+
+    # Step 4: Ask Claude to summarize
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", (
+            "You are the MDS Knowledge Assistant. Your task is to provide a comprehensive "
+            "summary of an MDS session. Include the key topics discussed, specific insights, "
+            "strategies, and actionable takeaways. Reference specific points and speakers by name. "
+            "Be thorough but concise — organize into clear sections."
+        )),
+        ("human", (
+            "Here is the full transcript content from the MDS session: {display_name}\n"
+            "---\n{context}\n---\n\n"
+            "Provide a comprehensive summary of this session including:\n"
+            "1. Main topics discussed\n"
+            "2. Key insights and strategies shared\n"
+            "3. Actionable takeaways for Amazon/e-commerce sellers"
+        )),
+    ])
+
+    llm = ChatAnthropic(
+        model=config.LLM_MODEL,
+        temperature=config.LLM_TEMPERATURE,
+        anthropic_api_key=config.ANTHROPIC_API_KEY,
+    )
+
+    chain = prompt | llm
+    response = chain.invoke({"display_name": display_name, "context": context})
+
+    # Build source entry from metadata
+    meta = results["metadatas"][0]
+    display_date = format_date_display(meta.get("date", ""))
+    if not display_date:
+        display_date = extract_date_from_speaker(raw_speaker)
+
+    source_entry = {
+        "speaker": format_display_name(raw_speaker),
+        "date": display_date,
+        "event": meta.get("event", ""),
+        "source": clean_source_name(meta.get("source", "")),
+    }
+    video_url = meta.get("video_url", "")
+    if video_url:
+        source_entry["video_url"] = format_video_url(video_url)
+
+    return {
+        "answer": response.content,
+        "sources": [source_entry],
+        "confidence": 0.85,
+        "chunks_used": total_chunks,
     }
 
 
