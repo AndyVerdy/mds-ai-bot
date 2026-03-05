@@ -260,33 +260,11 @@ def ask(question: str, verbose: bool = False) -> dict:
             sim = max(0, 1 - score / 2)
             console.print(f"[dim]  Chunk {i+1}: similarity={sim:.2f} distance={score:.2f} from {doc.metadata.get('source', '?')}[/dim]")
 
-    # Check confidence threshold
+    # Check confidence threshold — don't show sources for irrelevant queries
     if avg_confidence < config.CONFIDENCE_THRESHOLD:
-        seen = set()
-        low_sources = []
-        for doc, _ in docs_with_scores:
-            m = doc.metadata
-            raw_sp = m.get("speaker", "Unknown")
-            if raw_sp not in seen:
-                seen.add(raw_sp)
-                display_date = format_date_display(m.get("date", ""))
-                if not display_date:
-                    display_date = extract_date_from_speaker(raw_sp)
-                entry = {
-                    "speaker": format_display_name(raw_sp),
-                    "date": display_date,
-                    "event": m.get("event", ""),
-                    "topic": m.get("topic", ""),
-                    "type": m.get("type", ""),
-                    "source": clean_source_name(m.get("source", "")),
-                }
-                video_url = m.get("video_url", "")
-                if video_url:
-                    entry["video_url"] = format_video_url(video_url)
-                low_sources.append(entry)
         return {
             "answer": "I don't have enough information in the knowledge base to answer this confidently. The most relevant content I found doesn't closely match your question.",
-            "sources": low_sources,
+            "sources": [],
             "confidence": avg_confidence,
             "chunks_used": len(docs_with_scores),
         }
@@ -322,6 +300,13 @@ def ask(question: str, verbose: bool = False) -> dict:
     ]
     if any(phrase in answer_text.lower() for phrase in _no_info_phrases):
         avg_confidence = min(avg_confidence, 0.18)
+        # Don't show misleading sources when bot has no relevant answer
+        return {
+            "answer": answer_text,
+            "sources": [],
+            "confidence": avg_confidence,
+            "chunks_used": len(docs_with_scores),
+        }
 
     # Build deduplicated, enriched source list (clean names, format dates)
     seen_speakers = set()

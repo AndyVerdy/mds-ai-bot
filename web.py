@@ -94,6 +94,17 @@ WIDGET_JS = """
     }
     .mds-src-item .video-link:hover { background: #dbeafe; color: #1d4ed8; }
     .mds-src-item .video-link svg { width: 9px; height: 9px; }
+    .mds-src-item .speaker-link {
+      font-weight: 500; color: #18181b; cursor: pointer;
+      border-bottom: 1px dashed #d4d4d8;
+    }
+    .mds-src-item .speaker-link:hover { color: #2563eb; border-bottom-color: #2563eb; }
+    .mds-disclaimer {
+      display: flex; align-items: flex-start; gap: 4px;
+      padding: 6px 8px; background: #fef2f2; border: 1px solid #fecaca;
+      border-radius: 0.25rem; font-size: 10px; color: #991b1b; line-height: 1.4;
+    }
+    .mds-disclaimer .disc-icon { flex-shrink: 0; }
     .mds-conf-bar { display: flex; align-items: center; gap: 6px; margin-top: 6px; }
     .mds-conf-track { width: 60px; height: 4px; background: #e4e4e7; border-radius: 2px; overflow: hidden; }
     .mds-conf-fill { height: 100%; border-radius: 2px; }
@@ -190,6 +201,11 @@ WIDGET_JS = """
   var sendBtn = document.getElementById('mds-widget-send');
   var isOpen = false;
 
+  window._mdsWidgetSummarize = function(name) {
+    input.value = 'Summarize the full conversation and key takeaways from the MDS session: ' + name;
+    send();
+  };
+
   toggle.onclick = function() {
     isOpen = !isOpen;
     panel.classList.toggle('open', isOpen);
@@ -215,7 +231,13 @@ WIDGET_JS = """
 
   function addMsg(text, type, extra) {
     var w = document.getElementById('mds-welcome');
-    if (w) w.remove();
+    if (w) {
+      w.remove();
+      var disc = document.createElement('div');
+      disc.className = 'mds-disclaimer';
+      disc.innerHTML = '<span class="disc-icon">⚠️</span><span>AI-generated summaries from MDS sessions. May be inaccurate. Not professional advice.</span>';
+      messages.appendChild(disc);
+    }
     var div = document.createElement('div');
     div.className = 'mds-msg ' + type;
     if (type === 'bot') {
@@ -245,7 +267,8 @@ WIDGET_JS = """
           if (s.event) parts.push(s.event);
           if (s.date) parts.push(s.date);
           var vLink = s.video_url ? '<a class="video-link" href="'+s.video_url+'" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>Watch</a>' : '';
-          srcHtml += '<div class="mds-src-item"><span class="speaker">'+(s.speaker||'Unknown')+'</span>'+(parts.length?'<span class="meta">'+parts.join(' · ')+'</span>':'')+vLink+'</div>';
+          var safeName = (s.speaker||'Unknown').replace(/"/g, '&quot;');
+          srcHtml += '<div class="mds-src-item"><span class="speaker-link" data-source="'+safeName+'" onclick="window._mdsWidgetSummarize(this.dataset.source)">'+(s.speaker||'Unknown')+'</span>'+(parts.length?'<span class="meta">'+parts.join(' · ')+'</span>':'')+vLink+'</div>';
         });
         srcHtml += '<div class="mds-conf-bar"><div class="mds-conf-track"><div class="mds-conf-fill" style="width:'+Math.round(c*100)+'%;background:'+color+'"></div></div><span class="mds-conf-label" style="color:'+color+'">'+confLabel(c)+'</span></div>';
         card.innerHTML = srcHtml;
@@ -501,6 +524,23 @@ HTML_TEMPLATE = """
         .source-item .video-link svg {
             width: 11px; height: 11px; flex-shrink: 0;
         }
+        .source-item .speaker-link {
+            font-weight: 500; color: #18181b; cursor: pointer;
+            border-bottom: 1px dashed #d4d4d8;
+            transition: all 0.15s;
+        }
+        .source-item .speaker-link:hover {
+            color: #2563eb; border-bottom-color: #2563eb;
+        }
+
+        .chat-disclaimer {
+            display: flex; align-items: flex-start; gap: 0.5rem;
+            padding: 0.625rem 0.875rem;
+            background: #fef2f2; border: 1px solid #fecaca;
+            border-radius: 0.5rem; font-size: 0.75rem;
+            color: #991b1b; line-height: 1.5;
+        }
+        .chat-disclaimer .disc-icon { flex-shrink: 0; font-size: 0.875rem; }
 
         /* === COLORFUL RELEVANCE BAR === */
         .confidence-bar {
@@ -650,6 +690,10 @@ HTML_TEMPLATE = """
             if (inChatMode) return;
             inChatMode = true;
             document.body.classList.add('chat-mode');
+            const disc = document.createElement('div');
+            disc.className = 'chat-disclaimer';
+            disc.innerHTML = '<span class="disc-icon">⚠️</span><span>This tool provides AI-generated summaries from recorded MDS sessions. Responses may be incomplete or inaccurate. This is not professional, legal, or financial advice. Always verify information and use your own judgment.</span>';
+            chat.appendChild(disc);
             chatInput.focus();
         }
 
@@ -692,7 +736,8 @@ HTML_TEMPLATE = """
             const videoLink = src.video_url
                 ? `<a class="video-link" href="${src.video_url}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>Watch</a>`
                 : '';
-            return `<div class="source-item"><span class="speaker">${speaker}</span>${meta ? `<span class="meta">${meta}</span>` : ''}${videoLink}</div>`;
+            const safeName = speaker.replace(/"/g, '&quot;');
+            return `<div class="source-item"><span class="speaker-link" data-source="${safeName}" onclick="summarizeSource(this.dataset.source)">${speaker}</span>${meta ? `<span class="meta">${meta}</span>` : ''}${videoLink}</div>`;
         }
 
         function addMessage(text, type, extra) {
@@ -789,6 +834,12 @@ HTML_TEMPLATE = """
             if (!question) return;
             chatInput.value = '';
             doSearch(question);
+        }
+
+        function summarizeSource(name) {
+            const query = 'Summarize the full conversation and key takeaways from the MDS session: ' + name;
+            chatInput.value = '';
+            doSearch(query);
         }
 
         landingInput.focus();
