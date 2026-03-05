@@ -4,7 +4,9 @@ Retrieves relevant chunks from the vector store and generates answers with citat
 Uses Claude (Anthropic) for LLM, OpenAI for embeddings.
 """
 
+import json
 import sys
+from pathlib import Path
 
 from langchain_anthropic import ChatAnthropic
 from langchain_community.vectorstores import Chroma
@@ -17,18 +19,64 @@ import config
 
 console = Console()
 
+# Month name lookup for date formatting
+_MONTH_NAMES = {
+    "01": "January", "02": "February", "03": "March", "04": "April",
+    "05": "May", "06": "June", "07": "July", "08": "August",
+    "09": "September", "10": "October", "11": "November", "12": "December",
+}
+
+
+def format_date_display(date_str: str) -> str:
+    """Format a date string into readable 'Month Year' format.
+
+    Handles:
+        '2025-06-13' → 'June 2025'
+        '2025-06'    → 'June 2025'
+        '2025-01'    → 'January 2025'
+        '2025'       → '2025'
+        ''           → ''
+    """
+    if not date_str:
+        return ""
+    parts = date_str.split("-")
+    if len(parts) >= 2:
+        year = parts[0]
+        month = _MONTH_NAMES.get(parts[1], parts[1])
+        return f"{month} {year}"
+    return date_str
+
+
+def clean_source_name(name: str) -> str:
+    """Strip file extensions and clean up source display names.
+
+    '1. Josh Hadley_otter_ai.txt' → '1. Josh Hadley_otter_ai'
+    'Mogul Call with Adam Weiler.txt' → 'Mogul Call with Adam Weiler'
+    """
+    if not name:
+        return name
+    # Strip common extensions
+    for ext in (".txt", ".md", ".vtt", ".srt", ".pdf", ".pptx"):
+        if name.lower().endswith(ext):
+            name = name[: -len(ext)]
+    return name
+
+SEARCH_LOG = Path(config.DATA_DIR) / "search_log.json"
+TOPICS_CACHE = Path(config.DATA_DIR) / "topics_cache.json"
+
 SYSTEM_PROMPT = """You are the MDS Knowledge Assistant, an AI that answers questions based on Million Dollar Sellers (MDS) content including video transcripts and presentation decks.
 
 RULES:
 1. ONLY answer based on the provided context. Do not use outside knowledge.
 2. If the context does not contain enough information to answer confidently, say: "I don't have enough information in the knowledge base to answer this confidently."
-3. Always cite your sources. For each claim, reference the source document and timestamp/page/slide if available.
+3. When referencing a speaker, mention their name naturally in your answer (e.g. "According to Ian Sells..." or "Yuri Dimitrov discussed...").
 4. Be concise and direct.
 5. If the question is ambiguous, state your interpretation before answering.
+6. Do NOT include a "Sources:" section at the end of your answer. Source citations are handled separately by the UI.
 
 FORMAT:
-- Give a clear, direct answer
-- Follow with "Sources:" listing the documents you referenced
+- Give a clear, direct answer referencing speakers by name
+- Do NOT list sources at the end — the system displays them automatically
 """
 
 USER_PROMPT_TEMPLATE = """Context from the MDS knowledge base:
@@ -38,7 +86,7 @@ USER_PROMPT_TEMPLATE = """Context from the MDS knowledge base:
 
 Question: {question}
 
-Answer based ONLY on the context above. Cite sources."""
+Answer based ONLY on the context above. Reference speakers by name when relevant."""
 
 
 def get_vectorstore():
@@ -54,8 +102,16 @@ def format_context(docs_with_scores: list) -> str:
     parts = []
     for i, (doc, score) in enumerate(docs_with_scores, 1):
         meta = doc.metadata
-        source_info = f"Source: {meta.get('source', 'Unknown')}"
+        source_name = clean_source_name(meta.get("source", "Unknown"))
+        source_info = f"Source: {source_name}"
 
+        speaker = meta.get("speaker", "")
+        if speaker:
+            source_info += f" | Speaker: {clean_source_name(speaker)}"
+        if meta.get("event"):
+            source_info += f" | Event: {meta['event']}"
+        if meta.get("date"):
+            source_info += f" | Date: {format_date_display(meta['date'])}"
         if meta.get("timestamp_start"):
             source_info += f" | Timestamp: {meta['timestamp_start']}"
         if meta.get("page"):
@@ -129,9 +185,17 @@ def ask(question: str, verbose: bool = False) -> dict:
 
     # Check confidence threshold
     if avg_confidence < config.CONFIDENCE_THRESHOLD:
+        seen = set()
+        low_sources = []
+        for doc, _ in docs_with_scores:
+            m = doc.metadata
+            sp = clean_source_name(m.get("speaker", "Unknown"))
+            if sp not in seen:
+                seen.add(sp)
+                low_sources.append({"speaker": sp, "date": format_date_display(m.get("date", "")), "event": m.get("event", ""), "topic": m.get("topic", ""), "type": m.get("type", ""), "source": clean_source_name(m.get("source", ""))})
         return {
             "answer": "I don't have enough information in the knowledge base to answer this confidently. The most relevant content I found doesn't closely match your question.",
-            "sources": [doc.metadata for doc, _ in docs_with_scores],
+            "sources": low_sources,
             "confidence": avg_confidence,
             "chunks_used": len(docs_with_scores),
         }
@@ -153,12 +217,108 @@ def ask(question: str, verbose: bool = False) -> dict:
     chain = prompt | llm
     response = chain.invoke({"context": context, "question": question})
 
+    # Build deduplicated, enriched source list (clean names, format dates)
+    seen_speakers = set()
+    enriched_sources = []
+    for doc, _ in docs_with_scores:
+        meta = doc.metadata
+        speaker = clean_source_name(meta.get("speaker", "Unknown"))
+        if speaker in seen_speakers:
+            continue
+        seen_speakers.add(speaker)
+        enriched_sources.append({
+            "speaker": speaker,
+            "date": format_date_display(meta.get("date", "")),
+            "event": meta.get("event", ""),
+            "topic": meta.get("topic", ""),
+            "type": meta.get("type", ""),
+            "source": clean_source_name(meta.get("source", "")),
+        })
+
     return {
         "answer": response.content,
-        "sources": [doc.metadata for doc, _ in docs_with_scores],
+        "sources": enriched_sources,
         "confidence": avg_confidence,
         "chunks_used": len(docs_with_scores),
     }
+
+
+def track_search(query: str):
+    """Track a search query for popular searches."""
+    log = {}
+    if SEARCH_LOG.exists():
+        try:
+            log = json.loads(SEARCH_LOG.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    key = query.strip().lower()
+    if len(key) < 3:
+        return
+    log[key] = log.get(key, 0) + 1
+    SEARCH_LOG.write_text(json.dumps(log), encoding="utf-8")
+
+
+def get_popular_searches(limit: int = 6) -> list[str]:
+    """Return most searched queries."""
+    if not SEARCH_LOG.exists():
+        return []
+    try:
+        log = json.loads(SEARCH_LOG.read_text(encoding="utf-8"))
+        sorted_q = sorted(log.items(), key=lambda x: x[1], reverse=True)
+        return [q for q, count in sorted_q[:limit]]
+    except Exception:
+        return []
+
+
+def extract_topics() -> list[str]:
+    """Extract main topics from the knowledge base using Claude. Cached to file."""
+    if TOPICS_CACHE.exists():
+        try:
+            topics = json.loads(TOPICS_CACHE.read_text(encoding="utf-8"))
+            if topics:
+                return topics
+        except Exception:
+            pass
+
+    key_error = check_api_keys()
+    if key_error:
+        return []
+
+    vectorstore = get_vectorstore()
+    collection = vectorstore._collection
+    if collection.count() == 0:
+        return []
+
+    # Get a diverse sample of chunks
+    results = collection.get(limit=30, include=["documents"])
+    sample = "\n---\n".join(results["documents"][:15])[:6000]
+
+    llm = ChatAnthropic(
+        model=config.LLM_MODEL,
+        temperature=0,
+        anthropic_api_key=config.ANTHROPIC_API_KEY,
+    )
+
+    try:
+        response = llm.invoke(
+            "Analyze these business mastermind session excerpts and extract 8-10 main TOPICS discussed. "
+            "Return ONLY a JSON array of short topic phrases (2-5 words each). "
+            "Focus on actionable business topics and strategies — NOT speaker names.\n\n"
+            f"Example: [\"Exit Planning\", \"Amazon PPC\", \"Supply Chain Strategy\"]\n\n{sample}"
+        )
+        # Extract JSON from response (handle markdown code blocks)
+        content = response.content.strip()
+        if "```" in content:
+            content = content.split("```")[1]
+            if content.startswith("json"):
+                content = content[4:]
+            content = content.strip()
+        topics = json.loads(content)
+        TOPICS_CACHE.write_text(json.dumps(topics, indent=2), encoding="utf-8")
+        return topics
+    except Exception as e:
+        console.print(f"[dim]Topic extraction failed: {e}[/dim]")
+        return []
 
 
 def interactive():

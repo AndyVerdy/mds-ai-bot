@@ -1,0 +1,74 @@
+Speaker 1  00:05
+Okay, you know me Ibo. I've been an MBA since 2023 and going for a new conference, which actually been e commerce since 2015 I'm an MBA mechanical engineer. I have two boys five minutes. So I want to talk about your first day. You, probably all of you are familiar with your first it's Amazon's name, AI power shopping assistant. It is built to answer natural language questions. It's designed to interpret customer intent, so it can show very blanket to people who are, you know, looking for maybe sleeping supplements. Also, I'm going to be talking about like the steps that we are taking to optimize refus. Refus matters because Amazon is clearly shifting from keyword Batch Search to semantic search, and these things need to evolve, to stay visible, but to keep waiting, to use reference initially first, may have struggled with accuracy, but it has been paying traction. There are predictions, which is suggested by early next year, times 25 a person of Amazon service could be conducted by Rufus. So soon, people may start searching inside Rufus box. What is the best lunch box to keep food fresh order for picky best, versus just like insulated Matchbox for kids. So this shift from keyword to insight, it is important to use non phrase optimization, which focuses a lot on detailed descriptive the detailed descriptive word already, which helps optimize these things for inference, which is mapping product features to customer insight to outcomes to use cases. The best place to start is kind of like scraping all the queries from your listing and competitions listing, and also start mapping those inferences, APIs, additionally sharing out to custom shared GPT, who does that? Which are great tools that will be using. So basically, we need to include custom income in bullet points in a plus content or the you know, creatives. We also need to put complete optional background attributes to help us understand product better. So let's take a look at an example for Rufus optimized bullet screen. Notice how is, you know, putting all the most common use queries from Rufus. So this is a large box example. Is it leak proof? Is it suitable for young children to open and close? Are first replaceable those you know, installation key footwork versus the old way. It's just kind of like getting those keyword spaces for SEO optimization. This is not so. Yes, let's drop all of that altogether, but we need to be more mindful of using those descriptive languages to pick Rufus in our list also now Rufus is only from the listing copy and the reviews, but also from creators. I actually have a loom here that I like is gonna So basically here the customer clicks on, for example, are they comfortable for long listening sessions. Rupert does his, you know, background work, post some text. But he also posts that created from the listing is still like 50 star listening time is it does that noise cancelation. Similarly, again, it posts, it looks at the listing and pulls the, you know, the image that has noise cancelation. So here, basically we need to where's my presentation. Okay, perfect. So basically we need to make our images talk to customers. This is where our listing
+
+Speaker 1  04:01
+and for FAQ, basically, Barbie rd is combining most common queries in Rufus together with the customer FAQ and adding that to secondary music. That doesn't only include Rufus, but you also improves, obviously, you know, conversion rate value as your customer Christmas advice. And finally, purposes, you know, evolving all the time. Interact with your listing. Everybody care better. You see what changed, and then go back and you'll keep optimizing. So everything that we talked about, moving it from keyword stuff into more natural language, being to place more ideas on the problem, solution and use cases critics are really important means to make sure that you know those speak to Rufus as well and adding FAQs to our listing. So this is the first one. This is by our PPC ninja. Basically, when you upload the Rufus, it comes with a suggested FAQ, also high inside keywords that you can use on your listing. And the second one is for influence benefit, basically max product features to user centric value propositions that you can use to manage listing. Also it helps Rufus, you know, answer Cosmos questions with those inferences. And you know, when you When listing flows more like a question answer type of flow, it is very helpful. Rufus. May, you know, make it more visible. So I have, and I'm just curious, like, what you guys are doing in the light of, like, you know, changes,
+
+Speaker 2  05:32
+yeah, yeah. So I just went through this process because watching two new products, one just launched, and we basically had trained a GPT, or I've done both. I've trained GPT on Rufus and Cosmo, and then use the custom GPT that was already trained on Rufus and Cosmo. And I think now with like, version 4.5 out, I think it's actually better to just train, train your own, yeah, yeah. But with and yeah, like the so after you train it with all all, like, your customer reviews and customer product details, then you can ask it to create semantic based bullet points and and descriptions. And it's way different. It's so much different. But I don't know, like, how well it works yet.
+
+Speaker 1  06:18
+That's the thing, right? I never also, like, in the process of you backing off. Our listing, but it is first, really hard to measure, yeah, exactly, you know, like, exactly all the variables. And second is still new. So, yeah, the best thing we can do is be ready. Yeah, when
+
+Speaker 3  06:35
+you create the listing, do you create a specifically for Rufus or creative, where your normal way optimizes for the
+
+Speaker 1  06:40
+I think it has, it has to be both right now, because you cannot drop the SEO keyword is your altogether. I think everything is still working that way, but,
+
+Speaker 3  06:50
+but you don't know which Amazon can use. So basically, prepare for both variations and whatever.
+
+Speaker 1  06:56
+I don't think it has to be one or the other. You can still have those, all those that
+
+Speaker 4  07:06
+keepers Ruth is suggesting haven't played it. Is it suggesting, like the common questions that people have wanted to be listening, yeah, so you're, are you scraping that? Are you just,
+
+Speaker 1  07:17
+um, there was another song that I didn't put here. That was done by Rita as well. I saw that. I gave this, that to my VA, he's using that. But then I tried it numerous. I didn't want to put it here. But there's also the screen I was responding to, read to as well. In the LinkedIn I saw that, yeah. I mean, I was in our presentation, prosper. It was a nice presentation. And my view is using that,
+
+Speaker 4  07:43
+because you're scraping all the basic questions, and then you're making sure you're listing the answers, yeah, yeah. Are you checking the questions against all the other competitors to see what titles they have? That's also to combine them all and make sure you have everybody's questions
+
+Speaker 1  07:58
+across everything. Are they saying my VA, like, pretty difficult, all the questions, all, you know, tough time competition and everything that we have, and then basically, like, uh, kind of a given number for each how many times it's repeated. Like, come up with the most used questions and add that as an FAQ to understand. And then, obviously, we meetings regular, honest thing to make sure whatever answering all the questions, not just from every spot, from listening, but now that I think that pulling from critics is really new, right last week, or something.
+
+Speaker 4  08:29
+So those creators like showed up, was that? Was that a clip of the Creator that was already on the listing? Or did they make
+
+Speaker 1  08:34
+that it's already in the listing? It's already it's pulling from the secondary images?
+
+Speaker 4  08:38
+Okay, so it is pulling out 15 hours. Was a little screenshot
+
+Speaker 1  08:42
+of, Yep, exactly. It's not doing anything from the a plus content yet, or, I don't see it. It's probably because a plus content is, like, you know, it's not very uniform when it comes to size and, you know, format and everything. It's only coming from the secondary images. That's why, like, also, it's very powerful, not just in the first example that I showed it was, let's go back. So basically, this one, yes, explain the image, but like, there is no wording in it. But when there is, like, the actual wording, you know, like, you know, 50 hours of listening, it's much more powerful. Yeah, you're answering the Constitution.
+
+Unknown Speaker  09:20
+There's no more Q A section, right? Is that gone? It's
+
+Unknown Speaker  09:22
+not visible.
+
+Speaker 2  09:26
+Search like, there's like, the one search bar in the middle of a product, detail, search, search there. But then you have to click like, a specific tab. Yeah.
+
+Speaker 1  09:39
+Actually, yeah, yeah. So, yeah. I mean, this is like, I think I also, like, this is also quite new, like, it wasn't better, you know, on the homepage, so there is getting more and more visibility. Yeah,
+
+Speaker 2  09:53
+I wanted to ask too. So I, I was for these new listings. I was going between whether that i. Um, just use a visual creative or put the FAQ in there. And I opted for visual creative because I in my mind, like I didn't think people were actually going to read through the questions. Yeah, but now it puts in a little different perspective, knowing that Rufus, so you're sure Rufus is going to scrape the a plus content Q, A, A
+
+Speaker 1  10:18
+plus content Q, a, I'm not positive yet, but it definitely spills into it, yeah? But, I mean, I think the most important one here is, you know, is basically like, let's say top five queries across, you know, all the products I'm trying to answer those in the secondary
+
+Unknown Speaker  10:39
+methods, yeah? And let's okay, we can add,
+
+Speaker 4  10:45
+yeah, yeah. You can also, like, if you know the top questions, it says pointless images, you can literally make one graphic of, like, you know, 50 hours, yeah, two battery life, you know, 17 charges. Like, and how exactly they could just, like, clip it, make it easy for a Rufus to clip it out, yeah, and understand the imagery, right? Because you do that, yeah, it's cool. Oh.
+
+
+Transcribed by https://otter.ai

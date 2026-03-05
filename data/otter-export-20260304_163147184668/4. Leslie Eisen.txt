@@ -1,0 +1,110 @@
+Speaker 1  00:05
+So I'm Leslie. I have a skincare business called almond clear. We've been selling on Amazon and Shopify for eight years. I always have been making a big push to build our Shopify site. It's kind of been a slow but steady process, because Amazon will shut our skincare business down. It used to be like, every six months they'd label us as a pesticide and shut us down, and that made, you know, I just couldn't, can't stand that. So it always seemed really important to me to have an insurance policy with Shopify. So, um, so small but growing business. We're about to do 2 million this year, I hope. And yeah, there's some things that I have figured out how to do that we have figured out how to do as like a problem solution product. Our skin, we only have five SKUs. We have some size variations, but so we're doing, you know, around 2 million with those five SKUs. And the people who are looking for us are very problem solution oriented, like they they're not customers who just want to make their skin look like 5% better by finding the latest and greatest skincare products they have, like acne and folliculitis and keratosis Polaris and issues like that. And they want to find a solution for it. It's almost it's more like a prescription in some ways. And so they're searching. There may be a little different than how you guys as customers find you like they're doing, like a deep dive kind of search to look for the solution, and they're looking on Google, on Amazon, on Reddit, skincare forums. They're not like the way they discover us is not well. Now they're actually finding us on Tiktok a lot through Tiktok shop, but historically it's been through Google. So this is how so the problem is, is like, how do we talk? We only have five SKUs, but we're trying to sell our products to people with a lot of different skin concerns who want, like, very specific information about how our products will work for their skin, and so we have to try to talk to a lot of people at once, but only like for one product we might be trying to sell to like, four or five different groups. So how do we do that without sounding like we're selling snake oil and just saying that our product can do every single thing? So this is how we do it. So the number one thing that has driven results for us is creating duplicate product listings on Google Shopping. So our like, for example. I don't know if you guys can see this, but this product is actually called the level two exfoliating serum, but we create these are a few of the different duplicates that we create, like body folliculitis treatment, but acne treatment, fungal acne treatment. So we look for highly relevant, like very niche search terms and create additional Shopify listings for those and we tail it's like landing pages. We basically create basic landing pages through Shopify for every product, for things that we think people will click on, that will be very relevant to them, and that's a big part of how we get people to our site. Here's another example. You can see that these both rank number one for, like, folliculitis treatment. This is you may not have heard of this, but this is, like, a huge it's a very common skin concern. It's like acne, but it's an infection in the hair follicles. And then, I know it's a funny thing, but, but acne is a major problem that a lot of people have that you probably wouldn't know about, but we are able to be in that number one spot often or always in the top three by having those duplicate product listings. It really improves our click through rate. It improves our ranking, our and we generally we don't do branded search terms, but we our minimum ROAs is 2.2 so we're usually between 2.2 and 2.4 by having this strategy, it just brings us very relevant traffic that's like highly motivated to purchase read those listings. Yeah. So these are hidden, yeah, okay, let me explain a little more how we do it. So these are products that these are all in Shopify, and they're hidden, yeah, you can't find them on our website. You can only find them through our ads. So if you go to. Our Website, you would, you would just see our main listing. These are not listed on our website, so it does create a little bit of an like, so I don't have it on. Are they cheaper? No, are they discounted? No, what's the purpose? Okay, so, like, the name of this product is the level two exfoliating serum. If I say I'm looking for a butt acne treatment, if I saw an ad that said level two exfoliating serum, I'm not sure that that's relevant to me. I don't know that that's what I'm looking for. I'm
+
+Speaker 2  05:36
+like naming naming conventions. So there's multiple listings for different
+
+Speaker 1  05:43
+so the purpose is multiple like it. It tells the customer, this is something I'm looking for. Like this is what I'm looking for. It's super relevant to them. And it we have a very high conversion rate, and so Google ranks it in the top. We're always in the top three. We're usually in the top we're usually the number one spot for our choice terms,
+
+Unknown Speaker  06:07
+how many dupe would you have on that one brought
+
+Speaker 1  06:09
+our third we have like, which we're here. We are always, we're always trying different ones. Like, these are some of our current ones. We have like, five or six. So we try different variations, like almond clear butt folliculitis treatment, almond clear butt acne treatment, almond clear butt acne and folliculitis treatment like you have to experiment a lot. Butt acne treatment like you have to we play around with different ways of phrasing it. And these are the like. This is just from recent experiments like we've done, about 80,000 in sales. This is just from people who clicked on the ad and purchased because if they, if they go off of these lists, if they go off of the listing to our site, they the it's they, the only way they can get back here is by using the back arrow navigation. So if they purchase on our site, they're going to be purchasing the main product. Does that I could? Like, does that make sense? Like, okay, so these are just like people who purchase directly off of the ad. So the what we've learned works best is products that are most aligned with like or listings that are most aligned with the true value of the products and are supported by other pages on our website like you can't just you might get tempted when you go and start doing keyword research, be like, Oh, that could work. That could work. Oh, that's relevant. Oh, that's kind of relevant. But it has a huge search volume, it has to be, like, truly relevant to the rest of the your website, and the copy on your website and the value that you're promoting on your website, if you're if it's not actually, if they they need to be able to look at your website to find supporting documentation, like, for example, this natural acne treatment. Our advertising guys got really excited because they were like, you're you have a natural acne treatment. This has a huge search volume. Let's do it. And it didn't work at all. We only in this experiment like we made for less than $400 because it wasn't like we would have needed to really change the copy on our website and our like sales proposition to actually convert that traffic. Yeah, you just have to do a lot of experimentation, but that's how we're able to use Google Shopping to like, have a row, as always above, 2.2 and to bring very like niche, highly motivated traffic to our site. You do more Google Shopping or search. We only do Google Shopping. Well, no, we do Google I take that back. Most of our the by far the best converting ads or shopping we don't do like p max anymore at all. We were finding that the ROAs was really like, Yeah, we were just having trouble with p max, so we cut that out entirely. And this is our biggest this is the way that we convert people. The most is through Google Shopping. It's very easy to create these duplicate listings. You can just use the like a Shopify product page, and we change our before and after pictures. We change the copy to make it amazing.
+
+Speaker 3  09:46
+Allow the duplicate product. What was that amazing? They don't allow duplicate product, same product. You cannot list it towards on Amazon. Yeah, yeah. No, how about here is? It's okay legally, yeah. So. UPC, same UPC.
+
+Speaker 1  10:03
+We've been doing this for about 18 months. We've never, we have never had any issues with it. A lot of times I could have taken a screenshot. Something that is kind of cool is that these will show up, like we'll be in the number one, two and three. Sometimes I think one of the one of these images, oh, here's a here's another one of our products. So like, sometimes we'll show up twice. Like, if you can fill more of these spaces, you have more of a chance of converting to and so that's another added bonus for this.
+
+Unknown Speaker  10:41
+And, yeah, does that make sense? Do you
+
+Unknown Speaker  10:44
+guys have the image also same, or
+
+Speaker 1  10:48
+the image is the same? The image is exactly the same. So I think I said in this things to be aware of, yeah, something you have to be aware of is that customers, when you, if you do this strategy, once they navigate away from the ad and they they start looking at the rest of your site, if they go back to that product, they're going to go to the main product. And so for like, it's amazing how many people don't care. They're just like, oh, okay, well, this is product has a slightly different name. They don't notice, but it does have a different name. And when they purchase the product, it's not going to say, like, folliculitis treatment, it's going to say level two exfoliating serum. We've literally only had two or three people ever reach out and say, Wait, this is this doesn't have the name. And we just say, oh, yeah, we it just has a different name for advertising purposes. It's the same. You know, it doesn't end up being a big deal for us, but it is something to be aware of. So that's, for us, a great way to get customers, very highly motivated, niche customers. And then these are a lot of other little things that add up to big wins. Oh, this is just we did a lot of conversion rate optimization work. We worked with a great agency to do that, and we just found that, like, very short bullet points that that mentioned the skin concerns that we were advertising for convert much better than like, long paragraphs. You really want to keep things short and concise. This was a big thing for us. I don't know if you guys know if your reviews app has a search bar. Do you guys? Do you guys know if you're if you can search your reviews, because you really want to be able to like this is for niche people like folliculitis treatment, red spots on arms, whatever, like this instantly makes your reviews applicable to people. We just asked a kendo if they could add that for us, and they did it for free. It's not if you use a kendo. It's not a standard thing, but we did that. Yeah, they were nice enough to do that for us for free, and that just makes your reviews so much more usable for people who want to make sure that your product is going to work for them. Investing in really diverse UGC We recently worked with like an agency to help us to understand why people buy from us, what makes them get over the finish line into purchasing. And they were like, I want to know that your product, like, works for me, for my type of person, and when I see UGC that looks like me, or that has the skin concern that I have, like, that's what really convinced them. And so making sure, like, taking a critical look at your UGC and making sure that it like, you know, represents people by age or type of decor, I don't know what would be for you guys as business gender, and trying to see, like, how you could flesh out your UGC to make it more relevant to people. It really does matter to them that it looks like them. We've had a lot of luck with making relationships with key like bloggers for backlinks. We've noticed that like people who are in the skincare space, who are already talking about our skin care problems, if they recommend our products, we make, you know, 1000s of dollars of, you know, many I don't, I haven't looked at it recently, but a lot of money off of these backlinks. But we paid a PR agency last year. I don't know if you guys have had any luck with PR, but we paid a PR agency to create backlinks for us on non like relevant sites, and it did absolutely nothing like it has to be in your niche. But these are really worthwhile for us. We had to reach out to people many times repeatedly to get them to. To answer our emails. But yeah, the backlinks were really helpful. Reddit has been really helpful for us. You can see, like, this is a recent grab of where our traffic is coming from, and we have more people from this time period from Reddit than from Instagram. I could tell you, like, if anybody's interested, I could tell you, this is just a brief, you know, a brief synopsis of how to start interacting on Reddit. You have to be really careful about how you do it. You can't just get on there and start trying to sell your products. You first, you have to, like, create value in the community by giving advice, and, you know, just interacting with people, and then slowly you can start promoting your products, but you have to be upfront about, you know, we have our customer support person do this because they're most familiar with the kinds of questions people ask and how to answer them, but you want them to be honest that they work for the company. Don't try to, like, pull a fast one on Reddit, people will sniff that out, but we get a lot of traffic and a lot of sales through Reddit. And then, before launching on Tiktok shop, I would recommend like creating very niche, targeted content. It's really easy to do educational carousels, if that applies to your brand, like, we have a lot of carousels, like, three signs your acne is actually folliculitis and that create, that's good engagement. When people click through those carousels that that's time on screen, we do a lot of FAQs. These are really easy to you know, for people to these are easy content to create, and then we were doing more and more that's like for specific audiences. Like we've learned especially that like black women, they want to see that the product will work for them. They don't believe that if they see, if they only are seeing white women in on your site, they're not going to believe that the product works for them, so we do a lot of carousels and stuff like that. And then we found that Tiktok affiliates have really helped us to figure out what additional niches we can go into like we never would have known that certain groups would love our products and use them like these women are talking about using our products on the bikini area for ingrown hairs, and I kind of knew that the products would work well for that, but, like, I can't, I don't have the authority to talk about that. I can't, I can't be the, you know, the spokesperson for that, but these ladies can, and so we've been able to break into new audiences that we, I mean, we kind of knew might be an option, but Tiktok has been awesome for that, for like, oh wow, gosh, now all of a sudden we have credibility, and we're making sales in niches that we never knew we could do that in, and then we can take that and create those duplicate shop, Shopify listings for those niches and kind of expand our market. So I think that was kind of short, but this is like how we create a relevancy with only five SKUs in a lot of different audiences, is by those duplicate listings and then those other tactics
+
+Unknown Speaker  18:26
+that I mentioned. I don't know if anybody has any questions.
+
+Speaker 4  18:30
+How do you find the bloggers they're reaching out to? Is it just like your own research?
+
+Unknown Speaker  18:35
+Yeah, just having people do research into, you know, with keyword, keyword research
+
+Speaker 1  18:44
+for us, it was pretty obvious, like people in our space, these are the main like, there's, there's maybe 10 blogs that are the main ones. Yeah. I mean, some of that, we've reached out to other ones and never had any luck. But we have to offer. We offer a 10% commission for sales that come from those, those blogs, which is fine. I mean, it's no problem. One of the guys, we just pay $90 a month now because we didn't want to keep using a reversion. I don't like to have a discount codes out there that are not, you know, because you end up giving sales commissions to things that didn't even come from there. So I'm trying to get off of using reversion. But yeah, we moved to a flat fee for for some of them. Do you do subscription? Yes. So, because we have a 30, over 30% repurchase rate, so we definitely do subscriptions, we have, like a, honestly, I think, about 1000 subscriptions a month between Amazon and Shopify. Uh, that's a, I mean, we're consumables, so recharge has been great for subscriptions. They're the easiest thing to use by far. I don't know why you wouldn't, I just wouldn't use recharge. Yeah, and we promote subscriptions really heavily through our email marketing. I mean, we just kind of do, I feel like, I think there are, every once a while, there's a hack that really works, like Tiktok shop, you know, is something that actually seems like it's really moving the needle really quickly, but my experience has just been with Shopify, that like doing the right thing, and I don't know, being intentional about things. Just over time has built our business. I'm
+
+Speaker 2  20:45
+just looking at your site here. You've been going through, I see that you don't have shop pay. And we do, do you? Yeah? Let's just not meet up on the PDP then,
+
+Unknown Speaker  20:57
+yeah, we use shop pay.
+
+Unknown Speaker  20:58
+You got after pay, because shop pay has been working really good for us.
+
+Unknown Speaker  21:07
+The purple button, yeah,
+
+Unknown Speaker  21:10
+you don't see it on your digits, and
+
+Speaker 5  21:12
+you don't see it on there. I'll have to look into that. See here.
+
+Speaker 2  21:19
+Wonder if something don't think you've got after pay. Well, I don't know it's got the shop purple logo up here. It must, because all my information came
+
+Speaker 5  21:27
+up. Yeah, I'm, like, I'm, I'd be worried if it wasn't
+
+Speaker 2  21:34
+buttercream Kelvin care. Yeah, that's, that's been a big win for us. Like, I've been watching, and it's like, I think people are lazy. Like, for sure, my information, like, Oh, yes. Oh,
+
+Unknown Speaker  21:45
+maybe so easy. Oh, you want to, you want them to check out as quick as possible? I'm definitely
+
+Speaker 2  21:50
+curious. Like, maybe for everybody, like, what about buy with prime? What's everybody think about that? That's something they haven't
+
+Speaker 1  21:58
+it's for us, it's just more well. I mean, it actually, it used to be more expensive now. Now it's about the same as our three PL we didn't used to do it because of the cost, but I might consider it now I don't like, I don't trust Amazon with our inventory. I like to keep as much of our inventory out of Amazon's hands as possible, but
+
+Speaker 4  22:17
+I don't know. Yeah, for brands like ours, where most of our inventory is still with Amazon, like, it has its appeal, but my biggest challenge is, like, the upsell functionality, crap, yeah, yeah. Like, non existent. I want to be able to bundle and group things. Yeah, it is so like, oh, you can buy this one product and right, that's my challenge, yeah. Like, we, we've got a VA
+
+Speaker 2  22:45
+going through and logging each one of our orders on Amazon to do fulfillment fees and look at all that. And I'm like, You know what? That five bucks an hour, just do them all right? And then we went, and we took a look at, like, Okay, if we do a three PL, what does it cost to do those same orders, and it's like 35% really, it's 35% what cheaper to do it, or the third three PL and to have somebody else 1% cheaper to do it? A tactical and we're gonna get a really good three PL situation, yeah. What's the three people again? Third party, I did like somebody else shipping for you your warehouse, and you found it, did he say 35% from it versus Amazon, donor, space and location, is it right? Yeah, shipping cost change. So what you just took the average, or all the I just added them all up, and then average everything happened. It was like 33% cheaper, and then you don't, and then we, you don't have your own guys shipping. No, I'm done with that. We used to have a 12,000 square foot warehouse and all those people like, and you say, when I go to 30, oh, I mean, it's like, you got to look at everything, like, what's your overhead? Like, I we closed down our Portland Place and we saved $20,000
+
+Speaker 1  23:50
+you're not gonna three working with the three pill is not cheap. Like, I don't, I don't know. Like,
+
+Speaker 5  23:56
+yeah, you never have to think about but, yeah, it's just way easier. Like, it's
+
+Speaker 6  24:02
+all, yeah, so, like, I love Amazon, so I literally would never see my products. I was just a marketer. I don't care. I don't, you know, taxable, but you know how many freaking rows are taking up years per hour? I was like, I have no clue. And I've said, I've said, you could be I mentioned container. I don't know what it looks like. Yeah. Like, it's not my job. I've seen pictures of them. I don't, you know, it's nice to never see your products.
+
+Speaker 5  24:24
+Yeah, I don't want to. I don't want to see our products.
+
+Speaker 7  24:27
+Probably, it probably makes sense. And more,
+
+Unknown Speaker  24:31
+yeah, pretty big
+
+Speaker 7  24:33
+we had. D are you guys shipping your own stuff? Then we have our camera guys shipping On days off. I mean, it's kind of a crazy crew,
+
+Speaker 3  24:41
+but, like it kind of is getting down. But, I mean, at some point I.
+
+
+Transcribed by https://otter.ai

@@ -3,12 +3,13 @@ MDS AI Bot — Web UI + Embeddable Widget API (Flask).
 - Full chat UI at /
 - Embeddable widget JS at /widget.js
 - API at /api/ask (CORS-enabled for embedding on any site)
+- API at /api/suggestions (topics + popular searches)
 """
 
 import os
 from flask import Flask, render_template_string, request, jsonify, make_response
 from flask_cors import CORS
-from query import ask
+from query import ask, track_search, get_popular_searches, extract_topics
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}})
@@ -20,122 +21,124 @@ WIDGET_JS = """
 (function() {
   var API_URL = '{{API_URL}}';
 
-  // Inject styles
   var style = document.createElement('style');
   style.textContent = `
     #mds-widget-toggle {
       position: fixed; bottom: 24px; right: 24px; z-index: 99999;
-      width: 56px; height: 56px; border-radius: 50%;
-      background: linear-gradient(135deg, #3b82f6, #6366f1);
-      border: none; cursor: pointer; box-shadow: 0 4px 20px rgba(59,130,246,0.4);
+      width: 48px; height: 48px; border-radius: 50%;
+      background: #18181b; border: none; cursor: pointer;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.15);
       display: flex; align-items: center; justify-content: center;
-      transition: transform 0.2s;
+      transition: transform 0.15s;
     }
-    #mds-widget-toggle:hover { transform: scale(1.08); }
-    #mds-widget-toggle svg { width: 28px; height: 28px; fill: white; }
+    #mds-widget-toggle:hover { transform: scale(1.06); }
+    #mds-widget-toggle svg { width: 22px; height: 22px; fill: white; }
     #mds-widget-panel {
-      position: fixed; bottom: 92px; right: 24px; z-index: 99999;
-      width: 380px; max-height: 560px; border-radius: 16px;
-      background: #0f172a; border: 1px solid #334155;
-      box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+      position: fixed; bottom: 84px; right: 24px; z-index: 99999;
+      width: 380px; max-height: 540px; border-radius: 0.75rem;
+      background: #fff; border: 1px solid #e4e4e7;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.12);
       display: none; flex-direction: column; overflow: hidden;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     }
     #mds-widget-panel.open { display: flex; }
     #mds-widget-header {
-      padding: 14px 16px; background: #1e293b;
-      border-bottom: 1px solid #334155; display: flex;
-      align-items: center; justify-content: space-between;
+      padding: 12px 14px; border-bottom: 1px solid #e4e4e7;
+      display: flex; align-items: center; justify-content: space-between;
     }
     #mds-widget-header h3 {
-      margin: 0; font-size: 14px; font-weight: 600; color: #e2e8f0;
-      background: linear-gradient(135deg, #60a5fa, #a78bfa);
-      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      margin: 0; font-size: 13px; font-weight: 600; color: #09090b;
     }
     #mds-widget-header .badge {
-      font-size: 10px; padding: 2px 8px; background: #1e3a5f;
-      color: #60a5fa; border-radius: 999px;
+      font-size: 10px; padding: 1px 6px; background: #f4f4f5;
+      color: #71717a; border: 1px solid #e4e4e7; border-radius: 999px;
     }
     #mds-widget-close {
-      background: none; border: none; color: #64748b; cursor: pointer;
+      background: none; border: none; color: #a1a1aa; cursor: pointer;
       font-size: 18px; padding: 0 4px; line-height: 1;
     }
+    #mds-widget-close:hover { color: #09090b; }
     #mds-widget-messages {
       flex: 1; overflow-y: auto; padding: 12px; display: flex;
-      flex-direction: column; gap: 8px; min-height: 200px; max-height: 380px;
+      flex-direction: column; gap: 10px; min-height: 200px; max-height: 380px;
     }
     .mds-msg {
-      padding: 10px 12px; border-radius: 10px; font-size: 13px;
-      line-height: 1.5; color: #e2e8f0; max-width: 88%; word-wrap: break-word;
+      font-size: 13px; line-height: 1.55; max-width: 90%; word-wrap: break-word;
     }
     .mds-msg.user {
-      background: #1e3a5f; align-self: flex-end;
-      border-bottom-right-radius: 4px;
+      padding: 8px 12px; background: #18181b; color: #fafafa;
+      border-radius: 0.5rem; border-bottom-right-radius: 0.15rem;
+      align-self: flex-end;
     }
     .mds-msg.bot {
-      background: #1e293b; border: 1px solid #334155;
-      align-self: flex-start; border-bottom-left-radius: 4px;
+      align-self: flex-start; color: #09090b;
     }
-    .mds-msg.bot .mds-conf {
-      margin-top: 8px; padding-top: 6px; border-top: 1px solid #334155;
-      font-size: 11px; color: #64748b;
-    }
-    .mds-msg.bot .mds-conf .hi { color: #4ade80; }
-    .mds-msg.bot .mds-conf .md { color: #facc15; }
-    .mds-msg.bot .mds-conf .lo { color: #f87171; }
-    .mds-msg.bot ul, .mds-msg.bot ol { margin: 4px 0 4px 16px; }
-    .mds-msg.bot p { margin-bottom: 6px; }
+    .mds-msg.bot ul, .mds-msg.bot ol { margin: 3px 0 3px 14px; }
+    .mds-msg.bot p { margin-bottom: 5px; }
     .mds-msg.bot p:last-child { margin-bottom: 0; }
-    .mds-typing { display: inline-flex; gap: 4px; padding: 4px 0; }
+    .mds-msg.bot strong { font-weight: 600; }
+    .mds-src-card {
+      margin-top: 6px; padding: 8px 10px; border: 1px solid #e4e4e7;
+      border-radius: 0.375rem; background: #fafafa; font-size: 11px;
+    }
+    .mds-src-card .src-label { color: #a1a1aa; font-weight: 500; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 4px; font-size: 10px; }
+    .mds-src-item { display: flex; gap: 6px; align-items: baseline; padding: 2px 0; }
+    .mds-src-item .speaker { font-weight: 500; color: #18181b; }
+    .mds-src-item .meta { color: #a1a1aa; font-size: 10px; }
+    .mds-conf-bar { display: flex; align-items: center; gap: 6px; margin-top: 6px; }
+    .mds-conf-track { width: 60px; height: 4px; background: #e4e4e7; border-radius: 2px; overflow: hidden; }
+    .mds-conf-fill { height: 100%; border-radius: 2px; }
+    .mds-conf-label { font-size: 10px; font-weight: 500; }
+    .mds-typing { display: inline-flex; gap: 3px; padding: 4px 0; }
     .mds-typing span {
-      width: 6px; height: 6px; background: #475569; border-radius: 50%;
+      width: 5px; height: 5px; background: #d4d4d8; border-radius: 50%;
       animation: mds-bounce 1.4s ease-in-out infinite;
     }
     .mds-typing span:nth-child(2) { animation-delay: 0.2s; }
     .mds-typing span:nth-child(3) { animation-delay: 0.4s; }
     @keyframes mds-bounce {
       0%,60%,100% { transform: translateY(0); }
-      30% { transform: translateY(-4px); }
+      30% { transform: translateY(-3px); }
     }
     #mds-widget-input-area {
-      padding: 10px 12px; border-top: 1px solid #334155;
-      background: #1e293b; display: flex; gap: 8px;
+      padding: 10px 12px; border-top: 1px solid #e4e4e7;
+      display: flex; gap: 6px;
     }
     #mds-widget-input {
-      flex: 1; padding: 8px 10px; background: #0f172a;
-      border: 1px solid #334155; border-radius: 8px;
-      color: #e2e8f0; font-size: 13px; outline: none;
+      flex: 1; padding: 7px 10px; background: #fff;
+      border: 1px solid #e4e4e7; border-radius: 0.375rem;
+      color: #09090b; font-size: 13px; outline: none;
     }
-    #mds-widget-input:focus { border-color: #60a5fa; }
-    #mds-widget-input::placeholder { color: #475569; }
+    #mds-widget-input:focus { border-color: #a1a1aa; }
+    #mds-widget-input::placeholder { color: #a1a1aa; }
     #mds-widget-send {
-      padding: 8px 14px; background: linear-gradient(135deg, #3b82f6, #6366f1);
-      border: none; border-radius: 8px; color: white; font-size: 13px;
+      padding: 7px 12px; background: #18181b; border: none;
+      border-radius: 0.375rem; color: #fafafa; font-size: 13px;
       font-weight: 500; cursor: pointer;
     }
-    #mds-widget-send:disabled { opacity: 0.5; cursor: not-allowed; }
+    #mds-widget-send:hover { background: #27272a; }
+    #mds-widget-send:disabled { opacity: 0.4; cursor: not-allowed; }
     .mds-welcome {
-      text-align: center; padding: 24px 12px; color: #64748b; font-size: 13px;
+      text-align: center; padding: 20px 12px; color: #71717a; font-size: 13px;
     }
-    .mds-welcome h4 { color: #94a3b8; margin-bottom: 4px; font-size: 15px; }
-    .mds-examples { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 12px; }
-    .mds-examples button {
-      background: #1e293b; border: 1px solid #334155; color: #94a3b8;
-      padding: 6px 10px; border-radius: 6px; cursor: pointer; font-size: 11px;
+    .mds-welcome h4 { color: #09090b; margin-bottom: 4px; font-size: 14px; font-weight: 600; }
+    .mds-topics { display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; margin-top: 10px; }
+    .mds-topics button {
+      background: #fff; border: 1px solid #e4e4e7; color: #52525b;
+      padding: 5px 9px; border-radius: 999px; cursor: pointer; font-size: 11px;
     }
-    .mds-examples button:hover { border-color: #60a5fa; color: #e2e8f0; }
+    .mds-topics button:hover { border-color: #a1a1aa; color: #09090b; }
     @media (max-width: 480px) {
-      #mds-widget-panel { width: calc(100vw - 24px); right: 12px; bottom: 80px; }
+      #mds-widget-panel { width: calc(100vw - 24px); right: 12px; bottom: 72px; }
     }
   `;
   document.head.appendChild(style);
 
-  // Build widget HTML
   var panel = document.createElement('div');
   panel.id = 'mds-widget-panel';
   panel.innerHTML = `
     <div id="mds-widget-header">
-      <div style="display:flex;align-items:center;gap:8px">
+      <div style="display:flex;align-items:center;gap:6px">
         <h3>MDS Knowledge Search</h3>
         <span class="badge">AI</span>
       </div>
@@ -144,17 +147,13 @@ WIDGET_JS = """
     <div id="mds-widget-messages">
       <div class="mds-welcome" id="mds-welcome">
         <h4>Search MDS Knowledge Base</h4>
-        <p>Ask about video transcripts &amp; presentations</p>
-        <div class="mds-examples">
-          <button onclick="window._mdsAskExample(this)">Exit planning strategies</button>
-          <button onclick="window._mdsAskExample(this)">Amazon seller tips</button>
-          <button onclick="window._mdsAskExample(this)">Who spoke about valuations?</button>
-        </div>
+        <p>Ask about talks, sessions &amp; presentations</p>
+        <div class="mds-topics" id="mds-topics-container"></div>
       </div>
     </div>
     <div id="mds-widget-input-area">
-      <input id="mds-widget-input" type="text" placeholder="Search MDS content...">
-      <button id="mds-widget-send">Ask</button>
+      <input id="mds-widget-input" type="text" placeholder="Ask a question...">
+      <button id="mds-widget-send">Search</button>
     </div>
   `;
   document.body.appendChild(panel);
@@ -163,6 +162,19 @@ WIDGET_JS = """
   toggle.id = 'mds-widget-toggle';
   toggle.innerHTML = '<svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/><path d="M7 9h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2z"/></svg>';
   document.body.appendChild(toggle);
+
+  // Load topic suggestions dynamically
+  fetch(API_URL + '/api/suggestions').then(r=>r.json()).then(function(data) {
+    var container = document.getElementById('mds-topics-container');
+    if (!container) return;
+    var items = (data.topics || []).slice(0, 6);
+    items.forEach(function(t) {
+      var btn = document.createElement('button');
+      btn.textContent = t;
+      btn.onclick = function() { input.value = t; send(); };
+      container.appendChild(btn);
+    });
+  }).catch(function(){});
 
   var messages = document.getElementById('mds-widget-messages');
   var input = document.getElementById('mds-widget-input');
@@ -179,6 +191,18 @@ WIDGET_JS = """
     isOpen = false;
     panel.classList.remove('open');
   };
+
+  function confColor(c) {
+    if (c > 0.6) return '#22c55e';
+    if (c > 0.35) return '#eab308';
+    return '#ef4444';
+  }
+  function confLabel(c) {
+    if (c > 0.6) return 'High relevance';
+    if (c > 0.35) return 'Moderate relevance';
+    if (c > 0.2) return 'Low relevance';
+    return 'Weak match';
+  }
 
   function addMsg(text, type, extra) {
     var w = document.getElementById('mds-welcome');
@@ -200,13 +224,22 @@ WIDGET_JS = """
         return '<p>'+p+'</p>';
       }).join('');
       div.innerHTML = html;
-      if (extra) {
+
+      if (extra && extra.sources && extra.sources.length > 0) {
         var c = extra.confidence||0;
-        var cls = c>0.6?'hi':c>0.3?'md':'lo';
-        var cd = document.createElement('div');
-        cd.className = 'mds-conf';
-        cd.innerHTML = 'Confidence: <span class="'+cls+'">'+Math.round(c*100)+'%</span>';
-        div.appendChild(cd);
+        var color = confColor(c);
+        var card = document.createElement('div');
+        card.className = 'mds-src-card';
+        var srcHtml = '<div class="src-label">Sources</div>';
+        extra.sources.forEach(function(s) {
+          var parts = [];
+          if (s.event) parts.push(s.event);
+          if (s.date) parts.push(s.date);
+          srcHtml += '<div class="mds-src-item"><span class="speaker">'+(s.speaker||'Unknown')+'</span>'+(parts.length?'<span class="meta">'+parts.join(' · ')+'</span>':'')+'</div>';
+        });
+        srcHtml += '<div class="mds-conf-bar"><div class="mds-conf-track"><div class="mds-conf-fill" style="width:'+Math.round(c*100)+'%;background:'+color+'"></div></div><span class="mds-conf-label" style="color:'+color+'">'+confLabel(c)+'</span></div>';
+        card.innerHTML = srcHtml;
+        div.appendChild(card);
       }
     } else {
       div.textContent = text;
@@ -245,10 +278,10 @@ WIDGET_JS = """
       var data = await res.json();
       removeTyping();
       if (data.error) { addMsg('Error: ' + data.error, 'bot'); }
-      else { addMsg(data.answer, 'bot', {confidence: data.confidence}); }
+      else { addMsg(data.answer, 'bot', {confidence: data.confidence, sources: data.sources}); }
     } catch(e) {
       removeTyping();
-      addMsg('Could not connect to the knowledge base.', 'bot');
+      addMsg('Could not connect.', 'bot');
     }
     sendBtn.disabled = false;
     input.focus();
@@ -256,11 +289,6 @@ WIDGET_JS = """
 
   sendBtn.onclick = send;
   input.onkeydown = function(e) { if(e.key==='Enter') send(); };
-
-  window._mdsAskExample = function(btn) {
-    input.value = btn.textContent;
-    send();
-  };
 })();
 """
 
@@ -273,238 +301,367 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MDS Knowledge Assistant</title>
+    <title>MDS Knowledge Search</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #0f172a;
-            color: #e2e8f0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: #ffffff;
+            color: #09090b;
             min-height: 100vh;
-            display: flex;
-            flex-direction: column;
         }
+
+        /* === HEADER (hidden on landing, shown in chat) === */
         header {
-            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-            border-bottom: 1px solid #334155;
-            padding: 1rem 2rem;
-            display: flex;
+            border-bottom: 1px solid #e4e4e7;
+            padding: 0.875rem 1.5rem;
+            display: none;
             align-items: center;
-            gap: 0.75rem;
+            gap: 0.625rem;
         }
-        header h1 {
-            font-size: 1.25rem;
-            font-weight: 600;
-            background: linear-gradient(135deg, #60a5fa, #a78bfa);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+        header h1 { font-size: 0.95rem; font-weight: 600; letter-spacing: -0.01em; cursor: pointer; }
         header .badge {
-            font-size: 0.7rem;
-            padding: 0.2rem 0.5rem;
-            background: #1e3a5f;
-            color: #60a5fa;
-            border-radius: 999px;
-            font-weight: 500;
+            font-size: 0.65rem; padding: 0.125rem 0.5rem;
+            background: #f4f4f5; color: #71717a; border: 1px solid #e4e4e7;
+            border-radius: 999px; font-weight: 500;
         }
-        .chat-container {
-            flex: 1;
-            max-width: 800px;
-            width: 100%;
-            margin: 0 auto;
-            padding: 1.5rem;
+        body.chat-mode header { display: flex; }
+
+        /* === LANDING PAGE — centered search === */
+        .landing {
             display: flex;
             flex-direction: column;
-            gap: 1rem;
-            overflow-y: auto;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 2rem;
+            text-align: center;
         }
-        .message {
-            padding: 1rem 1.25rem;
-            border-radius: 12px;
-            max-width: 90%;
-            line-height: 1.6;
-            font-size: 0.95rem;
+        body.chat-mode .landing { display: none; }
+
+        .landing h1 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            letter-spacing: -0.03em;
+            margin-bottom: 0.375rem;
         }
-        .message.user {
-            background: #1e3a5f;
-            align-self: flex-end;
-            border-bottom-right-radius: 4px;
+        .landing .subtitle {
+            color: #71717a;
+            font-size: 0.925rem;
+            margin-bottom: 2rem;
         }
-        .message.bot {
-            background: #1e293b;
-            border: 1px solid #334155;
-            align-self: flex-start;
-            border-bottom-left-radius: 4px;
-        }
-        .message.bot .confidence {
-            margin-top: 0.75rem;
-            padding-top: 0.5rem;
-            border-top: 1px solid #334155;
-            font-size: 0.8rem;
-            color: #94a3b8;
-        }
-        .message.bot .confidence .high { color: #4ade80; }
-        .message.bot .confidence .medium { color: #facc15; }
-        .message.bot .confidence .low { color: #f87171; }
-        .message.bot .sources {
-            margin-top: 0.5rem;
-            font-size: 0.8rem;
-            color: #64748b;
-        }
-        .message.bot .sources span {
-            display: inline-block;
-            background: #0f172a;
-            padding: 0.15rem 0.5rem;
-            border-radius: 4px;
-            margin: 0.15rem 0.15rem 0 0;
-            font-size: 0.75rem;
-        }
-        .message.bot pre {
-            background: #0f172a;
-            padding: 0.75rem;
-            border-radius: 6px;
-            overflow-x: auto;
-            margin: 0.5rem 0;
-        }
-        .message.bot ul, .message.bot ol {
-            margin: 0.5rem 0 0.5rem 1.25rem;
-        }
-        .message.bot p { margin-bottom: 0.5rem; }
-        .message.bot p:last-child { margin-bottom: 0; }
-        .input-area {
-            background: #1e293b;
-            border-top: 1px solid #334155;
-            padding: 1rem 2rem;
-        }
-        .input-wrapper {
-            max-width: 800px;
-            margin: 0 auto;
+        .landing .search-box {
+            width: 100%;
+            max-width: 560px;
             display: flex;
-            gap: 0.75rem;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
         }
-        .input-wrapper input {
+        .landing .search-box input {
             flex: 1;
             padding: 0.75rem 1rem;
-            background: #0f172a;
-            border: 1px solid #334155;
-            border-radius: 8px;
-            color: #e2e8f0;
+            border: 1px solid #e4e4e7;
+            border-radius: 0.5rem;
             font-size: 0.95rem;
             outline: none;
-            transition: border-color 0.2s;
+            transition: border-color 0.15s;
         }
-        .input-wrapper input:focus {
-            border-color: #60a5fa;
-        }
-        .input-wrapper input::placeholder { color: #475569; }
-        .input-wrapper button {
+        .landing .search-box input:focus { border-color: #a1a1aa; }
+        .landing .search-box input::placeholder { color: #a1a1aa; }
+        .landing .search-box button {
             padding: 0.75rem 1.5rem;
-            background: linear-gradient(135deg, #3b82f6, #6366f1);
+            background: #18181b;
             border: none;
-            border-radius: 8px;
-            color: white;
-            font-size: 0.95rem;
+            border-radius: 0.5rem;
+            color: #fafafa;
+            font-size: 0.925rem;
             font-weight: 500;
             cursor: pointer;
-            transition: opacity 0.2s;
+            transition: background 0.15s;
         }
-        .input-wrapper button:hover { opacity: 0.9; }
-        .input-wrapper button:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
+        .landing .search-box button:hover { background: #27272a; }
+
+        .suggestions-section {
+            max-width: 560px;
+            width: 100%;
         }
-        .typing {
-            display: inline-flex;
-            gap: 4px;
-            padding: 0.5rem 0;
+        .suggestions-label {
+            font-size: 0.7rem;
+            color: #a1a1aa;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            font-weight: 500;
+            margin-bottom: 0.625rem;
         }
+        .topic-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.375rem;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        .topic-pill {
+            background: #fff;
+            border: 1px solid #e4e4e7;
+            color: #52525b;
+            padding: 0.375rem 0.875rem;
+            border-radius: 999px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: all 0.15s;
+        }
+        .topic-pill:hover {
+            border-color: #a1a1aa;
+            color: #09090b;
+            background: #fafafa;
+        }
+        .loading-topics {
+            color: #d4d4d8;
+            font-size: 0.8rem;
+            padding: 0.5rem;
+        }
+
+        /* === CHAT MODE === */
+        .chat-container {
+            display: none;
+            flex: 1; max-width: 720px; width: 100%;
+            margin: 0 auto; padding: 1.5rem;
+            flex-direction: column; gap: 1.25rem;
+            overflow-y: auto;
+        }
+        body.chat-mode .chat-container { display: flex; }
+
+        .message { max-width: 90%; line-height: 1.65; font-size: 0.9rem; }
+        .message.user {
+            align-self: flex-end; background: #18181b; color: #fafafa;
+            padding: 0.625rem 0.875rem; border-radius: 0.75rem;
+            border-bottom-right-radius: 0.25rem;
+        }
+        .message.bot { align-self: flex-start; padding: 0; }
+        .message.bot .answer-text { line-height: 1.7; }
+        .message.bot ul, .message.bot ol { margin: 0.375rem 0 0.375rem 1.25rem; }
+        .message.bot li { margin-bottom: 0.25rem; }
+        .message.bot p { margin-bottom: 0.5rem; }
+        .message.bot p:last-child { margin-bottom: 0; }
+        .message.bot code {
+            background: #f4f4f5; padding: 0.125rem 0.375rem;
+            border-radius: 0.25rem; font-size: 0.825rem;
+        }
+        .message.bot strong { font-weight: 600; }
+
+        .source-card {
+            margin-top: 0.875rem; padding: 0.75rem;
+            border: 1px solid #e4e4e7; border-radius: 0.5rem;
+            background: #fafafa;
+        }
+        .source-card .source-header {
+            display: flex; align-items: center; gap: 0.375rem;
+            margin-bottom: 0.5rem;
+        }
+        .source-card .source-header svg {
+            width: 14px; height: 14px; color: #71717a; flex-shrink: 0;
+        }
+        .source-card .source-header span {
+            font-size: 0.75rem; font-weight: 500; color: #71717a;
+            text-transform: uppercase; letter-spacing: 0.05em;
+        }
+        .source-item {
+            display: flex; align-items: baseline; gap: 0.5rem;
+            padding: 0.25rem 0; font-size: 0.8rem;
+        }
+        .source-item .speaker { font-weight: 500; color: #18181b; }
+        .source-item .meta { color: #a1a1aa; font-size: 0.75rem; }
+
+        /* === COLORFUL RELEVANCE BAR === */
+        .confidence-bar {
+            margin-top: 0.625rem; display: flex; align-items: center; gap: 0.5rem;
+        }
+        .confidence-bar .bar-track {
+            flex: 0 0 80px; height: 6px; background: #f4f4f5;
+            border-radius: 3px; overflow: hidden;
+        }
+        .confidence-bar .bar-fill { height: 100%; border-radius: 3px; transition: width 0.3s; }
+        .confidence-bar .label {
+            font-size: 0.725rem; font-weight: 500; white-space: nowrap;
+        }
+
+        /* === INPUT AREA (hidden on landing, shown in chat) === */
+        .input-area {
+            display: none;
+            border-top: 1px solid #e4e4e7;
+            padding: 0.875rem 1.5rem; background: #fff;
+        }
+        body.chat-mode .input-area { display: block; }
+        .input-wrapper {
+            max-width: 720px; margin: 0 auto;
+            display: flex; gap: 0.5rem;
+        }
+        .input-wrapper input {
+            flex: 1; padding: 0.5rem 0.75rem;
+            border: 1px solid #e4e4e7; border-radius: 0.375rem;
+            font-size: 0.875rem; outline: none;
+            transition: border-color 0.15s;
+            background: #fff; color: #09090b;
+        }
+        .input-wrapper input:focus { border-color: #a1a1aa; }
+        .input-wrapper input::placeholder { color: #a1a1aa; }
+        .input-wrapper button {
+            padding: 0.5rem 1rem; background: #18181b;
+            border: none; border-radius: 0.375rem;
+            color: #fafafa; font-size: 0.875rem; font-weight: 500;
+            cursor: pointer; transition: background 0.15s;
+        }
+        .input-wrapper button:hover { background: #27272a; }
+        .input-wrapper button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+        .typing { display: inline-flex; gap: 4px; padding: 0.5rem 0; }
         .typing span {
-            width: 8px; height: 8px;
-            background: #475569;
-            border-radius: 50%;
-            animation: bounce 1.4s ease-in-out infinite;
+            width: 6px; height: 6px; background: #d4d4d8;
+            border-radius: 50%; animation: bounce 1.4s ease-in-out infinite;
         }
         .typing span:nth-child(2) { animation-delay: 0.2s; }
         .typing span:nth-child(3) { animation-delay: 0.4s; }
         @keyframes bounce {
             0%, 60%, 100% { transform: translateY(0); }
-            30% { transform: translateY(-6px); }
+            30% { transform: translateY(-4px); }
         }
-        .welcome {
-            text-align: center;
-            padding: 3rem 1rem;
-            color: #64748b;
-        }
-        .welcome h2 {
-            font-size: 1.5rem;
-            color: #94a3b8;
-            margin-bottom: 0.5rem;
-        }
-        .welcome p { margin-bottom: 0.25rem; }
-        .welcome .examples {
-            margin-top: 1.5rem;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            justify-content: center;
-        }
-        .welcome .examples button {
-            background: #1e293b;
-            border: 1px solid #334155;
-            color: #94a3b8;
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 0.85rem;
-            transition: all 0.2s;
-        }
-        .welcome .examples button:hover {
-            border-color: #60a5fa;
-            color: #e2e8f0;
+
+        @media (max-width: 640px) {
+            .landing { padding: 1.5rem; }
+            .landing h1 { font-size: 1.375rem; }
+            .chat-container { padding: 1rem; }
+            .input-area { padding: 0.75rem 1rem; }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>MDS Knowledge Assistant</h1>
-        <span class="badge">Powered by Claude</span>
+        <h1 onclick="resetToLanding()">MDS Knowledge Search</h1>
+        <span class="badge">AI</span>
     </header>
 
-    <div class="chat-container" id="chat">
-        <div class="welcome" id="welcome">
-            <h2>Ask anything about MDS content</h2>
-            <p>I search through video transcripts and presentations to find answers.</p>
-            <div class="examples">
-                <button onclick="askExample(this)">What did Josh Hadley talk about?</button>
-                <button onclick="askExample(this)">What strategies were discussed for Amazon sellers?</button>
-                <button onclick="askExample(this)">Who spoke about exit planning?</button>
-                <button onclick="askExample(this)">What is the 2020-20 rule?</button>
+    <!-- LANDING: centered search -->
+    <div class="landing" id="landing">
+        <h1>MDS Knowledge Search</h1>
+        <p class="subtitle">Search mastermind sessions, talks & presentations</p>
+        <div class="search-box">
+            <input type="text" id="landingInput" placeholder="Ask anything about MDS content..."
+                   onkeydown="if(event.key==='Enter')searchFromLanding()">
+            <button onclick="searchFromLanding()">Search</button>
+        </div>
+        <div class="suggestions-section">
+            <div id="topicsArea">
+                <p class="suggestions-label">Topics</p>
+                <div class="topic-pills" id="topicPills">
+                    <span class="loading-topics">Loading topics...</span>
+                </div>
+            </div>
+            <div id="popularArea" style="display:none">
+                <p class="suggestions-label">Popular searches</p>
+                <div class="topic-pills" id="popularPills"></div>
             </div>
         </div>
     </div>
 
+    <!-- CHAT: appears after first search -->
+    <div class="chat-container" id="chat"></div>
+
     <div class="input-area">
         <div class="input-wrapper">
-            <input type="text" id="questionInput" placeholder="Ask a question about MDS content..."
+            <input type="text" id="questionInput" placeholder="Ask a follow-up question..."
                    onkeydown="if(event.key==='Enter')sendQuestion()">
-            <button id="sendBtn" onclick="sendQuestion()">Ask</button>
+            <button id="sendBtn" onclick="sendQuestion()">Search</button>
         </div>
     </div>
 
     <script>
         const chat = document.getElementById('chat');
-        const input = document.getElementById('questionInput');
+        const landingInput = document.getElementById('landingInput');
+        const chatInput = document.getElementById('questionInput');
         const sendBtn = document.getElementById('sendBtn');
-        const welcome = document.getElementById('welcome');
+        let inChatMode = false;
 
-        function askExample(btn) {
-            input.value = btn.textContent;
-            sendQuestion();
+        // Load suggestions on page load
+        fetch('/api/suggestions')
+            .then(r => r.json())
+            .then(data => {
+                const topicPills = document.getElementById('topicPills');
+                topicPills.innerHTML = '';
+                (data.topics || []).forEach(t => {
+                    const btn = document.createElement('button');
+                    btn.className = 'topic-pill';
+                    btn.textContent = t;
+                    btn.onclick = () => { landingInput.value = t; searchFromLanding(); };
+                    topicPills.appendChild(btn);
+                });
+                if ((data.topics || []).length === 0) {
+                    topicPills.innerHTML = '<span class="loading-topics">No topics yet</span>';
+                }
+
+                const popular = data.popular || [];
+                if (popular.length > 0) {
+                    document.getElementById('popularArea').style.display = '';
+                    const popularPills = document.getElementById('popularPills');
+                    popular.forEach(q => {
+                        const btn = document.createElement('button');
+                        btn.className = 'topic-pill';
+                        btn.textContent = q;
+                        btn.onclick = () => { landingInput.value = q; searchFromLanding(); };
+                        popularPills.appendChild(btn);
+                    });
+                }
+            })
+            .catch(() => {
+                document.getElementById('topicPills').innerHTML = '';
+            });
+
+        function switchToChatMode() {
+            if (inChatMode) return;
+            inChatMode = true;
+            document.body.classList.add('chat-mode');
+            chatInput.focus();
+        }
+
+        function resetToLanding() {
+            inChatMode = false;
+            document.body.classList.remove('chat-mode');
+            chat.innerHTML = '';
+            landingInput.value = '';
+            landingInput.focus();
+        }
+
+        function searchFromLanding() {
+            const q = landingInput.value.trim();
+            if (!q) return;
+            switchToChatMode();
+            chatInput.value = '';
+            doSearch(q);
+        }
+
+        function confColor(c) {
+            if (c > 0.6) return '#22c55e';
+            if (c > 0.35) return '#eab308';
+            return '#ef4444';
+        }
+
+        function confLabel(c) {
+            if (c > 0.6) return 'High relevance';
+            if (c > 0.35) return 'Moderate relevance';
+            if (c > 0.2) return 'Low relevance';
+            return 'Weak match';
+        }
+
+        function formatSourceItem(src) {
+            const speaker = src.speaker || 'Unknown';
+            const parts = [];
+            if (src.event) parts.push(src.event);
+            if (src.date) parts.push(src.date);
+            if (src.topic) parts.push(src.topic);
+            const meta = parts.length > 0 ? parts.join(' &middot; ') : '';
+            return `<div class="source-item"><span class="speaker">${speaker}</span>${meta ? `<span class="meta">${meta}</span>` : ''}</div>`;
         }
 
         function addMessage(text, type, extra) {
-            if (welcome) welcome.remove();
-
             const div = document.createElement('div');
             div.className = `message ${type}`;
 
@@ -516,44 +673,42 @@ HTML_TEMPLATE = """
                     .replace(/`(.+?)`/g, '<code>$1</code>')
                     .replace(/^### (.+)$/gm, '<h4>$1</h4>')
                     .replace(/^## (.+)$/gm, '<h3>$1</h3>')
-                    .replace(/^# (.+)$/gm, '<h2>$1</h2>')
                     .replace(/^[\\-\\*] (.+)$/gm, '<li>$1</li>')
                     .replace(/^(\\d+)\\. (.+)$/gm, '<li>$2</li>');
-
                 html = html.replace(/((<li>.*<\\/li>\\n?)+)/g, '<ul>$1</ul>');
                 html = html.split('\\n\\n').map(p => {
-                    p = p.trim();
-                    if (!p) return '';
-                    if (p.startsWith('<h') || p.startsWith('<ul') || p.startsWith('<ol') || p.startsWith('<pre'))
-                        return p;
+                    p = p.trim(); if (!p) return '';
+                    if (p.startsWith('<h') || p.startsWith('<ul') || p.startsWith('<ol')) return p;
                     return `<p>${p}</p>`;
                 }).join('');
 
-                div.innerHTML = html;
+                div.innerHTML = `<div class="answer-text">${html}</div>`;
 
                 if (extra) {
                     const conf = extra.confidence || 0;
-                    const confClass = conf > 0.6 ? 'high' : conf > 0.3 ? 'medium' : 'low';
-                    const confDiv = document.createElement('div');
-                    confDiv.className = 'confidence';
-                    confDiv.innerHTML = `Confidence: <span class="${confClass}">${Math.round(conf * 100)}%</span> &middot; ${extra.chunks_used} chunks used`;
+                    const color = confColor(conf);
+                    const pct = Math.round(conf * 100);
 
                     if (extra.sources && extra.sources.length > 0) {
-                        const uniqueSources = [...new Set(extra.sources.map(s => {
-                            const name = s.source ? s.source.split('/').pop() : 'Unknown';
-                            return name;
-                        }))];
-                        const srcDiv = document.createElement('div');
-                        srcDiv.className = 'sources';
-                        srcDiv.innerHTML = 'Sources: ' + uniqueSources.map(s => `<span>${s}</span>`).join('');
-                        confDiv.appendChild(srcDiv);
+                        const srcCard = document.createElement('div');
+                        srcCard.className = 'source-card';
+                        srcCard.innerHTML = `
+                            <div class="source-header">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                                <span>Sources</span>
+                            </div>
+                            ${extra.sources.map(formatSourceItem).join('')}
+                            <div class="confidence-bar">
+                                <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${color}"></div></div>
+                                <span class="label" style="color:${color}">${confLabel(conf)}</span>
+                            </div>
+                        `;
+                        div.appendChild(srcCard);
                     }
-                    div.appendChild(confDiv);
                 }
             } else {
                 div.textContent = text;
             }
-
             chat.appendChild(div);
             chat.scrollTop = chat.scrollHeight;
             return div;
@@ -573,15 +728,10 @@ HTML_TEMPLATE = """
             if (t) t.remove();
         }
 
-        async function sendQuestion() {
-            const question = input.value.trim();
-            if (!question) return;
-
-            input.value = '';
+        async function doSearch(question) {
             sendBtn.disabled = true;
             addMessage(question, 'user');
             addTyping();
-
             try {
                 const res = await fetch('/api/ask', {
                     method: 'POST',
@@ -590,26 +740,24 @@ HTML_TEMPLATE = """
                 });
                 const data = await res.json();
                 removeTyping();
-
-                if (data.error) {
-                    addMessage('Error: ' + data.error, 'bot');
-                } else {
-                    addMessage(data.answer, 'bot', {
-                        confidence: data.confidence,
-                        chunks_used: data.chunks_used,
-                        sources: data.sources,
-                    });
-                }
+                if (data.error) { addMessage('Error: ' + data.error, 'bot'); }
+                else { addMessage(data.answer, 'bot', { confidence: data.confidence, sources: data.sources }); }
             } catch (err) {
                 removeTyping();
-                addMessage('Failed to connect to the server. Is it running?', 'bot');
+                addMessage('Failed to connect to the server.', 'bot');
             }
-
             sendBtn.disabled = false;
-            input.focus();
+            chatInput.focus();
         }
 
-        input.focus();
+        function sendQuestion() {
+            const question = chatInput.value.trim();
+            if (!question) return;
+            chatInput.value = '';
+            doSearch(question);
+        }
+
+        landingInput.focus();
     </script>
 </body>
 </html>
@@ -640,12 +788,26 @@ def api_ask():
     if not question:
         return jsonify({"error": "No question provided"}), 400
 
+    # Track the search query
+    track_search(question)
+
     result = ask(question)
     return jsonify({
         "answer": result["answer"],
         "sources": result["sources"],
         "confidence": result["confidence"],
         "chunks_used": result["chunks_used"],
+    })
+
+
+@app.route("/api/suggestions")
+def api_suggestions():
+    """Return topic suggestions and popular searches."""
+    topics = extract_topics()
+    popular = get_popular_searches(limit=6)
+    return jsonify({
+        "topics": topics,
+        "popular": popular,
     })
 
 

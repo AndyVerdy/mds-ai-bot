@@ -1,0 +1,269 @@
+Speaker 1  00:02
+So welcome Dorian, for to the Mogul call. Thanks for coming on. Met you at sessions live, did a great talk there, and I've also been hearing about you on Danny's podcast and from SIM and a couple of others. So thanks for coming on at such short notice. Really appreciate it. Thank
+
+Speaker 2  00:20
+you, Jamie. Just to give you a quick background, Jamie messaged me. When was it yesterday? Yeah, yesterday, yesterday. And I literally just landed, and he asked me if I would jump on this car. I said, Yeah, let's do it. So this is going to be a bit more of a freestyle, but I think I have quite a lot of interesting things to show, and we will do a Q, a, um, do you want me to give a quick introduction to everyone? Yeah, sure. That'd be great. Okay, cool. So I have been working in the creative spaces, Amazon space, working with brands, anything from branding, listing, conversion, click through, rate since 2013 um, I've worked with some of the biggest sellers, a lot of MDS members. Here's here. And the main thing we do, truth be told, these days, is conversion optimization. Click through, rate optimization, developing brands. In a nutshell, brands come to us and ask us if we can increase the sales. That's the bottom line. So we have a research team, we have a design team, photography, video team, and we recently pay a lot of attention, obviously, to the latest technologies in terms of AI, streamlining processes, developing new workflows and trying to crack the code of conversions. Conversions are quite interesting and a very hot topic, as you know, very important. It's the more, the better you convert, the less you spend on ads, the better you rank. You get all the love from Amazon. But conversion are not as simple, let's say, as PPC. I know PPC are complicated. I know nothing about it. I know nothing about ads. But the difference is, with ads, you have all the metrics. You have a lot of softwares out there. You have all the UI you can tap in your numbers. Change this, get instant results and adjust it. Conversions are slightly different, very, very important metric, very hot topic, but how do you crack conversions? So that's my job. And the past two years especially, we've been trying to streamline it and make it as simple as possible for everyone to to to follow a very simple process. And I'll break it into into parts and SOP, so you guys can see how actually easy is these days to to to increase your conversions. And we'll do some Q, a, I want to find out also about members here. How do you guys tackle conversions? What do you do, and do you have any obstacles? Where do you are you testing? Are you developing new things? So I actually have some questions for you, so maybe we'll start with the question, Who here knows feels like they know conversions? And Jamie, that's maybe a question to you also. And what do you find the hardest in terms of working on your click through, rate and conversions? I Okay,
+
+Speaker 1  03:23
+do you guys want to just put like, what tools you're using, what your kind of process is? I'd say it's mostly chat, GPT and intellivi at the moment, is what we're using. Televi so I know a lot of people use sellometrics. Some people use PickFu. I'm sure people are using product opinion, and a couple of product opinion as well. And then people are starting to use do a lot more chat, GPT, and like some of the other some of the other tools, like maybe career or mid journey, or something like that, got it. But for us personally, it's just, it's just the whole process is still too slow, and most of what we test makes no difference or is slightly worse. We do get some small improvements. Like last year, we had one big, huge win, where we changed the main image for our best seller, and it just really took off. But we're finding that most of the testing that we're doing at the moment, it's not making, not making a lot of difference. So what do you use your biggest frustration?
+
+Speaker 2  04:36
+What do you what do you use chat, GPT for coming up with ideas? Research?
+
+Speaker 1  04:40
+Yeah, yeah. So we're using it now. We recently have started using it to come up with, to come up with ideas,
+
+Speaker 2  04:46
+got it, and then you send it to the designers, and then use intellivi to test it, to run, yeah,
+
+Speaker 1  04:52
+yeah. Then our designer will put something up that's good enough for testing. And then, if you want to do it for an Amazon experiment. And they might touch it up a bit further.
+
+Unknown Speaker  05:02
+Okay, got it. Got it makes total sense. We've got
+
+Speaker 1  05:05
+a graphic designer, like, 20 hours a week, so that's working out much better for us than using an agency, because we can just get stuff really quickly, and he knows how to make stuff with the like brand feel and the right colors and fonts.
+
+Speaker 2  05:18
+Okay, you touched on a very important point, which is time. It takes a long time. Sometimes you get quick wins, but a lot of times it takes time. So the most successful brands that I work with have this workflow embedded in their in the entire processes, so conversions and click through optimization is a constant process, because if you have a process, if you have a sop, and you constantly try new things, finally you get to the point where, like, Okay, we've we have something. We've learned something. We have a new main image. We have better content. We have better copy. And we started, we start with, we starting to see traction, but it can take time. It can take anywhere from four six months. Some brands I even work with, you know, it can be up to a year. But what's important once you get to the point where you feel like you've cracked the code, for example, for a main image, then you can take this as a blueprint and repeat it and just scale if you have multiple ASINs. So that's great thing about it also is don't give up, because the moment will come. Okay, I know exactly what's working, and then you can scale that across all your ASINs. So that's also really important. It takes time, not as easy as ads, but it pay. It pays. It pays well at the end, once you crack the code,
+
+Speaker 1  06:46
+yeah, the it's like one of the highest ROI areas to work on, potentially,
+
+Speaker 2  06:50
+yeah, super, super high ROI. We had projects that we seen massive ROIs, but it can take time. So I'm just trying to make it as easy and accessible for everyone as possible. So Jamie, I was thinking, as you guys heard, only had 24 hours, so I don't have any presentation, but I was thinking, we'll do a live demo. I will show you exactly how my team approach conversion and click through increasing workflow, and we'll do it on a live product, so we'll do that in the next half an hour. So that'd be fun. Yeah, yeah, sounds good. So Jamie, what product we going for?
+
+Speaker 1  07:31
+Do you want to do? The one that I emailed you, it was one that you looked at a little bit for, that you were maybe going to do on Main Image monthly. But then you said you found a quick fix, and it wouldn't make like a good call, but maybe but maybe you're already familiar with it a little bit. Okay,
+
+Speaker 2  07:46
+no problem. Let me share my screen, and we'll get to so I will show you exactly guys how we approach conversion, increasing workflow, how I look at the listing. And it's going to be a bit of a Yeah, it's going to be a bit more, yeah. We'll do a little freelance here. So this is your product, Jamie, right? Tell me a little bit about your
+
+Speaker 1  08:17
+product. So it's a round hair, round set of round brushes. So the idea is, with when you blow, if you have long hair, and your blows around your hair, you can make the hair curly, and you have different brushes, different sizes to get different types of curls. And we're also given a comb. So it's, it's quite a small niche, but we have managed to have a couple of products do do well in it. So this is a kind of, you know, sort of base hit type product, you know, it doesn't sell a lot, but it's, it's kind of worth, it's kind of worth selling. But, you know, we know it's a lot of competitors are doing better than us, and we think it's got some good potential. We think it's got potential to improve. Yeah, so you see on the main image, we've tried to get to show what sizes there are. So the idea being, if someone comes clicking in, they already, this is what they want to know. They already know what the sizes are. So hoping that they're going to be more interested in and it will. It also helps to differentiate us.
+
+Speaker 2  09:20
+Got it? It's not about it's not about made image to start with, overall, I think you've done a great job. Is there any specific differentiation in terms of this product? Yeah, so
+
+Speaker 1  09:34
+it's sort of towards the higher quality ends, but, you know, towards, like a mid price. So you know, all of our products are vegan, and our other differentiator is a brand is we're trying to make, we're trying to make tools that, like you'd be happy to put on Instagram, to kind of decorate the bedroom as as well as being functional. So design is supposed to be another one of our differentiators.
+
+Speaker 2  09:58
+Got it? Okay? Right, cool. So the first step I would usually do is to find out who we selling to. Obviously, this one's pretty easy, so I'll show you a few tools that we use. We use Manus and we use OpenAI for this initial research. And the first thing I would normally do is so for example, you guys use manners.
+
+Speaker 1  10:26
+I've only I use it for the first time. Seller sessions is great, okay, it's great for it's great for my personal life as well, because I wanted, like, some prices for an availability for a washer dryer and chat TV just told me to open up the websites myself. But Manus is actually going into the websites. And websites and getting all the information for me, which is awesome.
+
+Speaker 2  10:47
+Okay, so in that case, it's, it's a, it's bit like chat GPT on steroids. Okay, I have all the prompts somewhere saved. Let me just open those. The first thing I write
+
+Speaker 1  11:01
+thinking, the difference is that Manus is happy. It's actually happy to open websites, look in them, get information, click around, whereas chat GPT doesn't really want to do that. Is that the kind of main difference?
+
+Speaker 2  11:13
+Yeah. So the great thing about Manus is, I'll show you guys I have, I'll share all the prompts, but I'm going to just do a very quick demo. So what I would say is I am working on conversion optimization. I'm working on CVR optimization, optimization, and need help finding out more about the target audience of this product. And I'll paste the product and I'll say, find out who is there.
+
+Unknown Speaker  11:56
+So these
+
+Speaker 2  11:58
+are the these are the main things I always want to find out who's the main audience. What are their purchase motivations? So that's that's pretty important purchase motivation. So a lot of times, people come to your listing, or they look for a product because they have a specific motivation. And we want to uncover the main motivations. It could be, you know, certain products might have five to 10, but what you want to is really focus on the top three. And you want to find out, I am looking for this product because I need x or y or z. So that's the purchase motivation. I want to find out. Next thing I want to find out, what are the purchase barriers? So I also want to find out, what are the reason people wouldn't buy your product, or they have any questions, frequently asked questions, or certain things that they want to find out in the listing? Okay? So maybe what's the product made out of? Or certain features that are not clear, what the purchase barriers, and the next thing I want to find out is usage patterns. So how do people actually use the product? So do they use in the morning, in the evening? I want to find this as much details as possible. And I wanted to scrape Amazon. I want to scrape our competitors and forums so stuff like Reddit. Reddit is amazing for finding out about products when people especially for product like yours. Jamie, I know again, I'm gonna quote my wife so many times today. She's sitting next to me. I know when she's looking for a product, she she'll go on Reddit, she'll go on forums, Facebook, and she'll, you know, research a little bit, and people actually talk about a lot of your products, outside of Amazon, a lot, and especially in the supplement space, we'll find, we'll find a lot of details, a lot of conversations outside of Amazon. People will be talking, did you buy this? I'm hesitant about this product. What do you think about this? Does this product have x, y? So there's a lot of a lot of data there, so forums and online articles, etc. So I'll send this to Manus, and it will, it will come back, usually with some questions. Just to clarify, I'm
+
+Speaker 1  14:28
+on the free version of manners. How much quicker is the paid version?
+
+Speaker 2  14:34
+It's actually, it's actually slower. So as you can see, I put it through high effort, high effort. So I'm on the paid version. I think it's about 200 bucks, but we use it for the agency purposes, slightly different. But high effort means it will dig even deeper. You'll find different things, rather than the unpaid version. Are you the seller of the project? Yes, I am, although I'm not. Not. Do you have any specific competitors? No, find them. Are there any particular forums online? No, find them. Is there? Is there a specific aspects of your conversion optimization you're most interested, let's say images. And number five, do you have an existing data? Well, no. So we don't have any existing you can, you can plug in your existing data. So I've seen today on LinkedIn, Amazon has released brand metrics, sorry, brand demographic data on asin level. So you guys know we had, you went to brand analytics and you could see demographics, right? The problem with that previously, you could see demographics on your entire brand. So let's say you sell in different products, so that demographic data would be mixed, right? So Jamie, for example, you'll be selling, I don't know, brushes for like this, and then you'll be selling maybe raises for, like, I don't know, shavings, shaving cream, for mayo. So that demographic data will get mixed in Amazon. What Amazon has launched this week, and I urge everyone to check it out. Go to brand analytics, go to demographics, and you can see actually demographics on asin level. So that's something important, interesting that I would probably plug this in so we can actually go, Jamie to your Seller Central demographics, and pick up the exact demographic data for this specific Asin. So plugging this in would even help even better. So you just copy. Could you
+
+Speaker 1  16:38
+just, I think some people want to give this a try. Now, could you just copy and paste that quote into the chat? Let me just so guys, if you haven't used Manus, you can get on the free version just with a with with a with a G with a Google login, and the free version is pretty good. I've been using it. So if you guys want to try, if you guys want to do this, do this with one of your listings as we go. Manus is great fun. If you guys haven't used it, you will, you'll love it.
+
+Speaker 2  17:07
+So let me just paste this. I'll send you also. We have really detailed prompts. I'll plug them in later, at the end of the call. So as you can see, look guys. So look what Amazon is doing right now. Is actually looking through your listing, is looking through images, is looking through everything. See, it's taking all the data, so it's picking up everything, and then it will go to forums, and then it will go to reviews, and it will scrape all this data. And if you can actually take control of it, so you can, if you want to take control of it, I can go, take control of it, and I can even scroll through the images and manage now will pick up all this data. See, it's picking up all the data. So I'm, I've exited takeover, and I will just go on its own. This, we won't be able to show the whole thing it takes. This takes about half an hour because it has to go through so much data so you can see all of this. So this is the first step I usually, we usually do in terms of conversion increasing. We want to find out all these things. So once we know that, once we have this, then we'll be able to work on the listing. But let's see if we can get something. Meanwhile, we can start working on the main image. So main image, okay, let's say we want to improve your main image. Jamie, it's a pretty good main image. So this will be hard. I might fail at this. This can be embarrassing, but in order to improve main images, is most, most sellers, and we used to do that as well. You'd normally go to you normally go to sell a search page, and you look at the main keyword, and you kind of just go through, you know, you look, you look at search query performance, all of this, see which ones have the highest CTR. And you just kind of get the ideas and say, Oh, this is interesting. Let's try something like this. Or, this is interesting, maybe we'll do something like this. This is the worst thing you can do. What we are doing now is trying to come up with new original ideas, new original ideas. And we want something fresh. We want the Create main image where our competitors will land on the search page tomorrow and they're gonna go, Oh, wow. Look at what lady England, England has done. Like, how do they come up? How do they come up with this? So what I'm going to do is, guys, I am that's another prompt. Sorry, there's going to be a lot of prompts. So you love properties, and this is great thing, because we removing the creative process from. Ah, from this, from this workflow. So I'm gonna upload your image, and I need to open, let me just, let me just. So
+
+Speaker 1  20:10
+are you generally using less and less of your own judgment and experience and more and more? Ai,
+
+Speaker 2  20:17
+yes, we are mostly use it speed ups. It speeds up a lot of the processes. We still have to, we still have to edit stuff. We still have to vet it and edit, okay, here's I'm in the chat. I'm dropping all the prompts. So what I'm going to do now is I'm going to open one of the prompts, review, analysis, which one is it? Content plan, main images. Okay, so I'm going to get this prompt and I'll show and I'll tell you what this prompt does. So I'm going to drop this prompt with an image, and bam. So this prompt is designed to come up with 20 insane ideas for your main image, just, you know, it doesn't take any data from your competitors. It doesn't do anything apart from just coming up with, you know, ideas specifically for your product. Okay? So you can see it's generated idea one, and it's also has a prompt. So what I'm going to do now, I'm going to go to Open AI, I'm going to go to, I need to log in one second. Should
+
+Speaker 1  21:42
+have been prepared. More. This is the playground, right?
+
+Unknown Speaker  21:45
+The playground? Yeah, for those of
+
+Speaker 1  21:50
+you that aren't using open AI playground yet, you might need to, like, verify your business, and it might ask for your your passport. I on, yeah, I set up open AI playground, but I haven't actually had a go of it
+
+Speaker 2  22:10
+yet. Seems my Prague playground is disabled. Let me try this one.
+
+Speaker 1  22:19
+But guys, if you if this is the first time you've seen Manus, but a one in the chat, if you've already, if you've seen Manus before, put a two in the chat.
+
+Speaker 2  22:27
+Okay, we're gonna skip playground for now. Seems there's a I need to reactivate my account for some reason again. But here we have an all these images, all these image ideas. So what I'm going to do now is, let's say I'm going to stop at this point. So I'm going to just ask you to need to change the model. I'm going to ask it to generate image one. Okay,
+
+Speaker 1  22:57
+and now, but you've gone from, I've gone from 4.5 to four. Oh, right. So you were doing 4.5 now you're on four. Oh,
+
+Speaker 2  23:03
+yeah, four. Oh is the one that generates images. Okay. So what I want to do now is generate as many ideas as possible for my team just to explore new, new approaches to the main image. Some of these will be really crazy, really crazy, but that's fine, because we'll be able to pick up we'll be able to pick up some elements from each image, and maybe there's something interesting that we'll be able to see and we'll be able to apply to that main image. So it's generating image one. So as you can see what we have here is floating brushes with reflective luxury. So this could be interesting. Let's give it a moment. Let's see how Manus is doing. Man this is stuck at some page on Amazon. Okay,
+
+Unknown Speaker  24:11
+that's the problem with live demos they take.
+
+Speaker 1  24:15
+So do you find the does the desktop app for chat, GPT work better than the browser, or is it just a personal
+
+Speaker 2  24:24
+preference? It's a it's a personal preference, to be honest. Okay, so we have now Image two, so we're getting some ideas, right? The first one is to, you know, not a big difference. It's just the brushes are the slightly different angle. So I kind of like it because it gives a little bit of depth, right? It gives a little bit of depth. If we're looking at your current main image, it's a little bit flat, it's two dimensional. How about just simply turning this around and giving it a bit more three dimensional? What I also like about this main image is you can clearly see the haircut. Up, whereas here it kind of blends in with the packaging. So that's one thing that we can that's one thing we can try already. Okay, very simple, very simple treatment. And this is what I'll be doing, literally one by one, and generating all these images and just seeing like, what can we come up with? Kat, do we have something interesting here that we can explore? This one is a bit crazy. This is without the packaging. Obviously. These are not images a lot a lot of times these are not usable, so you can't really use it on and manage experience uploaded, because the product does look slightly different. But what you can do is give this to your designer and say, Okay, how about we try something like this? You know? So this is what we'd be doing now in terms of main images, generating as many as possible. And then what I can do then is I can download this image. Okay, let's say I can download this, and I can simply go to product opinion on television or whatever you guys are using, and run it, run a test, my image versus the new idea, and we'll be able to get some we'll be able to get some preliminary data so I can new test. I can start a split test, right So, and I can, let's say, little England, and I can upload this file, and I can upload this file, and and obviously set up all this. So I'll be female, and then age. We have to check later or we don't have the credits. But then this is what I would do. I would test it and see okay. I would validate the data and see, okay. Is this a good main image approach. And I'll be going on, there's one with lifestyle. This might be too crazy, but I'll be, I'll be generating the as many as possible, as many as possible, and that's how we would, you know, find a new find new ideas for main images for a product like yours. And what would be
+
+Speaker 1  27:20
+the advantage? What be the advantage of you using playgrounds instead of just chatgpt? Is that because playground is faster, or is the quality of image better also? Yeah,
+
+Speaker 2  27:29
+let me show you a sim is here, so I can show you quickly the guys that weren't on the that weren't with us in solid sessions. I can show you, if I think seems going to be okay sim, you'll be all right, showing that. And so we were working, actually, on Sims, one of Sims brands. I'll show you the playground, how the playground works. So this is where it's playground, okay, so in terms of playground, okay, so we were working on a product for sim that was this mousetrap. Where is it? It was somewhere here, this one, right? So we're working on a mouse drop. So this was Sims product. This was his main image. Really good. Main Image, really good. Okay, really good main image. And our job was to improve this. So what we did is, let me just quickly go through that. So what we did is, first of all, we did the deep research we find. We wanted to find out who's the main who's the main audience, what do they care about? So we use Manus, and Manus, this is a this is what Manus will generate for us. It will give us, like the product overview. It will give us the purchase motivations. It will give you all this, all this data based on all all the sources that it was great. So this is, this is what I've been just doing. So we then came up with 20 ideas for new main images, and we use actually playground. So in playground you can generate very quickly multiple ideas, right? So in playground, I was able to generate multiple ideas literally within 10 minutes. So this is what, this is what the open air play playground came up with. And as you can see, some of those, some of these are really crazy. Are not usable, but you can pick up a lot of the things. You can pick up a lot of ideas. So we've generated 100 ideas in 10 minutes for new main image. And these are the main images that I picked personally. And I thought, okay, these are interesting. These are interesting. And these are
+
+Speaker 1  29:59
+that's your. That's your top 12 that you've picked out using your own judgment, basically,
+
+Speaker 2  30:03
+yes, okay, my own, my own judgment from the from the open AI playground. So what I did then, as I sent this to No, the first thing I did as I run a quick poll, I run a quick poll, and I wanted to find out how these images are performing in comparison to original main image. So as you can see, this is the original main image, and this one was actually doing quite well, the one on the top right, the difference is not big, only few votes, but it tells it gives me, and I it gives me confidence knowing that, okay, we have something that we can explore. We have some opportunities here. So I make my team, I send this, I send all the ideas, and I send this product opinion poll with all the data to my team and said, Okay, here you have some ideas. Here you have feedback from product opinion now, read through all that feedback, look at those and try to come up with new ones. So my team came up with, let me just go, came up with these, okay, insane, absolutely insane, like crazy, but that's the thing you want, something that's no one has done before, that really pushes the boundaries and the limits of your main images. So this is what they came up with. This is what my team came up with. And we wouldn't be able to come up with these ideas on our probably, on our own. We would be. But this took 10 minutes, 10 minutes plus the product, pinion poll, okay? And then what we did is we picked the best one from the I narrowed it down to the three. I run another poll just to see, okay, from the last three, which one's the best. So as you can see, Option A here once with a huge statistics, statistical significance, and then I run again another poll against competitors, and I goes against the original main image. And as you can see, the main image that we came up with the help of AI pretty much smashed it around 70% more clicks in the search simulation in open AI. So this is, this is the process, and this is what we're trying to do here. So in terms of what we'll be doing here is just generating as many images as possible, testing them on product opinion, and then giving all this data to my creative team to come up with new images. And that's the process for main images. Really, very simple. You don't have to be creative. Don't look at your competition, just just, you know, let the AI use all the do all the heavy lifting. I know we don't have much time. This is so minus right now is scraping all the data. Okay? So once we have all this data for Lily England, I'll be able then to simply, okay, once we maybe I'll show this again through this keynote. Once we have all this data I have, I can, I can run this again, through Gen spark. That's another tool that we use, or minus and let it come up with ideas for the content plan. Okay, so here's, here's what Gen This is another tool that we use Gen spark. So we plugged in all the data, all the research, and we ask it to come up with ideas for new content. And it's actually really good at copywriting. It's actually amazing at content planning, and I can send this to my team and say, okay, based on this, just come up with new content. Is back. It's backed by research. It, you know, it went through all the forums. It went through all the reviews. It knows exactly what the customer is. It's the copy is very clear and clean. Let's come up with new content and let's test it. Okay? And then pretty much what we did is we came up with new content, as you can see here, and that content then was tested. Sorry, we run a ranked poll. So this is, this is very important thing, guys, in terms of conversions, you probably know that your first two to three images are super important, because people just can quickly this. We use this process a lot, and it helps us a lot in understanding the order of images, and it has massive impact on conversion. So don't guess or don't upload your images randomly to your listing. Run a rank poll and see Okay, which of these images people find the most interesting and the information most important run this, and then you have your you have your order for your images, and then just upload them in that order. In that particular order, order of images can have a big impact on conversions. And then we run a stacked poll so all stack. Stack versus new stack. So you can see the original stack that we had had 30% of the votes, and the new stack had 70% of the votes. So that's around 100, some, I don't know, 100 something more potential, most sales potential, double the sales, right? And that's and all of this has been created by AI. So the research has been created by AI, and the content plan has been created by AI. The only thing I did is pass this on to my creative team, and they just did all the work. They had the copy ID. They had ideas for images. They use, they use AI extensively to create assets. So they create all the assets in AI. So this entire process took about two to three days. And we're we have our hypothesis to increase, increase click rate from my image, and we have a hypothesis to increase conversions through new content on the listing. Very simple. Let the AI do heavy lifting. The only thing you just need one very talented designer to put it all together, and that's pretty much the process we do these days, in terms of
+
+Speaker 1  36:22
+question, Did you mention something about doing a click simulation? Yes, question about that. Oh, and what? How, where are you? Where are you doing that? What's all you use using for that?
+
+Speaker 2  36:33
+So let me show you. Let me just load my account with some credits, and I'll show you how to run it. This is a very powerful, powerful test, click simulation. You guys using product pinion.
+
+Speaker 1  36:50
+So I think they are an MDS partner. But I think that, like, I think most people at MDS are using telemetrics or intellivie, but they are an MDS partner. So ask, and then if you could drop the they do have some sort of MDS software,
+
+Speaker 2  37:06
+yeah, so let me show you how how that works. Click. Simulation, okay, I just need to load my account, and we should be ready to go. Okay, so search simulation, really powerful test. So what I will do is, once we have main image ideas, okay, I'm going to run a new test, and it's called Search simulation, so let's say Lily England, right? I'm going to hit next and I'm going to actually pick up the asin, and I'm going to paste it here. It's going to grab data from from the Asin. Now, what? Let's say, let's say, I want to test new main image, so I'm going to duplicate this, and I'm going to replace it with the new main image, which we, let's say we've created a new main image, which is the chat GBT. I'm also going to, let's say, pick up few of your competitors. So that was round hair brush. I'm just going to do a quick one. So let's say this one, and this one just for the sake of the speed. But what you want to do is pick, obviously, pick the competitors that are closest to you in terms of the price, in terms of the
+
+Speaker 1  38:30
+yeah, I'd probably be comparing to other sets, if possible, rather than single brushes, right,
+
+Speaker 2  38:34
+exactly, just for the sake of the speed. I'll show you this. But yeah, you want to, you want to compare to exactly the same type of products, because you want to remove any type of bias, okay, because we don't want people commenting. I prefer this one because it has four instead of three. So you want to compare it to the sets. Okay, so let's say I have, ideally, you want more, you want eight. So I'm going to hit next, I am going to put 100 respondents, I'm going to put female. And then you also can do advanced targeting. So for example, if the specific advanced targeting, like, I don't know, they have a pet, they need to have a pet. They need to have been to sports. You can do this here, and I will run a product simulation. So what they will see is they will see a search result like this, and they'll have to click on it and then leave a comment. Why did they click on this main image? What made them click on this main image? And this gives us a lot of data, and I can run this or as on desktop, or I can also run it as a mobile test. Okay, so I can also they can also see it as a mobile some important things are, keep the keep the price the same, keep the ratings the same. Keep the. A title, the same, and then obviously, closest competitors. We want to remove as much bias as possible. We want only the people that on the that will be responding to only focus on the image. We only want feedback on the image. And based on that, then we'll be able to get good, good data on that. So let me see if I can find the one that we did for sim run image type or search simulation. Okay, there you are, search simulation. So this is how it looks like, and this we have the response. We can analyze the responses and get exactly, exact summary of why they picked this product, so I can select this and see, okay, why did they pick this product? And that's how we usually optimize main images. We just run these polls multiple times trying to find trying to make this gap as big as possible and achieve statistical significance. If we have this at this stage, because we had these images, this image, I have high, high confidence that if I upload it to manage experiments, it's going to do well this way. You know, manage experiment can take weeks. So by doing this by by following this process, I pretty much reduce my risk of failing the experiment as much as possible. I think it's overall, 80% accurate. Sometimes what wins the poll doesn't necessarily win on Amazon, but it's better to have some data than no data. Someone's asking, is it better than in Tel Aviv? I don't. Intellivi is really good. I have nothing against intellivie product. Opinion, these are just guys that I've been working for many years. The software is cheaper. It's much for me. It's simpler, more intuitive. But intelliview, I think, has a little bit more data. I haven't used it extensively, so I can be, yeah,
+
+Speaker 1  42:04
+the function at the functionality on antennae is pretty good now, yeah, yeah. And the the AI summaries are very good on intellivie Also, yeah, I would say the, if you do want to give product opinion a try, 10% lifetime offer, we put it details in the details in the chat, does product pinion cover UK and EU as well, or is it just
+
+Speaker 2  42:31
+us? Yeah, eu custom, yeah. You can also have, you can also do polls in in different Kat so you can grab, you can grab demographics so people can pull from different parts of the world, so UK, Germany, all of that possible.
+
+Speaker 1  42:48
+And we have a quick look and see if manage is finished. I'm sorry, can you repeat me
+
+Speaker 2  42:52
+too? It is, yeah, it's finished. So at the moment, we have conversion optimization, research, executive summary, so we have target audience, aspiring stylist, premium beauty enthusiast, practical multitasker. So we have it. So these are the primary ones. So you can see, these are our primary three. Target audience, purchase motivation, salon quality results at home, even that piece of copy is quite interesting, right? Selling quality results at home, versatility across styling needs, how health and appearance benefits, purchase barriers, price sensitivity and perceived perceived value, hair type compatibility concerns. So that's something maybe are we? Are we, in a way, where is it? Are we? So this is important in terms of conversions. Are we actually trying to remove those barriers, right? So compatible, uncertain about suitability for specific hair textures? Are we talking about this being good for any type of works on hair types. That's great. So you have this here, learning curve and technique requirements, juributing, quality, grip issues and handling difficulties. Do we have anything about the grip? Not really, right. So maybe something about grip could be interesting. That's your hypothesis to test. All right, something about grip and easy to hold, storage and travel consideration, this is an idea, maybe, for example, for product development, can we do something that where we have a storage when you know, girls travel, can they store it somewhere, maybe like a pouch or something like this? And usage pattern, daily blog, three times, special occasions, market trends influencing purchase decision, 90s revival styling. And then we have some ideas in terms of image optimization, multiple styling out outcome, diverse users in our. Was highlight ergonomic benefits, comfortable grip during use. Show no
+
+Speaker 1  45:05
+details output for what was a pretty short prompt, right? Like it's really, it's really gone to town. Do we have time to do the thing? Where can, where we put this into Gen spark?
+
+Speaker 2  45:19
+Yeah, we can do this. So we have all this. You can see also, it created a lot of documents, so competitor analysis as well. So a lot of a lot of ideas here. So let me do this gen spark, and we can do this. Am I logged in? I should be. So I'm just gonna download all of this. Bam, download, download, download, download.
+
+Speaker 2  45:57
+Do we have all of them? 5123, yeah, 123, down, there was PDF, PDF, PDF, and this is gold. All this research is gold because it has so much data, so now in Gen Spark, what I would do is I have another prompt somewhere. I mean,
+
+Speaker 1  46:29
+that would have probably taken a researcher, like three or four days to do before, right, and that good researcher right and now done half an hour, exactly so.
+
+Speaker 2  46:39
+And let's see content plan. I'm going to put this here. So content plan, I'll put it here. That's not this.
+
+Speaker 2  46:57
+Content plan, and I'll put all the files I'm hose.
+
+Unknown Speaker  47:10
+Let's see. Okay, it's thinking you can
+
+Speaker 1  47:18
+just tell us a little bit about Gen spark for people who aren't familiar with
+
+Speaker 2  47:24
+it, Gen Spark is another AI tool. As many as there are. We like it because it's really good at copywriting and content planning, really good at content planning.
+
+Speaker 1  47:35
+And Gen Spark is a tool that uses multiple other tools. Is that? Right?
+
+Unknown Speaker  47:39
+Yeah.
+
+Speaker 1  47:43
+Do you need a thing where, on the left, where you show what tools it has access to?
+
+Speaker 1  47:51
+So you can, basically, you can use the super agent. Is that right? Or you can actually use other tools from there? Yeah, right,
+
+Speaker 2  47:57
+yeah. The Super agent is probably the latest, the best one. It's it breaks down the task into it breaks down the task, and it uses all the other tools, so a mixture of different agents to to deliver, to deliver the results. So it's thinking now it's going to take some time. Let's see if we have to have any other questions. How do you use for content planning? Yeah, so we use gens part for content planning. We have also, we have to vet it. We have to, we have to also, sometimes, you know, and double check some things and, you know, adjust it, but it's pretty much, it does 80% of the work. Do I have any videos online showing more of how I do this? No, I'm still figuring this out. I need to record some SOPs. That's a good that's a good call. Ryan, back on
+
+Speaker 1  49:03
+because we got, we've got a sweet spot of listing optimization calls popular, and AI calls are always popular. So
+
+Speaker 2  49:13
+what else do you have to all said? And then put this new images and copy into Data Dive. Data Dive. What will be the reason to put it,
+
+Speaker 1  49:22
+I guess, so, let's say, let's say, rewrote your bullets. And would you then put you say it rewrote your title and bullets? Would you then put it into Data Dive and think about keyword juice and your keywords, or if you were writing, if you were writing bullets and title, would you just be thinking about conversions and clicks 100%
+
+Speaker 2  49:43
+from the keywords perspective, and especially titles and bullets. It's still a lot of manual work. It's good at idea generation. So again, same like main image, it will give you a lot of ideas and you approach. Is, but you still have to test it and tweak it to make sure that it's, you know, it has the right keywords at the right volume search volume. So still have to tweak it. So for anything keyword related, 100% just put in Data Dive and and do the last tweaks yourself and adjust it. But it's going to give you so much idea. Then you'll be able to edit down. It's so much easier to edit down then have nothing and come up. So the workflow used to before, before AI, what we used to do is sit down, stare at a blank piece of paper, and let's come up with the main image. Stare at a blank piece of paper, and let's come with the title and bullets. Now what we can do is generate a ton of ideas, a ton of ideas, original ideas, and then just edit them down, edit edit down and pick only the best ones. So that's the thing about AI is just removes the creative aspect from, you know, anyone here that's not maybe doesn't feel as creative it does it for you, the only thing you have to do is just edit down.
+
+Speaker 1  51:05
+Okay, so, yeah, AI generates the ideas, then we whittle them down, then we do some polling, and then an Amazon experiment. Basically, yeah, so for amp, when you after you run an Amazon experiment, if you've got a slight, a slight victory, but it's a significant, but it's significant for a new image. Will you then go and change it, even if it's only a slight win,
+
+Speaker 2  51:30
+I want to make sure we always want to make sure that the we get as high statistical significance as possible and close the gap as much as possible. You don't want small wins. You guys want big wins, right?
+
+Speaker 1  51:43
+So even if you yourself thought the image was better, if it wasn't a big win, you would just keep trying other stuff. You just be like, Okay, let's leave the old image on. Let's, let's run and let's just, let's go back and test some other stuff. Yeah, exactly.
+
+Speaker 2  51:59
+And here we have from Jen spark. Main Image idea. This is actually, it actually picked up the title that I really like the copy, salon quality results. Yeah,
+
+Speaker 1  52:08
+I think salon. I think we use the phrase salon quality results at home, but we haven't thought of, I don't think we use the phrase in your hands, which is quite cool. Yeah. So I can Jen Spark, going, can Jen Spark, just go ahead and create the images now.
+
+Unknown Speaker  52:22
+Yes, also, we can do that. So I need to jump off. I've got another call in a few minutes.
+
+Speaker 2  52:32
+But we can, we, can you, can you can generate those. So here is the entire content plan based on research, three brushes, endless styles designed for real woman, for every hair type, built to last. So here's our hypothesis. I'll give this to my design team, ask it to come up with, to design those images and then test it. And that's that's the process for conversion increasing come up with, sorry to shit, ton of ideas, and then yeah, have them, have them executed and tested, and do it over and over. The only expense here is subscription and your designer.
+
+Speaker 1  53:15
+Yeah, it's basically free. So the prompt that you use for Gen Spark is that in the Google Doc that you shared earlier.
+
+Speaker 2  53:21
+Everything is there. So in the doc, you guys have all the softwares that I use, all the SOPs and all the prompts, and you can try them yourself. Yeah. So Jill was
+
+Speaker 1  53:31
+just asking for that prompt. I'll just drop that, drop that back in the bottom. So if this all seems like too much hard work, and someone wants your agency to talk to you about your agency. Could they? Can you share how they can get in touch with you?
+
+Speaker 2  53:49
+Find me on LinkedIn, Dorian Gorski, or you can drop me an email. I'm gonna put my email here, happy one.com, and I'll try to, I'll try to put this SOP into like, a course of videos. So you can, guys grab it. I can do something special for you guys at MDS and share this. Jamie, would you? Yeah? That'd
+
+Speaker 1  54:09
+be amazing. Yeah, we can add it to that cool recording once you've got that, once you've got that ready. So there is Yeah. So if anyone on the recording, email is just dorian@kepler.com if you guys want to check out Kepler, there's a bunch of stuff, bunch of interesting stuff there as well. So there's an air table. If you guys could just give this call a score out of 10, particularly if you want me to get Dorian back again quickly, if you feel like we've got more to cover, I can definitely do that. If I could get some feedback and some requests there that would be awesome. We will get this recording up for you guys tomorrow, and so that'll be that'll be on the app, but yeah, I hope you guys are looking forward to giving this all a try.
+
+Speaker 2  54:56
+Thank you. This was just everything in a in a pill where. Quickly. There's a lot there that we can we can break this down into main image separately, a plus separately. So if anyone finds this interesting, you know, give us thumbs up. And maybe we can do,
+
+Speaker 1  55:12
+yeah, brilliant. Really appreciate it. So next week, we might be doing, might be doing a kickoff call for your AI channel, or might have Leo on Leo lemon. So I will let you guys know soon if you're not on the if you're not on the what that's if you're not on a whatsapp channel. We'll just put a link there. If anyone wants to join the WhatsApp and the AI, oh, join me out. Join the AI channel, guys as well. We can all talk about these kind of tools all day. And there'll be special AI calls as well. Should be awesome. Uh, once again, thanks Dorian, thanks for taking the call at short notice. Really appreciate it. Thanks everyone for coming on great questions. See you guys. Thank
+
+Unknown Speaker  55:49
+you, Jamie. Thanks everyone. Thank
+
+Unknown Speaker  55:51
+you, Jamie. Bye.
+
+
+Transcribed by https://otter.ai

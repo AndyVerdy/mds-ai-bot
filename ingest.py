@@ -9,6 +9,7 @@ Improvements:
 - Increased chunk size for better conversational context
 """
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -24,6 +25,39 @@ from rich.progress import Progress
 import config
 
 console = Console()
+
+# File metadata cache (loaded from data/metadata.json)
+_file_metadata: dict = {}
+
+
+def load_file_metadata(data_dir: str = None) -> dict:
+    """Load file metadata (dates, events, topics) from metadata.json."""
+    global _file_metadata
+    search_dirs = [data_dir] if data_dir else [str(config.DATA_DIR), "data/", "data"]
+    for d in search_dirs:
+        meta_path = Path(d) / "metadata.json"
+        if meta_path.exists():
+            try:
+                with open(meta_path, "r", encoding="utf-8") as f:
+                    raw = json.load(f)
+                _file_metadata = raw
+                return _file_metadata
+            except Exception:
+                pass
+    return {}
+
+
+def get_file_metadata(file_path: str) -> dict:
+    """Get date/event/topic metadata for a specific file."""
+    filename = Path(file_path).name
+    files = _file_metadata.get("files", {})
+    defaults = _file_metadata.get("default", {})
+
+    if filename in files:
+        meta = {**defaults, **files[filename]}
+    else:
+        meta = dict(defaults)
+    return meta
 
 
 def extract_speaker_name(file_path: str) -> str:
@@ -54,6 +88,18 @@ def make_context_header(metadata: dict) -> str:
     if speaker:
         parts.append(f"Speaker: {speaker}")
 
+    event = metadata.get("event")
+    if event:
+        parts.append(f"Event: {event}")
+
+    date = metadata.get("date")
+    if date:
+        parts.append(f"Date: {date}")
+
+    topic = metadata.get("topic")
+    if topic:
+        parts.append(f"Topic: {topic}")
+
     source = metadata.get("source", "")
     if source:
         parts.append(f"Source: {Path(source).name}")
@@ -80,6 +126,7 @@ def parse_vtt_srt(text: str, file_path: str) -> list[Document]:
     segments = []
     current_time = ""
     current_text = []
+    file_meta = get_file_metadata(file_path)
 
     timestamp_pattern = re.compile(
         r"(\d{1,2}:)?\d{2}:\d{2}[.,]\d{3}\s*-->\s*(\d{1,2}:)?\d{2}:\d{2}[.,]\d{3}"
@@ -123,6 +170,7 @@ def parse_vtt_srt(text: str, file_path: str) -> list[Document]:
                 "type": "transcript",
                 "timestamp_start": chunk_start,
                 "speaker": speaker,
+                **{k: v for k, v in file_meta.items() if k != "_comment"},
             }
             content = make_context_header(meta) + " ".join(chunk_text)
             docs.append(Document(page_content=content, metadata=meta))
@@ -136,6 +184,7 @@ def parse_vtt_srt(text: str, file_path: str) -> list[Document]:
             "type": "transcript",
             "timestamp_start": chunk_start,
             "speaker": speaker,
+            **{k: v for k, v in file_meta.items() if k != "_comment"},
         }
         content = make_context_header(meta) + " ".join(chunk_text)
         docs.append(Document(page_content=content, metadata=meta))
@@ -149,6 +198,7 @@ def parse_otter_transcript(text: str, file_path: str) -> list[Document]:
     Format: "Unknown Speaker  0:05\ntext...\n\nUnknown Speaker  1:23\ntext..."
     """
     speaker_from_filename = extract_speaker_name(file_path)
+    file_meta = get_file_metadata(file_path)
 
     # Split into speaker segments
     # Pattern: "Speaker Name  H:MM:SS" or "Unknown Speaker  M:SS"
@@ -175,14 +225,13 @@ def parse_otter_transcript(text: str, file_path: str) -> list[Document]:
 
     if not segments:
         # Fallback: treat as plain text if no speaker patterns found
-        return [Document(
-            page_content=text,
-            metadata={
-                "source": file_path,
-                "type": "transcript",
-                "speaker": speaker_from_filename,
-            },
-        )]
+        meta = {
+            "source": file_path,
+            "type": "transcript",
+            "speaker": speaker_from_filename,
+            **{k: v for k, v in file_meta.items() if k != "_comment"},
+        }
+        return [Document(page_content=text, metadata=meta)]
 
     # Group segments into chunks of ~CHUNK_SIZE characters
     docs = []
@@ -200,6 +249,7 @@ def parse_otter_transcript(text: str, file_path: str) -> list[Document]:
                 "type": "transcript",
                 "timestamp_start": chunk_start_ts,
                 "speaker": speaker_from_filename,
+                **{k: v for k, v in file_meta.items() if k != "_comment"},
             }
             content = make_context_header(meta) + "\n".join(chunk_parts)
             docs.append(Document(page_content=content, metadata=meta))
@@ -213,6 +263,7 @@ def parse_otter_transcript(text: str, file_path: str) -> list[Document]:
             "type": "transcript",
             "timestamp_start": chunk_start_ts,
             "speaker": speaker_from_filename,
+            **{k: v for k, v in file_meta.items() if k != "_comment"},
         }
         content = make_context_header(meta) + "\n".join(chunk_parts)
         docs.append(Document(page_content=content, metadata=meta))
@@ -224,6 +275,7 @@ def parse_pdf(file_path: str) -> list[Document]:
     """Extract text from PDF, one chunk per page (then split further)."""
     doc = fitz.open(file_path)
     speaker = extract_speaker_name(file_path)
+    file_meta = get_file_metadata(file_path)
     documents = []
     for page_num in range(len(doc)):
         page = doc[page_num]
@@ -234,6 +286,7 @@ def parse_pdf(file_path: str) -> list[Document]:
                 "type": "pdf",
                 "page": page_num + 1,
                 "speaker": speaker,
+                **{k: v for k, v in file_meta.items() if k != "_comment"},
             }
             content = make_context_header(meta) + text
             documents.append(Document(page_content=content, metadata=meta))
@@ -245,6 +298,7 @@ def parse_pptx(file_path: str) -> list[Document]:
     """Extract text from PPTX, one document per slide."""
     prs = Presentation(file_path)
     speaker = extract_speaker_name(file_path)
+    file_meta = get_file_metadata(file_path)
     documents = []
     for slide_num, slide in enumerate(prs.slides, 1):
         texts = []
@@ -260,6 +314,7 @@ def parse_pptx(file_path: str) -> list[Document]:
                 "type": "presentation",
                 "slide": slide_num,
                 "speaker": speaker,
+                **{k: v for k, v in file_meta.items() if k != "_comment"},
             }
             content = make_context_header(meta) + "\n".join(texts)
             documents.append(Document(page_content=content, metadata=meta))
@@ -270,10 +325,12 @@ def parse_text(file_path: str) -> list[Document]:
     """Parse plain text or markdown files."""
     text = Path(file_path).read_text(encoding="utf-8")
     speaker = extract_speaker_name(file_path)
+    file_meta = get_file_metadata(file_path)
     meta = {
         "source": file_path,
         "type": "text",
         "speaker": speaker,
+        **{k: v for k, v in file_meta.items() if k != "_comment"},
     }
     content = make_context_header(meta) + text
     return [Document(page_content=content, metadata=meta)]
@@ -375,6 +432,9 @@ def ingest_files(file_paths: list[str]) -> int:
 
 def ingest_directory(directory: str) -> int:
     """Ingest all supported files from a directory."""
+    # Load file metadata (dates, events) before ingesting
+    load_file_metadata(directory)
+
     path = Path(directory)
     supported = {".txt", ".md", ".vtt", ".srt", ".pdf", ".pptx"}
     files = [str(f) for f in path.rglob("*") if f.suffix.lower() in supported]

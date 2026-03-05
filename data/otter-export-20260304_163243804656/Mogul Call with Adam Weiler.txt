@@ -1,0 +1,248 @@
+Speaker 1  00:00
+Adam, thanks for coming on. Been looking forward. Been trying to get you on for a while. So yeah, looking forward because you've got quite a wide knowledge set, because you've got the flat file Pro software side, and also the agency side, and your experience with the brands you've been in the business for a long time. So I know you've got a lot to teach us, right? I
+
+Speaker 2  00:20
+hope so I, you know, I was thinking about this, and you know that meme where it's like, I forgot the actual theory, where it's like, you start out, you think you're an expert, and then the more knowledge you gain, like, the less confidence you have in you actually think you're not an expert in this. So
+
+Speaker 1  00:39
+I think so it goes to unconscious uncompetence. Yes, conscious uncompetence. And then, yeah,
+
+Speaker 2  00:47
+that's what. That's where I am now, where it's like, I've been living and breathing Amazon catalog for the last two years as we build this, this catalog tool. And I'm probably more confused than ever. And Amazon catalog it. It's crazy, because the people at Amazon who work on this all day, like, that's their job, still don't understand how it works. So it's, it's like, if, if they're having these issues, it's like, what are we supposed to do? Yeah,
+
+Unknown Speaker  01:26
+they have created a monster.
+
+Speaker 2  01:29
+We we have an internal theory that we've told that we told Amazon. We think the people who started working on the catalog APIs and how it's set up on in Seller Central actually, like, either died or left and then someone new came in, because every country has, like, a unique formatting. It's like France is different than UK and Germany. There's not a standardized system across the entire region, or even within the region, like currency is one way and and something else is a different way. It's It's very weird,
+
+Unknown Speaker  02:08
+cool. So have you got some slides or a screenshot you want to
+
+Speaker 2  02:11
+take us? Right? Yeah, yeah. So I think screen share is the easiest. So everything that I'm going to share, I'm going to kind of bounce back and forth between our app, flat file Pro, and then, just like standard spreadsheets, because I want to show, I don't just want this to be, you know, an infomercial for flat file Pro. I want to show sellers how they can handle all this stuff in regular spreadsheets if they're used to, if they're used to flat files. I guess the main point is, if you haven't ever used flat files, and you've only edited listings in Seller Central, that needs to change, and it needs to change because there are fields in Seller Central that just aren't available, or there aren't there are fields and flat files that aren't available in Seller Central. So we've got some exporting tools in this system, and I'm just going to pull up, you know this. So this would be a flat file export from flat file Pro. And what this is doing is showing like, the differences between what's in Seller Central, Fauci Pro, versus what's on Amazon. So this is, like, the first thing that I would say is, like a catalog cleanup, catalog maintenance, you know, we call, we're, you know, we're all marketers here. We're trying to brand the differences and the issues you have with catalog. We're trying to call it branded catalog rot. And what catalog rot is is, you know, you make your beautiful listing, you upload it to Amazon, and over time, it starts to deviate from that. Other sellers hop on. Something happens on the back end, there's errors in there. And catalog rot is that thing that you see where, why can't I make that change? Or why did that change? Why is that bullet point showing weird? Or why is my image not in the fifth position? Why is it in the in the eighth position? And catalog rot is could be an error on your listing because they changed the requirements after you had already uploaded it, or it could be just Amazon changed your product type, or their AI has gone through and changed something about your listing so easy way, or what we recommend at least on a weekly, if not monthly basis, is kind of look for all these differences. So you're looking for all the areas across all your listings where it's like, okay, well, we put that it's made in China, but on Amazon, they're not recognizing it as anything. Now, this could be a tiny thing, but. In the age of of Amazon using AI in their listings, all of these areas where you're seeing a discrepancy are potential losses in ranking, in which leads to search volume, which leads to sales, right? So kind of just an easy cleanup, you know? Why is this one universal, but on in you never, we never put that, but on Amazon, it's showing universal is universal, right one? I'm not sure in this case, but it's like we would send that to our catalog team. I'm gonna bounce to this one. So like I was saying, if you hadn't been using flat files and only been editing listings in Seller Central, that needs to change, especially in 2025 as Amazon's AI gets more in depth, I'm just going to open some of these. So this is flat file Pro. This is our catalog management tool. What we say it's the ease of use of Seller Central with the level of detail of flat files. Now all of these fields are in a flat file. At each of these they're not all in Seller Central. So you can see there's a lot of blank things here. These are, this is free money for sellers. This is every area where there's blank means that there is a piece of content here that you could input to help with your search results, right? Because, Target, gender, age range, description materials,
+
+Speaker 1  06:33
+because that, because it will help with keywords or will help someone's doing a filtered search
+
+Speaker 2  06:37
+both, both with key if they're doing filters, research, great. But also with with keywords. Now it used to just be title bullet point right back end keywords. Now they're, they're taking all of this and using that, you know, call it Rufus, call it a, nine, a, 10, whatever people are calling it. All of these fields now are being indexed, especially if you're if a customer is searching kind of natural language query in the search bar, right? Boots for young boys, right? Okay, well, yes, you could have that in your title, but let's just say you didn't have that in your title, how? How is the search algorithm supposed to know that you're ranking for that, or that you're relevant for that? You know? And this, we've got a shoe over here. We've got a sample shoe, and you can see all of like the shoe specific things like material, lining, description, patterns, all of these things, water resistance level, right? So water resistance level, if that's not in there, and someone's searching for waterproof boots, right, or water resistant boots, like you're that's a that's a search query that you're missing out on. So I think that the theme today is especially it's one thing, if you've got 100,000 listings, there's only so much time. And you know area to focus on, but if you've got a smaller catalog, it really makes sense. And I think the ROI is there finally, now, from a sales perspective, to go through and optimize all of these. And you don't have to do it in flat file Pro. You can do it in flat files, right? You can, you can get experts on on Upwork, or if or on Fiverr, or get recommendations. We like flat file pro because it keeps the change log of everything. It makes it a lot easier. It's like you don't need someone technical to do it and deal with all of those issues, so you can just kind of push all the changes through. But I think these are table stakes now for Amazon in 2025
+
+Speaker 1  08:52
+Yeah. So there's a question from Fauci saying, often see that product the type is wrong, would that be easy to change from the software it
+
+Speaker 2  09:01
+was until Amazon changed the endpoint. So right now, we're trying to troubleshoot, and there's an Amazon developer conference next week here in Seattle that we're going to it's, it's our number one on our topic list is figuring out how to make that editable. We we we have a way that require that would delete the listing and recreate it, and that was only working about 85% of the time, and 15% of those things were just be like deleted. So we disabled that part right now. Right now. You still have to open cases. Let me share a let me share this GPT. We made which and I like, I don't know what the best way is to share the drop it in the chat, or,
+
+Speaker 1  09:50
+yeah, you drop it in the chat and then, okay, but then if you save it, you can get it added to the notes as well.
+
+Speaker 2  09:56
+Perfect. We're adding some notes. So this. This is a GPT we built for Amazon case support. So if you type in, like, here's our SKU, here's our asin, here's the current product type, here's our desired product type, it will make the right you know, Kat, full case for you. And just a little tease, Amazon is announcing that they're that they are making Seller Support available via API. So that's going to be like, automated case openings and automated case management. I'm sure we're going to integrate it into our tool. I'm sure other softwares are going to pop out, pop up for for case management. So it's like all these issues where you still need to open a case. Theoretically, like, I hope they're crossing the line where, like, I've always said, a good AI should be able to solve most of these cases. And it feels like they're moving in that direction.
+
+Speaker 1  10:52
+I said, Do you want it? So you just share. Do you share this? The link from
+
+Speaker 2  10:57
+the bar on, let me know if that effect. So save that. I mean, if you have a chat GBT account, feel free to use that as much as you want. And then I would say,
+
+Speaker 1  11:10
+I think that's pop straight up on my chat GBT. So cool.
+
+Speaker 2  11:17
+So we've got the differences report, we've also got an issues report, where, where's the issue? Message, come, there we go. So here's, here's where I've gone. Like, full cycle of like thinking I know everything to think to knowing I know nothing. These Amazon error codes are such a black box and so painful some some are clear as day, right? Okay, this first one right here. Unit count is required, but not supplied. In that case, we actually like hot link you to the area on the listing where that error is okay. There's an issue with the URL link. Let me try to find one of those. Product Description is required. There are some where it's I don't know if you guys have seen it, where it's like this asin is conflicting with the information that's already on that asin, right? You try to change it, and it's like, and it's you try to change the color from green to brown, and you get the narrow code of like, this, is this asin based on the info on our catalog should be green? It's like, okay, well, what do you do there? It's a default, open a case, or try to push through enough changes. Like, sometimes you get lucky, more most likely they're going to say, like, delete and re list every anytime you have to do that, it just, it just stresses me out, right? Because it's like something, there's one error that it doesn't catch that, that that listing stays down for quite a bit until you escalate it.
+
+Unknown Speaker  13:11
+It's super annoying to let you see how instantly stuff,
+
+Speaker 2  13:15
+yeah, they, they seem to be getting a little better. Okay, so it's like, okay, title and main image doesn't seem to represent the same product. And it's like, what are you talking so a lot of those, I think this this next level of like, using AI and APIs to open cases. I think it's going to help a ton of sellers in the coming months. But like you know, so we have this export feature where you know weekly or daily or monthly, whatever, you can export all of the errors across all your listings. You can also just see them manually on here, if you're in flat file, pro, you go to listings page and click on any of your listings, right? And then some of these are just warnings, right? So, okay, they want you to fill this stuff in that's not going to take your listing down. Some of them, like, if they're in red, they call them severe. And they might be impacting your search results. They might be impacting your keyword relevancy. I think it's like, I think all sellers, if they're monitoring their keyword search results, have seen places in time where you just start dropping and you don't know why our go to sop is like, Okay, check the product type to see if there's a mismatch, right? Because there's a mismatch there between product type and and main keyword, all right. Well, then your ads stop firing for that because it doesn't think it's relevant, and all your search terms stop. So that's just like a go to fix for that.
+
+Speaker 1  14:55
+Is it like, still a thing that you should try and have, like, a full. Or an NA and fill out every single block as a kind of defensive measure to stop other people editing your listing.
+
+Speaker 2  15:06
+Yes, yeah, not so, you know, I talked about it from the I talked about it from the search. You know, the positive side, like you will get more more impressions because you're more relevant to more searches, but also there's two areas. So let's say you're selling on the US and the US seller changes something. And if you hadn't filled that field out, Amazon might accept their contribution, even if you have brand registry, even if you have a higher contribution score, that's one thing. Now, okay, you fill all this up in the US. I think we've seen it in MDS recently. It's like an attack will come through the Netherlands site or the UK site or Italy, where they will fill in something on the back end, like a competing seller, and it will cross over and infect the the main us listing. So any place you can fill in, especially if you have brand registry, which most of assuming most people on the call do, you're going to prevent Black Hat attacks. You're going to prevent people from from taking down listings. You
+
+Speaker 2  16:24
+I was in what okay matching error on, like a product type keyword, were you talking about? Or a different, different matching?
+
+Speaker 1  16:42
+Oh, I did ask him to what his question was, but he says, You covered it, okay?
+
+Speaker 2  16:48
+Yeah, if it's a title, and you know, you have RAM registry, and so what we say is, okay, if you tried Seller Central already, have you tried a flat file that has, like, another higher level of success sometimes, and then through the API which which flat file Pro uses that has an even higher level of success? But even so, it's still Amazon, and their systems are crazy. So if it doesn't go through immediately, or it doesn't go through within 24 hours, we say, use that GPT open a case. What you can do? You
+
+Unknown Speaker  17:36
+can let's, let's go. I'm gonna go back to that listing.
+
+Speaker 2  17:47
+Let's just grab the shark. Child 14, let's edit something.
+
+Speaker 2  17:57
+All right, so let's push this. Let's update that listing. Okay, so this is a good example of, you know, when you're uploading a flat file, and you you upload the file, you click a refresh a bunch of times, then you get a processing report, and then you have to download in the error. So, like we're doing that all through the API super quickly, and then we like hot link to where the issue is, right, so your product details. Okay, so what I'm going to do in this case is I'm going to try to force this through. So we have a little force update. We found a nice little hack that sometimes pushes those changes through, and it did. So you can see it's like that Amazon error where it was saying, like, it can be overly restrictive. Their validation can be overly restrictive at times. We've got the force update function that can still push that change through. Okay. So then you can see we initiated that change. That was the original value. This is the requested change. What's going on here, and what most sellers are doing? You're going to that listing, you're refreshing it a bunch of times, and you're waiting to see if that changes live on the front end of Amazon. Well, we've got a bunch of jobs that that go into our queue that are checking this automatically about every three minutes, and we'll actually let you know we're trying to find one like it'll be like this. Changes live on Amazon. Update successful, right? So you know, we can see through the API when that change goes live, and if it doesn't, we'll let you know that, and you can open a case. But you know, most sellers, you're doing this manually, or some sellers have set up scraping tools or kind of complicated systems that, yeah, it's like, it's a. Using how many sellers like upload their listings and then don't verify what's live on the front end of Amazon, or don't have that process to make sure if things change, like we got to let them know because you spent how many hours using Data Dive or other tools to like optimize those listings and then overnight, like some of those bullet points could change, or your title can change,
+
+Speaker 1  20:24
+but this, would this give you alerts when stuff changes the same way, like Sunrise or something else,
+
+Speaker 2  20:30
+yeah, yeah, all in world catalog focus, right? It's like, you know, product type changes, or bullet point change, or things like that, okay, yeah.
+
+Speaker 1  20:48
+That. Oh, does this software replace the support of Amazon, Captain, manager or brand registry?
+
+Speaker 2  20:57
+I think the brand registry portal for opening cases is still a great place to go for brand register seller to if, let's say this didn't go through, like, let's say in, in 24 hours, after all our jobs time out, you come in in the morning and it's like Amazon didn't make the change. So here, like, perfect example, like, Amazon didn't apply or change take this, put it into that GPT, right? Boom. It's going to create that, that case content for you. Take that, you go to the brand registry and submit that case there. That's probably the best chance. Right? Boom, boom, right this. It makes it, writes it in it writes it in Amazon, speak. So to say, I think that's brand registry is still a great chance place, because even though we have a higher acceptance rate through the tool, things still don't change when you push them through. And it could be because it it seems to happen when there's been a lot of catalog rot where that listing is like, it's a it's an old grandfather listing, and there's been a lot of updates to the requirements on that listing, or think that category has changed a lot. That's one that's tough to change a listing.
+
+Speaker 1  22:30
+All right, so when, when is the seller, support API opening?
+
+Speaker 2  22:34
+Yeah, so we don't have specific details. So what's what? How I found out about it is there's an Amazon seller or developers conference in Seattle next week at Amazon HQ, and they had meetings available to book with this team, and they just kind of teased it. They said, seller, support, API, endpoint, come talk to the team responsible for it. So it's like next week is the first time they're even mentioning it at all. And I'm assuming we're going to have more details next week, as far as, like, what's available and when that's going to be live. And I'll make sure to post that. I'll post some notes in MDS. All
+
+Speaker 1  23:16
+right, one more question, 1000s, is that sometimes the flat file, he'll add an additional option to a drop down if the option isn't there. So for example, that might be something like variation theme. Can you do that through flat file? Pro or not?
+
+Speaker 2  23:30
+Yeah. So let me show you what it looks like, and then go from there. I
+
+Unknown Speaker  23:44
+I'm not,
+
+Speaker 2  23:53
+so select variations. So right, you can select this and then the variation theme which so these are all we're pulling these through the API for the per product type. So this is like everything available for the product type shoes. And then you could change this, or keep it if you're going to change it, make sure you change the parent. Make sure you change all the children underneath it. And so it's as easy as just changing right? So it's like, okay, size, color, child, relationship, type, this is a variation. This is a child. And then put the parent right, Shark parent. And that's not the actual real one. But then you would click update, and that would go through, and our tool would be, be checking, cool, okay, yeah, so the theme, the variation theme, trying to find some other drop downs for you, right? It's like, so. This. We're we're updating these. And I don't know if you guys have seen it sometimes, like, let's, let's use this lifestyle examples. You've got a product, and one day you update this lifestyle, and the next day it's not there. Or one day, there's just a new attribute that you're supposed to update. It's like, and you're using the old flat file version, so maybe you get an error there because you didn't download the most recent one. So these things are constantly in flux. We just recommend going in and checking and and kind of giving it a scan. I
+
+Speaker 2  25:43
+What else? Yeah, I think though anything else we haven't covered Jamie,
+
+Speaker 1  25:51
+so if we were doing flat files, if we're not doing them from flat file, pro, yeah, are you, is Google Sheets fine. Or do we need to use Excels?
+
+Speaker 2  26:02
+Yeah, Google Sheets fine, right? It's, I just have this in Chrome, but normally I work in Google Sheets. Google Sheets totally fine. Just export the right format. It's, you know? So I think the overall theme for today is like, if you haven't been doing flat files. You need to in the age of, if AI catalog optimization, just make sure everything is filled in here. Let's do so like this is we've got a full catalog listing report. These are all of the fields, right? It's, it's a crappy system, but it's necessary now, like you need to have this, have your source of truth, we break it down per product type. If you literally just wanted to create a free trial account and go export your listings, and then cancel your account. Like that's fine with us too. But go, go export all your listings, create a source of truth, because in 2025 on Amazon, you need to have these, these areas filled right? It's like someone's job on your team should be. And you can even use AI for this, like, upload the spreadsheet. Hey, find the columns, look at the products, fill it in. I haven't built that GPT yet, but it's something we want to if anyone, if anyone wants to kind of collaborate on that, where you can take like an unfilled spreadsheet and and fill in like, relevant data that actually is valuable. Let's, let's collab.
+
+Speaker 1  27:47
+So if but Does, does chat? GPT understand what a flat file is. If I upload a flat file where, and say, This is a flat file for my Amazon listing, can you tell me, if anything looks up, it understand. I can ask you questions. It will understand what
+
+Speaker 2  28:00
+it is. It should? Yeah, it should, if you, if you provided some some background info, yeah, there's, there's plenty of info on the web that are that's in claw, that's in chat, GPT, about flat files. Okay, so rich
+
+Speaker 1  28:13
+asks, Can you show us again how the download report compares submitted bullet points versus what's actually like,
+
+Speaker 2  28:22
+yeah, so we call it a differences report. And so each column where there's a difference, we have two columns or each attribute, so bullet point zero that you know what's in flat file Pro is the same as Seller Central. They're always synced because that's actually, that's called the listings endpoint. And then this AZ, is what's live on Amazon. That's the catalog endpoint, if you care about, like the back end,
+
+Speaker 1  28:50
+okay? And that's, oh, that's something a flat file Pro is doing. That's not something that flat files doing on site
+
+Speaker 2  28:55
+Exactly, exactly like how you would have to do that manually, right? So you you can export a similar report to this, not the issues, like your your listings, one you can kind of get that from the get category listings, and then you would have to, like, go look at each place on Amazon and make sure it's matching up. I mean that. That's one
+
+Speaker 1  29:21
+of the reasons. How long is the free trial on flat file approach, you know,
+
+Speaker 2  29:25
+I friend for MDS members. It's as long as you need until you're getting value. So, you know, at
+
+Speaker 1  29:33
+the very, at the very least, we should do a trial and just quickly run these reports.
+
+Speaker 2  29:39
+Yes, yes. So we say, you know, so the default seven days. If you need more, just ping me through the through the intercom, little chat system, and happy to add more free trial to your account.
+
+Speaker 1  29:52
+But yeah, seven days should be enough. Just basically to see is our flat file is matching what's there, and then we can work out what tickets to. Put in and what, what updates to do. So if I just want to change, like a price or a bullet point or whatever wise, why is it better to do a flat file update than just doing it from edit listing,
+
+Speaker 2  30:14
+though? Okay, so from a flat file perspective, it might be overkill for if it's just an a price, if you're trying to upload update 50 at a time, clearly a tool like our bulk edit tool or an actual fat, flat file spreadsheet is the right way to go there. And then I would say the the other feature why you would want to do it in a tool like ours is you get the activity log, right? So you get, you get a record of all those changes, so you know who on your team when they did it, and actually, if it went through,
+
+Speaker 1  30:52
+okay? And also, you can if something's happened sometimes, Amazon just make changes on their own, and then, yeah, you know that. Okay, so Carla's got a question, which attributes should we prioritize when filling out the back end fields so that our listings are AI ready? I normally fill out the discovery fields first.
+
+Speaker 2  31:11
+Yeah, I think it's so discovery is great. I think it's any field. I any field is going to give you a little bump, because now Amazon is ingesting all of this. And have you seen like, obviously, we've played with like the Rufus search on on a listing page. That's like, you're already on listing. But I've seen the AI search like in on random pages where you can just search, hey, I'm looking for a boot that's waterproof. That's, you know, like, we call it natural language search versus, like, keyword based search. And I think Amazon's moving more and more towards the Natural Language search. So I mean any, any field where you see, so it's very dependent on product type. If you see where my mouse is, that's why we break it down by product type, because the the columns in call beauty or cleaning agent dress are different from auto accessory, right? So you're going to have way different requirements. And I would just go through and do you have to do all of them? No, right, but you should do as many as you can.
+
+Speaker 1  32:33
+And so are you just putting full stops and all the ones that are that are empty, so that someone does, so that someone with a vendor account can't just come and put pesticide in it or something. Or is
+
+Speaker 2  32:45
+that that is a strategy? That is, that's definitely a strategy. And, you know, some some people put keyword like, they'll have, like, a default copy and paste keyword list, and they'll just put that in where it's, like, we it's not hurting. It's not shown on the front end of Amazon, but it potentially has some rank juice in there. Oh,
+
+Unknown Speaker  33:06
+so are you can just use it for key you can just use it for keyword stuffing instead.
+
+Speaker 2  33:14
+Yeah, it's like, this is if we made, if we combined all of them into one spreadsheet, instead of breaking out by product type, there will be like, 2000 columns in the in the spreadsheet.
+
+Speaker 1  33:27
+That's crazy. Another question, is there a way to see competitor back end data,
+
+Speaker 2  33:40
+trying to think you could, if you, if you have an asin, we can look at the front end of Amazon. We can't look at at the data they've submitted if they haven't authorized our tool. Say So, same with, same with any seller. But if you have an asin, you want us to check out or, like, pull data from I've got a tool I can do that just, just ping me on Messenger or through the chat.
+
+Unknown Speaker  34:10
+Okay? And so for images, you like to use these, what those AWS notes.
+
+Speaker 2  34:16
+So our system actually takes any images, and then it downloads them, and then uploads them to our photo bucket. So like in so we've got a let me see if I can find listing. I'll just pull this
+
+Speaker 2  34:41
+so we just handle all the the images, just like a kind of salsify or or any Pim, right? So it's, you can upload a normal image, and it would, we handle all the the linking and URL stuff you don't have to do. Oh,
+
+Speaker 1  34:58
+okay. But if someone. Than using flat file Pro that is what you would recommend. I think we switched to that a while ago because apparently it's better than they're in the flat file, rather than
+
+Speaker 2  35:08
+sometimes Amazon times out if it's like a photo bucket or image or something like that, sometimes there's there's errors that are just like, they don't play nice together.
+
+Unknown Speaker  35:20
+Yeah? So how much is flat file pro at the moment?
+
+Speaker 2  35:25
+So right now, it's $99 a month, and that includes two marketplaces, and then additional marketplaces are $30 a month. Okay? I mean, it's like, I don't you could do this if you're already doing it with flat files, like, definitely keep that up. Just Just know that there's more room to to expand there. And if you aren't using flat files, this is the time. I know it can be intimidating, but it's like, you know, sellers in 2025 need to add that to their toolkit.
+
+Speaker 1  36:01
+Yeah. All right. Question from chill, when we fill up the attributes, should we pick one from the drop down column, or should we freestyle type something not in the column? If we pick from the drop down column, what should we do if you want to pick multiple from there?
+
+Speaker 2  36:17
+Yeah, we, you know, we're following Amazon's catalog best practices. So it's, it's really, they're giving us the the they're saying, These are the fields that we're we want to take, right? And we're just pulling it directly from them, right? So, battery, IEC, code, things like that. I would say, you know my my vote is, don't freestyle with it, and go with it. If it's if it's not a battery listed right, then you can enter something, right? So LiPo battery, you can try entering. And I think most of these fields, unless it's hard coded, you can enter in text or do the drop down. And then the good thing with love Pro is, like, the feedback loop is, like, super fast, so you can just, like, do that, hit update and see if you get an error code.
+
+Speaker 2  37:31
+Okay, so, yeah, like that one. So it's saying, and this is, like, this is our internal validation. It's saying, like, you said a type of battery, but you didn't say the number. So it's got, like, some smart features that you don't normally you would have to upload the spreadsheet, wait for the processing port, download the processing or open it up, make the fix. And now it's like, you know, we say, like, 30 times faster, probably even faster than that, and then four. So it's like, okay, so batteries are getting and I'm assuming it's because batteries required, batteries include, right? So it's like, we would just work through this. And it's like, or is it just not liking that? And Amazon doesn't have an error code for it. That's, that's back to the Amazon error codes are, are what's keeping me bald, that's, uh, if there were no Amazon error codes, I would have a full head of hair like Jamie.
+
+Speaker 2  38:33
+Oh, sweet bows. That's cool. So is that the poll? Is that link to get, like the catalog endpoint for our nation.
+
+Unknown Speaker  38:56
+That's the back end data. Yeah,
+
+Speaker 2  39:02
+that's cool, too. It's probably like trying to look at this URL format. Yeah, we've got a we've got a little tool we built that pulls that that back end data. So pretty awesome. If you can just go to URL I
+
+Unknown Speaker  39:26
+Oh, sweet. There we go.
+
+Speaker 1  39:29
+All right, so people can check out flat file? Pro, yeah, let Adam know if you want to extend your free trial, and that will also, does it give you? Because at the moment, I've got somebody manually going through and checking if there's problems with listings and stuff. I guess that's always probably going to be a good idea. But he's saying that this was this, would you get alert? You get an alert on flat file? Pro, if, if, like, yeah, or something like that. So
+
+Speaker 2  39:58
+we call it the Reflect. Thing report. So this is, like, a visual way to see it. So all of these x's are where there's a difference in between what's live on Amazon and what's live, whoa, and the content you submitted. And you know, I have never seen it where everyone's full green, like, in fact, like, I want to do, like, a $10,000 catalog cleanliness competition, right? Of like, show me your cattle. If you have a clean catalog, we'll give you $10,000 because it just, I it's one of those problems, like, people don't realize that they're having, and once they have it, they're like, oh, I want to fix that. So the difference is, report, you know, go create a free trial. You don't have to do anything else. Just go export the differences, and then go work through that for the next month or so. And and you'll have, you'll see increases in ranking. You'll see increases in in sales, because you'll start to optimize every one of your listings, boom, right? It's like, so keyword value, what you put in and what's live on Amazon. It's like, oh, like, Amazon's not, doesn't have any of it all right? So that's a case, right there. I would go open that case or try to my first step would actually be try to resubmit it, either re upload it into Seller Central with like a minor tweak, maybe a comma or something, put it, push it through on in a flat file, or take it to flat file Pro and just try to push it through again. Sweet. Um yeah, I
+
+Speaker 1  41:41
+gotta be useful, because we get quite with European link with European listings. We've got quite a lot of like, the languages getting mixed up, yeah, so, um, that that'd be useful. I think that would help help us see that better. Um, all right, well, um, thanks very much, Alan, that's awesome. If we could just get the the air table so you guys could just let us know, give us some feedback on the call next week. I still need to book. I might book Dorian again, if you guys want and then we've got Leo doing a Paul and joy brands, and then Jay hunter from Mary roof. So some exciting calls coming up this month. Awesome. So how is, how's it been? How's the experience been, sort of launching and growing like a SAS.
+
+Speaker 2  42:34
+It's, I mean, I love it. It's, you know, the agency. We've got 60 people off the agency side. So it's like, it's a people business, whereas this is, it's me and a small team, and we're pushing updates every single week, and it kind of just keeps compounding. I didn't know the level of complexity of building on Amazon's APIs. And if I didn't know that, I would have never started it, right? It's like the old it's like the old meme. It's like, we're entrepreneurs, not because it's easy, but because we thought it would be easy and and that's where, where we are, where it's like, you know, we're growing. We're growing week over week. We got, you know, we've got about 500 users in the tool. We've got about 3 million, or 5 million, close to 5 million different ASINs in the tool right now, I think it's like a quarter of a percent of Amazon's catalog, and grow or third of a percent of Amazon's entire catalog, and growing. So it's, it's been awesome. I mean, I get, I get a ton of joy out of it, helping sellers, like all great feedback from our current users and feature requests and things we get to build. So I'm stoked.
+
+Speaker 1  43:55
+Brilliant. Thanks, Adam, thanks every guys for your good questions. Recording will be up tomorrow and yeah, once I put the guest in for next week, I will let you guys know.
+
+Unknown Speaker  44:04
+Thank you, everybody. Thanks guys.
+
+Unknown Speaker  44:06
+Bye. You.
+
+
+Transcribed by https://otter.ai

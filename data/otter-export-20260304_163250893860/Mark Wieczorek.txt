@@ -1,0 +1,62 @@
+Speaker 1  00:05
+All right, so think everybody wants to know, like, how do they know their advertising is actually doing anything? Amazon's rolling out marketing mix models, like this year, I came up with, like, a simplified version of a marketing mix model, essentially, so using statistics to figure out what your advertising is actually doing. So I have here, and we get this from a third party data source like helium 10 or something. But what are category sales? We have internal database for branded searches in the seasonality column, you could see I put essentially, most days are regular, but then some days are labeled like, Prime Day, this or that. Then there's a report. Or you could use that tool that Etienne was talking about to pull out your repeat, Subscribe and Save, and then like different campaigns and then my actual sales. So I'm trying to figure out, like, what is actually causing the sales? Like, statistically and like, if we ran a promo on Prime Day, what did that actually do? So essentially, I export this as a CSV, and then if I come back to this screen, I import it. So I found this open source program. If you guys are familiar with statistics, there's like, SPSS, but it's incredibly expensive. This is an open source program. It's called JASP, j, A, S, P, and then, basically, I put in I want to predict my sales. You know, these are all the things that I want to vary. Like to figure out whether or not they're actually correlating they maybe they're not causing sales, but at least they're correlating with them. And then the seasonality is text, so it's like label data, so it goes into a different field, then I get this data. And if you guys know statistics, the p value is all below point 05, so all statistically significant. Quote, unquote. Like, there are some variables that I excluded. And then basically I could just copy this tab here, the coefficients tab just literally click Copy and then going back to spreadsheet, this is what it looks like. And then, so it's not exactly so. Also importantly, I'm putting in spend in the campaign data. I'm not putting in sales. So how much did I spend on sponsored ads? How much do they spend on sponsored brand, et cetera, et cetera. So these numbers are something like return on ad spend. It's not a guarantee. Correlation is not causation, but the SP, Perf campaign, 1.6x row ads. SP, other 7.3x row ads, et cetera, et cetera. This brand in particular, didn't participate in Prime Day 2023 so you can see their their sales were actually like negative on that day, like less than they should have been, like all the other variables accounted for. But they did participate in Prime Day 2024 and you could see, you know, essentially, something like a 20x ROAs on that stuff.
+
+Unknown Speaker  03:00
+So then, going back into the first tab,
+
+Speaker 1  03:03
+what I do is, then I basically take, like, multiply so category sales times whatever that number it gave me was, you know, do that across, and then chart it out, and it looks like this. So you can see the blue lines are the actual sales, and then, like, all of this, like stacked area stuff is like, what the prediction, what the model says it thinks the sales would be. And you could see, like, on Prime Day, I didn't include the Prime Day numbers in this chart, but you could see, you know, they did better on Prime Day, especially than they did last year, where they were below what the forecast said they should have been. But like, how much sales were driven by running a promo on Prime Day, how much sales were driven by the sponsored products on Prime Day? Et cetera, et cetera. Really great for answering questions like, does running a 10% off first time Subscribe and Save coupon actually do anything stuff like that? And then the last thing I do is I sum all the columns here, if I could open that so, you know, what's how much total sales, you know, what is the sum of sales driven by the category? Sum of sales driven by Subscribe and Save, repeat, Subscribe and Save, etc, etc. And I make a little waterfall chart that says, you know, this is the sales that were driven by, you know, sponsored display, sponsored brand, sponsored products, etc, etc. And it gives me some idea. You know, again, correlation is not causation. But you know, when we increased spend on these campaigns, you know, sales tended to increase by some amount, as you saw on the other sheet.
+
+Unknown Speaker  04:39
+That was it. You're speaking foreign language. What
+
+Unknown Speaker  04:53
+was your takeaway? So now you analyze data, what do you take
+
+Unknown Speaker  04:56
+away? So
+
+Speaker 1  04:59
+you know, like. Probably increased spend on the ones that have a high number. So, you know, increased spend on sponsored brands, sponsored brand, video, sponsored display, you know, maybe decrease spend on that campaign because it's got, like, a lower row as than the other one, which are, repeat, yeah, plan to Subscribe and Save. So, like, plan to subscribe drove a lot of sales. Campaign
+
+Unknown Speaker  05:22
+level and keyword level data to make those predictions,
+
+Unknown Speaker  05:24
+I'm using campaign level data,
+
+Speaker 2  05:27
+but it may have different keywords, so, but you're maintaining the same campaign with the same budget, right,
+
+Speaker 1  05:34
+right? Well, I mean, ideally, you sort of vary spend across campaigns. Because, just because, if it's like Kat, like DSP always says is, like, doesn't drive anything, because you never vary the spend. So you would want to vary the spend a little bit, you know, like, make some adjustments, run it again in a week, see if it gives you different numbers.
+
+Speaker 3  05:54
+Yep. Are you finding that as they're increasing budgets? And, like, on prime, did we increase budgets, and then almost Prime Day you're going to decrease budgets? Are you finding out when you decrease the budgets that ranks or drop annual
+
+Speaker 1  06:07
+this analysis nothing to do with that. Wasn't, yeah, not paying attention to that with this analysis.
+
+Speaker 4  06:15
+What's like magical national policy in Ukraine based on make spend more,
+
+Speaker 1  06:20
+spend more on these campaigns, spend less on these campaigns. Like, you know, and if you can compare across brands or across products, and say, like, how much did the 20% discount drive versus the 30% discount and like, try to see, like, did the 30% discount actually do, like, significantly more than the other one,
+
+Speaker 4  06:36
+and where did you get that original data from, from the sheet going? That's
+
+Speaker 1  06:41
+like our database of, yeah, like week by week sales. No, it could.
+
+Speaker 2  06:47
+You got your own campaigns from seller center that you downloaded first and then, yeah, we're connected
+
+Speaker 1  06:53
+to the API, so it's just easy to sell similar database for
+
+Unknown Speaker  06:56
+me. Awesome. Thank you. You.
+
+
+Transcribed by https://otter.ai

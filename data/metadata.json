@@ -1,0 +1,31 @@
+{
+  "_comment": "Map filenames to event date and context. Edit dates/events to match reality.",
+  "default": {
+    "event": "MDS Mastermind",
+    "date": "2025-01"
+  },
+  "files": {
+    "1. Josh Hadley_otter_ai.txt":       { "date": "2025-01", "event": "MDS Mastermind", "topic": "TikTok Shop Creator Strategy & Shopify DTC" },
+    "2. Jason Ko_otter_ai.txt":           { "date": "2025-01", "event": "MDS Mastermind" },
+    "2. Michael Zenga_otter_ai.txt":      { "date": "2025-01", "event": "MDS Mastermind" },
+    "3. Brian Kelsey_otter_ai.txt":       { "date": "2025-01", "event": "MDS Mastermind" },
+    "3. Matthew Greene_otter_ai.txt":     { "date": "2025-01", "event": "MDS Mastermind" },
+    "4. Jan Krapp_otter_ai.txt":          { "date": "2025-01", "event": "MDS Mastermind" },
+    "4. Leslie Eisen_otter_ai.txt":       { "date": "2025-01", "event": "MDS Mastermind" },
+    "5. Prue Millsap_otter_ai.txt":       { "date": "2025-01", "event": "MDS Mastermind" },
+    "6. Abazar Manbeian_otter_ai.txt":    { "date": "2025-01", "event": "MDS Mastermind" },
+    "6. Ershad Ganjy_otter_ai.txt":       { "date": "2025-01", "event": "MDS Mastermind" },
+    "7. Mikial Nijor_otter_ai.txt":       { "date": "2025-01", "event": "MDS Mastermind" },
+    "7. Mohamed Siddique_otter_ai.txt":   { "date": "2025-01", "event": "MDS Mastermind" },
+    "8. Michael Corrigan_otter_ai.txt":   { "date": "2025-01", "event": "MDS Mastermind" },
+    "8. Scott Deetz_otter_ai.txt":        { "date": "2025-01", "event": "MDS Mastermind" },
+    "9. Jasim Eisa_otter_ai.txt":         { "date": "2025-01", "event": "MDS Mastermind" },
+    "11. Ozlem Sengul_otter_ai.txt":      { "date": "2025-01", "event": "MDS Mastermind" },
+    "Alar Huul_otter_ai.txt":             { "date": "2025-01", "event": "MDS Mastermind" },
+    "Callum Mundine_otter_ai.txt":        { "date": "2025-01", "event": "MDS Mastermind" },
+    "Călin Domuța_otter_ai.txt":          { "date": "2025-01", "event": "MDS Mastermind" },
+    "Etienne Ameil_otter_ai.txt":         { "date": "2025-01", "event": "MDS Mastermind" },
+    "Matt Dreier_otter_ai.txt":           { "date": "2025-01", "event": "MDS Mastermind" },
+    "Neeme Roos_otter_ai.txt":            { "date": "2025-01", "event": "MDS Mastermind" }
+  }
+}
