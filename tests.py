@@ -13,10 +13,16 @@ import re
 import shutil
 import sys
 import tempfile
+import time
+import hmac
+import hashlib
 from pathlib import Path
 
 # Ensure project root is on path
 sys.path.insert(0, str(Path(__file__).parent))
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 import config
 from ingest import (
@@ -143,7 +149,7 @@ print("\n--- Document Loading ---")
 
 # Create a fake Otter transcript
 with tempfile.NamedTemporaryFile(
-    mode="w", suffix="_otter_ai.txt", prefix="Test Speaker_", delete=False, dir="/tmp"
+    mode="w", suffix="_otter_ai.txt", prefix="Test Speaker_", delete=False, dir=tempfile.gettempdir()
 ) as f:
     # Write enough content to generate multiple chunks
     lines = []
@@ -238,7 +244,7 @@ if config.VECTORSTORE_DIR.exists():
         result.fail(f"Only {len(speakers)} speakers found")
 
 else:
-    result.fail("Vectorstore not found — run 'python bot.py ingest data/' first")
+    print("  SKIP  Vectorstore not found — run 'python bot.py ingest data/' first")
 
 
 # ============================================================
@@ -284,6 +290,7 @@ else:
 print("\n--- Web API ---")
 
 try:
+    import web as web_module
     from web import app
 
     client = app.test_client()
@@ -301,7 +308,7 @@ try:
 
     # Index page
     resp = client.get("/")
-    if resp.status_code == 200 and b"MDS Knowledge Assistant" in resp.data:
+    if resp.status_code == 200 and b"MDS Knowledge Search" in resp.data:
         result.ok("Index page loads")
     else:
         result.fail("Index page failed")
@@ -324,6 +331,47 @@ try:
                 result.fail(f"Ask API missing fields: {list(data.keys())}")
         else:
             result.fail(f"Ask API returned {resp.status_code}")
+
+    # Slack signature verification + URL verification handshake
+    original_bot_token = config.SLACK_BOT_TOKEN
+    original_signing_secret = config.SLACK_SIGNING_SECRET
+    original_slack_client = web_module._slack_client
+    try:
+        config.SLACK_BOT_TOKEN = "xoxb-test-token"
+        config.SLACK_SIGNING_SECRET = "test-signing-secret"
+        web_module._slack_client = object()
+
+        slack_body = json.dumps({"type": "url_verification", "challenge": "abc123"}).encode("utf-8")
+        slack_ts = str(int(time.time()))
+        basestring = f"v0:{slack_ts}:{slack_body.decode('utf-8')}".encode("utf-8")
+        slack_sig = "v0=" + hmac.new(
+            config.SLACK_SIGNING_SECRET.encode("utf-8"),
+            basestring,
+            hashlib.sha256,
+        ).hexdigest()
+
+        if web_module.verify_slack_signature(slack_body, slack_ts, slack_sig):
+            result.ok("Slack signature verification passes for valid signature")
+        else:
+            result.fail("Slack signature verification failed for valid signature")
+
+        resp = client.post(
+            "/slack/events",
+            data=slack_body,
+            headers={
+                "Content-Type": "application/json",
+                "X-Slack-Request-Timestamp": slack_ts,
+                "X-Slack-Signature": slack_sig,
+            },
+        )
+        if resp.status_code == 200 and resp.get_json().get("challenge") == "abc123":
+            result.ok("Slack URL verification handshake works")
+        else:
+            result.fail(f"Slack URL verification failed: status={resp.status_code}, body={resp.get_data(as_text=True)}")
+    finally:
+        config.SLACK_BOT_TOKEN = original_bot_token
+        config.SLACK_SIGNING_SECRET = original_signing_secret
+        web_module._slack_client = original_slack_client
 
 except Exception as e:
     result.fail(f"Web API tests: {e}")

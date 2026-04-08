@@ -6,15 +6,196 @@ MDS AI Bot — Web UI + Embeddable Widget API (Flask).
 - API at /api/suggestions (topics + popular searches)
 """
 
+import hashlib
+import hmac
+import json
 import os
+import re
+import threading
+import time
+from collections import OrderedDict
+from queue import Queue
+
 from flask import Flask, render_template_string, request, jsonify, make_response
 from flask_cors import CORS
+from slack_sdk import WebClient
+from slack_sdk.errors import SlackApiError
+
+import config
 from query import ask, summarize_source, track_search, get_popular_searches, extract_topics
 
 VERSION = "1.3.0"
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}})
+
+SLACK_EVENT_TTL_SECONDS = 3600
+SLACK_MESSAGE_LIMIT = 3500
+_slack_queue = Queue()
+_slack_worker_lock = threading.Lock()
+_slack_worker_started = False
+_processed_slack_events: OrderedDict[str, float] = OrderedDict()
+_slack_client = WebClient(token=config.SLACK_BOT_TOKEN) if config.SLACK_BOT_TOKEN else None
+
+
+def slack_is_configured() -> bool:
+    return bool(config.SLACK_BOT_TOKEN and config.SLACK_SIGNING_SECRET and _slack_client)
+
+
+def _prune_processed_slack_events(now: float | None = None):
+    now = now or time.time()
+    while _processed_slack_events:
+        event_id, seen_at = next(iter(_processed_slack_events.items()))
+        if now - seen_at < SLACK_EVENT_TTL_SECONDS:
+            break
+        _processed_slack_events.popitem(last=False)
+
+
+def _remember_slack_event(event_id: str | None) -> bool:
+    if not event_id:
+        return True
+    now = time.time()
+    _prune_processed_slack_events(now)
+    if event_id in _processed_slack_events:
+        return False
+    _processed_slack_events[event_id] = now
+    return True
+
+
+def verify_slack_signature(raw_body: bytes, timestamp: str, signature: str) -> bool:
+    if not slack_is_configured() or not timestamp or not signature:
+        return False
+
+    try:
+        request_age = abs(time.time() - int(timestamp))
+    except ValueError:
+        return False
+
+    if request_age > 300:
+        return False
+
+    basestring = f"v0:{timestamp}:{raw_body.decode('utf-8')}".encode("utf-8")
+    expected = "v0=" + hmac.new(
+        config.SLACK_SIGNING_SECRET.encode("utf-8"),
+        basestring,
+        hashlib.sha256,
+    ).hexdigest()
+    return hmac.compare_digest(expected, signature)
+
+
+def _clean_slack_prompt(text: str) -> str:
+    cleaned = re.sub(r"<@[^>]+>", "", text or "")
+    return cleaned.strip()
+
+
+def _format_slack_answer(result: dict) -> str:
+    answer = (result.get("answer") or "").strip()
+    sources = result.get("sources") or []
+    confidence = result.get("confidence", 0)
+
+    parts = [answer or "I couldn't generate an answer."]
+
+    if sources:
+        source_names = [src.get("speaker") or src.get("source") or "Unknown" for src in sources[:5]]
+        parts.append("*Sources:* " + ", ".join(source_names))
+
+    parts.append(f"*Confidence:* {confidence:.0%}")
+    return "\n\n".join(parts)
+
+
+def _split_slack_message(text: str, limit: int = SLACK_MESSAGE_LIMIT) -> list[str]:
+    text = text.strip()
+    if not text:
+        return [""]
+    if len(text) <= limit:
+        return [text]
+
+    parts = []
+    remaining = text
+    while len(remaining) > limit:
+        split_at = remaining.rfind("\n\n", 0, limit)
+        if split_at == -1:
+            split_at = remaining.rfind(" ", 0, limit)
+        if split_at == -1:
+            split_at = limit
+        parts.append(remaining[:split_at].strip())
+        remaining = remaining[split_at:].strip()
+    if remaining:
+        parts.append(remaining)
+    return parts
+
+
+def _post_slack_message(channel: str, text: str, thread_ts: str | None = None):
+    if not _slack_client:
+        return
+    for chunk in _split_slack_message(text):
+        _slack_client.chat_postMessage(channel=channel, text=chunk, thread_ts=thread_ts)
+
+
+def _handle_slack_job(job: dict):
+    result = ask(job["question"])
+    reply = _format_slack_answer(result)
+    _post_slack_message(job["channel"], reply, thread_ts=job["thread_ts"])
+
+
+def _slack_worker():
+    while True:
+        job = _slack_queue.get()
+        try:
+            _handle_slack_job(job)
+        except SlackApiError as exc:
+            print(f"Slack API error: {exc.response.get('error', exc)}")
+        except Exception as exc:
+            print(f"Slack worker error: {exc}")
+            channel = job.get("channel")
+            if channel and _slack_client:
+                try:
+                    _post_slack_message(
+                        channel,
+                        "I hit an internal error while answering that question.",
+                        thread_ts=job.get("thread_ts"),
+                    )
+                except Exception:
+                    pass
+        finally:
+            _slack_queue.task_done()
+
+
+def ensure_slack_worker_started():
+    global _slack_worker_started
+    if _slack_worker_started or not slack_is_configured():
+        return
+
+    with _slack_worker_lock:
+        if _slack_worker_started:
+            return
+        worker = threading.Thread(target=_slack_worker, name="slack-worker", daemon=True)
+        worker.start()
+        _slack_worker_started = True
+
+
+def enqueue_slack_event(event: dict):
+    if not event or event.get("bot_id") or event.get("subtype"):
+        return
+
+    event_type = event.get("type")
+    question = ""
+
+    if event_type == "app_mention":
+        question = _clean_slack_prompt(event.get("text", ""))
+    elif event_type == "message" and event.get("channel_type") == "im":
+        question = (event.get("text") or "").strip()
+    else:
+        return
+
+    if not question:
+        question = "What can you help me with in the MDS knowledge base?"
+
+    _slack_queue.put({
+        "channel": event["channel"],
+        "thread_ts": event.get("thread_ts") or event.get("ts"),
+        "question": question,
+    })
 
 # ============================================================
 # Embeddable widget JS — drop <script src="...widget.js"> on any page
@@ -957,6 +1138,38 @@ def api_suggestions():
         "topics": topics,
         "popular": popular,
     })
+
+
+@app.route("/slack/events", methods=["POST"])
+def slack_events():
+    """Slack Events API endpoint with fast ack + background processing."""
+    if not slack_is_configured():
+        return jsonify({"error": "Slack bot is not configured"}), 503
+
+    raw_body = request.get_data(cache=True)
+    timestamp = request.headers.get("X-Slack-Request-Timestamp", "")
+    signature = request.headers.get("X-Slack-Signature", "")
+
+    if not verify_slack_signature(raw_body, timestamp, signature):
+        return jsonify({"error": "Invalid Slack signature"}), 403
+
+    try:
+        payload = json.loads(raw_body.decode("utf-8"))
+    except json.JSONDecodeError:
+        return jsonify({"error": "Invalid JSON payload"}), 400
+
+    if payload.get("type") == "url_verification":
+        return jsonify({"challenge": payload.get("challenge", "")})
+
+    if payload.get("type") != "event_callback":
+        return "", 200
+
+    if not _remember_slack_event(payload.get("event_id")):
+        return "", 200
+
+    ensure_slack_worker_started()
+    enqueue_slack_event(payload.get("event", {}))
+    return "", 200
 
 
 @app.route("/api/health")

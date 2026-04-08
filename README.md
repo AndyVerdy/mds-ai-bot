@@ -16,6 +16,9 @@ RAG-powered knowledge assistant for Million Dollar Sellers (MDS) content. Search
 pip install -r requirements.txt
 cp .env.example .env
 # Add your ANTHROPIC_API_KEY to .env
+# Optional for Slack bot support:
+# - SLACK_BOT_TOKEN
+# - SLACK_SIGNING_SECRET
 ```
 
 ## Usage
@@ -43,6 +46,17 @@ python3 bot.py reset
 ## Web UI
 
 Start with `python3 bot.py web`, then open http://localhost:5000.
+
+## Slack Bot
+
+The app can also receive Slack Events API requests at `/slack/events`.
+
+Required environment variables for Slack:
+
+- `SLACK_BOT_TOKEN`
+- `SLACK_SIGNING_SECRET`
+
+For production deploys, set those values in your hosting provider instead of committing them to the repo.
 
 ## Tests
 

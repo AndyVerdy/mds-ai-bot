@@ -1,7 +1,7 @@
 """
 Query interface for MDS AI Bot.
 Retrieves relevant chunks from the vector store and generates answers with citations.
-Uses Claude (Anthropic) for LLM, OpenAI for embeddings.
+Uses Claude (Anthropic) for LLM and ChromaDB's built-in local embeddings.
 """
 
 import json

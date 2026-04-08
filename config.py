@@ -10,6 +10,8 @@ VECTORSTORE_DIR = PROJECT_ROOT / "vectorstore"
 
 # API Keys
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
+SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN")
+SLACK_SIGNING_SECRET = os.getenv("SLACK_SIGNING_SECRET")
 
 # Embedding — uses ChromaDB's built-in model (free, local, no API key)
 # ChromaDB uses all-MiniLM-L6-v2 by default
