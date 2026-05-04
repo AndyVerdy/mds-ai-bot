@@ -36,14 +36,18 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})
 # a manual admin-triggered route — safer and explicit.
 # ============================================================
 
-def _trigger_whatsapp_ingest() -> dict:
+def _trigger_whatsapp_ingest(force: bool = False) -> dict:
     from query import get_vectorstore
     from ingest import ingest_whatsapp
     vs = get_vectorstore()
     collection = vs._collection
-    existing = collection.get(where={"type": "whatsapp"}, limit=1, include=[])
-    if existing and existing.get("ids"):
-        return {"skipped": True, "reason": "WhatsApp chunks already in index"}
+    if not force:
+        existing = collection.get(where={"type": "whatsapp"}, limit=1, include=[])
+        if existing and existing.get("ids"):
+            return {
+                "skipped": True,
+                "reason": "WhatsApp chunks already in index. Pass ?force=1 to override.",
+            }
     count = ingest_whatsapp()
     return {"ingested": count}
 
@@ -1174,8 +1178,9 @@ def api_admin_reingest_wa():
     user = (getattr(request, "user_email", "") or "").lower()
     if user not in admin_emails:
         return jsonify({"error": "admin only"}), 403
+    force = request.args.get("force", "").lower() in ("1", "true", "yes")
     try:
-        result = _trigger_whatsapp_ingest()
+        result = _trigger_whatsapp_ingest(force=force)
         return jsonify(result)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
