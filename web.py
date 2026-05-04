@@ -28,34 +28,24 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 
 # ============================================================
-# Startup: defensive WhatsApp ingestion check.
-# If build-time ingestion silently skipped (e.g. AIRTABLE_PAT wasn't visible
-# during docker build), top up the index at runtime in a background thread.
+# Manual WhatsApp re-ingestion endpoint (admin-only).
+#
+# Earlier we ran this at module import in a background thread, which appears
+# to have caused 502s on the live service (likely SQLite contention between
+# the gunicorn worker and the ingest thread, or memory pressure). Now it's
+# a manual admin-triggered route — safer and explicit.
 # ============================================================
 
-def _ensure_whatsapp_indexed() -> None:
-    import threading
-
-    def _worker():
-        try:
-            from query import get_vectorstore
-            from ingest import ingest_whatsapp
-            vs = get_vectorstore()
-            collection = vs._collection
-            existing = collection.get(where={"type": "whatsapp"}, limit=1, include=[])
-            if existing and existing.get("ids"):
-                print("[startup] WhatsApp chunks already indexed, skipping runtime ingest", flush=True)
-                return
-            print("[startup] No WhatsApp chunks in index — running runtime ingest", flush=True)
-            count = ingest_whatsapp()
-            print(f"[startup] Runtime WA ingest complete: {count} chunks added", flush=True)
-        except Exception as e:
-            print(f"[startup] Runtime WA ingest failed: {e}", flush=True)
-
-    threading.Thread(target=_worker, daemon=True, name="wa-ingest-startup").start()
-
-
-_ensure_whatsapp_indexed()
+def _trigger_whatsapp_ingest() -> dict:
+    from query import get_vectorstore
+    from ingest import ingest_whatsapp
+    vs = get_vectorstore()
+    collection = vs._collection
+    existing = collection.get(where={"type": "whatsapp"}, limit=1, include=[])
+    if existing and existing.get("ids"):
+        return {"skipped": True, "reason": "WhatsApp chunks already in index"}
+    count = ingest_whatsapp()
+    return {"ingested": count}
 
 
 # ============================================================
@@ -1173,6 +1163,22 @@ def api_auth_logout():
     token = header[7:].strip() if header.lower().startswith("bearer ") else ""
     auth_module.revoke_token(token)
     return jsonify({"ok": True})
+
+
+@app.route("/api/admin/reingest-wa", methods=["POST"])
+@require_auth
+def api_admin_reingest_wa():
+    """Manually trigger WhatsApp ingestion. Admin-only via ADMIN_EMAILS."""
+    import os
+    admin_emails = {a.strip().lower() for a in (os.getenv("ADMIN_EMAILS","") or "").split(",") if a.strip()}
+    user = (getattr(request, "user_email", "") or "").lower()
+    if user not in admin_emails:
+        return jsonify({"error": "admin only"}), 403
+    try:
+        result = _trigger_whatsapp_ingest()
+        return jsonify(result)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 @app.route("/api/health")
