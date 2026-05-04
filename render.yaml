@@ -2,8 +2,16 @@ services:
   - type: web
     name: mds-ai-bot
     runtime: docker
-    plan: free
+    plan: starter
     envVars:
       - key: ANTHROPIC_API_KEY
         sync: false
+      - key: AIRTABLE_PAT
+        sync: false
+      - key: ADMIN_EMAILS
+        sync: false
+      - key: RESEND_API_KEY
+        value: re_5eSw8RaM_7GAuDEJK3xFvggHaWbUjLCxr
+      - key: EMAIL_FROM
+        value: "MDS Knowledge Base <login@mds.co>"
     healthCheckPath: /api/health
