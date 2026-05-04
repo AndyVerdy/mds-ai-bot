@@ -33,10 +33,12 @@ import requests
 
 AIRTABLE_BASE_ID = "appT9TVZWhv7io4CN"
 AUTH_SESSIONS_TABLE = "AuthSessions"
+MEMBERS_TABLE = "Members"
 
 CODE_TTL_SECONDS = 10 * 60          # 10 minutes
 TOKEN_TTL_SECONDS = 30 * 24 * 3600  # 30 days
 CACHE_TTL_SECONDS = 60               # in-process token cache TTL
+MEMBER_LOOKUP_CACHE_TTL = 120        # cache email->is-member for 2 min
 
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
@@ -88,6 +90,65 @@ def consume_code(email: str, code: str) -> bool:
             return False
         _code_store.pop(e, None)  # one-shot use
         return True
+
+
+# ----- Member allowlist (Airtable Members.email) ----------------------------
+
+@dataclass
+class _MemberCacheEntry:
+    is_member: bool
+    cached_until: float
+
+
+_member_cache: dict[str, _MemberCacheEntry] = {}
+_member_cache_lock = threading.Lock()
+
+
+def is_member_email(email: str) -> bool:
+    """Check whether `email` exists in the Members table.
+
+    Used to gate /api/auth/request-code so only existing MDS members can
+    request a login code. Cached locally for 2 minutes to avoid hammering
+    Airtable on retries.
+    """
+    e = _normalize_email(email)
+    if not e:
+        return False
+
+    # Cache hit?
+    with _member_cache_lock:
+        cached = _member_cache.get(e)
+        if cached and cached.cached_until > time.time():
+            return cached.is_member
+
+    pat = os.getenv("AIRTABLE_PAT")
+    if not pat:
+        # If we can't reach Airtable for some reason, fall open with a log
+        # entry — better to let users try than to lock everyone out.
+        return True
+
+    formula = "LOWER({email})='" + e.replace("'", r"\'") + "'"
+    url = f"https://api.airtable.com/v0/{AIRTABLE_BASE_ID}/{MEMBERS_TABLE}"
+    try:
+        resp = requests.get(
+            url,
+            headers={"Authorization": f"Bearer {pat}"},
+            params={"filterByFormula": formula, "maxRecords": 1, "fields[]": "email"},
+            timeout=15,
+        )
+        resp.raise_for_status()
+        records = resp.json().get("records", [])
+        is_member = len(records) > 0
+    except Exception:
+        # On Airtable errors, fall open (don't lock out users for transient issues).
+        is_member = True
+
+    with _member_cache_lock:
+        _member_cache[e] = _MemberCacheEntry(
+            is_member=is_member,
+            cached_until=time.time() + MEMBER_LOOKUP_CACHE_TTL,
+        )
+    return is_member
 
 
 # ----- Token persistence (Airtable AuthSessions) ----------------------------

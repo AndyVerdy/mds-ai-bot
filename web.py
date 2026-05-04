@@ -1085,11 +1085,20 @@ def api_digests():
 
 @app.route("/api/auth/request-code", methods=["POST"])
 def api_auth_request_code():
-    """Send a 6-digit login code to the user's email."""
+    """Send a 6-digit login code to the user's email.
+
+    Gated by membership: only emails present in the Airtable Members table
+    receive a code. Anyone else gets a 403.
+    """
     data = request.get_json(silent=True) or {}
     email = (data.get("email") or "").strip()
     if not auth_module.is_valid_email(email):
         return jsonify({"error": "Please enter a valid email address."}), 400
+
+    if not auth_module.is_member_email(email):
+        return jsonify({
+            "error": "We can't find that email in MDS. Sign in is for MDS members."
+        }), 403
 
     code = auth_module.generate_code()
     auth_module.store_code(email, code)
