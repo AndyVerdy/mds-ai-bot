@@ -141,19 +141,29 @@ def format_video_url(url: str) -> str:
 SEARCH_LOG = Path(config.DATA_DIR) / "search_log.json"
 TOPICS_CACHE = Path(config.DATA_DIR) / "topics_cache.json"
 
-SYSTEM_PROMPT = """You are the MDS Knowledge Assistant, an AI that answers questions based on Million Dollar Sellers (MDS) content including video transcripts and presentation decks.
+SYSTEM_PROMPT = """You are the MDS Knowledge Assistant, an AI that answers questions based on Million Dollar Sellers (MDS) content. There are TWO kinds of source material in the knowledge base:
+
+  A. TRANSCRIPTS — recorded MDS sessions, presentations, mastermind calls. Each chunk is attributed to a named SPEAKER.
+  B. WHATSAPP CONVERSATIONS — daily chat logs from MDS WhatsApp groups (e.g. "MDS Trading", "MDS AI & Automations"). Multiple participants per conversation. Lines look like `[date time UTC] @Name: message`.
 
 RULES:
 1. ONLY answer based on the provided context. Do not use outside knowledge.
 2. If the context does not contain enough information to answer confidently, say: "I don't have enough information in the knowledge base to answer this confidently."
-3. When referencing a speaker, mention their name naturally in your answer (e.g. "According to Ian Sells..." or "Yuri Dimitrov discussed...").
+3. ATTRIBUTION:
+   - For TRANSCRIPT sources, reference the speaker by name (e.g. "According to Ian Sells..." or "Yuri Dimitrov discussed...").
+   - For WHATSAPP sources, attribute as a CONVERSATION, not a person. Examples:
+       "In the MDS Trading WhatsApp group on May 2, members discussed..."
+       "Ramon and Khalid debated this in the MDS AI & Automations chat..."
+       "From the MDS Supplements group conversation: ..."
+     NEVER treat the WhatsApp group name as a person's name.
+   - When mixing both kinds, make the source type clear in the prose so the reader knows whether it came from a recorded session or a chat conversation.
 4. Be concise and direct.
 5. If the question is ambiguous, state your interpretation before answering.
 6. Do NOT include a "Sources:" section at the end of your answer. Source citations are handled separately by the UI.
 
 FORMAT:
-- Give a clear, direct answer referencing speakers by name
-- Do NOT list sources at the end — the system displays them automatically
+- Give a clear, direct answer with proper attribution per the rules above.
+- Do NOT list sources at the end — the system displays them automatically.
 """
 
 USER_PROMPT_TEMPLATE = """Context from the MDS knowledge base:
@@ -175,26 +185,40 @@ def get_vectorstore():
 
 
 def format_context(docs_with_scores: list) -> str:
-    """Format retrieved documents into context string with metadata."""
+    """Format retrieved documents into context string with metadata.
+
+    Distinguishes WhatsApp conversation chunks from transcript chunks so the
+    LLM applies the correct attribution style.
+    """
     parts = []
     for i, (doc, score) in enumerate(docs_with_scores, 1):
         meta = doc.metadata
-        source_name = clean_source_name(meta.get("source", "Unknown"))
-        source_info = f"Source: {source_name}"
+        source_type = meta.get("type", "")
 
-        speaker = meta.get("speaker", "")
-        if speaker:
-            source_info += f" | Speaker: {clean_source_name(speaker)}"
-        if meta.get("event"):
-            source_info += f" | Event: {meta['event']}"
-        if meta.get("date"):
-            source_info += f" | Date: {format_date_display(meta['date'])}"
-        if meta.get("timestamp_start"):
-            source_info += f" | Timestamp: {meta['timestamp_start']}"
-        if meta.get("page"):
-            source_info += f" | Page: {meta['page']}"
-        if meta.get("slide"):
-            source_info += f" | Slide: {meta['slide']}"
+        if source_type == "whatsapp":
+            chat_name = meta.get("chat_name", "Unknown group")
+            date_str = format_date_display(meta.get("date", ""))
+            period = meta.get("period_type", "daily")
+            source_info = (
+                f"Source type: WHATSAPP CONVERSATION | "
+                f"Group: {chat_name} | Date: {date_str} | Period: {period}"
+            )
+        else:
+            source_name = clean_source_name(meta.get("source", "Unknown"))
+            source_info = f"Source type: TRANSCRIPT | Source: {source_name}"
+            speaker = meta.get("speaker", "")
+            if speaker:
+                source_info += f" | Speaker: {clean_source_name(speaker)}"
+            if meta.get("event"):
+                source_info += f" | Event: {meta['event']}"
+            if meta.get("date"):
+                source_info += f" | Date: {format_date_display(meta['date'])}"
+            if meta.get("timestamp_start"):
+                source_info += f" | Timestamp: {meta['timestamp_start']}"
+            if meta.get("page"):
+                source_info += f" | Page: {meta['page']}"
+            if meta.get("slide"):
+                source_info += f" | Slide: {meta['slide']}"
 
         parts.append(f"[Chunk {i}] (relevance: {1 - score:.2f})\n{source_info}\n{doc.page_content}")
 
@@ -315,35 +339,63 @@ def ask(question: str, verbose: bool = False) -> dict:
         # Long answer with useful content but a caveat — keep sources, just note lower confidence
         avg_confidence = min(avg_confidence, 0.35)
 
-    # Build deduplicated, enriched source list (clean names, format dates)
-    seen_speakers = set()
+    # Build deduplicated, enriched source list (clean names, format dates).
+    # WhatsApp digests dedup by source_id (Airtable record); transcripts by raw speaker.
+    seen_keys = set()
     enriched_sources = []
     for doc, _ in docs_with_scores:
         meta = doc.metadata
-        raw_speaker = meta.get("speaker", "Unknown")
-        # Deduplicate by raw value (unique per file)
-        if raw_speaker in seen_speakers:
-            continue
-        seen_speakers.add(raw_speaker)
+        source_type = meta.get("type", "")
 
-        # Use metadata date if available, otherwise extract from filename
-        display_date = format_date_display(meta.get("date", ""))
-        if not display_date:
-            display_date = extract_date_from_speaker(raw_speaker)
+        if source_type == "whatsapp":
+            digest_id = meta.get("source_id", "") or meta.get("source", "")
+            key = ("wa", digest_id)
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
 
-        source_entry = {
-            "speaker": format_display_name(raw_speaker),
-            "date": display_date,
-            "event": meta.get("event", ""),
-            "topic": meta.get("topic", ""),
-            "type": meta.get("type", ""),
-            "source": clean_source_name(meta.get("source", "")),
-        }
-        # Include video URL if available (converted to user-facing format)
-        video_url = meta.get("video_url", "")
-        if video_url:
-            source_entry["video_url"] = format_video_url(video_url)
-        enriched_sources.append(source_entry)
+            chat_name = meta.get("chat_name", "Unknown group")
+            display_date = format_date_display(meta.get("date", ""))
+            source_entry = {
+                # `speaker` carries the display name for backwards compat with
+                # existing iOS clients; the explicit fields below let new clients
+                # render WA sources properly.
+                "speaker": chat_name,
+                "date": display_date,
+                "event": "",
+                "topic": "",
+                "type": "whatsapp",
+                "source_type": "whatsapp",
+                "chat_name": chat_name,
+                "period_type": meta.get("period_type", "daily"),
+                "msg_count": int(meta.get("msg_count", 0) or 0),
+                "source": meta.get("source", ""),
+            }
+            enriched_sources.append(source_entry)
+        else:
+            raw_speaker = meta.get("speaker", "Unknown")
+            key = ("transcript", raw_speaker)
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
+
+            display_date = format_date_display(meta.get("date", ""))
+            if not display_date:
+                display_date = extract_date_from_speaker(raw_speaker)
+
+            source_entry = {
+                "speaker": format_display_name(raw_speaker),
+                "date": display_date,
+                "event": meta.get("event", ""),
+                "topic": meta.get("topic", ""),
+                "type": meta.get("type", "") or "transcript",
+                "source_type": "transcript",
+                "source": clean_source_name(meta.get("source", "")),
+            }
+            video_url = meta.get("video_url", "")
+            if video_url:
+                source_entry["video_url"] = format_video_url(video_url)
+            enriched_sources.append(source_entry)
 
     # Boost confidence when Claude gave a substantive answer with sources.
     # Raw embedding similarity often underestimates relevance (0.3-0.5 range

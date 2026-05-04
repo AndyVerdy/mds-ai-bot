@@ -1,20 +1,23 @@
 """
 Document ingestion pipeline.
-Supports: .txt, .md, .vtt, .srt, .pdf, .pptx
+Supports: .txt, .md, .vtt, .srt, .pdf, .pptx, plus WhatsApp digests from Airtable.
 Chunks documents, embeds them, and stores in ChromaDB.
 
 Improvements:
 - Extracts speaker name from filename (e.g., "1. Josh Hadley_otter_ai.txt" → "Josh Hadley")
 - Prepends speaker/source context header to each chunk
 - Increased chunk size for better conversational context
+- WhatsApp digests pulled from Airtable Summaries.raw_log (full conversation text)
 """
 
 import json
+import os
 import re
 import sys
 from pathlib import Path
 
 import fitz  # pymupdf
+import requests
 from pptx import Presentation
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
@@ -23,6 +26,10 @@ from rich.console import Console
 from rich.progress import Progress
 
 import config
+
+# Airtable for WhatsApp digests
+AIRTABLE_BASE_ID = "appT9TVZWhv7io4CN"
+AIRTABLE_DIGESTS_TABLE = "Summaries"
 
 console = Console()
 
@@ -470,6 +477,145 @@ def ingest_files(file_paths: list[str]) -> int:
     return len(chunks)
 
 
+def fetch_whatsapp_digests(min_msg_count: int = 1) -> list[dict]:
+    """Fetch all daily WhatsApp digests from Airtable Summaries that have a
+    non-empty raw_log and at least `min_msg_count` messages.
+
+    Returns a list of digest dicts (Airtable fields with `id` added).
+    Requires AIRTABLE_PAT in the environment.
+    """
+    pat = os.getenv("AIRTABLE_PAT")
+    if not pat:
+        console.print("[yellow]AIRTABLE_PAT not set — skipping WhatsApp ingestion[/yellow]")
+        return []
+
+    url = f"https://api.airtable.com/v0/{AIRTABLE_BASE_ID}/{AIRTABLE_DIGESTS_TABLE}"
+    headers = {"Authorization": f"Bearer {pat}"}
+    formula = f"AND({{period_type}}='daily',{{msg_count}}>={min_msg_count},{{raw_log}}!='')"
+
+    digests: list[dict] = []
+    offset: str | None = None
+    page_count = 0
+    while True:
+        params = {
+            "pageSize": 100,
+            "sort[0][field]": "date",
+            "sort[0][direction]": "desc",
+            "filterByFormula": formula,
+        }
+        if offset:
+            params["offset"] = offset
+        resp = requests.get(url, headers=headers, params=params, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+        for r in data.get("records", []):
+            f = r.get("fields", {})
+            digests.append({
+                "id": r["id"],
+                "date": f.get("date"),
+                "chat_id": f.get("chat_id"),
+                "chat_name": f.get("chat_name"),
+                "period_type": f.get("period_type"),
+                "msg_count": f.get("msg_count", 0) or 0,
+                "participant_count": f.get("participant_count", 0) or 0,
+                "raw_log": f.get("raw_log", "") or "",
+                "topics": f.get("topics", "") or "",
+                "tl_dr": f.get("tl_dr", "") or "",
+            })
+        offset = data.get("offset")
+        page_count += 1
+        if not offset:
+            break
+    console.print(f"[blue]Fetched {len(digests)} WhatsApp digests across {page_count} pages[/blue]")
+    return digests
+
+
+def make_whatsapp_documents(digests: list[dict]) -> list[Document]:
+    """Convert WhatsApp digests into LangChain Documents, chunked by character size."""
+    if not digests:
+        return []
+
+    splitter = RecursiveCharacterTextSplitter(
+        chunk_size=config.CHUNK_SIZE,
+        chunk_overlap=config.CHUNK_OVERLAP,
+        # Prefer to break between messages (each starts with `[YYYY-MM-DD HH:MM UTC]`).
+        separators=["\n[", "\n\n", "\n", ". ", " ", ""],
+    )
+
+    docs: list[Document] = []
+    for d in digests:
+        raw = d.get("raw_log") or ""
+        if not raw.strip():
+            continue
+        chat_name = d.get("chat_name") or "Unknown group"
+        date = d.get("date") or ""
+        period = d.get("period_type") or "daily"
+        chat_id = d.get("chat_id") or ""
+
+        header = (
+            f"[Source: WhatsApp conversation | Group: {chat_name} | "
+            f"Date: {date} | Period: {period}]"
+        )
+        # Single document per digest, will be split below.
+        meta = {
+            "source": f"airtable://Summaries/{d['id']}",
+            "source_id": d["id"],
+            "type": "whatsapp",
+            "chat_name": chat_name,
+            "chat_id": chat_id,
+            "date": date,
+            "period_type": period,
+            "msg_count": int(d.get("msg_count") or 0),
+            "participant_count": int(d.get("participant_count") or 0),
+            # Leave speaker empty — WhatsApp digests are multi-participant.
+            "speaker": "",
+        }
+        full_doc = Document(page_content=f"{header}\n{raw}", metadata=meta)
+        # Split if needed; each chunk gets its own header so retrieval still has context.
+        if len(full_doc.page_content) <= config.CHUNK_SIZE:
+            docs.append(full_doc)
+        else:
+            for chunk in splitter.split_documents([full_doc]):
+                # Re-prepend the header to every chunk (split may have removed it).
+                if not chunk.page_content.lstrip().startswith("[Source: WhatsApp"):
+                    chunk = Document(
+                        page_content=f"{header}\n{chunk.page_content}",
+                        metadata=chunk.metadata,
+                    )
+                docs.append(chunk)
+
+    console.print(f"[blue]Built {len(docs)} WhatsApp document chunks from {len(digests)} digests[/blue]")
+    return docs
+
+
+def ingest_whatsapp(min_msg_count: int = 1) -> int:
+    """Pull all qualifying WhatsApp digests from Airtable, chunk, embed, store.
+    Returns the number of chunks added."""
+    digests = fetch_whatsapp_digests(min_msg_count=min_msg_count)
+    if not digests:
+        return 0
+    chunks = make_whatsapp_documents(digests)
+    if not chunks:
+        return 0
+
+    console.print("Embedding and indexing WhatsApp chunks (local model)...")
+    vectorstore = Chroma(
+        collection_name=config.COLLECTION_NAME,
+        persist_directory=str(config.VECTORSTORE_DIR),
+    )
+
+    batch_size = 100
+    with Progress() as progress:
+        task = progress.add_task("Indexing WA chunks...", total=len(chunks))
+        for i in range(0, len(chunks), batch_size):
+            batch = chunks[i:i + batch_size]
+            vectorstore.add_documents(batch)
+            progress.update(task, advance=len(batch))
+
+    console.print(f"[green]Indexed {len(chunks)} WhatsApp chunks into vector store.[/green]")
+    return len(chunks)
+
+
 def ingest_directory(directory: str) -> int:
     """Ingest all supported files from a directory."""
     # Load file metadata (dates, events) before ingesting
@@ -491,14 +637,20 @@ def ingest_directory(directory: str) -> int:
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        console.print("Usage: python ingest.py <file_or_directory> [file2] [file3] ...")
+        console.print("Usage:")
+        console.print("  python ingest.py <file_or_directory> [file2] ...   # files")
+        console.print("  python ingest.py --whatsapp                          # WhatsApp digests from Airtable")
         console.print("Supported formats: .txt, .md, .vtt, .srt, .pdf, .pptx")
         sys.exit(1)
 
-    paths = sys.argv[1:]
+    args = sys.argv[1:]
     total_chunks = 0
 
-    for p in paths:
+    if "--whatsapp" in args or "--wa" in args:
+        total_chunks += ingest_whatsapp()
+        args = [a for a in args if a not in ("--whatsapp", "--wa")]
+
+    for p in args:
         path = Path(p)
         if path.is_dir():
             total_chunks += ingest_directory(str(path))
