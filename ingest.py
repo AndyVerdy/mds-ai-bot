@@ -551,11 +551,20 @@ def make_whatsapp_documents(digests: list[dict]) -> list[Document]:
         date = d.get("date") or ""
         period = d.get("period_type") or "daily"
         chat_id = d.get("chat_id") or ""
+        tl_dr = (d.get("tl_dr") or "").strip()
+        topics = (d.get("topics") or "").strip()
 
-        header = (
+        # Embedding-friendly header: includes tl_dr + topics so semantic search
+        # has more signal even before the raw chat log starts.
+        header_lines = [
             f"[Source: WhatsApp conversation | Group: {chat_name} | "
             f"Date: {date} | Period: {period}]"
-        )
+        ]
+        if tl_dr:
+            header_lines.append(f"Summary: {tl_dr}")
+        if topics:
+            header_lines.append(f"Topics: {topics}")
+        header = "\n".join(header_lines)
         # Single document per digest, will be split below.
         meta = {
             "source": f"airtable://Summaries/{d['id']}",

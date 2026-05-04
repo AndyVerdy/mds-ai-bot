@@ -23,7 +23,8 @@ CHUNK_SIZE = 2000  # characters (larger chunks preserve conversational context b
 CHUNK_OVERLAP = 300
 
 # Retrieval
-TOP_K = 5  # number of chunks to retrieve
+TOP_K = 10  # bumped 5 -> 10 so WA chunks have a better chance of surfacing
+            # alongside transcript chunks (mixed-source queries)
 CONFIDENCE_THRESHOLD = 0.15  # minimum similarity score (0-1, lower = more permissive)
 
 # Collection name for ChromaDB

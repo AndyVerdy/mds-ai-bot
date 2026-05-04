@@ -28,6 +28,37 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 
 # ============================================================
+# Startup: defensive WhatsApp ingestion check.
+# If build-time ingestion silently skipped (e.g. AIRTABLE_PAT wasn't visible
+# during docker build), top up the index at runtime in a background thread.
+# ============================================================
+
+def _ensure_whatsapp_indexed() -> None:
+    import threading
+
+    def _worker():
+        try:
+            from query import get_vectorstore
+            from ingest import ingest_whatsapp
+            vs = get_vectorstore()
+            collection = vs._collection
+            existing = collection.get(where={"type": "whatsapp"}, limit=1, include=[])
+            if existing and existing.get("ids"):
+                print("[startup] WhatsApp chunks already indexed, skipping runtime ingest", flush=True)
+                return
+            print("[startup] No WhatsApp chunks in index — running runtime ingest", flush=True)
+            count = ingest_whatsapp()
+            print(f"[startup] Runtime WA ingest complete: {count} chunks added", flush=True)
+        except Exception as e:
+            print(f"[startup] Runtime WA ingest failed: {e}", flush=True)
+
+    threading.Thread(target=_worker, daemon=True, name="wa-ingest-startup").start()
+
+
+_ensure_whatsapp_indexed()
+
+
+# ============================================================
 # Auth middleware
 # ============================================================
 
