@@ -55,14 +55,19 @@ def send_login_code(email: str, code: str) -> bool:
     sender = os.getenv("EMAIL_FROM", DEFAULT_FROM)
 
     if not api_key:
-        # Dev fallback — print so it shows in Render logs.
-        logger.warning(
-            "RESEND_API_KEY not set — printing login code to stdout instead. "
-            "email=%s code=%s",
-            email, code,
+        # No key configured — log the code so it's still recoverable from
+        # Render logs during initial setup, but signal failure to the caller
+        # so the API surfaces a 502 instead of pretending the email went out.
+        logger.error(
+            "RESEND_API_KEY not set — login code NOT sent to %s",
+            email,
         )
-        print(f"[AUTH-DEV] Login code for {email}: {code}", flush=True)
-        return True
+        print(
+            f"[AUTH-DEV] Login code for {email}: {code} "
+            "(NOT SENT — no RESEND_API_KEY)",
+            flush=True,
+        )
+        return False
 
     payload = {
         "from": sender,
