@@ -4,14 +4,20 @@ MDS AI Bot — Web UI + Embeddable Widget API (Flask).
 - Embeddable widget JS at /widget.js
 - API at /api/ask (CORS-enabled for embedding on any site)
 - API at /api/suggestions (topics + popular searches)
+- API at /api/digests (WhatsApp digests from Airtable Summaries table)
 """
 
 import os
+import requests
 from flask import Flask, render_template_string, request, jsonify, make_response
 from flask_cors import CORS
 from query import ask, summarize_source, track_search, get_popular_searches, extract_topics
 
-VERSION = "1.3.0"
+VERSION = "1.4.0"
+
+# Airtable constants — base shared with mds-digest-web project.
+AIRTABLE_BASE_ID = "appT9TVZWhv7io4CN"
+AIRTABLE_DIGESTS_TABLE = "Summaries"
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}})
@@ -956,6 +962,90 @@ def api_suggestions():
     return jsonify({
         "topics": topics,
         "popular": popular,
+    })
+
+
+@app.route("/api/digests")
+def api_digests():
+    """List WhatsApp digests from Airtable Summaries table.
+
+    Query params (all optional):
+      - limit: page size, max 100, default 50
+      - offset: Airtable pagination cursor (returned as next_offset)
+      - period: 'daily' or 'weekly' to filter
+      - chat: filter by exact chat_name
+      - show_empty: '1'/'true' to include msg_count=0 records (hidden by default)
+    """
+    pat = os.getenv("AIRTABLE_PAT")
+    if not pat:
+        return jsonify({"error": "AIRTABLE_PAT not configured on the server."}), 500
+
+    try:
+        limit = max(1, min(int(request.args.get("limit", 50)), 100))
+    except ValueError:
+        limit = 50
+    offset = request.args.get("offset")
+    period = request.args.get("period")
+    chat_name = request.args.get("chat")
+    show_empty = request.args.get("show_empty", "").lower() in ("1", "true", "yes")
+
+    # Build Airtable query
+    params = {
+        "pageSize": limit,
+        "sort[0][field]": "date",
+        "sort[0][direction]": "desc",
+    }
+    if offset:
+        params["offset"] = offset
+
+    filters = []
+    if period:
+        # Escape single quotes in user input for Airtable formula
+        safe_period = period.replace("'", "\\'")
+        filters.append(f"{{period_type}}='{safe_period}'")
+    if chat_name:
+        safe_chat = chat_name.replace("'", "\\'")
+        filters.append(f"{{chat_name}}='{safe_chat}'")
+    if not show_empty:
+        filters.append("{msg_count}>0")
+    if filters:
+        params["filterByFormula"] = (
+            "AND(" + ",".join(filters) + ")" if len(filters) > 1 else filters[0]
+        )
+
+    url = f"https://api.airtable.com/v0/{AIRTABLE_BASE_ID}/{AIRTABLE_DIGESTS_TABLE}"
+    headers = {"Authorization": f"Bearer {pat}"}
+
+    try:
+        resp = requests.get(url, headers=headers, params=params, timeout=30)
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        return jsonify({"error": f"Airtable fetch failed: {e}"}), 502
+
+    data = resp.json()
+    digests = []
+    for record in data.get("records", []):
+        f = record.get("fields", {})
+        topics_raw = f.get("topics", "") or ""
+        members_raw = f.get("notable_members", "") or ""
+        digests.append({
+            "id": record["id"],
+            "date": f.get("date"),
+            "chat_id": f.get("chat_id"),
+            "chat_name": f.get("chat_name"),
+            "period_type": f.get("period_type"),
+            "tl_dr": f.get("tl_dr"),
+            "summary": f.get("summary_text"),
+            "topics": [t.strip() for t in topics_raw.split(",") if t.strip()],
+            "notable_members": [m.strip() for m in members_raw.split(",") if m.strip()],
+            "links_shared": f.get("links_shared", "") or "",
+            "msg_count": f.get("msg_count", 0) or 0,
+            "participant_count": f.get("participant_count", 0) or 0,
+        })
+
+    return jsonify({
+        "digests": digests,
+        "next_offset": data.get("offset"),
     })
 
 
