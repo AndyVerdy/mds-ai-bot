@@ -104,8 +104,19 @@ _member_cache: dict[str, _MemberCacheEntry] = {}
 _member_cache_lock = threading.Lock()
 
 
+def _admin_emails() -> set[str]:
+    """Comma-separated list of emails that bypass the Members allowlist.
+    Set ADMIN_EMAILS on Render. Example: 'andy@mds.co,bob@example.com'."""
+    raw = os.getenv("ADMIN_EMAILS", "") or ""
+    return {a.strip().lower() for a in raw.split(",") if a.strip()}
+
+
 def is_member_email(email: str) -> bool:
-    """Check whether `email` exists in the Members table.
+    """Check whether `email` is allowed to sign in.
+
+    Allowed if either:
+      a. email is in the ADMIN_EMAILS env-var allowlist, OR
+      b. email exists in the Airtable Members table.
 
     Used to gate /api/auth/request-code so only existing MDS members can
     request a login code. Cached locally for 2 minutes to avoid hammering
@@ -114,6 +125,9 @@ def is_member_email(email: str) -> bool:
     e = _normalize_email(email)
     if not e:
         return False
+
+    if e in _admin_emails():
+        return True
 
     # Cache hit?
     with _member_cache_lock:
