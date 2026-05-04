@@ -2,18 +2,22 @@
 MDS AI Bot — Web UI + Embeddable Widget API (Flask).
 - Full chat UI at /
 - Embeddable widget JS at /widget.js
-- API at /api/ask (CORS-enabled for embedding on any site)
-- API at /api/suggestions (topics + popular searches)
-- API at /api/digests (WhatsApp digests from Airtable Summaries table)
+- API at /api/ask (auth required)
+- API at /api/suggestions (auth required)
+- API at /api/digests (auth required)
+- API at /api/auth/* (login flow)
 """
 
 import os
+import functools
 import requests
 from flask import Flask, render_template_string, request, jsonify, make_response
 from flask_cors import CORS
 from query import ask, summarize_source, track_search, get_popular_searches, extract_topics
+import auth as auth_module
+import email_sender
 
-VERSION = "1.4.0"
+VERSION = "1.5.0"
 
 # Airtable constants — base shared with mds-digest-web project.
 AIRTABLE_BASE_ID = "appT9TVZWhv7io4CN"
@@ -21,6 +25,28 @@ AIRTABLE_DIGESTS_TABLE = "Summaries"
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}})
+
+
+# ============================================================
+# Auth middleware
+# ============================================================
+
+def require_auth(view):
+    """Decorator: require a valid Bearer token. Sets request.user_email."""
+    @functools.wraps(view)
+    def wrapper(*args, **kwargs):
+        header = request.headers.get("Authorization", "") or ""
+        token = ""
+        if header.lower().startswith("bearer "):
+            token = header[7:].strip()
+        if not token:
+            return jsonify({"error": "Authentication required"}), 401
+        email = auth_module.verify_token(token)
+        if not email:
+            return jsonify({"error": "Invalid or expired token"}), 401
+        request.user_email = email
+        return view(*args, **kwargs)
+    return wrapper
 
 # ============================================================
 # Embeddable widget JS — drop <script src="...widget.js"> on any page
@@ -917,6 +943,7 @@ def widget_js():
 
 
 @app.route("/api/ask", methods=["POST"])
+@require_auth
 def api_ask():
     data = request.get_json()
     question = data.get("question", "").strip()
@@ -937,6 +964,7 @@ def api_ask():
 
 
 @app.route("/api/summarize-source", methods=["POST"])
+@require_auth
 def api_summarize_source():
     """Summarize all content from a specific source/speaker by metadata lookup."""
     data = request.get_json()
@@ -955,6 +983,7 @@ def api_summarize_source():
 
 
 @app.route("/api/suggestions")
+@require_auth
 def api_suggestions():
     """Return topic suggestions and popular searches."""
     topics = extract_topics()
@@ -966,6 +995,7 @@ def api_suggestions():
 
 
 @app.route("/api/digests")
+@require_auth
 def api_digests():
     """List WhatsApp digests from Airtable Summaries table.
 
@@ -1047,6 +1077,62 @@ def api_digests():
         "digests": digests,
         "next_offset": data.get("offset"),
     })
+
+
+# ============================================================
+# Auth routes
+# ============================================================
+
+@app.route("/api/auth/request-code", methods=["POST"])
+def api_auth_request_code():
+    """Send a 6-digit login code to the user's email."""
+    data = request.get_json(silent=True) or {}
+    email = (data.get("email") or "").strip()
+    if not auth_module.is_valid_email(email):
+        return jsonify({"error": "Please enter a valid email address."}), 400
+
+    code = auth_module.generate_code()
+    auth_module.store_code(email, code)
+    sent = email_sender.send_login_code(email, code)
+    if not sent:
+        return jsonify({"error": "Could not send the email. Try again."}), 502
+    return jsonify({"ok": True})
+
+
+@app.route("/api/auth/verify", methods=["POST"])
+def api_auth_verify():
+    """Verify the 6-digit code and issue a session token."""
+    data = request.get_json(silent=True) or {}
+    email = (data.get("email") or "").strip()
+    code = (data.get("code") or "").strip()
+    if not auth_module.is_valid_email(email):
+        return jsonify({"error": "Please enter a valid email address."}), 400
+    if not code:
+        return jsonify({"error": "Please enter the 6-digit code."}), 400
+    if not auth_module.consume_code(email, code):
+        return jsonify({"error": "That code is invalid or expired. Request a new one."}), 401
+    try:
+        session = auth_module.issue_token(email)
+    except Exception as e:
+        return jsonify({"error": f"Could not create session: {e}"}), 500
+    return jsonify(session)
+
+
+@app.route("/api/auth/me")
+@require_auth
+def api_auth_me():
+    """Return the email tied to the current session."""
+    return jsonify({"email": getattr(request, "user_email", None)})
+
+
+@app.route("/api/auth/logout", methods=["POST"])
+@require_auth
+def api_auth_logout():
+    """Invalidate the current token."""
+    header = request.headers.get("Authorization", "") or ""
+    token = header[7:].strip() if header.lower().startswith("bearer ") else ""
+    auth_module.revoke_token(token)
+    return jsonify({"ok": True})
 
 
 @app.route("/api/health")
