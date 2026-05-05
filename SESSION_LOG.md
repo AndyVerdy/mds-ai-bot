@@ -10,6 +10,88 @@ sync per the context-handoff skill protocol.
 
 * * *
 
+## 2026-05-05 (latest) — No-info cap refined → 17/17 static, 8/10 dynamic
+
+**AI / dev:** Claude Opus 4.7
+**Duration:** ~50 min (~40 of those waiting for one Render rebuild)
+**ClickUp doc:** [2531q-98297](https://app.clickup.com/2264119/docs/2531q-98297/2531q-61237)
+**Branch / PR:** `mds-ai-bot/main` only
+
+### What was done
+
+`query.py` (`3c3978b`): Refined the post-Claude no-info cap so it only fires for genuine declines, not for substantive answers that happen to open with a humble caveat.
+
+Old behavior: any occurrence of "I don't have enough information" / "doesn't contain specific information" / etc. anywhere in Claude's answer → strip sources, cap confidence at 0.18. This was the dominant remaining failure mode for A4, E1 (static suite) and 4 of 10 dynamic-suite first-run cases (Ryan Hogan, Leslie Eisen, Michael Zenga, Brandon Himmel) — Claude found the right chunks but hedged on a specific detail, and the bot punished the whole answer.
+
+New behavior:
+
+*   `is_genuine_decline = hedge_in_first_200_chars AND len(answer) < 250` → strip sources, cap conf at 0.18 (true declines, e.g. E3 "capital of France" at 242 chars).
+*   Hedge present but answer is longer / hedge buried → keep sources. Boost floor capped at **0.45** instead of 0.65 so the UI doesn't oversell a hedged answer.
+*   No hedge → boost floor 0.65 (unchanged).
+
+### Decisions made
+
+*   **AND logic, not OR.** I sketched OR ("hedge at start OR answer short") to the user, but discovered while implementing that E1's hedge IS in the first 200 chars — OR would still strip E1. AND fixes E1 because E1's answer is 573 chars (well over 250). Stayed honest about the change.
+*   **Two-tier boost (0.45 / 0.65), not single 0.65.** A long answer with "I don't have enough info" still shouldn't get the full "high relevance" badge. 0.45 ("moderate") is honest about the hedge.
+*   **Kept the existing hedge-phrase list unchanged.** Adding more phrases would catch more hedges but also produce more false positives. The current 7 phrases are the ones Claude actually emits.
+
+### Files / modules touched
+
+*   `query.py` — added `hedge_at_start`, `is_short_answer`, `is_genuine_decline` variables. Replaced the bare `if has_no_info` strip with an `if is_genuine_decline` strip. Updated the substantive-answer boost to use a two-tier floor (0.45 hedged / 0.65 clean). ~22 lines net change.
+*   `SESSION_LOG.md` — this entry.
+
+### QA / Verification
+
+Local sanity test (against local vectorstore before deploy) — all 5 trouble/regression cases as predicted:
+
+| Query                    | Conf before | Conf after | Sources before | Sources after | Test result |
+| ------------------------ | ----------- | ---------- | -------------- | ------------- | ----------- |
+| E1 "How meny IG scrappers" | 0.18      | **0.45**   | 0              | **9**         | now passes (≥0.30) |
+| A4 "tldr Ramon"          | 0.18        | **0.45**   | 0              | **9**         | now passes (≥0.30) |
+| E3 "capital of France"   | 0.17        | 0.17       | 0              | 0             | still declines (242<250) ✓ |
+| C1 "Josh Hadley TikTok"  | 0.65        | 0.65       | 5              | 5             | unchanged ✓ |
+| D2 "IG strategies"       | 0.18        | **0.47**   | 0              | **7**         | flips back to pass |
+
+Prod after `3c3978b`:
+
+*   **Static 17-query suite: 17 / 17 passed.** Up from 15 / 17. First clean sweep of the suite. Categories: A 5/5, B 4/4, C 3/3, D 2/2, E 3/3.
+*   **Dynamic suite (n=10, seed=42): 8 / 10 passed.** Up from 6 / 10 on the same seed. The 2 remaining fails are now both `source_match` failures (bot returned reasonable sources at conf 0.45 but didn't include the specific sampled chunk) — that's a recall problem, not the no-info cap. Different / harder failure mode.
+
+### Known issues / broken things
+
+*   **Recall ceiling — bot doesn't always return the most-specific chunk.** Dynamic suite #4 (Brandon Himmel API stack across vector DB) and #10 (Kat's Meeting "Spectrum Five" keyword) returned plausible sources at conf 0.45 but the specific sampled chunk wasn't among them. Possibilities: the source chunk's similarity score is being beaten by adjacent chunks in the same digest, or the WA chat name match is dominating. Worth investigating but not the same systemic issue as the cap.
+*   **Dockerfile re-embeds 9879 chunks on every** **`.py`** **change.** Hit again this session (~40 min for `3c3978b`). Still on the next-steps list.
+*   Resend key still in git history — Andy declined to rotate.
+
+### Test environment state
+
+*   **Render service:** `srv-d6kf5j56ubrc73ee8sag` — currently live on `3c3978b`.
+*   Reviewer creds, admin emails, API keys: unchanged.
+*   `/tmp` test scripts unchanged.
+*   `tests/dynamic_search_quality.py` runs from project root.
+
+### Open questions for next session
+
+*   **Source-recall improvements?** The dynamic suite's source_match check is now the dominant failure mode. Possible levers: increase TOP_K for the side that has the answer, weight recent chunks higher, or change WA digest chunking to keep semantically related Q+A together.
+*   **Dockerfile cache rework still pending.** Worth doing to get deploy time down to ~1 min; would unblock more iteration speed.
+
+### Next steps (specific, actionable, in priority order)
+
+1. **Restructure Dockerfile** so the embed step's cache key only depends on `data/` + `ingest.py`, not all `.py` files. Will cut deploy from ~40 min to ~1 min for any change in `query.py` / `auth.py` / `web.py`. Prior session's Next Step #3.
+2. **Wire dynamic suite to a Render Cron Job** — nightly 20 chunks (10 WA + 10 TR), output to a Slack webhook or CU comment. Prior session's Next Step #2.
+3. **Investigate source-recall failures.** Pick 3-5 specific dynamic-suite source-match failures, run them locally with `verbose=True` in `query.py` to see chunk rankings, identify whether the right chunk was in the top-K but ranked below others or wasn't retrieved at all.
+4. **Mirror SESSION_LOG entries to BOTH this file and CU Page 12** when next session ends.
+
+### Deferred (not for next session unless Andy says)
+
+*   Per-tier permission filtering (Phase 2)
+*   Push notifications (Phase 2)
+*   iOS dark-mode visual verification
+*   Resend key rotation — Andy declined
+*   App Store review submission — paused
+
+* * *
+
 ## 2026-05-05 (later) — Speaker pre-filter + dynamic search-quality suite shipped
 
 **AI / dev:** Claude Opus 4.7
