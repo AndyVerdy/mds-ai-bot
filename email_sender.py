@@ -82,6 +82,7 @@ def send_login_code(email: str, code: str) -> bool:
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
+            "User-Agent": "mds-ai-bot/1.0 (+https://mds-ai-bot.onrender.com)",
         },
         method="POST",
     )
