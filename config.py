@@ -25,7 +25,7 @@ CHUNK_OVERLAP = 300
 # Retrieval
 TOP_K = 10  # bumped 5 -> 10 so WA chunks have a better chance of surfacing
             # alongside transcript chunks (mixed-source queries)
-CONFIDENCE_THRESHOLD = 0.15  # minimum similarity score (0-1, lower = more permissive)
+CONFIDENCE_THRESHOLD = 0.12  # minimum similarity score (0-1, lower = more permissive)
 
 # Collection name for ChromaDB
 COLLECTION_NAME = "mds_knowledge_base"
