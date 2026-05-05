@@ -220,6 +220,102 @@ def _is_wa_explicit_query(question: str) -> bool:
     return any(signal in lower for signal in _WA_INTENT_SIGNALS)
 
 
+# Words that look name-like but are actually meeting/recording labels.
+# A 2-3 word display name containing any of these is NOT a person name.
+_SPEAKER_STOP_WORDS = {
+    "mds", "mogul", "call", "channel", "monthly", "weekly", "meeting",
+    "advisory", "council", "chats", "fc", "with", "and", "the", "of",
+    "from", "for", "real", "estate", "ai", "seo", "tiktok", "post",
+    "event", "team", "chapter", "rockies", "inspire", "recording",
+    "notes", "sku", "large", "logistics", "trading", "retail",
+    "supplements", "resellers", "automations", "automation", "part",
+    "panel",
+}
+
+# Lazily-built map of name-phrase (lowercase) → set of raw speaker
+# metadata values that match. Built once per process from
+# vectorstore metadata; cleared if the collection is re-ingested
+# (process restart picks up the new state).
+_SPEAKER_NAME_INDEX: dict | None = None
+
+
+def _extract_name_candidates(display_name: str) -> list[str]:
+    """Pull person-name candidates from a cleaned transcript display name.
+
+    Handles two patterns:
+      1. "Mogul Call with Josh Hadley"      → ["Josh Hadley"]
+         "Call with Andrei Ureche and Alex Chiru" → ["Andrei Ureche", "Alex Chiru"]
+         "FC Chats: ... w_Brett Eaton"      → ["Brett Eaton"]
+      2. Stand-alone short name w/o stop words: "Scott Deetz" → ["Scott Deetz"]
+
+    Returns [] when the display name is a meeting label without a person
+    (e.g. "Rockies Chapter Monthly Call" or "AI Channel monthly Call").
+    """
+    if not display_name:
+        return []
+    out: list[str] = []
+    m = re.search(
+        r"(?:\bwith\s+|w_)([A-Z][\w.\-\']+(?:\s+[A-Z][\w.\-\']+){0,4})",
+        display_name,
+    )
+    if m:
+        for part in re.split(r"\s+(?:and|&)\s+", m.group(1)):
+            part = part.strip().rstrip(".,;:")
+            words = part.split()
+            if 2 <= len(words) <= 4 and all(w and w[0].isupper() for w in words):
+                out.append(part)
+        return out
+    words = display_name.split()
+    if 2 <= len(words) <= 3 and all(w and (w[0].isupper() or w[0].isdigit()) for w in words):
+        if not any(w.lower().rstrip(".,:") in _SPEAKER_STOP_WORDS for w in words):
+            out.append(display_name)
+    return out
+
+
+def _get_speaker_name_index() -> dict[str, list[str]]:
+    """Build (and cache) the name-phrase → raw-speaker-list index.
+
+    Iterates all transcript chunks once, runs format_display_name +
+    _extract_name_candidates, and inverts into a phrase-keyed map.
+    Cost: one collection.get(metadatas) at first call (~1s for 10k chunks).
+    """
+    global _SPEAKER_NAME_INDEX
+    if _SPEAKER_NAME_INDEX is not None:
+        return _SPEAKER_NAME_INDEX
+    vectorstore = get_vectorstore()
+    all_meta = vectorstore._collection.get(include=["metadatas"])
+    index: dict[str, set[str]] = {}
+    for meta in all_meta["metadatas"]:
+        if not meta:
+            continue
+        if meta.get("type") == "whatsapp":
+            continue
+        raw = meta.get("speaker", "")
+        if not raw:
+            continue
+        for name in _extract_name_candidates(format_display_name(raw)):
+            index.setdefault(name.lower(), set()).add(raw)
+    _SPEAKER_NAME_INDEX = {k: sorted(v) for k, v in index.items()}
+    return _SPEAKER_NAME_INDEX
+
+
+def _detect_speakers_in_query(question: str) -> list[str]:
+    """Return raw-speaker metadata values whose person-name appears in the query.
+
+    Returns [] if no known speaker name (≥2 words) appears in the question.
+    Multiple matches are merged so a query mentioning two speakers pulls
+    chunks from both.
+    """
+    if not question:
+        return []
+    q_lower = question.lower()
+    matches: set[str] = set()
+    for phrase, raws in _get_speaker_name_index().items():
+        if phrase in q_lower:
+            matches.update(raws)
+    return sorted(matches)
+
+
 def format_context(docs_with_scores: list) -> str:
     """Format retrieved documents into context string with metadata.
 
@@ -299,7 +395,11 @@ def ask(question: str, verbose: bool = False) -> dict:
     # 1. If the user explicitly mentions WhatsApp / chat / group → pull
     #    TOP_K from WA chunks only. Mixing in transcripts pollutes the
     #    answer and makes the source list misleading.
-    # 2. Otherwise → split the pool: TOP_K/2 WA + TOP_K/2 transcripts so
+    # 2. If the query mentions a known transcript speaker (e.g.
+    #    "Josh Hadley") → pre-filter the transcript half to ONLY that
+    #    speaker's chunks. Generic chunks were outranking speaker-
+    #    specific ones in pure similarity ranking.
+    # 3. Otherwise → split the pool: TOP_K/2 WA + TOP_K/2 transcripts so
     #    WA chunks (~160) aren't crowded out by transcripts (~9879).
     if _is_wa_explicit_query(question):
         docs_with_scores = vectorstore.similarity_search_with_score(
@@ -310,8 +410,13 @@ def ask(question: str, verbose: bool = False) -> dict:
         wa_docs = vectorstore.similarity_search_with_score(
             question, k=half, filter={"type": "whatsapp"}
         )
+        speaker_matches = _detect_speakers_in_query(question)
+        if speaker_matches:
+            tr_filter = {"speaker": {"$in": speaker_matches}}
+        else:
+            tr_filter = {"type": {"$ne": "whatsapp"}}
         tr_docs = vectorstore.similarity_search_with_score(
-            question, k=config.TOP_K - half, filter={"type": {"$ne": "whatsapp"}}
+            question, k=config.TOP_K - half, filter=tr_filter
         )
         docs_with_scores = sorted(wa_docs + tr_docs, key=lambda x: x[1])
 
