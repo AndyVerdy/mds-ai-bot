@@ -477,6 +477,96 @@ def ingest_files(file_paths: list[str]) -> int:
     return len(chunks)
 
 
+def fetch_members_phone_to_name() -> dict[str, str]:
+    """Build a {phone: full_name} map from the Airtable Members table.
+
+    Used by the WhatsApp ingestion to enrich `@PushName` mentions with the
+    member's full name (push names are often first-name-only or inconsistent
+    across chats — the Members table has the canonical full name).
+
+    Phones are stored without a leading `+` in both Whapi messages and the
+    Members table, so a direct string match works.
+
+    Returns an empty dict if AIRTABLE_PAT is missing or the call fails — the
+    caller is expected to skip enrichment and proceed.
+    """
+    pat = os.getenv("AIRTABLE_PAT")
+    if not pat:
+        return {}
+    url = f"https://api.airtable.com/v0/{AIRTABLE_BASE_ID}/Members"
+    headers = {"Authorization": f"Bearer {pat}"}
+    out: dict[str, str] = {}
+    offset: str | None = None
+    while True:
+        params = {
+            "pageSize": 100,
+            "fields[]": ["phone", "name"],
+        }
+        if offset:
+            params["offset"] = offset
+        try:
+            resp = requests.get(url, headers=headers, params=params, timeout=30)
+            resp.raise_for_status()
+        except Exception as e:
+            console.print(
+                f"[yellow]Members fetch failed (continuing without enrichment): {e}[/yellow]"
+            )
+            return out
+        data = resp.json()
+        for r in data.get("records", []):
+            f = r.get("fields", {})
+            phone = str(f.get("phone") or "").strip()
+            name = (f.get("name") or "").strip()
+            if phone and name:
+                out[phone] = name
+        offset = data.get("offset")
+        if not offset:
+            break
+    console.print(f"[blue]Loaded {len(out)} Member phone -> name mappings[/blue]")
+    return out
+
+
+def build_pushname_to_fullname(
+    source_messages_json: str,
+    phone_to_name: dict[str, str],
+) -> dict[str, str]:
+    """For one digest, build {push_name: full_name} by matching each message's
+    sender phone against the Members map. Returns empty when no matches."""
+    if not source_messages_json or not phone_to_name:
+        return {}
+    try:
+        msgs = json.loads(source_messages_json)
+    except Exception:
+        return {}
+    out: dict[str, str] = {}
+    for m in msgs:
+        push = (m.get("from_name") or "").strip()
+        phone = str(m.get("from") or "").strip()
+        if not push or not phone or push in out:
+            continue
+        full = phone_to_name.get(phone)
+        if full and full != push:
+            out[push] = full
+    return out
+
+
+def enrich_raw_log(raw_log: str, pushname_to_fullname: dict[str, str]) -> str:
+    """Substitute `@PushName:` with `@FullName (PushName):` in the raw log.
+
+    Keeps the push name in parens so the embedded text still matches the
+    original Whapi handle — useful when Members has stale full names but the
+    push name is what other docs (and the Claude attribution prompt) use.
+    """
+    if not pushname_to_fullname:
+        return raw_log
+    out = raw_log
+    # Longest first to avoid prefix collisions (e.g. "Aaron" vs "Aaron K").
+    for push in sorted(pushname_to_fullname.keys(), key=len, reverse=True):
+        full = pushname_to_fullname[push]
+        out = out.replace(f"@{push}:", f"@{full} ({push}):")
+    return out
+
+
 def fetch_whatsapp_digests(min_msg_count: int = 1) -> list[dict]:
     """Fetch all daily WhatsApp digests from Airtable Summaries that have a
     non-empty raw_log and at least `min_msg_count` messages.
@@ -521,6 +611,9 @@ def fetch_whatsapp_digests(min_msg_count: int = 1) -> list[dict]:
                 "raw_log": f.get("raw_log", "") or "",
                 "topics": f.get("topics", "") or "",
                 "tl_dr": f.get("tl_dr", "") or "",
+                # Pulled so make_whatsapp_documents can join sender phones to
+                # the Members table for full-name enrichment (#12).
+                "source_messages_json": f.get("source_messages_json", "") or "",
             })
         offset = data.get("offset")
         page_count += 1
@@ -542,11 +635,25 @@ def make_whatsapp_documents(digests: list[dict]) -> list[Document]:
         separators=["\n[", "\n\n", "\n", ". ", " ", ""],
     )
 
+    # Build the Members phone -> full-name map ONCE for the whole batch (#12).
+    # Then enrich each digest's raw_log so @PushName becomes @FullName (PushName).
+    phone_to_name = fetch_members_phone_to_name()
+
+    enriched_count = 0
     docs: list[Document] = []
     for d in digests:
         raw = d.get("raw_log") or ""
         if not raw.strip():
             continue
+
+        # Enrich raw_log with full names from Members (#12).
+        pushname_map = build_pushname_to_fullname(
+            d.get("source_messages_json", ""), phone_to_name
+        )
+        if pushname_map:
+            raw = enrich_raw_log(raw, pushname_map)
+            enriched_count += len(pushname_map)
+
         chat_name = d.get("chat_name") or "Unknown group"
         date = d.get("date") or ""
         period = d.get("period_type") or "daily"
@@ -593,7 +700,10 @@ def make_whatsapp_documents(digests: list[dict]) -> list[Document]:
                     )
                 docs.append(chunk)
 
-    console.print(f"[blue]Built {len(docs)} WhatsApp document chunks from {len(digests)} digests[/blue]")
+    console.print(
+        f"[blue]Built {len(docs)} WhatsApp document chunks from {len(digests)} digests "
+        f"(enriched {enriched_count} push-name -> full-name mappings)[/blue]"
+    )
     return docs
 
 
