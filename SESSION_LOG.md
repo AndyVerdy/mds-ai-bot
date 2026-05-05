@@ -10,6 +10,101 @@ sync per the context-handoff skill protocol.
 
 * * *
 
+## 2026-05-05 (later) — Speaker pre-filter + dynamic search-quality suite shipped
+
+**AI / dev:** Claude Opus 4.7
+**Duration:** ~1.5 h (mostly waiting on Render rebuilds — 30+ min/each because the Dockerfile re-embeds 9879 chunks on any `.py` change)
+**ClickUp doc:** [2531q-98297](https://app.clickup.com/2264119/docs/2531q-98297/2531q-61237)
+**Branch / PR:** `mds-ai-bot/main` only (no iOS changes)
+
+### What was done
+
+Backend (`mds-ai-bot`):
+
+- `config.py` (`195fc03`): Lowered `CONFIDENCE_THRESHOLD` 0.15 → 0.12 per the previous session's "Next steps" #1.
+- `query.py` (`7008790` + `c2db5f7`): Speaker-name pre-filter for transcript retrieval. Builds (lazily, cached at module load) a name-phrase → raw-speaker-list index by walking transcript metadata once and running `format_display_name` + a name-extraction regex. When a query contains an indexed name, the transcript half of retrieval uses `filter={"speaker": {"$in": [...]}}` instead of the type-based filter. Multi-person sources like "Mogul Call with Hasan & Dave" index both individual names AND the joined tail.
+- `tests/dynamic_search_quality.py` (`22e6189`): The dynamic search-quality suite designed in CU Page 09. Samples random WA + transcript chunks from the local vectorstore, generates one chunk-specific question per chunk via Claude, hits prod `/api/ask`, and checks (a) source match by `source_id` / `speaker`, (b) confidence ≥ 0.30, (c) ≥ 2 distinctive words shared between chunk and answer. "Tester-broken" cases (Claude can't generate a unique question) skipped from denominator.
+
+Render config: no env-var changes this round.
+
+Tests run:
+
+- **Static 17-query suite against prod after `c2db5f7`: 15 / 17 passed.** Up from prior baseline 14 / 17. **C1 ("Josh Hadley TikTok") fixed** — went from 0 sources / conf 0.18 to 5 sources / conf 0.65 with substantive answer. Categories: A 4/5, B 4/4, C **3/3 ↑**, D 2/2, E 2/3.
+- **Dynamic suite first run against new prod (10 chunks, seed 42): 6 / 10 passed.** All 4 failures are the same `has_no_info` cap pattern — Claude finds the right person/topic, includes a hedge phrase, gets confidence capped at 0.18, sources stripped. This is the systemic issue Page 09 named "the substantive-answer boost in `query.py`."
+- E1 ("How meny IG scrappers does Ramon use?") still fails, despite the threshold lowering. **Root cause was misidentified in the prior session's Next steps:** the dominant constraint isn't pre-Claude `CONFIDENCE_THRESHOLD`, it's the post-Claude no-info cap at `query.py:386` (`avg_confidence = min(avg_confidence, 0.18)` when Claude's answer contains "I don't have enough information"). The threshold change was harmless (E3 still correctly declines at conf 0.17) but didn't deliver the predicted +1.
+
+ClickUp doc updates:
+
+- **Page 09 (Search-Quality Test Plan)** — to be appended with new prod result + dynamic-suite first-run baseline.
+- **Page 11 (Known Issues)** — add post-Claude no-info cap as the dominant remaining failure mode for A4 / E1 / dynamic-suite "Ryan Hogan", "Leslie Eisen", "Michael Zenga", "Brandon Himmel" cases.
+- **Page 12 (SESSION_LOG)** — entry mirrored to this file.
+
+### Decisions made
+
+- **Don't revert the `CONFIDENCE_THRESHOLD` 0.12 change.** It's conceptually correct — borderline-relevant queries should be allowed past the pre-Claude gate — and harmless (no test passing before now fails because of it). The remaining E1 failure is a separate issue (Claude's hedging + the post-Claude cap), not the threshold.
+- **Speaker pre-filter scope: transcripts only.** WA chunks have empty `speaker`, so `$in` against a list of transcript raws naturally won't match WA chunks. The implicit `type != whatsapp` constraint is preserved. WA half of retrieval is unchanged.
+- **Stop list for speaker-name extraction is conservative.** Words like "Mogul", "Call", "Channel", "Chapter", "Council", "Trading", "Logistics" are excluded so labels like "Rockies Chapter Monthly Call" or "AI Channel monthly Call" don't get indexed as fake names.
+- **Single-word person names are NOT indexed.** "Brian" / "Ramon" / "Dave" alone would generate too many false positives. Multi-person tails like "Hasan & Dave" are indexed as a phrase but individual fragments aren't. The static suite (Brian's AI TikTok, Ramon's IG scrapes) doesn't regress because none of those queries name a single transcript speaker.
+- **Dynamic suite calls prod, not local vectorstore** (open question from prior session). Prod is more realistic — exercises auth, deploy state, the real LLM call path. Cost is acceptable (~$0.005/chunk × 10 chunks = ~$0.05/run).
+- **Tester-broken cases are skipped from denominator, not counted as fail** (other open question). Conflating "Claude couldn't write a verifiable question" with "bot returned wrong answer" would muddy the metric.
+- **Multi-person speaker fix shipped same day** as the original speaker pre-filter (`c2db5f7` follow-up to `7008790`). Discovered during dynamic-suite smoke test when a question quoting "Mogul Call with Hasan & Dave" returned 0 sources.
+- **Render build cache shortcut: cancel an in-progress redundant build** when a follow-up commit is pushed mid-build. Saved ~30 min by canceling `dep-d7spomfaqgkc73a7fhug` (commit `7008790`) once `c2db5f7` had queued — the new build hit cache from the partial earlier build.
+
+### Files / modules touched
+
+- `config.py` — `CONFIDENCE_THRESHOLD` 0.15 → 0.12 (1 line).
+- `query.py` — added `_SPEAKER_STOP_WORDS`, `_SPEAKER_NAME_INDEX`, `_extract_name_candidates()`, `_get_speaker_name_index()`, `_detect_speakers_in_query()` helpers. Modified `ask()` retrieval block to use `$in` on speaker when matches found. ~115 lines added.
+- `tests/dynamic_search_quality.py` — new file, ~420 lines.
+- `SESSION_LOG.md` — this entry.
+
+### QA / Verification
+
+- ✓ Local prototype: speaker index built from 9879 transcript chunks → 152 unique name phrases (148 before multi-person fix). Josh Hadley resolves to 5 raw speakers totaling 231 chunks. Hasan & Dave resolves to 1 raw speaker.
+- ✓ Local C1 test (before deploy): conf 0.65, 5 sources, all Josh Hadley.
+- ✓ Local false-positive check: 16 of 17 static-suite queries return `_detect_speakers_in_query() == []`. Only C1 triggers the filter.
+- ✓ Static prod suite after `c2db5f7`: 15/17 (was 14/17).
+- ✓ Dynamic suite end-to-end: works on prod, produces machine-readable summary, surfaces real failure modes.
+- ✓ E3 ("capital of France") still correctly returns "I don't have enough info" at conf 0.17 < 0.18 cap — threshold change didn't break the safety gate.
+
+### Known issues / broken things
+
+- **Dominant remaining failure mode: post-Claude no-info cap.** When Claude's answer contains any phrase from `_no_info_phrases` (e.g. "I don't have enough information", "doesn't contain specific information"), `query.py:380` strips sources and caps confidence at 0.18 — even when the answer is mostly substantive. Hits A4, E1 in static suite and 4/10 in the dynamic suite first run. **Possible fix:** only apply the cap when the no-info phrase appears in the FIRST 200 chars OR when the answer is short overall. Not implemented this session.
+- **Dockerfile re-embeds 9879 chunks on every `.py` change.** Build time ~25-30 min per deploy, almost all spent in Step 1 / Step 2 ingest. The previous deploy (`2562631`, docs-only) hit cache and finished in 52 s. Worth restructuring Dockerfile so the embed step's cache key is more granular — but out of scope here.
+- A4 (vague "tldr of what Ramon said") — still requires `/api/summarize-source` route per prior session's Page 09. Not in scope.
+- Resend key still in git history — Andy declined to rotate.
+
+### Test environment state
+
+- **Render service:** `srv-d6kf5j56ubrc73ee8sag` — currently live on `c2db5f7` (Step 1 + Step 2 + multi-person fix). `22e6189` is on main but only adds `tests/dynamic_search_quality.py`, which the Dockerfile doesn't COPY, so no redeploy needed for the test file.
+- **Reviewer creds, admin emails, API keys:** unchanged from prior session.
+- **Build-cache discovery:** the queued `c2db5f7` build inherited cache layers from the canceled `7008790` build, finishing in ~7 min instead of ~30. Useful when the next session pushes a small follow-up.
+- **`/tmp` test scripts** that survive between sessions: `/tmp/search_test_suite.py` (local), `/tmp/search_test_prod.py` (HTTP).
+- **Repo test scripts:** `tests/dynamic_search_quality.py` runs from project root with venv activated. Default 5 + 5 chunks; pass `--n-wa N --n-tr N --recent-days N --json out.json --seed N` to customize.
+
+### Open questions for next session
+
+- **Should we patch the post-Claude no-info cap?** A small, scoped change — e.g. only apply when the phrase appears within the first 200 chars OR the answer is < 250 chars total — would unblock A4 / E1 / the dynamic-suite Brandon Himmel + Ryan Hogan + Leslie Eisen + Michael Zenga cases. Risk: too permissive, fewer "I don't know" responses. Worth a small experiment.
+- **Schedule the dynamic suite as a Render Cron Job?** Or run from a local cron pointed at prod? Page 09 mentioned both. Cost ~$3/mo for nightly 20-chunk runs.
+- **Should the dynamic suite log "borderline" cases** (passed source-match but failed conf, or vice versa) so we can see directional improvements between deploys, not just pass/fail?
+
+### Next steps (specific, actionable, in priority order)
+
+1. **Refine the post-Claude no-info cap in `query.py:380`.** Apply the cap only when the no-info phrase appears in the first 200 chars of `answer_text` OR when `len(answer_text) < 250`. Re-run static + dynamic suites; expect A4 / E1 + several dynamic-suite cases to flip.
+2. **Wire dynamic suite to a Render Cron Job** — nightly 20 chunks (10 WA + 10 TR), output to a Slack webhook or CU comment. Page 09 already specifies this. ~30 lines of glue + a Render dashboard cron entry.
+3. **Restructure `Dockerfile`** so the COPY layer above the embed RUN excludes only the `.py` files that don't affect ingestion (`auth.py`, `web.py`, `email_sender.py`, etc.). Cuts deploy time from ~30 min to ~1 min for backend-only changes.
+4. **Mirror SESSION_LOG entries to BOTH this file and CU Page 12** when next session ends.
+
+### Deferred (not for next session unless Andy says)
+
+- A4 vague speaker-only queries — needs route through `/api/summarize-source`.
+- Per-tier permission filtering (Phase 2).
+- Push notifications (Phase 2).
+- iOS dark-mode visual verification.
+- Resend key rotation — Andy declined.
+- App Store review submission — paused.
+
+* * *
+
 ## 2026-05-05 (late) — Status gate + Apple-review bypass + dynamic-test design
 
 **AI / dev:** Claude Opus 4.7
