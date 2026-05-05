@@ -477,9 +477,19 @@ def ask(question: str, verbose: bool = False) -> dict:
     chain = prompt | llm
     response = chain.invoke({"context": context, "question": question})
 
-    # Check if Claude's answer indicates it has NO relevant info at all.
-    # Only strip sources for SHORT "I don't know" answers — not for long
-    # useful answers that happen to include a caveat/hedge at the end.
+    # Detect Claude's hedging. Two distinct cases:
+    #
+    #   GENUINE DECLINE — hedge phrase appears in the first 200 chars AND
+    #     the whole answer is short (<250 chars). Claude is saying "no
+    #     relevant info" and that's all there is. Strip sources, cap conf
+    #     at 0.18. Showing 5 sources next to "I don't know" is misleading.
+    #
+    #   SUBSTANTIVE WITH HEDGE — hedge phrase present somewhere, but the
+    #     answer is long enough to have real content (>= 250 chars OR the
+    #     hedge is buried past char 200). Claude found relevant chunks and
+    #     summarized them while caveating that some specific detail was
+    #     missing. Keep sources but cap the boost at 0.45 instead of 0.65
+    #     so the UI doesn't oversell a hedged answer.
     answer_text = response.content
     _no_info_phrases = [
         "i don't have enough information",
@@ -492,13 +502,11 @@ def ask(question: str, verbose: bool = False) -> dict:
     ]
     answer_lower = answer_text.lower()
     has_no_info = any(phrase in answer_lower for phrase in _no_info_phrases)
+    hedge_at_start = any(phrase in answer_lower[:200] for phrase in _no_info_phrases)
+    is_short_answer = len(answer_text) < 250
+    is_genuine_decline = hedge_at_start and is_short_answer
 
-    if has_no_info:
-        # Any "I don't have enough info" answer — strip sources entirely.
-        # Showing sources alongside a "not in the knowledge base" answer is
-        # misleading: it implies the answer came from those sources when it
-        # didn't. The previous policy only stripped on short answers, but a
-        # long verbose hedge is just as misleading. Strip in both cases.
+    if is_genuine_decline:
         avg_confidence = min(avg_confidence, 0.18)
         return {
             "answer": answer_text,
@@ -572,8 +580,11 @@ def ask(question: str, verbose: bool = False) -> dict:
     # Boost confidence when Claude gave a substantive answer with sources.
     # Raw embedding similarity often underestimates relevance (0.3-0.5 range
     # even for great matches), so we correct based on answer quality signals.
-    if not has_no_info and enriched_sources and len(answer_text) > 200:
-        avg_confidence = max(avg_confidence, 0.65)  # At least "High relevance"
+    # Hedged-but-substantive answers get a smaller boost so the UI doesn't
+    # oversell them.
+    if enriched_sources and len(answer_text) > 200:
+        floor = 0.45 if has_no_info else 0.65
+        avg_confidence = max(avg_confidence, floor)
 
     return {
         "answer": answer_text,
