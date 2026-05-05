@@ -1112,9 +1112,15 @@ def api_digests():
 def api_auth_request_code():
     """Send a 6-digit login code to the user's email.
 
-    Gated by membership: only emails present in the Airtable Members table
-    receive a code. Anyone else gets a 403.
+    Gated by source-base AT Database Status (Current Member, New Member, or
+    Pending Group Entrance). Other statuses get 403.
+
+    Apple App Store reviewer bypass: when the email matches the configured
+    REVIEWER_EMAIL env var, this endpoint returns 200 immediately WITHOUT
+    sending an email. The reviewer enters REVIEWER_FIXED_CODE in the verify
+    step. Tell Apple the credentials in TestFlight reviewer notes.
     """
+    import os
     data = request.get_json(silent=True) or {}
     email = (data.get("email") or "").strip()
     if not auth_module.is_valid_email(email):
@@ -1122,8 +1128,14 @@ def api_auth_request_code():
 
     if not auth_module.is_member_email(email):
         return jsonify({
-            "error": "We can't find that email in MDS. Sign in is for MDS members."
+            "error": "We can't find an active MDS membership for that email. "
+                     "Sign in is for current and new MDS members only."
         }), 403
+
+    # Reviewer path: don't bother with Resend, the reviewer knows the fixed code.
+    reviewer = (os.getenv("REVIEWER_EMAIL") or "").strip().lower()
+    if reviewer and email.lower() == reviewer:
+        return jsonify({"ok": True})
 
     code = auth_module.generate_code()
     auth_module.store_code(email, code)

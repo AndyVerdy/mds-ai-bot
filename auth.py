@@ -35,6 +35,22 @@ AIRTABLE_BASE_ID = "appT9TVZWhv7io4CN"
 AUTH_SESSIONS_TABLE = "AuthSessions"
 MEMBERS_TABLE = "Members"
 
+# Source MDS member directory — canonical membership status lives here, not
+# in the local Members table (which only tracks WA-side activity).
+SOURCE_BASE_ID = "appou5JVr0WIrioWS"
+SOURCE_MEMBERS_TABLE = "tblfwOSROSHfuYUxv"
+SOURCE_STATUS_FIELD = "AT Database Status"
+SOURCE_EMAIL_FIELD = "Preferred Email"
+
+# Only emails whose source-base AT Database Status is one of these are
+# allowed to sign in. Other states (Removed, Pending Application,
+# Declined, etc.) are blocked.
+ALLOWED_MEMBERSHIP_STATUSES = {
+    "Current Member",
+    "New Member",
+    "Pending Group Entrance",
+}
+
 CODE_TTL_SECONDS = 10 * 60          # 10 minutes
 TOKEN_TTL_SECONDS = 30 * 24 * 3600  # 30 days
 CACHE_TTL_SECONDS = 60               # in-process token cache TTL
@@ -78,6 +94,16 @@ def consume_code(email: str, code: str) -> bool:
     """Check the code; on match, delete it and return True."""
     e = _normalize_email(email)
     code = (code or "").strip()
+
+    # Apple-review bypass: when the request is for the configured reviewer
+    # account and the entered code matches the configured fixed code, accept
+    # without touching the in-memory store. Lets Apple's reviewer log in
+    # without us knowing their inbox.
+    reviewer = (os.getenv("REVIEWER_EMAIL") or "").strip().lower()
+    fixed = (os.getenv("REVIEWER_FIXED_CODE") or "").strip()
+    if reviewer and fixed and e == reviewer and code == fixed:
+        return True
+
     now = time.time()
     with _code_lock:
         entry = _code_store.get(e)
@@ -114,17 +140,29 @@ def _admin_emails() -> set[str]:
 def is_member_email(email: str) -> bool:
     """Check whether `email` is allowed to sign in.
 
-    Allowed if either:
-      a. email is in the ADMIN_EMAILS env-var allowlist, OR
-      b. email exists in the Airtable Members table.
+    Allowed when ANY of:
+      a. email == REVIEWER_EMAIL env var (Apple App Store review bypass).
+      b. email is in the ADMIN_EMAILS env-var allowlist.
+      c. email exists in the source MDS member directory base
+         (appou5JVr0WIrioWS) AND the AT Database Status field is one of:
+         Current Member, New Member, Pending Group Entrance.
 
-    Used to gate /api/auth/request-code so only existing MDS members can
-    request a login code. Cached locally for 2 minutes to avoid hammering
-    Airtable on retries.
+    Other source-base statuses (Removed, Pending Application, Declined,
+    Staff, Dead Lead, etc.) are blocked.
+
+    Cached locally for 2 minutes per email to avoid hammering Airtable.
+    Falls OPEN (returns True) on AT errors so transient failures don't lock
+    everyone out.
     """
     e = _normalize_email(email)
     if not e:
         return False
+
+    # Apple App Store reviewer bypass — needs to log in without us knowing
+    # their actual email. The fixed-code path lives in consume_code().
+    reviewer = (os.getenv("REVIEWER_EMAIL") or "").strip().lower()
+    if reviewer and e == reviewer:
+        return True
 
     if e in _admin_emails():
         return True
@@ -137,24 +175,34 @@ def is_member_email(email: str) -> bool:
 
     pat = os.getenv("AIRTABLE_PAT")
     if not pat:
-        # If we can't reach Airtable for some reason, fall open with a log
-        # entry — better to let users try than to lock everyone out.
+        # If we can't reach Airtable, fall open — better to let users try
+        # than lock everyone out on a config glitch.
         return True
 
-    formula = "LOWER({email})='" + e.replace("'", r"\'") + "'"
-    url = f"https://api.airtable.com/v0/{AIRTABLE_BASE_ID}/{MEMBERS_TABLE}"
+    # Query the source MDS member directory by Preferred Email + return
+    # the membership status field.
+    formula = "LOWER({" + SOURCE_EMAIL_FIELD + "})='" + e.replace("'", r"\'") + "'"
+    url = f"https://api.airtable.com/v0/{SOURCE_BASE_ID}/{SOURCE_MEMBERS_TABLE}"
     try:
         resp = requests.get(
             url,
             headers={"Authorization": f"Bearer {pat}"},
-            params={"filterByFormula": formula, "maxRecords": 1, "fields[]": "email"},
+            params={
+                "filterByFormula": formula,
+                "maxRecords": 1,
+                "fields[]": [SOURCE_STATUS_FIELD],
+            },
             timeout=15,
         )
         resp.raise_for_status()
         records = resp.json().get("records", [])
-        is_member = len(records) > 0
+        if not records:
+            is_member = False
+        else:
+            status = records[0].get("fields", {}).get(SOURCE_STATUS_FIELD, "")
+            is_member = status in ALLOWED_MEMBERSHIP_STATUSES
     except Exception:
-        # On Airtable errors, fall open (don't lock out users for transient issues).
+        # Fall open on AT errors.
         is_member = True
 
     with _member_cache_lock:
