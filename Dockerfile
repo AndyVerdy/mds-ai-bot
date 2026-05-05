@@ -17,8 +17,12 @@ COPY data/ ./data/
 RUN python3 -c "from ingest import ingest_directory; ingest_directory('data/otter-export-new/')"
 
 # Step 2: WhatsApp digests pulled from Airtable Summaries.raw_log.
-# Reads AIRTABLE_PAT from env (set on Render). Function skips silently if missing,
-# so the build still succeeds with just the transcript index.
+# Render auto-forwards service env vars to docker build args when the
+# Dockerfile declares matching ARG. Without this declaration, AIRTABLE_PAT
+# is invisible at build time and ingest_whatsapp silently returns 0 chunks.
+ARG AIRTABLE_PAT
+ENV AIRTABLE_PAT=${AIRTABLE_PAT}
+RUN python3 -c "import os; print('[BUILD] AIRTABLE_PAT visible during build:', bool(os.getenv('AIRTABLE_PAT')))"
 RUN python3 -c "from ingest import ingest_whatsapp; ingest_whatsapp()"
 
 EXPOSE 8000
