@@ -184,6 +184,42 @@ def get_vectorstore():
     )
 
 
+_WA_INTENT_SIGNALS = (
+    "whatsapp",
+    "whats app",
+    "wa chat",
+    "wa group",
+    "wa channel",
+    "chat group",
+    "group chat",
+    "in the chat",
+    "in the group",
+    "in the channel",
+    "channel ai",
+    "channel automations",
+    "channel tiktok",
+    "channel real estate",
+    "channel resellers",
+    "channel supplements",
+    "channel retail",
+    "channel trading",
+    "channel logistics",
+    "channel seo",
+    "channel large sku",
+    "ai and automations",
+    "ai & automations",
+)
+
+
+def _is_wa_explicit_query(question: str) -> bool:
+    """True when the user's question explicitly targets WhatsApp content.
+    When True, ask() bypasses the per-source-type split and pulls TOP_K
+    chunks from WA only — avoids the source list showing transcript
+    speakers when the question was clearly about chat conversations."""
+    lower = (question or "").lower()
+    return any(signal in lower for signal in _WA_INTENT_SIGNALS)
+
+
 def format_context(docs_with_scores: list) -> str:
     """Format retrieved documents into context string with metadata.
 
@@ -258,19 +294,26 @@ def ask(question: str, verbose: bool = False) -> dict:
             "chunks_used": 0,
         }
 
-    # Retrieve relevant chunks with scores — split per source-type so WA
-    # chunks (only ~160) aren't crowded out by transcripts (~9879). Without
-    # this split, transcripts dominate the top-K and questions about WA
-    # content fail because the right WA chunk never reaches the prompt.
-    half = max(1, config.TOP_K // 2)
-    wa_docs = vectorstore.similarity_search_with_score(
-        question, k=half, filter={"type": "whatsapp"}
-    )
-    tr_docs = vectorstore.similarity_search_with_score(
-        question, k=config.TOP_K - half, filter={"type": {"$ne": "whatsapp"}}
-    )
-    # Merge and re-sort by similarity (lower distance = better)
-    docs_with_scores = sorted(wa_docs + tr_docs, key=lambda x: x[1])
+    # Retrieval strategy depends on query intent:
+    #
+    # 1. If the user explicitly mentions WhatsApp / chat / group → pull
+    #    TOP_K from WA chunks only. Mixing in transcripts pollutes the
+    #    answer and makes the source list misleading.
+    # 2. Otherwise → split the pool: TOP_K/2 WA + TOP_K/2 transcripts so
+    #    WA chunks (~160) aren't crowded out by transcripts (~9879).
+    if _is_wa_explicit_query(question):
+        docs_with_scores = vectorstore.similarity_search_with_score(
+            question, k=config.TOP_K, filter={"type": "whatsapp"}
+        )
+    else:
+        half = max(1, config.TOP_K // 2)
+        wa_docs = vectorstore.similarity_search_with_score(
+            question, k=half, filter={"type": "whatsapp"}
+        )
+        tr_docs = vectorstore.similarity_search_with_score(
+            question, k=config.TOP_K - half, filter={"type": {"$ne": "whatsapp"}}
+        )
+        docs_with_scores = sorted(wa_docs + tr_docs, key=lambda x: x[1])
 
     if not docs_with_scores:
         return {
