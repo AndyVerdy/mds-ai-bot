@@ -258,11 +258,19 @@ def ask(question: str, verbose: bool = False) -> dict:
             "chunks_used": 0,
         }
 
-    # Retrieve relevant chunks with scores
-    docs_with_scores = vectorstore.similarity_search_with_score(
-        question,
-        k=config.TOP_K,
+    # Retrieve relevant chunks with scores — split per source-type so WA
+    # chunks (only ~160) aren't crowded out by transcripts (~9879). Without
+    # this split, transcripts dominate the top-K and questions about WA
+    # content fail because the right WA chunk never reaches the prompt.
+    half = max(1, config.TOP_K // 2)
+    wa_docs = vectorstore.similarity_search_with_score(
+        question, k=half, filter={"type": "whatsapp"}
     )
+    tr_docs = vectorstore.similarity_search_with_score(
+        question, k=config.TOP_K - half, filter={"type": {"$ne": "whatsapp"}}
+    )
+    # Merge and re-sort by similarity (lower distance = better)
+    docs_with_scores = sorted(wa_docs + tr_docs, key=lambda x: x[1])
 
     if not docs_with_scores:
         return {
@@ -326,8 +334,12 @@ def ask(question: str, verbose: bool = False) -> dict:
     answer_lower = answer_text.lower()
     has_no_info = any(phrase in answer_lower for phrase in _no_info_phrases)
 
-    if has_no_info and len(answer_text) < 350:
-        # Short answer that's purely "I don't know" — hide misleading sources
+    if has_no_info:
+        # Any "I don't have enough info" answer — strip sources entirely.
+        # Showing sources alongside a "not in the knowledge base" answer is
+        # misleading: it implies the answer came from those sources when it
+        # didn't. The previous policy only stripped on short answers, but a
+        # long verbose hedge is just as misleading. Strip in both cases.
         avg_confidence = min(avg_confidence, 0.18)
         return {
             "answer": answer_text,
@@ -335,9 +347,6 @@ def ask(question: str, verbose: bool = False) -> dict:
             "confidence": avg_confidence,
             "chunks_used": len(docs_with_scores),
         }
-    elif has_no_info:
-        # Long answer with useful content but a caveat — keep sources, just note lower confidence
-        avg_confidence = min(avg_confidence, 0.35)
 
     # Build deduplicated, enriched source list (clean names, format dates).
     # WhatsApp digests dedup by source_id (Airtable record); transcripts by raw speaker.
@@ -356,6 +365,9 @@ def ask(question: str, verbose: bool = False) -> dict:
 
             chat_name = meta.get("chat_name", "Unknown group")
             display_date = format_date_display(meta.get("date", ""))
+            # `source_id` is the Airtable record ID; expose it directly so
+            # iOS can deep-link to that digest's detail view from the source card.
+            airtable_record_id = meta.get("source_id", "") or digest_id.replace("airtable://Summaries/", "")
             source_entry = {
                 # `speaker` carries the display name for backwards compat with
                 # existing iOS clients; the explicit fields below let new clients
@@ -370,6 +382,7 @@ def ask(question: str, verbose: bool = False) -> dict:
                 "period_type": meta.get("period_type", "daily"),
                 "msg_count": int(meta.get("msg_count", 0) or 0),
                 "source": meta.get("source", ""),
+                "digest_id": airtable_record_id,
             }
             enriched_sources.append(source_entry)
         else:
