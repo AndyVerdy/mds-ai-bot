@@ -242,24 +242,35 @@ _SPEAKER_NAME_INDEX: dict | None = None
 def _extract_name_candidates(display_name: str) -> list[str]:
     """Pull person-name candidates from a cleaned transcript display name.
 
-    Handles two patterns:
-      1. "Mogul Call with Josh Hadley"      → ["Josh Hadley"]
+    Yields up to three kinds of candidates:
+      1. Multi-word person names after "with" / "w_":
+         "Mogul Call with Josh Hadley"            → ["Josh Hadley"]
          "Call with Andrei Ureche and Alex Chiru" → ["Andrei Ureche", "Alex Chiru"]
-         "FC Chats: ... w_Brett Eaton"      → ["Brett Eaton"]
-      2. Stand-alone short name w/o stop words: "Scott Deetz" → ["Scott Deetz"]
+         "FC Chats: ... w_Brett Eaton"            → ["Brett Eaton"]
+      2. The post-"with" / post-"w_" tail as a whole, when it contains
+         "&" / "and" co-host separators that would otherwise split the
+         pair into single-word fragments:
+         "Mogul Call with Hasan & Dave" → adds "Hasan & Dave"
+      3. Stand-alone short names without scheduling stop words:
+         "Scott Deetz" → ["Scott Deetz"]
 
-    Returns [] when the display name is a meeting label without a person
-    (e.g. "Rockies Chapter Monthly Call" or "AI Channel monthly Call").
+    Returns [] for pure meeting labels with no person attribution
+    ("Rockies Chapter Monthly Call", "AI Channel monthly Call").
     """
     if not display_name:
         return []
     out: list[str] = []
     m = re.search(
-        r"(?:\bwith\s+|w_)([A-Z][\w.\-\']+(?:\s+[A-Z][\w.\-\']+){0,4})",
+        r"(?:\bwith\s+|w_)([A-Z][\w.\-\']+(?:\s+(?:[A-Z][\w.\-\']+|&|and))*)",
         display_name,
     )
     if m:
-        for part in re.split(r"\s+(?:and|&)\s+", m.group(1)):
+        tail = m.group(1).strip().rstrip(".,;:")
+        # Multi-person source — keep the full tail too so a question
+        # quoting "Hasan & Dave" still matches.
+        if re.search(r"\s+(?:and|&)\s+", tail):
+            out.append(tail)
+        for part in re.split(r"\s+(?:and|&)\s+", tail):
             part = part.strip().rstrip(".,;:")
             words = part.split()
             if 2 <= len(words) <= 4 and all(w and w[0].isupper() for w in words):
