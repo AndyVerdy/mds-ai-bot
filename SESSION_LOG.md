@@ -19,6 +19,10 @@ sync per the context-handoff skill protocol.
 - `mds-ai-bot/main` — Dockerfile + `/api/today`
 - `mds-ios-app/design-system-trial` — entire UI overhaul (still on the trial branch, NOT merged to main)
 
+**Design system reference** (full token + component + screen + rules + lessons learned, written so a fresh session can implement against the system without re-reading the original handoff zip):
+- Repo: `/Users/Born/mds-ios-app/DESIGN_SYSTEM.md`
+- ClickUp: [Page 13 — Design System Reference](https://app.clickup.com/2264119/docs/2531q-98297/2531q-61597)
+
 ### What was done
 
 Three loosely-connected pieces of work in one session:
