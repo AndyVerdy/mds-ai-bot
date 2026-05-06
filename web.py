@@ -9,7 +9,9 @@ MDS AI Bot — Web UI + Embeddable Widget API (Flask).
 """
 
 import os
+import json
 import functools
+from typing import Optional
 import requests
 from flask import Flask, render_template_string, request, jsonify, make_response
 from flask_cors import CORS
@@ -22,6 +24,9 @@ VERSION = "1.5.0"
 # Airtable constants — base shared with mds-digest-web project.
 AIRTABLE_BASE_ID = "appT9TVZWhv7io4CN"
 AIRTABLE_DIGESTS_TABLE = "Summaries"
+# Devices table holds APNs tokens per signed-in iOS user. Created 2026-05-06
+# for build (27) push notifications. Schema documented in apns.py / devices.py.
+AIRTABLE_DEVICES_TABLE = "iOS Devices"
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}})
@@ -1245,6 +1250,432 @@ def api_today():
     }
     _today_cache[today] = {"generated_at": time.time(), "payload": payload}
     return jsonify(payload)
+
+
+# ============================================================
+# Device tokens (APNs)
+# ============================================================
+# The iOS app posts its APNs hex device token here on every successful
+# registerForRemoteNotifications. Tokens can rotate (uninstall, restore from
+# backup, re-install) so we upsert on (token), not (email).
+#
+# Airtable schema for "iOS Devices" table — create manually or via the meta
+# API. Required fields:
+#   token              Single line text (primary)
+#   email              Single line text
+#   platform           Single select: ios | android | web
+#   bundle_id          Single line text
+#   app_version        Single line text
+#   app_build          Single line text
+#   enabled            Checkbox (default true)
+#   last_seen          Date with time, ISO8601
+#   live_activity_token  Long text (optional, for Build 28)
+#   live_activity_id   Single line text (optional, for Build 28)
+#   last_error_status  Number (optional, 0-599)
+#   last_error_reason  Single line text (optional)
+
+
+def _airtable_headers() -> dict:
+    pat = os.getenv("AIRTABLE_PAT") or ""
+    return {"Authorization": f"Bearer {pat}", "Content-Type": "application/json"}
+
+
+def _airtable_devices_url() -> str:
+    return f"https://api.airtable.com/v0/{AIRTABLE_BASE_ID}/{AIRTABLE_DEVICES_TABLE}"
+
+
+def _airtable_find_device(token: str) -> Optional[dict]:
+    """Look up an existing record by APNs token. Returns the AT record or None."""
+    safe_token = token.replace("'", "\\'")
+    params = {
+        "filterByFormula": f"{{token}}='{safe_token}'",
+        "maxRecords": 1,
+    }
+    try:
+        r = requests.get(_airtable_devices_url(), headers=_airtable_headers(),
+                         params=params, timeout=15)
+        r.raise_for_status()
+    except requests.RequestException:
+        return None
+    records = r.json().get("records", [])
+    return records[0] if records else None
+
+
+def _airtable_list_enabled_devices(platform: str = "ios") -> list[dict]:
+    """List all enabled device records for fan-out."""
+    devices: list[dict] = []
+    offset: Optional[str] = None
+    while True:
+        params = {
+            "pageSize": 100,
+            "filterByFormula": f"AND({{enabled}}=1,{{platform}}='{platform}')",
+        }
+        if offset:
+            params["offset"] = offset
+        try:
+            r = requests.get(_airtable_devices_url(), headers=_airtable_headers(),
+                             params=params, timeout=20)
+            r.raise_for_status()
+        except requests.RequestException:
+            break
+        body = r.json()
+        devices.extend(body.get("records", []))
+        offset = body.get("offset")
+        if not offset:
+            break
+    return devices
+
+
+@app.route("/api/devices", methods=["POST"])
+@require_auth
+def api_devices_register():
+    """Register or refresh the caller's APNs device token.
+
+    Idempotent on `token` — if the same hex token already exists, we update
+    its email + last_seen + app version. If it's new, we create.
+
+    On token rotation iOS will call this with a new hex string, so over time
+    the same email may have multiple active tokens (one per device install).
+    That's correct: a user with phone + iPad gets two tokens, two pushes.
+    """
+    data = request.get_json(silent=True) or {}
+    token = (data.get("token") or "").strip()
+    if not token or len(token) < 32 or not all(c in "0123456789abcdefABCDEF" for c in token):
+        return jsonify({"error": "Missing or malformed device token"}), 400
+    platform = (data.get("platform") or "ios").strip()
+    bundle_id = (data.get("bundle_id") or "com.mds.knowledgebase").strip()
+    app_version = (data.get("app_version") or "").strip()
+    app_build = (data.get("app_build") or "").strip()
+    email = getattr(request, "user_email", "") or ""
+
+    from datetime import datetime, timezone
+    now_iso = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+
+    existing = _airtable_find_device(token)
+    fields = {
+        "token": token,
+        "email": email,
+        "platform": platform,
+        "bundle_id": bundle_id,
+        "app_version": app_version,
+        "app_build": app_build,
+        "enabled": True,
+        "last_seen": now_iso,
+    }
+    try:
+        if existing:
+            patch_body = {"fields": fields}
+            r = requests.patch(
+                f"{_airtable_devices_url()}/{existing['id']}",
+                headers=_airtable_headers(),
+                data=json.dumps(patch_body),
+                timeout=15,
+            )
+        else:
+            post_body = {"fields": fields, "typecast": True}
+            r = requests.post(
+                _airtable_devices_url(),
+                headers=_airtable_headers(),
+                data=json.dumps(post_body),
+                timeout=15,
+            )
+        r.raise_for_status()
+    except requests.RequestException as e:
+        return jsonify({"error": f"Could not save device: {e}"}), 502
+    return jsonify({"ok": True})
+
+
+@app.route("/api/devices/live-activity", methods=["POST"])
+@require_auth
+def api_devices_live_activity():
+    """Store the per-Activity push token iOS hands out via Activity.pushTokenUpdates.
+
+    A Live Activity push token is DIFFERENT from a regular APNs device token —
+    it's scoped to one specific running activity and is what we target with
+    apns-push-type=liveactivity payloads.
+
+    Body: {activity_id, live_activity_token, date}.
+    Stored alongside the most recent regular device record for the calling
+    user (we just look up by email + take the most recent ios row). If
+    there are multiple recent rows we update the one with the matching
+    bundle_id; in practice one device = one row.
+    """
+    data = request.get_json(silent=True) or {}
+    la_token = (data.get("live_activity_token") or "").strip()
+    activity_id = (data.get("activity_id") or "").strip()
+    date_iso = (data.get("date") or "").strip()
+    email = getattr(request, "user_email", "") or ""
+    if not la_token or not activity_id:
+        return jsonify({"error": "Missing live_activity_token or activity_id"}), 400
+
+    # Find the most-recent enabled iOS device for this email.
+    safe_email = email.replace("'", "\\'")
+    params = {
+        "filterByFormula": f"AND({{email}}='{safe_email}',{{platform}}='ios',{{enabled}}=1)",
+        "sort[0][field]": "last_seen",
+        "sort[0][direction]": "desc",
+        "maxRecords": 1,
+    }
+    try:
+        r = requests.get(_airtable_devices_url(), headers=_airtable_headers(),
+                         params=params, timeout=15)
+        r.raise_for_status()
+    except requests.RequestException as e:
+        return jsonify({"error": f"Could not look up device: {e}"}), 502
+    records = r.json().get("records", [])
+    if not records:
+        return jsonify({"error": "No active iOS device for this user"}), 404
+
+    rec = records[0]
+    fields = {
+        "live_activity_token": la_token,
+        "live_activity_id": activity_id,
+    }
+    if date_iso:
+        # Stash the date into a "last_seen"-adjacent free-form note? Simpler:
+        # we don't need to track the date here — the activity id encodes it
+        # implicitly per-day on the iOS side. Skip.
+        pass
+    try:
+        requests.patch(
+            f"{_airtable_devices_url()}/{rec['id']}",
+            headers=_airtable_headers(),
+            data=json.dumps({"fields": fields}),
+            timeout=10,
+        ).raise_for_status()
+    except requests.RequestException as e:
+        return jsonify({"error": f"Could not save Live Activity token: {e}"}), 502
+    return jsonify({"ok": True})
+
+
+@app.route("/api/devices", methods=["DELETE"])
+@require_auth
+def api_devices_unregister():
+    """Disable the caller's device. Pass `?token=<hex>` to target a specific
+    device, or omit to disable every device for this email (sign-out flow).
+    Soft delete (set enabled=false) so we keep history.
+    """
+    email = getattr(request, "user_email", "") or ""
+    token = (request.args.get("token") or "").strip()
+    if token:
+        rec = _airtable_find_device(token)
+        if not rec:
+            return jsonify({"ok": True, "found": 0})
+        try:
+            requests.patch(
+                f"{_airtable_devices_url()}/{rec['id']}",
+                headers=_airtable_headers(),
+                data=json.dumps({"fields": {"enabled": False}}),
+                timeout=10,
+            ).raise_for_status()
+        except requests.RequestException as e:
+            return jsonify({"error": f"Could not update device: {e}"}), 502
+        return jsonify({"ok": True, "found": 1})
+
+    # No token: disable all devices for this user.
+    safe_email = email.replace("'", "\\'")
+    params = {"filterByFormula": f"{{email}}='{safe_email}'", "pageSize": 100}
+    try:
+        r = requests.get(_airtable_devices_url(), headers=_airtable_headers(),
+                         params=params, timeout=15)
+        r.raise_for_status()
+    except requests.RequestException as e:
+        return jsonify({"error": f"Could not list devices: {e}"}), 502
+    records = r.json().get("records", [])
+    for rec in records:
+        try:
+            requests.patch(
+                f"{_airtable_devices_url()}/{rec['id']}",
+                headers=_airtable_headers(),
+                data=json.dumps({"fields": {"enabled": False}}),
+                timeout=10,
+            )
+        except requests.RequestException:
+            continue
+    return jsonify({"ok": True, "found": len(records)})
+
+
+# ============================================================
+# Admin push fan-out
+# ============================================================
+# Called by n8n (or Andy curling) AFTER the morning WA digest batch finishes
+# writing to Airtable. We pull today's TL;DR and per-channel counts, then
+# send a single APNs push to every enabled iOS device.
+#
+# Auth: X-Admin-Secret header equal to the ADMIN_PUSH_SECRET Render env var.
+# Token-based auth (the user-session JWT) was rejected because n8n would
+# need to refresh it; a fixed shared secret is simpler and scoped to this one
+# endpoint.
+
+def _require_admin_push_secret() -> Optional[tuple]:
+    """Returns a (jsonify, status) error tuple if not authorized, else None."""
+    expected = (os.getenv("ADMIN_PUSH_SECRET") or "").strip()
+    if not expected:
+        return jsonify({"error": "ADMIN_PUSH_SECRET not configured"}), 500
+    provided = (request.headers.get("X-Admin-Secret") or "").strip()
+    if not provided or provided != expected:
+        return jsonify({"error": "Forbidden"}), 403
+    return None
+
+
+def _build_today_push_payload(date_iso: str, channels: list[dict],
+                              tldr: str) -> dict:
+    """Wrap the Today summary in an APNs alert payload.
+
+    The body is the synthesized cross-channel TL;DR. Subtitle gives a quick
+    "X new digests · Y chats" breakdown so the lock-screen notification has
+    real density without opening the app.
+    """
+    n_chats = len(channels)
+    n_msgs = sum(int(c.get("msg_count") or 0) for c in channels)
+    title = "Morning digests are ready"
+    if n_chats == 0:
+        subtitle = ""
+    elif n_chats == 1:
+        subtitle = f"1 chat · {n_msgs} messages"
+    else:
+        subtitle = f"{n_chats} chats · {n_msgs} messages"
+    body = (tldr or "").strip()
+    if not body:
+        body = "Open the app to read what happened across MDS today."
+    elif len(body) > 240:
+        body = body[:237] + "…"
+    return {
+        "aps": {
+            "alert": {
+                "title": title,
+                "subtitle": subtitle,
+                "body": body,
+            },
+            "sound": "default",
+            "badge": n_chats,
+            "thread-id": "mds-today",
+            "interruption-level": "active",
+        },
+        "today_date": date_iso,
+        "n_channels": n_chats,
+        "n_messages": n_msgs,
+    }
+
+
+@app.route("/api/admin/push/today", methods=["POST"])
+def api_admin_push_today():
+    """Fan out today's digest TL;DR to every enabled iOS device.
+
+    Headers:
+        X-Admin-Secret: must equal ADMIN_PUSH_SECRET env var.
+
+    Optional body (JSON):
+        {"dry_run": true}  → don't actually send, just count.
+
+    Response:
+        {
+          "date": "2026-05-06",
+          "n_channels": 8,
+          "n_devices": 4,
+          "sent": 4,
+          "failed": 0,
+          "errors": []
+        }
+    """
+    err = _require_admin_push_secret()
+    if err is not None:
+        return err
+
+    body = request.get_json(silent=True) or {}
+    dry_run = bool(body.get("dry_run"))
+
+    # Reuse the same logic /api/today uses, but force a refresh of today's
+    # records (don't trust the 1h cache — n8n calls this right after writing).
+    today = _today_iso_utc()
+    records = _fetch_digests_for_date(today)
+    fallback_date = None
+    if not records:
+        from datetime import datetime, timedelta, timezone
+        y = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
+        records = _fetch_digests_for_date(y)
+        fallback_date = y if records else None
+
+    tldr = _synthesize_today_tldr(fallback_date or today, records) if records else ""
+    channels = []
+    for rec in records:
+        f = rec.get("fields", {}) or {}
+        channels.append({
+            "chat_name": f.get("chat_name"),
+            "msg_count": int(f.get("msg_count") or 0),
+            "tl_dr": f.get("tl_dr") or "",
+        })
+
+    payload = _build_today_push_payload(fallback_date or today, channels, tldr)
+
+    devices = _airtable_list_enabled_devices(platform="ios")
+
+    summary = {
+        "date": fallback_date or today,
+        "n_channels": len(channels),
+        "n_devices": len(devices),
+        "sent": 0,
+        "failed": 0,
+        "errors": [],
+        "dry_run": dry_run,
+    }
+    if dry_run or not devices:
+        return jsonify(summary)
+
+    # Lazy-import APNs client so the module is fine to load when env vars
+    # aren't set yet.
+    try:
+        from apns import get_apns_client, APNsError
+        client = get_apns_client()
+    except Exception as e:
+        return jsonify({"error": f"APNs not configured: {e}"}), 500
+
+    for rec in devices:
+        f = rec.get("fields", {}) or {}
+        token = (f.get("token") or "").strip()
+        if not token:
+            continue
+        try:
+            client.send(
+                device_token=token,
+                payload=payload,
+                push_type="alert",
+                priority=10,
+                collapse_id=f"mds-today-{summary['date']}",
+            )
+            summary["sent"] += 1
+        except APNsError as e:
+            summary["failed"] += 1
+            summary["errors"].append({
+                "token_prefix": token[:8],
+                "status": e.status,
+                "reason": e.reason,
+            })
+            # Auto-disable on terminal errors per Apple guidance.
+            if e.status in (400, 410) and e.reason in (
+                "BadDeviceToken", "Unregistered", "DeviceTokenNotForTopic"
+            ):
+                try:
+                    requests.patch(
+                        f"{_airtable_devices_url()}/{rec['id']}",
+                        headers=_airtable_headers(),
+                        data=json.dumps({"fields": {
+                            "enabled": False,
+                            "last_error_status": e.status,
+                            "last_error_reason": e.reason,
+                        }}),
+                        timeout=10,
+                    )
+                except requests.RequestException:
+                    pass
+        except Exception as e:
+            summary["failed"] += 1
+            summary["errors"].append({
+                "token_prefix": token[:8],
+                "status": 0,
+                "reason": str(e)[:200],
+            })
+    return jsonify(summary)
 
 
 # ============================================================
