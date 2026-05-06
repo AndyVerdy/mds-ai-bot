@@ -10,6 +10,320 @@ sync per the context-handoff skill protocol.
 
 * * *
 
+## 2026-05-06 (later) — Build (27): Push notifications + Live Activity scaffolding
+
+**AI / dev:** Claude Opus 4.7
+**Duration:** ~2.5 h continuous
+**ClickUp doc:** [2531q-98297](https://app.clickup.com/2264119/docs/2531q-98297/2531q-61237)
+**Branches / repos touched:**
+- `mds-ai-bot/main` — APNs + device endpoints (`f876810`)
+- `mds-ios-app/design-system-trial` — push + Live Activity (`aed6854`)
+
+### What was done
+
+#### A. iOS app (`mds-ios-app/design-system-trial`)
+
+Build (27) ships push notifications end-to-end (auth → registration →
+upload → server fan-out) plus the full Live Activity scaffolding for
+build (28). Version bumped 0.4.11 (26) → **0.5.0 (27)** on both targets.
+
+New `Push/` module:
+- `PushManager.swift` — singleton, requests authorization, registers
+  for remote notifications, hex-encodes the device token and POSTs to
+  `/api/devices`. Caches the last-uploaded token in UserDefaults so
+  duplicate uploads on every foregrounding are skipped.
+- `AppDelegateAdapter.swift` — `UIApplicationDelegate` bridge so SwiftUI
+  can receive `didRegisterForRemoteNotifications…` and
+  `didReceiveRemoteNotification…`. Wired via
+  `@UIApplicationDelegateAdaptor`.
+- `MorningDigestAttributes.swift` — shared `ActivityAttributes` used
+  by both the app and the widget extension.
+- `LiveActivityManager.swift` — starts/updates/ends Live Activities,
+  observes `Activity.pushTokenUpdates` and forwards each token to
+  `BotClient.updateLiveActivityToken` so the server can target this
+  specific activity with `apns-push-type: liveactivity` payloads.
+
+`PushManager.didReceiveRemoteNotification` reads
+`userInfo["live_activity"] == "start"` and starts the Live Activity
+with the channels/messages/caption from the push payload (build 28
+hook is now in place).
+
+`SettingsView` gains a Notifications section: shows On/Off based on
+`UNAuthorizationStatus`, surfaces the system permission prompt on
+first opt-in (`.notDetermined` → `requestAuthorization`), deep-links
+to iOS Settings via `UIApplication.openSettingsURLString` for
+re-enabling after `.denied` or for fine-tuning post-grant.
+
+`BotClient` gets two new methods:
+- `registerDevice(token:)` — POSTs hex token + bundle/version/build
+  to `/api/devices`.
+- `updateLiveActivityToken(activityId:pushToken:date:)` — POSTs the
+  per-activity push token to `/api/devices/live-activity`.
+
+New `MDSWidgets/` app-extension target (`com.mds.knowledgebase.widgets`):
+- `MDSWidgetsBundle.swift` — `WidgetBundle` entry.
+- `MorningDigestLiveActivity.swift` — Lock screen + Dynamic Island
+  (compact leading/trailing, expanded leading/trailing/bottom, minimal).
+  Hand-tinted with the warm-orange KB tokens because widget extensions
+  can't import the app's `DesignSystem` module without a separate shared
+  framework target — drift risk is low (one file, one screen).
+
+Entitlements + Info.plist:
+- New `MDSKnowledgeBase.entitlements` — `aps-environment: production`
+  (TestFlight target; sim uses `simctl push` not real APNs).
+- `Info.plist` — `UIBackgroundModes: [remote-notification]` +
+  `NSSupportsLiveActivities: true`.
+
+`project.yml`:
+- Versions bumped on both targets.
+- New `MDSWidgets` target type `app-extension`.
+- Shared file: `MorningDigestAttributes.swift` listed under both
+  targets' sources.
+- Main app declares `MDSWidgets` as a dependency so archives bundle
+  the extension.
+
+#### B. Backend (`mds-ai-bot`)
+
+New `apns.py` (~150 lines):
+- `APNsClient` with token-based JWT auth (ES256, signed with the .p8
+  contents from env), HTTP/2 send via `httpx[http2]`, 50-min cached
+  provider token (Apple allows 60).
+- `send(...)` accepts `push_type` so the same client handles `alert`
+  / `liveactivity` / `background` payloads.
+- Auto-disables device records on terminal Apple errors (400 / 410
+  with reason `BadDeviceToken` / `Unregistered` /
+  `DeviceTokenNotForTopic`).
+
+New endpoints in `web.py`:
+- `POST /api/devices` — auth-required; upserts the (token) row in the
+  Devices table with email + bundle / version / build. Idempotent on
+  the hex token.
+- `DELETE /api/devices` — auth-required; soft-disables a single
+  device by `?token=<hex>` or every device for the calling email.
+- `POST /api/devices/live-activity` — auth-required; stores the
+  per-Activity push token + activity id on the most-recent device
+  record for the user.
+- `POST /api/admin/push/today` — `X-Admin-Secret` gated. Pulls today's
+  digest TL;DR (same path as `/api/today`, but bypasses the 1h cache),
+  builds an APNs alert payload with `aps.alert.{title,subtitle,body}`
+  + custom keys (`today_date`, `n_channels`, `n_messages`,
+  `live_activity: "start"`), iterates over enabled iOS devices, sends
+  each one a push, and reports `{sent, failed, errors[]}`. n8n hits
+  this when the morning batch finishes.
+
+Airtable:
+- New table **`iOS Devices`** (`tblz80VMR7kqxfnnz`) in the shared base
+  `appT9TVZWhv7io4CN`. Fields: `token` (primary), `email`, `platform`,
+  `bundle_id`, `app_version`, `app_build`, `enabled`, `last_seen`,
+  `live_activity_token`, `live_activity_id`, `last_error_status`,
+  `last_error_reason`. Created via the Meta API.
+
+Render env vars set (via API):
+- `APNS_AUTH_KEY` — full `.p8` contents (multi-line env var)
+- `APNS_KEY_ID` — `FRPX4SRPQC`
+- `APNS_TEAM_ID` — `M523QN9PMJ`
+- `APNS_BUNDLE_ID` — `com.mds.knowledgebase`
+- `APNS_USE_SANDBOX` — `false`
+- `ADMIN_PUSH_SECRET` — 32-byte hex (saved to `/tmp/admin_push_secret.txt`
+  on Andy's mac for now; **needs to be moved into n8n's HTTP-request
+  node config when wiring the post-batch webhook**).
+
+`requirements.txt`:
+- `+httpx[http2]>=0.27.0`
+- `+pyjwt[crypto]>=2.8.0`
+
+### Decisions made
+
+- **Token-based JWT auth, not certificate auth.** The .p8 key approach
+  is what Apple recommends for new projects and what the new dev-portal
+  key flow generates. One key works for both Sandbox & Production
+  environments (chose "Sandbox & Production" + "Team Scoped (All Topics)"
+  in the dev portal).
+- **`aps-environment: production`** in the entitlement, not development.
+  The app is TestFlight-targeted; real device tokens issued under
+  TestFlight are production-environment tokens. Sim testing uses
+  `simctl push` which doesn't go through Apple's APNs at all, so the
+  entitlement value doesn't matter there.
+- **Token storage in Airtable, not a separate Render KV / Postgres.**
+  Operations consistency with the rest of the bot's state. Volume is
+  trivially small (<100 devices for the foreseeable future).
+- **`POST /api/admin/push/today` is admin-secret gated, not user-token
+  gated.** n8n would need to refresh a session token and we don't want
+  to grant n8n the standard user-auth flow. A fixed
+  `X-Admin-Secret: $ADMIN_PUSH_SECRET` is simpler and scoped to one
+  endpoint.
+- **Live Activity scaffolding shipped with build 27** rather than waiting
+  for build 28. The widget extension target is non-trivial to add and
+  testing it requires a real device; getting the scaffolding into TestFlight
+  early lets Andy validate the Lock-Screen / Dynamic-Island rendering
+  while we still have the trial branch open. The push receive path
+  triggers `LiveActivityManager.start` from a `live_activity == "start"`
+  custom key, so a single regular push starts the LA — no separate flow
+  needed for build 28.
+- **Widget extension theme is hand-tinted with KB tokens, not imported
+  from `DesignSystem/`.** Importing across an app-extension boundary
+  requires a shared framework target. For one screen with five colors
+  and three font calls, hand-coding is fine.
+- **`ADMIN_PUSH_SECRET` lives in env, not hard-coded.** Per the safety
+  rule about never committing secrets. The secret is in `/tmp/` for
+  this session — Andy / n8n setup is the next step to move it into
+  the n8n credential store.
+
+### Files / modules touched
+
+`mds-ai-bot`:
+- `apns.py` (NEW, ~150 lines)
+- `web.py` — +470 lines (devices + admin push routes, Optional + json
+  imports)
+- `requirements.txt` — +2 lines
+
+`mds-ios-app` (`design-system-trial`):
+- `MDSKnowledgeBase/Push/` (NEW): `PushManager.swift`,
+  `AppDelegateAdapter.swift`, `MorningDigestAttributes.swift`,
+  `LiveActivityManager.swift`
+- `MDSKnowledgeBase/MDSKnowledgeBase.entitlements` (NEW)
+- `MDSKnowledgeBase/MDSKnowledgeBaseApp.swift` — `@UIApplicationDelegateAdaptor`,
+  `pushManager.bootstrapIfAuthorized()` after auth.
+- `MDSKnowledgeBase/Network/BotClient.swift` — `registerDevice` +
+  `updateLiveActivityToken`.
+- `MDSKnowledgeBase/Views/SettingsView.swift` — Notifications section
+  with permission state machine + system-settings deep link.
+- `MDSKnowledgeBase/Info.plist` — `UIBackgroundModes`,
+  `NSSupportsLiveActivities`.
+- `MDSWidgets/` (NEW): `MDSWidgetsBundle.swift`,
+  `MorningDigestLiveActivity.swift`, `Info.plist`
+- `project.yml` — version bump, MDSWidgets target, entitlements ref.
+- `MDSKnowledgeBase.xcodeproj/project.pbxproj` — regenerated.
+
+### QA / Verification
+
+**Backend:**
+- ✅ `web.py` + `apns.py` parse cleanly (`python3 -m ast`).
+- ✅ All new function symbols present.
+- ✅ APNs JWT signs ES256 against the real .p8 key (length 200 chars).
+- ✅ Apple APNs accepted the JWT — rejected a fake test token (`0x40`)
+  with HTTP 400 `BadDeviceToken`. That's the **expected** response that
+  proves auth + connection work end-to-end.
+- ⏳ Render redeploy in flight at session-end (`dep-d7tspj5ckfvc73fmtkt0`,
+  `f8768104`). Build longer than usual because of the new pip deps
+  (`pyjwt[crypto]` brings cryptography, `httpx[http2]` brings h2 +
+  hyperframe + hpack). Should land in ~5–10 min total.
+
+**iOS:**
+- ✅ Both targets build clean for iPhone 17 Pro sim
+  (`xcodebuild Debug CODE_SIGNING_ALLOWED=NO`).
+- ✅ Sim install + launch reaches `LoginView` identically to (26)
+  (screenshot at `/tmp/mds-launch-2.png`).
+- ✅ `simctl push` accepts the test payload at
+  `/tmp/test_push_payload.json` — delivered to the bundle id
+  (foreground app suppresses the alert by default which is expected;
+  `didReceiveRemoteNotification` would still fire on a backgrounded
+  app).
+- ⏳ Settings Notifications section visual layout NOT sim-verified
+  (sim sign-in requires keyboard input that needs assistive-access
+  permission this session doesn't have). Change is additive and
+  follows the same pattern as existing sections — risk is layout-only,
+  bounded.
+
+### Known issues / broken things
+
+- **Settings Notifications section visual layout unverified in sim.**
+  Pure additive change; if Andy sees a layout bug on real device,
+  fix is bounded to the new `notificationsSection` computed property.
+- **Live Activity rendering on real Dynamic Island NOT verified.**
+  Sim supports it but real device is the canonical surface. First
+  test path: TestFlight (27) → opt into push → trigger fan-out from
+  `/api/admin/push/today` with the manual curl (see below) → watch
+  the activity start on lock screen + Dynamic Island.
+- **n8n integration NOT wired yet.** The post-batch fan-out is one
+  HTTP-request node away from the existing WA-digest workflow:
+  `POST https://mds-ai-bot.onrender.com/api/admin/push/today` with
+  header `X-Admin-Secret: <env var>`. Once the Render deploy lands and
+  Andy's TestFlight token is registered, this is the last hop.
+- **Live Activity end timing not yet decided.** Currently the activity
+  ends when iOS dismisses it (default policy) or when explicitly
+  ended via `endCurrent`. Could add: end on app foreground OR after
+  N hours via `staleDate`. Defer until Andy sees one in the wild.
+
+### Test environment state
+
+- **Render service:** `srv-d6kf5j56ubrc73ee8sag` — deploy in flight at
+  session-end on `f876810`. Auto-deploy ON.
+- **Reviewer creds:** unchanged.
+- **APNs config:** `APNS_KEY_ID = FRPX4SRPQC`, `APNS_TEAM_ID =
+  M523QN9PMJ`, `APNS_BUNDLE_ID = com.mds.knowledgebase`,
+  `APNS_USE_SANDBOX = false`, key file at
+  `/Users/Born/Downloads/AuthKey_FRPX4SRPQC.p8` on Andy's mac (move
+  to a permanent secure location at convenience).
+- **Admin push secret:** ephemeral copy at
+  `/tmp/admin_push_secret.txt` on this mac. Set in Render as
+  `ADMIN_PUSH_SECRET`. Move to n8n credential store when wiring the
+  webhook.
+- **Sim push test payload:** `/tmp/test_push_payload.json`.
+- **iOS build artifacts:**
+  `/Users/Born/Library/Developer/Xcode/DerivedData/MDSKnowledgeBase-…/Build/Products/Debug-iphonesimulator/MDS Knowledge Base.app`
+- **iPhone 17 Pro sim:** `7AE15820-62F4-47DF-B972-E0C31BEC5D89`
+
+### Open questions for next session
+
+- **Andy's reaction to (27) on real device.** Notifications toggle
+  visible in Settings? Permission prompt cosmetic OK? Push delivers
+  on lock screen? Dynamic Island animates correctly? Any of these
+  could trigger a small follow-up.
+- **n8n wiring cadence.** Once a TestFlight token registers, do we
+  add the HTTP-request node to the existing WA-digest workflow today
+  or wait for Andy to validate the receive side first?
+- **Live Activity dismissal policy.** Default vs. explicit-on-foreground
+  vs. staleDate-based. Real-device feel will tell us.
+- **Sim keyboard test harness still deferred.** Same ask as last
+  session — needed for the Settings Notifications visual sign-off
+  AND for a future LoginView retry.
+
+### Next steps (specific, actionable, in priority order)
+
+1. **Andy archives + uploads (27) to TestFlight** — bump number
+   `27`, version `0.5.0`. Same steps as (26).
+2. **First device test:** open the app, log in, Settings → Notifications
+   → turn on. Verify a row lands in the AT iOS Devices table within
+   ~5 sec.
+3. **Manual fan-out test:** once a token is in AT, curl from local
+   ```
+   curl -X POST https://mds-ai-bot.onrender.com/api/admin/push/today \
+     -H "X-Admin-Secret: $(cat /tmp/admin_push_secret.txt)" \
+     -H "Content-Type: application/json" -d '{}'
+   ```
+   should return `{sent: 1, …}`. Lock-screen alert appears within
+   seconds.
+4. **Live Activity smoke test:** the same curl above includes
+   `live_activity: "start"` in the payload — should kick off a Lock
+   Screen / Dynamic Island activity on the real device.
+5. **Wire n8n** once (3) + (4) work. Add an HTTP-request node at the
+   end of the WA-digest pipeline:
+   `POST mds-ai-bot.onrender.com/api/admin/push/today` with
+   `X-Admin-Secret: <secret>` header. No body required.
+6. **Move .p8 file** out of `~/Downloads/` to a longer-term location
+   (e.g. 1Password). Render has the contents; the local file is a
+   safety net.
+7. **Build (28)** — the only remaining piece is the Live Activity
+   *update* push (apns-push-type=liveactivity targeting the LA push
+   token) so the server can update the activity content while it's
+   running. Ship as a separate small endpoint
+   `POST /api/admin/push/live-activity` if useful.
+
+### Deferred (not for next session unless Andy says)
+
+- Settings Notifications section visual sign-off (deferred until either
+  device test or sim-keyboard harness lands).
+- Editorial Georgia sign-in retry (still waiting on sim-keyboard
+  harness).
+- Source-recall improvements from the prior session's dynamic-suite
+  findings.
+- Per-tier permission filtering (Phase 2).
+- Resend key rotation — Andy declined.
+- App Store review submission — paused.
+
+* * *
+
 ## 2026-05-06 — Dockerfile cache + iOS design-system trial + Today TL;DR + 7 home features
 
 **AI / dev:** Claude Opus 4.7
