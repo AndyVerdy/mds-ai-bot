@@ -1104,6 +1104,144 @@ def api_digests():
     })
 
 
+# ----- /api/today -----------------------------------------------------------
+# Single synthesized "what happened across MDS today" TL;DR. Aggregates today's
+# WhatsApp digests across all channels and asks Claude to produce one paragraph
+# the iOS home screen can show at a glance. Cached in-process for 1h so we
+# don't re-bill Claude on every app open.
+
+# Cache: { date_iso (str): {"tldr": str, "channels": [...], "generated_at": float} }
+_today_cache: dict = {}
+_today_cache_ttl_s = 3600.0  # 1 hour
+
+
+def _today_iso_utc() -> str:
+    """Return today's date in YYYY-MM-DD (UTC) — matches Airtable digest dates."""
+    from datetime import datetime, timezone
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+def _fetch_digests_for_date(date_iso: str) -> list[dict]:
+    """Pull every msg_count>0 digest from Airtable for a given YYYY-MM-DD."""
+    pat = os.getenv("AIRTABLE_PAT")
+    if not pat:
+        return []
+    url = f"https://api.airtable.com/v0/{AIRTABLE_BASE_ID}/{AIRTABLE_DIGESTS_TABLE}"
+    params = {
+        "pageSize": 100,
+        "filterByFormula": f"AND({{date}}='{date_iso}',{{msg_count}}>0)",
+        "sort[0][field]": "msg_count",
+        "sort[0][direction]": "desc",
+    }
+    try:
+        r = requests.get(url, headers={"Authorization": f"Bearer {pat}"},
+                         params=params, timeout=20)
+        r.raise_for_status()
+        return r.json().get("records", [])
+    except requests.RequestException:
+        return []
+
+
+def _synthesize_today_tldr(date_iso: str, records: list[dict]) -> str:
+    """Ask Claude for a single 2-3 sentence cross-channel summary of today."""
+    from langchain_anthropic import ChatAnthropic
+    import config as cfg
+
+    bullets = []
+    for rec in records:
+        f = rec.get("fields", {}) or {}
+        chat = f.get("chat_name") or "Unknown"
+        tl_dr = (f.get("tl_dr") or "").strip()
+        if tl_dr:
+            bullets.append(f"- {chat}: {tl_dr}")
+    if not bullets:
+        return ""
+
+    body = "\n".join(bullets)
+    prompt = (
+        "Below are today's per-channel WhatsApp summaries from the Million "
+        "Dollar Sellers community. Synthesize them into a SINGLE paragraph "
+        "(2-3 sentences, max 60 words) that captures what's happening across "
+        "MDS today — operator-confident, calm, editorial voice. Don't list "
+        "channels. Don't say 'Today across MDS' or 'In summary'. Lead with "
+        "the most consequential thread.\n\n"
+        f"DATE: {date_iso}\n\n{body}"
+    )
+    try:
+        llm = ChatAnthropic(
+            model=cfg.LLM_MODEL,
+            temperature=0.2,
+            anthropic_api_key=cfg.ANTHROPIC_API_KEY,
+        )
+        resp = llm.invoke(prompt)
+        return (resp.content or "").strip()
+    except Exception:
+        # Fallback: just return the longest tl_dr as a passable summary.
+        return max((b.split(": ", 1)[-1] for b in bullets), key=len, default="")
+
+
+@app.route("/api/today")
+@require_auth
+def api_today():
+    """Single cross-channel TL;DR for today + per-channel digest links.
+
+    Response:
+        {
+          "date": "2026-05-06",
+          "tldr": "Three threads dominated…",
+          "channels": [
+            {"chat_name": "MDS AI & Automations", "digest_id": "rec…",
+             "msg_count": 49, "tl_dr": "Cross-LLM code review…"},
+            …
+          ],
+          "generated_at": "2026-05-06T16:32:11Z",
+          "fallback_date": null  // or "2026-05-05" if today had no digests
+        }
+    """
+    import time
+    from datetime import datetime, timezone
+
+    today = _today_iso_utc()
+
+    # Serve from cache if fresh.
+    cached = _today_cache.get(today)
+    if cached and (time.time() - cached["generated_at"]) < _today_cache_ttl_s:
+        return jsonify(cached["payload"])
+
+    # Pull today's digests; if none, fall back to yesterday so the home screen
+    # never shows an empty state in the first hours of a new UTC day.
+    records = _fetch_digests_for_date(today)
+    fallback_date = None
+    if not records:
+        from datetime import timedelta
+        y = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
+        records = _fetch_digests_for_date(y)
+        fallback_date = y if records else None
+
+    # Synthesize.
+    tldr = _synthesize_today_tldr(fallback_date or today, records)
+
+    channels = []
+    for rec in records:
+        f = rec.get("fields", {}) or {}
+        channels.append({
+            "chat_name": f.get("chat_name"),
+            "digest_id": rec["id"],
+            "msg_count": int(f.get("msg_count") or 0),
+            "tl_dr": f.get("tl_dr") or "",
+        })
+
+    payload = {
+        "date": fallback_date or today,
+        "tldr": tldr,
+        "channels": channels,
+        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "fallback_date": fallback_date,
+    }
+    _today_cache[today] = {"generated_at": time.time(), "payload": payload}
+    return jsonify(payload)
+
+
 # ============================================================
 # Auth routes
 # ============================================================
