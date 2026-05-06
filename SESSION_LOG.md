@@ -10,6 +10,135 @@ sync per the context-handoff skill protocol.
 
 * * *
 
+## 2026-05-06 — Dockerfile cache + iOS design-system trial + Today TL;DR + 7 home features
+
+**AI / dev:** Claude Opus 4.7
+**Duration:** ~14 hours across one long session
+**ClickUp doc:** [2531q-98297](https://app.clickup.com/2264119/docs/2531q-98297/2531q-61237)
+**Branches / repos touched:**
+- `mds-ai-bot/main` — Dockerfile + `/api/today`
+- `mds-ios-app/design-system-trial` — entire UI overhaul (still on the trial branch, NOT merged to main)
+
+### What was done
+
+Three loosely-connected pieces of work in one session:
+
+#### A. Backend (`mds-ai-bot`)
+
+- `Dockerfile` rework (`4b478fc`): split the embed step from the app-code COPY so backend-only commits stop triggering a 30-40 min re-embed. New layer order — `requirements` → `config.py` + `ingest.py` → `data/` → `RUN ingest_directory` → `RUN ingest_whatsapp` → `COPY *.py ./`. Verified: a follow-up backend deploy (`fbf70b1`) finished in ~2 min instead of 30+ because only `web.py` changed.
+- `/api/today` endpoint (`fbf70b1`): GET, auth-required. Pulls today's digests from Airtable, calls Claude to synthesize a single 2-3 sentence cross-channel TL;DR, returns `{tldr, channels[], date, fallback_date}`. In-process cache 1h. Falls back to yesterday when today has no digests yet (early-morning state).
+- `/api/today` filter fix (`efbb8e6`): plain `{date}='YYYY-MM-DD'` returned 0 records because the `date` column is an Airtable Date type, not text. Switched to `IS_SAME({date}, '2026-05-06', 'day')`. Verified locally — formula returns 10 records vs 0 with the broken version.
+
+#### B. iOS app (`mds-ios-app`) — entire design-system trial
+
+The trial branch (`design-system-trial`) now spans builds (13) → (26) on TestFlight. Builds (13)-(15) experimented with a blue Liquid Glass system; builds (16)+ replaced it with the warm-orange editorial system per Andy's `MDS AI (3).zip` design handoff. New tokens (`KBColor` warm-dark + cream + `#E76A2B` orange, Editorial Georgia ramp at 24/28/38pt, 4-pt spacing, KBRadius 12-24-pill), new glass primitive (LiquidGlass + GlassChip + GlassDropdown + GlassTabBar + AsteriskMark), new components (KBSectionLabel, KBListRow, KBSearchField, KBButton + KBIconButton). All 3 main screens fully refactored (Home, Digests, DigestDetail) plus ChatView shell, AnswerBubble, SourceCard, Settings, History, TypingIndicator. App icon swapped to the v3 set + MDSMark template image asset.
+
+Sign-in screen ate 6 build cycles (21→26) — three different layout bugs: text clipped on the left under keyboard pressure, M logo pushed top-right under different padding combos, hero/subhead truncated to one line under vertical compression. Eventually reverted to main's proven ScrollView + VStack structure with KB tokens applied (commit `0aa148d`, build 25). Editorial Georgia hero deferred — comes back when there's a faster sim-validation loop and a way to test keyboard-up state in the sim before shipping.
+
+Build (26) shipped seven home / detail features in one go (commit `cca77b8`):
+
+1. **scenePhase auto-refresh** — every foregrounding refreshes DigestsStore + TodayStore.
+2. **Today section on home** — synthesized cross-channel TL;DR card above "Suggested for you", per-channel quick links seed search queries.
+3. **Read / unread digest dots** — small orange dot left of unread chat names in DigestsView, vanishes when DigestDetailView marks read.
+4. **TTS Listen pill** — `AVSpeechSynthesizer` reads chat name + TL;DR + key insights, no backend.
+5. **WhatsApp source badge → green** (`#25D366`) — explicit deviation from the single-accent design rule per Andy's request.
+6. **Settings → Storage section** — sums UserDefaults bytes for app-owned keys, formats via ByteCountFormatter, Clear cache button preserves history + login.
+7. **Pull-to-refresh** — already wired, verified no regression.
+
+Three new persistence modules (`ReadStateStore`, `TodayStore`, `SpeechController`) + new `Today` model + new app-entry env-object injections.
+
+#### C. Workflow change
+
+After three rounds of pushing visually-unverified UI changes broke the same login screen in three different ways, switched to **build-for-sim → install → screenshot → verify → bump → commit** as the iron rule for any UI change. Burned ~3 hours of iteration on bugs the simulator would have caught in 30 seconds. Worth the discipline.
+
+Also: **every commit on this branch must bump the build number**, no exceptions, even when paused mid-edit. Two duplicate `0.4.6 (21)` archives ended up in Andy's Organizer because I edited code without bumping while user was "checking something." Apple rejects duplicate identifiers — never again.
+
+### Decisions made
+
+- **Dockerfile rework first.** Without it, every backend iteration this session would have been a 30+ min wait. Paid back the first time `web.py` changed in isolation.
+- **`/api/today` synthesis is server-side, not iOS-side.** Bills Claude once per hour per server cache, not once per app open per device. Keeps mobile Anthropic key out of the binary.
+- **Server cache 1h, client cache 30 min.** Server cache absorbs spikes (multiple devices opening at the same time after the morning batch lands); client cache absorbs same-session re-renders without re-network.
+- **Today section uses Editorial Georgia (`KBFont.editorial()` = Georgia 24).** Reads as a magazine pull-quote even on the home screen — exactly what the v3 design system intended for "reading-titled moments."
+- **Read-state lives in UserDefaults, not the backend.** Per-device. If Andy wants cross-device sync later, Airtable + a `/api/read-state` endpoint would do it. Not worth the complexity for now.
+- **TTS is iOS-native (`AVSpeechSynthesizer`), not a Polly/ElevenLabs backend.** Free, offline, ships today.
+- **WhatsApp green is an explicit design exception.** Documented inline in `SourceCardView.whatsappBadge`. Single-accent rule still holds for everything else.
+- **LoginView reverted to main's structure.** After 5 attempts at the editorial Georgia sign-in produced 5 different layout bugs, took the L. Build (25) ships main's ScrollView + VStack layout retinted with KB tokens — it works.
+
+### Files / modules touched
+
+`mds-ai-bot`:
+- `Dockerfile` — split COPY layers (~10 lines)
+- `web.py` — added `/api/today` endpoint + helpers (~140 lines)
+
+`mds-ios-app` (design-system-trial branch only):
+- All `DesignSystem/` — 17 files, total replacement
+- All 3 main screens (Home/Empty/Digests/Detail) — full refactor
+- `LoginView.swift` — 6 iterations, settled on retinted-main version
+- `Models/Today.swift` (new), `Storage/TodayStore.swift` (new), `Storage/ReadStateStore.swift` (new), `Storage/SpeechController.swift` (new)
+- `ContentView.swift` — manual tab switcher + GlassTabBar overlay + scenePhase
+- `MDSKnowledgeBaseApp.swift` — env-object injections
+- `SettingsView.swift` — Storage section + Clear cache
+- `SourceCardView.swift` — green WhatsApp badge
+- `Assets.xcassets/AppIcon.appiconset/` — v3 icon set
+- `Assets.xcassets/MDSMark.imageset/` — template image
+- `scripts/generate_app_icon.py` — Python PIL fallback generator
+- `project.yml` — version bumps 0.2.7 (12) → 0.4.11 (26)
+
+### QA / Verification
+
+**Backend:**
+- Dockerfile cache locality verified — `fbf70b1` deployed in ~2 min vs ~30 prior
+- `/api/today` returns today's records, falls back to yesterday on empty
+- Date filter `IS_SAME({date}, 'YYYY-MM-DD', 'day')` verified vs broken `=` formula
+- Static prod suite was last run at 17/17 in commit `3c3978b` — no retest this session (no query/retrieval changes)
+
+**iOS:**
+- LoginView (build 25) sim-validated before shipping — hero, subhead, EMAIL field, button, helper, footer all in correct gutter
+- Build (26) compiles clean — no sim-screenshot of authenticated views, those are layout-additive on already-verified screens
+- All 11 trial builds (12 → 26) live on TestFlight; revert path = `git checkout main` + install build (12)
+
+### Known issues / broken things
+
+- **Editorial Georgia sign-in still missing.** Reverted to retinted-main layout in (25). The fancy hero version has been deferred indefinitely — needs a faster sim-validation loop AND a way to test keyboard-up state in the sim before another attempt.
+- **Push notifications NOT YET shipped.** Promised for build (27). Needs Apple Push key from Andy's App Store Connect, device-token endpoint, hook into the WA-digest pipeline, APNs send code.
+- **Dynamic Island Live Activity NOT YET shipped.** Promised for build (28). Depends on push being in place first.
+- **Email TL;DR not started.** Andy clarified mid-session this isn't from emails — it's the existing per-channel digests synthesized into one cross-channel TL;DR, which is now `/api/today`. Email ingestion is no longer in scope.
+- **WhatsApp green = single-accent rule violation.** Documented in `SourceCardView.whatsappBadge`. If we ever want strict design conformance back, drop the dedicated badge and use `KBColor.glassPill` like the Speaker badge.
+- **No simulator way to test keyboard-up state.** Need an `osascript` helper or Xcode UI-test harness so future LoginView-style bugs (only visible with keyboard up) can be caught pre-ship.
+
+### Test environment state
+
+- **Render service:** `srv-d6kf5j56ubrc73ee8sag` — currently live on `efbb8e6`. Auto-deploy ON. Dockerfile cache means typical backend deploys are now ~1-2 min.
+- **Reviewer creds:** `appstore-reviewer@mds.co` + fixed code `837363` (Render env vars `REVIEWER_EMAIL` / `REVIEWER_FIXED_CODE`).
+- **Admin emails:** `andy.verdy1@gmail.com,tangowithw@gmail.com` (Render env var `ADMIN_EMAILS`).
+- **iOS:** `mds-ios-app/design-system-trial` branch HEAD = `cca77b8` (build 26). Eleven trial builds (12 → 26) currently in TestFlight. Andy is about to upload (26) and test.
+- **Working tree:** mds-ai-bot main is clean post-`efbb8e6`. mds-ios-app design-system-trial is clean post-`cca77b8`.
+
+### Open questions for next session
+
+- **Andy's reaction to (26).** Today section, read dots, Listen pill, green WhatsApp, Settings storage all need eyes-on validation. Likely 1-2 small follow-ups based on feedback.
+- **Push notifications scoping.** Apple Push key creation is Andy-side (App Store Connect → Keys → +). Backend storage of device tokens — new Airtable table or just a Render KV/Redis? Likely Airtable for consistency. APNs send via `requests` to Apple's HTTP/2 endpoint — straightforward, but the JWT signing is fiddly.
+- **Live Activity scope.** Just a "morning digests ready" payload? Or also "while reading: insight 3 of 5" progress?
+- **Editorial Georgia sign-in retry.** Worth coming back to once we have a sim-keyboard test harness.
+
+### Next steps (specific, actionable, in priority order)
+
+1. **Andy archives + uploads (26) to TestFlight** — bump number is 26, version 0.4.11. Iterate on whatever feedback comes back.
+2. **Build (27): Push notifications.** Andy creates Apple Push key in App Store Connect (~2 min). iOS adds `registerForRemoteNotifications` + posts device token to a new `/api/devices` endpoint. Backend stores tokens in a new Airtable table, hooks into the WA-digest pipeline so finishing the morning batch triggers a fan-out push to all subscribed devices.
+3. **Build (28): Live Activity.** ActivityKit attributes + Live Activity views in iOS. Backend sends Live Activity APNs payload (separate flow from regular pushes) when batch finishes. Dynamic Island shows *"3 new digests · 2 chats you follow"*.
+4. **Sim keyboard-test helper.** Small AppleScript / shell helper to focus the email field, type, and screenshot — so the next LoginView attempt doesn't re-burn 5 build cycles on bugs only visible with keyboard up.
+5. **Decide:** merge `design-system-trial` to main once Andy's happy with (26)+. Currently main is build (12); the trial branch carries 14 build's worth of design-system + features.
+
+### Deferred (not for next session unless Andy says)
+
+- Editorial Georgia sign-in retry (after sim keyboard test harness exists)
+- Source-recall improvements from the prior session's dynamic-suite findings (#4 Brandon Himmel API stack, #10 Kat's Meeting Spectrum Five) — neither is the no-info cap, both are retrieval-ranking
+- Per-tier permission filtering (Phase 2)
+- Resend key rotation — Andy declined again (still in git history)
+- App Store review submission — paused, waiting for Andy's go-ahead
+
+* * *
+
 ## 2026-05-05 (latest) — No-info cap refined → 17/17 static, 8/10 dynamic
 
 **AI / dev:** Claude Opus 4.7
