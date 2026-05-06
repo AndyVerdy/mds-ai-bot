@@ -1122,14 +1122,19 @@ def _today_iso_utc() -> str:
 
 
 def _fetch_digests_for_date(date_iso: str) -> list[dict]:
-    """Pull every msg_count>0 digest from Airtable for a given YYYY-MM-DD."""
+    """Pull every msg_count>0 digest from Airtable for a given YYYY-MM-DD.
+
+    The `date` field in Airtable is stored as a Date type (not a string),
+    so a plain `{date}='YYYY-MM-DD'` filter never matches. IS_SAME compares
+    by calendar day in the base's timezone — the right primitive here.
+    """
     pat = os.getenv("AIRTABLE_PAT")
     if not pat:
         return []
     url = f"https://api.airtable.com/v0/{AIRTABLE_BASE_ID}/{AIRTABLE_DIGESTS_TABLE}"
     params = {
         "pageSize": 100,
-        "filterByFormula": f"AND({{date}}='{date_iso}',{{msg_count}}>0)",
+        "filterByFormula": f"AND(IS_SAME({{date}}, '{date_iso}', 'day'),{{msg_count}}>0)",
         "sort[0][field]": "msg_count",
         "sort[0][direction]": "desc",
     }
