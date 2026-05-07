@@ -104,6 +104,30 @@ def _members_first_name_index() -> dict[str, str]:
     return index
 
 
+def _format_links_shared(text: str) -> str:
+    """Make the n8n-generated `links_shared` field readable.
+
+    n8n's Claude pipeline outputs entries in the format
+        Title1 -- URL1Title2 -- URL2Title3 -- URL3
+    with no whitespace or newline between each URL and the start of the
+    next title. iOS renders this as a single wall of text where the URLs
+    accidentally absorb the leading words of the next title (Andy's
+    feedback: "shared links are messy, impossible to read").
+
+    We detect each URL and inject a paragraph break right after it. The
+    boundary is "URL → CapitalLetter+lowercase" or "URL → whitespace".
+    URLs with mixed-case paths can fool this heuristic but the data here
+    is overwhelmingly x.com / lowercase-path URLs, so it's reliable in
+    practice.
+    """
+    if not text or not text.strip():
+        return ""
+    pattern = re.compile(r'(https?://[^\s]+?)(?=[A-Z][a-z]|\s|$)')
+    out = pattern.sub(r'\1\n\n', text)
+    out = re.sub(r'\n{3,}', '\n\n', out)
+    return out.strip()
+
+
 def _enrich_full_names(text: str) -> str:
     """Replace standalone first names in the given text with their full
     names (Members table lookup, unambiguous matches only). Preserves
@@ -1214,7 +1238,7 @@ def api_digests():
                 _enrich_full_names(m.strip())
                 for m in members_raw.split(",") if m.strip()
             ],
-            "links_shared": f.get("links_shared", "") or "",
+            "links_shared": _format_links_shared(f.get("links_shared", "") or ""),
             "msg_count": f.get("msg_count", 0) or 0,
             "participant_count": f.get("participant_count", 0) or 0,
         })
