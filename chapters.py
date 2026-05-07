@@ -51,10 +51,20 @@ def _api_key() -> str:
     return key
 
 
-def _supabase_patch_segment_chapter(video_id: str, start_ms: int, end_ms: int,
+def _supabase_patch_segment_chapter(video_id: str,
+                                     chapter_start_ms: int,
+                                     next_chapter_start_ms: int,
                                      chapter_title: str) -> None:
-    """PATCH transcript_segments where video_id matches and start_ms is in
-    [chapter.start, next_chapter.start). Uses PostgREST range filters."""
+    """PATCH transcript_segments to set chapter_title on every segment whose
+    start_ms falls inside [chapter_start_ms, next_chapter_start_ms).
+
+    Tagging by start_ms (not by both ends) is intentional: cross-boundary
+    segments that span two chapters get assigned to the chapter they
+    START in. Earlier we filtered by both `start_ms >= X AND end_ms <= Y`
+    which dropped cross-boundary segments into a NULL gap.
+
+    PostgREST: passing the same column twice in the query string ANDs the
+    filters. requests' tuple-list form preserves duplicate keys."""
     url = f"{_supabase_base()}/rest/v1/transcript_segments"
     key = _supabase_key()
     headers = {
@@ -63,25 +73,25 @@ def _supabase_patch_segment_chapter(video_id: str, start_ms: int, end_ms: int,
         "Content-Type": "application/json",
         "Prefer": "return=minimal",
     }
-    params = {
-        "video_id": f"eq.{video_id}",
-        "start_ms": f"gte.{start_ms}",
-        "end_ms": f"lte.{end_ms}",
-    }
+    params = [
+        ("video_id", f"eq.{video_id}"),
+        ("start_ms", f"gte.{chapter_start_ms}"),
+        ("start_ms", f"lt.{next_chapter_start_ms}"),
+    ]
     body = {"chapter_title": chapter_title}
     r = requests.patch(url, headers=headers, params=params, json=body, timeout=15)
     r.raise_for_status()
 
 
 def _build_prompt_input(utterances: list[dict], total_duration_ms: int) -> str:
-    """Compact representation of the transcript with periodic timestamps.
-    We don't need every word — just enough that Claude can decide where
-    chapters start. Strategy: take the first 2 sentences of each minute
-    of audio, prefixed with [mm:ss], so the model sees ~total_duration/60
-    anchors.
+    """Compact representation of the transcript with per-minute timestamps.
+    Format: each line begins with `[<minute>m]` where minute is an integer
+    counting from the start of the video. Unambiguous — earlier we tried
+    `[h:mm]` / `[mm:ss]` and Claude misread the format.
 
-    For very long videos (90 min) this produces ~90 lines of input — well
-    within Claude Haiku's context."""
+    Strategy: emit one anchor line per minute of video (the first utterance
+    starting in that minute). For a 90-min video this is ~90 lines of
+    input — well within Claude Haiku's context window."""
     lines: list[str] = []
     last_min_emitted = -1
     for utt in utterances:
@@ -90,37 +100,41 @@ def _build_prompt_input(utterances: list[dict], total_duration_ms: int) -> str:
         if minute == last_min_emitted:
             continue
         last_min_emitted = minute
-        ts = f"{minute // 60:d}:{minute % 60:02d}"
-        # Truncate each utterance line so the overall prompt stays compact.
         text = (utt.get("text") or "").strip()
         if len(text) > 220:
             text = text[:220].rsplit(" ", 1)[0] + "…"
-        lines.append(f"[{ts}] {text}")
+        lines.append(f"[{minute}m] {text}")
 
-    return "\n".join(lines)
+    total_min = total_duration_ms // 60_000
+    return f"Total duration: {total_min} minutes\n\n" + "\n".join(lines)
 
 
 def _system_prompt(min_chapters: int, max_chapters: int) -> str:
     return (
         "You split video transcripts into chapters for navigation. "
-        "Given a transcript with [mm:ss] timestamps, return ONLY a JSON "
-        "array of chapter objects. Each object has exactly two keys: "
-        "\"title\" (1–6 words capturing the topic; concise, no marketing "
-        "fluff) and \"start_ms\" (integer milliseconds, the timestamp the "
-        "chapter begins). Constraints:\n"
+        "The transcript is anchored by per-minute markers in `[<N>m]` "
+        "format, where N is the integer minute count from the start of "
+        "the video (e.g. [0m] = first minute, [12m] = thirteenth minute, "
+        "[44m] = the 45th minute). "
+        "Return ONLY a JSON array of chapter objects. Each object has "
+        "exactly two keys: \"title\" (1–6 words capturing the topic; "
+        "concise, no marketing fluff) and \"start_minute\" (integer, the "
+        "minute mark where this chapter begins — matches the [<N>m] "
+        "anchor format). Constraints:\n"
         f"- Produce between {min_chapters} and {max_chapters} chapters total.\n"
-        "- The first chapter MUST have start_ms = 0.\n"
-        "- Chapter starts MUST be strictly increasing.\n"
-        "- Chapters must cover meaningful topic shifts, not arbitrary "
-        "time slices. Combine adjacent minutes if they're on the same "
-        "topic.\n"
+        "- The first chapter MUST have start_minute = 0.\n"
+        "- start_minute values MUST be strictly increasing.\n"
+        "- Chapters cover meaningful topic shifts, not arbitrary time "
+        "slices. Combine adjacent minutes if they share a topic.\n"
         "- Output JSON only. No markdown fences, no commentary, no prose."
     )
 
 
 def _parse_chapters(text: str) -> list[dict]:
     """Extract the JSON array from Claude's response. Tolerates surrounding
-    whitespace and accidental ```json fences."""
+    whitespace and accidental ```json fences. Converts start_minute →
+    start_ms so the rest of the pipeline (which works in milliseconds)
+    doesn't have to know about the prompt format."""
     raw = text.strip()
     # Strip code fences if present.
     raw = re.sub(r"^```(?:json)?\s*", "", raw)
@@ -129,22 +143,31 @@ def _parse_chapters(text: str) -> list[dict]:
     if not isinstance(parsed, list):
         raise ValueError(f"expected list, got {type(parsed).__name__}")
     out: list[dict] = []
-    last_start = -1
+    last_start_min = -1
     for entry in parsed:
         if not isinstance(entry, dict):
             continue
         title = (entry.get("title") or "").strip()
-        start = entry.get("start_ms")
-        if not title or start is None:
+        start = entry.get("start_minute")
+        if start is None:
+            # Backward compat — accept start_ms if the model still emits it
+            ms = entry.get("start_ms")
+            if ms is None:
+                continue
+            try:
+                start = int(ms) // 60_000
+            except (TypeError, ValueError):
+                continue
+        if not title:
             continue
         try:
-            start_ms = int(start)
+            start_min = int(start)
         except (TypeError, ValueError):
             continue
-        if start_ms <= last_start:
+        if start_min <= last_start_min:
             continue  # enforce increasing
-        out.append({"title": title, "start_ms": start_ms})
-        last_start = start_ms
+        out.append({"title": title, "start_ms": start_min * 60_000})
+        last_start_min = start_min
     if not out:
         raise ValueError("no valid chapters parsed")
     if out[0]["start_ms"] != 0:
@@ -210,18 +233,16 @@ def generate_and_apply_chapters(video_id: str, video_title: str,
     boundaries = [(c["title"], c["start_ms"]) for c in chapters]
     boundaries.append(("__end__", total_duration_ms + 1))
 
-    # PATCH transcript_segments per chapter.
+    # PATCH transcript_segments per chapter. Each segment is assigned to
+    # the chapter it STARTS in — see _supabase_patch_segment_chapter docs.
     for i in range(len(boundaries) - 1):
         title, start_ms = boundaries[i]
         _, next_start_ms = boundaries[i + 1]
-        # We tag segments whose entire span sits within [start_ms, next_start_ms).
-        # Using start_ms >= chapter_start and end_ms < next_chapter_start so
-        # cross-boundary segments don't get mis-tagged.
         try:
             _supabase_patch_segment_chapter(
                 video_id=video_id,
-                start_ms=start_ms,
-                end_ms=next_start_ms - 1,
+                chapter_start_ms=start_ms,
+                next_chapter_start_ms=next_start_ms,
                 chapter_title=title,
             )
         except Exception:
