@@ -1,13 +1,12 @@
 """
-MDS Video Platform — chapter detection via AssemblyAI's LLM Gateway.
+MDS Video Platform — chapter detection via Anthropic's Claude API.
 
 After transcripts.py finishes inserting segments, it calls
 generate_and_apply_chapters() here. We:
 
   1. Build a compact, timestamped prompt from the utterance list.
-  2. POST to AssemblyAI's LLM Gateway (OpenAI-compatible chat-completions)
-     with claude-haiku-4-5-20251001 — cheapest decent model, ~$0.005 per
-     90-min video.
+  2. POST to api.anthropic.com/v1/messages with claude-haiku-4-5 —
+     cheapest decent model, ~$0.005 per 90-min video.
   3. Parse the JSON chapter list it returns.
   4. UPDATE each transcript_segments row whose start_ms falls inside a
      given chapter to set chapter_title.
@@ -15,11 +14,12 @@ generate_and_apply_chapters() here. We:
 Chapters live ON the segments (per Page 3 schema) — iOS retrieves them by
 selecting distinct chapter_title ordered by min(start_ms) per chapter.
 
-Verified against /docs/llm-gateway/overview 2026-05-07:
-  - Endpoint: https://llm-gateway.assemblyai.com/v1/chat/completions
-  - Auth header: raw API key (no Bearer) — same key as STT.
-  - Valid Claude IDs (subset): claude-haiku-4-5-20251001,
-    claude-sonnet-4-6, claude-opus-4-7. We use haiku.
+NOTE: We originally targeted AssemblyAI's LLM Gateway, but Andy's free
+AssemblyAI account doesn't include LLM Gateway access (returns 401:
+"Your account does not have access to LLM Gateway. Please upgrade..."),
+and mds-ai-bot already has an Anthropic API key wired up for the
+existing /api/ask route. Calling Anthropic directly is the cleaner path
+here — same outcome, no extra paid AssemblyAI tier needed.
 """
 
 from __future__ import annotations
@@ -37,16 +37,17 @@ from videos import _supabase_base, _supabase_key
 log = logging.getLogger(__name__)
 
 
-LLM_GATEWAY_URL = "https://llm-gateway.assemblyai.com/v1/chat/completions"
-DEFAULT_MODEL = "claude-haiku-4-5-20251001"
+ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
+ANTHROPIC_VERSION = "2023-06-01"
+DEFAULT_MODEL = "claude-haiku-4-5"
 MIN_CHAPTERS = 4
 MAX_CHAPTERS = 12
 
 
 def _api_key() -> str:
-    key = os.getenv("ASSEMBLYAI_API_KEY", "")
+    key = os.getenv("ANTHROPIC_API_KEY", "")
     if not key:
-        raise RuntimeError("ASSEMBLYAI_API_KEY not configured.")
+        raise RuntimeError("ANTHROPIC_API_KEY not configured.")
     return key
 
 
@@ -152,10 +153,11 @@ def _parse_chapters(text: str) -> list[dict]:
     return out
 
 
-def _call_llm_gateway(transcript_compact: str, video_title: str,
-                       model: str = DEFAULT_MODEL) -> str:
+def _call_anthropic(transcript_compact: str, video_title: str,
+                     model: str = DEFAULT_MODEL) -> str:
     headers = {
-        "Authorization": _api_key(),  # raw key, NO Bearer.
+        "x-api-key": _api_key(),
+        "anthropic-version": ANTHROPIC_VERSION,
         "Content-Type": "application/json",
     }
     user_content = (
@@ -164,17 +166,22 @@ def _call_llm_gateway(transcript_compact: str, video_title: str,
     )
     body = {
         "model": model,
-        "messages": [
-            {"role": "system", "content": _system_prompt(MIN_CHAPTERS, MAX_CHAPTERS)},
-            {"role": "user", "content": user_content},
-        ],
         "max_tokens": 1500,
         "temperature": 0.2,
+        "system": _system_prompt(MIN_CHAPTERS, MAX_CHAPTERS),
+        "messages": [
+            {"role": "user", "content": user_content},
+        ],
     }
-    r = requests.post(LLM_GATEWAY_URL, headers=headers, json=body, timeout=60)
+    r = requests.post(ANTHROPIC_URL, headers=headers, json=body, timeout=60)
     r.raise_for_status()
     data = r.json()
-    return data["choices"][0]["message"]["content"]
+    # Anthropic Messages API returns content as a list of content blocks.
+    blocks = data.get("content") or []
+    for blk in blocks:
+        if blk.get("type") == "text":
+            return blk.get("text") or ""
+    raise ValueError(f"no text block in Anthropic response: {data!r}")
 
 
 def generate_and_apply_chapters(video_id: str, video_title: str,
@@ -195,7 +202,7 @@ def generate_and_apply_chapters(video_id: str, video_title: str,
 
     transcript_compact = _build_prompt_input(utterances, total_duration_ms)
 
-    raw_text = _call_llm_gateway(transcript_compact, video_title)
+    raw_text = _call_anthropic(transcript_compact, video_title)
     chapters = _parse_chapters(raw_text)
     log.info("chapters: video=%s got %d chapters", video_id, len(chapters))
 

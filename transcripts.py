@@ -79,11 +79,14 @@ def _webhook_url() -> str:
 # ============================================================================
 # Mux audio URL helpers
 # ============================================================================
-def _hls_url(playback_id: str) -> str:
-    """The HLS manifest URL is the simplest public input AssemblyAI accepts.
-    For the test assets we have, MP4 variants 404 because static_renditions
-    isn't enabled. AssemblyAI's ffmpeg backend handles HLS fine."""
-    return f"https://stream.mux.com/{playback_id}.m3u8"
+def _audio_url(playback_id: str) -> str:
+    """Mux audio-only MP4 rendition URL. AssemblyAI rejects HLS .m3u8
+    manifests outright (`File type is audio/x-mpegurl ... does not contain
+    audio`), so we use the static audio rendition instead. Each Mux asset
+    must have mp4_support='audio-only' (or 'audio-only,capped-1080p')
+    enabled — set on existing assets via PUT /assets/<id>/mp4-support and
+    on new assets at creation time (M2 admin upload should default it on)."""
+    return f"https://stream.mux.com/{playback_id}/audio.m4a"
 
 
 # ============================================================================
@@ -155,7 +158,7 @@ def submit_transcription(video_id: str) -> dict:
     if not v.get("mux_playback_id"):
         raise ValueError(f"video {video_id} missing mux_playback_id")
 
-    audio_url = _hls_url(v["mux_playback_id"])
+    audio_url = _audio_url(v["mux_playback_id"])
 
     payload: dict[str, Any] = {
         "audio_url": audio_url,
