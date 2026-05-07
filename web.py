@@ -1326,6 +1326,111 @@ def _airtable_list_enabled_devices(platform: str = "ios") -> list[dict]:
     return devices
 
 
+# ============================================================
+# Text-to-Speech proxy (ElevenLabs)
+# ============================================================
+# The iOS Listen button reads digest text aloud. AVSpeechSynthesizer's default
+# voice quality is poor; ElevenLabs Turbo v2.5 produces near-natural narration
+# at ~$0.30/1k chars (Andy's starter tier covers 40k chars/mo, ~80-130 reads).
+#
+# We proxy on the server so:
+#   - The xi-api-key never ships in the iOS binary.
+#   - We can cache (text_hash, voice_id) → mp3 bytes so re-Listening the same
+#     digest in the same hour is free.
+#   - Auth gating prevents drive-by abuse of the quota.
+
+_tts_cache: dict = {}            # {(sha1, voice_id): (timestamp, mp3_bytes)}
+_tts_cache_ttl_s = 3600.0        # 1 hour
+_tts_max_chars = 1500            # ~$0.45/call ceiling
+
+
+def _tts_cache_get(key: tuple) -> Optional[bytes]:
+    import time
+    entry = _tts_cache.get(key)
+    if not entry:
+        return None
+    ts, data = entry
+    if (time.time() - ts) > _tts_cache_ttl_s:
+        _tts_cache.pop(key, None)
+        return None
+    return data
+
+
+def _tts_cache_set(key: tuple, data: bytes) -> None:
+    import time
+    # Trim if growing unbounded (rough cap).
+    if len(_tts_cache) > 100:
+        _tts_cache.clear()
+    _tts_cache[key] = (time.time(), data)
+
+
+@app.route("/api/tts", methods=["POST"])
+@require_auth
+def api_tts():
+    """Synthesize the given text via ElevenLabs and return audio/mpeg.
+
+    Body: {"text": "...", "voice_id": "<optional>"}
+    Returns: audio/mpeg (raw MP3 bytes) on 200, JSON error otherwise.
+    """
+    import hashlib
+    from flask import Response
+
+    api_key = (os.getenv("ELEVENLABS_API_KEY") or "").strip()
+    if not api_key:
+        return jsonify({"error": "TTS not configured"}), 500
+    default_voice = (os.getenv("ELEVENLABS_VOICE_ID") or "JBFqnCBsd6RMkjVDRZzb").strip()
+    model_id = (os.getenv("ELEVENLABS_MODEL_ID") or "eleven_turbo_v2_5").strip()
+
+    data = request.get_json(silent=True) or {}
+    text = (data.get("text") or "").strip()
+    voice_id = (data.get("voice_id") or default_voice).strip()
+    if not text:
+        return jsonify({"error": "Missing text"}), 400
+    if len(text) > _tts_max_chars:
+        text = text[:_tts_max_chars]
+
+    cache_key = (hashlib.sha1(text.encode("utf-8")).hexdigest(), voice_id)
+    cached = _tts_cache_get(cache_key)
+    if cached:
+        return Response(cached, mimetype="audio/mpeg",
+                        headers={"X-MDS-TTS-Cache": "hit",
+                                 "Cache-Control": "private, max-age=3600"})
+
+    url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
+    headers = {
+        "xi-api-key": api_key,
+        "accept": "audio/mpeg",
+        "content-type": "application/json",
+    }
+    body = {
+        "text": text,
+        "model_id": model_id,
+        "voice_settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": True,
+        },
+    }
+    try:
+        r = requests.post(url, headers=headers, json=body, timeout=60)
+    except requests.RequestException as e:
+        return jsonify({"error": f"TTS upstream error: {e}"}), 502
+    if r.status_code != 200:
+        # Pass the upstream reason through so iOS can fall back gracefully.
+        try:
+            err = r.json().get("detail", {}).get("message") or r.text[:200]
+        except Exception:
+            err = r.text[:200]
+        return jsonify({"error": f"ElevenLabs {r.status_code}: {err}"}), 502
+
+    audio = r.content
+    _tts_cache_set(cache_key, audio)
+    return Response(audio, mimetype="audio/mpeg",
+                    headers={"X-MDS-TTS-Cache": "miss",
+                             "Cache-Control": "private, max-age=3600"})
+
+
 @app.route("/api/devices", methods=["POST"])
 @require_auth
 def api_devices_register():
