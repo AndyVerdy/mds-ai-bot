@@ -1152,6 +1152,43 @@ def _fetch_digests_for_date(date_iso: str) -> list[dict]:
         return []
 
 
+def _fetch_latest_nonempty_digests() -> tuple[list[dict], str]:
+    """Return the most-recent calendar day's set of msg_count>0 digests and
+    its date string. Fallback when today (and possibly the past few days)
+    don't have any data — covers weekends, holidays, batch lag, etc.
+
+    Returns ([], "") if the table is entirely empty (catastrophic case).
+    """
+    pat = os.getenv("AIRTABLE_PAT")
+    if not pat:
+        return ([], "")
+    url = f"https://api.airtable.com/v0/{AIRTABLE_BASE_ID}/{AIRTABLE_DIGESTS_TABLE}"
+    params = {
+        "pageSize": 50,
+        "filterByFormula": "{msg_count}>0",
+        "sort[0][field]": "date",
+        "sort[0][direction]": "desc",
+    }
+    try:
+        r = requests.get(url, headers={"Authorization": f"Bearer {pat}"},
+                         params=params, timeout=20)
+        r.raise_for_status()
+        records = r.json().get("records", [])
+    except requests.RequestException:
+        return ([], "")
+    if not records:
+        return ([], "")
+    latest_date = (records[0].get("fields", {}) or {}).get("date") or ""
+    same_day = [
+        rec for rec in records
+        if (rec.get("fields", {}) or {}).get("date") == latest_date
+    ]
+    # Sort that day's records by msg_count desc to match the today flow.
+    same_day.sort(key=lambda r: (r.get("fields", {}) or {}).get("msg_count") or 0,
+                  reverse=True)
+    return (same_day, latest_date)
+
+
 def _synthesize_today_tldr(date_iso: str, records: list[dict]) -> str:
     """Ask Claude for a single 2-3 sentence cross-channel summary of today."""
     from langchain_anthropic import ChatAnthropic
@@ -1218,18 +1255,22 @@ def api_today():
     if cached and (time.time() - cached["generated_at"]) < _today_cache_ttl_s:
         return jsonify(cached["payload"])
 
-    # Pull today's digests; if none, fall back to yesterday so the home screen
-    # never shows an empty state in the first hours of a new UTC day.
+    # Pull today's digests; if today is empty, fall back to whatever the
+    # most-recent non-empty date is. Earlier this only fell back one day,
+    # which broke the home-screen Brief on weekends and any time the batch
+    # ran a few days behind (Andy hit this on 2026-05-07: latest data was
+    # 05-05, fallback to 05-06 returned empty, brief showed "no data").
     records = _fetch_digests_for_date(today)
-    fallback_date = None
+    fallback_date: Optional[str] = None
+    actual_date = today
     if not records:
-        from datetime import timedelta
-        y = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
-        records = _fetch_digests_for_date(y)
-        fallback_date = y if records else None
+        records, latest_date = _fetch_latest_nonempty_digests()
+        if records and latest_date:
+            actual_date = latest_date
+            fallback_date = latest_date
 
     # Synthesize.
-    tldr = _synthesize_today_tldr(fallback_date or today, records)
+    tldr = _synthesize_today_tldr(actual_date, records) if records else ""
 
     channels = []
     for rec in records:
@@ -1242,7 +1283,7 @@ def api_today():
         })
 
     payload = {
-        "date": fallback_date or today,
+        "date": actual_date,
         "tldr": tldr,
         "channels": channels,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
