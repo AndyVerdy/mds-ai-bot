@@ -1551,7 +1551,16 @@ def _build_today_push_payload(date_iso: str, channels: list[dict],
             "badge": n_chats,
             "thread-id": "mds-today",
             "interruption-level": "active",
+            # content-available wakes the app for ~30s on receipt so
+            # didReceiveRemoteNotification fires. Without this, iOS shows
+            # the banner but does NOT run our LA-start code path. Required
+            # for Dynamic Island to appear from a regular alert push.
+            "content-available": 1,
         },
+        # Custom keys read by PushManager.didReceiveRemoteNotification on iOS:
+        # if `live_activity == "start"`, MorningDigestAttributes activity is
+        # started using today_date / n_channels / n_messages / alert.body.
+        "live_activity": "start",
         "today_date": date_iso,
         "n_channels": n_chats,
         "n_messages": n_msgs,
