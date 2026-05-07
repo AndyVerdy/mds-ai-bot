@@ -20,6 +20,7 @@ from flask_cors import CORS
 from query import ask, summarize_source, track_search, get_popular_searches, extract_topics
 import auth as auth_module
 import email_sender
+import videos as videos_module
 
 VERSION = "1.5.0"
 
@@ -2131,6 +2132,16 @@ def api_admin_reingest_wa():
 @app.route("/api/health")
 def health():
     return jsonify({"status": "ok"})
+
+
+# ============================================================
+# MDS Video Platform routes — feature-flagged off by default.
+# Routes only register when ENABLE_VIDEO_PLATFORM=true is set in the env,
+# so the existing OTP/RAG/digest routes stay untouched on production until
+# we flip the flag on Render. See videos.py for the M1 implementation.
+# ============================================================
+if videos_module.is_enabled():
+    videos_module.register_video_routes(app, require_auth)
 
 
 if __name__ == "__main__":
