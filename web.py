@@ -9,6 +9,8 @@ MDS AI Bot — Web UI + Embeddable Widget API (Flask).
 """
 
 import os
+import re
+import time
 import json
 import functools
 from typing import Optional
@@ -24,9 +26,117 @@ VERSION = "1.5.0"
 # Airtable constants — base shared with mds-digest-web project.
 AIRTABLE_BASE_ID = "appT9TVZWhv7io4CN"
 AIRTABLE_DIGESTS_TABLE = "Summaries"
+AIRTABLE_MEMBERS_TABLE = "Members"
 # Devices table holds APNs tokens per signed-in iOS user. Created 2026-05-06
 # for build (27) push notifications. Schema documented in apns.py / devices.py.
 AIRTABLE_DEVICES_TABLE = "iOS Devices"
+
+
+# ============================================================
+# Push-name -> full-name enrichment
+# ============================================================
+# Digest tl_dr / summary text comes from n8n's Claude pipeline, which only
+# saw WhatsApp push names ("Brandon", "Jonathan") — so the prose ends up
+# saying "Brandon's affiliate program" instead of "Brandon Himmel's affiliate
+# program." We post-process the text on the read side using the AT Members
+# table to substitute first names with full names where the match is
+# unambiguous.
+#
+# Ambiguity rule: a first name only enriches if exactly ONE member in the
+# table has that first name with a last name. "Brian" with five Brians stays
+# as "Brian." Names without a space (push name = name in AT) are skipped.
+
+_members_index_cache: dict[str, str] = {}
+_members_index_cache_at: float = 0.0
+_MEMBERS_INDEX_TTL_S = 3600.0  # 1 hour
+
+
+def _members_first_name_index() -> dict[str, str]:
+    """Return {first_name_lower: full_name} for members where exactly one
+    person has that first name AND the AT name field has a space (so we can
+    extract the last-name component). Cached for 1 hour."""
+    global _members_index_cache, _members_index_cache_at
+    now = time.time()
+    if _members_index_cache and (now - _members_index_cache_at) < _MEMBERS_INDEX_TTL_S:
+        return _members_index_cache
+
+    pat = os.getenv("AIRTABLE_PAT")
+    if not pat:
+        return {}
+
+    members: list[dict] = []
+    offset: Optional[str] = None
+    url = f"https://api.airtable.com/v0/{AIRTABLE_BASE_ID}/{AIRTABLE_MEMBERS_TABLE}"
+    headers = {"Authorization": f"Bearer {pat}"}
+    while True:
+        params = {"pageSize": 100, "fields[]": "name"}
+        if offset:
+            params["offset"] = offset
+        try:
+            r = requests.get(url, headers=headers, params=params, timeout=20)
+            r.raise_for_status()
+        except requests.RequestException:
+            break
+        body = r.json()
+        members.extend(body.get("records", []))
+        offset = body.get("offset")
+        if not offset:
+            break
+
+    # Bucket by first-name (lowercased), discard ambiguous keys.
+    by_first: dict[str, set[str]] = {}
+    for rec in members:
+        name = ((rec.get("fields", {}) or {}).get("name") or "").strip()
+        if not name or " " not in name:
+            continue
+        first = name.split()[0].strip()
+        if len(first) < 2:
+            continue
+        by_first.setdefault(first.lower(), set()).add(name)
+
+    index: dict[str, str] = {}
+    for first, fulls in by_first.items():
+        if len(fulls) == 1:
+            index[first] = next(iter(fulls))
+
+    _members_index_cache = index
+    _members_index_cache_at = now
+    return index
+
+
+def _enrich_full_names(text: str) -> str:
+    """Replace standalone first names in the given text with their full
+    names (Members table lookup, unambiguous matches only). Preserves
+    possessive 's. Skips occurrences already followed by the last name
+    so 'Brandon Himmel' stays as-is rather than becoming 'Brandon Himmel
+    Himmel'.
+    """
+    if not text:
+        return text
+    index = _members_first_name_index()
+    if not index:
+        return text
+    out = text
+    for first_lower, full in index.items():
+        # Last-name first word, used in negative lookahead to skip cases
+        # where the full name is already spelled out.
+        try:
+            last_first_word = full.split(maxsplit=1)[1].split()[0]
+        except IndexError:
+            continue
+        # Match the first name as a whole word, NOT immediately followed
+        # by whitespace + the last-name word. Case-insensitive on the
+        # match but we want the substitution to use the canonical casing
+        # from the Members table.
+        pattern = re.compile(
+            rf"\b{re.escape(first_lower)}\b(?!\s+{re.escape(last_first_word)})",
+            flags=re.IGNORECASE,
+        )
+        # Substitute with the full name, preserving any character that
+        # might follow (e.g. apostrophe-s for possessive). Just replace
+        # the matched first name itself.
+        out = pattern.sub(full, out)
+    return out
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}})
@@ -1088,16 +1198,22 @@ def api_digests():
         f = record.get("fields", {})
         topics_raw = f.get("topics", "") or ""
         members_raw = f.get("notable_members", "") or ""
+        # Enrich tl_dr + summary by replacing first names with full names
+        # from the Members table (unambiguous matches only). Notable members
+        # too — those often come back as bare first names from Claude.
         digests.append({
             "id": record["id"],
             "date": f.get("date"),
             "chat_id": f.get("chat_id"),
             "chat_name": f.get("chat_name"),
             "period_type": f.get("period_type"),
-            "tl_dr": f.get("tl_dr"),
-            "summary": f.get("summary_text"),
+            "tl_dr": _enrich_full_names(f.get("tl_dr") or ""),
+            "summary": _enrich_full_names(f.get("summary_text") or ""),
             "topics": [t.strip() for t in topics_raw.split(",") if t.strip()],
-            "notable_members": [m.strip() for m in members_raw.split(",") if m.strip()],
+            "notable_members": [
+                _enrich_full_names(m.strip())
+                for m in members_raw.split(",") if m.strip()
+            ],
             "links_shared": f.get("links_shared", "") or "",
             "msg_count": f.get("msg_count", 0) or 0,
             "participant_count": f.get("participant_count", 0) or 0,
@@ -1200,7 +1316,9 @@ def _synthesize_today_tldr(date_iso: str, records: list[dict]) -> str:
         chat = f.get("chat_name") or "Unknown"
         tl_dr = (f.get("tl_dr") or "").strip()
         if tl_dr:
-            bullets.append(f"- {chat}: {tl_dr}")
+            # Enrich first names BEFORE feeding to Claude so the synthesized
+            # cross-channel TL;DR uses full names natively.
+            bullets.append(f"- {chat}: {_enrich_full_names(tl_dr)}")
     if not bullets:
         return ""
 
@@ -1279,8 +1397,13 @@ def api_today():
             "chat_name": f.get("chat_name"),
             "digest_id": rec["id"],
             "msg_count": int(f.get("msg_count") or 0),
-            "tl_dr": f.get("tl_dr") or "",
+            "tl_dr": _enrich_full_names(f.get("tl_dr") or ""),
         })
+
+    # Enrich the synthesized cross-channel TLDR too — Claude's input bullets
+    # were already enriched (see _synthesize_today_tldr above) but a second
+    # pass catches anything Claude paraphrased back into a bare first name.
+    tldr = _enrich_full_names(tldr)
 
     payload = {
         "date": actual_date,
