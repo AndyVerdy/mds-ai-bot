@@ -1580,6 +1580,15 @@ def _clean_markdown_for_tts(text: str) -> str:
     text = re.sub(r'(?m)^\s*\d+\.\s+', '', text)
     # Em-dash sequences: -- / --- -> ", " for natural pause
     text = re.sub(r' ?-{2,} ?', ', ', text)
+    # FINAL-PASS NUKE: any markdown emphasis / decorator characters that
+    # somehow survived the structured patterns above. Triple asterisks
+    # (***x***), unmatched/asymmetric asterisks, leftover underscores at
+    # word boundaries, tildes from ~~strikethrough~~, residual hashes.
+    # Safe for TTS — these characters never need to be voiced.
+    text = re.sub(r'\*+', '', text)
+    text = re.sub(r'(?<!\w)_+|_+(?!\w)', '', text)
+    text = re.sub(r'~+', '', text)
+    text = re.sub(r'(?m)^#+\s*', '', text)
     # Collapse runs of spaces/tabs introduced by removals; preserve newlines
     text = re.sub(r'[ \t]+', ' ', text)
     text = re.sub(r' *\n *', '\n', text)
@@ -1616,11 +1625,19 @@ def api_tts():
     if len(text) > _tts_max_chars:
         text = text[:_tts_max_chars]
 
-    cache_key = (hashlib.sha1(text.encode("utf-8")).hexdigest(), voice_id)
+    # Cache key version: bump to invalidate stale entries when the cleanup
+    # logic changes (e.g. v1 cached MP3s with literal markdown chars before
+    # the strip; v2 expects cleaned text).
+    cache_key = ("v2", hashlib.sha1(text.encode("utf-8")).hexdigest(), voice_id)
+    # Debug header: first 80 chars of cleaned text so the iOS client (or curl)
+    # can verify what was actually sent to ElevenLabs without listening to MP3.
+    cleaned_sample = text[:80].replace("\n", " ")
     cached = _tts_cache_get(cache_key)
     if cached:
         return Response(cached, mimetype="audio/mpeg",
                         headers={"X-MDS-TTS-Cache": "hit",
+                                 "X-MDS-TTS-Cleaned-Sample": cleaned_sample,
+                                 "X-MDS-TTS-Cleaned-Length": str(len(text)),
                                  "Cache-Control": "private, max-age=3600"})
 
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
@@ -1655,6 +1672,8 @@ def api_tts():
     _tts_cache_set(cache_key, audio)
     return Response(audio, mimetype="audio/mpeg",
                     headers={"X-MDS-TTS-Cache": "miss",
+                             "X-MDS-TTS-Cleaned-Sample": cleaned_sample,
+                             "X-MDS-TTS-Cleaned-Length": str(len(text)),
                              "Cache-Control": "private, max-age=3600"})
 
 
