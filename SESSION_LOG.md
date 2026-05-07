@@ -10,6 +10,388 @@ sync per the context-handoff skill protocol.
 
 * * *
 
+## 2026-05-06 (latest) — Builds (28)→(40): Listen feature, full-name enrichment, Live Activity removed, splash, 11 build iterations
+
+**AI / dev:** Claude Opus 4.7
+**Duration:** ~6h continuous (after the build (27) entry below)
+**ClickUp doc:** [2531q-98297](https://app.clickup.com/2264119/docs/2531q-98297/2531q-61237)
+**Branches / repos touched:**
+- `mds-ai-bot/main` — 6 commits (devices/push payload, /api/tts, today fallback, full-name enrichment, links formatter, payload cleanup)
+- `mds-ios-app/design-system-trial` — 13 commits, builds (28) → (40)
+
+### What was done
+
+Andy installed (26) on TestFlight, walked through the app, sent feedback in
+batches as he tested. We iterated through 13 builds across the trial branch
+plus 6 backend commits in the same session. Headline outcomes:
+
+- **Listen feature now uses ElevenLabs** (Mark voice) with full audio
+  controls + lock-screen Now Playing.
+- **Live Activity feature scrapped** entirely after Andy saw it on real
+  device — duplicative with the push, confusing, can't be cleared by user.
+- **Backend digest read path enriches** first names → full names from AT
+  Members and formats `links_shared` into readable paragraphs.
+- **Splash animation** on cold launch.
+- **Tab renamed Search → Home** with house icon.
+- **Six bug fixes** (timezone, horizontal pan, Brief empty state, audio
+  bar overlap with tab bar, voice fallback to George stale-cache,
+  /api/today single-day fallback).
+
+#### A. iOS audio playback (the biggest single area)
+
+`SpeechController` rewrote in build (32) → (39) into a real two-mode
+player:
+
+- **`.remote`** — `/api/tts` MP3 streamed via AVAudioPlayer with full
+  controls: pause/resume, seek(by:)/(to:), playbackRate (0.75 / 1.0 /
+  1.25 / 1.5 / 2.0 — persisted in UserDefaults), exposed duration +
+  currentTime via @Published, 0.25s timer pumps the UI.
+- **`.local`** — AVSpeechSynthesizer fallback when /api/tts fails. No
+  seek, no rate, no lock-screen integration; the audio bar shows
+  "Apple voice (fallback)" so the user knows.
+
+Lock-screen Now Playing (`MPNowPlayingInfoCenter` + `MPRemoteCommandCenter`):
+
+- Title + "MDS Knowledge Base" artist + album + duration + elapsed +
+  rate + mediaType + isLiveStream + 512×512 generated artwork.
+- Commands armed: play, pause, togglePlayPause, skipForward[10],
+  skipBackward[10], nextTrack, previousTrack, changePlaybackPosition.
+  Other commands explicitly disabled so the lock screen doesn't show
+  ghost buttons.
+- `UIApplication.shared.beginReceivingRemoteControlEvents()` called
+  once on first config (still required in practice despite being
+  "deprecated" in iOS 13+).
+- Setup moved from lazy (first speak) to eager (SpeechController.init)
+  in build (39) — iOS won't surface the lock-screen widget unless
+  these are armed before audio actually starts.
+- `.duckOthers` option dropped in build (39) — iOS may treat ducking
+  apps as "secondary" audio and skip Now Playing.
+
+`AudioPlayerBar` (new view) — sticky bottom bar shown when speech.mode
+!= .idle:
+
+- Layout (after build 39 reorder): `[⋯][1×] | [⏪10][▶/⏸][⏩10] | [✕]`.
+  Settings cluster on left, transport CENTERED with 48pt accent-filled
+  play button, close on right. Matches Apple Music / Spotify / podcast
+  convention.
+- Progress bar + elapsed/total times.
+- Speed pill → confirmation dialog.
+- ⋯ menu → autoplay-next toggle.
+- ✕ → stop and dismiss.
+
+In build (39), `SpeechController` was lifted from DigestDetailView's
+@StateObject to MDSKnowledgeBaseApp's app-level @StateObject + injected
+as env-object. `AudioPlayerBar` moved to ContentView's ZStack, conditional
+on speech.mode. Audio + the bar now persist across screens — start Listen
+on a digest, navigate to Home, the bar stays floating. Andy's request:
+"when the audio is playing if im in the app and go to a new screen i
+should still see the play controls."
+
+Autoplay-next: `speech.onFinishedNaturally` fires when an MP3 plays to
+completion (not on user-stop). When `autoplayNext` is on AND siblings
+has next, DigestDetailView moves currentId forward and calls speak() on
+the new digest. Setting exposed in two places: audio bar's overflow
+menu + Settings → Listen section.
+
+`Info.plist UIBackgroundModes += [audio]` so playback continues with
+the screen locked.
+
+#### B. iOS UI fixes & polish
+
+- **Build (28)**: Today section dropped from Georgia 24 → body 17 (was
+  rendering as one giant title, not a summary). "Today across MDS"
+  header, per-channel rows now navigate to digest detail (not seed
+  search). Hero subtitle dropped the hardcoded "5". "From the archive"
+  placeholder removed entirely. Listen audio session set to .playback /
+  .spokenAudio so it actually emits sound. Source rows two-line layout
+  (title row 1, date+meta row 2) + dedupe on (kind, identity-key) to
+  collapse 4× duplicate WA digest sources.
+- **Build (29)**: Auto-prompt notification permission after login
+  (system dialog appears once after first sign-in).
+- **Build (30)**: Pure version bump after Andy archived (29) twice and
+  Apple rejected the duplicate identifier.
+- **Build (33)**: "TODAY ACROSS MDS" → "**THE BRIEF · TUE · MAY 7**"
+  (date kicker, accent color). Prev/next digest navigation: bottom-of-
+  content nav row, sibling list from DigestsStore, mark-read on page,
+  fade between digests, 1/N counter.
+- **Build (35)**: Audio bar bottom padding bumped to clear the
+  GlassTabBar (was hidden behind it). Lock-screen artwork added.
+- **Build (36)**: Timezone fix — `parsedDate` parses UTC, but three
+  formatters rendered in local timezone. Pacific devices saw "Monday,
+  May 4" for May 5 UTC data. Fixed in DigestsView.subtitle,
+  DigestDetailView.kickerText, EmptyStateView.briefDateLabel.
+- **Build (37)**: Horizontal pan fix v1 — explicit
+  `ScrollView(.vertical)`, `.scrollBounceBehavior(.basedOnSize, axes:
+  .horizontal)`, `.frame(maxWidth: .infinity)` on inner VStack.
+  Insufficient on iOS 17+ — pan still possible, fixed in (39).
+- **Build (38)**: Live Activity FEATURE SCRAPPED. Andy's call after
+  seeing it on device: "i can't clear it, not sure i like it. i see
+  this island with number 8 and im confused, wtf is this." Removed
+  MDSWidgets target + folder, LiveActivityManager, the
+  live_activity:start branch in PushManager, the Test Live Activity
+  Settings button, the live_activity:start key from the backend
+  payload. Kept MorningDigestAttributes.swift only so the cleanup
+  hook can call `Activity<MorningDigestAttributes>.activities` ->
+  `.end(.immediate)` on next launch and dismiss any pills lingering
+  from earlier builds.
+- **Build (39)**: Horizontal pan fix v2 —
+  `.containerRelativeFrame(.horizontal)` on the inner VStack locks it
+  to the exact scroll-container width. The `.frame(maxWidth: .infinity)`
+  used in (37) wasn't enough on iOS 17+ ScrollView. Tab "Search" → "Home"
+  with house icon. Audio bar persistence (above).
+- **Build (40)**: Splash animation. Cream M scales 0.85 → 1.0 + opacity
+  0 → 1, accent radial bloom expands behind, "KNOWLEDGE BASE" mono
+  kicker resolves with letterspacing easing 8 → 1.2. ~0.95s, then
+  parent cross-fades (0.35s) to LoginView/ContentView. Per-process so
+  it plays only on cold launch.
+
+#### C. Backend (`mds-ai-bot`)
+
+- **`/api/tts` (commit `89398f1`)** — ElevenLabs proxy. POST
+  {text, voice_id?} → audio/mpeg. Server-side proxy so the xi-api-key
+  stays out of the iOS binary. Auth-gated. In-process cache keyed on
+  (sha1(text), voice_id) with 1h TTL — re-Listens are free. 1500-char
+  ceiling (~$0.45 per Listen).
+- **`/api/today` fallback rework (commit `341b06b`)** — was
+  today → yesterday only. Andy hit it on 2026-05-07 when latest data
+  was 2026-05-05. New `_fetch_latest_nonempty_digests()` queries AT
+  sorted by date desc, returns the most-recent date's records. Covers
+  weekends, holidays, batch lag. iOS Brief always shows the freshest
+  available data with the kicker correctly labeled to that date.
+- **Full-name enrichment (commit `dccdb41`)** —
+  `_members_first_name_index()` builds `{first_name_lower: full_name}`
+  from AT Members where exactly one matched member has that first name.
+  228 unambiguous mappings on first run. `_enrich_full_names(text)`
+  replaces standalone first names in tl_dr / summary / notable_members
+  / Today TLDR. Lookahead `(?!\s+last_first_word)` prevents
+  "Brandon Himmel" → "Brandon Himmel Himmel" in already-correct text.
+  Common first names with multiple owners (Brandon, Daniel, Jonathan)
+  stay as-is to avoid wrong attribution.
+- **`links_shared` formatter (commit `f16e2de`)** —
+  `_format_links_shared(text)` injects `\n\n` after each URL using a
+  boundary heuristic of URL → CapitalLetter+lowercase. n8n's Claude
+  output was one wall of text where URLs absorbed the leading word of
+  the next title. iOS already renders the field as AttributedString
+  markdown so paragraph breaks turn into per-entry layout immediately.
+- **Push payload cleanup (commit `cc3107d`)** — removed
+  `live_activity: "start"` and `content-available: 1` from
+  `/api/admin/push/today` payload after Andy scrapped Live Activity.
+
+Render env vars added (this session):
+- `ELEVENLABS_API_KEY` (Andy's starter tier, 40k chars/mo)
+- `ELEVENLABS_VOICE_ID` = `UgBBYS2sOqTuMpoF3BR0` (Mark — Natural Conversations)
+- `ELEVENLABS_MODEL_ID` = `eleven_turbo_v2_5`
+
+#### D. Settings expansion
+
+- **Notifications section** gains an in-app push toggle. iOS-level
+  permission stays granted; the toggle hits POST/DELETE /api/devices
+  to enable/disable the device row. Lets the user pause pushes without
+  revoking the OS permission.
+- **New Listen section**: Voice (read-only "Mark · ElevenLabs"), Default
+  speed picker, Autoplay-next toggle.
+- New `ListenSettings` ObservableObject (UserDefaults-backed).
+
+### Decisions made
+
+- **Live Activity removed entirely.** Andy's user test made the case:
+  one-shot "morning digest is ready" event is what push notifications
+  are FOR. Live Activities shine for ongoing/changing data (timer,
+  Uber, sports, audio playback). The morning-digest LA was confusing
+  ("8" = channel count looked like an unread badge), couldn't be
+  cleared by the user, and added Dynamic Island clutter without info.
+  Pushed this point to Andy with three options (kill / improve /
+  repurpose for audio); he picked kill. Push handles the case fine.
+- **Listen voice → ElevenLabs Mark.** AVSpeechSynthesizer's quality is
+  too low for editorial digest reading. Mark (UgBBYS2sOqTuMpoF3BR0) is
+  Andy's pick from the ElevenLabs voice library. Voice ID hardcoded on
+  iOS (not env-driven) after stale-iOS-cache served George once.
+- **Splash animation kept under 1 second.** Andy asked "can you do
+  a cool animation when launching" — curiosity, not a hard ask.
+  Editorial vibe (cream M + warm accent bloom + mono kicker) over
+  bouncy/flashy. Per-process so it doesn't replay on auth flips.
+- **Full-name enrichment on read, not at n8n source.** n8n is Andy's
+  separate workflow; bot has direct access to AT and the digest endpoint.
+  Cheaper iteration to fix at /api/digests + /api/today than to edit
+  the n8n Claude prompt + provide member context. Ambiguous first
+  names stay as-is; we don't pick the most-active match (risks wrong
+  attribution).
+- **Audio bar lifted to app level (build 39).** Persistent across
+  navigation. SpeechController as @StateObject in MDSKnowledgeBaseApp,
+  injected to ContentView + DigestDetailView via env-object.
+- **Lock-screen reliability moves applied incrementally** without
+  Andy seeing it work yet. Each retry built on the last:
+  (35) added artwork + media type + beginReceivingRemoteControlEvents,
+  (39) moved setup to app startup + dropped .duckOthers. Status TBD —
+  Andy's most recent screenshot pre-(39) still missing the widget.
+- **Bumped version on every iOS commit, no exceptions.** Iron rule
+  from the handoff. Andy archived (29) twice → Apple rejected →
+  bumped to (30) with no other code changes. Two duplicate-identifier
+  archives is a pattern that bites every time the rule lapses.
+
+### Files / modules touched
+
+`mds-ai-bot`:
+- `apns.py` — unchanged from build (27)
+- `web.py` — +210 lines: tts endpoint, members enrichment helpers,
+  links_shared formatter, /api/today fallback, push payload cleanup
+- `requirements.txt` — unchanged (httpx[http2] + pyjwt[crypto] from 27)
+- `SESSION_LOG.md` — this entry
+
+`mds-ios-app` (`design-system-trial`):
+- `MDSKnowledgeBaseApp.swift` — splash overlay, app-level
+  SpeechController, stale-LA cleanup, env-object injection
+- `ContentView.swift` — persistent AudioPlayerBar, env-object plumbing
+- `Storage/SpeechController.swift` — full rewrite (twice — build 32 +
+  39): two-mode player, MPNowPlayingInfoCenter, MPRemoteCommandCenter,
+  rate persistence, autoplay callback, eager session+commands setup
+- `Storage/ListenSettings.swift` — NEW: pushDelivery + rate + autoplay
+- `Network/BotClient.swift` — `tts(text:voiceId:)`, `unregisterDevice`,
+  `updateLiveActivityToken` (kept; ineffective until LA returns)
+- `Push/PushManager.swift` — auto-prompt after login, LA branch removed
+- `Push/MorningDigestAttributes.swift` — kept for cleanup-hook reference
+- `Push/LiveActivityManager.swift` — DELETED
+- `MDSWidgets/` — DELETED (target + folder)
+- `Views/SplashView.swift` — NEW
+- `Views/AudioPlayerBar.swift` — NEW
+- `Views/EmptyStateView.swift` — Brief always-render, removed archive
+- `Views/DigestDetailView.swift` — prev/next nav, audio bar wiring,
+  scroll-to-top, autoplay, lock-screen callbacks, scroll constraint,
+  timezone fix
+- `Views/DigestsView.swift` — pendingDigestId nav, timezone fix
+- `Views/SettingsView.swift` — Listen section, push toggle, LA test
+  row added then removed
+- `Views/SourceCardView.swift` — two-line row layout, dedup
+- `Models/Today.swift` — `fallback_date` consumption
+- `DesignSystem/Glass/GlassTabBar.swift` — Search → Home, house icon
+- `Info.plist` (via project.yml) — UIBackgroundModes += audio,
+  NSSupportsLiveActivities=true (kept for cleanup), aps-environment
+- `project.yml` — version bumps 0.5.0 (27) → 0.6.3 (40), MDSWidgets
+  target removed
+- New iOS Devices Airtable table (created via Meta API in build 27,
+  unchanged): `tblz80VMR7kqxfnnz`
+
+### QA / Verification
+
+**Backend:**
+- ✅ `web.py` parses cleanly across every commit.
+- ✅ `_format_links_shared` smoke-tested on Andy's actual messy data
+  → 8 entries each on its own line.
+- ✅ `_members_first_name_index()` smoke-tested on live AT base —
+  228 unambiguous first names. Sample: Jacob → Jacob Sufrin (replaced),
+  Brandon → ambiguous (preserved), Brandon Himmel → intact (lookahead
+  works).
+- ✅ ElevenLabs JWT-less auth (xi-api-key header) works against /v1/voices
+  and /v1/text-to-speech endpoints. Subscription = starter, 40k chars/mo.
+- ✅ `/api/today` returns 7 channels of 2026-05-05 data with synthesized
+  cross-channel TLDR after fallback fix.
+- ✅ `/api/tts` returns 401 unauthenticated as designed.
+- ✅ Render redeploys all completed (varying 1-2min cache hits to
+  10min for pip-dep adds).
+
+**iOS:**
+- ✅ Every build (28) → (40) compiled clean for iPhone 17 Pro sim.
+- ✅ Sim-installed + screenshot-validated each build's launch path
+  (LoginView intact across all 13 builds — no regressions on the
+  unauthenticated path).
+- ✅ Splash sim-validated mid-animation (M faintly visible at t=0.4s)
+  + end-state (LoginView fully rendered).
+- ⏳ Andy's real-device validation: lock screen Now Playing still TBD
+  as of build (37) feedback. Builds (38) → (40) have layered fixes;
+  awaiting next archive.
+
+### Known issues / broken things
+
+- **Lock-screen Now Playing still unconfirmed on real device.** Build
+  (39) added the eager-init + drop-duckOthers fixes. If still missing
+  after (40), next attempt: try `.default` mode instead of
+  `.spokenAudio`, or check whether the AVAudioSession is conflicting
+  with Apple Music / Spotify routing.
+- **Multi-Brandon ambiguity.** "Brandon" maps to multiple members so
+  enrichment skips it. If Andy wants this resolved, options: use chat
+  membership context to disambiguate (Brandon Himmel is in MDS TikTok,
+  Brandon X is in MDS Resellers — match the digest's chat). Not
+  blocking, but worth a follow-up.
+- **n8n integration for `/api/admin/push/today` not wired yet.** The
+  endpoint is live + tested (sent: 2 / failed: 0 to Andy's two devices).
+  But the morning batch in n8n doesn't yet hit it. One HTTP-request node
+  away. ADMIN_PUSH_SECRET still in `/tmp/admin_push_secret.txt` on
+  Andy's mac, needs to land in n8n credential store.
+- **Source retrieval ranking** issue Andy flagged on build (28) ("for
+  GPT vs Claude, irrelevant videos at top, relevant ones at bottom") —
+  `query.py` problem, not iOS. Untouched this session. Likely the
+  speaker pre-filter from the prior session is over-biasing toward
+  chunks that mention "Claude" the speaker over "Claude" the model.
+- **Settings → Listen Voice picker is read-only.** Showing "Mark ·
+  ElevenLabs" — no UI to swap voices yet. Future work if Andy wants
+  to pick a different voice.
+
+### Test environment state
+
+- **Render service:** `srv-d6kf5j56ubrc73ee8sag` — currently live on
+  `f16e2de` (links_shared formatter). Auto-deploy ON.
+- **APNs config:** `APNS_KEY_ID = FRPX4SRPQC`, `APNS_TEAM_ID =
+  M523QN9PMJ`, `APNS_BUNDLE_ID = com.mds.knowledgebase`,
+  `APNS_USE_SANDBOX = false`, `.p8` at
+  `/Users/Born/Downloads/AuthKey_FRPX4SRPQC.p8`.
+- **ElevenLabs:** API key + voice ID `UgBBYS2sOqTuMpoF3BR0` (Mark) +
+  model `eleven_turbo_v2_5` in Render env.
+- **Admin push secret:** `/tmp/admin_push_secret.txt` (32-byte hex);
+  also in Render as `ADMIN_PUSH_SECRET`. Move to n8n when wiring the
+  daily fan-out webhook.
+- **iOS:** `mds-ios-app/design-system-trial` HEAD = `e755418` (build 40).
+  Andy testing builds 37-40 in TestFlight as they process.
+- **Reviewer creds:** unchanged. `appstore-reviewer@mds.co` + `837363`.
+- **Working tree:** mds-ai-bot main clean post-`f16e2de`. mds-ios-app
+  design-system-trial clean post-`e755418`.
+
+### Open questions for next session
+
+- **Lock-screen Now Playing** — does it appear on (39) or (40)?
+  Andy's first real device test will tell. If still missing, try
+  `.default` mode + investigate audio-route conflicts.
+- **Andy's reaction to splash animation.** Too long? Too subtle? Wants
+  it on every launch or only first launch?
+- **Source retrieval ranking** for the GPT vs Claude case — needs a
+  `query.py` debugging session with `verbose=True` to inspect chunk
+  rankings.
+- **Multi-Brandon ambiguity** — disambiguate by chat membership
+  context, or accept the limitation?
+- **n8n wiring** for the morning-digest fan-out webhook. Andy hasn't
+  asked yet but the endpoint is ready.
+
+### Next steps (specific, actionable, in priority order)
+
+1. **Andy archives + uploads (40) to TestFlight.** Bumped 0.6.3 (40).
+   Walk through the 14-item test checklist sent in the session
+   (splash, audio persistence, button order, lock screen, horizontal
+   pan locked, date correct, Brief populated, links readable, full
+   names enriched, LA pill auto-dismissed).
+2. **If lock-screen Now Playing still missing on (40)**, try
+   `.default` audio session mode (instead of `.spokenAudio`) +
+   investigate route conflicts.
+3. **Fix multi-Brandon ambiguity** (optional, depends on Andy's
+   call) — chat-membership-aware first-name resolution.
+4. **Wire n8n → /api/admin/push/today** as the last hop in the
+   morning WA digest workflow. Move ADMIN_PUSH_SECRET from /tmp
+   into n8n credentials.
+5. **Source retrieval ranking** for the GPT vs Claude case — bring
+   `query.py` debug session back.
+6. **Decide:** merge `design-system-trial` to main once Andy's
+   happy. Currently main is build (12); the trial branch is at
+   build (40), 28 builds of design + features.
+
+### Deferred (not for next session unless Andy says)
+
+- Editorial Georgia sign-in retry (still waiting on sim-keyboard
+  harness).
+- Per-tier permission filtering (Phase 2).
+- Resend key rotation — Andy declined.
+- App Store review submission — paused.
+- Voice picker UI in Settings (currently read-only "Mark · ElevenLabs").
+
+* * *
+
 ## 2026-05-06 (later) — Build (27): Push notifications + Live Activity scaffolding
 
 **AI / dev:** Claude Opus 4.7
