@@ -1552,6 +1552,40 @@ def _tts_cache_set(key: tuple, data: bytes) -> None:
     _tts_cache[key] = (time.time(), data)
 
 
+def _clean_markdown_for_tts(text: str) -> str:
+    """Strip markdown syntax so ElevenLabs doesn't read it aloud.
+
+    Removes the syntax characters (asterisks, underscores, hashes, backticks,
+    list markers, link brackets) but preserves the underlying words and
+    natural punctuation. `--` and `---` em-dash sequences become ", " so the
+    voice gets a natural pause instead of saying "dash dash".
+    """
+    import re
+    if not text:
+        return text
+    # Markdown links: [label](url) -> label
+    text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
+    # Bold (handle before italics): **x** and __x__ -> x
+    text = re.sub(r'\*\*([^*\n]+)\*\*', r'\1', text)
+    text = re.sub(r'__([^_\n]+)__', r'\1', text)
+    # Italics: *x* and _x_ -> x (lookarounds avoid list markers + word_internal_underscores)
+    text = re.sub(r'(?<![\w*])\*([^\s*][^*\n]*?)\*(?!\w)', r'\1', text)
+    text = re.sub(r'(?<![\w_])_([^\s_][^_\n]*?)_(?!\w)', r'\1', text)
+    # Inline code: `x` -> x
+    text = re.sub(r'`+([^`\n]+)`+', r'\1', text)
+    # Headers: leading #+ at line start
+    text = re.sub(r'(?m)^\s*#{1,6}\s+', '', text)
+    # List markers at line start
+    text = re.sub(r'(?m)^\s*[-*+]\s+', '', text)
+    text = re.sub(r'(?m)^\s*\d+\.\s+', '', text)
+    # Em-dash sequences: -- / --- -> ", " for natural pause
+    text = re.sub(r' ?-{2,} ?', ', ', text)
+    # Collapse runs of spaces/tabs introduced by removals; preserve newlines
+    text = re.sub(r'[ \t]+', ' ', text)
+    text = re.sub(r' *\n *', '\n', text)
+    return text.strip()
+
+
 @app.route("/api/tts", methods=["POST"])
 @require_auth
 def api_tts():
@@ -1574,6 +1608,11 @@ def api_tts():
     voice_id = (data.get("voice_id") or default_voice).strip()
     if not text:
         return jsonify({"error": "Missing text"}), 400
+    # Strip markdown before caching so two requests with/without syntax hit
+    # the same cache entry, and ElevenLabs never sees the literal characters.
+    text = _clean_markdown_for_tts(text)
+    if not text:
+        return jsonify({"error": "Empty text after cleanup"}), 400
     if len(text) > _tts_max_chars:
         text = text[:_tts_max_chars]
 
