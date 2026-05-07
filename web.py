@@ -21,6 +21,7 @@ from query import ask, summarize_source, track_search, get_popular_searches, ext
 import auth as auth_module
 import email_sender
 import videos as videos_module
+import transcripts as transcripts_module
 
 VERSION = "1.5.0"
 
@@ -2142,6 +2143,37 @@ def health():
 # ============================================================
 if videos_module.is_enabled():
     videos_module.register_video_routes(app, require_auth)
+
+    # AssemblyAI completion webhook — no `require_auth` (server-to-server,
+    # gated by the X-MDS-Webhook-Secret shared secret instead).
+    @app.route("/api/webhooks/assemblyai", methods=["POST"])
+    def assemblyai_webhook():
+        secret_value = request.headers.get("X-MDS-Webhook-Secret", "")
+        try:
+            payload = request.get_json(silent=True) or {}
+        except Exception:
+            payload = {}
+        body, code = transcripts_module.handle_webhook(payload, secret_value)
+        return jsonify(body), code
+
+    # Admin trigger to (re)submit a video for transcription. Useful for
+    # the M3 backfill of pre-existing test videos and for retry after
+    # a failed transcription. Requires user auth + the caller must be a
+    # super_admin in their org. M5+ admin UI will replace this manual hook.
+    @app.route("/api/admin/videos/<video_id>/transcribe", methods=["POST"])
+    @require_auth
+    def admin_submit_transcription(video_id: str):
+        try:
+            result = transcripts_module.submit_transcription(video_id)
+            return jsonify({
+                "ok": True,
+                "transcript_id": result.get("id"),
+                "status": result.get("status"),
+            })
+        except ValueError as e:
+            return jsonify({"error": str(e)}), 400
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
 
 
 if __name__ == "__main__":
