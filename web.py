@@ -22,6 +22,7 @@ import auth as auth_module
 import email_sender
 import videos as videos_module
 import transcripts as transcripts_module
+import mux_webhook as mux_webhook_module
 
 VERSION = "1.5.0"
 
@@ -2143,6 +2144,24 @@ def health():
 # ============================================================
 if videos_module.is_enabled():
     videos_module.register_video_routes(app, require_auth)
+
+    # Mux webhook — fires for video.upload.asset_created /
+    # video.asset.ready / etc. when admin uploads via the M2 admin app.
+    # Verifies HMAC signature against MUX_WEBHOOK_SECRET (fail-open if
+    # the secret env var isn't set, for initial setup before Andy
+    # generates the signing key in the Mux dashboard).
+    @app.route("/api/webhooks/mux", methods=["POST"])
+    def mux_webhook():
+        raw = request.get_data(cache=True)
+        sig = request.headers.get("Mux-Signature", "")
+        if not mux_webhook_module.verify_signature(raw, sig):
+            return jsonify({"error": "Invalid signature"}), 401
+        try:
+            payload = request.get_json(silent=True) or {}
+        except Exception:
+            payload = {}
+        body, code = mux_webhook_module.handle_webhook(payload)
+        return jsonify(body), code
 
     # AssemblyAI completion webhook — no `require_auth` (server-to-server,
     # gated by the X-MDS-Webhook-Secret shared secret instead).
