@@ -234,6 +234,68 @@ def register_video_routes(app, require_auth):
 
         return jsonify({"videos": [_serialize_list_row(r) for r in rows]})
 
+    @app.route("/api/videos/<video_id>/transcript", methods=["GET"])
+    @require_auth
+    def get_video_transcript(video_id: str):
+        email = getattr(request, "user_email", None)
+        if not email:
+            return jsonify({"error": "Authentication required"}), 401
+
+        resolved = _resolve_user_org(email)
+        if not resolved:
+            return jsonify({"error": "Not found"}), 404
+        _user_id, org_id = resolved
+
+        # Confirm the video belongs to this org and is visible to the user.
+        # Same access logic as get_video() — drop private, must be ready.
+        vrows = _supabase_get(
+            "videos",
+            params={
+                "id": f"eq.{video_id}",
+                "organization_id": f"eq.{org_id}",
+                "deleted_at": "is.null",
+                "select": "id,visibility,mux_status,transcription_status",
+                "limit": "1",
+            },
+        )
+        if not vrows:
+            return jsonify({"error": "Not found"}), 404
+        vrow = vrows[0]
+        if vrow.get("visibility") == "private":
+            return jsonify({"error": "Not found"}), 404
+        if vrow.get("transcription_status") != "ready":
+            return jsonify({
+                "error": "Transcript not ready",
+                "transcription_status": vrow.get("transcription_status"),
+            }), 409
+
+        # Pull all segments for this video, ordered by time.
+        segments = _supabase_get(
+            "transcript_segments",
+            params={
+                "video_id": f"eq.{video_id}",
+                "organization_id": f"eq.{org_id}",
+                "select": "id,text,start_ms,end_ms,speaker_label,chapter_title",
+                "order": "start_ms.asc",
+                "limit": "10000",
+            },
+        )
+
+        # Derive chapter list from segments (first occurrence wins).
+        chapters: list[dict] = []
+        seen: set[str] = set()
+        for s in segments:
+            ct = s.get("chapter_title")
+            if ct and ct not in seen:
+                chapters.append({"title": ct, "start_ms": s["start_ms"]})
+                seen.add(ct)
+
+        return jsonify({
+            "video_id": video_id,
+            "chapters": chapters,
+            "segments": segments,
+        })
+
     @app.route("/api/videos/<video_id>", methods=["GET"])
     @require_auth
     def get_video(video_id: str):
