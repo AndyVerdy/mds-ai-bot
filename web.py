@@ -2194,6 +2194,29 @@ if videos_module.is_enabled():
         except Exception as e:
             return jsonify({"error": str(e)}), 500
 
+    # Server-to-server transcribe trigger, gated by a shared secret rather
+    # than a user session. Used by the mds-video-admin M5 retry button so
+    # it never has to spoof Andy's session token to reach this code path
+    # (see feedback_dont_signin_as_andy.md). Same body shape as the
+    # user-auth route above; just a different auth surface.
+    @app.route("/api/internal/videos/<video_id>/transcribe", methods=["POST"])
+    def internal_submit_transcription(video_id: str):
+        expected = os.getenv("MDS_ADMIN_INTERNAL_SECRET", "")
+        received = request.headers.get("X-MDS-Admin-Secret", "")
+        if not expected or expected != received:
+            return jsonify({"error": "Unauthorized"}), 401
+        try:
+            result = transcripts_module.submit_transcription(video_id)
+            return jsonify({
+                "ok": True,
+                "transcript_id": result.get("id"),
+                "status": result.get("status"),
+            })
+        except ValueError as e:
+            return jsonify({"error": str(e)}), 400
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
