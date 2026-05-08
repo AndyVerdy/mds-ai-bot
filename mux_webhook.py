@@ -170,6 +170,7 @@ def _handle_asset_ready(data: dict) -> None:
     """Encoding is done. Update mux_status, duration, playback_id,
     thumbnail_url, then trigger AssemblyAI."""
     asset_id = data.get("id")
+    upload_id = data.get("upload_id")  # Present when the asset came from a Direct Upload.
     if not asset_id:
         log.warning("mux: asset.ready missing id: %r", data)
         return
@@ -198,9 +199,24 @@ def _handle_asset_ready(data: dict) -> None:
         {"mux_asset_id": f"eq.{asset_id}"},
         patch,
     )
+
+    # Fallback: if no row matched by asset_id, the prior video.upload.asset_created
+    # event probably wasn't delivered (Mux webhook subscription may not include
+    # video.upload.* events). Recover by looking up the row via mux_upload_id and
+    # writing mux_asset_id at the same time so subsequent events find the row.
+    if not rows and upload_id:
+        log.warning(
+            "mux: asset.ready had no row by asset_id=%s — fallback by upload_id=%s",
+            asset_id, upload_id,
+        )
+        rows = _patch_video(
+            {"mux_upload_id": f"eq.{upload_id}"},
+            {**patch, "mux_asset_id": asset_id},
+        )
+
     if not rows:
-        log.warning("mux: asset.ready for unknown asset_id=%s — no row updated",
-                    asset_id)
+        log.warning("mux: asset.ready for unknown asset_id=%s upload_id=%s — no row updated",
+                    asset_id, upload_id)
         return
     video_id = rows[0]["id"]
 
@@ -227,12 +243,17 @@ def _submit_transcription_safe(video_id: str) -> None:
 def _handle_asset_errored(data: dict) -> None:
     """Encoding failed. Mark the row errored so admin sees it."""
     asset_id = data.get("id")
+    upload_id = data.get("upload_id")
     if not asset_id:
         return
-    _patch_video(
-        {"mux_asset_id": f"eq.{asset_id}"},
-        {"mux_status": "errored", "updated_at": _now_iso()},
-    )
+    patch = {"mux_status": "errored", "updated_at": _now_iso()}
+    rows = _patch_video({"mux_asset_id": f"eq.{asset_id}"}, patch)
+    if not rows and upload_id:
+        # Same fallback rationale as _handle_asset_ready.
+        _patch_video(
+            {"mux_upload_id": f"eq.{upload_id}"},
+            {**patch, "mux_asset_id": asset_id},
+        )
 
 
 def _handle_static_renditions_ready(data: dict) -> None:
