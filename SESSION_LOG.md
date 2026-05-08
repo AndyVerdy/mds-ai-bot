@@ -10,6 +10,55 @@ sync per the context-handoff skill protocol.
 
 * * *
 
+## 2026-05-07 — MDS Video Platform M1 + M3 + M2 backend (cross-project session)
+
+**AI / dev:** Claude Opus 4.7 (1M context)
+**Project:** NEW — MDS Video Platform. Source of truth: **[ClickUp doc 2531q-98637](https://app.clickup.com/2264119/docs/2531q-98637)** (11 pages). This entry is a backend-side summary; full multi-repo session log is on Page 11 of that doc.
+**Branches / repos touched here (mds-ai-bot only):**
+- `main` — 5 video-platform commits below (M1 routes, M3 transcripts, Mux webhook)
+
+### What landed in mds-ai-bot
+
+- `b4cec93` — `videos.py` (new) — `/api/videos` + `/api/videos/<id>` behind `ENABLE_VIDEO_PLATFORM` flag. Talks to Supabase via raw `requests` against PostgREST.
+- `a34e742` — videos: M3 fixes — Mux audio.m4a + Anthropic direct (HLS rejected by AssemblyAI; LLM Gateway 401 on free tier → switched to api.anthropic.com)
+- `c9257a5` — chapters: fix timestamp format + PATCH predicate (Claude misread `[h:mm]` as `[mm:ss]`; cross-boundary segments fell into NULL chapter gap)
+- `51f6f1b` — `videos.py` extended with `GET /api/videos/<id>/transcript` (returns chapters + segments)
+- `0cb4cbf` — `mux_webhook.py` (new) + `/api/webhooks/mux` route. Handles `video.upload.asset_created` / `video.asset.ready` / `video.asset.errored` / `video.asset.static_renditions.ready`. Auto-triggers AssemblyAI on asset.ready via background thread.
+
+New backend modules: `transcripts.py`, `chapters.py`, `mux_webhook.py`. New script: `scripts/backfill_transcripts.py`. All gated by `ENABLE_VIDEO_PLATFORM=true`.
+
+### Render env vars added by Andy this session
+
+- `SUPABASE_URL=https://nadtudwuwjhckotrngzn.supabase.co`
+- `SUPABASE_SERVICE_ROLE_KEY=<jwt>`
+- `MUX_TOKEN_ID=2d2e12b6-e9d0-48e3-b466-67f1232abb88`
+- `MUX_TOKEN_SECRET=<value>`
+- `MUX_ENV_KEY=fk27meq2chr61cn4k9a974ktf`
+- `MUX_WEBHOOK_SECRET=l3g8a4gtaqdvljfecujtkospj6sh20lq`
+- `ASSEMBLYAI_API_KEY=d182b7ab6ca2482aba7f0bf2028239d8`
+- `ASSEMBLYAI_WEBHOOK_SECRET=8179a2f22a025b8ea830cfd6a82a25c6b2f77f4e857851a5`
+- `ENABLE_VIDEO_PLATFORM=true`
+
+`ANTHROPIC_API_KEY` was already present from existing /api/ask flow.
+
+### Production state (verified)
+
+- `/api/health` → 200 OK
+- 3 test videos in Supabase: all `mux_status='ready'`, `transcription_status='ready'`. 1,134 transcript_segments + 34 chapters total, zero NULL chapter gaps.
+
+### Decisions
+
+See **[CU doc Page 10](https://app.clickup.com/2264119/docs/2531q-98637)** for full text. Backend-relevant ones: D15 (public Mux URLs OK for now), D16 (chapters via direct Anthropic, not LLM Gateway), D17 (30s/5s chunking), D18 (webhook shared-secret auth), D20 (audio.m4a not HLS for transcription).
+
+### Next backend steps (M4+)
+
+- M4 search: pgvector + WhatsApp ChromaDB merge (`POST /api/search`)
+- M9 members sync: hourly cron AT → Postgres `users` table
+- Q16 Mux signed URL hardening: ~30 lines PyJWT signing, swap audio_url in `transcripts.py`
+- M5 admin polish surfaces (visibility toggle, edit, retry transcription button) — coordinated with `mds-video-admin` repo
+
+* * *
+
 ## 2026-05-06 (latest) — Builds (28)→(40): Listen feature, full-name enrichment, Live Activity removed, splash, 11 build iterations
 
 **AI / dev:** Claude Opus 4.7
