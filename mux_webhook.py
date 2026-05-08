@@ -114,9 +114,17 @@ def verify_signature(raw_body: bytes, signature_header: str) -> bool:
 # ============================================================================
 def _handle_upload_asset_created(data: dict) -> None:
     """Asset has been created from a direct upload. Link asset_id to the
-    pre-existing videos row keyed by mux_upload_id."""
-    asset_id = data.get("id")
-    upload_id = data.get("upload_id")
+    pre-existing videos row keyed by mux_upload_id.
+
+    NOTE: for video.upload.asset_created events, `data` is the Direct
+    Upload object (per Mux's webhook-spec.json), so:
+        data.id        -> the upload_id
+        data.asset_id  -> the newly-created asset_id
+    Earlier versions of this handler had these inverted, which silently
+    dropped every upload.asset_created event (upload_id resolved to None,
+    early-return fired)."""
+    upload_id = data.get("id")
+    asset_id = data.get("asset_id")
     if not asset_id or not upload_id:
         log.warning("mux: upload.asset_created missing fields: %r", data)
         return
