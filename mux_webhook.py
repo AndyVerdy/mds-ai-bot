@@ -168,7 +168,11 @@ def _handle_upload_asset_created(data: dict) -> None:
 
 def _handle_asset_ready(data: dict) -> None:
     """Encoding is done. Update mux_status, duration, playback_id,
-    thumbnail_url, then trigger AssemblyAI."""
+    thumbnail_url. Transcription is intentionally NOT triggered here —
+    asset.ready fires before the audio-only MP4 rendition is generated,
+    so AssemblyAI would fetch a 404 audio URL and immediately mark the
+    job failed. Transcription submit lives in static_renditions.ready
+    instead, which fires once audio.m4a is actually fetchable."""
     asset_id = data.get("id")
     upload_id = data.get("upload_id")  # Present when the asset came from a Direct Upload.
     if not asset_id:
@@ -218,15 +222,6 @@ def _handle_asset_ready(data: dict) -> None:
         log.warning("mux: asset.ready for unknown asset_id=%s upload_id=%s — no row updated",
                     asset_id, upload_id)
         return
-    video_id = rows[0]["id"]
-
-    # Trigger AssemblyAI in a background thread so the webhook returns
-    # 200 fast. submit_transcription handles its own DB updates.
-    threading.Thread(
-        target=_submit_transcription_safe,
-        args=(video_id,),
-        daemon=True,
-    ).start()
 
 
 def _submit_transcription_safe(video_id: str) -> None:
@@ -257,11 +252,59 @@ def _handle_asset_errored(data: dict) -> None:
 
 
 def _handle_static_renditions_ready(data: dict) -> None:
-    """Audio-only MP4 rendition is ready. We don't strictly need to act
-    on this since asset.ready already kicked off transcription, but we
-    can log it for debugging."""
+    """Audio-only MP4 rendition (audio.m4a at stream.mux.com/<pid>/audio.m4a)
+    is now fetchable. THIS is the trigger for AssemblyAI — submitting on
+    asset.ready was too early and led to instant `failed` because the
+    audio URL 404'd.
+
+    Idempotent: skips submission if the row already has
+    transcription_status='ready' or 'processing'. Resubmits if it's null
+    or 'failed' (e.g., a prior attempt failed)."""
     asset_id = data.get("id")
-    log.info("mux: static_renditions ready for asset_id=%s", asset_id)
+    upload_id = data.get("upload_id")
+    if not asset_id:
+        log.warning("mux: static_renditions.ready missing id: %r", data)
+        return
+
+    rows = _supabase_get(
+        "videos",
+        params={
+            "mux_asset_id": f"eq.{asset_id}",
+            "select": "id,transcription_status",
+            "limit": "1",
+        },
+    )
+    if not rows and upload_id:
+        rows = _supabase_get(
+            "videos",
+            params={
+                "mux_upload_id": f"eq.{upload_id}",
+                "select": "id,transcription_status",
+                "limit": "1",
+            },
+        )
+    if not rows:
+        log.warning(
+            "mux: static_renditions.ready for unknown asset_id=%s upload_id=%s",
+            asset_id, upload_id,
+        )
+        return
+
+    row = rows[0]
+    video_id = row["id"]
+    status = row.get("transcription_status")
+    if status in ("ready", "processing"):
+        log.info("mux: static_renditions.ready for video=%s status=%s — skip",
+                 video_id, status)
+        return
+
+    log.info("mux: static_renditions.ready for video=%s — submitting AssemblyAI",
+             video_id)
+    threading.Thread(
+        target=_submit_transcription_safe,
+        args=(video_id,),
+        daemon=True,
+    ).start()
 
 
 # ============================================================================
