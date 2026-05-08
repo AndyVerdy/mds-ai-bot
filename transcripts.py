@@ -127,6 +127,17 @@ def _insert_transcript_segments(rows: list[dict]) -> None:
     _supabase_write("POST", "transcript_segments", json=rows)
 
 
+def _delete_transcript_segments(video_id: str) -> None:
+    """Remove all transcript_segments rows for a video. Used when
+    re-transcribing — the old segments are stale and we replace them
+    with the new run's output."""
+    _supabase_write(
+        "DELETE",
+        "transcript_segments",
+        params={"video_id": f"eq.{video_id}"},
+    )
+
+
 # ============================================================================
 # AssemblyAI submit
 # ============================================================================
@@ -333,14 +344,25 @@ def handle_webhook(payload: dict, secret_header_value: str) -> tuple[dict, int]:
         })
         return {"ok": True}, 200
 
-    # Idempotency: if we already have segments for this video, no-op.
-    existing = _supabase_get(
-        "transcript_segments",
-        params={"video_id": f"eq.{video_id}", "select": "id", "limit": "1"},
-    )
-    if existing:
-        log.info("transcripts: segments already exist for video=%s — skipping", video_id)
-        return {"ok": True, "note": "already processed"}, 200
+    # Idempotency: AssemblyAI may re-deliver the same webhook (their docs
+    # say up to 10 retries on non-2xx responses). True duplicates surface as
+    # status='ready' for THIS transcript with segments already in place. In
+    # that case, no-op.
+    #
+    # If status is 'processing' (we just submitted), even if segments exist,
+    # they're from a *previous* transcription run — _process_completed_transcript
+    # will delete them and insert fresh ones.
+    if video.get("transcription_status") == "ready":
+        existing = _supabase_get(
+            "transcript_segments",
+            params={"video_id": f"eq.{video_id}", "select": "id", "limit": "1"},
+        )
+        if existing:
+            log.info(
+                "transcripts: duplicate webhook for already-ready video=%s — skipping",
+                video_id,
+            )
+            return {"ok": True, "note": "already processed"}, 200
 
     # Process async so we return 2xx in <10s. AssemblyAI's docs are strict
     # about that or they retry up to 10 times.
@@ -379,6 +401,11 @@ def _process_completed_transcript(video_id: str, org_id: str,
             }
             for s in segments
         ]
+        # Re-transcription support: clear any stale segments from a prior
+        # run before inserting the new ones. First-time transcriptions
+        # have nothing to delete; PostgREST's DELETE on an empty match is
+        # a no-op.
+        _delete_transcript_segments(video_id)
         _insert_transcript_segments(rows)
         log.info("transcripts: inserted %d segments for video=%s",
                  len(rows), video_id)
