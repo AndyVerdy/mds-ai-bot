@@ -37,6 +37,8 @@ from typing import Optional
 import requests
 from flask import jsonify, request
 
+from mux_signer import sign_video_url
+
 
 # ============================================================================
 # Feature flag
@@ -135,16 +137,29 @@ def _resolve_user_org(email: str) -> Optional[tuple[str, str]]:
 # Mux URL helpers
 # ============================================================================
 def _hls_url(playback_id: Optional[str]) -> Optional[str]:
-    """Construct the public HLS URL for a Mux playback ID. Returns None if
-    no playback ID yet (e.g. video still preparing).
+    """Construct the unsigned HLS URL for a public-policy Mux playback ID.
 
-    NOTE: this returns an unsigned URL, which is correct for visibility
-    `public` / `unlisted`. Private videos (visibility=`private` or `rules`)
-    require a signed URL (JWT with expiration) — implement when private
-    videos are introduced (M2 admin upload + M10 access rules)."""
+    Used as the fallback when a video has only a public playback ID
+    (legacy / pre-Q16 assets). New uploads after Q16 land with both a
+    public and a signed playback ID; the signed one is preferred for
+    streaming via _streaming_url() below.
+    """
     if not playback_id:
         return None
     return f"https://stream.mux.com/{playback_id}.m3u8"
+
+
+def _streaming_url(
+    signed_playback_id: Optional[str],
+    public_playback_id: Optional[str],
+) -> Optional[str]:
+    """Pick the right streaming URL for a video. Q16 hardening: prefer the
+    signed playback ID (JWT-signed URL, prevents leaked-URL access). Fall
+    back to the public ID's bare URL for legacy assets that haven't been
+    backfilled yet, or when MUX_SIGNING_KEY is unset (dev / pre-Q16)."""
+    if signed_playback_id:
+        return sign_video_url(signed_playback_id)
+    return _hls_url(public_playback_id)
 
 
 def _thumbnail_url(playback_id: Optional[str], time_sec: int = 5) -> Optional[str]:
@@ -173,15 +188,25 @@ def _serialize_list_row(v: dict) -> dict:
 
 
 def _serialize_detail(v: dict) -> dict:
-    pid = v.get("mux_playback_id")
+    public_pid = v.get("mux_playback_id")
+    signed_pid = v.get("mux_signed_playback_id")
     return {
         "id": v["id"],
         "title": v["title"],
         "description": v.get("description"),
         "duration_sec": v.get("duration_sec"),
-        "thumbnail_url": v.get("thumbnail_url") or _thumbnail_url(pid),
-        "playback_url": _hls_url(pid),
-        "playback_id": pid,
+        # Thumbnails: image.mux.com serves public-policy IDs without
+        # signing — keep using the public_pid here.
+        "thumbnail_url": v.get("thumbnail_url") or _thumbnail_url(public_pid),
+        # Streaming: prefer the signed playback ID + JWT-signed URL when
+        # available; fall back to the bare public URL for legacy assets.
+        "playback_url": _streaming_url(signed_pid, public_pid),
+        # Keep `playback_id` returning the public ID — iOS uses it to
+        # construct image.mux.com storyboard / thumbnail URLs which are
+        # serve-without-signing on public-policy IDs. Adding the signed
+        # one as a sibling field for any future client-side use.
+        "playback_id": public_pid,
+        "signed_playback_id": signed_pid,
         "mux_status": v.get("mux_status"),
         "visibility": v.get("visibility"),
         "recorded_at": v.get("recorded_at"),
@@ -316,7 +341,8 @@ def register_video_routes(app, require_auth):
                 "deleted_at": "is.null",
                 "select": (
                     "id,title,description,duration_sec,thumbnail_url,"
-                    "mux_playback_id,mux_status,visibility,recorded_at,uploaded_at"
+                    "mux_playback_id,mux_signed_playback_id,"
+                    "mux_status,visibility,recorded_at,uploaded_at"
                 ),
                 "limit": "1",
             },

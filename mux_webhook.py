@@ -190,11 +190,17 @@ def _handle_asset_ready(data: dict) -> None:
     duration_sec = int(data.get("duration") or 0) or None
     playback_ids = data.get("playback_ids") or []
     public_pid: Optional[str] = None
+    signed_pid: Optional[str] = None
     for pid in playback_ids:
-        if pid.get("policy") == "public":
+        policy = pid.get("policy")
+        if policy == "public" and public_pid is None:
             public_pid = pid.get("id")
-            break
-    if public_pid is None and playback_ids:
+        elif policy == "signed" and signed_pid is None:
+            signed_pid = pid.get("id")
+    # Belt-and-suspenders: if Mux returned IDs but neither matched the
+    # known policies (shouldn't happen, but handle gracefully), assume
+    # the first one is public.
+    if public_pid is None and signed_pid is None and playback_ids:
         public_pid = playback_ids[0].get("id")
 
     patch: dict[str, Any] = {
@@ -206,6 +212,12 @@ def _handle_asset_ready(data: dict) -> None:
     if public_pid:
         patch["mux_playback_id"] = public_pid
         patch["thumbnail_url"] = _thumbnail_url(public_pid)
+    # Q16: capture the signed playback ID when present. New uploads from
+    # the admin app request playback_policy: ['public', 'signed'] so both
+    # IDs land here. Backfilled assets get this written by the backfill
+    # script (uses Mux API to add a signed playback ID + this UPDATE).
+    if signed_pid:
+        patch["mux_signed_playback_id"] = signed_pid
 
     rows = _patch_video(
         {"mux_asset_id": f"eq.{asset_id}"},
