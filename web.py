@@ -2277,18 +2277,20 @@ if videos_module.is_enabled():
         except Exception as e:
             return jsonify({"error": str(e)}), 500
 
-    # Server-to-server bulk re-ingest of all videos into ChromaDB. Same
-    # auth pattern as the transcribe trigger above — shared secret in
-    # `X-MDS-Admin-Secret`. Used to backfill the search index for videos
-    # that were already transcribed before the auto-ingest hook landed
-    # (commit 65144b3) — without this, /api/ask never returns video
-    # sources for those videos because their chunks aren't in ChromaDB.
+    # Server-to-server re-ingest of videos into ChromaDB. Same auth pattern
+    # as the transcribe trigger above — shared secret in `X-MDS-Admin-Secret`.
+    # Used to backfill the search index for videos that were already
+    # transcribed before the auto-ingest hook landed (commit 65144b3) —
+    # without this, /api/ask never returns video sources for those videos
+    # because their chunks aren't in ChromaDB.
     #
-    # Body: optional `{"force": true}` to re-add videos whose chunks
-    # already exist in the index. Default false.
-    #
-    # Long-running: holds the request open while ingesting (typically
-    # 30-90s for ~15 videos). Returns the chunk count when done.
+    # Body:
+    #   {"video_id": "<uuid>"}  → ingest just that one video (single-video
+    #                             path; small payload, no worker crash)
+    #   {}                      → ingest ALL videos (bulk; uses Render
+    #                             worker for ~2-5 min, can crash on
+    #                             memory-tight plans). Prefer single-video
+    #                             iteration from the caller side.
     @app.route("/api/internal/reingest-videos", methods=["POST"])
     def internal_reingest_videos():
         expected = os.getenv("MDS_ADMIN_INTERNAL_SECRET", "")
@@ -2296,8 +2298,17 @@ if videos_module.is_enabled():
         if not expected or expected != received:
             return jsonify({"error": "Unauthorized"}), 401
         body = request.get_json(silent=True) or {}
+        video_id = (body.get("video_id") or "").strip()
         force = bool(body.get("force", False))
         try:
+            if video_id:
+                from ingest import ingest_videos_for
+                count = ingest_videos_for(video_id=video_id)
+                return jsonify({
+                    "ok": True,
+                    "video_id": video_id,
+                    "chunks_added": count,
+                })
             from ingest import ingest_videos
             count = ingest_videos(force=force)
             return jsonify({"ok": True, "chunks_added": count, "force": force})
@@ -2305,6 +2316,64 @@ if videos_module.is_enabled():
             import traceback
             print(
                 f"[internal_reingest_videos] {type(e).__name__}: {e}\n"
+                f"{traceback.format_exc()}",
+                flush=True,
+            )
+            return jsonify({"error": f"{type(e).__name__}: {e}"}), 500
+
+    # GET sibling — list video_ids that have transcripts in Postgres but
+    # whose chunks aren't yet in ChromaDB. Caller iterates this list and
+    # POSTs one /api/internal/reingest-videos per video_id, so the bulk
+    # work is split into small worker-safe units.
+    @app.route("/api/internal/reingest-videos/pending", methods=["GET"])
+    def internal_reingest_pending():
+        expected = os.getenv("MDS_ADMIN_INTERNAL_SECRET", "")
+        received = request.headers.get("X-MDS-Admin-Secret", "")
+        if not expected or expected != received:
+            return jsonify({"error": "Unauthorized"}), 401
+        try:
+            # Pull all videos with ready transcripts from Postgres.
+            from videos import _supabase_get
+            rows = _supabase_get(
+                "videos",
+                {
+                    "select": "id,title",
+                    "transcription_status": "eq.ready",
+                    "deleted_at": "is.null",
+                    "order": "uploaded_at.desc",
+                },
+            )
+            # Check ChromaDB for which video_ids already have chunks.
+            from langchain_community.vectorstores import Chroma
+            import config
+            vs = Chroma(
+                collection_name=config.COLLECTION_NAME,
+                persist_directory=str(config.VECTORSTORE_DIR),
+            )
+            try:
+                existing = vs._collection.get(
+                    where={"type": "video"},
+                    include=["metadatas"],
+                )
+                indexed_ids = {
+                    m.get("video_id") for m in (existing.get("metadatas") or [])
+                    if m and m.get("video_id")
+                }
+            except Exception:
+                indexed_ids = set()
+            pending = [
+                {"video_id": r["id"], "title": r.get("title")}
+                for r in rows if r["id"] not in indexed_ids
+            ]
+            return jsonify({
+                "pending": pending,
+                "indexed_count": len(indexed_ids),
+                "total_ready": len(rows),
+            })
+        except Exception as e:
+            import traceback
+            print(
+                f"[internal_reingest_pending] {type(e).__name__}: {e}\n"
                 f"{traceback.format_exc()}",
                 flush=True,
             )
