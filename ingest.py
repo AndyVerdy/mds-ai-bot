@@ -735,6 +735,179 @@ def ingest_whatsapp(min_msg_count: int = 1) -> int:
     return len(chunks)
 
 
+def make_video_documents(video: dict, segments: list[dict]) -> list[Document]:
+    """Group transcript segments into chunks bounded by chapter and ~1800 chars.
+
+    Walks segments in start_ms order. Starts a new chunk when:
+      - the chapter changes, OR
+      - the current chunk's body is approaching the chunk-size cap.
+
+    Each chunk gets a context header (`[Video: … · Chapter: … · Speaker: …]`)
+    prepended to the body so the LLM sees the source structure even when only
+    one chunk is retrieved.
+
+    Metadata on each Document carries the deep-link primitives (`video_id`,
+    `start_ms`, `chapter_title`) so search results can render with a "jump to
+    this chapter" affordance.
+    """
+    if not segments:
+        return []
+
+    docs: list[Document] = []
+    current_chunk: list[dict] = []
+    current_chapter: str = (segments[0].get("chapter_title") or "")
+    current_chars: int = 0
+    chunk_char_cap = 1800
+
+    for seg in segments:
+        seg_chapter = seg.get("chapter_title") or ""
+        seg_text = seg.get("text") or ""
+
+        if current_chunk and (
+            seg_chapter != current_chapter
+            or current_chars + len(seg_text) > chunk_char_cap
+        ):
+            doc = _build_video_doc(video, current_chunk, current_chapter)
+            if doc is not None:
+                docs.append(doc)
+            current_chunk = []
+            current_chars = 0
+            current_chapter = seg_chapter
+
+        current_chunk.append(seg)
+        current_chars += len(seg_text)
+
+    if current_chunk:
+        doc = _build_video_doc(video, current_chunk, current_chapter)
+        if doc is not None:
+            docs.append(doc)
+
+    return docs
+
+
+def _build_video_doc(video: dict, segs: list[dict], chapter: str):
+    """Build a single ChromaDB Document for a chunk of consecutive segments."""
+    if not segs:
+        return None
+
+    first = segs[0]
+    last = segs[-1]
+    speaker_label = first.get("speaker_label") or ""
+    start_ms = int(first.get("start_ms") or 0)
+    end_ms = int(last.get("end_ms") or 0)
+
+    body = " ".join((s.get("text") or "").strip() for s in segs if s.get("text"))
+    if not body.strip():
+        return None
+
+    header_parts = [f"Video: {video.get('title') or 'Untitled'}"]
+    if chapter:
+        header_parts.append(f"Chapter: {chapter}")
+    if speaker_label:
+        header_parts.append(f"Speaker: {speaker_label}")
+    recorded = video.get("recorded_at") or video.get("uploaded_at") or ""
+    if recorded:
+        header_parts.append(f"Recorded: {recorded[:10]}")
+    header = "[" + " · ".join(header_parts) + "]"
+
+    page_content = f"{header}\n{body}"
+
+    metadata = {
+        "type": "video",
+        "source": f"video://{video['id']}#t={start_ms // 1000}",
+        "source_id": video["id"],
+        "video_id": video["id"],
+        "video_title": video.get("title") or "",
+        "thumbnail_url": video.get("thumbnail_url") or "",
+        "chapter_title": chapter or "",
+        "speaker_label": speaker_label,
+        "start_ms": start_ms,
+        "end_ms": end_ms,
+        "duration_sec": int(video.get("duration_sec") or 0),
+        "date": (recorded or "")[:10],
+        # Backwards-compat: existing source enrichment looks at `speaker`
+        # for display when no specific source_type branch matched. Setting
+        # it to the video title gives any naive consumer something to render.
+        "speaker": video.get("title") or "",
+    }
+
+    return Document(page_content=page_content, metadata=metadata)
+
+
+def ingest_videos(force: bool = False) -> int:
+    """Pull videos with ready transcripts from Postgres, chunk transcript
+    segments, embed, and store in ChromaDB. Returns count of chunks added.
+
+    Reads from:
+      - `videos` (mux_status='ready' AND transcription_status='ready' AND deleted_at IS NULL)
+      - `transcript_segments` (joined per-video, ordered by start_ms)
+
+    Mirrors `ingest_whatsapp` — same vector store, same embedding model. Search
+    via `/api/ask` automatically ranks video chunks alongside WA + legacy.
+    """
+    from videos import _supabase_get
+
+    videos = _supabase_get(
+        "videos",
+        {
+            "select": "id,title,thumbnail_url,duration_sec,recorded_at,uploaded_at",
+            "mux_status": "eq.ready",
+            "transcription_status": "eq.ready",
+            "deleted_at": "is.null",
+            "order": "uploaded_at.desc",
+        },
+    )
+
+    if not videos:
+        console.print("[yellow]No ready videos found.[/yellow]")
+        return 0
+
+    console.print(f"Found {len(videos)} ready videos")
+
+    all_chunks: list[Document] = []
+    for v in videos:
+        segs = _supabase_get(
+            "transcript_segments",
+            {
+                "select": "text,start_ms,end_ms,speaker_label,chapter_title",
+                "video_id": f"eq.{v['id']}",
+                "order": "start_ms.asc",
+            },
+        )
+        if not segs:
+            console.print(
+                f"[yellow]Video {v['id'][:8]} ({v.get('title', '?')}): no segments[/yellow]"
+            )
+            continue
+        chunks = make_video_documents(v, segs)
+        title_short = (v.get("title") or "")[:40]
+        console.print(
+            f"Video {v['id'][:8]} ({title_short}): {len(segs)} segments → {len(chunks)} chunks"
+        )
+        all_chunks.extend(chunks)
+
+    if not all_chunks:
+        console.print("[yellow]No video chunks to ingest.[/yellow]")
+        return 0
+
+    console.print(f"Embedding and indexing {len(all_chunks)} video chunks (local model)...")
+    vectorstore = Chroma(
+        collection_name=config.COLLECTION_NAME,
+        persist_directory=str(config.VECTORSTORE_DIR),
+    )
+
+    batch_size = 100
+    with Progress() as progress:
+        task = progress.add_task("Indexing video chunks...", total=len(all_chunks))
+        for i in range(0, len(all_chunks), batch_size):
+            batch = all_chunks[i:i + batch_size]
+            vectorstore.add_documents(batch)
+            progress.update(task, advance=len(batch))
+
+    console.print(f"[green]Indexed {len(all_chunks)} video chunks into vector store.[/green]")
+    return len(all_chunks)
+
+
 def ingest_directory(directory: str) -> int:
     """Ingest all supported files from a directory."""
     # Load file metadata (dates, events) before ingesting
@@ -768,6 +941,10 @@ if __name__ == "__main__":
     if "--whatsapp" in args or "--wa" in args:
         total_chunks += ingest_whatsapp()
         args = [a for a in args if a not in ("--whatsapp", "--wa")]
+
+    if "--videos" in args or "--video" in args:
+        total_chunks += ingest_videos()
+        args = [a for a in args if a not in ("--videos", "--video")]
 
     for p in args:
         path = Path(p)

@@ -141,10 +141,11 @@ def format_video_url(url: str) -> str:
 SEARCH_LOG = Path(config.DATA_DIR) / "search_log.json"
 TOPICS_CACHE = Path(config.DATA_DIR) / "topics_cache.json"
 
-SYSTEM_PROMPT = """You are the MDS Knowledge Assistant, an AI that answers questions based on Million Dollar Sellers (MDS) content. There are TWO kinds of source material in the knowledge base:
+SYSTEM_PROMPT = """You are the MDS Knowledge Assistant, an AI that answers questions based on Million Dollar Sellers (MDS) content. There are THREE kinds of source material in the knowledge base:
 
   A. TRANSCRIPTS — recorded MDS sessions, presentations, mastermind calls. Each chunk is attributed to a named SPEAKER.
   B. WHATSAPP CONVERSATIONS — daily chat logs from MDS WhatsApp groups (e.g. "MDS Trading", "MDS AI & Automations"). Multiple participants per conversation. Lines look like `[date time UTC] @Name: message`.
+  C. VIDEOS — uploaded recordings in the MDS Video Library, transcribed automatically. Each chunk's first line shows `[Video: <title> · Chapter: <chapter> · Speaker: <label> · Recorded: YYYY-MM-DD]`. The body is the spoken text from that chunk.
 
 RULES:
 1. ONLY answer based on the provided context. Do not use outside knowledge.
@@ -156,7 +157,11 @@ RULES:
        "Ramon and Khalid debated this in the MDS AI & Automations chat..."
        "From the MDS Supplements group conversation: ..."
      NEVER treat the WhatsApp group name as a person's name.
-   - When mixing both kinds, make the source type clear in the prose so the reader knows whether it came from a recorded session or a chat conversation.
+   - For VIDEO sources, cite the video title and chapter when one is present. Examples:
+       "In 'How Amazon Sellers Build AI Digital Employees' (Chapter 1: Pre-LOI dance), the speaker walks through..."
+       "From the AI Channel Call (February 2026), they explain..."
+     The user can deep-link straight to the chapter — make it useful by mentioning the chapter title verbatim when known.
+   - When mixing kinds, make the source type clear in the prose so the reader knows whether it came from a recorded session, a chat, or a video.
 4. Be concise and direct.
 5. If the question is ambiguous, state your interpretation before answering.
 6. Do NOT include a "Sources:" section at the end of your answer. Source citations are handled separately by the UI.
@@ -523,7 +528,37 @@ def ask(question: str, verbose: bool = False) -> dict:
         meta = doc.metadata
         source_type = meta.get("type", "")
 
-        if source_type == "whatsapp":
+        if source_type == "video":
+            video_id = meta.get("video_id", "") or meta.get("source_id", "")
+            start_ms = int(meta.get("start_ms", 0) or 0)
+            # Dedupe by (video_id, chunk start) so the same chunk doesn't
+            # surface twice but distinct chapters of one video can both appear.
+            key = ("video", video_id, start_ms)
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
+
+            source_entry = {
+                # `speaker` holds the display name for backwards compat with
+                # naive iOS clients; new clients render via the explicit fields.
+                "speaker": meta.get("video_title", "") or "",
+                "date": format_date_display(meta.get("date", "")),
+                "event": "",
+                "topic": "",
+                "type": "video",
+                "source_type": "video",
+                "video_id": video_id,
+                "video_title": meta.get("video_title", "") or "",
+                "thumbnail_url": meta.get("thumbnail_url", "") or "",
+                "chapter_title": meta.get("chapter_title", "") or "",
+                "speaker_label": meta.get("speaker_label", "") or "",
+                "start_ms": start_ms,
+                "end_ms": int(meta.get("end_ms", 0) or 0),
+                "duration_sec": int(meta.get("duration_sec", 0) or 0),
+                "source": f"video://{video_id}#t={start_ms // 1000}",
+            }
+            enriched_sources.append(source_entry)
+        elif source_type == "whatsapp":
             digest_id = meta.get("source_id", "") or meta.get("source", "")
             key = ("wa", digest_id)
             if key in seen_keys:

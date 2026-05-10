@@ -194,6 +194,25 @@ def _trigger_whatsapp_ingest(force: bool = False) -> dict:
     return {"ingested": count}
 
 
+def _trigger_video_ingest(force: bool = False) -> dict:
+    """Pull video transcripts from Postgres and add them to ChromaDB.
+    Mirrors `_trigger_whatsapp_ingest`. force=True bypasses the
+    "already-ingested" short-circuit (use after re-transcription)."""
+    from query import get_vectorstore
+    from ingest import ingest_videos
+    vs = get_vectorstore()
+    collection = vs._collection
+    if not force:
+        existing = collection.get(where={"type": "video"}, limit=1, include=[])
+        if existing and existing.get("ids"):
+            return {
+                "skipped": True,
+                "reason": "Video chunks already in index. Pass ?force=1 to override.",
+            }
+    count = ingest_videos(force=force)
+    return {"ingested": count}
+
+
 # ============================================================
 # Auth middleware
 # ============================================================
@@ -2126,6 +2145,24 @@ def api_admin_reingest_wa():
     force = request.args.get("force", "").lower() in ("1", "true", "yes")
     try:
         result = _trigger_whatsapp_ingest(force=force)
+        return jsonify(result)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/admin/reingest-videos", methods=["POST"])
+@require_auth
+def api_admin_reingest_videos():
+    """Manually trigger video transcript ingestion. Admin-only via ADMIN_EMAILS.
+    Pass ?force=1 to re-add even if video chunks are already in the index."""
+    import os
+    admin_emails = {a.strip().lower() for a in (os.getenv("ADMIN_EMAILS","") or "").split(",") if a.strip()}
+    user = (getattr(request, "user_email", "") or "").lower()
+    if user not in admin_emails:
+        return jsonify({"error": "admin only"}), 403
+    force = request.args.get("force", "").lower() in ("1", "true", "yes")
+    try:
+        result = _trigger_video_ingest(force=force)
         return jsonify(result)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
