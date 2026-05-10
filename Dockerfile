@@ -34,6 +34,35 @@ ENV AIRTABLE_PAT=${AIRTABLE_PAT}
 RUN python3 -c "import os; print('[BUILD] AIRTABLE_PAT visible during build:', bool(os.getenv('AIRTABLE_PAT')))"
 RUN python3 -c "from ingest import ingest_whatsapp; ingest_whatsapp()"
 
+# Step 3: MDS Video Library transcripts pulled from Postgres
+# `transcript_segments` (joined per-video). Same pattern as WA — service
+# env vars must be ARG-declared to be visible at build time. The
+# `videos.py` module reads SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY.
+#
+# Why bake this at build time instead of running it on first request:
+# (a) Render Starter (512MB) can't load the embedding model AND embed
+#     ~400 chunks while serving /api/health within gunicorn's 120s
+#     timeout — the worker dies and the chunks never commit. Verified
+#     2026-05-10 with two separate failures (Render Shell nohup and a
+#     web-process daemon thread, both silent OOM kills).
+# (b) Every deploy rebuilds the ChromaDB-backed image fresh anyway —
+#     so chunks live in the image, not in a runtime mount.
+# (c) Build containers have looser memory limits than runtime workers.
+#
+# New videos uploaded BETWEEN deploys still flow in via the auto-ingest
+# hook in transcripts.handle_webhook (commit 65144b3) — that runs in
+# the worker but only embeds one video's worth of chunks at a time, so
+# memory pressure stays low.
+ARG SUPABASE_URL
+ARG SUPABASE_SERVICE_ROLE_KEY
+ENV SUPABASE_URL=${SUPABASE_URL}
+ENV SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+RUN python3 -c "import os; print('[BUILD] SUPABASE_SERVICE_ROLE_KEY visible during build:', bool(os.getenv('SUPABASE_SERVICE_ROLE_KEY')))"
+# `|| true` so the build doesn't fail if the videos table is empty
+# (e.g. brand-new deployment without uploads). On subsequent deploys
+# with content, the chunks bake in.
+RUN python3 -c "from ingest import ingest_videos; ingest_videos()" || true
+
 # Copy the rest of the application code. This layer is invalidated by
 # any *.py change but every layer above is cached, so the build skips
 # straight from re-COPY to gunicorn.
