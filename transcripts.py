@@ -458,6 +458,28 @@ def _process_completed_transcript(video_id: str, org_id: str,
         except Exception:
             log.exception("transcripts: chapters generation failed for video=%s", video_id)
 
+        # Auto-ingest into ChromaDB so /api/ask can return this video as a
+        # source on the next query — without this, video chunks only enter
+        # the vector store on a manual `/api/admin/reingest-videos` call.
+        # That gap is exactly why Andy's first search came back with WA +
+        # transcript sources only and zero video sources (build 64). Cheap
+        # to run inline because we just inserted the segments and have a
+        # warm process — `ingest_videos(force=False)` is idempotent (skips
+        # video_ids whose chunks are already indexed).
+        try:
+            import ingest
+            added = ingest.ingest_videos_for(video_id=video_id)
+            log.info(
+                "transcripts: chromadb auto-ingested %d chunks for video=%s",
+                added, video_id,
+            )
+        except Exception:
+            log.exception(
+                "transcripts: chromadb auto-ingest failed for video=%s "
+                "(transcript still saved; admin can /api/admin/reingest-videos)",
+                video_id,
+            )
+
     except Exception:
         log.exception("transcripts: processing failed for video=%s", video_id)
         try:

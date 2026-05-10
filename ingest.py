@@ -834,6 +834,64 @@ def _build_video_doc(video: dict, segs: list[dict], chapter: str):
     return Document(page_content=page_content, metadata=metadata)
 
 
+def ingest_videos_for(video_id: str) -> int:
+    """Ingest exactly one video's transcript into ChromaDB. Called from
+    the AssemblyAI webhook completion handler so newly-transcribed videos
+    auto-enter the vector store (no manual /api/admin/reingest-videos).
+
+    Idempotent: if chunks for this video_id are already indexed, the
+    deletes are no-ops and the inserts replace the same logical content
+    with the freshly-rebuilt chunks (handles re-transcription cleanly).
+    """
+    from videos import _supabase_get
+
+    rows = _supabase_get(
+        "videos",
+        {
+            "select": "id,title,thumbnail_url,duration_sec,recorded_at,uploaded_at",
+            "id": f"eq.{video_id}",
+            "limit": "1",
+        },
+    )
+    if not rows:
+        console.print(f"[yellow]ingest_videos_for: video {video_id} not found[/yellow]")
+        return 0
+    v = rows[0]
+
+    segs = _supabase_get(
+        "transcript_segments",
+        {
+            "select": "text,start_ms,end_ms,speaker_label,chapter_title",
+            "video_id": f"eq.{video_id}",
+            "order": "start_ms.asc",
+        },
+    )
+    if not segs:
+        console.print(f"[yellow]ingest_videos_for: no segments for {video_id}[/yellow]")
+        return 0
+
+    chunks = make_video_documents(v, segs)
+    if not chunks:
+        return 0
+
+    vectorstore = Chroma(
+        collection_name=config.COLLECTION_NAME,
+        persist_directory=str(config.VECTORSTORE_DIR),
+    )
+
+    # Drop any existing chunks for this video (re-transcription support).
+    try:
+        vectorstore._collection.delete(where={"video_id": video_id})
+    except Exception:
+        # First-time ingest — no rows to delete; the where-match returns
+        # an empty set and the underlying client may complain. Safe to
+        # ignore.
+        pass
+
+    vectorstore.add_documents(chunks)
+    return len(chunks)
+
+
 def ingest_videos(force: bool = False) -> int:
     """Pull videos with ready transcripts from Postgres, chunk transcript
     segments, embed, and store in ChromaDB. Returns count of chunks added.

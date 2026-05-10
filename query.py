@@ -422,19 +422,46 @@ def ask(question: str, verbose: bool = False) -> dict:
             question, k=config.TOP_K, filter={"type": "whatsapp"}
         )
     else:
-        half = max(1, config.TOP_K // 2)
+        # Three pools, allocated ~equally so each kind always has a shot at
+        # surfacing in the answer:
+        #   - WA digests (~hundreds of chunks)
+        #   - legacy Otter transcripts (~thousands)
+        #   - video transcripts via D33 (variable)
+        # Without the explicit per-pool retrieval, transcripts crowd out WA
+        # (10k vs 200) AND videos crowd out (or get crowded out by) the
+        # transcripts depending on collection size.
+        third = max(1, config.TOP_K // 3)
         wa_docs = vectorstore.similarity_search_with_score(
-            question, k=half, filter={"type": "whatsapp"}
+            question, k=third, filter={"type": "whatsapp"}
         )
+        # Video pool — always pulled regardless of speaker match, because
+        # AAI labels are "A"/"B"/"C" not real names so a query like
+        # "what did Derek say" can't route to videos via the speaker
+        # name index. Content similarity is the only signal we have on
+        # videos until M6 wires speaker matching.
+        video_docs = vectorstore.similarity_search_with_score(
+            question, k=third, filter={"type": "video"}
+        )
+        # Transcript pool — speaker-name-aware (legacy Otter has the named
+        # speaker baked in). When the query mentions a known person, prefer
+        # chunks from that person; otherwise just pull non-WA-non-video.
         speaker_matches = _detect_speakers_in_query(question)
         if speaker_matches:
             tr_filter = {"speaker": {"$in": speaker_matches}}
         else:
-            tr_filter = {"type": {"$ne": "whatsapp"}}
+            tr_filter = {
+                "$and": [
+                    {"type": {"$ne": "whatsapp"}},
+                    {"type": {"$ne": "video"}},
+                ]
+            }
+        remaining = max(1, config.TOP_K - third * 2)
         tr_docs = vectorstore.similarity_search_with_score(
-            question, k=config.TOP_K - half, filter=tr_filter
+            question, k=remaining, filter=tr_filter
         )
-        docs_with_scores = sorted(wa_docs + tr_docs, key=lambda x: x[1])
+        docs_with_scores = sorted(
+            wa_docs + video_docs + tr_docs, key=lambda x: x[1]
+        )
 
     if not docs_with_scores:
         return {
