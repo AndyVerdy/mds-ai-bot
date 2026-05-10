@@ -1144,16 +1144,24 @@ def api_ask():
     # Render runtime log AND returns a structured 500 to the client. Without
     # this, an exception bubbles up to Flask's default handler and we get an
     # opaque "server returned 500" on the client with no breadcrumb.
+    #
+    # The `error` field is the user-visible message iOS pulls into the chat
+    # error banner. We pack `<ExceptionType>: <message>` here so a single
+    # failure reproduces with full diagnostic value on the client side —
+    # otherwise a generic "ask_failed" leaks zero signal to the user (and
+    # to me when Andy reports the bug).
     try:
         result = ask(question)
     except Exception as e:
         import traceback
         tb = traceback.format_exc()
         print(f"[api_ask] question={question!r}\n{tb}", flush=True)
+        msg = str(e) or "(no message)"
         return jsonify({
-            "error": "ask_failed",
+            "error": f"{type(e).__name__}: {msg}",
             "type": type(e).__name__,
-            "message": str(e),
+            "message": msg,
+            "where": "ask",
         }), 500
 
     return jsonify({

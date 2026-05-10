@@ -521,96 +521,116 @@ def ask(question: str, verbose: bool = False) -> dict:
         }
 
     # Build deduplicated, enriched source list (clean names, format dates).
-    # WhatsApp digests dedup by source_id (Airtable record); transcripts by raw speaker.
+    # WhatsApp digests dedup by source_id (Airtable record); transcripts by
+    # raw speaker; video chunks by (video_id, start_ms) so distinct chapters
+    # of one video can both surface as separate rows.
+    #
+    # Each iteration is wrapped in try/except: a single chunk with malformed
+    # metadata MUST NOT 500 the whole answer. The ChromaDB collection is a
+    # mix of WA digests (~hundreds), legacy Otter transcripts (~thousands)
+    # and now M4-V1 video chunks (D33), so corner cases are inevitable.
+    # Failures get a full traceback to Render runtime logs (skill rule
+    # `mds-verify-after-ship` §2 step 5: every 500 leaves a breadcrumb).
     seen_keys = set()
     enriched_sources = []
     for doc, _ in docs_with_scores:
-        meta = doc.metadata
-        source_type = meta.get("type", "")
+        try:
+            meta = doc.metadata or {}
+            source_type = meta.get("type", "")
 
-        if source_type == "video":
-            video_id = meta.get("video_id", "") or meta.get("source_id", "")
-            start_ms = int(meta.get("start_ms", 0) or 0)
-            # Dedupe by (video_id, chunk start) so the same chunk doesn't
-            # surface twice but distinct chapters of one video can both appear.
-            key = ("video", video_id, start_ms)
-            if key in seen_keys:
-                continue
-            seen_keys.add(key)
+            if source_type == "video":
+                video_id = meta.get("video_id", "") or meta.get("source_id", "")
+                start_ms = int(meta.get("start_ms", 0) or 0)
+                key = ("video", video_id, start_ms)
+                if key in seen_keys:
+                    continue
+                seen_keys.add(key)
 
-            source_entry = {
-                # `speaker` holds the display name for backwards compat with
-                # naive iOS clients; new clients render via the explicit fields.
-                "speaker": meta.get("video_title", "") or "",
-                "date": format_date_display(meta.get("date", "")),
-                "event": "",
-                "topic": "",
-                "type": "video",
-                "source_type": "video",
-                "video_id": video_id,
-                "video_title": meta.get("video_title", "") or "",
-                "thumbnail_url": meta.get("thumbnail_url", "") or "",
-                "chapter_title": meta.get("chapter_title", "") or "",
-                "speaker_label": meta.get("speaker_label", "") or "",
-                "start_ms": start_ms,
-                "end_ms": int(meta.get("end_ms", 0) or 0),
-                "duration_sec": int(meta.get("duration_sec", 0) or 0),
-                "source": f"video://{video_id}#t={start_ms // 1000}",
-            }
-            enriched_sources.append(source_entry)
-        elif source_type == "whatsapp":
-            digest_id = meta.get("source_id", "") or meta.get("source", "")
-            key = ("wa", digest_id)
-            if key in seen_keys:
-                continue
-            seen_keys.add(key)
+                source_entry = {
+                    # `speaker` holds the display name for backwards compat with
+                    # naive iOS clients; new clients render via the explicit fields.
+                    "speaker": meta.get("video_title", "") or "",
+                    "date": format_date_display(meta.get("date", "")),
+                    "event": "",
+                    "topic": "",
+                    "type": "video",
+                    "source_type": "video",
+                    "video_id": video_id,
+                    "video_title": meta.get("video_title", "") or "",
+                    "thumbnail_url": meta.get("thumbnail_url", "") or "",
+                    "chapter_title": meta.get("chapter_title", "") or "",
+                    "speaker_label": meta.get("speaker_label", "") or "",
+                    "start_ms": start_ms,
+                    "end_ms": int(meta.get("end_ms", 0) or 0),
+                    "duration_sec": int(meta.get("duration_sec", 0) or 0),
+                    "source": f"video://{video_id}#t={start_ms // 1000}",
+                }
+                enriched_sources.append(source_entry)
 
-            chat_name = meta.get("chat_name", "Unknown group")
-            display_date = format_date_display(meta.get("date", ""))
-            # `source_id` is the Airtable record ID; expose it directly so
-            # iOS can deep-link to that digest's detail view from the source card.
-            airtable_record_id = meta.get("source_id", "") or digest_id.replace("airtable://Summaries/", "")
-            source_entry = {
-                # `speaker` carries the display name for backwards compat with
-                # existing iOS clients; the explicit fields below let new clients
-                # render WA sources properly.
-                "speaker": chat_name,
-                "date": display_date,
-                "event": "",
-                "topic": "",
-                "type": "whatsapp",
-                "source_type": "whatsapp",
-                "chat_name": chat_name,
-                "period_type": meta.get("period_type", "daily"),
-                "msg_count": int(meta.get("msg_count", 0) or 0),
-                "source": meta.get("source", ""),
-                "digest_id": airtable_record_id,
-            }
-            enriched_sources.append(source_entry)
-        else:
-            raw_speaker = meta.get("speaker", "Unknown")
-            key = ("transcript", raw_speaker)
-            if key in seen_keys:
-                continue
-            seen_keys.add(key)
+            elif source_type == "whatsapp":
+                digest_id = meta.get("source_id", "") or meta.get("source", "")
+                key = ("wa", digest_id)
+                if key in seen_keys:
+                    continue
+                seen_keys.add(key)
 
-            display_date = format_date_display(meta.get("date", ""))
-            if not display_date:
-                display_date = extract_date_from_speaker(raw_speaker)
+                chat_name = meta.get("chat_name", "Unknown group")
+                display_date = format_date_display(meta.get("date", ""))
+                # `source_id` is the Airtable record ID; expose it directly so
+                # iOS can deep-link to that digest's detail view from the source card.
+                airtable_record_id = meta.get("source_id", "") or str(digest_id).replace("airtable://Summaries/", "")
+                source_entry = {
+                    # `speaker` carries the display name for backwards compat with
+                    # existing iOS clients; the explicit fields below let new clients
+                    # render WA sources properly.
+                    "speaker": chat_name,
+                    "date": display_date,
+                    "event": "",
+                    "topic": "",
+                    "type": "whatsapp",
+                    "source_type": "whatsapp",
+                    "chat_name": chat_name,
+                    "period_type": meta.get("period_type", "daily"),
+                    "msg_count": int(meta.get("msg_count", 0) or 0),
+                    "source": meta.get("source", ""),
+                    "digest_id": airtable_record_id,
+                }
+                enriched_sources.append(source_entry)
 
-            source_entry = {
-                "speaker": format_display_name(raw_speaker),
-                "date": display_date,
-                "event": meta.get("event", ""),
-                "topic": meta.get("topic", ""),
-                "type": meta.get("type", "") or "transcript",
-                "source_type": "transcript",
-                "source": clean_source_name(meta.get("source", "")),
-            }
-            video_url = meta.get("video_url", "")
-            if video_url:
-                source_entry["video_url"] = format_video_url(video_url)
-            enriched_sources.append(source_entry)
+            else:
+                raw_speaker = meta.get("speaker", "Unknown") or "Unknown"
+                key = ("transcript", raw_speaker)
+                if key in seen_keys:
+                    continue
+                seen_keys.add(key)
+
+                display_date = format_date_display(meta.get("date", ""))
+                if not display_date:
+                    display_date = extract_date_from_speaker(raw_speaker)
+
+                source_entry = {
+                    "speaker": format_display_name(raw_speaker),
+                    "date": display_date,
+                    "event": meta.get("event", "") or "",
+                    "topic": meta.get("topic", "") or "",
+                    "type": meta.get("type", "") or "transcript",
+                    "source_type": "transcript",
+                    "source": clean_source_name(meta.get("source", "") or ""),
+                }
+                video_url = meta.get("video_url", "") or ""
+                if video_url:
+                    source_entry["video_url"] = format_video_url(video_url)
+                enriched_sources.append(source_entry)
+
+        except Exception as enrich_err:
+            import traceback
+            print(
+                f"[ask:enrich] skipping bad source meta={doc.metadata!r} "
+                f"err={type(enrich_err).__name__}: {enrich_err}\n"
+                f"{traceback.format_exc()}",
+                flush=True,
+            )
+            continue
 
     # Boost confidence when Claude gave a substantive answer with sources.
     # Raw embedding similarity often underestimates relevance (0.3-0.5 range
