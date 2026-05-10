@@ -2277,6 +2277,39 @@ if videos_module.is_enabled():
         except Exception as e:
             return jsonify({"error": str(e)}), 500
 
+    # Server-to-server bulk re-ingest of all videos into ChromaDB. Same
+    # auth pattern as the transcribe trigger above — shared secret in
+    # `X-MDS-Admin-Secret`. Used to backfill the search index for videos
+    # that were already transcribed before the auto-ingest hook landed
+    # (commit 65144b3) — without this, /api/ask never returns video
+    # sources for those videos because their chunks aren't in ChromaDB.
+    #
+    # Body: optional `{"force": true}` to re-add videos whose chunks
+    # already exist in the index. Default false.
+    #
+    # Long-running: holds the request open while ingesting (typically
+    # 30-90s for ~15 videos). Returns the chunk count when done.
+    @app.route("/api/internal/reingest-videos", methods=["POST"])
+    def internal_reingest_videos():
+        expected = os.getenv("MDS_ADMIN_INTERNAL_SECRET", "")
+        received = request.headers.get("X-MDS-Admin-Secret", "")
+        if not expected or expected != received:
+            return jsonify({"error": "Unauthorized"}), 401
+        body = request.get_json(silent=True) or {}
+        force = bool(body.get("force", False))
+        try:
+            from ingest import ingest_videos
+            count = ingest_videos(force=force)
+            return jsonify({"ok": True, "chunks_added": count, "force": force})
+        except Exception as e:
+            import traceback
+            print(
+                f"[internal_reingest_videos] {type(e).__name__}: {e}\n"
+                f"{traceback.format_exc()}",
+                flush=True,
+            )
+            return jsonify({"error": f"{type(e).__name__}: {e}"}), 500
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
