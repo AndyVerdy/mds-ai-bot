@@ -90,6 +90,32 @@ def _supabase_get(path: str, params: Optional[dict] = None) -> list[dict]:
     return body if isinstance(body, list) else [body]
 
 
+def _supabase_upsert(
+    path: str,
+    rows: list[dict],
+    on_conflict: Optional[str] = None,
+) -> list[dict]:
+    """POST + Prefer: resolution=merge-duplicates against PostgREST. Used by
+    upsert_progress to write the (user_id, video_id) composite-key row.
+    Returns the upserted rows (representation header).
+    """
+    url = f"{_supabase_base()}/rest/v1/{path.lstrip('/')}"
+    key = _supabase_key()
+    headers = {
+        "apikey": key,
+        "Authorization": f"Bearer {key}",
+        "Content-Type": "application/json",
+        "Prefer": "resolution=merge-duplicates,return=representation",
+    }
+    params: dict = {}
+    if on_conflict:
+        params["on_conflict"] = on_conflict
+    r = requests.post(url, headers=headers, json=rows, params=params, timeout=10)
+    r.raise_for_status()
+    body = r.json()
+    return body if isinstance(body, list) else [body]
+
+
 # ============================================================================
 # User → org resolution (cached briefly)
 # ============================================================================
@@ -171,12 +197,106 @@ def _thumbnail_url(playback_id: Optional[str], time_sec: int = 5) -> Optional[st
 
 
 # ============================================================================
+# Watch-progress helpers (M11 — resume-from-last-position + Continue Watching)
+# ============================================================================
+# `user_video_progress` is the per-user, per-video position table. iOS pings
+# every ~10s during continuous playback + on pause / seek / background. The
+# read-back path enriches both list + detail responses.
+
+# Once a user has watched within this fraction of the video's duration we
+# mark `watched_to_end=TRUE`. Continue Watching filters those out so the
+# rail doesn't fill with finished videos. Mirrors YouTube's ~95% threshold.
+_WATCHED_END_THRESHOLD = 0.95
+
+
+def _fetch_progress_map(user_id: str, video_ids: list[str]) -> dict[str, dict]:
+    """Bulk-fetch `(video_id, {last_position_sec, watched_to_end, ...})` for
+    the videos in `video_ids`, scoped to `user_id`. Empty when the user
+    hasn't watched anything yet — list endpoint then renders no progress
+    bars, which is correct.
+    """
+    if not video_ids:
+        return {}
+    # PostgREST `in.()` filter with comma-separated list. Quote nothing
+    # because all our IDs are UUIDs (no commas, no special chars).
+    in_list = ",".join(video_ids)
+    rows = _supabase_get(
+        "user_video_progress",
+        params={
+            "user_id": f"eq.{user_id}",
+            "video_id": f"in.({in_list})",
+            "select": "video_id,last_position_sec,duration_sec,watched_to_end,updated_at",
+        },
+    )
+    return {r["video_id"]: r for r in rows}
+
+
+def _fetch_progress_one(user_id: str, video_id: str) -> Optional[dict]:
+    """Single-video progress row for the detail endpoint. Returns None when
+    the user hasn't watched this video yet — caller seeds with zero."""
+    rows = _supabase_get(
+        "user_video_progress",
+        params={
+            "user_id": f"eq.{user_id}",
+            "video_id": f"eq.{video_id}",
+            "select": "video_id,last_position_sec,duration_sec,watched_to_end,updated_at",
+            "limit": "1",
+        },
+    )
+    return rows[0] if rows else None
+
+
+def _upsert_progress(
+    user_id: str,
+    video_id: str,
+    position_sec: int,
+    duration_sec: Optional[int],
+) -> dict:
+    """Idempotent upsert keyed on (user_id, video_id). Computes
+    `watched_to_end` from the position/duration ratio.
+
+    `updated_at` is sent as an explicit ISO timestamp because PostgREST's
+    merge-duplicates path runs an UPDATE for existing rows, and column
+    defaults (DEFAULT NOW()) only fire on INSERT — without sending it,
+    the original insert time would stick and Continue Watching would sort
+    wrong. iOS doesn't tell us the moment; we use the server clock which
+    is fine since this is "last seen activity" not "user wall-clock time".
+    """
+    from datetime import datetime, timezone
+    pos = max(0, int(position_sec))
+    dur = int(duration_sec) if duration_sec and duration_sec > 0 else None
+    watched_to_end = bool(dur and pos >= int(dur * _WATCHED_END_THRESHOLD))
+    rows = _supabase_upsert(
+        "user_video_progress",
+        rows=[{
+            "user_id": user_id,
+            "video_id": video_id,
+            "last_position_sec": pos,
+            "duration_sec": dur,
+            "watched_to_end": watched_to_end,
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+        }],
+        on_conflict="user_id,video_id",
+    )
+    return rows[0] if rows else {}
+
+
+# ============================================================================
 # Serializers
 # ============================================================================
-def _serialize_list_row(v: dict) -> dict:
+def _serialize_list_row(v: dict, progress: Optional[dict] = None) -> dict:
     """Compact shape for the videos list endpoint — just what the iOS grid
-    needs to render each card. Detail endpoint adds more."""
+    needs to render each card. Detail endpoint adds more.
+
+    `progress` is the (optional) row from `user_video_progress` for the
+    caller. When present, surfaces `last_position_sec` + `watched_to_end`
+    so the card's progress bar + "Continue watching" filter render from
+    real data (replaces the V1 hash-based stub on iOS — see
+    `VideoStubMetadata` retirement on the iOS side).
+    """
     pid = v.get("mux_playback_id")
+    last_pos = int(progress["last_position_sec"]) if progress and progress.get("last_position_sec") is not None else 0
+    watched = bool(progress.get("watched_to_end")) if progress else False
     return {
         "id": v["id"],
         "title": v["title"],
@@ -184,12 +304,16 @@ def _serialize_list_row(v: dict) -> dict:
         "thumbnail_url": v.get("thumbnail_url") or _thumbnail_url(pid),
         "recorded_at": v.get("recorded_at"),
         "uploaded_at": v.get("uploaded_at"),
+        "last_position_sec": last_pos,
+        "watched_to_end": watched,
     }
 
 
-def _serialize_detail(v: dict) -> dict:
+def _serialize_detail(v: dict, progress: Optional[dict] = None) -> dict:
     public_pid = v.get("mux_playback_id")
     signed_pid = v.get("mux_signed_playback_id")
+    last_pos = int(progress["last_position_sec"]) if progress and progress.get("last_position_sec") is not None else 0
+    watched = bool(progress.get("watched_to_end")) if progress else False
     return {
         "id": v["id"],
         "title": v["title"],
@@ -211,6 +335,11 @@ def _serialize_detail(v: dict) -> dict:
         "visibility": v.get("visibility"),
         "recorded_at": v.get("recorded_at"),
         "uploaded_at": v.get("uploaded_at"),
+        # M11 watch-progress fields. `VideoPresentationState.loadCurrent`
+        # reads `last_position_sec` and queues a seek before play, so the
+        # player resumes at the saved position instead of the head.
+        "last_position_sec": last_pos,
+        "watched_to_end": watched,
     }
 
 
@@ -257,7 +386,14 @@ def register_video_routes(app, require_auth):
             },
         )
 
-        return jsonify({"videos": [_serialize_list_row(r) for r in rows]})
+        # Bulk-fetch the caller's progress for the videos in this page so
+        # cards can render real progress bars + "Continue watching" filter
+        # from real data. One round-trip regardless of page size.
+        progress_map = _fetch_progress_map(_user_id, [r["id"] for r in rows])
+
+        return jsonify({
+            "videos": [_serialize_list_row(r, progress_map.get(r["id"])) for r in rows]
+        })
 
     @app.route("/api/videos/<video_id>/transcript", methods=["GET"])
     @require_auth
@@ -358,4 +494,76 @@ def register_video_routes(app, require_auth):
         if v.get("mux_status") != "ready":
             return jsonify({"error": "Video not ready"}), 409
 
-        return jsonify(_serialize_detail(v))
+        progress = _fetch_progress_one(_user_id, video_id)
+        return jsonify(_serialize_detail(v, progress))
+
+    @app.route("/api/videos/<video_id>/progress", methods=["POST"])
+    @require_auth
+    def post_video_progress(video_id: str):
+        """Record the caller's last-watched position for `video_id`.
+
+        Body: `{position_sec: int, duration_sec?: int}`. iOS calls this on
+        a periodic timer (~10s) plus on pause / seek / backgrounding. The
+        upsert is keyed on (user_id, video_id) so repeated calls overwrite.
+
+        Returns the full row shape so the client can refresh its in-memory
+        model without an extra GET.
+        """
+        email = getattr(request, "user_email", None)
+        if not email:
+            return jsonify({"error": "Authentication required"}), 401
+
+        resolved = _resolve_user_org(email)
+        if not resolved:
+            return jsonify({"error": "Not found"}), 404
+        user_id, org_id = resolved
+
+        # Confirm the video is in this org + readable. Same access logic as
+        # get_video — protect against a forged video_id from leaking write
+        # access to another org's row (the (user_id, video_id) PK on the
+        # progress table doesn't enforce org membership).
+        vrows = _supabase_get(
+            "videos",
+            params={
+                "id": f"eq.{video_id}",
+                "organization_id": f"eq.{org_id}",
+                "deleted_at": "is.null",
+                "select": "id,visibility,duration_sec",
+                "limit": "1",
+            },
+        )
+        if not vrows:
+            return jsonify({"error": "Not found"}), 404
+        vrow = vrows[0]
+        if vrow.get("visibility") == "private":
+            return jsonify({"error": "Not found"}), 404
+
+        body = request.get_json(silent=True) or {}
+        try:
+            position_sec = int(body.get("position_sec", 0))
+        except (TypeError, ValueError):
+            return jsonify({"error": "position_sec must be an integer"}), 400
+        # iOS sends duration when it knows; fall back to the stored duration
+        # so `watched_to_end` can still be computed for old clients.
+        duration_sec = body.get("duration_sec")
+        if duration_sec is None:
+            duration_sec = vrow.get("duration_sec")
+        try:
+            duration_sec_int = int(duration_sec) if duration_sec is not None else None
+        except (TypeError, ValueError):
+            duration_sec_int = vrow.get("duration_sec")
+
+        try:
+            row = _upsert_progress(user_id, video_id, position_sec, duration_sec_int)
+        except Exception as e:
+            import traceback
+            print(f"[post_video_progress] {type(e).__name__}: {e}\n{traceback.format_exc()}", flush=True)
+            return jsonify({"error": f"{type(e).__name__}: {e}"}), 500
+
+        return jsonify({
+            "video_id": video_id,
+            "last_position_sec": int(row.get("last_position_sec") or position_sec),
+            "duration_sec": row.get("duration_sec"),
+            "watched_to_end": bool(row.get("watched_to_end")),
+            "updated_at": row.get("updated_at"),
+        })
