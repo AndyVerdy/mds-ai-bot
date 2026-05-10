@@ -834,6 +834,72 @@ def _build_video_doc(video: dict, segs: list[dict], chapter: str):
     return Document(page_content=page_content, metadata=metadata)
 
 
+def ingest_videos_from_json(json_path: str = "data/video_segments_baked.json") -> int:
+    """Build-time-friendly ingest: reads pre-fetched video metadata +
+    transcript segments from a JSON file checked into the repo, chunks
+    them with the same `make_video_documents` logic, embeds, and writes
+    to ChromaDB.
+
+    Why: the runtime path (`ingest_videos`) needs SUPABASE_SERVICE_ROLE_KEY
+    visible at docker-build time. Forwarding service env vars to build
+    args via Render is fragile (silent failure, hard to debug build
+    logs from the dashboard). The JSON path is reproducible, observable,
+    and doesn't depend on any runtime state.
+
+    The JSON is regenerated periodically by an admin tool (or by the
+    auto-ingest hook for new uploads — those go through Postgres at
+    runtime, separate from this build-time bake).
+
+    Returns the number of chunks added.
+    """
+    if not os.path.exists(json_path):
+        console.print(
+            f"[yellow]ingest_videos_from_json: {json_path} missing — skipping[/yellow]"
+        )
+        return 0
+    with open(json_path) as f:
+        videos = json.load(f)
+    if not videos:
+        console.print("[yellow]ingest_videos_from_json: empty JSON[/yellow]")
+        return 0
+    console.print(f"Loading {len(videos)} videos from {json_path}")
+    all_chunks: list[Document] = []
+    for v in videos:
+        segs = v.get("segments") or []
+        if not segs:
+            console.print(
+                f"[yellow]Video {v['id'][:8]} ({v.get('title', '?')}): no segments[/yellow]"
+            )
+            continue
+        chunks = make_video_documents(v, segs)
+        title_short = (v.get("title") or "")[:40]
+        console.print(
+            f"Video {v['id'][:8]} ({title_short}): {len(segs)} segments → {len(chunks)} chunks"
+        )
+        all_chunks.extend(chunks)
+    if not all_chunks:
+        console.print("[yellow]No video chunks to ingest from JSON.[/yellow]")
+        return 0
+    console.print(
+        f"Embedding and indexing {len(all_chunks)} video chunks (local model)..."
+    )
+    vectorstore = Chroma(
+        collection_name=config.COLLECTION_NAME,
+        persist_directory=str(config.VECTORSTORE_DIR),
+    )
+    batch_size = 100
+    with Progress() as progress:
+        task = progress.add_task("Indexing video chunks...", total=len(all_chunks))
+        for i in range(0, len(all_chunks), batch_size):
+            batch = all_chunks[i : i + batch_size]
+            vectorstore.add_documents(batch)
+            progress.update(task, advance=len(batch))
+    console.print(
+        f"[green]Indexed {len(all_chunks)} video chunks from JSON into vector store.[/green]"
+    )
+    return len(all_chunks)
+
+
 def ingest_videos_for(video_id: str) -> int:
     """Ingest exactly one video's transcript into ChromaDB. Called from
     the AssemblyAI webhook completion handler so newly-transcribed videos

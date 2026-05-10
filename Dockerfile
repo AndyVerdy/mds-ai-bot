@@ -34,34 +34,38 @@ ENV AIRTABLE_PAT=${AIRTABLE_PAT}
 RUN python3 -c "import os; print('[BUILD] AIRTABLE_PAT visible during build:', bool(os.getenv('AIRTABLE_PAT')))"
 RUN python3 -c "from ingest import ingest_whatsapp; ingest_whatsapp()"
 
-# Step 3: MDS Video Library transcripts pulled from Postgres
-# `transcript_segments` (joined per-video). Same pattern as WA — service
-# env vars must be ARG-declared to be visible at build time. The
-# `videos.py` module reads SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY.
+# Step 3: MDS Video Library transcripts.
 #
-# Why bake this at build time instead of running it on first request:
+# Source: `data/video_segments_baked.json` — a snapshot of every
+# `videos` row + its `transcript_segments` from Postgres. Regenerated
+# periodically (manually or by an admin tool) by querying Supabase
+# directly and dumping the result. The JSON is checked into git.
+#
+# Why JSON instead of pulling from Postgres at build time:
+# Render auto-forwards service env vars to docker build args ONLY
+# when explicitly declared as ARG. For SUPABASE_SERVICE_ROLE_KEY this
+# was failing silently — build container couldn't reach the DB, the
+# `|| true` swallowed the error, and image deployed with 0 video
+# chunks indexed. Switching to a checked-in JSON eliminates the
+# build-time env-var dependency entirely; build is now reproducible
+# from the repo state alone.
+#
+# Why bake at build time at all:
 # (a) Render Starter (512MB) can't load the embedding model AND embed
 #     ~400 chunks while serving /api/health within gunicorn's 120s
 #     timeout — the worker dies and the chunks never commit. Verified
 #     2026-05-10 with two separate failures (Render Shell nohup and a
 #     web-process daemon thread, both silent OOM kills).
-# (b) Every deploy rebuilds the ChromaDB-backed image fresh anyway —
-#     so chunks live in the image, not in a runtime mount.
+# (b) Every deploy rebuilds the ChromaDB-backed image fresh — chunks
+#     live in the image, not in a runtime mount.
 # (c) Build containers have looser memory limits than runtime workers.
 #
 # New videos uploaded BETWEEN deploys still flow in via the auto-ingest
 # hook in transcripts.handle_webhook (commit 65144b3) — that runs in
 # the worker but only embeds one video's worth of chunks at a time, so
-# memory pressure stays low.
-ARG SUPABASE_URL
-ARG SUPABASE_SERVICE_ROLE_KEY
-ENV SUPABASE_URL=${SUPABASE_URL}
-ENV SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
-RUN python3 -c "import os; print('[BUILD] SUPABASE_SERVICE_ROLE_KEY visible during build:', bool(os.getenv('SUPABASE_SERVICE_ROLE_KEY')))"
-# `|| true` so the build doesn't fail if the videos table is empty
-# (e.g. brand-new deployment without uploads). On subsequent deploys
-# with content, the chunks bake in.
-RUN python3 -c "from ingest import ingest_videos; ingest_videos()" || true
+# memory pressure stays low. To make those new uploads survive a deploy
+# rebuild, regenerate `data/video_segments_baked.json` and commit it.
+RUN python3 -c "from ingest import ingest_videos_from_json; print('[BUILD] video chunks added from JSON:', ingest_videos_from_json())"
 
 # Copy the rest of the application code. This layer is invalidated by
 # any *.py change but every layer above is cached, so the build skips
