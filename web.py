@@ -36,6 +36,103 @@ AIRTABLE_DEVICES_TABLE = "iOS Devices"
 
 
 # ============================================================
+# Background re-ingest state (used by /api/internal/reingest-videos)
+# ============================================================
+# Single in-process state dict guarded by a lock. The reingest worker
+# runs in a daemon thread on the web worker process so it reuses the
+# embedding model that's already warm from /api/ask. A separate Render
+# Shell python process loads a SECOND copy of the model and OOM-kills
+# itself on a memory-tight plan tier (verified 2026-05-10 — the shell
+# log ended at "Embedding and indexing 386 video chunks" with no
+# completion line and indexed_count remained 0).
+import threading
+
+_reingest_lock = threading.Lock()
+_reingest_state: dict = {
+    "running": False,
+    "started_at": None,         # epoch seconds
+    "finished_at": None,        # epoch seconds
+    "processed_videos": 0,
+    "total_videos": 0,
+    "chunks_added": 0,
+    "errors": [],               # list of "<video_id>: <ErrorType>: <msg>"
+    "current_video": None,      # which video_id is being processed right now
+}
+
+
+def _reingest_snapshot_unlocked() -> dict:
+    """Return a JSON-safe copy of the state. Caller holds the lock."""
+    return {
+        "running": _reingest_state["running"],
+        "started_at": _reingest_state["started_at"],
+        "finished_at": _reingest_state["finished_at"],
+        "processed_videos": _reingest_state["processed_videos"],
+        "total_videos": _reingest_state["total_videos"],
+        "chunks_added": _reingest_state["chunks_added"],
+        "errors": list(_reingest_state["errors"]),
+        "current_video": _reingest_state["current_video"],
+    }
+
+
+def _run_reingest_in_background(video_id: Optional[str], force: bool):
+    """Worker target for the reingest thread. Iterates pending videos
+    (or just one if video_id is set), calls ingest.ingest_videos_for
+    per video so each call's memory footprint is small + the embedding
+    model singleton stays loaded across iterations."""
+    try:
+        from ingest import ingest_videos_for
+        from videos import _supabase_get
+        if video_id:
+            target_ids = [video_id]
+        else:
+            rows = _supabase_get(
+                "videos",
+                {
+                    "transcription_status": "eq.ready",
+                    "deleted_at": "is.null",
+                    "select": "id,title",
+                    "order": "uploaded_at.desc",
+                },
+            )
+            target_ids = [r["id"] for r in rows]
+
+        with _reingest_lock:
+            _reingest_state["total_videos"] = len(target_ids)
+
+        for vid in target_ids:
+            with _reingest_lock:
+                _reingest_state["current_video"] = vid
+            try:
+                count = ingest_videos_for(video_id=vid)
+                with _reingest_lock:
+                    _reingest_state["processed_videos"] += 1
+                    _reingest_state["chunks_added"] += int(count or 0)
+            except Exception as e:
+                import traceback
+                tb = traceback.format_exc()
+                print(
+                    f"[reingest] video={vid} {type(e).__name__}: {e}\n{tb}",
+                    flush=True,
+                )
+                with _reingest_lock:
+                    _reingest_state["errors"].append(
+                        f"{vid}: {type(e).__name__}: {e}"
+                    )
+                    _reingest_state["processed_videos"] += 1
+    except Exception as e:
+        import traceback
+        tb = traceback.format_exc()
+        print(f"[reingest] outer {type(e).__name__}: {e}\n{tb}", flush=True)
+        with _reingest_lock:
+            _reingest_state["errors"].append(f"outer: {type(e).__name__}: {e}")
+    finally:
+        with _reingest_lock:
+            _reingest_state["running"] = False
+            _reingest_state["finished_at"] = time.time()
+            _reingest_state["current_video"] = None
+
+
+# ============================================================
 # Push-name -> full-name enrichment
 # ============================================================
 # Digest tl_dr / summary text comes from n8n's Claude pipeline, which only
@@ -2277,49 +2374,69 @@ if videos_module.is_enabled():
         except Exception as e:
             return jsonify({"error": str(e)}), 500
 
-    # Server-to-server re-ingest of videos into ChromaDB. Same auth pattern
-    # as the transcribe trigger above — shared secret in `X-MDS-Admin-Secret`.
-    # Used to backfill the search index for videos that were already
-    # transcribed before the auto-ingest hook landed (commit 65144b3) —
-    # without this, /api/ask never returns video sources for those videos
-    # because their chunks aren't in ChromaDB.
+    # Server-to-server re-ingest of videos into ChromaDB.
     #
-    # Body:
-    #   {"video_id": "<uuid>"}  → ingest just that one video (single-video
-    #                             path; small payload, no worker crash)
-    #   {}                      → ingest ALL videos (bulk; uses Render
-    #                             worker for ~2-5 min, can crash on
-    #                             memory-tight plans). Prefer single-video
-    #                             iteration from the caller side.
+    # IMPORTANT: runs in a background thread on the web worker process so:
+    #   - the request returns in milliseconds (no Render request-timeout 502)
+    #   - we reuse the embedding model that's already warm from /api/ask
+    #     calls (a fresh Render Shell python process loaded a SECOND copy
+    #     of the model and OOM-killed itself silently — see
+    #     mds-verify-after-ship `tail -50 /tmp/reingest.log` finding,
+    #     2026-05-10).
+    #
+    # Body: {"force": true} (default false), optional {"video_id": "<uuid>"}
+    # for single-video. Returns 202 with a kickoff confirmation; poll
+    # `GET /api/internal/reingest-videos/status` for progress.
     @app.route("/api/internal/reingest-videos", methods=["POST"])
     def internal_reingest_videos():
         expected = os.getenv("MDS_ADMIN_INTERNAL_SECRET", "")
         received = request.headers.get("X-MDS-Admin-Secret", "")
         if not expected or expected != received:
             return jsonify({"error": "Unauthorized"}), 401
-        body = request.get_json(silent=True) or {}
-        video_id = (body.get("video_id") or "").strip()
-        force = bool(body.get("force", False))
-        try:
-            if video_id:
-                from ingest import ingest_videos_for
-                count = ingest_videos_for(video_id=video_id)
+
+        with _reingest_lock:
+            if _reingest_state["running"]:
                 return jsonify({
-                    "ok": True,
-                    "video_id": video_id,
-                    "chunks_added": count,
-                })
-            from ingest import ingest_videos
-            count = ingest_videos(force=force)
-            return jsonify({"ok": True, "chunks_added": count, "force": force})
-        except Exception as e:
-            import traceback
-            print(
-                f"[internal_reingest_videos] {type(e).__name__}: {e}\n"
-                f"{traceback.format_exc()}",
-                flush=True,
-            )
-            return jsonify({"error": f"{type(e).__name__}: {e}"}), 500
+                    "error": "ingest already in progress",
+                    "state": _reingest_snapshot_unlocked(),
+                }), 409
+
+        body = request.get_json(silent=True) or {}
+        video_id = (body.get("video_id") or "").strip() or None
+        force = bool(body.get("force", False))
+
+        with _reingest_lock:
+            _reingest_state.update({
+                "running": True,
+                "started_at": time.time(),
+                "finished_at": None,
+                "processed_videos": 0,
+                "total_videos": 0,
+                "chunks_added": 0,
+                "errors": [],
+                "current_video": None,
+            })
+
+        import threading
+        t = threading.Thread(
+            target=_run_reingest_in_background,
+            kwargs={"video_id": video_id, "force": force},
+            daemon=True,
+        )
+        t.start()
+
+        return jsonify({"started": True, "video_id": video_id, "force": force}), 202
+
+    # Status sibling — poll this every ~10s while the worker thread is
+    # running. `running=False` + `finished_at` set means done.
+    @app.route("/api/internal/reingest-videos/status", methods=["GET"])
+    def internal_reingest_status():
+        expected = os.getenv("MDS_ADMIN_INTERNAL_SECRET", "")
+        received = request.headers.get("X-MDS-Admin-Secret", "")
+        if not expected or expected != received:
+            return jsonify({"error": "Unauthorized"}), 401
+        with _reingest_lock:
+            return jsonify(_reingest_snapshot_unlocked())
 
     # GET sibling — list video_ids that have transcripts in Postgres but
     # whose chunks aren't yet in ChromaDB. Caller iterates this list and
