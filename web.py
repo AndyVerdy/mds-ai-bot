@@ -1140,7 +1140,22 @@ def api_ask():
     # Track the search query
     track_search(question)
 
-    result = ask(question)
+    # Wrap ask() so any uncaught exception logs a full traceback to the
+    # Render runtime log AND returns a structured 500 to the client. Without
+    # this, an exception bubbles up to Flask's default handler and we get an
+    # opaque "server returned 500" on the client with no breadcrumb.
+    try:
+        result = ask(question)
+    except Exception as e:
+        import traceback
+        tb = traceback.format_exc()
+        print(f"[api_ask] question={question!r}\n{tb}", flush=True)
+        return jsonify({
+            "error": "ask_failed",
+            "type": type(e).__name__,
+            "message": str(e),
+        }), 500
+
     return jsonify({
         "answer": result["answer"],
         "sources": result["sources"],
